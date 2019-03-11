@@ -28,8 +28,8 @@ public class FizzBuzzCuckooClock
         }
 
         return clock.getMinute() % 30 == 0 ? "Cuckoo" :
-                clock.getMinute() % 15 == 0 ? "Fizz Buzz" :
-                        clock.getMinute() % 3 == 0 ? "Fizz" :
-                                clock.getMinute() % 5 == 0 ? "Buzz" : "tick";
+               clock.getMinute() % 15 == 0 ? "Fizz Buzz" :
+               clock.getMinute() % 3 == 0 ? "Fizz" :
+               clock.getMinute() % 5 == 0 ? "Buzz" : "tick";
     }
 }
