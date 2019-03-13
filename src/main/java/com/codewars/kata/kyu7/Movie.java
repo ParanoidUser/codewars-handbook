@@ -7,7 +7,7 @@ public class Movie
 {
     public static int kata(int card, int ticket, double perc)
     {
-        int times = 1;
+        int times = card / ticket;
         while(++times * ticket <= Math.ceil(card + ticket * ((1 - Math.pow(perc, times + 1)) / (1 - perc) - 1)));
         return times;
     }
