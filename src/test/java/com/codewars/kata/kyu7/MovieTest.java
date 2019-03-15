@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class MovieTest
 {
     @Test
-    void should()
+    void sample()
     {
         assertEquals(43, Movie.kata(500, 15, 0.9));
         assertEquals(24, Movie.kata(100, 10, 0.95));

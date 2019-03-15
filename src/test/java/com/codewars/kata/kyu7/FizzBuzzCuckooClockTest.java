@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FizzBuzzCuckooClockTest
 {
     @Test
-    void SomeBasicTimesTests()
+    void sample()
     {
         assertEquals("tick", FizzBuzzCuckooClock.kata("13:34"));
         assertEquals("Cuckoo Cuckoo Cuckoo Cuckoo Cuckoo Cuckoo Cuckoo Cuckoo Cuckoo", FizzBuzzCuckooClock.kata("21:00"));

@@ -9,9 +9,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class PeopleInBusTest
 {
     @Test
-    void test1()
+    void sample()
     {
-        ArrayList<int[]> list = new ArrayList<>();
+        var list = new ArrayList<int[]>();
         list.add(new int[]{ 10, 0 });
         list.add(new int[]{ 3, 5 });
         list.add(new int[]{ 2, 5 });

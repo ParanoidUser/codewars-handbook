@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class HighestAndLowestTest
 {
     @Test
-    void Test1()
+    void sample()
     {
         assertEquals("42 -9", HighestAndLowest.kata("8 3 -5 42 -1 0 0 -9 4 7 4 -4"));
     }

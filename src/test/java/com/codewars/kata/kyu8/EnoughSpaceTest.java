@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class EnoughSpaceTest
 {
     @Test
-    void should()
+    void sample()
     {
         assertEquals(0, EnoughSpace.kata(10, 5, 5));
         assertEquals(10, EnoughSpace.kata(100, 60, 50));

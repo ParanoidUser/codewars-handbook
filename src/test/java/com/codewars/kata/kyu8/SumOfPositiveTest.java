@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class SumOfPositiveTest
 {
     @Test
-    void testSomething()
+    void sample()
     {
         assertEquals(15, SumOfPositive.kata(new int[]{ 1, 2, 3, 4, 5 }));
         assertEquals(13, SumOfPositive.kata(new int[]{ 1, -2, 3, 4, 5 }));

@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CountingSheepTest
 {
     @Test
-    void should()
+    void sample()
     {
         assertEquals("1 sheep...", CountingSheep.kata(1));
         assertEquals("1 sheep...2 sheep...", CountingSheep.kata(2));

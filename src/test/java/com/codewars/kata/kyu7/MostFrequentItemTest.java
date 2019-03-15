@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class MostFrequentItemTest
 {
     @Test
-    void tests()
+    void sample()
     {
         assertEquals(0, MostFrequentItem.kata(new int[]{}));
         assertEquals(2, MostFrequentItem.kata(new int[]{ 3, -1, -1 }));

@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class AlarmTest
 {
     @Test
-    void should()
+    void sample()
     {
         assertFalse(Alarm.kata(true, true));
         assertFalse(Alarm.kata(false, true));

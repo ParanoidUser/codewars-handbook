@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class VowelsTest
 {
     @Test
-    void testCase1()
+    void sample()
     {
         assertEquals(5, Vowels.kata("abracadabra"));
     }

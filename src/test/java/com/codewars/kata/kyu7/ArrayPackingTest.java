@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ArrayPackingTest
 {
     @Test
-    void exampleTests()
+    void sample()
     {
         assertEquals(21784, ArrayPacking.kata(new int[]{ 24, 85, 0 }));
         assertEquals(2567447, ArrayPacking.kata(new int[]{ 23, 45, 39 }));

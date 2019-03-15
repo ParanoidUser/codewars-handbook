@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class TriangleTesterTest
 {
     @Test
-    void publicTests()
+    void sample()
     {
         assertTrue(TriangleTester.kata(1, 2, 2));
         assertFalse(TriangleTester.kata(7, 2, 2));

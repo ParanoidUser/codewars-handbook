@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AbbreviateTwoWordsTest
 {
     @Test
-    void testFixed()
+    void sample()
     {
         assertEquals("S.H", AbbreviateTwoWords.kata("Sam Harris"));
         assertEquals("P.F", AbbreviateTwoWords.kata("Patrick Feenan"));

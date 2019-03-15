@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class GrassHopperTest
 {
     @Test
-    void should()
+    void sample()
     {
         assertEquals(3, GrassHopper.kata(2));
         assertEquals(36, GrassHopper.kata(8));
