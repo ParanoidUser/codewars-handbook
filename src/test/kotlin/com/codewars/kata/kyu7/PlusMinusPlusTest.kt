@@ -7,7 +7,7 @@ import kotlin.test.assertEquals
 class PlusMinusPlusTest {
 
     @Test
-    fun test() {
+    fun sample() {
         assertEquals(0, catchSignChange(arrayOf(1, 3, 4, 5)))
         assertEquals(0, catchSignChange(arrayOf()))
         assertEquals(2, catchSignChange(arrayOf(1, -3, -4, 0, 5)))

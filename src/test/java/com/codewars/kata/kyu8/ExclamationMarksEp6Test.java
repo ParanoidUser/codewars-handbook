@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ExclamationMarksEp6Test
 {
     @Test
-    void should()
+    void sample()
     {
         assertEquals("Hi", ExclamationMarksEp6.kata("Hi!", 1));
         assertEquals("Hi", ExclamationMarksEp6.kata("Hi!", 1));

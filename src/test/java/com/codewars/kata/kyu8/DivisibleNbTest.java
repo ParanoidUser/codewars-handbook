@@ -8,14 +8,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class DivisibleNbTest
 {
     @Test
-    void test1()
+    void sample()
     {
         assertTrue(DivisibleNb.kata(12, 4, 3));
-    }
-
-    @Test
-    void test2()
-    {
         assertFalse(DivisibleNb.kata(3, 3, 4));
     }
 }

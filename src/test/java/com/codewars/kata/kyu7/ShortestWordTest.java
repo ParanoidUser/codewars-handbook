@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ShortestWordTest
 {
     @Test
-    void findShort()
+    void sample()
     {
         assertEquals(3, ShortestWord.kata("bitcoin take over the world maybe who knows perhaps"));
         assertEquals(3, ShortestWord.kata("turns out random test cases are easier than writing out basic ones"));

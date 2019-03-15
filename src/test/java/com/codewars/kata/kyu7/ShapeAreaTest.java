@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ShapeAreaTest
 {
     @Test
-    void tests()
+    void sample()
     {
         assertEquals(1, ShapeArea.kata(1));
         assertEquals(5, ShapeArea.kata(2));

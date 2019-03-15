@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RepeaterTest
 {
     @Test
-    void testSomething()
+    void sample()
     {
         assertEquals("aaaaa", Repeater.kata("a", 5));
         assertEquals("NaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNa", Repeater.kata("Na", 16));

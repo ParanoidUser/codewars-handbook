@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class FeastTest
 {
     @Test
-    void fixedTest()
+    void sample()
     {
         assertTrue(Feast.kata("great blue heron", "garlic nann"));
         assertTrue(Feast.kata("chickadee", "chocolate cake"));

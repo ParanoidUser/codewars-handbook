@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BanjoTest
 {
     @Test
-    void peopleThatPlayBanjo()
+    void sample()
     {
         assertEquals("Martin does not play banjo", Banjo.kata("Martin"));
         assertEquals("Rikke plays banjo", Banjo.kata("Rikke"));

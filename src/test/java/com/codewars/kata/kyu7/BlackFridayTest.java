@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BlackFridayTest
 {
     @Test
-    void should()
+    void sample()
     {
         assertEquals(3, BlackFriday.kata(2015));
         assertEquals(1, BlackFriday.kata(1986));

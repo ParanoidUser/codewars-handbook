@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class OnesAndZerosTest
 {
     @Test
-    void convertBinaryArrayToInt()
+    void sample()
     {
         assertEquals(1, OnesAndZeros.kata(new ArrayList<>(Arrays.asList(0, 0, 0, 1))));
         assertEquals(15, OnesAndZeros.kata(new ArrayList<>(Arrays.asList(1, 1, 1, 1))));
