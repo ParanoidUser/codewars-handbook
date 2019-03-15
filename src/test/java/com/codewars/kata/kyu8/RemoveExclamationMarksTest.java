@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RemoveExclamationMarksTest
 {
     @Test
-    void should()
+    void sample()
     {
         assertEquals("Hello World", RemoveExclamationMarks.kata("Hello World!"));
     }

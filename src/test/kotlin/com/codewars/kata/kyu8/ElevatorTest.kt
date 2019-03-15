@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test
 
 class ElevatorTest {
     @Test
-    fun testFixed() {
+    fun sample() {
         assertEquals("left", elevator(0, 1, 0))
         assertEquals("right", elevator(0, 1, 1))
         assertEquals("right", elevator(0, 1, 2))

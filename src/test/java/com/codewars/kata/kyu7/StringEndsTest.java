@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class StringEndsTest
 {
     @Test
-    void testSomething()
+    void sample()
     {
         assertTrue(StringEnds.kata("abc", "bc"));
         assertFalse(StringEnds.kata("abc", "d"));

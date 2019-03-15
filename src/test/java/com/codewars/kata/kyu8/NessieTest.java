@@ -8,14 +8,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class NessieTest
 {
     @Test
-    void testBasicTrue()
+    void sample()
     {
         assertTrue(Nessie.kata("Your girlscout cookies are ready to ship. Your total comes to tree fiddy"));
-    }
-
-    @Test
-    void testBasicFalse()
-    {
         assertFalse(Nessie.kata("Yo, I heard you were on the lookout for Nessie. Let me know if you need assistance."));
     }
 }

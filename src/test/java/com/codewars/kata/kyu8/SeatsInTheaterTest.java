@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class SeatsInTheaterTest
 {
     @Test
-    void exampleTests()
+    void sample()
     {
         assertEquals(96, SeatsInTheater.kata(16, 11, 5, 3));
         assertEquals(0, SeatsInTheater.kata(1, 1, 1, 1));

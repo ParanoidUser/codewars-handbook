@@ -6,9 +6,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PrinterTest
 {
-
     @Test
-    void tests()
+    void sample()
     {
         assertEquals("0/14", Printer.kata("aaabbbbhaijjjm"));
         assertEquals("8/22", Printer.kata("aaaxbbbbyyhwawiwjjjwwm"));

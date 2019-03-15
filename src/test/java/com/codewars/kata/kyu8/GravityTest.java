@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class GravityTest
 {
     @Test
-    void should()
+    void sample()
     {
         double delta = 1e-5;
         var arrVal = new double[]{ 1000, 1000, 100 };

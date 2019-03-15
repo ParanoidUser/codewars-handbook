@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class HelloWorldTest
 {
     @Test
-    void should()
+    void sample()
     {
         assertEquals("hello world!", HelloWorld.kata());
     }

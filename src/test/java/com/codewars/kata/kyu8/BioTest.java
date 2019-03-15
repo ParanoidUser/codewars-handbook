@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BioTest
 {
     @Test
-    void should()
+    void sample()
     {
         assertEquals("GCAU", Bio.kata("GCAT"));
     }
