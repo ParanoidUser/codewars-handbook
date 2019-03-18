@@ -12,5 +12,7 @@ public class MaxSumTest
         assertEquals(24, MaxSum.kata(new int[] { 3, -4, 8, 7, -10, 19, -3 }));
         assertEquals(9, MaxSum.kata(new int[] { 2, -3, -3, 9, -29, 8, -9 }));
         assertEquals(5, MaxSum.kata(new int[] { -8, -10, -12, -2, -3, 5 }));
+        assertEquals(6, MaxSum.kata(new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 }));
+        assertEquals(0, MaxSum.kata(new int[] {}));
     }
 }
