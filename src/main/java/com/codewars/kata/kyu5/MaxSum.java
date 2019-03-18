@@ -2,6 +2,7 @@ package com.codewars.kata.kyu5;
 
 /**
  * @see <a href="https://www.codewars.com/kata/maximum-contiguous-sum">Maximum Contiguous Sum</a>
+ * @see <a href="https://www.codewars.com/kata/maximum-subarray-sum">Maximum subarray sum</a>
  */
 public class MaxSum
 {
