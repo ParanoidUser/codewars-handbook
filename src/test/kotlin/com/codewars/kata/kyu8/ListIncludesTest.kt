@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions.assertFalse
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 
-class ContainsTest {
+class ListIncludesTest {
     @Test
     fun sample() {
         assertTrue(include(intArrayOf(1, 2, 3, 4), 2))
