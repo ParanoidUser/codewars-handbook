@@ -7,14 +7,6 @@ import java.util.Arrays;
  */
 public class Spiralizor
 {
-    public static void main(String[] args)
-    {
-        for (int[] line : kata(10))
-        {
-            System.out.println(Arrays.toString(line));
-        }
-    }
-
     public static int[][] kata(int size)
     {
         int[][] spiral = new int[size][size];
