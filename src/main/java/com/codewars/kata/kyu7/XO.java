@@ -1,7 +1,7 @@
 package com.codewars.kata.kyu7;
 
 /**
- *@see<a href="https://www.codewars.com/kata/exes-and-ohs">Exes and Ohs</a>
+ *@see <a href="https://www.codewars.com/kata/exes-and-ohs">Exes and Ohs</a>
  */
 public class XO
 {
