@@ -13,5 +13,3 @@ public class ChangingLettersTest
         assertEquals("SUndAy", ChangingLetters.kata("Sunday"));
     }
 }
-
-
