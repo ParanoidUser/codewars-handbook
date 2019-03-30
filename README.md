@@ -1,6 +1,8 @@
 # Codewars
 
-[![CodeWars](https://www.codewars.com/users/ParanoidUser/badges/large)](https://www.codewars.com/users/ParanoidUser)
+[![Build](https://img.shields.io/travis/ParanoidUser/codewars.svg)](https://travis-ci.org/ParanoidUser/codewars)
+[![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/ParanoidUser/codewars.svg)](https://snyk.io/test/github/ParanoidUser/codewars)
+[![Maintainability](https://img.shields.io/codeclimate/maintainability/ParanoidUser/codewars.svg)](https://codeclimate.com/github/ParanoidUser/codewars)
+[![License](https://img.shields.io/github/license/ParanoidUser/codewars.svg)](https://opensource.org/licenses/MIT)
 
-[![Build](https://travis-ci.org/ParanoidUser/codewars.svg)](https://travis-ci.org/ParanoidUser/codewars)
-[![Maintainability](https://api.codeclimate.com/v1/badges/fb189a4115945a7f4f80/maintainability)](https://codeclimate.com/github/ParanoidUser/codewars/maintainability)
+[![CodeWars](https://www.codewars.com/users/ParanoidUser/badges/large)](https://www.codewars.com/users/ParanoidUser)
