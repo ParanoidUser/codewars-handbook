@@ -1,4 +1,8 @@
+language: java
+sudo: false
 jdk:
   - openjdk11
-
-language: java
+  - oraclejdk11
+cache:
+  directories:
+    - $HOME/.m2
