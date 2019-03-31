@@ -13,12 +13,6 @@ public class EncryptThisTest
         assertEquals("103doo", EncryptThis.kata("good"));
         assertEquals("104olle 119drlo", EncryptThis.kata("hello world"));
         assertEquals("", EncryptThis.kata(""));
-    }
-
-    @Test
-    void exampleTests()
-    {
-
         assertEquals("65 119esi 111dl 111lw 108dvei 105n 97n 111ka", EncryptThis.kata("A wise old owl lived in an oak"));
         assertEquals("84eh 109ero 104e 115wa 116eh 108sse 104e 115eokp", EncryptThis.kata("The more he saw the less he spoke"));
         assertEquals("84eh 108sse 104e 115eokp 116eh 109ero 104e 104dare", EncryptThis.kata("The less he spoke the more he heard"));

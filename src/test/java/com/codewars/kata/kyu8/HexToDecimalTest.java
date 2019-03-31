@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class HexToDecimalTest
 {
     @Test
-    void samples()
+    void sample()
     {
         assertEquals(1, HexToDecimal.kata("1"));
         assertEquals(10, HexToDecimal.kata("a"));
