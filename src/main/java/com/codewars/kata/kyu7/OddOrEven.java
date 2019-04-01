@@ -3,7 +3,7 @@ package com.codewars.kata.kyu7;
 import java.util.Arrays;
 
 /**
- *@see <a href="https://www.codewars.com/kata/5949481f86420f59480000e7">Odd or Even?</a>
+ * @see <a href="https://www.codewars.com/kata/5949481f86420f59480000e7">Odd or Even?</a>
  */
 public class OddOrEven
 {
