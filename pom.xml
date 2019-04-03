@@ -7,6 +7,43 @@
     <artifactId>codewars</artifactId>
     <version>${revision}</version>
 
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>A collection of Codewars solutions</description>
+    <url>https://github.com/paranoiduser/codewars</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Pilgrim Whynot</name>
+            <email>pilgrim.whynot@gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/paranoiduser/codewars</url>
+        <connection>scm:git:git@github.com:paranoiduser/codewars.git</connection>
+    </scm>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>sonatype-nexus-snapshots</id>
+            <name>Sonatype Nexus Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>sonatype-nexus-staging</id>
+            <name>Sonatype Nexus Staging</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <encoding>utf-8</encoding>
         <revision>1.0.0-SNAPSHOT</revision>
