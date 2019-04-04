@@ -17,6 +17,7 @@ public class Last
         return string.charAt(string.length() - 1);
     }
 
+    @SafeVarargs
     public static <T> T kata(final T... list)
     {
         return list[list.length - 1];
