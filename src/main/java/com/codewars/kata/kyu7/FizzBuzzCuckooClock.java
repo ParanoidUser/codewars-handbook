@@ -3,24 +3,24 @@ package com.codewars.kata.kyu7;
 import java.time.LocalTime;
 
 /**
- * @see <a href="https://www.codewars.com/kata/fizz-buzz-cuckoo-clock">Fizz Buzz Cuckoo Clock</a>
+ * @see <a href="https://www.codewars.com/kata/58485a43d750d23bad0000e6">Fizz Buzz Cuckoo Clock</a>
  */
 public class FizzBuzzCuckooClock
 {
     public static String kata(String time)
     {
-        LocalTime clock = LocalTime.parse(time);
+        var clock = LocalTime.parse(time);
 
-        if(clock.getMinute() == 0)
+        if (clock.getMinute() == 0)
         {
             int hours = clock.getHour() % 12;
-            if(hours == 0)
+            if (hours == 0)
             {
                 hours = 12;
             }
 
-            String quote = "Cuckoo";
-            while(--hours > 0)
+            var quote = "Cuckoo";
+            while (--hours > 0)
             {
                 quote += " Cuckoo";
             }
