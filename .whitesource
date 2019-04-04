@@ -5,4 +5,3 @@
 # Configuration #
 #---------------#
 ws.repo.scan=true
-vulnerable.check.run.conclusion.level=failure
