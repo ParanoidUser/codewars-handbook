@@ -30,6 +30,6 @@ public class DeadFish
                 results.add(value);
             }
         }
-        return results.stream().skip(1).mapToInt(i -> i).toArray();
+        return results.stream().mapToInt(i -> i).toArray();
     }
 }
