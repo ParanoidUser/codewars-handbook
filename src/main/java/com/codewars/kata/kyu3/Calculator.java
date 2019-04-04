@@ -3,7 +3,7 @@ package com.codewars.kata.kyu3;
 import java.util.LinkedList;
 
 /**
- * @see <a href="https://www.codewars.com/kata/calculator">Calculator</a>
+ * @see <a href="https://www.codewars.com/kata/5235c913397cbf2508000048">Calculator</a>
  */
 public class Calculator
 {
