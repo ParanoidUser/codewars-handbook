@@ -3,7 +3,7 @@ package com.codewars.kata.kyu7;
 import java.util.List;
 
 /**
- * @see <a href="https://www.codewars.com/kata/last">Last</a>
+ * @see <a href="https://www.codewars.com/kata/541629460b198da04e000bb9">Last</a>
  */
 public class Last
 {
