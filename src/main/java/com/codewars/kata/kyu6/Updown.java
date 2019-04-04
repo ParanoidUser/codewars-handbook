@@ -1,7 +1,7 @@
 package com.codewars.kata.kyu6;
 
 /**
- * @see <a href="https://www.codewars.com/kata/up-and-down">up AND down</a>
+ * @see <a href="https://www.codewars.com/kata/56cac350145912e68b0006f0">up AND down</a>
  */
 public class Updown
 {
