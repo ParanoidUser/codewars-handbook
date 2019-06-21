@@ -43,7 +43,7 @@
 
     <properties>
         <encoding>utf-8</encoding>
-        <revision>1.0.0-SNAPSHOT</revision>
+        <revision>1.0-SNAPSHOT</revision>
         <java.version>11</java.version>
         <maven.version>3.5</maven.version>
         <kotlin.version>1.3.21</kotlin.version>
