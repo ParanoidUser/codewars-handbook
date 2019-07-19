@@ -4,12 +4,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class YesOrNoTest
+class YesOrNoTest
 {
     @Test
     void sample()
     {
-        assertEquals("Yes", YesOrNo.kata(true));
-        assertEquals("No", YesOrNo.kata(false));
+        assertEquals("Yes", YesOrNo.boolToWord(true));
+        assertEquals("No", YesOrNo.boolToWord(false));
     }
 }
