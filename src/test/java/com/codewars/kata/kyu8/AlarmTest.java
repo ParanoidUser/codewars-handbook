@@ -5,14 +5,14 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class AlarmTest
+class AlarmTest
 {
     @Test
     void sample()
     {
-        assertFalse(Alarm.kata(true, true));
-        assertFalse(Alarm.kata(false, true));
-        assertFalse(Alarm.kata(false, false));
-        assertTrue(Alarm.kata(true, false));
+        assertFalse(Alarm.setAlarm(true, true));
+        assertFalse(Alarm.setAlarm(false, true));
+        assertFalse(Alarm.setAlarm(false, false));
+        assertTrue(Alarm.setAlarm(true, false));
     }
 }
