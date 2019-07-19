@@ -1,11 +1,11 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/my-head-is-at-the-wrong-end">My head is at the wrong end!</a>
+ * @see <a href="https://www.codewars.com/kata/56f699cd9400f5b7d8000b55">My head is at the wrong end!</a>
  */
-public class WrongEndHead
+class WrongEndHead
 {
-    public static String[] kata(String[] arr)
+    static String[] fixTheMeerkat(String[] arr)
     {
         return new String[] { arr[2], arr[1], arr[0] };
     }
