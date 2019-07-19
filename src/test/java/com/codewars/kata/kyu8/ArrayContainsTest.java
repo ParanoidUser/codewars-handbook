@@ -10,9 +10,9 @@ class ArrayContainsTest
     @Test
     void sample()
     {
-        assertTrue(Solution.check(new Object[] { 66, 101 }, 66));
-        assertTrue(Solution.check(new Object[] { 80, 117, 115, 104, 45, 85, 112, 115 }, 45));
-        assertTrue(Solution.check(new Object[] { 't', 'e', 's', 't' }, 'e'));
-        assertFalse(Solution.check(new Object[] { "what", "a", "great", "kata" }, "kat"));
+        assertTrue(ArrayContains.check(new Object[] { 66, 101 }, 66));
+        assertTrue(ArrayContains.check(new Object[] { 80, 117, 115, 104, 45, 85, 112, 115 }, 45));
+        assertTrue(ArrayContains.check(new Object[] { 't', 'e', 's', 't' }, 'e'));
+        assertFalse(ArrayContains.check(new Object[] { "what", "a", "great", "kata" }, "kat"));
     }
 }
