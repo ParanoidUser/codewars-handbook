@@ -1,11 +1,11 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/l1-set-alarm">L1: Set Alarm</a>
+ * @see <a href="https://www.codewars.com/kata/568dcc3c7f12767a62000038">L1: Set Alarm</a>
  */
-public class Alarm
+class Alarm
 {
-    public static boolean kata(boolean employed, boolean vacation)
+    static boolean setAlarm(boolean employed, boolean vacation)
     {
         return employed && !vacation;
     }
