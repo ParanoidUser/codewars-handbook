@@ -1,11 +1,11 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/multiply">Multiply</a>
+ * @see <a href="https://www.codewars.com/kata/50654ddff44f800200000004">Multiply</a>
  */
-public class Multiply
+class Multiply
 {
-    public static Double kata(Double a, Double b)
+    static double multiply(double a, double b)
     {
         return a * b;
     }
