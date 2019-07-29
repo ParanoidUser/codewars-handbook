@@ -1,9 +1,9 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/basic-variable-assignment">Basic variable assignment</a>
+ * @see <a href="https://www.codewars.com/kata/50ee6b0bdeab583673000025">Basic variable assignment</a>
  */
-public class BasicVariable
+class Kata
 {
     static String name = "codewa.rs";
 }
