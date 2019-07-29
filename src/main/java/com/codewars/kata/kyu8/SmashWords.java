@@ -1,11 +1,11 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/sentence-smash">Sentence Smash</a>
+ * @see <a href="https://www.codewars.com/kata/53dc23c68a0c93699800041d">Sentence Smash</a>
  */
-public class SmashWords
+class SmashWords
 {
-    public static String kata(String... words)
+    static String smash(String... words)
     {
         return String.join(" ", words);
     }
