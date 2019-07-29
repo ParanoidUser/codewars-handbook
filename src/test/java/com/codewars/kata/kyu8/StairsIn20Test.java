@@ -44,6 +44,6 @@ public class StairsIn20Test
                            5524, 9870, 6591, 8616, 5163, 6656, 8150, 8826, 6875, 5242, 9585, 9649, 9838,
                            7150, 6567, 8524, 7613, 7809, 5562, 7799, 7179, 5184, 7960, 9455, 5633, 9085 };
 
-        assertEquals(54636040, StairsIn20.kata(new int[][] { sunday, monday, tuesday, wednesday, thursday, friday, saturday }));
+        assertEquals(54636040, StairsIn20.stairsIn20(new int[][] { sunday, monday, tuesday, wednesday, thursday, friday, saturday }));
     }
 }

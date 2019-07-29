@@ -3,11 +3,11 @@ package com.codewars.kata.kyu8;
 import java.util.Arrays;
 
 /**
- * @see <a href="https://www.codewars.com/kata/how-many-stairs-will-suzuki-climb-in-20-years">How many stairs will Suzuki climb in 20 years?</a>
+ * @see <a href="https://www.codewars.com/kata/56fc55cd1f5a93d68a001d4e">How many stairs will Suzuki climb in 20 years?</a>
  */
-public class StairsIn20
+class StairsIn20
 {
-    public static long kata(int[][] stairs)
+    static long stairsIn20(int[][] stairs)
     {
         return 20L * Arrays.stream(stairs).flatMapToInt(Arrays::stream).sum();
     }
