@@ -1,11 +1,11 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/hex-to-decimal">Hex to Decimal</a>
+ * @see <a href="https://www.codewars.com/kata/57a4d500e298a7952100035d">Hex to Decimal</a>
  */
-public class HexToDecimal
+class HexToDecimal
 {
-    public static int kata(String hexString)
+    static int hexToDec(String hexString)
     {
         return Integer.parseInt(hexString, 16);
     }
