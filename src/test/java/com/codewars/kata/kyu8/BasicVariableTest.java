@@ -4,11 +4,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class BasicVariableTest
+class BasicVariableTest
 {
     @Test
     void sample()
     {
-        assertEquals("codewa.rs", BasicVariable.name);
+        assertEquals("codewa.rs", Kata.name);
     }
 }
