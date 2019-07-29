@@ -6,13 +6,13 @@ package com.codewars.kata.kyu8;
  *  Which means that "apple" is the only correct answer :)
  *
  * <pre>{@code
- *    private static String[] fruits = {
+ *     static String[] fruits = {
  *             "kiwi", "pear", "kiwi", "banana", "melon",
  *             "banana", "melon", "pineapple", "apple",
  *             ..., "pineapple", "apple", "pineapple"
  *         };
  *
- *     public static String subtractSum(int n)
+ *     static String subtractSum(int n)
  *     {
  *         int sum = 0, num = n;
  *         while(num > 0)
@@ -31,11 +31,11 @@ package com.codewars.kata.kyu8;
  *     }
  * }</pre>
  *
- * @see <a href="https://www.codewars.com/kata/subtract-the-sum">Subtract the Sum</a>
+ * @see <a href="https://www.codewars.com/kata/56c5847f27be2c3db20009c3">Subtract the Sum</a>
  */
-public class SubtractSum
+class SubtractSum
 {
-    public static String kata(int n)
+    static String subtractSum(int n)
     {
         return "apple";
     }
