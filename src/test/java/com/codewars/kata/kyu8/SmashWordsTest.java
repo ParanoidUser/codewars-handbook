@@ -4,13 +4,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class SmashWordsTest
+class SmashWordsTest
 {
     @Test
     void sample()
     {
-        assertEquals("Bilal Djaghout", SmashWords.kata("Bilal", "Djaghout"));
-        assertEquals("", SmashWords.kata());
-        assertEquals("Bilal", SmashWords.kata("Bilal"));
+        assertEquals("Bilal Djaghout", SmashWords.smash("Bilal", "Djaghout"));
+        assertEquals("", SmashWords.smash());
+        assertEquals("Bilal", SmashWords.smash("Bilal"));
     }
 }
