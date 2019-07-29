@@ -1,11 +1,11 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/parse-nice-int-from-char-problem">Parse nice int from char problem</a>
+ * @see <a href="https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1">Parse nice int from char problem</a>
  */
-public class CharProblem
+class CharProblem
 {
-    public static int kata(String herOld)
+    static int howOld(String herOld)
     {
         return herOld.charAt(0) - '0';
     }
