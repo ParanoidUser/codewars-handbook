@@ -1,14 +1,14 @@
 package com.codewars.kata.kyu8;
 
-import java.util.Arrays;
+import static java.util.Arrays.stream;
 
 /**
- * @see <a href="https://www.codewars.com/kata/beginner-reduce-but-grow">Reduce but Grow</a>
+ * @see <a href="https://www.codewars.com/kata/57f780909f7e8e3183000078">Reduce but Grow</a>
  */
-public class IntReduce
+class IntReduce
 {
-    public static int kata(int[] x)
+    static int grow(int[] x)
     {
-        return Arrays.stream(x).reduce(1, (a, b) -> a * b);
+        return stream(x).reduce(1, (a, b) -> a * b);
     }
 }
