@@ -1,11 +1,11 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/holiday-viii-duty-free">Holiday VIII - Duty Free</a>
+ * @see <a href="https://www.codewars.com/kata/57e92e91b63b6cbac20001e5">Holiday VIII - Duty Free</a>
  */
-public class DutyFree
+class DutyFree
 {
-    public static int kata(int normPrice, int discount, int hol)
+    static int dutyFree(int normPrice, int discount, int hol)
     {
         return hol * 100 / (normPrice * discount);
     }
