@@ -1,11 +1,11 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/abbreviate-a-two-word-name">Abbreviate a Two Word Name</a>
+ * @see <a href="https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3">Abbreviate a Two Word Name</a>
  */
-public class AbbreviateTwoWords
+class AbbreviateTwoWords
 {
-    public static String kata(String name)
+    static String abbrevName(String name)
     {
         return name.toUpperCase().replaceAll("(.).*\\s(.).*", "$1.$2");
     }
