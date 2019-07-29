@@ -3,7 +3,7 @@ package com.codewars.kata.kyu8;
 /**
  * @see <a href="https://www.codewars.com/kata/591588d49f4056e13f000001">Interpreters: HQ9+</a>
  */
-public class HQ
+class HQ
 {
     static String HQ9(char code)
     {
