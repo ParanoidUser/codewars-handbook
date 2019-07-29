@@ -1,11 +1,11 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/convert-a-number-to-a-string">Convert a Number to a String!</a>
+ * @see <a href="https://www.codewars.com/kata/5265326f5fda8eb1160004c8">Convert a Number to a String!</a>
  */
-public class NumberToString
+class NumberToString
 {
-    public static String kata(int num)
+    static String numberToString(int num)
     {
         return String.valueOf(num);
     }
