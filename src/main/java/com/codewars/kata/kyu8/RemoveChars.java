@@ -1,11 +1,11 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/remove-first-and-last-character">Remove First and Last Character</a>
+ * @see <a href="https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0">Remove First and Last Character</a>
  */
-public class RemoveChars
+class RemoveChars
 {
-    public static String kata(String str)
+    static String remove(String str)
     {
         return str.substring(1, str.length() - 1);
     }

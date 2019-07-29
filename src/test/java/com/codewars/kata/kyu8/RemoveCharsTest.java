@@ -4,14 +4,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class RemoveCharsTest
+class RemoveCharsTest
 {
     @Test
     void sample()
     {
-        assertEquals("loquen", RemoveChars.kata("eloquent"));
-        assertEquals("ountr", RemoveChars.kata("country"));
-        assertEquals("erso", RemoveChars.kata("person"));
-        assertEquals("lac", RemoveChars.kata("place"));
+        assertEquals("loquen", RemoveChars.remove("eloquent"));
+        assertEquals("ountr", RemoveChars.remove("country"));
+        assertEquals("erso", RemoveChars.remove("person"));
+        assertEquals("lac", RemoveChars.remove("place"));
     }
 }
