@@ -1,11 +1,11 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/i-love-you-a-little-a-lot-passionately-dot-dot-dot-not-at-all">I love you, a little , a lot, passionately ... not at all</a>
+ * @see <a href="https://www.codewars.com/kata/57f24e6a18e9fad8eb000296">I love you, a little , a lot, passionately ... not at all</a>
  */
-public class HowMuchILoveYou
+class HowMuchILoveYou
 {
-    public static String kata(int nb_petals)
+    static String howMuchILoveYou(int nb_petals)
     {
         return new String[] { "not at all", "I love you", "a little", "a lot", "passionately", "madly" }[nb_petals % 6];
     }
