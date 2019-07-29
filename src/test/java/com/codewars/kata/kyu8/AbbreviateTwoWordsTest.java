@@ -4,15 +4,15 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class AbbreviateTwoWordsTest
+class AbbreviateTwoWordsTest
 {
     @Test
     void sample()
     {
-        assertEquals("S.H", AbbreviateTwoWords.kata("Sam Harris"));
-        assertEquals("P.F", AbbreviateTwoWords.kata("Patrick Feenan"));
-        assertEquals("E.C", AbbreviateTwoWords.kata("Evan Cole"));
-        assertEquals("P.F", AbbreviateTwoWords.kata("P Favuzzi"));
-        assertEquals("D.M", AbbreviateTwoWords.kata("David Mendieta"));
+        assertEquals("S.H", AbbreviateTwoWords.abbrevName("Sam Harris"));
+        assertEquals("P.F", AbbreviateTwoWords.abbrevName("Patrick Feenan"));
+        assertEquals("E.C", AbbreviateTwoWords.abbrevName("Evan Cole"));
+        assertEquals("P.F", AbbreviateTwoWords.abbrevName("P Favuzzi"));
+        assertEquals("D.M", AbbreviateTwoWords.abbrevName("David Mendieta"));
     }
 }
