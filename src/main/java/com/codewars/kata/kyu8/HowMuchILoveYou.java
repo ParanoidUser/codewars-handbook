@@ -5,8 +5,8 @@ package com.codewars.kata.kyu8;
  */
 class HowMuchILoveYou
 {
-    static String howMuchILoveYou(int nb_petals)
+    static String howMuchILoveYou(int petalsNum)
     {
-        return new String[] { "not at all", "I love you", "a little", "a lot", "passionately", "madly" }[nb_petals % 6];
+        return new String[] { "not at all", "I love you", "a little", "a lot", "passionately", "madly" }[petalsNum % 6];
     }
 }
