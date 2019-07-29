@@ -1,14 +1,14 @@
 package com.codewars.kata.kyu8;
 
-import java.util.Arrays;
+import static java.util.Arrays.stream;
 
 /**
- * @see <a href="https://www.codewars.com/kata/invert-values">Invert values</a>
+ * @see <a href="https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad">Invert values</a>
  */
-public class InvertValues
+class InvertValues
 {
-    public static int[] kata(int[] array)
+    static int[] invert(int[] array)
     {
-        return Arrays.stream(array).map(i -> -i).toArray();
+        return stream(array).map(i -> -i).toArray();
     }
 }
