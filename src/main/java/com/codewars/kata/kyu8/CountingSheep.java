@@ -1,17 +1,17 @@
 package com.codewars.kata.kyu8;
 
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.IntStream.rangeClosed;
 
 /**
- * @see <a href="https://www.codewars.com/kata/if-you-cant-sleep-just-count-sheep">If you can't sleep, just count sheep!!</a>
+ * @see <a href="https://www.codewars.com/kata/5b077ebdaf15be5c7f000077">If you can't sleep, just count sheep!!</a>
  */
-public class CountingSheep
+class CountingSheep
 {
-    public static String kata(int num)
+    static String countingSheep(int num)
     {
-        return IntStream.rangeClosed(1, num)
-                        .mapToObj(i -> i + " sheep...")
-                        .collect(Collectors.joining());
+        return rangeClosed(1, num)
+                       .mapToObj(i -> i + " sheep...")
+                       .collect(joining());
     }
 }
