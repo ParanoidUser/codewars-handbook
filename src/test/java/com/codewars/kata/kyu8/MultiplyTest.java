@@ -4,11 +4,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class MultiplyTest
+class MultiplyTest
 {
     @Test
     void sample()
     {
-        assertEquals(4, Multiply.kata(2.0, 2.0));
+        assertEquals(4, Multiply.multiply(2.0, 2.0));
     }
 }
