@@ -1,14 +1,14 @@
 package com.codewars.kata.kyu8;
 
-import java.util.stream.IntStream;
+import static java.util.stream.IntStream.of;
 
 /**
- * @see <a href="https://www.codewars.com/kata/find-the-smallest-integer-in-the-array">Find the smallest integer in the array</a>
+ * @see <a href="https://www.codewars.com/kata/55a2d7ebe362935a210000b2">Find the smallest integer in the array</a>
  */
-public class SmallestIntegerFinder
+class SmallestIntegerFinder
 {
-    public static int kata(int[] args)
+    static int findSmallestInt(int[] args)
     {
-        return IntStream.of(args).min().getAsInt();
+        return of(args).min().getAsInt();
     }
 }
