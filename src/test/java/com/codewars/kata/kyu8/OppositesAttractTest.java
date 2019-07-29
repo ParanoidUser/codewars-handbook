@@ -5,14 +5,14 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-public class OppositesAttractTest
+class OppositesAttractTest
 {
     @Test
     void sample()
     {
-        assertTrue(OppositesAttract.kata(1, 4));
-        assertTrue(OppositesAttract.kata(0, 1));
-        assertFalse(OppositesAttract.kata(2, 2));
-        assertFalse(OppositesAttract.kata(1, 1));
+        assertTrue(OppositesAttract.isLove(1, 4));
+        assertTrue(OppositesAttract.isLove(0, 1));
+        assertFalse(OppositesAttract.isLove(2, 2));
+        assertFalse(OppositesAttract.isLove(1, 1));
     }
 }
