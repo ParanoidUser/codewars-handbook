@@ -1,11 +1,11 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/are-you-playing-banjo">Are You Playing Banjo?</a>
+ * @see <a href="https://www.codewars.com/kata/53af2b8861023f1d88000832">Are You Playing Banjo?</a>
  */
-public class Banjo
+class Banjo
 {
-    public static String kata(String name)
+    static String areYouPlayingBanjo(String name)
     {
         return name + (name.matches("^[Rr].*$") ? " plays banjo" : " does not play banjo");
     }
