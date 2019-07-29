@@ -4,11 +4,11 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * @see <a href="https://www.codewars.com/kata/color-ghost">Color Ghost</a>
+ * @see <a href="https://www.codewars.com/kata/53f1015fa9fe02cbda00111a">Color Ghost</a>
  */
-public class Ghost
+class Ghost
 {
-    public String kata()
+    String getColor()
     {
         return List.of("white", "yellow", "purple", "red").get(new Random().nextInt(4));
     }
