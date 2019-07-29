@@ -4,11 +4,11 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class SequenceTest
+class SequenceTest
 {
     @Test
     void sample()
     {
-        assertArrayEquals(new int[] { 5, 4, 3, 2, 1 }, Sequence.kata(5));
+        assertArrayEquals(new int[] { 5, 4, 3, 2, 1 }, Sequence.reverse(5));
     }
 }
