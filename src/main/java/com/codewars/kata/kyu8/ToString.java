@@ -1,9 +1,9 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/number-tostring">Number toString</a>
+ * @see <a href="https://www.codewars.com/kata/53934feec44762736c00044b">Number toString</a>
  */
-public class ToString
+class ToString
 {
     static String a = "123";
 }
