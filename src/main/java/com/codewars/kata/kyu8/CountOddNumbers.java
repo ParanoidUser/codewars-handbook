@@ -1,11 +1,11 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/count-odd-numbers-below-n">Count Odd Numbers below n</a>
+ * @see <a href="https://www.codewars.com/kata/59342039eb450e39970000a6">Count Odd Numbers below n</a>
  */
-public class CountOddNumbers
+class CountOddNumbers
 {
-    public static int kata(int n)
+    static int oddCount(int n)
     {
         return n / 2;
     }
