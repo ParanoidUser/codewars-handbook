@@ -4,18 +4,18 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-public class GhostTest
+class GhostTest
 {
     @Test
     void sample()
     {
         var ghost = new Ghost();
-        var color = ghost.kata();
+        var color = ghost.getColor();
 
         var changed = false;
         for (int i = 0; i < 10 && !changed; i++)
         {
-            changed = !color.equals(ghost.kata());
+            changed = !color.equals(ghost.getColor());
         }
         assertTrue(changed);
     }
