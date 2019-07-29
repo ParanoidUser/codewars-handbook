@@ -4,11 +4,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class BioTest
+class BioTest
 {
     @Test
     void sample()
     {
-        assertEquals("GCAU", Bio.kata("GCAT"));
+        assertEquals("UUUU", Bio.dnaToRna("TTTT"));
+        assertEquals("GCAU", Bio.dnaToRna("GCAT"));
     }
 }
