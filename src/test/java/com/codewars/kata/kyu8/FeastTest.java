@@ -5,13 +5,13 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class FeastTest
+class FeastTest
 {
     @Test
     void sample()
     {
-        assertTrue(Feast.kata("great blue heron", "garlic nann"));
-        assertTrue(Feast.kata("chickadee", "chocolate cake"));
-        assertFalse(Feast.kata("brown bear", "bear claw"));
+        assertTrue(Feast.feast("great blue heron", "garlic nann"));
+        assertTrue(Feast.feast("chickadee", "chocolate cake"));
+        assertFalse(Feast.feast("brown bear", "bear claw"));
     }
 }
