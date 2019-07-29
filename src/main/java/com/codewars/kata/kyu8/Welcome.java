@@ -3,9 +3,9 @@ package com.codewars.kata.kyu8;
 /**
  * @see <a href="https://www.codewars.com/kata/577ff15ad648a14b780000e7">Welcome!</a>
  */
-public class Welcome
+class Welcome
 {
-    public static String kata(String language)
+    static String greet(String language)
     {
         switch(language)
         {

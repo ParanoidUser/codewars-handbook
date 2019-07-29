@@ -4,13 +4,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class WelcomeTest
+class WelcomeTest
 {
     @Test
     void sample()
     {
-        assertEquals("Welcome", Welcome.kata("english"));
-        assertEquals("Welkom", Welcome.kata("dutch"));
-        assertEquals("Welcome", Welcome.kata("IP_ADDRESS_INVALID"));
+        assertEquals("Welcome", Welcome.greet("english"));
+        assertEquals("Welkom", Welcome.greet("dutch"));
+        assertEquals("Welcome", Welcome.greet("IP_ADDRESS_INVALID"));
     }
 }
