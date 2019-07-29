@@ -4,13 +4,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class EvenOrOddTest
+class EvenOrOddTest
 {
     @Test
     void sample()
     {
-        assertEquals("Odd", EvenOrOdd.kata(1));
-        assertEquals("Even", EvenOrOdd.kata(2));
-        assertEquals("Odd", EvenOrOdd.kata(3));
+        assertEquals("Odd", EvenOrOdd.even_or_odd(1));
+        assertEquals("Even", EvenOrOdd.even_or_odd(2));
+        assertEquals("Odd", EvenOrOdd.even_or_odd(3));
     }
 }
