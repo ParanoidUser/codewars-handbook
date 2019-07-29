@@ -3,11 +3,11 @@ package com.codewars.kata.kyu8;
 import java.util.Arrays;
 
 /**
- * @see <a href="https://www.codewars.com/kata/sort-and-star">Sort and Star</a>
+ * @see <a href="https://www.codewars.com/kata/57cfdf34902f6ba3d300001e">Sort and Star</a>
  */
-public class SortAndStar
+class SortAndStar
 {
-    public static String kata(String[] s)
+    static String twoSort(String[] s)
     {
         Arrays.sort(s);
         return s[0].replaceAll(".(?!$)", "$0***");
