@@ -1,11 +1,11 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/simple-multiplication">Simple multiplication</a>
+ * @see <a href="https://www.codewars.com/kata/583710ccaa6717322c000105">Simple multiplication</a>
  */
-public class Sid
+class Sid
 {
-    public static int kata(int n)
+    static int simpleMultiplication(int n)
     {
         return n * (n % 2 + 8);
     }
