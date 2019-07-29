@@ -4,11 +4,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CodeUnderPressureTest
+class JavaTest
 {
     @Test
     void sample()
     {
-        assertEquals(4, CodeUnderPressure.kata(2));
+        assertEquals(4, Java.doubleInteger(2));
     }
 }
