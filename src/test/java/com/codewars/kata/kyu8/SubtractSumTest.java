@@ -4,14 +4,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class SubtractSumTest
+class SubtractSumTest
 {
     @Test
     void sample()
     {
         for (int i = 10; i < 10000; i++)
         {
-            assertEquals("apple", SubtractSum.kata(i));
+            assertEquals("apple", SubtractSum.subtractSum(i));
         }
     }
 }
