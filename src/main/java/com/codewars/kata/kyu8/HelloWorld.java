@@ -1,11 +1,11 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/function-1-hello-world">Function 1 - hello world</a>
+ * @see <a href="https://www.codewars.com/kata/523b4ff7adca849afe000035">Function 1 - hello world</a>
  */
-public class HelloWorld
+class HelloWorld
 {
-    public static String kata()
+    static String greet()
     {
         return "hello world!";
     }
