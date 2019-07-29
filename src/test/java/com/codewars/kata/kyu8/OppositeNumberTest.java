@@ -4,11 +4,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class OppositeNumberTest
+class OppositeNumberTest
 {
     @Test
     void sample()
     {
-        assertEquals(-1, OppositeNumber.kata(1));
+        assertEquals(-1, OppositeNumber.opposite(1));
     }
 }
