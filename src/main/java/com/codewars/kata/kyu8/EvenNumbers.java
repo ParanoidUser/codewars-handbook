@@ -1,16 +1,14 @@
 package com.codewars.kata.kyu8;
 
-import java.util.stream.IntStream;
+import static java.util.stream.IntStream.of;
 
 /**
- * @see <a href="https://www.codewars.com/kata/find-numbers-which-are-divisible-by-given-number">Find numbers which are divisible by given number</a>
+ * @see <a href="https://www.codewars.com/kata/55edaba99da3a9c84000003b">Find numbers which are divisible by given number</a>
  */
-public class EvenNumbers
+class EvenNumbers
 {
-    public static int[] kata(int[] numbers, int divider)
+    static int[] divisibleBy(int[] numbers, int divider)
     {
-        return IntStream.of(numbers)
-                        .filter(i -> i % divider == 0)
-                        .toArray();
+        return of(numbers).filter(i -> i % divider == 0).toArray();
     }
 }
