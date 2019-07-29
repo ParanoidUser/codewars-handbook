@@ -5,15 +5,15 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-public class PixelArtTest
+class PixelArtTest
 {
     @Test
     void sample()
     {
-        assertTrue(PixelArt.kata(4050, 27));
-        assertTrue(PixelArt.kata(10000, 20));
-        assertTrue(PixelArt.kata(10005, 1));
-        assertFalse(PixelArt.kata(4066, 27));
-        assertFalse(PixelArt.kata(10005, 2));
+        assertTrue(PixelArt.isDivisible(4050, 27));
+        assertTrue(PixelArt.isDivisible(10000, 20));
+        assertTrue(PixelArt.isDivisible(10005, 1));
+        assertFalse(PixelArt.isDivisible(4066, 27));
+        assertFalse(PixelArt.isDivisible(10005, 2));
     }
 }
