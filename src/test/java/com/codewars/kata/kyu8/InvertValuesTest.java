@@ -9,9 +9,9 @@ public class InvertValuesTest
     @Test
     void sample()
     {
-        assertArrayEquals(new int[] { 1, 2, 3, 4, 5 }, InvertValues.kata(new int[] { -1, -2, -3, -4, -5 }));
-        assertArrayEquals(new int[] { -1, 2, -3, 4, -5 }, InvertValues.kata(new int[] { 1, -2, 3, -4, 5 }));
-        assertArrayEquals(new int[] { 0 }, InvertValues.kata(new int[] { 0 }));
-        assertArrayEquals(new int[0], InvertValues.kata(new int[0]));
+        assertArrayEquals(new int[] { 1, 2, 3, 4, 5 }, InvertValues.invert(new int[] { -1, -2, -3, -4, -5 }));
+        assertArrayEquals(new int[] { -1, 2, -3, 4, -5 }, InvertValues.invert(new int[] { 1, -2, 3, -4, 5 }));
+        assertArrayEquals(new int[] { 0 }, InvertValues.invert(new int[] { 0 }));
+        assertArrayEquals(new int[0], InvertValues.invert(new int[0]));
     }
 }
