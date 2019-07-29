@@ -1,14 +1,14 @@
 package com.codewars.kata.kyu8;
 
-import java.util.stream.IntStream;
+import static java.util.stream.IntStream.rangeClosed;
 
 /**
  * @see <a href="https://www.codewars.com/kata/56b29582461215098d00000f">Lario and Muigi Pipe Problem</a>
  */
-public class PipeFix
+class PipeFix
 {
-    public static int[] kata(int[] numbers)
+    static int[] pipeFix(int[] numbers)
     {
-        return IntStream.rangeClosed(numbers[0], numbers[numbers.length - 1]).toArray();
+        return rangeClosed(numbers[0], numbers[numbers.length - 1]).toArray();
     }
 }
