@@ -1,17 +1,17 @@
 package com.codewars.kata.kyu8;
 
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.IntStream.range;
 
 /**
- * @see <a href="https://www.codewars.com/kata/triple-trouble-2">Triple Trouble</a>
+ * @see <a href="https://www.codewars.com/kata/5704aea738428f4d30000914">Triple Trouble</a>
  */
-public class TripleTrouble
+class TripleTrouble
 {
-    public static String kata(String one, String two, String three)
+    static String tripleTrouble(String one, String two, String three)
     {
-        return IntStream.range(0, one.length())
+        return range(0, one.length())
                         .mapToObj(i -> "" + one.charAt(i) + two.charAt(i) + three.charAt(i))
-                        .collect(Collectors.joining());
+                        .collect(joining());
     }
 }
