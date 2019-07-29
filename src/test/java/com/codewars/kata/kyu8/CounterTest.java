@@ -4,12 +4,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class SheepCounterTest
+class CounterTest
 {
     @Test
     void sample()
     {
-        assertEquals(17, SheepCounter.kata(new Boolean[] {
+        assertEquals(17, Counter.countSheeps(new Boolean[] {
                 true, true, true, false,
                 true, true, true, true,
                 true, false, true, false,
