@@ -5,7 +5,7 @@ package com.codewars.kata.kyu8;
  */
 class Barycenter
 {
-    public static double[] kata(double[] x, double[] y, double[] z)
+    static double[] barTriang(double[] x, double[] y, double[] z)
     {
         var coordinates = new double[2];
         for (int i = 0; i < 2; i++)
