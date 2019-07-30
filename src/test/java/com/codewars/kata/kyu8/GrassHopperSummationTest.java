@@ -4,12 +4,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class GrassHopperTest
+class GrassHopperSummationTest
 {
     @Test
     void sample()
     {
-        assertEquals(3, GrassHopper.summation(2));
-        assertEquals(36, GrassHopper.summation(8));
+        assertEquals(3, GrassHopperSummation.summation(2));
+        assertEquals(36, GrassHopperSummation.summation(8));
     }
 }
