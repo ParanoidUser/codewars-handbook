@@ -1,14 +1,20 @@
 package com.codewars.kata.kyu8;
 
 /**
- * @see <a href="https://www.codewars.com/kata/5a6663e9fd56cb5ab800008b">Cat years, Dog years</a>
+ * @see <a href="https://www.codewars.com/kata/596c55fc7bd5476bf60000d5">FIXME: Static electrickery</a>
  */
 class Dinglemouse
 {
-    static int[] humanYearsCatYearsDogYears(int y)
-    {
-        return new int[] { y,
-                           y == 1 ? 15 : 16 + 4 * y,
-                           y == 1 ? 15 : 14 + 5 * y };
+    private static int ONE_HUNDRED = 100;
+    static final Dinglemouse INST = new Dinglemouse();
+
+    private final int value;
+
+    private Dinglemouse() {
+        value = ONE_HUNDRED;
+    }
+
+    public int plus100(int n) {
+        return value + n;
     }
 }
