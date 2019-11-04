@@ -1,4 +1,5 @@
 - ["this" is a problem](this-is-a-problem)
+- [8kyu interpreters: HQ9+](8kyu-interpreters-hq9-plus)
 - [101 Dalmatians - squash the bugs, not the dogs!](101-dalmatians-squash-the-bugs-not-the-dogs)
 - [Abbreviate a Two Word Name](abbreviate-a-two-word-name)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
