@@ -1,0 +1,34 @@
+apply plugin: 'java'
+
+subprojects {
+    apply plugin: 'java'
+    sourceCompatibility = 11
+    targetCompatibility = 11
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        testImplementation 'org.junit.jupiter:junit-jupiter:5.5.1'
+        testRuntime 'org.junit.vintage:junit-vintage-engine:5.5.1'
+        testCompile 'junit:junit:4.12'
+    }
+
+    sourceSets {
+        main {
+            java {
+                srcDir 'main'
+            }
+        }
+        test {
+            java {
+                srcDir 'test'
+            }
+        }
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}
