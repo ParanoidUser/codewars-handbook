@@ -1,9 +1,13 @@
 language: java
-
 jdk:
-  - openjdk12
-  - oraclejdk12
-
+  - openjdk11
+  - oraclejdk11
+script: "./gradlew clean build --info"
+before_cache:
+  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+  - rm -fr $HOME/.gradle/caches/*/scripts/
 cache:
   directories:
-    - $HOME/.m2
+    - "$HOME/.gradle/caches/"
+    - "$HOME/.gradle/wrapper/"
