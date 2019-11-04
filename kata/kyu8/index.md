@@ -1,3 +1,4 @@
+- [101 Dalmatians - squash the bugs, not the dogs!](101-dalmatians-squash-the-bugs-not-the-dogs)
 - [Abbreviate a Two Word Name](abbreviate-a-two-word-name)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [get character from ASCII Value](get-character-from-ascii-value)
