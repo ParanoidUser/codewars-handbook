@@ -1,4 +1,4 @@
-# [Get Nth Even Number](https://www.codewars.com/kata/get-nth-even-number "5933a1f8552bc2750a0000ed")
+# [Get Nth Even Number](https://www.codewars.com/kata/get-nth-even-number "https://www.codewars.com/kata/5933a1f8552bc2750a0000ed")
 
 Return the Nth Even Number
 

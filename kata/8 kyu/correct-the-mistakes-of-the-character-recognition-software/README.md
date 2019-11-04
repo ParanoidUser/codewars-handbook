@@ -1,4 +1,4 @@
-# [Correct the mistakes of the character recognition software](https://www.codewars.com/kata/correct-the-mistakes-of-the-character-recognition-software "577bd026df78c19bca0002c0")
+# [Correct the mistakes of the character recognition software](https://www.codewars.com/kata/correct-the-mistakes-of-the-character-recognition-software "https://www.codewars.com/kata/577bd026df78c19bca0002c0")
 
 Character recognition software is widely used to digitise printed texts. Thus the texts can be edited, searched and stored on a computer.
 

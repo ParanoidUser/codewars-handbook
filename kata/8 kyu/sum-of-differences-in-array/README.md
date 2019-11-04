@@ -1,4 +1,4 @@
-# [Sum of differences in array](https://www.codewars.com/kata/sum-of-differences-in-array "5b73fe9fb3d9776fbf00009e")
+# [Sum of differences in array](https://www.codewars.com/kata/sum-of-differences-in-array "https://www.codewars.com/kata/5b73fe9fb3d9776fbf00009e")
 
 Your task is to sum the differences between consecutive pairs in the array in descending order.
 

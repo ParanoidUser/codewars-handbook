@@ -1,4 +1,4 @@
-# [Basic subclasses - Adam and Eve](https://www.codewars.com/kata/basic-subclasses-adam-and-eve "547274e24481cfc469000416")
+# [Basic subclasses - Adam and Eve](https://www.codewars.com/kata/basic-subclasses-adam-and-eve "https://www.codewars.com/kata/547274e24481cfc469000416")
 
 According to the creation myths of the Abrahamic religions, Adam and Eve were the first Humans to wander the Earth.
 

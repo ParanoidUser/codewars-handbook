@@ -1,4 +1,4 @@
-# [How many stairs will Suzuki climb in 20 years?](https://www.codewars.com/kata/how-many-stairs-will-suzuki-climb-in-20-years "56fc55cd1f5a93d68a001d4e")
+# [How many stairs will Suzuki climb in 20 years?](https://www.codewars.com/kata/how-many-stairs-will-suzuki-climb-in-20-years "https://www.codewars.com/kata/56fc55cd1f5a93d68a001d4e")
 
 Suzuki is a monk who climbs a large staircase to the monastery as part of a ritual. Some days he climbs more stairs than others depending on the number of students he must train in the morning. He is curious how many stairs might be climbed over the next 20 years and has spent a year marking down his daily progress. 
 

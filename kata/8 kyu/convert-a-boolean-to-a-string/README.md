@@ -1,4 +1,4 @@
-# [Convert a Boolean to a String](https://www.codewars.com/kata/convert-a-boolean-to-a-string "551b4501ac0447318f0009cd")
+# [Convert a Boolean to a String](https://www.codewars.com/kata/convert-a-boolean-to-a-string "https://www.codewars.com/kata/551b4501ac0447318f0009cd")
 
 In this programming exercise, you're going to learn about functions, boolean (true/false) values, strings, and the if-statement.
 

@@ -1,4 +1,4 @@
-# [Calculate BMI](https://www.codewars.com/kata/calculate-bmi "57a429e253ba3381850000fb")
+# [Calculate BMI](https://www.codewars.com/kata/calculate-bmi "https://www.codewars.com/kata/57a429e253ba3381850000fb")
 
 Write function bmi that calculates body mass index (bmi = weight / height ^ 2).
 

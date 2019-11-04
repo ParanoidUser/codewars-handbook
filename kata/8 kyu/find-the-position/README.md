@@ -1,4 +1,4 @@
-# [Find the position!](https://www.codewars.com/kata/find-the-position "5808e2006b65bff35500008f")
+# [Find the position!](https://www.codewars.com/kata/find-the-position "https://www.codewars.com/kata/5808e2006b65bff35500008f")
 
 When provided with a letter, return its position in the alphabet.
 

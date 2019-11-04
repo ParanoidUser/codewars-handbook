@@ -1,4 +1,4 @@
-# [Be Concise I - The Ternary Operator](https://www.codewars.com/kata/be-concise-i-the-ternary-operator "56f3f6a82010832b02000f38")
+# [Be Concise I - The Ternary Operator](https://www.codewars.com/kata/be-concise-i-the-ternary-operator "https://www.codewars.com/kata/56f3f6a82010832b02000f38")
 
 # Be Concise I - The Ternary Operator
 

@@ -1,4 +1,4 @@
-# [8kyu interpreters: HQ9+](https://www.codewars.com/kata/8kyu-interpreters-hq9-plus "591588d49f4056e13f000001")
+# [8kyu interpreters: HQ9+](https://www.codewars.com/kata/8kyu-interpreters-hq9-plus "https://www.codewars.com/kata/591588d49f4056e13f000001")
 
 You task is to implement an simple interpreter for the notorious esoteric language [HQ9+](https://esolangs.org/wiki/HQ9+) that will work for a single character input:
 
