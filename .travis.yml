@@ -2,6 +2,8 @@ language: java
 jdk:
   - openjdk11
   - oraclejdk11
+before_install:
+  - chmod +x gradlew
 script: "./gradlew clean build --info"
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
