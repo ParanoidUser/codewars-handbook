@@ -4,6 +4,7 @@
 - [A + B](a-plus-b)
 - [A Needle in the Haystack](a-needle-in-the-haystack)
 - [A Strange Trip to the Market](a-strange-trip-to-the-market)
+- [A wolf in sheep's clothing](a-wolf-in-sheeps-clothing)
 - [Abbreviate a Two Word Name](abbreviate-a-two-word-name)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [get character from ASCII Value](get-character-from-ascii-value)
