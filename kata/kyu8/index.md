@@ -6,6 +6,7 @@
 - [A Strange Trip to the Market](a-strange-trip-to-the-market)
 - [A wolf in sheep's clothing](a-wolf-in-sheeps-clothing)
 - [Abbreviate a Two Word Name](abbreviate-a-two-word-name)
+- [Age Range Compatibility Equation](age-range-compatibility-equation)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
