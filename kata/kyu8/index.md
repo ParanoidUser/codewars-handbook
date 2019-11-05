@@ -13,6 +13,7 @@
 - [Basic Mathematical Operations](basic-mathematical-operations)
 - [Basic subclasses - Adam and Eve](basic-subclasses-adam-and-eve)
 - [Basic variable assignment](basic-variable-assignment)
+- [Beginner - Lost Without a Map](beginner-lost-without-a-map)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
