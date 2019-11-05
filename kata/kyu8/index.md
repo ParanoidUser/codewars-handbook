@@ -7,6 +7,7 @@
 - [A wolf in sheep's clothing](a-wolf-in-sheeps-clothing)
 - [Abbreviate a Two Word Name](abbreviate-a-two-word-name)
 - [Age Range Compatibility Equation](age-range-compatibility-equation)
+- [All Star Code Challenge #18](all-star-code-challenge-number-18)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
