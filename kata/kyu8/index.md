@@ -9,6 +9,7 @@
 - [Age Range Compatibility Equation](age-range-compatibility-equation)
 - [All Star Code Challenge #18](all-star-code-challenge-number-18)
 - [Are You Playing Banjo?](are-you-playing-banjo)
+- [Array plus array](array-plus-array)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
