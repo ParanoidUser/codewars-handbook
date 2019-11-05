@@ -15,6 +15,7 @@
 - [Basic variable assignment](basic-variable-assignment)
 - [Beginner - Lost Without a Map](beginner-lost-without-a-map)
 - [Beginner - Reduce but Grow](beginner-reduce-but-grow)
+- [Beginner Series #2 Clock](beginner-series-number-2-clock)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
