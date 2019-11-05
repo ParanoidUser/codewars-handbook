@@ -17,6 +17,7 @@
 - [Beginner - Reduce but Grow](beginner-reduce-but-grow)
 - [Beginner Series #2 Clock](beginner-series-number-2-clock)
 - [Beginner Series #4 Cockroach](beginner-series-number-4-cockroach)
+- [Calculate BMI](calculate-bmi)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
