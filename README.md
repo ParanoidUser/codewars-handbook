@@ -9,4 +9,4 @@
 [![PGP](https://img.shields.io/keybase/pgp/paranoiduser.svg)](https://keybase.io/paranoiduser)
 
 ## Kata
- - [8 kyu - Beginner](kata/kyu8/index.md)
+ - [8 kyu - Beginner](kata/8 kyu/index.md)
