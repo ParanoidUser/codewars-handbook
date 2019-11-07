@@ -29,4 +29,5 @@
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
 - [L1: Set Alarm](l1-set-alarm)
+- [Sum of differences in array](sum-of-differences-in-array)
 - [You only need one - Beginner](you-only-need-one-beginner)
