@@ -33,6 +33,7 @@
 - [Convert to Binary](convert-to-binary)
 - [Correct the mistakes of the character recognition software](correct-the-mistakes-of-the-character-recognition-software)
 - [Count Odd Numbers below n](count-odd-numbers-below-n)
+- [Count of positives / sum of negatives](count-of-positives-slash-sum-of-negatives)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
