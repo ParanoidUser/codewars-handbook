@@ -1,4 +1,5 @@
-# [Abbreviate a Two Word Name][1]
+# [Abbreviate a Two Word Name](https://www.codewars.com/kata/abbreviate-a-two-word-name "57eadb7ecd143f4c9c0000a3")
+
 Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
 
 The output should be two capital letters with a dot separating them.
@@ -9,5 +10,3 @@ It should look like this:
 
 `Patrick Feeney` => `P.F`
 
-[1]: https://www.codewars.com/kata/abbreviate-a-two-word-name
-[2]: https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3

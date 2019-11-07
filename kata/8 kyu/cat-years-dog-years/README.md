@@ -1,4 +1,6 @@
-# [Cat years, Dog years][1]
+# [Cat years, Dog years](https://www.codewars.com/kata/cat-years-dog-years "5a6663e9fd56cb5ab800008b")
+
+# Kata Task
 
 I have a cat and a dog.
 
@@ -29,5 +31,8 @@ NOTES:
 * http://www.catster.com/cats-101/calculate-cat-age-in-cat-years
 * http://www.slate.com/articles/news_and_politics/explainer/2009/05/a_dogs_life.html
 
-[1]: https://www.codewars.com/kata/cat-years-dog-years
-[2]: https://www.codewars.com/kata/5a6663e9fd56cb5ab800008b
+<hr>
+
+If you liked this Kata there is another <a href="https://www.codewars.com/kata/cat-years-dog-years-2">related one here</a>
+
+

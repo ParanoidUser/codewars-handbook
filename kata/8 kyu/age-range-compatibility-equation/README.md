@@ -1,6 +1,8 @@
-# [Age Range Compatibility Equation][1]
+# [Age Range Compatibility Equation](https://www.codewars.com/kata/age-range-compatibility-equation "5803956ddb07c5c74200144e")
 
 Everybody knows the classic ["half your age plus seven"](https://en.wikipedia.org/wiki/Age_disparity_in_sexual_relationships#The_.22half-your-age-plus-seven.22_rule) dating rule that a lot of people follow (including myself). It's the 'recommended' age range in which to date someone. 
+
+<img src="http://weknowmemes.com/wp-content/uploads/2014/08/age-range-compatibility-equation.jpg" style="width: 400px;"/>
 
 ```minimum age <= your age <= maximum age```
 #Task
@@ -21,6 +23,3 @@ age = 27   =>   20-40
 age = 5    =>   4-5
 age = 17   =>   15-20
 ```
-
-[1]: https://www.codewars.com/kata/age-range-compatibility-equation
-[2]: https://www.codewars.com/kata/5803956ddb07c5c74200144e
