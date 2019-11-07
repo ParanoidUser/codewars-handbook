@@ -13,6 +13,7 @@
 - [Basic Mathematical Operations](basic-mathematical-operations)
 - [Basic subclasses - Adam and Eve](basic-subclasses-adam-and-eve)
 - [Basic variable assignment](basic-variable-assignment)
+- [Be Concise I - The Ternary Operator](be-concise-i-the-ternary-operator)
 - [Beginner - Lost Without a Map](beginner-lost-without-a-map)
 - [Beginner - Reduce but Grow](beginner-reduce-but-grow)
 - [Beginner Series #2 Clock](beginner-series-number-2-clock)
