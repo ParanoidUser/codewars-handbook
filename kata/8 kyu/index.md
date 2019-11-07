@@ -30,6 +30,7 @@
 - [Convert a String to a Number!](convert-a-string-to-a-number)
 - [Convert boolean values to strings 'Yes' or 'No'.](convert-boolean-values-to-strings-yes-or-no)
 - [Convert number to reversed array of digits](convert-number-to-reversed-array-of-digits)
+- [Convert to Binary](convert-to-binary)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
