@@ -26,6 +26,7 @@
 - [Classic Hello World](classic-hello-world)
 - [Color Ghost](color-ghost)
 - [Convert a Boolean to a String](convert-a-boolean-to-a-string)
+- [Convert a Number to a String!](convert-a-number-to-a-string)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
