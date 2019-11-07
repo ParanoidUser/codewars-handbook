@@ -1,4 +1,4 @@
-# [Circles in Polygons][1]
+# [Circles in Polygons](https://www.codewars.com/kata/circles-in-polygons "5a026a9cffe75fbace00007f")
 
 You are the owner of a box making company. 
 
@@ -6,6 +6,3 @@ Your company can produce any equal sided polygon box, but plenty of your custome
 
 As a result you decide to add this information on your boxes:
 The largest (diameter) circular object that can fit into a given box.
-
-[1]: https://www.codewars.com/kata/circles-in-polygons
-[2]: https://www.codewars.com/kata/5a026a9cffe75fbace00007f
