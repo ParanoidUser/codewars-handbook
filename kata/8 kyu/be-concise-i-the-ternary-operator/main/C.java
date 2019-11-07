@@ -1,0 +1,1 @@
+class C{static String describeAge(int a){return"You're a(n) "+(a>64?"elderly":a>17?"adult":a>12?"teenager":"kid");}}
