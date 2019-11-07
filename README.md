@@ -5,7 +5,7 @@
 [![Build](https://img.shields.io/travis/ParanoidUser/codewars.svg)](https://travis-ci.org/ParanoidUser/codewars)
 [![Java Grade](https://img.shields.io/lgtm/grade/java/g/ParanoidUser/codewars.svg?label=java)](https://lgtm.com/projects/g/ParanoidUser/codewars/context:java)
 [![Issues](https://img.shields.io/codeclimate/issues/ParanoidUser/codewars.svg)](https://codeclimate.com/github/ParanoidUser/codewars)
-[![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/ParanoidUser/codewars.svg)](https://snyk.io/test/github/ParanoidUser/codewars)
+[![Views](http://hits.dwyl.io/{ParanoidUser}/{codewars}.svg)](http://hits.dwyl.io/{ParanoidUser}/{codewars})
 [![PGP](https://img.shields.io/keybase/pgp/paranoiduser.svg)](https://keybase.io/paranoiduser)
 
 ## Kata
