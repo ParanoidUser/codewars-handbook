@@ -1,9 +1,14 @@
-# [8kyu interpreters: HQ9+][1]
+# [8kyu interpreters: HQ9+](https://www.codewars.com/kata/8kyu-interpreters-hq9-plus "591588d49f4056e13f000001")
 
 You task is to implement an simple interpreter for the notorious esoteric language [HQ9+](https://esolangs.org/wiki/HQ9+) that will work for a single character input:
+
 - If the input is `'H'`, return `'Hello World!'`
 - If the input is `'Q'`, return the input
 - If the input is `'9'`, return the full lyrics of [99 Bottles of Beer](http://www.99-bottles-of-beer.net/lyrics.html). It should be formatted like this:
+
+```if:rust
+__Note__: In Rust, return `Some` containing the appropriate value.
+```
 
 ```
 99 bottles of beer on the wall, 99 bottles of beer.
@@ -26,6 +31,3 @@ Go to the store and buy some more, 99 bottles of beer on the wall.
 - For everything else, don't return anything (return `null` in C#, `None` in Rust).
 
 (`+` has no visible effects so we can safely ignore it.)
-
-[1]: https://www.codewars.com/kata/8kyu-interpreters-hq9-plus
-[2]: https://www.codewars.com/kata/591588d49f4056e13f000001

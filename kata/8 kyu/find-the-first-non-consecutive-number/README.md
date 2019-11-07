@@ -1,4 +1,4 @@
-# [Find the first non-consecutive number][1]
+# [Find the first non-consecutive number](https://www.codewars.com/kata/find-the-first-non-consecutive-number "58f8a3a27a5c28d92e000144")
 
 Your task is to find the first element of an array that is not consecutive.
 
@@ -11,6 +11,3 @@ The array will always have at least `2` elements<sup>1</sup> and all elements wi
 If you like this Kata, maybe try this one next: https://www.codewars.com/kata/represent-array-of-numbers-as-ranges
 
 1) Can you write a solution that will return `null` for both `[]` and `[ x ]` though? ( This is not tested, but you can write your own example test. )
-
-[1]: https://www.codewars.com/kata/find-the-first-non-consecutive-number
-[2]: https://www.codewars.com/kata/58f8a3a27a5c28d92e000144

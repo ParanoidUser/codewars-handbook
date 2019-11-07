@@ -1,4 +1,4 @@
-# [A Needle in the Haystack][1]
+# [A Needle in the Haystack](https://www.codewars.com/kata/a-needle-in-the-haystack "56676e8fabd2d1ff3000000c")
 
 Can you find the needle in the haystack?
 
@@ -8,10 +8,29 @@ After your function finds the needle it should return a message (as a string) th
 
 `"found the needle at position "` plus the `index` it found the needle, so: 
 
+```python
+find_needle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])
 ```
+```ruby
+find_needle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])
+```
+```elixir
+find_needle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])
+```
+```javascript
+findNeedle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])
+```
+```typescript
+findNeedle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])
+```
+```java
 findNeedle(new Object[] {"hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"})
 ```
-should return `\"found the needle at position 5\"`
+```haskell
+findNeedle ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]
+```
+```racket
+(find-needle '("hay" "junk" "hay" "hay" "moreJunk" "needle","randomJunk"))
+```
 
-[1]: https://www.codewars.com/kata/a-needle-in-the-haystack
-[2]: https://www.codewars.com/kata/56676e8fabd2d1ff3000000c
+should return `"found the needle at position 5"`
