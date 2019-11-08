@@ -29,6 +29,7 @@
 - [Convert a Boolean to a String](convert-a-boolean-to-a-string)
 - [Convert a Number to a String!](convert-a-number-to-a-string)
 - [Convert a String to a Number!](convert-a-string-to-a-number)
+- [Convert a string to an array](convert-a-string-to-an-array)
 - [Convert boolean values to strings 'Yes' or 'No'.](convert-boolean-values-to-strings-yes-or-no)
 - [Convert number to reversed array of digits](convert-number-to-reversed-array-of-digits)
 - [Convert to Binary](convert-to-binary)
