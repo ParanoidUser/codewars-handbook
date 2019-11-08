@@ -9,6 +9,7 @@
 - [Age Range Compatibility Equation](age-range-compatibility-equation)
 - [All Star Code Challenge #18](all-star-code-challenge-number-18)
 - [Are You Playing Banjo?](are-you-playing-banjo)
+- [Area of a Square](area-of-a-square)
 - [Array plus array](array-plus-array)
 - [Basic Mathematical Operations](basic-mathematical-operations)
 - [Basic subclasses - Adam and Eve](basic-subclasses-adam-and-eve)
