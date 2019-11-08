@@ -37,6 +37,7 @@
 - [Count of positives / sum of negatives](count-of-positives-slash-sum-of-negatives)
 - [Count the Monkeys!](count-the-monkeys)
 - [Counting sheep...](counting-sheep-dot-dot-dot)
+- [Enumerable Magic #25 - Take the First N Elements](enumerable-magic-number-25-take-the-first-n-elements)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
