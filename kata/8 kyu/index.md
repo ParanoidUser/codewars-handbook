@@ -39,6 +39,7 @@
 - [Count the Monkeys!](count-the-monkeys)
 - [Counting sheep...](counting-sheep-dot-dot-dot)
 - [Determine offspring sex based on genes XX and XY chromosomes](determine-offspring-sex-based-on-genes-xx-and-xy-chromosomes)
+- [DNA to RNA Conversion](dna-to-rna-conversion)
 - [Enumerable Magic #25 - Take the First N Elements](enumerable-magic-number-25-take-the-first-n-elements)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [get character from ASCII Value](get-character-from-ascii-value)
