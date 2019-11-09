@@ -44,6 +44,7 @@
 - [Duck Duck Goose](duck-duck-goose)
 - [Enumerable Magic #25 - Take the First N Elements](enumerable-magic-number-25-take-the-first-n-elements)
 - [Even or Odd](even-or-odd)
+- [Exclamation marks series #11: Replace all vowel to exclamation mark in the sentence](exclamation-marks-series-number-11-replace-all-vowel-to-exclamation-mark-in-the-sentence)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
