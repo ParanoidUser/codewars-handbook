@@ -63,6 +63,7 @@
 - [FIXME: Static electrickery](fixme-static-electrickery)
 - [Formatting decimal places #0](formatting-decimal-places-number-0)
 - [Fuel Calculator](fuel-calculator)
+- [Function 1 - hello world](function-1-hello-world)
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
 - [L1: Set Alarm](l1-set-alarm)
