@@ -61,6 +61,7 @@
 - [Find the smallest integer in the array](find-the-smallest-integer-in-the-array)
 - [FIXME: Replace all dots](fixme-replace-all-dots)
 - [FIXME: Static electrickery](fixme-static-electrickery)
+- [Formatting decimal places #0](formatting-decimal-places-number-0)
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
 - [L1: Set Alarm](l1-set-alarm)
