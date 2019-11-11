@@ -54,6 +54,7 @@
 - [Find Nearest square number](find-nearest-square-number)
 - [Find numbers which are divisible by given number](find-numbers-which-are-divisible-by-given-number)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
+- [Find the force of gravity between two objects](find-the-force-of-gravity-between-two-objects)
 - [Find the Integral](find-the-integral)
 - [Find the Slope](find-the-slope)
 - [FIXME: Replace all dots](fixme-replace-all-dots)
