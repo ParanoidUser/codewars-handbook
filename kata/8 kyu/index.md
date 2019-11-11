@@ -58,6 +58,7 @@
 - [Find the Integral](find-the-integral)
 - [Find the position!](find-the-position)
 - [Find the Slope](find-the-slope)
+- [Find the smallest integer in the array](find-the-smallest-integer-in-the-array)
 - [FIXME: Replace all dots](fixme-replace-all-dots)
 - [FIXME: Static electrickery](fixme-static-electrickery)
 - [get character from ASCII Value](get-character-from-ascii-value)
