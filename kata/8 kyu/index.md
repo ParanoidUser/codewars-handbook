@@ -49,6 +49,7 @@
 - [Exclusive "or" (xor) Logical Operator](exclusive-or-xor-logical-operator)
 - [Expressions Matter](expressions-matter)
 - [Fake Binary](fake-binary)
+- [Filtering even numbers (Bug Fixes)](filtering-even-numbers-bug-fixes)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
