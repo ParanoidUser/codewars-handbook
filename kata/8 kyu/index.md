@@ -62,6 +62,7 @@
 - [FIXME: Replace all dots](fixme-replace-all-dots)
 - [FIXME: Static electrickery](fixme-static-electrickery)
 - [Formatting decimal places #0](formatting-decimal-places-number-0)
+- [Fuel Calculator](fuel-calculator)
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
 - [L1: Set Alarm](l1-set-alarm)
