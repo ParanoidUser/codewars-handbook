@@ -56,6 +56,7 @@
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [Find the force of gravity between two objects](find-the-force-of-gravity-between-two-objects)
 - [Find the Integral](find-the-integral)
+- [Find the position!](find-the-position)
 - [Find the Slope](find-the-slope)
 - [FIXME: Replace all dots](fixme-replace-all-dots)
 - [FIXME: Static electrickery](fixme-static-electrickery)
