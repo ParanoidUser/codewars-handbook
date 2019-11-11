@@ -55,6 +55,7 @@
 - [Find numbers which are divisible by given number](find-numbers-which-are-divisible-by-given-number)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
 - [Find the Integral](find-the-integral)
+- [Find the Slope](find-the-slope)
 - [FIXME: Replace all dots](fixme-replace-all-dots)
 - [FIXME: Static electrickery](fixme-static-electrickery)
 - [get character from ASCII Value](get-character-from-ascii-value)
