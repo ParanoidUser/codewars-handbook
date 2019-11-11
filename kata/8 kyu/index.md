@@ -54,6 +54,7 @@
 - [Find Nearest square number](find-nearest-square-number)
 - [Find numbers which are divisible by given number](find-numbers-which-are-divisible-by-given-number)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
+- [Find the Integral](find-the-integral)
 - [FIXME: Replace all dots](fixme-replace-all-dots)
 - [FIXME: Static electrickery](fixme-static-electrickery)
 - [get character from ASCII Value](get-character-from-ascii-value)
