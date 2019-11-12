@@ -1,4 +1,4 @@
-# [Determine offspring sex based on genes XX and XY chromosomes](https://www.codewars.com/kata/determine-offspring-sex-based-on-genes-xx-and-xy-chromosomes "56530b444e831334c0000020")
+# [Determine offspring sex based on genes XX and XY chromosomes](https://www.codewars.com/kata/determine-offspring-sex-based-on-genes-xx-and-xy-chromosomes "https://www.codewars.com/kata/56530b444e831334c0000020")
 
 The male gametes or sperm cells in humans and other mammals are heterogametic and contain one of two types of sex chromosomes. They are either X or Y. The female gametes or eggs however, contain only the X sex chromosome and are homogametic.
 

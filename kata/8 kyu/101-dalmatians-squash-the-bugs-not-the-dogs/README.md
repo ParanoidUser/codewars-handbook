@@ -1,4 +1,4 @@
-# [101 Dalmatians - squash the bugs, not the dogs!](https://www.codewars.com/kata/101-dalmatians-squash-the-bugs-not-the-dogs "56f6919a6b88de18ff000b36")
+# [101 Dalmatians - squash the bugs, not the dogs!](https://www.codewars.com/kata/101-dalmatians-squash-the-bugs-not-the-dogs "https://www.codewars.com/kata/56f6919a6b88de18ff000b36")
 
 Your friend has been out shopping for puppies (what a time to be alive!)... He arrives back with multiple dogs, and you simply do not know how to respond!
 

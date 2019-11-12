@@ -1,4 +1,4 @@
-# [Circles in Polygons](https://www.codewars.com/kata/circles-in-polygons "5a026a9cffe75fbace00007f")
+# [Circles in Polygons](https://www.codewars.com/kata/circles-in-polygons "https://www.codewars.com/kata/5a026a9cffe75fbace00007f")
 
 You are the owner of a box making company. 
 

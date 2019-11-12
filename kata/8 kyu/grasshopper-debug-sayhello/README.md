@@ -1,4 +1,4 @@
-# [Grasshopper - Debug sayHello](https://www.codewars.com/kata/grasshopper-debug-sayhello "5625618b1fe21ab49f00001f")
+# [Grasshopper - Debug sayHello](https://www.codewars.com/kata/grasshopper-debug-sayhello "https://www.codewars.com/kata/5625618b1fe21ab49f00001f")
 
 ## Debugging sayHello function
 

@@ -1,4 +1,4 @@
-# [Find the Integral](https://www.codewars.com/kata/find-the-integral "59811fd8a070625d4c000013")
+# [Find the Integral](https://www.codewars.com/kata/find-the-integral "https://www.codewars.com/kata/59811fd8a070625d4c000013")
 
 Create a function that finds the [integral](https://en.wikipedia.org/wiki/Integral) of the expression passed.
 

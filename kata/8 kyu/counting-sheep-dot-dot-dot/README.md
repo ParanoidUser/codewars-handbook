@@ -1,4 +1,4 @@
-# [Counting sheep...](https://www.codewars.com/kata/counting-sheep-dot-dot-dot "54edbc7200b811e956000556")
+# [Counting sheep...](https://www.codewars.com/kata/counting-sheep-dot-dot-dot "https://www.codewars.com/kata/54edbc7200b811e956000556")
 
 Consider an array of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
 

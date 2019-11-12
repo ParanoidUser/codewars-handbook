@@ -1,4 +1,4 @@
-# [Find the first non-consecutive number](https://www.codewars.com/kata/find-the-first-non-consecutive-number "58f8a3a27a5c28d92e000144")
+# [Find the first non-consecutive number](https://www.codewars.com/kata/find-the-first-non-consecutive-number "https://www.codewars.com/kata/58f8a3a27a5c28d92e000144")
 
 Your task is to find the first element of an array that is not consecutive.
 

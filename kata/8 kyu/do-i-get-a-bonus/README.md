@@ -1,4 +1,4 @@
-# [Do I get a bonus?](https://www.codewars.com/kata/do-i-get-a-bonus "56f6ad906b88de513f000d96")
+# [Do I get a bonus?](https://www.codewars.com/kata/do-i-get-a-bonus "https://www.codewars.com/kata/56f6ad906b88de513f000d96")
 
 It's bonus time in the big city! The fatcats are rubbing their paws in anticipation... but who is going to make the most money? 
 
