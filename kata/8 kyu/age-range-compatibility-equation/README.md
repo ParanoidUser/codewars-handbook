@@ -1,4 +1,4 @@
-# [Age Range Compatibility Equation](https://www.codewars.com/kata/age-range-compatibility-equation "5803956ddb07c5c74200144e")
+# [Age Range Compatibility Equation](https://www.codewars.com/kata/age-range-compatibility-equation "https://www.codewars.com/kata/5803956ddb07c5c74200144e")
 
 Everybody knows the classic ["half your age plus seven"](https://en.wikipedia.org/wiki/Age_disparity_in_sexual_relationships#The_.22half-your-age-plus-seven.22_rule) dating rule that a lot of people follow (including myself). It's the 'recommended' age range in which to date someone. 
 

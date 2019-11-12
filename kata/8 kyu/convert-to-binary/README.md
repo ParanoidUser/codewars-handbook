@@ -1,4 +1,4 @@
-# [Convert to Binary](https://www.codewars.com/kata/convert-to-binary "59fca81a5712f9fa4700159a")
+# [Convert to Binary](https://www.codewars.com/kata/convert-to-binary "https://www.codewars.com/kata/59fca81a5712f9fa4700159a")
 
 # Task Overview
 Given a non-negative integer `n`, write a function `toBinary`/`ToBinary` which returns that number in a binary format.

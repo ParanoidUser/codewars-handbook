@@ -1,4 +1,4 @@
-# [Grasshopper - Array Mean](https://www.codewars.com/kata/grasshopper-array-mean "55d277882e139d0b6000005d")
+# [Grasshopper - Array Mean](https://www.codewars.com/kata/grasshopper-array-mean "https://www.codewars.com/kata/55d277882e139d0b6000005d")
 
 # Find Mean
 

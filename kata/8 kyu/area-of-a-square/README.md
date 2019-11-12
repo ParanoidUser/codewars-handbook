@@ -1,4 +1,4 @@
-# [Area of a Square](https://www.codewars.com/kata/area-of-a-square "5748838ce2fab90b86001b1a")
+# [Area of a Square](https://www.codewars.com/kata/area-of-a-square "https://www.codewars.com/kata/5748838ce2fab90b86001b1a")
 
 Write the function `squareArea` ( or `square_area` ) that finds the area of the red square when you have the length of the circular arc `A`.
 

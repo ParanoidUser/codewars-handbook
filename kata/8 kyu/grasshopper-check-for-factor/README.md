@@ -1,4 +1,4 @@
-# [Grasshopper - Check for factor](https://www.codewars.com/kata/grasshopper-check-for-factor "55cbc3586671f6aa070000fb")
+# [Grasshopper - Check for factor](https://www.codewars.com/kata/grasshopper-check-for-factor "https://www.codewars.com/kata/55cbc3586671f6aa070000fb")
 
 # Check for Factor
 

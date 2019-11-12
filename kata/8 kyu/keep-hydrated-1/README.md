@@ -1,4 +1,4 @@
-# [Keep Hydrated!](https://www.codewars.com/kata/keep-hydrated-1 "582cb0224e56e068d800003c")
+# [Keep Hydrated!](https://www.codewars.com/kata/keep-hydrated-1 "https://www.codewars.com/kata/582cb0224e56e068d800003c")
 
 Nathan loves cycling. 
 

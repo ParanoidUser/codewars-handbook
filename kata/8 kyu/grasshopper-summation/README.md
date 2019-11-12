@@ -1,4 +1,4 @@
-# [Grasshopper - Summation](https://www.codewars.com/kata/grasshopper-summation "55d24f55d7dd296eb9000030")
+# [Grasshopper - Summation](https://www.codewars.com/kata/grasshopper-summation "https://www.codewars.com/kata/55d24f55d7dd296eb9000030")
 
 # Summation
 

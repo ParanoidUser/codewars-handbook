@@ -1,4 +1,4 @@
-# [Count of positives / sum of negatives](https://www.codewars.com/kata/count-of-positives-slash-sum-of-negatives "576bb71bbbcf0951d5000044")
+# [Count of positives / sum of negatives](https://www.codewars.com/kata/count-of-positives-slash-sum-of-negatives "https://www.codewars.com/kata/576bb71bbbcf0951d5000044")
 
 Given an array of integers.
 

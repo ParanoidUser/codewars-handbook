@@ -1,4 +1,4 @@
-# [Grasshopper - Personalized Message](https://www.codewars.com/kata/grasshopper-personalized-message "5772da22b89313a4d50012f7")
+# [Grasshopper - Personalized Message](https://www.codewars.com/kata/grasshopper-personalized-message "https://www.codewars.com/kata/5772da22b89313a4d50012f7")
 
 # Personalized greeting
 
@@ -10,4 +10,3 @@ case | return
 --- | ---
 name equals owner | 'Hello boss'
 otherwise         | 'Hello guest'
-

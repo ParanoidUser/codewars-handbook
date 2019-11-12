@@ -1,4 +1,4 @@
-# [A wolf in sheep's clothing](https://www.codewars.com/kata/a-wolf-in-sheeps-clothing "5c8bfa44b9d1192e1ebd3d15")
+# [A wolf in sheep's clothing](https://www.codewars.com/kata/a-wolf-in-sheeps-clothing "https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15")
 
 # A wolf in sheep's clothing
 
@@ -17,13 +17,8 @@ If the wolf is the closest animal to you, return `"Pls go away and stop eating m
 
 ## Examples
 
-```javascript
+```
 warnTheSheep(["sheep", "sheep", "sheep", "wolf", "sheep"]) === "Oi! Sheep number 1! You are about to be eaten by a wolf!"
 
 warnTheSheep(["sheep", "sheep", "wolf"]) === "Pls go away and stop eating my sheep"
-```
-```python
-warn_the_sheep(["sheep", "sheep", "sheep", "wolf", "sheep"]) == 'Oi! Sheep number 1! You are about to be eaten by a wolf!'
-
-warn_the_sheep(['sheep', 'sheep', 'wolf']) == 'Pls go away and stop eating my sheep'
 ```

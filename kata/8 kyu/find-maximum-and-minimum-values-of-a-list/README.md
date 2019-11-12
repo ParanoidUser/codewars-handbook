@@ -1,4 +1,4 @@
-# [Find Maximum and Minimum Values of a List](https://www.codewars.com/kata/find-maximum-and-minimum-values-of-a-list "577a98a6ae28071780000989")
+# [Find Maximum and Minimum Values of a List](https://www.codewars.com/kata/find-maximum-and-minimum-values-of-a-list "https://www.codewars.com/kata/577a98a6ae28071780000989")
 
 Your task is to make two functions, ```max``` and ```min``` (`maximum` and `minimum` in PHP and Python) that take a(n) array/vector of integers ```list``` as input and outputs, respectively, the largest and lowest number in that array/vector.
 

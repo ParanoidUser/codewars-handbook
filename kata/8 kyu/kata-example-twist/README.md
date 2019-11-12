@@ -1,4 +1,4 @@
-# [Kata Example Twist](https://www.codewars.com/kata/kata-example-twist "525c1a07bb6dda6944000031")
+# [Kata Example Twist](https://www.codewars.com/kata/kata-example-twist "https://www.codewars.com/kata/525c1a07bb6dda6944000031")
 
 This is an easy twist to the example kata (provided by Codewars when learning how to create your own kata). 
 

@@ -1,4 +1,4 @@
-# [All Star Code Challenge #18](https://www.codewars.com/kata/all-star-code-challenge-number-18 "5865918c6b569962950002a1")
+# [All Star Code Challenge #18](https://www.codewars.com/kata/all-star-code-challenge-number-18 "https://www.codewars.com/kata/5865918c6b569962950002a1")
 
 **This Kata is intended as a small challenge for my students**
 
@@ -8,17 +8,7 @@ Create a function called that accepts 2 string arguments and returns an integer 
 
 If no occurrences can be found, a count of 0 should be returned.
 
-```javascript
-strCount('Hello', 'o') // => 1
-strCount('Hello', 'l') // => 2
-strCount('', 'z')      // => 0
 ```
-```ruby
-strCount('Hello', 'o') # => 1
-strCount('Hello', 'l') # => 2
-strCount('', 'z')      # => 0
-```
-```java
 strCount("Hello", 'o') // => 1
 strCount("Hello", 'l') // => 2
 strCount("", 'z')      // => 0

@@ -1,4 +1,4 @@
-# [Duck Duck Goose](https://www.codewars.com/kata/duck-duck-goose "582e0e592029ea10530009ce")
+# [Duck Duck Goose](https://www.codewars.com/kata/duck-duck-goose "https://www.codewars.com/kata/582e0e592029ea10530009ce")
 
 The objective of [Duck, duck, goose](https://en.wikipedia.org/wiki/Duck,_duck,_goose) is to _walk in a circle_, tapping on each player's head until one is chosen.
 
@@ -15,10 +15,4 @@ Example:
 duck_duck_goose([a, b, c, d], 1) should return a.name
 duck_duck_goose([a, b, c, d], 5) should return a.name
 duck_duck_goose([a, b, c, d], 4) should return d.name
-```
-```php
-// PHP only
-duck_duck_goose([$a, $b, $c, $d], 1); // => $a["name"]
-duck_duck_goose([$a, $b, $c, $d], 5); // => $a["name"]
-duck_duck_goose([$a, $b, $c, $d], 4); // => $d["name"]
 ```

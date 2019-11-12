@@ -1,4 +1,4 @@
-# [Grasshopper - Grade book](https://www.codewars.com/kata/grasshopper-grade-book "55cbd4ba903825f7970000f5")
+# [Grasshopper - Grade book](https://www.codewars.com/kata/grasshopper-grade-book "https://www.codewars.com/kata/55cbd4ba903825f7970000f5")
 
 ## Grade book
 

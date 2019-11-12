@@ -1,4 +1,4 @@
-# [Find the Slope](https://www.codewars.com/kata/find-the-slope "55a75e2d0803fea18f00009d")
+# [Find the Slope](https://www.codewars.com/kata/find-the-slope "https://www.codewars.com/kata/55a75e2d0803fea18f00009d")
 
 Given an array of 4 integers  
 ```[a,b,c,d]``` representing two points ```(a, b)``` and ```(c, d)```, return a string representation of the slope of the line joining these two points. 

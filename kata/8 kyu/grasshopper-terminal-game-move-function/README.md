@@ -1,4 +1,4 @@
-# [Grasshopper - Terminal game move function](https://www.codewars.com/kata/grasshopper-terminal-game-move-function "563a631f7cbbc236cf0000c2")
+# [Grasshopper - Terminal game move function](https://www.codewars.com/kata/grasshopper-terminal-game-move-function "https://www.codewars.com/kata/563a631f7cbbc236cf0000c2")
 
 ## Terminal game move function
 
