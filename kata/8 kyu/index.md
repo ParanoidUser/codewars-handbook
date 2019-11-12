@@ -67,6 +67,7 @@
 - [Function 3 - multiplying two numbers](function-3-multiplying-two-numbers)
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Get Nth Even Number](get-nth-even-number)
+- [Get the mean of an array](get-the-mean-of-an-array)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
 - [L1: Set Alarm](l1-set-alarm)
 - [Multiple of index](multiple-of-index)
