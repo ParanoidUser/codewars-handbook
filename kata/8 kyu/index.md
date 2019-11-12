@@ -81,6 +81,7 @@
 - [Grasshopper - Terminal game move function](grasshopper-terminal-game-move-function)
 - [Hex to Decimal](hex-to-decimal)
 - [Holiday VIII - Duty Free](holiday-viii-duty-free)
+- [How do I compare numbers?](how-do-i-compare-numbers)
 - [L1: Set Alarm](l1-set-alarm)
 - [Multiple of index](multiple-of-index)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
