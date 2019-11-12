@@ -71,6 +71,7 @@
 - [Ghost code?!](ghost-code)
 - [Grasshopper - Array Mean](grasshopper-array-mean)
 - [Grasshopper - Basic Function Fixer](grasshopper-basic-function-fixer)
+- [Grasshopper - Check for factor](grasshopper-check-for-factor)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
 - [L1: Set Alarm](l1-set-alarm)
 - [Multiple of index](multiple-of-index)
