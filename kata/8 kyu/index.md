@@ -91,6 +91,7 @@
 - [Is it a number?](is-it-a-number)
 - [Is it even?](is-it-even)
 - [Is n divisible by x and y?](is-n-divisible-by-x-and-y)
+- [Jenny's secret message](jennys-secret-message)
 - [L1: Set Alarm](l1-set-alarm)
 - [Multiple of index](multiple-of-index)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
