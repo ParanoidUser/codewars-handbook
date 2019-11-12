@@ -78,6 +78,7 @@
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
 - [Grasshopper - Personalized Message](grasshopper-personalized-message)
 - [Grasshopper - Summation](grasshopper-summation)
+- [Grasshopper - Terminal game move function](grasshopper-terminal-game-move-function)
 - [L1: Set Alarm](l1-set-alarm)
 - [Multiple of index](multiple-of-index)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
