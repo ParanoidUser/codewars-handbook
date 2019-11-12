@@ -80,6 +80,7 @@
 - [Grasshopper - Summation](grasshopper-summation)
 - [Grasshopper - Terminal game move function](grasshopper-terminal-game-move-function)
 - [Hex to Decimal](hex-to-decimal)
+- [Holiday VIII - Duty Free](holiday-viii-duty-free)
 - [L1: Set Alarm](l1-set-alarm)
 - [Multiple of index](multiple-of-index)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
