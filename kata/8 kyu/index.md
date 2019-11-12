@@ -74,6 +74,7 @@
 - [Grasshopper - Check for factor](grasshopper-check-for-factor)
 - [Grasshopper - Debug sayHello](grasshopper-debug-sayhello)
 - [Grasshopper - Debug](grasshopper-debug)
+- [Grasshopper - Grade book](grasshopper-grade-book)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
 - [L1: Set Alarm](l1-set-alarm)
 - [Multiple of index](multiple-of-index)
