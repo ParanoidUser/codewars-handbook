@@ -88,6 +88,7 @@
 - [I love you,  a little ,  a lot,  passionately ... not at all](i-love-you-a-little-a-lot-passionately-dot-dot-dot-not-at-all)
 - [If you can't sleep, just count sheep!!](if-you-cant-sleep-just-count-sheep)
 - [Invert values](invert-values)
+- [Is it a number?](is-it-a-number)
 - [L1: Set Alarm](l1-set-alarm)
 - [Multiple of index](multiple-of-index)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
