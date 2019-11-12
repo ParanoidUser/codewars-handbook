@@ -89,6 +89,7 @@
 - [If you can't sleep, just count sheep!!](if-you-cant-sleep-just-count-sheep)
 - [Invert values](invert-values)
 - [Is it a number?](is-it-a-number)
+- [Is it even?](is-it-even)
 - [L1: Set Alarm](l1-set-alarm)
 - [Multiple of index](multiple-of-index)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
