@@ -97,6 +97,7 @@
 - [L1: Set Alarm](l1-set-alarm)
 - [Lario and Muigi Pipe Problem](lario-and-muigi-pipe-problem)
 - [Leonardo Dicaprio and Oscars](leonardo-dicaprio-and-oscars)
+- [Localize The Barycenter of a Triangle](localize-the-barycenter-of-a-triangle)
 - [Multiple of index](multiple-of-index)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
 - [Sum of differences in array](sum-of-differences-in-array)
