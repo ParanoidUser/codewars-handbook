@@ -100,6 +100,7 @@
 - [Localize The Barycenter of a Triangle](localize-the-barycenter-of-a-triangle)
 - [MakeUpperCase](makeuppercase)
 - [Merging sorted integer arrays (without duplicates)](merging-sorted-integer-arrays-without-duplicates)
+- [Miles per gallon to kilometers per liter](miles-per-gallon-to-kilometers-per-liter)
 - [Multiple of index](multiple-of-index)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
 - [Sum of differences in array](sum-of-differences-in-array)
