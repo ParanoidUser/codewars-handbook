@@ -102,6 +102,7 @@
 - [Merging sorted integer arrays (without duplicates)](merging-sorted-integer-arrays-without-duplicates)
 - [Miles per gallon to kilometers per liter](miles-per-gallon-to-kilometers-per-liter)
 - [Multiple of index](multiple-of-index)
+- [Multiply](multiply)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
 - [Sum of differences in array](sum-of-differences-in-array)
 - [You only need one - Beginner](you-only-need-one-beginner)
