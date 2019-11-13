@@ -95,6 +95,7 @@
 - [Kata Example Twist](kata-example-twist)
 - [Keep Hydrated!](keep-hydrated-1)
 - [L1: Set Alarm](l1-set-alarm)
+- [Lario and Muigi Pipe Problem](lario-and-muigi-pipe-problem)
 - [Multiple of index](multiple-of-index)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
 - [Sum of differences in array](sum-of-differences-in-array)
