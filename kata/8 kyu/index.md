@@ -104,6 +104,7 @@
 - [Multiple of index](multiple-of-index)
 - [Multiply](multiply)
 - [My head is at the wrong end!](my-head-is-at-the-wrong-end)
+- [N-th Power](n-th-power)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
 - [Sum of differences in array](sum-of-differences-in-array)
 - [You only need one - Beginner](you-only-need-one-beginner)
