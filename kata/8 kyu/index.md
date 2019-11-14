@@ -143,6 +143,7 @@
 - [Reversed Words](reversed-words)
 - [Rock Paper Scissors!](rock-paper-scissors)
 # S
+- [Sentence Smash](sentence-smash)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
 - [Sum of differences in array](sum-of-differences-in-array)
 # Y
