@@ -148,6 +148,7 @@
 - [Simple multiplication](simple-multiplication)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
 - [Sleigh Authentication](sleigh-authentication)
+- [Sort and Star](sort-and-star)
 - [Sum of differences in array](sum-of-differences-in-array)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
