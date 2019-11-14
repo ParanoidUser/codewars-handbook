@@ -114,6 +114,7 @@
 - [Plural](plural)
 - [Printing Array elements with Comma delimiters](printing-array-elements-with-comma-delimiters)
 - [Push a hash/an object into array](push-a-hash-slash-an-object-into-array)
+- [Pythagorean Triple](pythagorean-triple)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
 - [Sum of differences in array](sum-of-differences-in-array)
 - [You only need one - Beginner](you-only-need-one-beginner)
