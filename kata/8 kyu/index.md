@@ -110,6 +110,7 @@
 - [Opposite number](opposite-number)
 - [Opposites Attract](opposites-attract)
 - [Parse nice int from char problem](parse-nice-int-from-char-problem)
+- [Playing with cubes I](playing-with-cubes-i)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
 - [Sum of differences in array](sum-of-differences-in-array)
 - [You only need one - Beginner](you-only-need-one-beginner)
