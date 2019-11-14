@@ -1,6 +1,8 @@
+# \#
 - ["this" is a problem](this-is-a-problem)
 - [101 Dalmatians - squash the bugs, not the dogs!](101-dalmatians-squash-the-bugs-not-the-dogs)
 - [8kyu interpreters: HQ9+](8kyu-interpreters-hq9-plus)
+# A
 - [A + B](a-plus-b)
 - [A Needle in the Haystack](a-needle-in-the-haystack)
 - [A Strange Trip to the Market](a-strange-trip-to-the-market)
@@ -11,6 +13,7 @@
 - [Are You Playing Banjo?](are-you-playing-banjo)
 - [Area of a Square](area-of-a-square)
 - [Array plus array](array-plus-array)
+# B
 - [Basic Mathematical Operations](basic-mathematical-operations)
 - [Basic subclasses - Adam and Eve](basic-subclasses-adam-and-eve)
 - [Basic variable assignment](basic-variable-assignment)
@@ -19,6 +22,7 @@
 - [Beginner - Reduce but Grow](beginner-reduce-but-grow)
 - [Beginner Series #2 Clock](beginner-series-number-2-clock)
 - [Beginner Series #4 Cockroach](beginner-series-number-4-cockroach)
+# C
 - [Calculate average](calculate-average)
 - [Calculate BMI](calculate-bmi)
 - [Cat years, Dog years](cat-years-dog-years)
@@ -38,16 +42,19 @@
 - [Count of positives / sum of negatives](count-of-positives-slash-sum-of-negatives)
 - [Count the Monkeys!](count-the-monkeys)
 - [Counting sheep...](counting-sheep-dot-dot-dot)
+# D
 - [Determine offspring sex based on genes XX and XY chromosomes](determine-offspring-sex-based-on-genes-xx-and-xy-chromosomes)
 - [DNA to RNA Conversion](dna-to-rna-conversion)
 - [Do I get a bonus?](do-i-get-a-bonus)
 - [Duck Duck Goose](duck-duck-goose)
+# E
 - [Enumerable Magic #25 - Take the First N Elements](enumerable-magic-number-25-take-the-first-n-elements)
 - [Even or Odd](even-or-odd)
 - [Exclamation marks series #11: Replace all vowel to exclamation mark in the sentence](exclamation-marks-series-number-11-replace-all-vowel-to-exclamation-mark-in-the-sentence)
 - [Exclamation marks series #6: Remove n exclamation marks in the sentence from left to right](exclamation-marks-series-number-6-remove-n-exclamation-marks-in-the-sentence-from-left-to-right)
 - [Exclusive "or" (xor) Logical Operator](exclusive-or-xor-logical-operator)
 - [Expressions Matter](expressions-matter)
+# F
 - [Fake Binary](fake-binary)
 - [Filtering even numbers (Bug Fixes)](filtering-even-numbers-bug-fixes)
 - [Find Maximum and Minimum Values of a List](find-maximum-and-minimum-values-of-a-list)
@@ -65,6 +72,7 @@
 - [Fuel Calculator](fuel-calculator)
 - [Function 1 - hello world](function-1-hello-world)
 - [Function 3 - multiplying two numbers](function-3-multiplying-two-numbers)
+# G
 - [get character from ASCII Value](get-character-from-ascii-value)
 - [Get Nth Even Number](get-nth-even-number)
 - [Get the mean of an array](get-the-mean-of-an-array)
@@ -72,49 +80,59 @@
 - [Grasshopper - Array Mean](grasshopper-array-mean)
 - [Grasshopper - Basic Function Fixer](grasshopper-basic-function-fixer)
 - [Grasshopper - Check for factor](grasshopper-check-for-factor)
-- [Grasshopper - Debug sayHello](grasshopper-debug-sayhello)
 - [Grasshopper - Debug](grasshopper-debug)
+- [Grasshopper - Debug sayHello](grasshopper-debug-sayhello)
 - [Grasshopper - Grade book](grasshopper-grade-book)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
 - [Grasshopper - Personalized Message](grasshopper-personalized-message)
 - [Grasshopper - Summation](grasshopper-summation)
 - [Grasshopper - Terminal game move function](grasshopper-terminal-game-move-function)
+# H
 - [Hex to Decimal](hex-to-decimal)
 - [Holiday VIII - Duty Free](holiday-viii-duty-free)
 - [How do I compare numbers?](how-do-i-compare-numbers)
 - [How good are you really?](how-good-are-you-really)
 - [How many stairs will Suzuki climb in 20 years?](how-many-stairs-will-suzuki-climb-in-20-years)
 - [How old will I be in 2099?](how-old-will-i-be-in-2099)
+# I
 - [I love you, a little, a lot, passionately... not at all](i-love-you-a-little-a-lot-passionately-dot-dot-dot-not-at-all)
 - [If you can't sleep, just count sheep!!](if-you-cant-sleep-just-count-sheep)
 - [Invert values](invert-values)
 - [Is it a number?](is-it-a-number)
 - [Is it even?](is-it-even)
 - [Is n divisible by x and y?](is-n-divisible-by-x-and-y)
+# J
 - [Jenny's secret message](jennys-secret-message)
+# K
 - [Kata Example Twist](kata-example-twist)
 - [Keep Hydrated!](keep-hydrated-1)
+# L
 - [L1: Set Alarm](l1-set-alarm)
 - [Lario and Muigi Pipe Problem](lario-and-muigi-pipe-problem)
 - [Leonardo Dicaprio and Oscars](leonardo-dicaprio-and-oscars)
 - [Localize The Barycenter of a Triangle](localize-the-barycenter-of-a-triangle)
+# M
 - [MakeUpperCase](makeuppercase)
 - [Merging sorted integer arrays (without duplicates)](merging-sorted-integer-arrays-without-duplicates)
 - [Miles per gallon to kilometers per liter](miles-per-gallon-to-kilometers-per-liter)
 - [Multiple of index](multiple-of-index)
 - [Multiply](multiply)
 - [My head is at the wrong end!](my-head-is-at-the-wrong-end)
+# N
 - [N-th Power](n-th-power)
 - [No zeros for heroes](no-zeros-for-heros)
 - [Number toString](number-tostring)
+# O
 - [Opposite number](opposite-number)
 - [Opposites Attract](opposites-attract)
+# P
 - [Parse nice int from char problem](parse-nice-int-from-char-problem)
 - [Playing with cubes I](playing-with-cubes-i)
 - [Plural](plural)
 - [Printing Array elements with Comma delimiters](printing-array-elements-with-comma-delimiters)
 - [Push a hash/an object into array](push-a-hash-slash-an-object-into-array)
 - [Pythagorean Triple](pythagorean-triple)
+# R
 - [Regexp Basics - is it a digit?](regexp-basics-is-it-a-digit)
 - [Remove exclamation marks](remove-exclamation-marks)
 - [Remove First and Last Character](remove-first-and-last-character)
@@ -124,6 +142,8 @@
 - [Reversed Strings](reversed-strings)
 - [Reversed Words](reversed-words)
 - [Rock Paper Scissors!](rock-paper-scissors)
+# S
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
 - [Sum of differences in array](sum-of-differences-in-array)
+# Y
 - [You only need one - Beginner](you-only-need-one-beginner)
