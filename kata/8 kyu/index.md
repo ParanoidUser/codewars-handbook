@@ -159,5 +159,6 @@
 - [Sum Mixed Array](sum-mixed-array)
 - [Sum of differences in array](sum-of-differences-in-array)
 - [Sum of positive](sum-of-positive)
+- [Sum without highest and lowest number](sum-without-highest-and-lowest-number)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
