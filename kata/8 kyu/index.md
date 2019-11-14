@@ -147,6 +147,7 @@
 - [Simple Fun #1: Seats in Theater](simple-fun-number-1-seats-in-theater)
 - [Simple multiplication](simple-multiplication)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
+- [Sleigh Authentication](sleigh-authentication)
 - [Sum of differences in array](sum-of-differences-in-array)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
