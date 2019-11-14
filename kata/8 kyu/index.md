@@ -158,5 +158,6 @@
 - [Subtract the Sum](subtract-the-sum)
 - [Sum Mixed Array](sum-mixed-array)
 - [Sum of differences in array](sum-of-differences-in-array)
+- [Sum of positive](sum-of-positive)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
