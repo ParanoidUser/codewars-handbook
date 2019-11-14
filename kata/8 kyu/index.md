@@ -73,7 +73,7 @@
 - [Function 1 - hello world](function-1-hello-world)
 - [Function 3 - multiplying two numbers](function-3-multiplying-two-numbers)
 # G
-- [get character from ASCII Value](get-character-from-ascii-value)
+- [Get character from ASCII Value](get-character-from-ascii-value)
 - [Get Nth Even Number](get-nth-even-number)
 - [Get the mean of an array](get-the-mean-of-an-array)
 - [Ghost code?!](ghost-code)
