@@ -1,6 +1,6 @@
 rootProject.name = 'codewars'
 
-def skip = ['build', '8 kyu']
+def skip = ['build', '8 kyu', '7 kyu', '6 kyu', '5 kyu', '4 kyu', '3 kyu', '2 kyu', '1 kyu']
 file('kata').traverse(type: groovy.io.FileType.DIRECTORIES, maxDepth: 1) {
     if (!skip.contains(it.name)) {
         include it.name
