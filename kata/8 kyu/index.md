@@ -152,6 +152,7 @@
 - [Sort My Textbooks](sort-my-textbooks)
 - [Square(n) Sum](square-n-sum)
 - [Squash the bugs](squash-the-bugs)
+- [String repeat](string-repeat)
 - [Sum of differences in array](sum-of-differences-in-array)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
