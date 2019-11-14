@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class SortingTest {
   @Test
   public void basicTest() {
-    assertEquals(List.of("Algebra", "History", "Geometry", "English"), sorter.sort(List.of("Algebra", "English", "Geometry", "History")));
+    assertEquals(List.of("Algebra", "English", "Geometry", "History"), sorter.sort(List.of("Algebra", "History", "Geometry", "English")));
   }
 
   @Test
