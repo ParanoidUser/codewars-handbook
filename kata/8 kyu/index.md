@@ -154,6 +154,7 @@
 - [Squash the bugs](squash-the-bugs)
 - [String repeat](string-repeat)
 - [String Templates - Bug Fixing #5](string-templates-bug-fixing-number-5)
+- [Stringy Strings](stringy-strings)
 - [Sum of differences in array](sum-of-differences-in-array)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
