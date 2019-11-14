@@ -162,5 +162,6 @@
 - [Sum without highest and lowest number](sum-without-highest-and-lowest-number)
 - [Surface  Area and Volume of a Box](surface-area-and-volume-of-a-box)
 - [Swap Values](swap-values)
+- [Switch it Up!](switch-it-up)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
