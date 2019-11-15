@@ -166,5 +166,6 @@
 # T
 - [The Feast of Many Beasts](the-feast-of-many-beasts)
 - [Thinkful - Logic Drills: Traffic light](thinkful-logic-drills-traffic-light)
+- [Thinkful - Number Drills: Pixelart planning](thinkful-number-drills-pixelart-planning)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
