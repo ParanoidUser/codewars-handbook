@@ -138,6 +138,7 @@
 - [Remove exclamation marks](remove-exclamation-marks)
 - [Remove First and Last Character](remove-first-and-last-character)
 - [Remove String Spaces](remove-string-spaces)
+- [RepeatIt](repeatit)
 - [Return Negative](return-negative)
 - [Reversed sequence](reversed-sequence)
 - [Reversed Strings](reversed-strings)
