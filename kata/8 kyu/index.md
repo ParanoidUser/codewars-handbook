@@ -170,5 +170,7 @@
 - [Third Angle of a Triangle](third-angle-of-a-triangle)
 - [Tip Calculator](tip-calculator)
 - [To square(root) or not to square(root)](to-square-root-or-not-to-square-root)
+- [Total amount of points](total-amount-of-points)
+- [Training JS #7: if..else and ternary operator](training-js-number-7-if-dot-else-and-ternary-operator)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
