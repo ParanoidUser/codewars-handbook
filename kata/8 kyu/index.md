@@ -179,5 +179,7 @@
 - [Unfinished Loop -  Bug Fixing #1](unfinished-loop-bug-fixing-number-1)
 # V
 - [Volume of a Cuboid](volume-of-a-cuboid)
+# W
+- [Welcome!](welcome)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
