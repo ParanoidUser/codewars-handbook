@@ -174,5 +174,6 @@
 - [Training JS #7: if..else and ternary operator](training-js-number-7-if-dot-else-and-ternary-operator)
 - [Transportation on vacation](transportation-on-vacation)
 - [Triple Trouble](triple-trouble-2)
+- [Twice as old](twice-as-old)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
