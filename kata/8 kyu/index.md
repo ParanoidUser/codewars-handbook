@@ -180,6 +180,7 @@
 # V
 - [Volume of a Cuboid](volume-of-a-cuboid)
 # W
+- [Welcome to the City](welcome-to-the-city)
 - [Welcome!](welcome)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
