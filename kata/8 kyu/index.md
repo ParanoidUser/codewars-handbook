@@ -168,5 +168,6 @@
 - [Thinkful - Logic Drills: Traffic light](thinkful-logic-drills-traffic-light)
 - [Thinkful - Number Drills: Pixelart planning](thinkful-number-drills-pixelart-planning)
 - [Third Angle of a Triangle](third-angle-of-a-triangle)
+- [Tip Calculator](tip-calculator)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
