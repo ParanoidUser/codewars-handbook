@@ -169,5 +169,6 @@
 - [Thinkful - Number Drills: Pixelart planning](thinkful-number-drills-pixelart-planning)
 - [Third Angle of a Triangle](third-angle-of-a-triangle)
 - [Tip Calculator](tip-calculator)
+- [To square(root) or not to square(root)](to-square-root-or-not-to-square-root)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
