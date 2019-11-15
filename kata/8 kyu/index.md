@@ -184,5 +184,6 @@
 - [Welcome!](welcome)
 - [Well of Ideas - Easy Version](well-of-ideas-easy-version)
 - [Will there be enough space?](will-there-be-enough-space)
+- [Wilson primes](wilson-primes)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
