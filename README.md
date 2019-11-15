@@ -56,7 +56,7 @@
       </tr>
       <tr>
          <td><a href="kata/8%20kyu/index.md">8 kyu</a></td>
-         <td>147 out of 169</td>
+         <td>169 out of 169 kata</td>
       </tr>
    </tbody>
 </table>
