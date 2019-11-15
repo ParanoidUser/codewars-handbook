@@ -172,5 +172,6 @@
 - [To square(root) or not to square(root)](to-square-root-or-not-to-square-root)
 - [Total amount of points](total-amount-of-points)
 - [Training JS #7: if..else and ternary operator](training-js-number-7-if-dot-else-and-ternary-operator)
+- [Transportation on vacation](transportation-on-vacation)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
