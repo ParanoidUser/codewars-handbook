@@ -183,5 +183,6 @@
 - [Welcome to the City](welcome-to-the-city)
 - [Welcome!](welcome)
 - [Well of Ideas - Easy Version](well-of-ideas-easy-version)
+- [Will there be enough space?](will-there-be-enough-space)
 # Y
 - [You only need one - Beginner](you-only-need-one-beginner)
