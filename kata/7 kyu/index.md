@@ -8,9 +8,10 @@
 # A
 - [A Man  and his Earthly Measurement](a-man-and-his-earthly-measurement)
 - [A Rule of Divisibility by 7](a-rule-of-divisibility-by-7)
+- [Acronym Generator](acronym-generator)
 - [AD2070: Help Lorimar troubleshoot his robots-  ultrasonic distance analysis](ad2070-help-lorimar-troubleshoot-his-robots-ultrasonic-distance-analysis)
+- [Adding values of arrays in a shifted way](adding-values-of-arrays-in-a-shifted-way)
+- [Age in days](age-in-days)
 - [All Inclusive?](all-inclusive)
 - [ANTISTRING](antistring)
 - [ATM](atm)
-- [Acronym Generator](acronym-generator)
-- [Adding values of arrays in a shifted way](adding-values-of-arrays-in-a-shifted-way)
