@@ -12,3 +12,4 @@
 - [All Inclusive?](all-inclusive)
 - [ANTISTRING](antistring)
 - [ATM](atm)
+- [Acronym Generator](acronym-generator)
