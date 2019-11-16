@@ -13,5 +13,6 @@
 - [Adding values of arrays in a shifted way](adding-values-of-arrays-in-a-shifted-way)
 - [Age in days](age-in-days)
 - [All Inclusive?](all-inclusive)
+- [Alphabet symmetry](alphabet-symmetry)
 - [ANTISTRING](antistring)
 - [ATM](atm)
