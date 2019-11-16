@@ -13,3 +13,4 @@
 - [ANTISTRING](antistring)
 - [ATM](atm)
 - [Acronym Generator](acronym-generator)
+- [Adding values of arrays in a shifted way](adding-values-of-arrays-in-a-shifted-way)
