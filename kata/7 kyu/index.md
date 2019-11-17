@@ -17,5 +17,6 @@
 - [Alphabet war](alphabet-war)
 - [Alphabetical Addition](alphabetical-addition)
 - [Alphabetical Sequence](alphabetical-sequence)
+- [Alternate Square Sum](alternate-square-sum)
 - [ANTISTRING](antistring)
 - [ATM](atm)
