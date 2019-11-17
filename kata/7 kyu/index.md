@@ -14,5 +14,6 @@
 - [Age in days](age-in-days)
 - [All Inclusive?](all-inclusive)
 - [Alphabet symmetry](alphabet-symmetry)
+- [Alphabet war](alphabet-war)
 - [ANTISTRING](antistring)
 - [ATM](atm)
