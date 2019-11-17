@@ -15,5 +15,6 @@
 - [All Inclusive?](all-inclusive)
 - [Alphabet symmetry](alphabet-symmetry)
 - [Alphabet war](alphabet-war)
+- [Alphabetical Addition](alphabetical-addition)
 - [ANTISTRING](antistring)
 - [ATM](atm)
