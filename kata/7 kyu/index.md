@@ -25,3 +25,5 @@
 - [Bingo (Or Not)](bingo-or-not)
 - [Breaking chocolate problem](breaking-chocolate-problem)
 - [Broken sequence](broken-sequence)
+# C
+- [Changing letters](changing-letters)
