@@ -16,5 +16,6 @@
 - [Alphabet symmetry](alphabet-symmetry)
 - [Alphabet war](alphabet-war)
 - [Alphabetical Addition](alphabetical-addition)
+- [Alphabetical Sequence](alphabetical-sequence)
 - [ANTISTRING](antistring)
 - [ATM](atm)
