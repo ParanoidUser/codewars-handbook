@@ -2,15 +2,14 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class TipCalculatorTest {
-  
   @Test
   public void test1() {
-    assertEquals(new Integer(2), TipCalculator.calculateTip(30d, "poor"));
+    assertEquals(Integer.valueOf(2), TipCalculator.calculateTip(30d, "poor"));
   }
   
   @Test
   public void test2() {
-    assertEquals(new Integer(4), TipCalculator.calculateTip(20d, "Excellent"));
+    assertEquals(Integer.valueOf(4), TipCalculator.calculateTip(20d, "Excellent"));
   }
   
   @Test
@@ -20,6 +19,6 @@ public class TipCalculatorTest {
   
   @Test
   public void test4() {
-    assertEquals(new Integer(17), TipCalculator.calculateTip(107.65, "GReat"));
+    assertEquals(Integer.valueOf(17), TipCalculator.calculateTip(107.65, "GReat"));
   }
 }
