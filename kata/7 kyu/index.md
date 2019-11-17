@@ -27,3 +27,4 @@
 - [Broken sequence](broken-sequence)
 # C
 - [Changing letters](changing-letters)
+- [Composing squared strings](composing-squared-strings)
