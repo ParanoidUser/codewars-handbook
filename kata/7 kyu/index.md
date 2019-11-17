@@ -28,3 +28,4 @@
 # C
 - [Changing letters](changing-letters)
 - [Composing squared strings](composing-squared-strings)
+- [Count the Digit](count-the-digit)
