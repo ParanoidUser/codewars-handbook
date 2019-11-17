@@ -20,3 +20,5 @@
 - [Alternate Square Sum](alternate-square-sum)
 - [ANTISTRING](antistring)
 - [ATM](atm)
+# B
+- [Balanced Number (Special Numbers Series #1 )](balanced-number-special-numbers-series-number-1)
