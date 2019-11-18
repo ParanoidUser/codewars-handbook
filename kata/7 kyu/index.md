@@ -26,6 +26,7 @@
 - [Approaching enemies](approaching-enemies)
 - [Are the numbers in order?](are-the-numbers-in-order)
 - [Area of a Circle](area-of-a-circle)
+- [Arithmetic progression](arithmetic-progression)
 - [ATM](atm)
 # B
 - [Balanced Number (Special Numbers Series #1 )](balanced-number-special-numbers-series-number-1)
