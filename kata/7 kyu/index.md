@@ -24,6 +24,7 @@
 - [Anagram Detection](anagram-detection)
 - [ANTISTRING](antistring)
 - [Approaching enemies](approaching-enemies)
+- [Are the numbers in order?](are-the-numbers-in-order)
 - [ATM](atm)
 # B
 - [Balanced Number (Special Numbers Series #1 )](balanced-number-special-numbers-series-number-1)
