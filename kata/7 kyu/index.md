@@ -21,6 +21,7 @@
 - [Alternate case](alternate-case)
 - [Alternate Square Sum](alternate-square-sum)
 - [An English Twist on a Japanese Classic](an-english-twist-on-a-japanese-classic)
+- [Anagram Detection](anagram-detection)
 - [ANTISTRING](antistring)
 - [ATM](atm)
 # B
