@@ -20,6 +20,7 @@
 - [Alternate capitalization](alternate-capitalization)
 - [Alternate case](alternate-case)
 - [Alternate Square Sum](alternate-square-sum)
+- [An English Twist on a Japanese Classic](an-english-twist-on-a-japanese-classic)
 - [ANTISTRING](antistring)
 - [ATM](atm)
 # B
