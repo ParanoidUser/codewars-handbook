@@ -18,6 +18,7 @@
 - [Alphabetical Addition](alphabetical-addition)
 - [Alphabetical Sequence](alphabetical-sequence)
 - [Alternate capitalization](alternate-capitalization)
+- [Alternate case](alternate-case)
 - [Alternate Square Sum](alternate-square-sum)
 - [ANTISTRING](antistring)
 - [ATM](atm)
