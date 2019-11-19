@@ -38,6 +38,7 @@
 - [Basic Calculator](basic-calculator)
 - [Basics - Generators #1](basics-generators-number-1)
 - [Batman Quotes](batman-quotes)
+- [Battle of the characters (Easy)](battle-of-the-characters-easy)
 - [Bingo (Or Not)](bingo-or-not)
 - [Breaking chocolate problem](breaking-chocolate-problem)
 - [Broken sequence](broken-sequence)
