@@ -23,6 +23,11 @@
 <table>
    <tbody>
       <tr>
+         <th>Difficulty</th>
+         <th>Rank</th>
+         <th>Solved</th>
+      </tr>
+      <tr>
          <td rowspan=2>Proficient</td>
          <td><a href="kata/1%20kyu/index.md">1 kyu</a></td>
          <td>0 out of 16</td>
@@ -52,7 +57,7 @@
       <tr>
          <td rowspan=2>Beginner</td>
          <td><a href="kata/7%20kyu/index.md">7 kyu</a></td>
-         <td>33 out of 409</td>
+         <td>38 out of 409</td>
       </tr>
       <tr>
          <td><a href="kata/8%20kyu/index.md">8 kyu</a></td>
