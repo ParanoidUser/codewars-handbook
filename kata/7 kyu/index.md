@@ -41,6 +41,7 @@
 - [Battle of the characters (Easy)](battle-of-the-characters-easy)
 - [Beginner Series #3 Sum of Numbers](beginner-series-number-3-sum-of-numbers)
 - [Between Extremes](between-extremes)
+- [Binary Calculator](binary-calculator)
 - [Bingo (Or Not)](bingo-or-not)
 - [Breaking chocolate problem](breaking-chocolate-problem)
 - [Broken sequence](broken-sequence)
