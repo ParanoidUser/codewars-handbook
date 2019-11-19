@@ -36,6 +36,7 @@
 # B
 - [Balanced Number (Special Numbers Series #1 )](balanced-number-special-numbers-series-number-1)
 - [Basic Calculator](basic-calculator)
+- [Basics - Generators #1](basics-generators-number-1)
 - [Bingo (Or Not)](bingo-or-not)
 - [Breaking chocolate problem](breaking-chocolate-problem)
 - [Broken sequence](broken-sequence)
