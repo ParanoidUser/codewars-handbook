@@ -42,6 +42,7 @@
 - [Beginner Series #3 Sum of Numbers](beginner-series-number-3-sum-of-numbers)
 - [Between Extremes](between-extremes)
 - [Binary Calculator](binary-calculator)
+- [Binary scORe](binary-score)
 - [Bingo (Or Not)](bingo-or-not)
 - [Breaking chocolate problem](breaking-chocolate-problem)
 - [Broken sequence](broken-sequence)
