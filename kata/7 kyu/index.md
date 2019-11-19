@@ -35,6 +35,7 @@
 - [Averages of numbers](averages-of-numbers)
 # B
 - [Balanced Number (Special Numbers Series #1 )](balanced-number-special-numbers-series-number-1)
+- [Basic Calculator](basic-calculator)
 - [Bingo (Or Not)](bingo-or-not)
 - [Breaking chocolate problem](breaking-chocolate-problem)
 - [Broken sequence](broken-sequence)
