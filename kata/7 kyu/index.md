@@ -32,6 +32,7 @@
 - [Array Leaders (Array Series #3)](array-leaders-array-series-number-3)
 - [ATM](atm)
 - [Automorphic Number (Special Numbers Series #6)](automorphic-number-special-numbers-series-number-6)
+- [Averages of numbers](averages-of-numbers)
 # B
 - [Balanced Number (Special Numbers Series #1 )](balanced-number-special-numbers-series-number-1)
 - [Bingo (Or Not)](bingo-or-not)
