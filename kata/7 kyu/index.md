@@ -28,6 +28,7 @@
 - [Area of a Circle](area-of-a-circle)
 - [Arithmetic progression](arithmetic-progression)
 - [Arithmetic Sequence!](arithmetic-sequence)
+- [Array - squareUp b!](array-squareup-b)
 - [ATM](atm)
 # B
 - [Balanced Number (Special Numbers Series #1 )](balanced-number-special-numbers-series-number-1)
