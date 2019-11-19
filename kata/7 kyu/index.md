@@ -43,6 +43,7 @@
 - [Between Extremes](between-extremes)
 - [Binary Calculator](binary-calculator)
 - [Binary scORe](binary-score)
+- [Binary sXORe](binary-sxore)
 - [Bingo (Or Not)](bingo-or-not)
 - [Breaking chocolate problem](breaking-chocolate-problem)
 - [Broken sequence](broken-sequence)
