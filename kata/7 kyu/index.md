@@ -29,6 +29,7 @@
 - [Arithmetic progression](arithmetic-progression)
 - [Arithmetic Sequence!](arithmetic-sequence)
 - [Array - squareUp b!](array-squareup-b)
+- [Array Leaders (Array Series #3)](array-leaders-array-series-number-3)
 - [ATM](atm)
 # B
 - [Balanced Number (Special Numbers Series #1 )](balanced-number-special-numbers-series-number-1)
