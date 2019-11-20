@@ -52,6 +52,7 @@
 - [Building blocks](building-blocks)
 - [Bulls and Cows](bulls-and-cows)
 - [Bumps in the Road](bumps-in-the-road)
+- [Bus mastering - Who is the most prioritary?](bus-mastering-who-is-the-most-prioritary)
 # C
 - [Changing letters](changing-letters)
 - [Composing squared strings](composing-squared-strings)
