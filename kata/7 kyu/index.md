@@ -50,6 +50,7 @@
 - [Broken sequence](broken-sequence)
 - [Build a square](build-a-square)
 - [Building blocks](building-blocks)
+- [Bulls and Cows](bulls-and-cows)
 # C
 - [Changing letters](changing-letters)
 - [Composing squared strings](composing-squared-strings)
