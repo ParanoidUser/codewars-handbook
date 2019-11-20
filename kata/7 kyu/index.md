@@ -48,6 +48,7 @@
 - [Bits Battle](bits-battle)
 - [Breaking chocolate problem](breaking-chocolate-problem)
 - [Broken sequence](broken-sequence)
+- [Build a square](build-a-square)
 # C
 - [Changing letters](changing-letters)
 - [Composing squared strings](composing-squared-strings)
