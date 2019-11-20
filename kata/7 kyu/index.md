@@ -55,6 +55,7 @@
 - [Bus mastering - Who is the most prioritary?](bus-mastering-who-is-the-most-prioritary)
 # C
 - [C.Wars](cwars)
+- [Caffeine Script](caffeine-script)
 - [Changing letters](changing-letters)
 - [Composing squared strings](composing-squared-strings)
 - [Count the Digit](count-the-digit)
