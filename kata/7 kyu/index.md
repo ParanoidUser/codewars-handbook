@@ -49,6 +49,7 @@
 - [Breaking chocolate problem](breaking-chocolate-problem)
 - [Broken sequence](broken-sequence)
 - [Build a square](build-a-square)
+- [Building blocks](building-blocks)
 # C
 - [Changing letters](changing-letters)
 - [Composing squared strings](composing-squared-strings)
