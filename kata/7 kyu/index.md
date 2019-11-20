@@ -57,6 +57,7 @@
 - [C.Wars](cwars)
 - [Caffeine Script](caffeine-script)
 - [Calculate mean and concatenate string](calculate-mean-and-concatenate-string)
+- [Cartesian neighbors](cartesian-neighbors)
 - [Cat Years, Dog Years (2)](cat-years-dog-years-2)
 - [Changing letters](changing-letters)
 - [Composing squared strings](composing-squared-strings)
