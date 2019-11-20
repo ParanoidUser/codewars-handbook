@@ -51,6 +51,7 @@
 - [Build a square](build-a-square)
 - [Building blocks](building-blocks)
 - [Bulls and Cows](bulls-and-cows)
+- [Bumps in the Road](bumps-in-the-road)
 # C
 - [Changing letters](changing-letters)
 - [Composing squared strings](composing-squared-strings)
