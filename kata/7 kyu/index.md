@@ -45,6 +45,7 @@
 - [Binary scORe](binary-score)
 - [Binary sXORe](binary-sxore)
 - [Bingo (Or Not)](bingo-or-not)
+- [Bits Battle](bits-battle)
 - [Breaking chocolate problem](breaking-chocolate-problem)
 - [Broken sequence](broken-sequence)
 # C
