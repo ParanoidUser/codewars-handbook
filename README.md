@@ -13,8 +13,8 @@
     <a href="https://www.codewars.com/users/ParanoidUser">
     <img src="https://img.shields.io/badge/dynamic/json.svg?color=grey&labelColor=3f67a8&label=3%20kyu&query=%24.honor&url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FParanoidUser">
   </a>
-  <a href="http://hits.dwyl.io/{ParanoidUser}/{codewars}">
-    <img src="http://hits.dwyl.io/{ParanoidUser}/{codewars}.svg">
+  <a href="http://hits.dwyl.io/ParanoidUser/codewars">
+    <img src="http://hits.dwyl.io/ParanoidUser/codewars.svg">
   </a>
 <p>
 
