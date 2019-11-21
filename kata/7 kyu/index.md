@@ -63,6 +63,7 @@
 - [Cat Years, Dog Years (2)](cat-years-dog-years-2)
 - [Ch4113ng3](ch4113ng3)
 - [Changing letters](changing-letters)
+- [Character Counter](character-counter)
 - [Composing squared strings](composing-squared-strings)
 - [Count the Digit](count-the-digit)
 - [Credit card issuer checking](credit-card-issuer-checking)
