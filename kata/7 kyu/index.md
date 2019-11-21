@@ -56,6 +56,11 @@
 # C
 - [C.Wars](cwars)
 - [Caffeine Script](caffeine-script)
+- [Calculate mean and concatenate string](calculate-mean-and-concatenate-string)
+- [Calculate the Harmonic Conjugated Point of a Triplet  of Aligned Points](calculate-the-harmonic-conjugated-point-of-a-triplet-of-aligned-points)
+- [Cartesian coordinates from degree angle](cartesian-coordinates-from-degree-angle)
+- [Cartesian neighbors](cartesian-neighbors)
+- [Cat Years, Dog Years (2)](cat-years-dog-years-2)
 - [Changing letters](changing-letters)
 - [Composing squared strings](composing-squared-strings)
 - [Count the Digit](count-the-digit)
