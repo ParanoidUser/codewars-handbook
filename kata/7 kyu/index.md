@@ -64,6 +64,7 @@
 - [Ch4113ng3](ch4113ng3)
 - [Changing letters](changing-letters)
 - [Character Counter](character-counter)
+- [Check three and two](check-three-and-two)
 - [Composing squared strings](composing-squared-strings)
 - [Count the Digit](count-the-digit)
 - [Credit card issuer checking](credit-card-issuer-checking)
