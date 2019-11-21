@@ -34,7 +34,7 @@ public class Tests {
     assertThat(ys.next(), is(3));
   }
 
-  @Test
+  @Test(expected = RuntimeException.class)
   public void circularErrorTest() {
     new CircularList<>();
   }
