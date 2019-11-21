@@ -64,6 +64,7 @@
 - [Ch4113ng3](ch4113ng3)
 - [Changing letters](changing-letters)
 - [Character Counter](character-counter)
+- [Check contained matrix](check-contained-matrix)
 - [Check three and two](check-three-and-two)
 - [Chinese Zodiac](chinese-zodiac)
 - [Composing squared strings](composing-squared-strings)
