@@ -62,6 +62,7 @@
 - [Cartesian neighbors](cartesian-neighbors)
 - [Cat Years, Dog Years (2)](cat-years-dog-years-2)
 - [Changing letters](changing-letters)
+- [Circular List](circular-list)
 - [Composing squared strings](composing-squared-strings)
 - [Count the Digit](count-the-digit)
 - [Credit card issuer checking](credit-card-issuer-checking)
