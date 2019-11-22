@@ -1,20 +1,20 @@
 <h1 align="center">Codewars</h1>
 
 <p align="center">
-   <a href="https://travis-ci.org/ParanoidUser/codewars" titile="Travis CI Build">
+   <a href="https://travis-ci.org/ParanoidUser/codewars">
     <img src="https://img.shields.io/travis/ParanoidUser/codewars.svg" alt="build">
   </a>
-  <a href="https://lgtm.com/projects/g/ParanoidUser/codewars/context:java" titile="">
+  <a href="https://lgtm.com/projects/g/ParanoidUser/codewars/context:java">
     <img src="https://img.shields.io/lgtm/grade/java/g/ParanoidUser/codewars.svg?label=java">
   </a>
  <a href="https://www.codewars.com/users/ParanoidUser">
-    <img src="https://img.shields.io/badge/dynamic/json.svg?color=grey&labelColor=red&label=completed%20kata&query=%24.codeChallenges.totalCompleted&url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FParanoidUser">
+    <img src="https://img.shields.io/badge/dynamic/json?color=grey&labelColor=red&label=solved%20kata&query=%24.codeChallenges.totalCompleted&url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FParanoidUser">
   </a>
     <a href="https://www.codewars.com/users/ParanoidUser">
-    <img src="https://img.shields.io/badge/dynamic/json.svg?color=grey&labelColor=3f67a8&label=3%20kyu&query=%24.honor&url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FParanoidUser">
+    <img src="https://img.shields.io/badge/dynamic/json?color=grey&labelColor=3f67a8&label=3%20kyu&query=%24.honor&url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FParanoidUser">
   </a>
   <a href="http://hits.dwyl.io/ParanoidUser/codewars">
-    <img src="http://hits.dwyl.io/ParanoidUser/codewars.svg">
+    <img src="https://img.shields.io/badge/dynamic/xml?color=success&label=views&style=square&query=//*[local-name()=%27text%27%20and%20namespace-uri()=%27http://www.w3.org/2000/svg%27][2]&url=http://hits.dwyl.io/ParanoidUser/codewars.svg">
   </a>
 <p>
 
@@ -57,7 +57,7 @@
       <tr>
          <td rowspan=2>Beginner</td>
          <td><a href="kata/7%20kyu/index.md">7 kyu</a></td>
-         <td>63 out of 409</td>
+         <td>68 out of 409</td>
       </tr>
       <tr>
          <td><a href="kata/8%20kyu/index.md">8 kyu</a></td>
@@ -75,4 +75,4 @@ Any contribution is highly appreciated you are very welcome to open issues or se
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
