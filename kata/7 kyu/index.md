@@ -76,5 +76,6 @@
 - [Composing squared strings](composing-squared-strings)
 - [CompoundArray](compoundarray)
 - [Convert a linked list to a string](convert-a-linked-list-to-a-string)
+- [Convert Time to String](convert-time-to-string)
 - [Count the Digit](count-the-digit)
 - [Credit card issuer checking](credit-card-issuer-checking)
