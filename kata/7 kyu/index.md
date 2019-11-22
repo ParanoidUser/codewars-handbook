@@ -74,6 +74,7 @@
 - [Complete The Pattern #2](complete-the-pattern-number-2)
 - [Complete The Pattern #4](complete-the-pattern-number-4)
 - [Composing squared strings](composing-squared-strings)
+- [CompoundArray](compoundarray)
+- [Convert a linked list to a string](convert-a-linked-list-to-a-string)
 - [Count the Digit](count-the-digit)
 - [Credit card issuer checking](credit-card-issuer-checking)
-- [CompoundArray](compoundarray)
