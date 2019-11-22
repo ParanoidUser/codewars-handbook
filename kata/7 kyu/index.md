@@ -72,6 +72,7 @@
 - [Cogs](cogs)
 - [Cogs 2](cogs-2)
 - [Complete The Pattern #2](complete-the-pattern-number-2)
+- [Complete The Pattern #4](complete-the-pattern-number-4)
 - [Composing squared strings](composing-squared-strings)
 - [Count the Digit](count-the-digit)
 - [Credit card issuer checking](credit-card-issuer-checking)
