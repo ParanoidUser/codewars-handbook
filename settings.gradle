@@ -6,6 +6,21 @@ gradleEnterprise {
     buildScan {
         termsOfServiceUrl = 'https://gradle.com/terms-of-service'
         termsOfServiceAgree = 'yes'
+
+        background {
+            value "Git Commit", "git rev-parse --short=8 --verify HEAD".execute().text.trim()
+            value "Git Branch", "git rev-parse --abbrev-ref HEAD".execute().text.trim()
+        }
+
+        obfuscation {
+            username { name -> (name[0] + name[-1]).toUpperCase() }
+            hostname { host -> 'localhost' }
+            ipAddresses { addresses -> addresses.collect { address -> "0.0.0.0"} }
+        }
+
+        buildScanPublished { scan ->
+            file("build/scan-journal.log") << "${new Date().format('yyyy-MM-dd HH:mm:ss')} - ${scan.buildScanUri}\n"
+        }
     }
 }
 
