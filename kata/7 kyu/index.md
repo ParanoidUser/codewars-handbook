@@ -64,6 +64,7 @@
 - [Changing letters](changing-letters)
 - [Circular List](circular-list)
 - [Closest to Zero](closest-to-zero)
+- [Codewars Leaderboard Climber](codewars-leaderboard-climber)
 - [Composing squared strings](composing-squared-strings)
 - [Count the Digit](count-the-digit)
 - [Credit card issuer checking](credit-card-issuer-checking)
