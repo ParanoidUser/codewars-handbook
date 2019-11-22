@@ -76,3 +76,4 @@
 - [Composing squared strings](composing-squared-strings)
 - [Count the Digit](count-the-digit)
 - [Credit card issuer checking](credit-card-issuer-checking)
+- [CompoundArray](compoundarray)
