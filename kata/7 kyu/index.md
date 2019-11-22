@@ -68,6 +68,7 @@
 - [Check three and two](check-three-and-two)
 - [Chinese Zodiac](chinese-zodiac)
 - [Codewars Leaderboard Climber](codewars-leaderboard-climber)
+- [Cogs](cogs)
 - [Composing squared strings](composing-squared-strings)
 - [Count the Digit](count-the-digit)
 - [Credit card issuer checking](credit-card-issuer-checking)
