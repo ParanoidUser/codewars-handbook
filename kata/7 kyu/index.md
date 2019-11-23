@@ -85,4 +85,5 @@
 - [Count consonants](count-consonants)
 - [Count the Characters](count-the-characters)
 - [Count the Digit](count-the-digit)
+- [Counting power sets](counting-power-sets)
 - [Credit card issuer checking](credit-card-issuer-checking)
