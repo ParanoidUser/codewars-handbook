@@ -88,3 +88,4 @@
 - [Counting power sets](counting-power-sets)
 - [Covfefe](covfefe)
 - [Credit card issuer checking](credit-card-issuer-checking)
+- [Credit Card Mask](credit-card-mask)
