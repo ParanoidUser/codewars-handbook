@@ -83,5 +83,6 @@
 - [Correct the time-string](correct-the-time-string)
 - [Count all the sheep on farm in the heights of New Zealand](count-all-the-sheep-on-farm-in-the-heights-of-new-zealand)
 - [Count consonants](count-consonants)
+- [Count the Characters](count-the-characters)
 - [Count the Digit](count-the-digit)
 - [Credit card issuer checking](credit-card-issuer-checking)
