@@ -84,4 +84,5 @@
 - [Convert a linked list to a string](convert-a-linked-list-to-a-string)
 - [Convert Time to String](convert-time-to-string)
 - [Count the Digit](count-the-digit)
+- [Counting power sets](counting-power-sets)
 - [Credit card issuer checking](credit-card-issuer-checking)
