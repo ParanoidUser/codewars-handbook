@@ -2,6 +2,7 @@ class CircularList<T> {
   private T[] elements;
   private int pointer = -1;
 
+  @SafeVarargs
   CircularList(T... elements) {
     if (elements.length == 0) throw new IllegalArgumentException();
     this.elements = elements;
