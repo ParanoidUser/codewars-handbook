@@ -81,6 +81,7 @@
 - [Convert Time to String](convert-time-to-string)
 - [Converting from base 10 to 16! Dare you?](converting-from-base-10-to-16-dare-you)
 - [Correct the time-string](correct-the-time-string)
+- [Count all the sheep on farm in the heights of New Zealand](count-all-the-sheep-on-farm-in-the-heights-of-new-zealand)
+- [Count consonants](count-consonants)
 - [Count the Digit](count-the-digit)
 - [Credit card issuer checking](credit-card-issuer-checking)
-- [Count all the sheep on farm in the heights of New Zealand](count-all-the-sheep-on-farm-in-the-heights-of-new-zealand)
