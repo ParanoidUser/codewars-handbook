@@ -88,3 +88,4 @@
 - [Covfefe](covfefe)
 - [Credit card issuer checking](credit-card-issuer-checking)
 - [Credit Card Mask](credit-card-mask)
+- [Curing Arachnophobia](curing-arachnophobia)
