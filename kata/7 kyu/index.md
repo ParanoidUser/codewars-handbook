@@ -97,3 +97,4 @@
 - [Deodorant Evaporator](deodorant-evaporator)
 - [Descending Order](descending-order)
 - [Describe a list](describe-a-list)
+- [Disemvowel Trolls](disemvowel-trolls)
