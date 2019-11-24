@@ -89,4 +89,10 @@
 - [Count consonants](count-consonants)
 - [Count the Characters](count-the-characters)
 - [Count the Digit](count-the-digit)
+- [Counting power sets](counting-power-sets)
+- [Covfefe](covfefe)
 - [Credit card issuer checking](credit-card-issuer-checking)
+- [Credit Card Mask](credit-card-mask)
+- [Curing Arachnophobia](curing-arachnophobia)
+# D
+- [Decimal decomposition](decimal-decomposition)
