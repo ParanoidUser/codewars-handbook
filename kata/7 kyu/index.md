@@ -101,3 +101,8 @@
 - [Deodorant Evaporator](deodorant-evaporator)
 - [Descending Order](descending-order)
 - [Describe a list](describe-a-list)
+- [Determine if the poker hand is flush](determine-if-the-poker-hand-is-flush)
+- [Difference between two collections](difference-between-two-collections)
+- [Disagreeable ascii](disagreeable-ascii)
+- [Disarium Number (Special Numbers Series  #3)](disarium-number-special-numbers-series-number-3)
+- [Disemvowel Trolls](disemvowel-trolls)
