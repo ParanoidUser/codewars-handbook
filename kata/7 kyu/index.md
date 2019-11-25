@@ -114,3 +114,4 @@
 - [Eliminate the intruders! Bit manipulation](eliminate-the-intruders-bit-manipulation)
 - [Email Address Obfuscator](email-address-obfuscator)
 - [Excel sheet column numbers](excel-sheet-column-numbers)
+- [Excessively Abundant Numbers](excessively-abundant-numbers)
