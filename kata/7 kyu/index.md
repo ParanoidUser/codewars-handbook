@@ -96,3 +96,8 @@
 - [Curing Arachnophobia](curing-arachnophobia)
 # D
 - [Decimal decomposition](decimal-decomposition)
+- [Decipher the Message](decipher-the-message)
+- [Delta Bits](delta-bits)
+- [Deodorant Evaporator](deodorant-evaporator)
+- [Descending Order](descending-order)
+- [Describe a list](describe-a-list)
