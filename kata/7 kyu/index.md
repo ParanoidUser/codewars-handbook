@@ -112,3 +112,4 @@
 - [Easy wallpaper](easy-wallpaper)
 - [Eliminate the intruders! Bit manipulation](eliminate-the-intruders-bit-manipulation)
 - [Email Address Obfuscator](email-address-obfuscator)
+- [Excel sheet column numbers](excel-sheet-column-numbers)
