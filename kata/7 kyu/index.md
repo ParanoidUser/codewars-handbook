@@ -111,3 +111,4 @@
 - [EAN Validation](ean-validation)
 - [Easy Line](easy-line)
 - [Easy wallpaper](easy-wallpaper)
+- [Eliminate the intruders! Bit manipulation](eliminate-the-intruders-bit-manipulation)
