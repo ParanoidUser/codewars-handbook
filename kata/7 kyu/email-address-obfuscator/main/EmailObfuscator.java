@@ -1,5 +1,5 @@
 class EmailObfuscator {
   static String obfuscate(String email) {
-    return email.replace("@", "[at]").replace(".", "[dot]");
+    return email.replace("@", " [at] ").replace(".", " [dot] ");
   }
 }
