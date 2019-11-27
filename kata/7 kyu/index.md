@@ -122,6 +122,7 @@
 # F
 - [Fibonacci](fibonacci)
 - [Find Count of Most Frequent Item in an Array](find-count-of-most-frequent-item-in-an-array)
+- [Find Fibonacci last digit](find-fibonacci-last-digit)
 - [FIXME: 1, 2, 3, 4](fixme-1-2-3-4)
 - [FIXME: Get Full Name](fixme-get-full-name)
 - [FIXME: Hours to Seconds](fixme-hours-to-seconds)
