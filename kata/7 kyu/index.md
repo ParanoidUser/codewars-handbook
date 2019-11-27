@@ -119,6 +119,7 @@
 - [Exes and Ohs](exes-and-ohs)
 - [Extra Perfect Numbers (Special Numbers Series  #7)](extra-perfect-numbers-special-numbers-series-number-7)
 # F
+- [Factorial](factorial)
 - [Fibonacci](fibonacci)
 - [Find Count of Most Frequent Item in an Array](find-count-of-most-frequent-item-in-an-array)
 - [Find Fibonacci last digit](find-fibonacci-last-digit)
