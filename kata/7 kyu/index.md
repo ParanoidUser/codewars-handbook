@@ -122,3 +122,9 @@
 - [Exclamation marks series #5: Remove all exclamation marks from the end of words](exclamation-marks-series-number-5-remove-all-exclamation-marks-from-the-end-of-words)
 - [Execute me nTimes](execute-me-ntimes)
 - [Exes and Ohs](exes-and-ohs)
+- [Extra Perfect Numbers (Special Numbers Series  #7)](extra-perfect-numbers-special-numbers-series-number-7)
+# F
+- [FIXME: 1, 2, 3, 4](fixme-1-2-3-4)
+- [FIXME: Get Full Name](fixme-get-full-name)
+- [FIXME: Hours to Seconds](fixme-hours-to-seconds)
+- [FIXME: Let's split this joint](fixme-lets-split-this-joint)
