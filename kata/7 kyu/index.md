@@ -117,3 +117,8 @@
 - [Easy wallpaper](easy-wallpaper)
 - [Eliminate the intruders! Bit manipulation](eliminate-the-intruders-bit-manipulation)
 - [Email Address Obfuscator](email-address-obfuscator)
+- [Excel sheet column numbers](excel-sheet-column-numbers)
+- [Excessively Abundant Numbers](excessively-abundant-numbers)
+- [Exclamation marks series #5: Remove all exclamation marks from the end of words](exclamation-marks-series-number-5-remove-all-exclamation-marks-from-the-end-of-words)
+- [Execute me nTimes](execute-me-ntimes)
+- [Exes and Ohs](exes-and-ohs)
