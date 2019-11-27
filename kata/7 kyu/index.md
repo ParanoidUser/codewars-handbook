@@ -120,6 +120,7 @@
 - [Exes and Ohs](exes-and-ohs)
 - [Extra Perfect Numbers (Special Numbers Series  #7)](extra-perfect-numbers-special-numbers-series-number-7)
 # F
+- [Fibonacci](fibonacci)
 - [Find Count of Most Frequent Item in an Array](find-count-of-most-frequent-item-in-an-array)
 - [FIXME: 1, 2, 3, 4](fixme-1-2-3-4)
 - [FIXME: Get Full Name](fixme-get-full-name)
