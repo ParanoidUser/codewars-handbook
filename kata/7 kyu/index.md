@@ -131,6 +131,7 @@
 - [Find divisors of a number](find-divisors-of-a-number)
 - [Find Fibonacci last digit](find-fibonacci-last-digit)
 - [Find Screen Size](find-screen-size)
+- [Find sum of top-left to bottom-right diagonals](find-sum-of-top-left-to-bottom-right-diagonals)
 - [FIXME: 1, 2, 3, 4](fixme-1-2-3-4)
 - [FIXME: Get Full Name](fixme-get-full-name)
 - [FIXME: Hours to Seconds](fixme-hours-to-seconds)
