@@ -132,6 +132,7 @@
 - [Find the next perfect square!](find-the-next-perfect-square)
 - [Find the stray number](find-the-stray-number)
 - [Finding Remainder Without Using '%' Operator](finding-remainder-without-using-percent-operator)
+- [Fix string case](fix-string-case)
 - [FIXME: 1, 2, 3, 4](fixme-1-2-3-4)
 - [FIXME: Get Full Name](fixme-get-full-name)
 - [FIXME: Hours to Seconds](fixme-hours-to-seconds)
