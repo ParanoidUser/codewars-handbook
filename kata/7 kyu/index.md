@@ -146,5 +146,6 @@
 - [Form The Largest](form-the-largest)
 - [Form The Minimum](form-the-minimum)
 - [Formatting decimal places #1](formatting-decimal-places-number-1)
+- [Friends](friends)
 # N
 - [Null](null)
