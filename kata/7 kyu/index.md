@@ -148,5 +148,6 @@
 - [Floating-point Approximation (III)](floating-point-approximation-iii)
 - [Folding your way to the moon](folding-your-way-to-the-moon)
 - [Form The Largest](form-the-largest)
+- [Form The Minimum](form-the-minimum)
 # N
 - [Null](null)
