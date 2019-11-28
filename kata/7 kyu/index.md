@@ -147,5 +147,6 @@
 - [Form The Minimum](form-the-minimum)
 - [Formatting decimal places #1](formatting-decimal-places-number-1)
 - [Friends](friends)
+- [Fun with lists: anyMatch + allMatch](fun-with-lists-anymatch-plus-allmatch)
 # N
 - [Null](null)
