@@ -145,5 +145,6 @@
 - [Folding your way to the moon](folding-your-way-to-the-moon)
 - [Form The Largest](form-the-largest)
 - [Form The Minimum](form-the-minimum)
+- [Formatting decimal places #1](formatting-decimal-places-number-1)
 # N
 - [Null](null)
