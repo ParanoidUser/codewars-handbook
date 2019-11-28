@@ -142,5 +142,6 @@
 - [Fizz Buzz Cuckoo Clock](fizz-buzz-cuckoo-clock)
 - [Flatten and sort an array](flatten-and-sort-an-array)
 - [Floating-point Approximation (III)](floating-point-approximation-iii)
+- [Folding your way to the moon](folding-your-way-to-the-moon)
 # N
 - [Null](null)
