@@ -140,5 +140,6 @@
 - [FIXME: Let's split this joint](fixme-lets-split-this-joint)
 - [FIXME: Run, Runner!](fixme-run-runner)
 - [Fizz Buzz Cuckoo Clock](fizz-buzz-cuckoo-clock)
+- [Flatten and sort an array](flatten-and-sort-an-array)
 # N
 - [Null](null)
