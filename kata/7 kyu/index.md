@@ -128,6 +128,7 @@
 - [Fibonacci](fibonacci)
 - [Find all pairs](find-all-pairs-1)
 - [Find Count of Most Frequent Item in an Array](find-count-of-most-frequent-item-in-an-array)
+- [Find divisors of a number](find-divisors-of-a-number)
 - [Find Fibonacci last digit](find-fibonacci-last-digit)
 - [FIXME: 1, 2, 3, 4](fixme-1-2-3-4)
 - [FIXME: Get Full Name](fixme-get-full-name)
