@@ -133,6 +133,7 @@
 - [Find Max Tree Node](find-max-tree-node)
 - [Find Screen Size](find-screen-size)
 - [Find sum of top-left to bottom-right diagonals](find-sum-of-top-left-to-bottom-right-diagonals)
+- [Find the GCF of Two Numbers](find-the-gcf-of-two-numbers)
 - [Find the next perfect square!](find-the-next-perfect-square)
 - [Find the stray number](find-the-stray-number)
 - [Finding Remainder Without Using '%' Operator](finding-remainder-without-using-percent-operator)
