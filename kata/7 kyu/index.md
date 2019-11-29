@@ -156,5 +156,6 @@
 - [Fun with lists: lastIndexOf](fun-with-lists-lastindexof)
 - [Fun with lists: length](fun-with-lists-length)
 - [Functional Addition](functional-addition)
+- [Functions of Integers on Cartesian Plane](functions-of-integers-on-cartesian-plane)
 # N
 - [Null](null)
