@@ -162,5 +162,6 @@
 - [Ghostbusters (whitespace removal)](ghostbusters-whitespace-removal)
 - [Going to the cinema](going-to-the-cinema)
 - [Greatest common divisor](greatest-common-divisor)
+- [Greatest Common Divisor Bitcount](greatest-common-divisor-bitcount)
 # N
 - [Null](null)
