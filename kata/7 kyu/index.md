@@ -149,5 +149,6 @@
 - [Friends](friends)
 - [Fun with lists: anyMatch + allMatch](fun-with-lists-anymatch-plus-allmatch)
 - [Fun with lists: indexOf](fun-with-lists-indexof)
+- [Fun with lists: lastIndexOf](fun-with-lists-lastindexof)
 # N
 - [Null](null)
