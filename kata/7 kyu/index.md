@@ -161,5 +161,6 @@
 - [Get the Middle Character](get-the-middle-character)
 - [Ghostbusters (whitespace removal)](ghostbusters-whitespace-removal)
 - [Going to the cinema](going-to-the-cinema)
+- [Greatest common divisor](greatest-common-divisor)
 # N
 - [Null](null)
