@@ -133,6 +133,7 @@
 - [Find Max Tree Node](find-max-tree-node)
 - [Find Screen Size](find-screen-size)
 - [Find sum of top-left to bottom-right diagonals](find-sum-of-top-left-to-bottom-right-diagonals)
+- [Find the GCF of Two Numbers](find-the-gcf-of-two-numbers)
 - [Find the next perfect square!](find-the-next-perfect-square)
 - [Find the stray number](find-the-stray-number)
 - [Finding Remainder Without Using '%' Operator](finding-remainder-without-using-percent-operator)
@@ -143,3 +144,8 @@
 - [FIXME: Let's split this joint](fixme-lets-split-this-joint)
 - [FIXME: Run, Runner!](fixme-run-runner)
 - [Fizz Buzz Cuckoo Clock](fizz-buzz-cuckoo-clock)
+- [Flatten and sort an array](flatten-and-sort-an-array)
+- [Floating-point Approximation (III)](floating-point-approximation-iii)
+- [Folding your way to the moon](folding-your-way-to-the-moon)
+# N
+- [Null](null)
