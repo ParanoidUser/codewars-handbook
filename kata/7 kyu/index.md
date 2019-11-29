@@ -157,5 +157,7 @@
 - [Fun with lists: length](fun-with-lists-length)
 - [Functional Addition](functional-addition)
 - [Functions of Integers on Cartesian Plane](functions-of-integers-on-cartesian-plane)
+# G
+- [Get the Middle Character](get-the-middle-character)
 # N
 - [Null](null)
