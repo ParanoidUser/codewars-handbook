@@ -159,5 +159,6 @@
 - [Functions of Integers on Cartesian Plane](functions-of-integers-on-cartesian-plane)
 # G
 - [Get the Middle Character](get-the-middle-character)
+- [Ghostbusters (whitespace removal)](ghostbusters-whitespace-removal)
 # N
 - [Null](null)
