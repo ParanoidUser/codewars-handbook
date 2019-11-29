@@ -156,5 +156,6 @@
 # G
 - [Get the Middle Character](get-the-middle-character)
 - [Ghostbusters (whitespace removal)](ghostbusters-whitespace-removal)
+- [Going to the cinema](going-to-the-cinema)
 # N
 - [Null](null)
