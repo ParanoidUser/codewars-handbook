@@ -152,5 +152,10 @@
 - [Formatting decimal places #1](formatting-decimal-places-number-1)
 - [Friends](friends)
 - [Fun with lists: anyMatch + allMatch](fun-with-lists-anymatch-plus-allmatch)
+- [Fun with lists: indexOf](fun-with-lists-indexof)
+- [Fun with lists: lastIndexOf](fun-with-lists-lastindexof)
+- [Fun with lists: length](fun-with-lists-length)
+- [Functional Addition](functional-addition)
+- [Functions of Integers on Cartesian Plane](functions-of-integers-on-cartesian-plane)
 # N
 - [Null](null)
