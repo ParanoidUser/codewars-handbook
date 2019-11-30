@@ -147,5 +147,10 @@
 - [Flatten and sort an array](flatten-and-sort-an-array)
 - [Floating-point Approximation (III)](floating-point-approximation-iii)
 - [Folding your way to the moon](folding-your-way-to-the-moon)
+- [Form The Largest](form-the-largest)
+- [Form The Minimum](form-the-minimum)
+- [Formatting decimal places #1](formatting-decimal-places-number-1)
+- [Friends](friends)
+- [Fun with lists: anyMatch + allMatch](fun-with-lists-anymatch-plus-allmatch)
 # N
 - [Null](null)
