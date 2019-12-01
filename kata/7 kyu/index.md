@@ -182,3 +182,4 @@
 # P
 - [Parts of a list](parts-of-a-list)
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
+- [Printer Errors](printer-errors)
