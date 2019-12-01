@@ -157,5 +157,11 @@
 - [Fun with lists: length](fun-with-lists-length)
 - [Functional Addition](functional-addition)
 - [Functions of Integers on Cartesian Plane](functions-of-integers-on-cartesian-plane)
+# G
+- [Get the Middle Character](get-the-middle-character)
+- [Ghostbusters (whitespace removal)](ghostbusters-whitespace-removal)
+- [Going to the cinema](going-to-the-cinema)
+- [Greatest common divisor](greatest-common-divisor)
+- [Greatest Common Divisor Bitcount](greatest-common-divisor-bitcount)
 # N
 - [Null](null)
