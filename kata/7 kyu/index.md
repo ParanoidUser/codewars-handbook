@@ -182,3 +182,4 @@
 - [Number of People in the Bus](number-of-people-in-the-bus)
 # O
 - [Odd or Even?](odd-or-even)
+- [Ones and Zeros](ones-and-zeros)
