@@ -179,3 +179,5 @@
 # O
 - [Odd or Even?](odd-or-even)
 - [Ones and Zeros](ones-and-zeros)
+# P
+- [Parts of a list](parts-of-a-list)
