@@ -163,5 +163,6 @@
 # H
 - [Highest and Lowest](highest-and-lowest)
 - [How Green Is My Valley?](how-green-is-my-valley)
+- [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
 # N
 - [Null](null)
