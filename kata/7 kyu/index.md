@@ -163,5 +163,6 @@
 - [Going to the cinema](going-to-the-cinema)
 - [Greatest common divisor](greatest-common-divisor)
 - [Greatest Common Divisor Bitcount](greatest-common-divisor-bitcount)
+- [Guess the Sequence](guess-the-sequence)
 # N
 - [Null](null)
