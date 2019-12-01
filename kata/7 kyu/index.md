@@ -185,3 +185,5 @@
 - [Printer Errors](printer-errors)
 # R
 - [Reverse words](reverse-words)
+# S
+- [Shortest Word](shortest-word)
