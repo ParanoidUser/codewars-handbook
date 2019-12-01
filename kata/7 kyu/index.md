@@ -166,5 +166,6 @@
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
 # I
 - [Is It Negative Zero (-0)?](is-it-negative-zero-0)
+- [Is this a triangle?](is-this-a-triangle)
 # N
 - [Null](null)
