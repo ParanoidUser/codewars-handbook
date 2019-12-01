@@ -191,3 +191,4 @@
 - [Reverse words](reverse-words)
 # S
 - [Shortest Word](shortest-word)
+- [Simple Fun #63: Shape Area](simple-fun-number-63-shape-area)
