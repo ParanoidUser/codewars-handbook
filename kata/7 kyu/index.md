@@ -166,5 +166,6 @@
 - [Guess the Sequence](guess-the-sequence)
 # H
 - [Highest and Lowest](highest-and-lowest)
+- [How Green Is My Valley?](how-green-is-my-valley)
 # N
 - [Null](null)
