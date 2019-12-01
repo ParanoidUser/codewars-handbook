@@ -171,5 +171,7 @@
 # I
 - [Is It Negative Zero (-0)?](is-it-negative-zero-0)
 - [Is this a triangle?](is-this-a-triangle)
+# L
+- [Last](last)
 # N
 - [Null](null)
