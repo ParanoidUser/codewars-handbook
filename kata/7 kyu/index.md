@@ -160,5 +160,7 @@
 - [Greatest common divisor](greatest-common-divisor)
 - [Greatest Common Divisor Bitcount](greatest-common-divisor-bitcount)
 - [Guess the Sequence](guess-the-sequence)
+# H
+- [Highest and Lowest](highest-and-lowest)
 # N
 - [Null](null)
