@@ -6,7 +6,7 @@ class Funcij {
     }
 
     static BigInteger sumax(int n) {
-        return BigInteger.valueOf((long) n * n * n - (long) n * (n - 1) * (2 * n - 1) / 6);
+        return BigInteger.valueOf((long) n * n * n - (long) n * (n - 1) * (long) (2 * n - 1) / 6);
     }
 
     static BigInteger sumsum(int n) {
