@@ -187,5 +187,6 @@
 - [Reverse words](reverse-words)
 # S
 - [Shortest Word](shortest-word)
+- [Simple beads count](simple-beads-count)
 - [Simple Fun #63: Shape Area](simple-fun-number-63-shape-area)
 - [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)
