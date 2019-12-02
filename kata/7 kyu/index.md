@@ -163,6 +163,7 @@
 - [Going to the cinema](going-to-the-cinema)
 - [Greatest common divisor](greatest-common-divisor)
 - [Greatest Common Divisor Bitcount](greatest-common-divisor-bitcount)
+- [Green Glass Door](green-glass-door)
 - [Guess the Sequence](guess-the-sequence)
 # H
 - [Highest and Lowest](highest-and-lowest)
