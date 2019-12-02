@@ -160,6 +160,7 @@
 - [Greatest common divisor](greatest-common-divisor)
 - [Greatest Common Divisor Bitcount](greatest-common-divisor-bitcount)
 - [Green Glass Door](green-glass-door)
+- [Greet Me](greet-me)
 - [Guess the Sequence](guess-the-sequence)
 # H
 - [Highest and Lowest](highest-and-lowest)
