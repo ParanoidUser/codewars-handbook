@@ -194,3 +194,4 @@
 - [String ends with?](string-ends-with)
 # T
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
+- [Two to One](two-to-one)
