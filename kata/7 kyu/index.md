@@ -196,3 +196,5 @@
 - [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)
 - [Speed Control](speed-control)
 - [String ends with?](string-ends-with)
+# T
+- [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
