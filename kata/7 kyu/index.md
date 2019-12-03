@@ -165,6 +165,7 @@
 - [Greatest Common Divisor Bitcount](greatest-common-divisor-bitcount)
 - [Green Glass Door](green-glass-door)
 - [Greet Me](greet-me)
+- [Growth of a Population](growth-of-a-population)
 - [Guess the Sequence](guess-the-sequence)
 # H
 - [Highest and Lowest](highest-and-lowest)
