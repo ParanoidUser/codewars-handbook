@@ -186,3 +186,10 @@
 # P
 - [Parts of a list](parts-of-a-list)
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
+- [Printer Errors](printer-errors)
+# R
+- [Reverse words](reverse-words)
+# S
+- [Shortest Word](shortest-word)
+- [Simple Fun #63: Shape Area](simple-fun-number-63-shape-area)
+- [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)
