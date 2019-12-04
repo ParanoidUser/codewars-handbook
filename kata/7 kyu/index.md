@@ -165,8 +165,13 @@
 - [Greatest Common Divisor Bitcount](greatest-common-divisor-bitcount)
 - [Green Glass Door](green-glass-door)
 - [Greet Me](greet-me)
+- [Growth of a Population](growth-of-a-population)
+- [Guarding the AlgoLandia](guarding-the-algolandia)
+- [Guava against Million dollar error](guava-against-million-dollar-error)
 - [Guess the Sequence](guess-the-sequence)
 # H
+- [Halving Sum](halving-sum)
+- [Help Suzuki complete his chores!](help-suzuki-complete-his-chores)
 - [Highest and Lowest](highest-and-lowest)
 - [How Green Is My Valley?](how-green-is-my-valley)
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
