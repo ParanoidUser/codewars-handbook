@@ -169,6 +169,7 @@
 - [Guava against Million dollar error](guava-against-million-dollar-error)
 - [Guess the Sequence](guess-the-sequence)
 # H
+- [Halving Sum](halving-sum)
 - [Highest and Lowest](highest-and-lowest)
 - [How Green Is My Valley?](how-green-is-my-valley)
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
