@@ -208,6 +208,7 @@
 - [String ends with?](string-ends-with)
 # T
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
+- [Thinking & Testing: A and B?](thinking-and-testing-a-and-b)
 - [Two to One](two-to-one)
 # U
 - [Unlucky Days](unlucky-days)
