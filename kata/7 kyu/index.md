@@ -163,6 +163,8 @@
 - [Going to the cinema](going-to-the-cinema)
 - [Greatest common divisor](greatest-common-divisor)
 - [Greatest Common Divisor Bitcount](greatest-common-divisor-bitcount)
+- [Green Glass Door](green-glass-door)
+- [Greet Me](greet-me)
 - [Guess the Sequence](guess-the-sequence)
 # H
 - [Highest and Lowest](highest-and-lowest)
@@ -199,3 +201,9 @@
 # T
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
 - [Two to One](two-to-one)
+# U
+- [Unlucky Days](unlucky-days)
+# V
+- [Vowel Count](vowel-count)
+# Y
+- [You're a square!](youre-a-square)
