@@ -169,6 +169,7 @@
 - [Halving Sum](halving-sum)
 - [Help Suzuki complete his chores!](help-suzuki-complete-his-chores)
 - [Help the Fruit Guy](help-the-fruit-guy)
+- [Help your fellow warrior!](help-your-fellow-warrior)
 - [Herding cats](herding-cats)
 - [Hide password from jdbc url](hide-password-from-jdbc-url)
 - [Highest and Lowest](highest-and-lowest)
