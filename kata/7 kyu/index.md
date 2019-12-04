@@ -173,6 +173,7 @@
 - [Halving Sum](halving-sum)
 - [Help Suzuki complete his chores!](help-suzuki-complete-his-chores)
 - [Help the Fruit Guy](help-the-fruit-guy)
+- [Herding cats](herding-cats)
 - [Highest and Lowest](highest-and-lowest)
 - [How Green Is My Valley?](how-green-is-my-valley)
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
