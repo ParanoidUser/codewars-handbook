@@ -184,6 +184,7 @@
 - [Looking for a benefactor](looking-for-a-benefactor)
 # M
 - [Maximum Length Difference](maximum-length-difference)
+- [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Mumbling](mumbling)
 # N
 - [Null](null)
