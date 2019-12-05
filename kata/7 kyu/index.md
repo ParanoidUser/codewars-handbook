@@ -188,6 +188,7 @@
 - [Looking for a benefactor](looking-for-a-benefactor)
 # M
 - [Maximum Length Difference](maximum-length-difference)
+- [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Mumbling](mumbling)
 # N
 - [Null](null)
@@ -205,11 +206,15 @@
 - [Shortest Word](shortest-word)
 - [Simple beads count](simple-beads-count)
 - [Simple Fun #63: Shape Area](simple-fun-number-63-shape-area)
+- [Simple Fun #74: Growing Plant](simple-fun-number-74-growing-plant)
 - [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)
 - [Speed Control](speed-control)
 - [String ends with?](string-ends-with)
+- [Sum of odd numbers](sum-of-odd-numbers)
 # T
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
+- [Thinking & Testing : Uniq or not Uniq](thinking-and-testing-uniq-or-not-uniq)
+- [Thinking & Testing: A and B?](thinking-and-testing-a-and-b)
 - [Two to One](two-to-one)
 # U
 - [Unlucky Days](unlucky-days)
