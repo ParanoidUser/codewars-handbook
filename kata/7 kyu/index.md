@@ -214,6 +214,7 @@
 - [String ends with?](string-ends-with)
 - [Suitcase packing](suitcase-packing)
 - [Sum of odd numbers](sum-of-odd-numbers)
+- [Sum of Triangular Numbers](sum-of-triangular-numbers)
 # T
 - [Target Date](target-date)
 - [Testing 1-2-3](testing-1-2-3)
