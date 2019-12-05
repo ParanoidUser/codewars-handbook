@@ -213,6 +213,7 @@
 - [String ends with?](string-ends-with)
 - [Sum of odd numbers](sum-of-odd-numbers)
 # T
+- [Testing 1-2-3](testing-1-2-3)
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
 - [Thinking & Testing : Uniq or not Uniq](thinking-and-testing-uniq-or-not-uniq)
 - [Thinking & Testing: A and B?](thinking-and-testing-a-and-b)
