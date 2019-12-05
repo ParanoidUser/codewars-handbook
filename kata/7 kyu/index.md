@@ -172,6 +172,11 @@
 # H
 - [Halving Sum](halving-sum)
 - [Help Suzuki complete his chores!](help-suzuki-complete-his-chores)
+- [Help the Fruit Guy](help-the-fruit-guy)
+- [Help your fellow warrior!](help-your-fellow-warrior)
+- [Herding cats](herding-cats)
+- [Hero's root](heros-root)
+- [Hide password from jdbc url](hide-password-from-jdbc-url)
 - [Highest and Lowest](highest-and-lowest)
 - [How Green Is My Valley?](how-green-is-my-valley)
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
