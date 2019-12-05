@@ -203,6 +203,7 @@
 # R
 - [Reverse words](reverse-words)
 # S
+- [Shift Left](shift-left-1)
 - [Shortest Word](shortest-word)
 - [Simple beads count](simple-beads-count)
 - [Simple Fun #63: Shape Area](simple-fun-number-63-shape-area)
