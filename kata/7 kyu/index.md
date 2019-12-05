@@ -211,6 +211,7 @@
 - [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)
 - [Speed Control](speed-control)
 - [String ends with?](string-ends-with)
+- [Suitcase packing](suitcase-packing)
 - [Sum of odd numbers](sum-of-odd-numbers)
 # T
 - [Testing 1-2-3](testing-1-2-3)
