@@ -214,6 +214,7 @@
 - [Suitcase packing](suitcase-packing)
 - [Sum of odd numbers](sum-of-odd-numbers)
 # T
+- [Target Date](target-date)
 - [Testing 1-2-3](testing-1-2-3)
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
 - [Thinking & Testing : Uniq or not Uniq](thinking-and-testing-uniq-or-not-uniq)
