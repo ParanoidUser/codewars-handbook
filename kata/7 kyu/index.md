@@ -216,6 +216,7 @@
 # T
 - [Target Date](target-date)
 - [Testing 1-2-3](testing-1-2-3)
+- [The PaperFold sequence](the-paperfold-sequence)
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
 - [Thinking & Testing : Uniq or not Uniq](thinking-and-testing-uniq-or-not-uniq)
 - [Thinking & Testing: A and B?](thinking-and-testing-a-and-b)
