@@ -203,6 +203,7 @@
 # R
 - [Reverse words](reverse-words)
 # S
+- [Shift Left](shift-left-1)
 - [Shortest Word](shortest-word)
 - [Simple beads count](simple-beads-count)
 - [Simple Fun #63: Shape Area](simple-fun-number-63-shape-area)
@@ -210,8 +211,12 @@
 - [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)
 - [Speed Control](speed-control)
 - [String ends with?](string-ends-with)
+- [Suitcase packing](suitcase-packing)
 - [Sum of odd numbers](sum-of-odd-numbers)
 # T
+- [Target Date](target-date)
+- [Testing 1-2-3](testing-1-2-3)
+- [The PaperFold sequence](the-paperfold-sequence)
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
 - [Thinking & Testing : Uniq or not Uniq](thinking-and-testing-uniq-or-not-uniq)
 - [Thinking & Testing: A and B?](thinking-and-testing-a-and-b)
