@@ -212,6 +212,7 @@
 - [Simple Fun #74: Growing Plant](simple-fun-number-74-growing-plant)
 - [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)
 - [Sort Out The Men  From Boys](sort-out-the-men-from-boys-1)
+- [Sort the Gift Code](sort-the-gift-code)
 - [Speed Control](speed-control)
 - [String ends with?](string-ends-with)
 - [Suitcase packing](suitcase-packing)
