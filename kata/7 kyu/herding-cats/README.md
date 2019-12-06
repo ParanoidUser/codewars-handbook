@@ -3,7 +3,7 @@
 In this kata, you will be creating a Java ```Comparator``` to sort cats by their weight.
 
 The ```Cat``` class is preloaded for you., and its signature is given below:
-```java
+```
 public class Cat implements Comparable<Cat>
 {
   public String name;

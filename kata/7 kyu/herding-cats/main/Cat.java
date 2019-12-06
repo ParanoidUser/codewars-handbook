@@ -11,13 +11,4 @@ public class Cat implements Comparable<Cat> {
   public int compareTo(Cat c) {
     return this.name.compareTo(c.name);
   }
-
-  @Override
-  public boolean equals(Object o) {
-    if (o instanceof Cat) {
-      return this.name.equals(((Cat) o).name);
-    }
-
-    return false;
-  }
 }
