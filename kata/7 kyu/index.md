@@ -212,6 +212,7 @@
 - [Sort Out The Men  From Boys](sort-out-the-men-from-boys-1)
 - [Sort the Gift Code](sort-the-gift-code)
 - [Speed Control](speed-control)
+- [Stacked Balls - 2D](stacked-balls-2d)
 - [String ends with?](string-ends-with)
 - [Suitcase packing](suitcase-packing)
 - [Sum of odd numbers](sum-of-odd-numbers)
