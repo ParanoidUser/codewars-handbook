@@ -202,17 +202,22 @@
 - [Printer Errors](printer-errors)
 # R
 - [Reverse words](reverse-words)
+- [Rotate for a Max](rotate-for-a-max)
 # S
 - [Shift Left](shift-left-1)
 - [Shortest Word](shortest-word)
 - [Simple beads count](simple-beads-count)
+- [Simple Fun #152: Invite More Women?](simple-fun-number-152-invite-more-women)
 - [Simple Fun #63: Shape Area](simple-fun-number-63-shape-area)
 - [Simple Fun #74: Growing Plant](simple-fun-number-74-growing-plant)
 - [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)
+- [Sort Out The Men  From Boys](sort-out-the-men-from-boys-1)
+- [Sort the Gift Code](sort-the-gift-code)
 - [Speed Control](speed-control)
 - [String ends with?](string-ends-with)
 - [Suitcase packing](suitcase-packing)
 - [Sum of odd numbers](sum-of-odd-numbers)
+- [Sum of Triangular Numbers](sum-of-triangular-numbers)
 # T
 - [Target Date](target-date)
 - [Testing 1-2-3](testing-1-2-3)
