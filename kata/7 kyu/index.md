@@ -202,6 +202,7 @@
 - [Printer Errors](printer-errors)
 # R
 - [Reverse words](reverse-words)
+- [Rotate for a Max](rotate-for-a-max)
 # S
 - [Shift Left](shift-left-1)
 - [Shortest Word](shortest-word)
