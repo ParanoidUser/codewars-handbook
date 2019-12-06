@@ -192,6 +192,7 @@
 # O
 - [Odd or Even?](odd-or-even)
 - [Ones and Zeros](ones-and-zeros)
+- [ORing arrays](oring-arrays)
 # P
 - [Parts of a list](parts-of-a-list)
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
