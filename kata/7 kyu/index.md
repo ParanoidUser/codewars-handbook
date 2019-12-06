@@ -222,6 +222,7 @@
 # T
 - [Target Date](target-date)
 - [Testing 1-2-3](testing-1-2-3)
+- [The First Non Repeated Character In A String](the-first-non-repeated-character-in-a-string)
 - [The PaperFold sequence](the-paperfold-sequence)
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
 - [Thinking & Testing : Uniq or not Uniq](thinking-and-testing-uniq-or-not-uniq)
