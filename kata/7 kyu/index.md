@@ -178,6 +178,7 @@
 - [Hero's root](heros-root)
 - [Hide password from jdbc url](hide-password-from-jdbc-url)
 - [Highest and Lowest](highest-and-lowest)
+- [Histogram - H2](histogram-h2)
 - [How Green Is My Valley?](how-green-is-my-valley)
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
 # I
