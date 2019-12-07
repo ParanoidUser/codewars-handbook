@@ -180,6 +180,7 @@
 - [Highest and Lowest](highest-and-lowest)
 - [Histogram - H2](histogram-h2)
 - [How Green Is My Valley?](how-green-is-my-valley)
+- [How many days are we represented in a foreign country?](how-many-days-are-we-represented-in-a-foreign-country)
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
 # I
 - [Is It Negative Zero (-0)?](is-it-negative-zero-0)
