@@ -178,7 +178,9 @@
 - [Hero's root](heros-root)
 - [Hide password from jdbc url](hide-password-from-jdbc-url)
 - [Highest and Lowest](highest-and-lowest)
+- [Histogram - H2](histogram-h2)
 - [How Green Is My Valley?](how-green-is-my-valley)
+- [How many days are we represented in a foreign country?](how-many-days-are-we-represented-in-a-foreign-country)
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
 # I
 - [Is It Negative Zero (-0)?](is-it-negative-zero-0)
@@ -202,6 +204,7 @@
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
 - [Printer Errors](printer-errors)
 # R
+- [Redacted!](redacted)
 - [Reverse words](reverse-words)
 - [Rotate for a Max](rotate-for-a-max)
 # S
@@ -217,8 +220,10 @@
 - [Sort the Gift Code](sort-the-gift-code)
 - [Speed Control](speed-control)
 - [Stacked Balls - 2D](stacked-balls-2d)
+- [Stacked Balls - 3D (square base)](stacked-balls-3d-square-base)
 - [Stacked Balls - 3D (triangle base)](stacked-balls-3d-triangle-base)
 - [String ends with?](string-ends-with)
+- [STRONGN  Strong Number (Special Numbers Series #2)](strongn-strong-number-special-numbers-series-number-2)
 - [Suitcase packing](suitcase-packing)
 - [Sum of odd numbers](sum-of-odd-numbers)
 - [Sum of Triangular Numbers](sum-of-triangular-numbers)
