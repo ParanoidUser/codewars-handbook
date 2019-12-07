@@ -220,6 +220,7 @@
 - [Sort the Gift Code](sort-the-gift-code)
 - [Speed Control](speed-control)
 - [Stacked Balls - 2D](stacked-balls-2d)
+- [Stacked Balls - 3D (square base)](stacked-balls-3d-square-base)
 - [Stacked Balls - 3D (triangle base)](stacked-balls-3d-triangle-base)
 - [String ends with?](string-ends-with)
 - [Suitcase packing](suitcase-packing)
