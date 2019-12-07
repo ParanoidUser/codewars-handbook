@@ -196,6 +196,7 @@
 # O
 - [Odd or Even?](odd-or-even)
 - [Ones and Zeros](ones-and-zeros)
+- [ORing arrays](oring-arrays)
 # P
 - [Parts of a list](parts-of-a-list)
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
@@ -211,9 +212,12 @@
 - [Simple Fun #63: Shape Area](simple-fun-number-63-shape-area)
 - [Simple Fun #74: Growing Plant](simple-fun-number-74-growing-plant)
 - [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)
+- [Smooth numbers](smooth-numbers)
 - [Sort Out The Men  From Boys](sort-out-the-men-from-boys-1)
 - [Sort the Gift Code](sort-the-gift-code)
 - [Speed Control](speed-control)
+- [Stacked Balls - 2D](stacked-balls-2d)
+- [Stacked Balls - 3D (triangle base)](stacked-balls-3d-triangle-base)
 - [String ends with?](string-ends-with)
 - [Suitcase packing](suitcase-packing)
 - [Sum of odd numbers](sum-of-odd-numbers)
@@ -221,6 +225,7 @@
 # T
 - [Target Date](target-date)
 - [Testing 1-2-3](testing-1-2-3)
+- [The First Non Repeated Character In A String](the-first-non-repeated-character-in-a-string)
 - [The PaperFold sequence](the-paperfold-sequence)
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
 - [Thinking & Testing : Uniq or not Uniq](thinking-and-testing-uniq-or-not-uniq)
