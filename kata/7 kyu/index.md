@@ -198,6 +198,7 @@
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
 - [Printer Errors](printer-errors)
 # R
+- [Redacted!](redacted)
 - [Reverse words](reverse-words)
 - [Rotate for a Max](rotate-for-a-max)
 # S
