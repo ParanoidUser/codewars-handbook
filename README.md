@@ -44,7 +44,7 @@
       <tr>
          <td rowspan=2>Novice (8 points)</td>
          <td><a href="kata/6%20kyu/index.md">6 kyu</a></td>
-         <td>5 out of 397</td>
+         <td>10 out of 397</td>
       </tr>
       <tr>
          <td><a href="kata/5%20kyu/index.md">5 kyu</a></td>
