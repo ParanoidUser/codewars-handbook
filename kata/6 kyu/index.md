@@ -4,6 +4,7 @@
 # E
 - [Encrypt this!](encrypt-this)
 # M
+- [Make the Deadfish swim](make-the-deadfish-swim)
 - [Mexican Wave](mexican-wave)
 # P
 - [Persistent Bugger.](persistent-bugger)
