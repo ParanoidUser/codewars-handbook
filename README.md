@@ -1,4 +1,4 @@
-<h1 align="center">Codewars</h1>
+<h1 align="center">Java solutions for Codewars challenges</h1>
 
 <p align="center">
   <a href="http://hits.dwyl.io/ParanoidUser/codewars">
@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/lgtm/grade/java/g/ParanoidUser/codewars.svg?label=java">
   </a>
   <a href="https://www.codewars.com/users/ParanoidUser">
-      <img src="https://img.shields.io/badge/dynamic/json?color=3f67a8&label=rank&query=%24.ranks.overall.name&url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FParanoidUser">
+    <img src="https://img.shields.io/badge/dynamic/json?color=3f67a8&label=rank&query=%24.ranks.overall.name&url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FParanoidUser">
   </a>
   <a href="https://www.codewars.com/users/ParanoidUser">
     <img src="https://img.shields.io/badge/dynamic/json?color=3f67a8&label=honor&query=%24.honor&url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FParanoidUser">
