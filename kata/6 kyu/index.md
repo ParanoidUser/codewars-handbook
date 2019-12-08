@@ -13,6 +13,7 @@
 - [The Walker](the-walker)
 - [Tortoise racing](tortoise-racing)
 # U
+- [Unique Substring From Joined Strings](unique-substring-from-joined-strings)
 - [Up AND down](up-and-down)
 # V
 - [Valid Braces](valid-braces)
