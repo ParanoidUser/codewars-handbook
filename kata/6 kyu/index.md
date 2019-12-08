@@ -7,5 +7,6 @@
 - [Persistent Bugger.](persistent-bugger)
 # T
 - [The Walker](the-walker)
+- [Tortoise racing](tortoise-racing)
 # U
 - [Up AND down](up-and-down)
