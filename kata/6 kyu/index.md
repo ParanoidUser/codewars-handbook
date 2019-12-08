@@ -1,6 +1,8 @@
 # C
 - [CamelCase Method](camelcase-method)
 - [Counting Duplicates](counting-duplicates)
+# E
+- [Encrypt this!](encrypt-this)
 # M
 - [Mexican Wave](mexican-wave)
 # P
