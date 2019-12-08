@@ -18,6 +18,8 @@
   </a>
 <p>
 
+[Codewars](https://www.codewars.com) is an educational online platform for computer programming. On the platform, users aka "*codewarriors*" try to solve programming challenges known as "*kata*" to practice programming skills and gain honor points, which represent the level of respect a user has earned from the community. Each kata is set to a Kyu rank, based on its subject area and difficulty. The harder the kata, the more points. Every new codewarrior is ranked as 8 Kyu (Begginer) and can advance through the ranks by completing kata at or above their rank to reach the final 4th Dan (Master). Kyu indicates the number of degrees away from master level (Dan). This is why they count downward. Once you reach master level, we count upward.
+
 ## Library
  
 <table>
@@ -28,7 +30,7 @@
          <th>Solved</th>
       </tr>
       <tr>
-         <td rowspan=2>Proficient</td>
+         <td rowspan=2>Proficient (128 points)</td>
          <td><a href="kata/1%20kyu/index.md">1 kyu</a></td>
          <td>0 out of 16</td>
       </tr>
@@ -37,7 +39,7 @@
          <td>0 out of 24</td>
       </tr>
       <tr>
-         <td rowspan=2>Competent</td>
+         <td rowspan=2>Competent (32 points)</td>
          <td><a href="kata/3%20kyu/index.md">3 kyu</a></td>
          <td>0 out of 32</td>
       </tr>
@@ -46,7 +48,7 @@
          <td>0 out of 97</td>
       </tr>
       <tr>
-         <td rowspan=2>Novice</td>
+         <td rowspan=2>Novice (8 points)</td>
          <td><a href="kata/5%20kyu/index.md">5 kyu</a></td>
          <td>0 out of 173</td>
       </tr>
@@ -55,7 +57,7 @@
          <td>5 out of 397</td>
       </tr>
       <tr>
-         <td rowspan=2>Beginner</td>
+         <td rowspan=2>Beginner (2 points)</td>
          <td><a href="kata/7%20kyu/index.md">7 kyu</a></td>
          <td>223 out of 410</td>
       </tr>
