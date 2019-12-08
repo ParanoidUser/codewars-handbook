@@ -9,6 +9,7 @@
 - [Mexican Wave](mexican-wave)
 # P
 - [Persistent Bugger.](persistent-bugger)
+- [Piano Kata, Part 1](piano-kata-part-1)
 # T
 - [The Walker](the-walker)
 - [Tortoise racing](tortoise-racing)
