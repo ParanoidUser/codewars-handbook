@@ -52,7 +52,7 @@
       </tr>
       <tr>
          <td><a href="kata/6%20kyu/index.md">6 kyu</a></td>
-         <td>0 out of 397</td>
+         <td>5 out of 397</td>
       </tr>
       <tr>
          <td rowspan=2>Beginner</td>
