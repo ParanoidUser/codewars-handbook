@@ -21,10 +21,14 @@
   </a>
 <p>
 
-[Codewars](https://www.codewars.com) is an educational online platform for computer programming. On the platform, users aka "codewarriors" try to solve programming challenges known as "kata" to practice programming skills and gain honor points, which represent the level of respect a user has earned from the community. Each kata is set to a Kyu rank, based on its subject area and difficulty. The harder the kata, the more points. Every new codewarrior is ranked as 8 Kyu (Beginner) and can advance through the ranks by completing kata at or above their rank to reach the final 4th Dan (Master). Kyu indicates the number of degrees away from the master level (Dan). This is why they count downward. Once you reach the master level, we count upward.
+[Codewars](https://www.codewars.com) is an educational online platform for computer programming. On the platform, users aka "*codewarriors*" try to solve programming challenges known as "*kata*" to practice programming skills and gain honor points, which represent the level of respect a user has earned from the community. Each kata is set to a kyū rank, based on its subject area and difficulty. The harder the kata, the more points. Every new codewarrior is ranked as 8 kyū (Beginner) and can advance through the ranks by completing kata at or above their rank to reach the final 4th dan (Master). Kyū indicates the number of degrees away from the master level (Dan). This is why they count downward. Once you reach the master level, we count upward.
 
 ## Library
- 
+
+The library contains a collection of Java solutions for Codewars challenges grouped by a kyū rank. Each solved kata is placed in a separate folder named by its slug and contains a task description, a solution source code, and verification tests. For quick access use the index table or do a search by kata URL, name, ID or slug in the repository. 
+
+**Pay attention:** most solutions are written using Java 11 language features which could be incompatible with other Java versions.
+
 <table>
    <tbody>
       <tr>
@@ -34,38 +38,38 @@
       </tr>
       <tr>
          <td rowspan=2>Beginner (2 points)</td>
-         <td><a href="kata/8%20kyu/index.md">8 kyu</a></td>
+         <td><a href="kata/8%20kyu/index.md">8th kyū</a></td>
          <td>169 out of 169</td>
       </tr>
       <tr>
-         <td><a href="kata/7%20kyu/index.md">7 kyu</a></td>
+         <td><a href="kata/7%20kyu/index.md">7th kyū</a></td>
          <td>223 out of 410</td>
       </tr>
       <tr>
          <td rowspan=2>Novice (8 points)</td>
-         <td><a href="kata/6%20kyu/index.md">6 kyu</a></td>
+         <td><a href="kata/6%20kyu/index.md">6th kyū</a></td>
          <td>10 out of 397</td>
       </tr>
       <tr>
-         <td><a href="kata/5%20kyu/index.md">5 kyu</a></td>
+         <td><a href="kata/5%20kyu/index.md">5th kyū</a></td>
          <td>0 out of 173</td>
       </tr>
       <tr>
          <td rowspan=2>Competent (32 points)</td>
-         <td><a href="kata/4%20kyu/index.md">4 kyu</a></td>
+         <td><a href="kata/4%20kyu/index.md">4th kyū</a></td>
          <td>0 out of 97</td>
       </tr>
       <tr>
-         <td><a href="kata/3%20kyu/index.md">3 kyu</a></td>
+         <td><a href="kata/3%20kyu/index.md">3rd kyū</a></td>
          <td>0 out of 32</td>
       </tr>
       <tr>
          <td rowspan=2>Proficient (128 points)</td>
-         <td><a href="kata/2%20kyu/index.md">2 kyu</a></td>
+         <td><a href="kata/2%20kyu/index.md">2nd kyū</a></td>
          <td>0 out of 24</td>
       </tr>
       <tr>
-         <td><a href="kata/1%20kyu/index.md">1 kyu</a></td>
+         <td><a href="kata/1%20kyu/index.md">1st kyū</a></td>
          <td>0 out of 16</td>
       </tr>
    </tbody>
