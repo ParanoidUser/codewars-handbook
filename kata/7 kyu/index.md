@@ -209,6 +209,7 @@
 - [Shortest Word](shortest-word)
 - [Simple beads count](simple-beads-count)
 - [Simple Fun #152: Invite More Women?](simple-fun-number-152-invite-more-women)
+- [Simple Fun #2: Circle of Numbers](simple-fun-number-2-circle-of-numbers)
 - [Simple Fun #63: Shape Area](simple-fun-number-63-shape-area)
 - [Simple Fun #74: Growing Plant](simple-fun-number-74-growing-plant)
 - [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)
