@@ -178,6 +178,7 @@
 - [Hero's root](heros-root)
 - [Hide password from jdbc url](hide-password-from-jdbc-url)
 - [Highest and Lowest](highest-and-lowest)
+- [Histogram - H1](histogram-h1)
 - [Histogram - H2](histogram-h2)
 - [How Green Is My Valley?](how-green-is-my-valley)
 - [How many days are we represented in a foreign country?](how-many-days-are-we-represented-in-a-foreign-country)
