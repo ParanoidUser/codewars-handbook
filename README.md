@@ -48,7 +48,7 @@ The library contains a collection of Java solutions for Codewars challenges grou
       <tr>
          <td rowspan=2>Novice (8 points)</td>
          <td><a href="kata/6%20kyu/index.md">6th kyū</a></td>
-         <td>10 out of 397</td>
+         <td>15 out of 397</td>
       </tr>
       <tr>
          <td><a href="kata/5%20kyu/index.md">5th kyū</a></td>
