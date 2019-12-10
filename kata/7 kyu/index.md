@@ -229,6 +229,7 @@
 - [Spacify](spacify)
 - [Speed Control](speed-control)
 - [Square Every Digit](square-every-digit)
+- [Square Pi's](square-pis)
 - [Stacked Balls - 2D](stacked-balls-2d)
 - [Stacked Balls - 3D (square base)](stacked-balls-3d-square-base)
 - [Stacked Balls - 3D (triangle base)](stacked-balls-3d-triangle-base)
