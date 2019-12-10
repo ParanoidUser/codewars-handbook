@@ -233,6 +233,7 @@
 - [Target Date](target-date)
 - [Ten Green Bottles](ten-green-bottles)
 - [Testing 1-2-3](testing-1-2-3)
+- [The 12 Days of Christmas](the-12-days-of-christmas)
 - [The First Non Repeated Character In A String](the-first-non-repeated-character-in-a-string)
 - [The PaperFold sequence](the-paperfold-sequence)
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
