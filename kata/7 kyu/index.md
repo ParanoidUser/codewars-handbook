@@ -189,6 +189,7 @@
 # L
 - [Last](last)
 - [Looking for a benefactor](looking-for-a-benefactor)
+- [Lunar Mathematics: Addition](lunar-mathematics-addition)
 # M
 - [Maximum Length Difference](maximum-length-difference)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
