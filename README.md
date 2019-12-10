@@ -57,7 +57,7 @@ The library contains a collection of Java solutions for Codewars challenges grou
       <tr>
          <td rowspan=2>Competent (32 points)</td>
          <td><a href="kata/4%20kyu/index.md">4th kyū</a></td>
-         <td>0 out of 97</td>
+         <td>2 out of 97</td>
       </tr>
       <tr>
          <td><a href="kata/3%20kyu/index.md">3rd kyū</a></td>
