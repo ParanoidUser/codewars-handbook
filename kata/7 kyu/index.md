@@ -210,6 +210,7 @@
 - [Reverse words](reverse-words)
 - [Rotate for a Max](rotate-for-a-max)
 # S
+- [See You Next Happy Year](see-you-next-happy-year)
 - [Shift Left](shift-left-1)
 - [Shortest Word](shortest-word)
 - [Simple beads count](simple-beads-count)
