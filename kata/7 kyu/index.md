@@ -192,6 +192,7 @@
 - [Lunar Mathematics: Addition](lunar-mathematics-addition)
 # M
 - [Maximum Length Difference](maximum-length-difference)
+- [Maximum Multiple](maximum-multiple)
 - [Maximum Triplet Sum (Array Series #7)](maximum-triplet-sum-array-series-number-7)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Mumbling](mumbling)
