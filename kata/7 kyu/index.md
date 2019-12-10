@@ -206,6 +206,7 @@
 - [Product Of Maximums Of Array (Array Series #2)](product-of-maximums-of-array-array-series-number-2)
 # R
 - [Redacted!](redacted)
+- [Remove duplicate words](remove-duplicate-words)
 - [Reverse words](reverse-words)
 - [Rotate for a Max](rotate-for-a-max)
 # S
