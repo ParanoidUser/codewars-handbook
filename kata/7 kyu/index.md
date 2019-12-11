@@ -219,6 +219,7 @@
 - [Return the first M multiples of N](return-the-first-m-multiples-of-n)
 - [Reverse words](reverse-words)
 - [Rotate for a Max](rotate-for-a-max)
+- [Row Weights](row-weights)
 # S
 - [See You Next Happy Year](see-you-next-happy-year)
 - [Shift Left](shift-left-1)
