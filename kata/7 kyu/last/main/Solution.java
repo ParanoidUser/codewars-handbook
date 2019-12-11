@@ -9,6 +9,7 @@ class Solution {
     return string.charAt(string.length() - 1);
   }
 
+  @SafeVarargs
   static <T> T last(T... list) {
     return list[list.length - 1];
   }
