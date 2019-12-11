@@ -196,6 +196,7 @@
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Mumbling](mumbling)
 # N
+- [Nice Array](nice-array)
 - [Null](null)
 - [Number of People in the Bus](number-of-people-in-the-bus)
 # O
