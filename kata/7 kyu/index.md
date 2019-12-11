@@ -195,6 +195,7 @@
 - [Maximum Length Difference](maximum-length-difference)
 - [Maximum Multiple](maximum-multiple)
 - [Maximum Triplet Sum (Array Series #7)](maximum-triplet-sum-array-series-number-7)
+- [Minimum Steps  (Array Series #6)](minimum-steps-array-series-number-6)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Mumbling](mumbling)
 # N
