@@ -43,7 +43,7 @@ The library contains a collection of Java solutions for Codewars challenges grou
       </tr>
       <tr>
          <td><a href="kata/7%20kyu/index.md">7th kyū</a></td>
-         <td>228 out of 410</td>
+         <td>233 out of 410</td>
       </tr>
       <tr>
          <td rowspan=2>Novice (8 points)</td>
