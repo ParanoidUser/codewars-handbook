@@ -191,6 +191,7 @@
 - [Looking for a benefactor](looking-for-a-benefactor)
 - [Lunar Mathematics: Addition](lunar-mathematics-addition)
 # M
+- [Make a function that does arithmetic!](make-a-function-that-does-arithmetic)
 - [Maximum Gap (Array Series #4)](maximum-gap-array-series-number-4)
 - [Maximum Length Difference](maximum-length-difference)
 - [Maximum Multiple](maximum-multiple)
