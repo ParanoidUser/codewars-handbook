@@ -1,4 +1,5 @@
 class Helpers {
+  @SafeVarargs
   static <T> Node<T> listFromArray(T... array) {
     if (array.length == 0) return null;
     Node<T> head = new Node<>(array[0]);
