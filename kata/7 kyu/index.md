@@ -209,6 +209,7 @@
 - [Parts of a list](parts-of-a-list)
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
 - [Printer Errors](printer-errors)
+- [Product  Array (Array Series #5)](product-array-array-series-number-5)
 - [Product Of Maximums Of Array (Array Series #2)](product-of-maximums-of-array-array-series-number-2)
 # R
 - [Redacted!](redacted)
