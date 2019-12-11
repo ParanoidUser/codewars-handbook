@@ -189,8 +189,10 @@
 # L
 - [Last](last)
 - [Looking for a benefactor](looking-for-a-benefactor)
+- [Lunar Mathematics: Addition](lunar-mathematics-addition)
 # M
 - [Maximum Length Difference](maximum-length-difference)
+- [Maximum Triplet Sum (Array Series #7)](maximum-triplet-sum-array-series-number-7)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Mumbling](mumbling)
 # N
@@ -222,6 +224,7 @@
 - [Sort the Gift Code](sort-the-gift-code)
 - [Spacify](spacify)
 - [Speed Control](speed-control)
+- [Square Every Digit](square-every-digit)
 - [Stacked Balls - 2D](stacked-balls-2d)
 - [Stacked Balls - 3D (square base)](stacked-balls-3d-square-base)
 - [Stacked Balls - 3D (triangle base)](stacked-balls-3d-triangle-base)
@@ -234,8 +237,10 @@
 - [Target Date](target-date)
 - [Ten Green Bottles](ten-green-bottles)
 - [Testing 1-2-3](testing-1-2-3)
+- [The 12 Days of Christmas](the-12-days-of-christmas)
 - [The First Non Repeated Character In A String](the-first-non-repeated-character-in-a-string)
 - [The PaperFold sequence](the-paperfold-sequence)
+- [The Poet And The Pendulum](the-poet-and-the-pendulum)
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
 - [Thinking & Testing : Uniq or not Uniq](thinking-and-testing-uniq-or-not-uniq)
 - [Thinking & Testing: A and B?](thinking-and-testing-a-and-b)
