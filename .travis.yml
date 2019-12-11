@@ -11,7 +11,7 @@ before_install:
   - chmod +x gradlew
 
 script:
-  - ./gradlew build --scan --parallel
+  - ./gradlew test --scan --parallel
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
