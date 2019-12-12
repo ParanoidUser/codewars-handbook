@@ -191,9 +191,11 @@
 - [Looking for a benefactor](looking-for-a-benefactor)
 - [Lunar Mathematics: Addition](lunar-mathematics-addition)
 # M
+- [Maximum Gap (Array Series #4)](maximum-gap-array-series-number-4)
 - [Maximum Length Difference](maximum-length-difference)
 - [Maximum Multiple](maximum-multiple)
 - [Maximum Triplet Sum (Array Series #7)](maximum-triplet-sum-array-series-number-7)
+- [Minimum Steps  (Array Series #6)](minimum-steps-array-series-number-6)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Mumbling](mumbling)
 # N
@@ -207,6 +209,7 @@
 - [Parts of a list](parts-of-a-list)
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
 - [Printer Errors](printer-errors)
+- [Product  Array (Array Series #5)](product-array-array-series-number-5)
 - [Product Of Maximums Of Array (Array Series #2)](product-of-maximums-of-array-array-series-number-2)
 # R
 - [Redacted!](redacted)
@@ -236,6 +239,7 @@
 - [String ends with?](string-ends-with)
 - [STRONGN Strong Number (Special Numbers Series #2)](strongn-strong-number-special-numbers-series-number-2)
 - [Suitcase packing](suitcase-packing)
+- [Sum of Odd Cubed Numbers](sum-of-odd-cubed-numbers)
 - [Sum of odd numbers](sum-of-odd-numbers)
 - [Sum of Triangular Numbers](sum-of-triangular-numbers)
 # T
@@ -249,6 +253,7 @@
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
 - [Thinking & Testing : Uniq or not Uniq](thinking-and-testing-uniq-or-not-uniq)
 - [Thinking & Testing: A and B?](thinking-and-testing-a-and-b)
+- [Triangular Treasure](triangular-treasure)
 - [TV Remote](tv-remote)
 - [Two to One](two-to-one)
 # U
