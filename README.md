@@ -10,7 +10,7 @@
   <a href="https://lgtm.com/projects/g/ParanoidUser/codewars/context:java">
     <img src="https://img.shields.io/lgtm/grade/java/g/ParanoidUser/codewars.svg?label=java">
   </a>
-  <a href="https://codewars-solutions.slack.com">
+  <a href="https://join.slack.com/t/codewars-solutions/shared_invite/enQtODYwMDc0MjYxMzc3LTJlMDY5M2Y2M2M2MmNiMzJkZGZkMWQzMmJkMGVlOTkwOWJhZDU4YzBmMDZjNTQ5MTFjNzQ0MTExMGFiZjJmOTc">
       <img src="https://img.shields.io/badge/chat-on%20slack-49c39e.svg?logo=slack">
   </a>
   <a href="https://www.codewars.com/users/ParanoidUser">
