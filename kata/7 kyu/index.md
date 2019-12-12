@@ -184,6 +184,7 @@
 - [Is It Negative Zero (-0)?](is-it-negative-zero-0)
 - [Is this a triangle?](is-this-a-triangle)
 # J
+- [Jaden Casing Strings](jaden-casing-strings)
 - [Jumping  Number (Special Numbers Series  #4)](jumping-number-special-numbers-series-number-4)
 # L
 - [Last](last)
