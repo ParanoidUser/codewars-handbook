@@ -192,6 +192,7 @@
 - [Lunar Mathematics: Addition](lunar-mathematics-addition)
 # M
 - [Maximum Length Difference](maximum-length-difference)
+- [Maximum Multiple](maximum-multiple)
 - [Maximum Triplet Sum (Array Series #7)](maximum-triplet-sum-array-series-number-7)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Mumbling](mumbling)
@@ -206,11 +207,14 @@
 - [Parts of a list](parts-of-a-list)
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
 - [Printer Errors](printer-errors)
+- [Product Of Maximums Of Array (Array Series #2)](product-of-maximums-of-array-array-series-number-2)
 # R
 - [Redacted!](redacted)
+- [Remove duplicate words](remove-duplicate-words)
 - [Reverse words](reverse-words)
 - [Rotate for a Max](rotate-for-a-max)
 # S
+- [See You Next Happy Year](see-you-next-happy-year)
 - [Shift Left](shift-left-1)
 - [Shortest Word](shortest-word)
 - [Simple beads count](simple-beads-count)
@@ -225,6 +229,7 @@
 - [Spacify](spacify)
 - [Speed Control](speed-control)
 - [Square Every Digit](square-every-digit)
+- [Square Pi's](square-pis)
 - [Stacked Balls - 2D](stacked-balls-2d)
 - [Stacked Balls - 3D (square base)](stacked-balls-3d-square-base)
 - [Stacked Balls - 3D (triangle base)](stacked-balls-3d-triangle-base)
