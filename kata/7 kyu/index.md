@@ -271,3 +271,4 @@
 - [Vowel Count](vowel-count)
 # Y
 - [You're a square!](youre-a-square)
+- [Special  Number (Special Numbers Series  #5)](special-number-special-numbers-series-number-5)
