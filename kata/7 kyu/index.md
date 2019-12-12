@@ -224,6 +224,7 @@
 - [Rotate for a Max](rotate-for-a-max)
 - [Row Weights](row-weights)
 # S
+- [Santa's Naughty List](santas-naughty-list)
 - [See You Next Happy Year](see-you-next-happy-year)
 - [Shift Left](shift-left-1)
 - [Shortest Word](shortest-word)
@@ -238,6 +239,7 @@
 - [Sort Out The Men  From Boys](sort-out-the-men-from-boys-1)
 - [Sort the Gift Code](sort-the-gift-code)
 - [Spacify](spacify)
+- [Special  Number (Special Numbers Series  #5)](special-number-special-numbers-series-number-5)
 - [Speed Control](speed-control)
 - [Square Every Digit](square-every-digit)
 - [Square Pi's](square-pis)
@@ -271,4 +273,3 @@
 - [Vowel Count](vowel-count)
 # Y
 - [You're a square!](youre-a-square)
-- [Special  Number (Special Numbers Series  #5)](special-number-special-numbers-series-number-5)
