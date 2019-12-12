@@ -181,6 +181,7 @@
 - [Histogram - H1](histogram-h1)
 - [Histogram - H2](histogram-h2)
 - [How Green Is My Valley?](how-green-is-my-valley)
+- [How many arguments](how-many-arguments)
 - [How many days are we represented in a foreign country?](how-many-days-are-we-represented-in-a-foreign-country)
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
 # I
