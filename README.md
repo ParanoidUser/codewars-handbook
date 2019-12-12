@@ -2,13 +2,16 @@
 
 <p align="center">
   <a href="http://hits.dwyl.io/ParanoidUser/codewars">
-    <img src="https://img.shields.io/badge/dynamic/xml?color=success&label=views&style=square&query=//*[local-name()=%27text%27%20and%20namespace-uri()=%27http://www.w3.org/2000/svg%27][2]&url=http://hits.dwyl.io/ParanoidUser/codewars.svg">
+    <img src="https://img.shields.io/badge/dynamic/xml?color=success&label=views&query=//*[name()=%27text%27][2]&url=http://hits.dwyl.io/ParanoidUser/codewars.svg">
   </a>
   <a href="https://travis-ci.org/ParanoidUser/codewars">
     <img src="https://img.shields.io/travis/ParanoidUser/codewars.svg" alt="build">
   </a>
   <a href="https://lgtm.com/projects/g/ParanoidUser/codewars/context:java">
     <img src="https://img.shields.io/lgtm/grade/java/g/ParanoidUser/codewars.svg?label=java">
+  </a>
+  <a href="https://codewars-solutions.slack.com">
+      <img src="https://img.shields.io/badge/chat-on%20slack-49c39e.svg?logo=slack">
   </a>
   <a href="https://www.codewars.com/users/ParanoidUser">
     <img src="https://img.shields.io/badge/dynamic/json?color=3f67a8&label=rank&query=%24.ranks.overall.name&url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FParanoidUser">
