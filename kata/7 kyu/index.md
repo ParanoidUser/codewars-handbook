@@ -225,6 +225,7 @@
 - [Row Weights](row-weights)
 # S
 - [Santa's Naughty List](santas-naughty-list)
+- [Scaling Squared Strings](scaling-squared-strings)
 - [See You Next Happy Year](see-you-next-happy-year)
 - [Shift Left](shift-left-1)
 - [Shortest Word](shortest-word)
