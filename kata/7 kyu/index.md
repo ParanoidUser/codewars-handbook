@@ -208,6 +208,7 @@
 - [Minimum Ticket Cost](minimum-ticket-cost)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Mumbling](mumbling)
+- [My Languages](mylanguages)
 # N
 - [Nice Array](nice-array)
 - [Nth Smallest Element (Array Series  #4)](nth-smallest-element-array-series-number-4)
