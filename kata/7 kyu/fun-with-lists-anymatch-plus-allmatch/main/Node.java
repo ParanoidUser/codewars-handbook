@@ -1,6 +1,6 @@
 class Node<T> {
-  public T data;
-  public Node<T> next;
+  public final T data;
+  public final Node<T> next;
 
   Node(T data, Node<T> next) {
     this.data = data;
