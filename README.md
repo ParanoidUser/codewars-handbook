@@ -46,7 +46,7 @@ The library contains a collection of Java solutions for Codewars challenges grou
       </tr>
       <tr>
          <td><a href="kata/7%20kyu/index.md" title="- Iterating arrays and returning a subset of values&#13;- Basic data type manipulations&#13;- Basic functional or object-oriented concepts&#13;- Basic Regular Expressions">7th kyū</a></td>
-         <td>248 out of 410</td>
+         <td>253 out of 410</td>
       </tr>
       <tr>
          <td rowspan=2>Novice (8 points)</td>
