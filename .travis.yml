@@ -10,7 +10,7 @@ addons:
   sonarcloud:
     organization: "codewars-solutions"
     token:
-      secure: "jQhDtr4T1fq3NLg3H2erwhL9rH4ZrRGy6G3VJLYPyDSLmdMV4dStRhd0w7UQ26jMYLNZ1JWjFoASpsV6zbG/upRwWhm0eX/Kk1bxECaQgc50wKc4QHd2l1YNk4A4YRcOYNmZTpj2m/EqpEb2GHe5AF5HAM6S4sQQ8kGmdTVHwd4IdObvfuiMsvMclfkLqjiLeAdZAuBZmETbolOkzASrlK2dzIbm/2l0ijWox5NcdjOcyGnWzGCk+l34WTgx67jcZA+fa4TOj5OeMAY0YrW8tuvsPafRLzAUTZdt1GhYVT34iAFOJk4/2H6CHpSvezWd0qha67gleRfV/UVWFZ0dTeE3AMCxQ7TxGMx+Ew/KERLQJLFSx3d271p+Dt4tfOpxpMYv4VPl9fiRQdX4ztzgNXiGHmN6f6G/51gUSXjkYzx+AfUGAQ66VHZvH6d9SaOKDE+yPzNWcm6JqlQkotCd3WslAPByM6jKNT4zjcflkb55YDKBoI2DqcQ+hFF0rmWgVHc7naP0Gw7giHeKEzCCyHPC/vl5JTePpKDqAc0t7PYzxvJZvyf5O9q/0UH00tN0j93OTTZ/cGSmvCgkN/SU7VB82Ex4B+C1eOoytcgr1B3X+PT2x+hrawDRab0aq+Bqz1j7bdJ97KgYNZFIso3vP856g0qvOy3HypuScLliy+k="
+      secure: $SONAR_TOKEN
 
 jdk:
   - openjdk11
