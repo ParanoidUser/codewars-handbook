@@ -288,6 +288,8 @@
 - [Unlucky Days](unlucky-days)
 # V
 - [Vowel Count](vowel-count)
+# W
+- [Where is Vasya?](where-is-vasya)
 # Y
 - [You Can't Code Under Pressure #2](you-cant-code-under-pressure-number-2)
 - [You're a square!](youre-a-square)
