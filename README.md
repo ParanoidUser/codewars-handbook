@@ -41,38 +41,38 @@ The library contains a collection of Java solutions for Codewars challenges grou
       </tr>
       <tr>
          <td rowspan=2>Beginner (2 points)</td>
-         <td><a href="kata/8%20kyu/index.md">8th kyū</a></td>
+         <td><a href="kata/8%20kyu/index.md" title="- Defining a simple function (i.e. hello world)&#13;- Basic variable assignments&#13;- Fixing basic syntax issues&#13;- Trivial algorithms such as basic if/else statements">8th kyū</a></td>
          <td>169 out of 169</td>
       </tr>
       <tr>
-         <td><a href="kata/7%20kyu/index.md">7th kyū</a></td>
+         <td><a href="kata/7%20kyu/index.md" title="- Iterating arrays and returning a subset of values&#13;- Basic data type manipulations&#13;- Basic functional or object-oriented concepts&#13;- Basic Regular Expressions">7th kyū</a></td>
          <td>243 out of 410</td>
       </tr>
       <tr>
          <td rowspan=2>Novice (8 points)</td>
-         <td><a href="kata/6%20kyu/index.md">6th kyū</a></td>
+         <td><a href="kata/6%20kyu/index.md" title="- Complex language features (closures, scopes, monads, etc)&#13;- Complex OOP/Functional concepts&#13;- Basic Design Patterns&#13;- Complex Regular Expressions">6th kyū</a></td>
          <td>15 out of 397</td>
       </tr>
       <tr>
-         <td><a href="kata/5%20kyu/index.md">5th kyū</a></td>
+         <td><a href="kata/5%20kyu/index.md" title="- Complex language features that require mature OOP/Functional concepts&#13;- Advanced OOP/Functional concepts&#13;- Complex Design Patterns&#13;- Advanced regular expression usage">5th kyū</a></td>
          <td>4 out of 173</td>
       </tr>
       <tr>
          <td rowspan=2>Competent (32 points)</td>
-         <td><a href="kata/4%20kyu/index.md">4th kyū</a></td>
+         <td><a href="kata/4%20kyu/index.md" title="- Computer science concepts utilizing complex algorithms&#13;- Advanced design patterns&#13;- Understanding intricate business requirements&#13;- Advanced concepts such as concurrency, parallelism, meta programming and cryptography">4th kyū</a></td>
          <td>4 out of 97</td>
       </tr>
       <tr>
-         <td><a href="kata/3%20kyu/index.md">3rd kyū</a></td>
+         <td><a href="kata/3%20kyu/index.md" title="- Computer science concepts utilizing advanced algorithms&#13;- Ability to implement advanced requirements in a scalable fashion&#13;- Basic AI/machine learning algorithms&#13;- Detailed usage of advanced concepts such as concurrency, parallelism and cryptography">3rd kyū</a></td>
          <td>0 out of 32</td>
       </tr>
       <tr>
          <td rowspan=2>Proficient (128 points)</td>
-         <td><a href="kata/2%20kyu/index.md">2nd kyū</a></td>
+         <td><a href="kata/2%20kyu/index.md" title="- Complex AI/machine learning algorithms&#13;- Reverse engineering techniques&#13;- Basic interpreters and compilers&#13;- Basic mini-programs with multiple feature requirements (such as a basic markdown parser)">2nd kyū</a></td>
          <td>0 out of 24</td>
       </tr>
       <tr>
-         <td><a href="kata/1%20kyu/index.md">1st kyū</a></td>
+         <td><a href="kata/1%20kyu/index.md" title="- Advanced AI/machine learning algorithms&#13;- Complex interpreters and compilers&#13;- Complex Mini-programs with multiple feature requirements (such as a complete markdown parser)">1st kyū</a></td>
          <td>0 out of 16</td>
       </tr>
    </tbody>
