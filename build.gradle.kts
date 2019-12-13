@@ -44,10 +44,13 @@ subprojects {
         test {
             useJUnitPlatform()
         }
-        wrapper {
-            gradleVersion = "6.0.1"
-            distributionType = Wrapper.DistributionType.ALL
-        }
+    }
+}
+
+tasks {
+    wrapper {
+        gradleVersion = "6.0.1"
+        distributionType = Wrapper.DistributionType.ALL
     }
 }
 
