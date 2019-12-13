@@ -186,6 +186,8 @@
 # I
 - [Is It Negative Zero (-0)?](is-it-negative-zero-0)
 - [Is this a triangle?](is-this-a-triangle)
+# J
+- [Jumping  Number (Special Numbers Series  #4)](jumping-number-special-numbers-series-number-4)
 # L
 - [Last](last)
 - [Looking for a benefactor](looking-for-a-benefactor)
@@ -195,12 +197,15 @@
 - [Maximum Gap (Array Series #4)](maximum-gap-array-series-number-4)
 - [Maximum Length Difference](maximum-length-difference)
 - [Maximum Multiple](maximum-multiple)
+- [Maximum Product](maximum-product)
 - [Maximum Triplet Sum (Array Series #7)](maximum-triplet-sum-array-series-number-7)
+- [Minimize Sum Of Array (Array Series #1)](minimize-sum-of-array-array-series-number-1)
 - [Minimum Steps  (Array Series #6)](minimum-steps-array-series-number-6)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Mumbling](mumbling)
 # N
 - [Nice Array](nice-array)
+- [Nth Smallest Element (Array Series  #4)](nth-smallest-element-array-series-number-4)
 - [Null](null)
 - [Number of People in the Bus](number-of-people-in-the-bus)
 # O
@@ -226,6 +231,7 @@
 - [Shortest Word](shortest-word)
 - [Simple beads count](simple-beads-count)
 - [Simple Fun #152: Invite More Women?](simple-fun-number-152-invite-more-women)
+- [Simple Fun #176: Reverse Letter](simple-fun-number-176-reverse-letter)
 - [Simple Fun #2: Circle of Numbers](simple-fun-number-2-circle-of-numbers)
 - [Simple Fun #63: Shape Area](simple-fun-number-63-shape-area)
 - [Simple Fun #74: Growing Plant](simple-fun-number-74-growing-plant)
