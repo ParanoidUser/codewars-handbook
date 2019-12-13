@@ -1,4 +1,4 @@
-<h1 align="center">Java solutions for Codewars challenges</h1>
+<h1 align="center">Codewars solutions on Java ☕️🚀</h1>
 
 <p align="center">
   <a href="http://hits.dwyl.io/ParanoidUser/codewars">
