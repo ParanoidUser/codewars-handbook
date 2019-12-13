@@ -6,6 +6,13 @@ dist: trusty
 git:
   depth: false
 
+env:
+  global:
+    - MAJOR=2
+    - MINOR=0
+    - PATCH=$TRAVIS_BUILD_NUMBER
+    - VERSION=$MAJOR.$MINOR.$PATCH
+
 addons:
   sonarcloud:
     organization: "paranoiduser"
@@ -20,7 +27,7 @@ before_install:
   - chmod +x gradlew
 
 script:
-  - ./gradlew test sonarqube --scan --parallel --build-cache
+  - ./gradlew -Pversion=$VERSION test sonarqube --scan --parallel --build-cache
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
