@@ -50,5 +50,7 @@ subprojects {
 sonarqube {
     properties {
         property("sonar.projectKey", "codewars-solutions")
+        property("sonar.java.binaries", "build/classes/java/main")
+        property("sonar.java.test.binaries", "build/classes/java/test")
     }
 }
