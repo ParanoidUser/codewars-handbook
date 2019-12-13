@@ -1,5 +1,5 @@
 class Greeter {
   static String greet(String name) {
-    return "Hello, " + (name == "Johnny" ? "my love" : name) + "!";
+    return "Hello, " + ("Johnny".equals(name) ? "my love" : name) + "!";
   }
 }
