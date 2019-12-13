@@ -1,5 +1,5 @@
 class ArithmeticFunction {
   static int arithmetic(int a, int b, String op) {
-    return op == "multiply" ? a * b : op == "divide" ? a / b : a + (op == "add" ? b : -b);
+    return op.equals("multiply") ? a * b : op.equals("divide") ? a / b : a + (op.equals("add") ? b : -b);
   }
 }
