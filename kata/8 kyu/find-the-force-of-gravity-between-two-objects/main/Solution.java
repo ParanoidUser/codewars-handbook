@@ -1,10 +1,11 @@
+import java.util.Map;
+
 class Solution {
   static double solution(double[] arrVal, String[] arrUnit) {
-    double newtons = 6.67e-11 * arrVal[0] * arrVal[1] / (arrVal[2] * arrVal[2]);
-    for (String el : arrUnit) {
-      newtons /= el.equals("g") ? 1e3 : el.equals("mg") ? 1e6 : el.equals("μg") ? 1e9 : el.equals("ft") ? .092903 : 1;
-      newtons *= el.equals("lb") ? .45359 : el.equals("cm") ? 1e4 : el.equals("mm") ? 1e6 : el.equals("μm") ? 1e12 : 1;
-    }
-    return newtons;
+    var units = Map.of("g", 1e-3, "mg", 1e-6, "μg", 1e-9, "lb", .45359, "cm", .01, "mm", .001, "μm", 1e-6, "ft", .3048);
+    double m1 = arrVal[0] * units.getOrDefault(arrUnit[0], 1.);
+    double m2 = arrVal[1] * units.getOrDefault(arrUnit[1], 1.);
+    double r = arrVal[2] * units.getOrDefault(arrUnit[2], 1.);
+    return 6.67e-11 * m1 * m2 / r / r;
   }
 }
