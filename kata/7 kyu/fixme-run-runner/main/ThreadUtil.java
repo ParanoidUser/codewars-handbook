@@ -17,6 +17,7 @@ public final class ThreadUtil {
     try {
       Thread.sleep(3000);
     } catch (InterruptedException ex) {
+      throw new RuntimeException(ex);
     }
     return id1 != -1 && id2 != -1 && id1 != id2;
   }
