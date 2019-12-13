@@ -262,6 +262,7 @@
 - [Testing 1-2-3](testing-1-2-3)
 - [The 12 Days of Christmas](the-12-days-of-christmas)
 - [The First Non Repeated Character In A String](the-first-non-repeated-character-in-a-string)
+- [The fusc function  -- Part 1](the-fusc-function-part-1)
 - [The Office I - Outed](the-office-i-outed)
 - [The Office II - Boredom Score](the-office-ii-boredom-score)
 - [The PaperFold sequence](the-paperfold-sequence)
