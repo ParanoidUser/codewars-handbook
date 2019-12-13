@@ -56,6 +56,6 @@ tasks {
 
 sonarqube {
     properties {
-        property("sonar.java.libraries", "${project.projectDir}/build/libs")
+        property("sonar.java.libraries", "${project.projectDir}/build/libs/*.jar, ${System.getProperty("java.home")}/lib/*.jar")
     }
 }
