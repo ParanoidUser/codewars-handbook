@@ -1,11 +1,12 @@
-import org.junit.Test;
-import java.util.function.Predicate;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-public class SolutionTest {
+import java.util.function.Predicate;
 
+import org.junit.Test;
+
+public class SolutionTest {
   @Test
   public void basicTests() {
     assertFalse(Solution.anyMatch(null, b -> false));
