@@ -250,6 +250,7 @@
 - [String ends with?](string-ends-with)
 - [STRONGN Strong Number (Special Numbers Series #2)](strongn-strong-number-special-numbers-series-number-2)
 - [Suitcase packing](suitcase-packing)
+- [Sum of angles](sum-of-angles)
 - [Sum of Odd Cubed Numbers](sum-of-odd-cubed-numbers)
 - [Sum of odd numbers](sum-of-odd-numbers)
 - [Sum of Triangular Numbers](sum-of-triangular-numbers)
