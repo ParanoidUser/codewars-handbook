@@ -17,7 +17,7 @@ before_install:
   - chmod +x gradlew
 
 script:
-  - ./gradlew test --scan --parallel
+  - ./gradlew test --scan --parallel --build-cache -w
   - ./gradlew sonarqube
 
 before_cache:
