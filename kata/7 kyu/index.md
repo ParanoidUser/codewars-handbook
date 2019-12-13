@@ -277,6 +277,7 @@
 - [TV Remote](tv-remote)
 - [Two to One](two-to-one)
 # U
+- [Ultimate Array Reverser](ultimate-array-reverser)
 - [Unlucky Days](unlucky-days)
 # V
 - [Vowel Count](vowel-count)
