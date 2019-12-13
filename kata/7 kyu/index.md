@@ -191,6 +191,7 @@
 - [Looking for a benefactor](looking-for-a-benefactor)
 - [Lunar Mathematics: Addition](lunar-mathematics-addition)
 # M
+- [Make a function that does arithmetic!](make-a-function-that-does-arithmetic)
 - [Maximum Gap (Array Series #4)](maximum-gap-array-series-number-4)
 - [Maximum Length Difference](maximum-length-difference)
 - [Maximum Multiple](maximum-multiple)
@@ -199,6 +200,7 @@
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Mumbling](mumbling)
 # N
+- [Nice Array](nice-array)
 - [Null](null)
 - [Number of People in the Bus](number-of-people-in-the-bus)
 # O
@@ -214,8 +216,10 @@
 # R
 - [Redacted!](redacted)
 - [Remove duplicate words](remove-duplicate-words)
+- [Return the first M multiples of N](return-the-first-m-multiples-of-n)
 - [Reverse words](reverse-words)
 - [Rotate for a Max](rotate-for-a-max)
+- [Row Weights](row-weights)
 # S
 - [See You Next Happy Year](see-you-next-happy-year)
 - [Shift Left](shift-left-1)
@@ -253,6 +257,7 @@
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
 - [Thinking & Testing : Uniq or not Uniq](thinking-and-testing-uniq-or-not-uniq)
 - [Thinking & Testing: A and B?](thinking-and-testing-a-and-b)
+- [Tidy Number (Special Numbers Series  #9)](tidy-number-special-numbers-series-number-9)
 - [Triangular Treasure](triangular-treasure)
 - [TV Remote](tv-remote)
 - [Two to One](two-to-one)
