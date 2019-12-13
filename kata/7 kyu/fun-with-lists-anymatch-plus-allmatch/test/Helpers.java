@@ -6,7 +6,7 @@ class Helpers {
     Node<T> prev = head;
     for (int i = 1; i < array.length; i++) {
       Node<T> curr = new Node<>(array[i]);
-      prev.next = curr;
+      prev.setNext(curr);
       prev = curr;
     }
     return head;
