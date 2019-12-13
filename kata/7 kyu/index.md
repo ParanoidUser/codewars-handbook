@@ -203,6 +203,7 @@
 - [Maximum Triplet Sum (Array Series #7)](maximum-triplet-sum-array-series-number-7)
 - [Minimize Sum Of Array (Array Series #1)](minimize-sum-of-array-array-series-number-1)
 - [Minimum Steps  (Array Series #6)](minimum-steps-array-series-number-6)
+- [Minimum Ticket Cost](minimum-ticket-cost)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Mumbling](mumbling)
 # N
