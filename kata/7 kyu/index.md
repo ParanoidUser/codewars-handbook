@@ -192,6 +192,7 @@
 - [Jumping  Number (Special Numbers Series  #4)](jumping-number-special-numbers-series-number-4)
 # L
 - [Last](last)
+- [Linked Lists - Append](linked-lists-append)
 - [Looking for a benefactor](looking-for-a-benefactor)
 - [Lunar Mathematics: Addition](lunar-mathematics-addition)
 # M
@@ -201,6 +202,7 @@
 - [Maximum Multiple](maximum-multiple)
 - [Maximum Product](maximum-product)
 - [Maximum Triplet Sum (Array Series #7)](maximum-triplet-sum-array-series-number-7)
+- [Mind the Gap](mind-the-gap)
 - [Minimize Sum Of Array (Array Series #1)](minimize-sum-of-array-array-series-number-1)
 - [Minimum Steps  (Array Series #6)](minimum-steps-array-series-number-6)
 - [Minimum Ticket Cost](minimum-ticket-cost)
@@ -288,4 +290,3 @@
 # Y
 - [You Can't Code Under Pressure #2](you-cant-code-under-pressure-number-2)
 - [You're a square!](youre-a-square)
-- [Linked Lists - Append](linked-lists-append)
