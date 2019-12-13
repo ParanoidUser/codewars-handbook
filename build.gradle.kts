@@ -1,5 +1,6 @@
 plugins {
     java
+    id("org.sonarqube") version "2.8"
 }
 
 subprojects {
@@ -43,5 +44,11 @@ subprojects {
         test {
             useJUnitPlatform()
         }
+    }
+}
+
+sonarqube {
+    properties {
+        property("sonar.projectKey", "codewars-solutions")
     }
 }
