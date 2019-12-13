@@ -20,7 +20,7 @@ before_install:
   - chmod +x gradlew
 
 script:
-  - ./gradlew test sonarqube --scan --parallel --build-cache -w
+  - ./gradlew test sonarqube --scan --parallel --build-cache
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
