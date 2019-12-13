@@ -3,6 +3,9 @@ install: true
 os: linux
 dist: trusty
 
+git:
+  depth: false
+
 addons:
   sonarcloud:
     organization: "codewars-solutions"
