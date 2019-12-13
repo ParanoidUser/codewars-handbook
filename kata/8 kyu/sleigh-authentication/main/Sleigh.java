@@ -1,5 +1,5 @@
 class Sleigh {
-  static boolean authenticate(String name, String password) {
-    return name.equals("Santa Claus") && password.equals("Ho Ho Ho!");
+  static boolean authenticate(String name, String secret) {
+    return name.equals("Santa Claus") && secret.equals("Ho Ho Ho!");
   }
 }
