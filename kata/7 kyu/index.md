@@ -269,6 +269,7 @@
 - [The fusc function  -- Part 1](the-fusc-function-part-1)
 - [The Office I - Outed](the-office-i-outed)
 - [The Office II - Boredom Score](the-office-ii-boredom-score)
+- [The Office IV - Find a Meeting Room](the-office-iv-find-a-meeting-room)
 - [The PaperFold sequence](the-paperfold-sequence)
 - [The Poet And The Pendulum](the-poet-and-the-pendulum)
 - [The Pony Express](the-pony-express)
