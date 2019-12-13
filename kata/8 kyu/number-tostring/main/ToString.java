@@ -1,3 +1,3 @@
 class ToString {
-  static final String a = "123";
+  static String a = "123";
 }
