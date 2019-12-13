@@ -44,13 +44,15 @@ subprojects {
         test {
             useJUnitPlatform()
         }
+        wrapper {
+            gradleVersion = "6.0.1"
+            distributionType = Wrapper.DistributionType.ALL
+        }
     }
 }
 
 sonarqube {
     properties {
-        property("sonar.projectKey", "codewars-solutions")
-        property("sonar.java.binaries", "build/classes/java/main")
-        property("sonar.java.test.binaries", "build/classes/java/test")
+        property("sonar.java.libraries", "**/*.jar")
     }
 }
