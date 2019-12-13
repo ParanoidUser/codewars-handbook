@@ -21,7 +21,6 @@ addons:
 
 jdk:
   - openjdk11
-  - oraclejdk11
 
 before_install:
   - chmod +x gradlew
