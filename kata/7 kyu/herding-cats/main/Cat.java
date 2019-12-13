@@ -1,6 +1,6 @@
 public class Cat implements Comparable<Cat> {
-  public String name;
-  public double weight;
+  String name;
+  double weight;
 
   public Cat(String name, double weight) {
     this.name = name;
