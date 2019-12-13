@@ -1,5 +1,5 @@
 class Swapper {
-  public Object[] arguments;
+  Object[] arguments;
 
   public Swapper(Object[] args) {
     arguments = args;
