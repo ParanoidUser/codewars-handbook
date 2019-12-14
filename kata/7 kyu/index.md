@@ -181,12 +181,14 @@
 - [Histogram - H1](histogram-h1)
 - [Histogram - H2](histogram-h2)
 - [How Green Is My Valley?](how-green-is-my-valley)
+- [How many arguments](how-many-arguments)
 - [How many days are we represented in a foreign country?](how-many-days-are-we-represented-in-a-foreign-country)
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
 # I
 - [Is It Negative Zero (-0)?](is-it-negative-zero-0)
 - [Is this a triangle?](is-this-a-triangle)
 # J
+- [Jaden Casing Strings](jaden-casing-strings)
 - [Jumping  Number (Special Numbers Series  #4)](jumping-number-special-numbers-series-number-4)
 # L
 - [Last](last)
@@ -226,6 +228,7 @@
 - [Rotate for a Max](rotate-for-a-max)
 - [Row Weights](row-weights)
 # S
+- [Santa's Naughty List](santas-naughty-list)
 - [See You Next Happy Year](see-you-next-happy-year)
 - [Shift Left](shift-left-1)
 - [Shortest Word](shortest-word)
@@ -240,6 +243,7 @@
 - [Sort Out The Men  From Boys](sort-out-the-men-from-boys-1)
 - [Sort the Gift Code](sort-the-gift-code)
 - [Spacify](spacify)
+- [Special  Number (Special Numbers Series  #5)](special-number-special-numbers-series-number-5)
 - [Speed Control](speed-control)
 - [Square Every Digit](square-every-digit)
 - [Square Pi's](square-pis)
@@ -260,6 +264,7 @@
 - [The First Non Repeated Character In A String](the-first-non-repeated-character-in-a-string)
 - [The PaperFold sequence](the-paperfold-sequence)
 - [The Poet And The Pendulum](the-poet-and-the-pendulum)
+- [The Pony Express](the-pony-express)
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
 - [Thinking & Testing : Uniq or not Uniq](thinking-and-testing-uniq-or-not-uniq)
 - [Thinking & Testing: A and B?](thinking-and-testing-a-and-b)
