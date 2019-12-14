@@ -6,16 +6,9 @@ dist: trusty
 git:
   depth: false
 
-env:
-  global:
-    - MAJOR=2
-    - MINOR=0
-    - PATCH=$TRAVIS_BUILD_NUMBER
-    - VERSION=$MAJOR.$MINOR.$PATCH
-
 addons:
   sonarcloud:
-    organization: "paranoiduser"
+    organization: $TRAVIS_REPO_SLUG
     token:
       secure: $SONAR_TOKEN
 
