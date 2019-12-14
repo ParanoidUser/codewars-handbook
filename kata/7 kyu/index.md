@@ -229,6 +229,7 @@
 - [Row Weights](row-weights)
 # S
 - [Santa's Naughty List](santas-naughty-list)
+- [Scaling Squared Strings](scaling-squared-strings)
 - [See You Next Happy Year](see-you-next-happy-year)
 - [Shift Left](shift-left-1)
 - [Shortest Word](shortest-word)
@@ -253,6 +254,7 @@
 - [String ends with?](string-ends-with)
 - [STRONGN Strong Number (Special Numbers Series #2)](strongn-strong-number-special-numbers-series-number-2)
 - [Suitcase packing](suitcase-packing)
+- [Sum of angles](sum-of-angles)
 - [Sum of Odd Cubed Numbers](sum-of-odd-cubed-numbers)
 - [Sum of odd numbers](sum-of-odd-numbers)
 - [Sum of Triangular Numbers](sum-of-triangular-numbers)
@@ -262,6 +264,8 @@
 - [Testing 1-2-3](testing-1-2-3)
 - [The 12 Days of Christmas](the-12-days-of-christmas)
 - [The First Non Repeated Character In A String](the-first-non-repeated-character-in-a-string)
+- [The Office I - Outed](the-office-i-outed)
+- [The Office II - Boredom Score](the-office-ii-boredom-score)
 - [The PaperFold sequence](the-paperfold-sequence)
 - [The Poet And The Pendulum](the-poet-and-the-pendulum)
 - [The Pony Express](the-pony-express)
@@ -273,6 +277,7 @@
 - [TV Remote](tv-remote)
 - [Two to One](two-to-one)
 # U
+- [Ultimate Array Reverser](ultimate-array-reverser)
 - [Unlucky Days](unlucky-days)
 # V
 - [Vowel Count](vowel-count)
