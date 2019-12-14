@@ -8,7 +8,7 @@ git:
 
 addons:
   sonarcloud:
-    organization: $TRAVIS_REPO_SLUG
+    organization: $TRAVIS_REPO_OWNER
     token:
       secure: $SONAR_TOKEN
 
