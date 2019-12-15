@@ -64,7 +64,7 @@ The library contains a collection of Java solutions for Codewars challenges grou
       </tr>
       <tr>
          <td><a href="kata/3%20kyu/index.md" title="- Computer science concepts utilizing advanced algorithms&#13;- Ability to implement advanced requirements in a scalable fashion&#13;- Basic AI/machine learning algorithms&#13;- Detailed usage of advanced concepts such as concurrency, parallelism and cryptography">3rd kyū</a></td>
-         <td>0 out of 32</td>
+         <td>3 out of 32</td>
       </tr>
       <tr>
          <td rowspan=2>Proficient (128 points)</td>
