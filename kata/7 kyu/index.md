@@ -203,6 +203,7 @@
 - [Maximum Triplet Sum (Array Series #7)](maximum-triplet-sum-array-series-number-7)
 - [Minimize Sum Of Array (Array Series #1)](minimize-sum-of-array-array-series-number-1)
 - [Minimum Steps  (Array Series #6)](minimum-steps-array-series-number-6)
+- [Minimum Ticket Cost](minimum-ticket-cost)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Mumbling](mumbling)
 # N
@@ -224,6 +225,7 @@
 - [Redacted!](redacted)
 - [Remove duplicate words](remove-duplicate-words)
 - [Return the first M multiples of N](return-the-first-m-multiples-of-n)
+- [Reverse a Number](reverse-a-number)
 - [Reverse words](reverse-words)
 - [Rotate for a Max](rotate-for-a-max)
 - [Row Weights](row-weights)
@@ -264,8 +266,10 @@
 - [Testing 1-2-3](testing-1-2-3)
 - [The 12 Days of Christmas](the-12-days-of-christmas)
 - [The First Non Repeated Character In A String](the-first-non-repeated-character-in-a-string)
+- [The fusc function  -- Part 1](the-fusc-function-part-1)
 - [The Office I - Outed](the-office-i-outed)
 - [The Office II - Boredom Score](the-office-ii-boredom-score)
+- [The Office IV - Find a Meeting Room](the-office-iv-find-a-meeting-room)
 - [The PaperFold sequence](the-paperfold-sequence)
 - [The Poet And The Pendulum](the-poet-and-the-pendulum)
 - [The Pony Express](the-pony-express)
@@ -282,4 +286,5 @@
 # V
 - [Vowel Count](vowel-count)
 # Y
+- [You Can't Code Under Pressure #2](you-cant-code-under-pressure-number-2)
 - [You're a square!](youre-a-square)
