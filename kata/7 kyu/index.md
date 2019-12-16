@@ -176,6 +176,7 @@
 - [Highest and Lowest](highest-and-lowest)
 - [Histogram - H1](histogram-h1)
 - [Histogram - H2](histogram-h2)
+- [Holiday VII - Local Talk](holiday-vii-local-talk)
 - [How Green Is My Valley?](how-green-is-my-valley)
 - [How many arguments](how-many-arguments)
 - [How many days are we represented in a foreign country?](how-many-days-are-we-represented-in-a-foreign-country)
@@ -188,6 +189,7 @@
 - [Jumping  Number (Special Numbers Series  #4)](jumping-number-special-numbers-series-number-4)
 # L
 - [Last](last)
+- [Laxative Shot Roulette](laxative-shot-roulette)
 - [Linked Lists - Append](linked-lists-append)
 - [Looking for a benefactor](looking-for-a-benefactor)
 - [Lunar Mathematics: Addition](lunar-mathematics-addition)
@@ -278,7 +280,9 @@
 - [The fusc function  -- Part 1](the-fusc-function-part-1)
 - [The Office I - Outed](the-office-i-outed)
 - [The Office II - Boredom Score](the-office-ii-boredom-score)
+- [The Office III - Broken Photocopier](the-office-iii-broken-photocopier)
 - [The Office IV - Find a Meeting Room](the-office-iv-find-a-meeting-room)
+- [The old switcheroo](the-old-switcheroo)
 - [The PaperFold sequence](the-paperfold-sequence)
 - [The Poet And The Pendulum](the-poet-and-the-pendulum)
 - [The Pony Express](the-pony-express)
@@ -293,6 +297,7 @@
 - [Two to One](two-to-one)
 # U
 - [Ultimate Array Reverser](ultimate-array-reverser)
+- [Unflatten a list (Easy)](unflatten-a-list-easy)
 - [Unlucky Days](unlucky-days)
 # V
 - [Vowel Count](vowel-count)
