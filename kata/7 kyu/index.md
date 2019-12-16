@@ -266,6 +266,7 @@
 - [Sum of angles](sum-of-angles)
 - [Sum of Odd Cubed Numbers](sum-of-odd-cubed-numbers)
 - [Sum of odd numbers](sum-of-odd-numbers)
+- [Sum of the first nth term of Series](sum-of-the-first-nth-term-of-series)
 - [Sum of Triangular Numbers](sum-of-triangular-numbers)
 # T
 - [Target Date](target-date)
