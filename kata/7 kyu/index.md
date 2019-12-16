@@ -246,6 +246,7 @@
 - [Simple Fun #74: Growing Plant](simple-fun-number-74-growing-plant)
 - [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)
 - [Smooth numbers](smooth-numbers)
+- [Snail crawls up](snail-crawls-up)
 - [Sort Out The Men  From Boys](sort-out-the-men-from-boys-1)
 - [Sort the Gift Code](sort-the-gift-code)
 - [Spacify](spacify)
