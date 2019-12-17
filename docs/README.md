@@ -1,4 +1,4 @@
-<h1 align="center">Codewars solutions on Java ☕️🚀</h1>
+<h1 align="center">Codewars solutions in Java ☕️🚀</h1>
 
 <p align="center">
    <a href="http://hits.dwyl.io/ParanoidUser/codewars-solutions">
@@ -35,7 +35,7 @@
 
 ## Library
 
-The library contains a collection of Java solutions for Codewars challenges grouped by a kyū rank. Each solved kata is placed in a separate folder named by its slug and contains a task description, a solution source code, and verification tests. For quick access use the index table or do a search by kata URL, name, ID or slug in the repository. 
+Here is a collection of Java solutions for Codewars challenges grouped by a kyū rank. Each solved kata is placed in a separate folder named by its slug and contains a task description, a solution source code, and verification tests. All solutions were solved on [the official website](https://www.codewars.com) and are verified against their original tests every day by Travis CI automation. <ins>For quick access</ins> use the index table or do a search by kata URL, name, ID or slug in the repository. 
 
 **Pay attention:** most solutions are written using Java 11 language features which could be incompatible with other Java versions.
 
@@ -123,6 +123,18 @@ If you find the repo helpful, please give it a thank with a star. 😊
 ## Contribute
 
 Any contribution is highly appreciated you are very welcome to open issues or send pull requests.
+
+> *"This solution doesn't solve my kata problem!"* 😤
+>> Please open an issue or create a pull request with a working copy.
+
+> *"This solution has a bug!"* 😱
+>> Please open an issue or create a pull request with a fixed version.
+
+> *"This solution is outdated and I know a better one!"* 🤔
+>> Please open an issue or create a pull request and share it.
+
+> *"I didn't find a solution to my kata!"* 🙄
+>> You know what to do right? 😉 Please open an issue and I'll preoritize it.
 
 ## License
 
