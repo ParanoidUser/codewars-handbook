@@ -250,6 +250,7 @@
 - [Simple Fun #63: Shape Area](simple-fun-number-63-shape-area)
 - [Simple Fun #74: Growing Plant](simple-fun-number-74-growing-plant)
 - [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)
+- [Simple string division II](simple-string-division-ii)
 - [Smooth numbers](smooth-numbers)
 - [Snail crawls up](snail-crawls-up)
 - [Sort Out The Men  From Boys](sort-out-the-men-from-boys-1)
