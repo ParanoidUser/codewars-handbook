@@ -210,6 +210,7 @@
 - [Minimize Sum Of Array (Array Series #1)](minimize-sum-of-array-array-series-number-1)
 - [Minimum Steps  (Array Series #6)](minimum-steps-array-series-number-6)
 - [Minimum Ticket Cost](minimum-ticket-cost)
+- [Monty Hall Problem](monty-hall-problem)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Mumbling](mumbling)
 - [My Languages](mylanguages)
@@ -260,7 +261,11 @@
 - [Simple Fun #63: Shape Area](simple-fun-number-63-shape-area)
 - [Simple Fun #74: Growing Plant](simple-fun-number-74-growing-plant)
 - [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)
+<<<<<<< HEAD
 - [Small enough? - Beginner](small-enough-beginner)
+=======
+- [Simple string division II](simple-string-division-ii)
+>>>>>>> 380ef4e... https://www.codewars.com/kata/simple-string-division-ii
 - [Smooth numbers](smooth-numbers)
 - [Snail crawls up](snail-crawls-up)
 - [Sort Out The Men  From Boys](sort-out-the-men-from-boys-1)
@@ -313,6 +318,7 @@
 # V
 - [Vowel Count](vowel-count)
 # W
+- [Waiting room](waiting-room)
 - [Where is Vasya?](where-is-vasya)
 # Y
 - [You Can't Code Under Pressure #2](you-cant-code-under-pressure-number-2)
