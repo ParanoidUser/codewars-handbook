@@ -207,6 +207,7 @@
 - [Minimize Sum Of Array (Array Series #1)](minimize-sum-of-array-array-series-number-1)
 - [Minimum Steps  (Array Series #6)](minimum-steps-array-series-number-6)
 - [Minimum Ticket Cost](minimum-ticket-cost)
+- [Monty Hall Problem](monty-hall-problem)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Mumbling](mumbling)
 - [My Languages](mylanguages)
