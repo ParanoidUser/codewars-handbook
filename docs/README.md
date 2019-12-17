@@ -134,7 +134,7 @@ Any contribution is highly appreciated you are very welcome to open issues or se
 >> Please open an issue or create a pull request and share it.
 
 > *"I didn't find a solution to my kata!"* 🙄
->> You know what to do right? 😉 Please open an issue and I'll preoritize it.
+>> You know what to do, right? 😉 Please open an issue and I'll prioritize it.
 
 ## License
 
