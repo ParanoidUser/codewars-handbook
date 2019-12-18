@@ -268,6 +268,7 @@
 - [Stacked Balls - 3D (square base)](stacked-balls-3d-square-base)
 - [Stacked Balls - 3D (triangle base)](stacked-balls-3d-triangle-base)
 - [String ends with?](string-ends-with)
+- [String Packet Based Communications](string-packet-based-communications)
 - [STRONGN Strong Number (Special Numbers Series #2)](strongn-strong-number-special-numbers-series-number-2)
 - [Suitcase packing](suitcase-packing)
 - [Sum of angles](sum-of-angles)
