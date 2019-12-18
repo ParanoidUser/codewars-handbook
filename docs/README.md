@@ -5,6 +5,10 @@
       <img src="https://img.shields.io/badge/dynamic/xml?color=success&label=views&query=//*[name()=%27text%27][2]&url=http://hits.dwyl.io/ParanoidUser/codewars.svg"
            title="Views statistics +1 👀">
    </a>
+   <a href="https://www.codewars.com">
+      <img src="https://img.shields.io/badge/solved%20kata-488-orange.svg"
+           title="Number of solved kata 👌">
+   </a>
    <a href="https://travis-ci.org/ParanoidUser/codewars-solutions">
       <img src="https://img.shields.io/travis/ParanoidUser/codewars-solutions.svg"
            title="CI/CD pipeline 🛠">
@@ -17,23 +21,11 @@
       <img src="https://img.shields.io/gitter/room/paranoiduser/codewars-solutions?color=49c39e"
            title="Let's have a chat! 📞">
    </a>
-   <a href="https://www.codewars.com/users/ParanoidUser">
-      <img src="https://img.shields.io/badge/dynamic/json?color=3f67a8&label=rank&query=%24.ranks.overall.name&url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FParanoidUser"
-           title="Codewarrior rank 💪">
-   </a>
-   <a href="https://www.codewars.com/users/ParanoidUser">
-      <img src="https://img.shields.io/badge/dynamic/json?color=3f67a8&label=honor&query=%24.honor&url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FParanoidUser"
-           title="Codewarrior honor 🙏">
-   </a>
-   <a href="https://www.codewars.com/users/ParanoidUser">
-      <img src="https://img.shields.io/badge/dynamic/json?color=red&label=solved%20kata&query=%24.codeChallenges.totalCompleted&url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FParanoidUser"
-           title="Number of solved kata 👌">
-   </a>
 <p>
 
 [Codewars](https://www.codewars.com) is an educational online platform for computer programming. On the platform, users aka "*codewarriors*" try to solve programming challenges known as "*kata*" to practice programming skills and gain honor points, which represent the level of respect a user has earned from the community. Each kata is set to a kyū rank, based on its subject area and difficulty. The harder the kata, the more points. Every new codewarrior is ranked as 8 kyū (Beginner) and can advance through the ranks by completing kata at or above their rank to reach the final 4th dan (Master). Kyū indicates the number of degrees away from the master level. This is why they count downward. Once you reach the master level, we count upward.
 
-## Solutions
+## Overview
 
 Here is a collection of Java solutions for Codewars challenges grouped by a kyū rank. Each solved kata is placed in a separate folder named by its slug and contains a task description, a solution source code, and verification tests. All solutions were solved on [the official website](https://www.codewars.com) and are verified against their original tests every day by Travis CI automation. **Pay attention:** most solutions are written using Java 11 language features which could be incompatible with Java 8 kata versions.
 
