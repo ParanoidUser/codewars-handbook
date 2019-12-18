@@ -13,13 +13,13 @@
       <img src="https://img.shields.io/travis/ParanoidUser/codewars-solutions.svg"
            title="CI/CD pipeline 🛠">
    </a>
-   <a href="https://lgtm.com/projects/g/ParanoidUser/codewars-solutions/context:java">
-      <img src="https://img.shields.io/lgtm/grade/java/github/ParanoidUser/codewars-solutions.svg?label=java"
-           title="Continuous security analysis 🔎">
-   </a>
    <a href="https://gitter.im/paranoiduser/codewars-solutions">
       <img src="https://img.shields.io/gitter/room/paranoiduser/codewars-solutions?color=49c39e"
            title="Let's have a chat! 📞">
+   </a>
+   <a href="https://lgtm.com/projects/g/ParanoidUser/codewars-solutions/context:java">
+      <img src="https://img.shields.io/lgtm/grade/java/github/ParanoidUser/codewars-solutions.svg?label=java"
+           title="Continuous security analysis 🔎">
    </a>
 <p>
 
