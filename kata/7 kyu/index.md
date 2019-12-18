@@ -185,6 +185,7 @@
 - [How many days are we represented in a foreign country?](how-many-days-are-we-represented-in-a-foreign-country)
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
 # I
+- [Infinitely Nested Radicals](infinitely-nested-radicals)
 - [Inspiring Strings](inspiring-strings)
 - [Is It Negative Zero (-0)?](is-it-negative-zero-0)
 - [Is this a triangle?](is-this-a-triangle)
