@@ -13,8 +13,8 @@
       <img src="https://img.shields.io/lgtm/grade/java/github/ParanoidUser/codewars-solutions.svg?label=java"
            title="Continuous security analysis 🔎">
    </a>
-   <a href="https://join.slack.com/t/codewars-solutions/shared_invite/enQtODYwMDc0MjYxMzc3LTJlMDY5M2Y2M2M2MmNiMzJkZGZkMWQzMmJkMGVlOTkwOWJhZDU4YzBmMDZjNTQ5MTFjNzQ0MTExMGFiZjJmOTc">
-      <img src="https://img.shields.io/badge/chat-on%20slack-49c39e.svg?logo=slack"
+   <a href="https://gitter.im/paranoiduser/codewars-solutions">
+      <img src="https://img.shields.io/gitter/room/paranoiduser/codewars-solutions?color=49c39e"
            title="Let's have a chat! 📞">
    </a>
    <a href="https://www.codewars.com/users/ParanoidUser">
