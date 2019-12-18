@@ -247,7 +247,11 @@
 - [Simple Fun #152: Invite More Women?](simple-fun-number-152-invite-more-women)
 - [Simple Fun #176: Reverse Letter](simple-fun-number-176-reverse-letter)
 - [Simple Fun #2: Circle of Numbers](simple-fun-number-2-circle-of-numbers)
+<<<<<<< HEAD
 - [Simple Fun #41: Elections Winners](simple-fun-number-41-elections-winners)
+=======
+- [Simple Fun #37: House Numbers Sum](simple-fun-number-37-house-numbers-sum)
+>>>>>>> b9ce65b... https://www.codewars.com/kata/simple-fun-number-37-house-numbers-sum
 - [Simple Fun #63: Shape Area](simple-fun-number-63-shape-area)
 - [Simple Fun #74: Growing Plant](simple-fun-number-74-growing-plant)
 - [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)

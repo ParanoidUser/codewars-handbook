@@ -64,7 +64,7 @@ If you find the repo helpful, please give it a thank with <span title="↑↑↑
                title="- Iterating arrays and returning a subset of values&#13;- Basic data type manipulations&#13;- Basic functional or object-oriented concepts&#13;- Basic Regular Expressions">7th kyū
             </a>
          </td>
-         <td>288 out of 410</td>
+         <td>293 out of 410</td>
       </tr>
       <tr>
          <td rowspan=2>Novice (8 points)</td>
