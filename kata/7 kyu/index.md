@@ -178,6 +178,7 @@
 - [Histogram - H2](histogram-h2)
 - [Holiday VII - Local Talk](holiday-vii-local-talk)
 - [How Green Is My Valley?](how-green-is-my-valley)
+- [How long should you cook this for?](how-long-should-you-cook-this-for)
 - [How many arguments](how-many-arguments)
 - [How many days are we represented in a foreign country?](how-many-days-are-we-represented-in-a-foreign-country)
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
@@ -192,6 +193,7 @@
 # L
 - [Last](last)
 - [Laxative Shot Roulette](laxative-shot-roulette)
+- [Letterbox Paint-Squad](letterbox-paint-squad)
 - [Linked Lists - Append](linked-lists-append)
 - [Looking for a benefactor](looking-for-a-benefactor)
 - [Lunar Mathematics: Addition](lunar-mathematics-addition)
