@@ -186,6 +186,8 @@
 - [How many days are we represented in a foreign country?](how-many-days-are-we-represented-in-a-foreign-country)
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
 # I
+- [Infinitely Nested Radicals](infinitely-nested-radicals)
+- [Inspiring Strings](inspiring-strings)
 - [IntTunes](inttunes)
 - [Is It Negative Zero (-0)?](is-it-negative-zero-0)
 - [Is this a triangle?](is-this-a-triangle)
@@ -221,12 +223,14 @@
 - [Number of People in the Bus](number-of-people-in-the-bus)
 # O
 - [Odd or Even?](odd-or-even)
+- [Odd-Even String Sort](odd-even-string-sort)
 - [Ones and Zeros](ones-and-zeros)
 - [ORing arrays](oring-arrays)
 # P
 - [Parts of a list](parts-of-a-list)
 - [Password System](password-system)
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
+- [Predict your age!](predict-your-age)
 - [Principal Diagonal VS Secondary Diagonal](principal-diagonal-vs-secondary-diagonal)
 - [Printer Errors](printer-errors)
 - [Product  Array (Array Series #5)](product-array-array-series-number-5)
@@ -240,6 +244,7 @@
 - [Return the first M multiples of N](return-the-first-m-multiples-of-n)
 - [Reverse a Number](reverse-a-number)
 - [Reverse words](reverse-words)
+- [Rock Off!](rock-off)
 - [Rotate for a Max](rotate-for-a-max)
 - [Row Weights](row-weights)
 # S
@@ -253,19 +258,15 @@
 - [Simple Fun #152: Invite More Women?](simple-fun-number-152-invite-more-women)
 - [Simple Fun #176: Reverse Letter](simple-fun-number-176-reverse-letter)
 - [Simple Fun #2: Circle of Numbers](simple-fun-number-2-circle-of-numbers)
-<<<<<<< HEAD
 - [Simple Fun #41: Elections Winners](simple-fun-number-41-elections-winners)
-=======
 - [Simple Fun #37: House Numbers Sum](simple-fun-number-37-house-numbers-sum)
->>>>>>> b9ce65b... https://www.codewars.com/kata/simple-fun-number-37-house-numbers-sum
 - [Simple Fun #63: Shape Area](simple-fun-number-63-shape-area)
 - [Simple Fun #74: Growing Plant](simple-fun-number-74-growing-plant)
 - [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)
-<<<<<<< HEAD
-- [Small enough? - Beginner](small-enough-beginner)
-=======
+- [Simple letter removal](simple-letter-removal)
 - [Simple string division II](simple-string-division-ii)
->>>>>>> 380ef4e... https://www.codewars.com/kata/simple-string-division-ii
+- [Small enough? - Beginner](small-enough-beginner)
+- [Simple string division II](simple-string-division-ii)
 - [Smooth numbers](smooth-numbers)
 - [Snail crawls up](snail-crawls-up)
 - [Sort Out The Men  From Boys](sort-out-the-men-from-boys-1)
@@ -279,6 +280,7 @@
 - [Stacked Balls - 3D (square base)](stacked-balls-3d-square-base)
 - [Stacked Balls - 3D (triangle base)](stacked-balls-3d-triangle-base)
 - [String ends with?](string-ends-with)
+- [String Packet Based Communications](string-packet-based-communications)
 - [String Merge!](string-merge)
 - [STRONGN Strong Number (Special Numbers Series #2)](strongn-strong-number-special-numbers-series-number-2)
 - [Suitcase packing](suitcase-packing)
