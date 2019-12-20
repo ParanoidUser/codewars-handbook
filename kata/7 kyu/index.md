@@ -197,6 +197,7 @@
 - [Letterbox Paint-Squad](letterbox-paint-squad)
 - [Linked Lists - Append](linked-lists-append)
 - [Looking for a benefactor](looking-for-a-benefactor)
+- [Lucky number](lucky-number)
 - [Lunar Mathematics: Addition](lunar-mathematics-addition)
 # M
 - [Make a function that does arithmetic!](make-a-function-that-does-arithmetic)
