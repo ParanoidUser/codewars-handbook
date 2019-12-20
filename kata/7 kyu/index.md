@@ -324,6 +324,7 @@
 - [Ultimate Array Reverser](ultimate-array-reverser)
 - [Unflatten a list (Easy)](unflatten-a-list-easy)
 - [Unlucky Days](unlucky-days)
+- [Unusual Lex Order](unusual-lex-order)
 - [URL Timestamps](url-timestamps)
 # V
 - [Vowel Count](vowel-count)
