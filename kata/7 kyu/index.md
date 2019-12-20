@@ -275,6 +275,7 @@
 - [Snail crawls up](snail-crawls-up)
 - [Sort Out The Men  From Boys](sort-out-the-men-from-boys-1)
 - [Sort the Gift Code](sort-the-gift-code)
+- [Sorted? yes? no? how?](sorted-yes-no-how)
 - [Spacify](spacify)
 - [Special  Number (Special Numbers Series  #5)](special-number-special-numbers-series-number-5)
 - [Speed Control](speed-control)
