@@ -198,6 +198,7 @@
 - [Jaden Casing Strings](jaden-casing-strings)
 - [Jumping  Number (Special Numbers Series  #4)](jumping-number-special-numbers-series-number-4)
 # L
+- [Large sum](large-sum)
 - [Last](last)
 - [Laxative Shot Roulette](laxative-shot-roulette)
 - [Letterbox Paint-Squad](letterbox-paint-squad)
