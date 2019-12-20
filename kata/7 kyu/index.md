@@ -192,6 +192,7 @@
 - [Interactive Dictionary](interactive-dictionary)
 - [IntTunes](inttunes)
 - [Is It Negative Zero (-0)?](is-it-negative-zero-0)
+- [Is n divisible by (...)?](is-n-divisible-by-dot-dot-dot)
 - [Is this a triangle?](is-this-a-triangle)
 - [Isograms](isograms)
 # J
@@ -200,6 +201,7 @@
 # L
 - [Last](last)
 - [Laxative Shot Roulette](laxative-shot-roulette)
+- [Letterbox Paint-Squad](letterbox-paint-squad)
 - [Linked Lists - Append](linked-lists-append)
 - [Looking for a benefactor](looking-for-a-benefactor)
 - [Lunar Mathematics: Addition](lunar-mathematics-addition)
@@ -328,4 +330,3 @@
 # Y
 - [You Can't Code Under Pressure #2](you-cant-code-under-pressure-number-2)
 - [You're a square!](youre-a-square)
-- [Letterbox Paint-Squad](letterbox-paint-squad)
