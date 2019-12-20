@@ -293,6 +293,7 @@
 - [STRONGN Strong Number (Special Numbers Series #2)](strongn-strong-number-special-numbers-series-number-2)
 - [Suitcase packing](suitcase-packing)
 - [Sum of angles](sum-of-angles)
+- [Sum of differences between products and LCMs](sum-of-differences-between-products-and-lcms)
 - [Sum of Odd Cubed Numbers](sum-of-odd-cubed-numbers)
 - [Sum of odd numbers](sum-of-odd-numbers)
 - [Sum of the first nth term of Series](sum-of-the-first-nth-term-of-series)
