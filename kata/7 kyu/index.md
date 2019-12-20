@@ -219,6 +219,7 @@
 - [Minimum Ticket Cost](minimum-ticket-cost)
 - [Monty Hall Problem](monty-hall-problem)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
+- [Multiple implications](multiple-implications)
 - [Mumbling](mumbling)
 - [My Languages](mylanguages)
 # N
