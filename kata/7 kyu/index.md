@@ -185,6 +185,7 @@
 # I
 - [IntTunes](inttunes)
 - [Is It Negative Zero (-0)?](is-it-negative-zero-0)
+- [Is n divisible by (...)?](is-n-divisible-by-dot-dot-dot)
 - [Is this a triangle?](is-this-a-triangle)
 - [Isograms](isograms)
 # J
