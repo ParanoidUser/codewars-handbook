@@ -226,6 +226,7 @@
 - [Parts of a list](parts-of-a-list)
 - [Password System](password-system)
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
+- [Powers of i](powers-of-i)
 - [Predict your age!](predict-your-age)
 - [Principal Diagonal VS Secondary Diagonal](principal-diagonal-vs-secondary-diagonal)
 - [Printer Errors](printer-errors)
