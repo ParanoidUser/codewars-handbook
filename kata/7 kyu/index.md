@@ -296,6 +296,7 @@
 - [Sum of odd numbers](sum-of-odd-numbers)
 - [Sum of the first nth term of Series](sum-of-the-first-nth-term-of-series)
 - [Sum of Triangular Numbers](sum-of-triangular-numbers)
+- [Summy](summy)
 # T
 - [Target Date](target-date)
 - [Ten Green Bottles](ten-green-bottles)
