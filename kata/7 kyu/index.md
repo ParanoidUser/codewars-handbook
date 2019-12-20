@@ -235,6 +235,7 @@
 - [Password System](password-system)
 - [Pizza Payments](pizza-payments)
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
+- [Powers of i](powers-of-i)
 - [Predict your age!](predict-your-age)
 - [Principal Diagonal VS Secondary Diagonal](principal-diagonal-vs-secondary-diagonal)
 - [Printer Errors](printer-errors)
