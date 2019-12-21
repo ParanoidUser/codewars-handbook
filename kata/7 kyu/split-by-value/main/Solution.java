@@ -1,8 +1,8 @@
-import static java.util.Arrays.stream;
 import static java.util.stream.IntStream.concat;
+import static java.util.stream.IntStream.of;
 
 class Solution {
   static int[] splitByValue(int k, int[] elements) {
-    return concat(stream(elements).filter(n -> n < k), stream(elements).filter(n -> n >= k)).toArray();
+    return concat(of(elements).filter(n -> n < k), of(elements).filter(n -> n >= k)).toArray();
   }
 }
