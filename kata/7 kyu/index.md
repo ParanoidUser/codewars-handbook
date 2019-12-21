@@ -200,6 +200,7 @@
 - [Jaden Casing Strings](jaden-casing-strings)
 - [Jumping  Number (Special Numbers Series  #4)](jumping-number-special-numbers-series-number-4)
 # L
+- [Large sum](large-sum)
 - [Last](last)
 - [Laxative Shot Roulette](laxative-shot-roulette)
 - [Letterbox Paint-Squad](letterbox-paint-squad)
@@ -239,6 +240,7 @@
 - [Password System](password-system)
 - [Pizza Payments](pizza-payments)
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
+- [Possibilities Array](possiblities-array)
 - [Powers of i](powers-of-i)
 - [Predict your age!](predict-your-age)
 - [Principal Diagonal VS Secondary Diagonal](principal-diagonal-vs-secondary-diagonal)
@@ -301,6 +303,7 @@
 - [Sum of odd numbers](sum-of-odd-numbers)
 - [Sum of the first nth term of Series](sum-of-the-first-nth-term-of-series)
 - [Sum of Triangular Numbers](sum-of-triangular-numbers)
+- [Summy](summy)
 # T
 - [Target Date](target-date)
 - [Ten Green Bottles](ten-green-bottles)
@@ -331,6 +334,8 @@
 - [Ultimate Array Reverser](ultimate-array-reverser)
 - [Unflatten a list (Easy)](unflatten-a-list-easy)
 - [Unlucky Days](unlucky-days)
+- [Unusual Lex Order](unusual-lex-order)
+- [URL Timestamps](url-timestamps)
 # V
 - [Vowel Count](vowel-count)
 # W
