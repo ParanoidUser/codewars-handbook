@@ -9,6 +9,6 @@ public class SolutionTest {
     assertTrue(Solution.isAllPossibilities(new int[] {0, 1, 2, 3}));
     assertFalse(Solution.isAllPossibilities(new int[] {1, 2, 3, 4}));
     assertFalse(Solution.isAllPossibilities(new int[] {6, 0, 4}));
-    assertTrue(Solution.isAllPossibilities(new int[] {0, 2, 2, 3}));
+    assertFalse(Solution.isAllPossibilities(new int[] {0, 2, 2, 3}));
   }
 }
