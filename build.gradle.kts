@@ -5,6 +5,7 @@ plugins {
 
 subprojects {
     apply(plugin = "java")
+    apply(plugin = "jacoco")
 
     java {
         sourceCompatibility = JavaVersion.VERSION_11
