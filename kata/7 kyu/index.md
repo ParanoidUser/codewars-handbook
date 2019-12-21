@@ -333,6 +333,7 @@
 - [Unusual Lex Order](unusual-lex-order)
 - [URL Timestamps](url-timestamps)
 # V
+- [Visible Dots On a Die](visible-dots-on-a-die)
 - [Vowel Count](vowel-count)
 # W
 - [Waiting room](waiting-room)
