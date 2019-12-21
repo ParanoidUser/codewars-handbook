@@ -58,6 +58,5 @@ tasks {
 sonarqube {
     properties {
         property("sonar.java.libraries", "${System.getProperty("java.home")}/lib/*.jar")
-        property("sonar.junit.reportPaths", "build/test-results/test")
     }
 }
