@@ -222,6 +222,7 @@
 - [Nth Smallest Element (Array Series  #4)](nth-smallest-element-array-series-number-4)
 - [Null](null)
 - [Number of People in the Bus](number-of-people-in-the-bus)
+- [Numbers with d occurrences of digit d](numbers-with-d-occurences-of-digit-d)
 # O
 - [Odd or Even?](odd-or-even)
 - [Odd-Even String Sort](odd-even-string-sort)
