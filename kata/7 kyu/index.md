@@ -254,6 +254,7 @@
 - [Redacted!](redacted)
 - [Regex validate PIN code](regex-validate-pin-code)
 - [Remove duplicate words](remove-duplicate-words)
+- [Replace every nth](replace-every-nth)
 - [Resistor Color Codes](resistor-color-codes)
 - [Return the first M multiples of N](return-the-first-m-multiples-of-n)
 - [Reverse a Number](reverse-a-number)
