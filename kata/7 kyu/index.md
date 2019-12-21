@@ -267,6 +267,7 @@
 - [Scaling Squared Strings](scaling-squared-strings)
 - [See You Next Happy Year](see-you-next-happy-year)
 - [Send in the Clones](send-in-the-clones)
+- [SequenceSum](sequencesum)
 - [Shift Left](shift-left-1)
 - [Shortest Word](shortest-word)
 - [Simple beads count](simple-beads-count)
@@ -289,6 +290,7 @@
 - [Spacify](spacify)
 - [Special  Number (Special Numbers Series  #5)](special-number-special-numbers-series-number-5)
 - [Speed Control](speed-control)
+- [Split By Value](split-by-value)
 - [Square Every Digit](square-every-digit)
 - [Square Pi's](square-pis)
 - [Stacked Balls - 2D](stacked-balls-2d)
@@ -347,4 +349,3 @@
 # Y
 - [You Can't Code Under Pressure #2](you-cant-code-under-pressure-number-2)
 - [You're a square!](youre-a-square)
-- [SequenceSum](sequencesum)
