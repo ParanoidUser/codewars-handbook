@@ -198,6 +198,7 @@
 - [Letterbox Paint-Squad](letterbox-paint-squad)
 - [Linked Lists - Append](linked-lists-append)
 - [Lombok Builder](lombok-builder)
+- [Lombok Encapsulation](lombok-encapsulation)
 - [Looking for a benefactor](looking-for-a-benefactor)
 - [Lucky number](lucky-number)
 - [Lunar Mathematics: Addition](lunar-mathematics-addition)
