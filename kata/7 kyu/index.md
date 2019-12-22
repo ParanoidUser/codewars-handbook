@@ -237,6 +237,7 @@
 - [Numbers with d occurrences of digit d](numbers-with-d-occurences-of-digit-d)
 # O
 - [O's and X's adjudicator](os-and-xs-adjudicator)
+- [Odd March  Bits 8 bits](odd-march-bits-8-bits-1)
 - [Odd or Even?](odd-or-even)
 - [Odd-Even String Sort](odd-even-string-sort)
 - [Ones and Zeros](ones-and-zeros)
