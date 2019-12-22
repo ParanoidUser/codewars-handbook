@@ -232,6 +232,7 @@
 - [Number of People in the Bus](number-of-people-in-the-bus)
 - [Numbers with d occurrences of digit d](numbers-with-d-occurences-of-digit-d)
 # O
+- [O's and X's adjudicator](os-and-xs-adjudicator)
 - [Odd or Even?](odd-or-even)
 - [Odd-Even String Sort](odd-even-string-sort)
 - [Ones and Zeros](ones-and-zeros)
