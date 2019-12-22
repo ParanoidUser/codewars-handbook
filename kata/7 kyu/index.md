@@ -253,6 +253,7 @@
 # R
 - [Redacted!](redacted)
 - [Regex validate PIN code](regex-validate-pin-code)
+- [Regexp Basics - is it a letter?](regexp-basics-is-it-a-letter)
 - [Remove duplicate words](remove-duplicate-words)
 - [Replace every nth](replace-every-nth)
 - [Resistor Color Codes](resistor-color-codes)
