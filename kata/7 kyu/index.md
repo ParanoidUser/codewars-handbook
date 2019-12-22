@@ -295,6 +295,7 @@
 - [String Merge!](string-merge)
 - [STRONGN Strong Number (Special Numbers Series #2)](strongn-strong-number-special-numbers-series-number-2)
 - [Suitcase packing](suitcase-packing)
+- [Sum Array with different bases](sum-array-with-different-bases)
 - [Sum of angles](sum-of-angles)
 - [Sum of differences between products and LCMs](sum-of-differences-between-products-and-lcms)
 - [Sum of Odd Cubed Numbers](sum-of-odd-cubed-numbers)
