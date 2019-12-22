@@ -30,6 +30,7 @@ subprojects {
     }
 
     dependencies {
+        compileOnly("org.projectlombok:lombok:1.18.10")
         testImplementation("org.junit.jupiter:junit-jupiter:5.5.2")
         testRuntimeOnly("org.junit.vintage:junit-vintage-engine:5.5.2")
         testImplementation("junit:junit:4.12")
