@@ -260,6 +260,7 @@
 - [Return the first M multiples of N](return-the-first-m-multiples-of-n)
 - [Reverse a Number](reverse-a-number)
 - [Reverse words](reverse-words)
+- [Reversing Fun](reversing-fun)
 - [Rock Off!](rock-off)
 - [Rotate for a Max](rotate-for-a-max)
 - [Row Weights](row-weights)
