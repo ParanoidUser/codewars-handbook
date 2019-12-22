@@ -346,6 +346,7 @@
 # W
 - [Waiting room](waiting-room)
 - [WASD Movement](wasd-movement)
+- [Where is THB?](where-is-thb)
 - [Where is Vasya?](where-is-vasya)
 # Y
 - [You Can't Code Under Pressure #2](you-cant-code-under-pressure-number-2)
