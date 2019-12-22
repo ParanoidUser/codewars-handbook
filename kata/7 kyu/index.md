@@ -223,6 +223,7 @@
 - [Minimum Steps  (Array Series #6)](minimum-steps-array-series-number-6)
 - [Minimum Ticket Cost](minimum-ticket-cost)
 - [Monty Hall Problem](monty-hall-problem)
+- [Most digits](most-digits)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Multiple implications](multiple-implications)
 - [Mumbling](mumbling)
