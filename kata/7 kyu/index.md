@@ -292,6 +292,7 @@
 - [Smoking Timmy](smoking-timmy)
 - [Smooth numbers](smooth-numbers)
 - [Snail crawls up](snail-crawls-up)
+- [Sort by binary ones](sort-by-binary-ones)
 - [Sort Out The Men  From Boys](sort-out-the-men-from-boys-1)
 - [Sort the Gift Code](sort-the-gift-code)
 - [Sorted? yes? no? how?](sorted-yes-no-how)
