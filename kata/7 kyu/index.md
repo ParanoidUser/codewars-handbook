@@ -189,6 +189,7 @@
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
 # I
 - [Infinitely Nested Radicals](infinitely-nested-radicals)
+- [Insert dashes](insert-dashes)
 - [Inspiring Strings](inspiring-strings)
 - [Interactive Dictionary](interactive-dictionary)
 - [IntTunes](inttunes)
