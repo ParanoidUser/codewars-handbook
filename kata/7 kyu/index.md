@@ -230,9 +230,12 @@
 - [My Languages](mylanguages)
 - [Mystery Colors](mystery-colors)
 # N
+- [Name Array Capping](name-array-capping)
 - [Nice Array](nice-array)
+- [Nickname Generator](nickname-generator)
 - [Nth Smallest Element (Array Series  #4)](nth-smallest-element-array-series-number-4)
 - [Null](null)
+- [Number of Decimal Digits](number-of-decimal-digits)
 - [Number of People in the Bus](number-of-people-in-the-bus)
 - [Numbers with d occurrences of digit d](numbers-with-d-occurences-of-digit-d)
 # O
@@ -261,6 +264,7 @@
 - [Regex validate PIN code](regex-validate-pin-code)
 - [Regexp Basics - is it a letter?](regexp-basics-is-it-a-letter)
 - [Remove duplicate words](remove-duplicate-words)
+- [Remove Duplicates](remove-duplicates)
 - [Replace every nth](replace-every-nth)
 - [Resistor Color Codes](resistor-color-codes)
 - [Return the first M multiples of N](return-the-first-m-multiples-of-n)
@@ -319,6 +323,7 @@
 - [Sum of the first nth term of Series](sum-of-the-first-nth-term-of-series)
 - [Sum of Triangular Numbers](sum-of-triangular-numbers)
 - [Summy](summy)
+- [Supernatural](supernatural)
 - [Swap  pairs in Array](swap-pairs-in-array)
 # T
 - [Target Date](target-date)
