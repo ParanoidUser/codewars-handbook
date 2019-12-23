@@ -200,6 +200,8 @@
 # J
 - [Jaden Casing Strings](jaden-casing-strings)
 - [Jumping  Number (Special Numbers Series  #4)](jumping-number-special-numbers-series-number-4)
+# K
+- [Kooka-Counter](kooka-counter)
 # L
 - [Large sum](large-sum)
 - [Last](last)
