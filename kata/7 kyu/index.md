@@ -250,6 +250,7 @@
 # R
 - [Redacted!](redacted)
 - [Remove duplicate words](remove-duplicate-words)
+- [Remove Duplicates](remove-duplicates)
 - [Replace every nth](replace-every-nth)
 - [Resistor Color Codes](resistor-color-codes)
 - [Return the first M multiples of N](return-the-first-m-multiples-of-n)
