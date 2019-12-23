@@ -208,6 +208,8 @@
 - [Laxative Shot Roulette](laxative-shot-roulette)
 - [Letterbox Paint-Squad](letterbox-paint-squad)
 - [Linked Lists - Append](linked-lists-append)
+- [Linked Lists - Get Nth Node](linked-lists-get-nth-node)
+- [Linked Lists - Push & BuildOneTwoThree](linked-lists-push-and-buildonetwothree)
 - [Lombok Builder](lombok-builder)
 - [Lombok Encapsulation](lombok-encapsulation)
 - [Looking for a benefactor](looking-for-a-benefactor)
@@ -373,4 +375,3 @@
 # Y
 - [You Can't Code Under Pressure #2](you-cant-code-under-pressure-number-2)
 - [You're a square!](youre-a-square)
-- [Linked Lists - Get Nth Node](linked-lists-get-nth-node)
