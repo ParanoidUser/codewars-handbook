@@ -299,6 +299,7 @@
 - [Simple letter removal](simple-letter-removal)
 - [Simple string division II](simple-string-division-ii)
 - [Small enough? - Beginner](small-enough-beginner)
+- [Smallest value of an array](smallest-value-of-an-array)
 - [Smoking Timmy](smoking-timmy)
 - [Smooth numbers](smooth-numbers)
 - [Snail crawls up](snail-crawls-up)
