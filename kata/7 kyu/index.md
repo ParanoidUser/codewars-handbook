@@ -230,6 +230,7 @@
 - [My Languages](mylanguages)
 - [Mystery Colors](mystery-colors)
 # N
+- [Name Array Capping](name-array-capping)
 - [Nice Array](nice-array)
 - [Nth Smallest Element (Array Series  #4)](nth-smallest-element-array-series-number-4)
 - [Null](null)
