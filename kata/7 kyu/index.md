@@ -313,6 +313,7 @@
 - [Sum of the first nth term of Series](sum-of-the-first-nth-term-of-series)
 - [Sum of Triangular Numbers](sum-of-triangular-numbers)
 - [Summy](summy)
+- [Supernatural](supernatural)
 - [Swap  pairs in Array](swap-pairs-in-array)
 # T
 - [Target Date](target-date)
