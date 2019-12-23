@@ -220,6 +220,7 @@
 - [Most digits](most-digits)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Multiple implications](multiple-implications)
+- [Multiplication - Generators #2](multiplication-generators-number-2)
 - [Mumbling](mumbling)
 - [My Languages](mylanguages)
 - [Mystery Colors](mystery-colors)
