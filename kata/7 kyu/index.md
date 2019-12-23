@@ -301,6 +301,7 @@
 - [Stacked Balls - 2D](stacked-balls-2d)
 - [Stacked Balls - 3D (square base)](stacked-balls-3d-square-base)
 - [Stacked Balls - 3D (triangle base)](stacked-balls-3d-triangle-base)
+- [Stanton measure](stanton-measure)
 - [String ends with?](string-ends-with)
 - [String Merge!](string-merge)
 - [STRONGN Strong Number (Special Numbers Series #2)](strongn-strong-number-special-numbers-series-number-2)
