@@ -223,10 +223,12 @@
 - [Minimum Steps  (Array Series #6)](minimum-steps-array-series-number-6)
 - [Minimum Ticket Cost](minimum-ticket-cost)
 - [Monty Hall Problem](monty-hall-problem)
+- [Most digits](most-digits)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Multiple implications](multiple-implications)
 - [Mumbling](mumbling)
 - [My Languages](mylanguages)
+- [Mystery Colors](mystery-colors)
 # N
 - [Nice Array](nice-array)
 - [Nth Smallest Element (Array Series  #4)](nth-smallest-element-array-series-number-4)
@@ -235,6 +237,7 @@
 - [Numbers with d occurrences of digit d](numbers-with-d-occurences-of-digit-d)
 # O
 - [O's and X's adjudicator](os-and-xs-adjudicator)
+- [Odd March  Bits 8 bits](odd-march-bits-8-bits-1)
 - [Odd or Even?](odd-or-even)
 - [Odd-Even String Sort](odd-even-string-sort)
 - [Ones and Zeros](ones-and-zeros)
@@ -290,6 +293,7 @@
 - [Smoking Timmy](smoking-timmy)
 - [Smooth numbers](smooth-numbers)
 - [Snail crawls up](snail-crawls-up)
+- [Sort by binary ones](sort-by-binary-ones)
 - [Sort Out The Men  From Boys](sort-out-the-men-from-boys-1)
 - [Sort the Gift Code](sort-the-gift-code)
 - [Sorted? yes? no? how?](sorted-yes-no-how)
@@ -355,6 +359,7 @@
 # W
 - [Waiting room](waiting-room)
 - [WASD Movement](wasd-movement)
+- [Where is THB?](where-is-thb)
 - [Where is Vasya?](where-is-vasya)
 # Y
 - [You Can't Code Under Pressure #2](you-cant-code-under-pressure-number-2)
