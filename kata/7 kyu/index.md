@@ -321,6 +321,7 @@
 - [String ends with?](string-ends-with)
 - [String Merge!](string-merge)
 - [String Packet Based Communications](string-packet-based-communications)
+- [String Task](string-task)
 - [STRONGN Strong Number (Special Numbers Series #2)](strongn-strong-number-special-numbers-series-number-2)
 - [Suitcase packing](suitcase-packing)
 - [Sum Array with different bases](sum-array-with-different-bases)
