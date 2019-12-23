@@ -240,6 +240,7 @@
 - [Name Array Capping](name-array-capping)
 - [Nice Array](nice-array)
 - [Nickname Generator](nickname-generator)
+- [Nth power rules them all!](nth-power-rules-them-all)
 - [Nth Smallest Element (Array Series  #4)](nth-smallest-element-array-series-number-4)
 - [Null](null)
 - [Number of Decimal Digits](number-of-decimal-digits)
