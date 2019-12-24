@@ -189,6 +189,7 @@
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
 # I
 - [Infinitely Nested Radicals](infinitely-nested-radicals)
+- [Insert dashes](insert-dashes)
 - [Inspiring Strings](inspiring-strings)
 - [Interactive Dictionary](interactive-dictionary)
 - [IntTunes](inttunes)
@@ -199,12 +200,16 @@
 # J
 - [Jaden Casing Strings](jaden-casing-strings)
 - [Jumping  Number (Special Numbers Series  #4)](jumping-number-special-numbers-series-number-4)
+# K
+- [Kooka-Counter](kooka-counter)
 # L
 - [Large sum](large-sum)
 - [Last](last)
 - [Laxative Shot Roulette](laxative-shot-roulette)
 - [Letterbox Paint-Squad](letterbox-paint-squad)
 - [Linked Lists - Append](linked-lists-append)
+- [Linked Lists - Get Nth Node](linked-lists-get-nth-node)
+- [Linked Lists - Push & BuildOneTwoThree](linked-lists-push-and-buildonetwothree)
 - [Lombok Builder](lombok-builder)
 - [Lombok Encapsulation](lombok-encapsulation)
 - [Looking for a benefactor](looking-for-a-benefactor)
@@ -310,6 +315,7 @@
 - [Stacked Balls - 2D](stacked-balls-2d)
 - [Stacked Balls - 3D (square base)](stacked-balls-3d-square-base)
 - [Stacked Balls - 3D (triangle base)](stacked-balls-3d-triangle-base)
+- [Stanton measure](stanton-measure)
 - [String ends with?](string-ends-with)
 - [String Merge!](string-merge)
 - [String Packet Based Communications](string-packet-based-communications)
