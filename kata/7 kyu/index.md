@@ -255,6 +255,7 @@
 - [Ones and Zeros](ones-and-zeros)
 - [ORing arrays](oring-arrays)
 # P
+- [Partial Word Searching](partial-word-searching)
 - [Parts of a list](parts-of-a-list)
 - [Password System](password-system)
 - [Pizza Payments](pizza-payments)
