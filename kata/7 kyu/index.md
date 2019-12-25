@@ -285,6 +285,7 @@
 # S
 - [Santa's Naughty List](santas-naughty-list)
 - [Scaling Squared Strings](scaling-squared-strings)
+- [Sectional Array Sort](sectional-array-sort)
 - [See You Next Happy Year](see-you-next-happy-year)
 - [Send in the Clones](send-in-the-clones)
 - [SequenceSum](sequencesum)
