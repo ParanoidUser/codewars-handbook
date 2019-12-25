@@ -328,6 +328,7 @@
 - [Stacked Balls - 3D (triangle base)](stacked-balls-3d-triangle-base)
 - [Stanton measure](stanton-measure)
 - [String ends with?](string-ends-with)
+- [String interlacing](string-interlacing)
 - [String Merge!](string-merge)
 - [String Packet Based Communications](string-packet-based-communications)
 - [String Task](string-task)
