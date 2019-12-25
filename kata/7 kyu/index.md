@@ -315,6 +315,7 @@
 - [Stacked Balls - 3D (triangle base)](stacked-balls-3d-triangle-base)
 - [Stanton measure](stanton-measure)
 - [String ends with?](string-ends-with)
+- [String interlacing](string-interlacing)
 - [String Merge!](string-merge)
 - [STRONGN Strong Number (Special Numbers Series #2)](strongn-strong-number-special-numbers-series-number-2)
 - [Suitcase packing](suitcase-packing)
