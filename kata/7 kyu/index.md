@@ -359,6 +359,7 @@
 # U
 - [Ultimate Array Reverser](ultimate-array-reverser)
 - [Unflatten a list (Easy)](unflatten-a-list-easy)
+- [Unique Characters](unique-characters)
 - [Unlucky Days](unlucky-days)
 - [Unusual Lex Order](unusual-lex-order)
 - [URL Timestamps](url-timestamps)
