@@ -173,6 +173,7 @@
 # H
 - [Halving Sum](halving-sum)
 - [Help Suzuki complete his chores!](help-suzuki-complete-his-chores)
+- [Help Suzuki rake his garden!](help-suzuki-rake-his-garden)
 - [Help the Fruit Guy](help-the-fruit-guy)
 - [Help your fellow warrior!](help-your-fellow-warrior)
 - [Herding cats](herding-cats)
@@ -273,8 +274,8 @@
 - [Quicksum](quicksum)
 # R
 - [Redacted!](redacted)
-- [Regex validation of 24 hours time.](regex-validation-of-24-hours-time)
 - [Regex validate PIN code](regex-validate-pin-code)
+- [Regex validation of 24 hours time.](regex-validation-of-24-hours-time)
 - [Regexp Basics - is it a letter?](regexp-basics-is-it-a-letter)
 - [Remove duplicate words](remove-duplicate-words)
 - [Remove Duplicates](remove-duplicates)
