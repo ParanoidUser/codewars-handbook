@@ -284,6 +284,7 @@
 - [Send in the Clones](send-in-the-clones)
 - [Shift Left](shift-left-1)
 - [Shortest Word](shortest-word)
+- [Show multiples of 2 numbers within a range](show-multiples-of-2-numbers-within-a-range)
 - [Simple beads count](simple-beads-count)
 - [Simple Fun #152: Invite More Women?](simple-fun-number-152-invite-more-women)
 - [Simple Fun #176: Reverse Letter](simple-fun-number-176-reverse-letter)
