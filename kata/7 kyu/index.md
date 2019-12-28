@@ -265,6 +265,7 @@
 - [Password System](password-system)
 - [Pizza Payments](pizza-payments)
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
+- [Pokerhand, straight or not?](pokerhand-straight-or-not)
 - [Possibilities Array](possiblities-array)
 - [Powers of i](powers-of-i)
 - [Predict your age!](predict-your-age)
