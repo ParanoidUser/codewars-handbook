@@ -173,6 +173,7 @@
 # H
 - [Halving Sum](halving-sum)
 - [Help Suzuki complete his chores!](help-suzuki-complete-his-chores)
+- [Help Suzuki rake his garden!](help-suzuki-rake-his-garden)
 - [Help the Fruit Guy](help-the-fruit-guy)
 - [Help your fellow warrior!](help-your-fellow-warrior)
 - [Herding cats](herding-cats)
@@ -220,6 +221,7 @@
 - [Make a function that does arithmetic!](make-a-function-that-does-arithmetic)
 - [Matrix Addition of Elements](matrix-addition-of-elements)
 - [Matrix Square Up, B!](matrix-square-up-b)
+- [Max diff - easy](max-diff-easy-1)
 - [Maximum Gap (Array Series #4)](maximum-gap-array-series-number-4)
 - [Maximum Length Difference](maximum-length-difference)
 - [Maximum Multiple](maximum-multiple)
@@ -248,6 +250,7 @@
 - [Number of Decimal Digits](number-of-decimal-digits)
 - [Number of People in the Bus](number-of-people-in-the-bus)
 - [Numbers with d occurrences of digit d](numbers-with-d-occurences-of-digit-d)
+- [Numbers with this digit inside](numbers-with-this-digit-inside)
 # O
 - [O's and X's adjudicator](os-and-xs-adjudicator)
 - [Odd March  Bits 8 bits](odd-march-bits-8-bits-1)
@@ -273,6 +276,7 @@
 # R
 - [Redacted!](redacted)
 - [Regex validate PIN code](regex-validate-pin-code)
+- [Regex validation of 24 hours time.](regex-validation-of-24-hours-time)
 - [Regexp Basics - is it a letter?](regexp-basics-is-it-a-letter)
 - [Remove duplicate words](remove-duplicate-words)
 - [Remove Duplicates](remove-duplicates)
@@ -344,6 +348,7 @@
 - [Sum of Triangular Numbers](sum-of-triangular-numbers)
 - [Summy](summy)
 - [Supernatural](supernatural)
+- [Suzuki needs help lining up his students!](suzuki-needs-help-lining-up-his-students)
 - [Swap  pairs in Array](swap-pairs-in-array)
 # T
 - [Target Date](target-date)
