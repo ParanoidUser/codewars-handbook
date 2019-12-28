@@ -273,6 +273,7 @@
 - [Quicksum](quicksum)
 # R
 - [Redacted!](redacted)
+- [Regex validation of 24 hours time.](regex-validation-of-24-hours-time)
 - [Regex validate PIN code](regex-validate-pin-code)
 - [Regexp Basics - is it a letter?](regexp-basics-is-it-a-letter)
 - [Remove duplicate words](remove-duplicate-words)
