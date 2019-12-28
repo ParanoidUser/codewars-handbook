@@ -230,6 +230,7 @@
 - [My Languages](mylanguages)
 - [Mystery Colors](mystery-colors)
 # N
+- [N-Dimensional Vector Magnitude](n-dimensional-vector-magnitude)
 - [Name Array Capping](name-array-capping)
 - [Nice Array](nice-array)
 - [Nickname Generator](nickname-generator)
