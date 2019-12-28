@@ -187,6 +187,7 @@
 - [How long should you cook this for?](how-long-should-you-cook-this-for)
 - [How many arguments](how-many-arguments)
 - [How many days are we represented in a foreign country?](how-many-days-are-we-represented-in-a-foreign-country)
+- [How many times does it contain?](how-many-times-does-it-contain)
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
 # I
 - [Infinitely Nested Radicals](infinitely-nested-radicals)
