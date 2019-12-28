@@ -331,6 +331,7 @@
 - [Sum of Triangular Numbers](sum-of-triangular-numbers)
 - [Summy](summy)
 - [Supernatural](supernatural)
+- [Suzuki needs help lining up his students!](suzuki-needs-help-lining-up-his-students)
 - [Swap  pairs in Array](swap-pairs-in-array)
 # T
 - [Target Date](target-date)
