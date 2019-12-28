@@ -238,6 +238,7 @@
 - [Number of Decimal Digits](number-of-decimal-digits)
 - [Number of People in the Bus](number-of-people-in-the-bus)
 - [Numbers with d occurrences of digit d](numbers-with-d-occurences-of-digit-d)
+- [Numbers with this digit inside](numbers-with-this-digit-inside)
 # O
 - [O's and X's adjudicator](os-and-xs-adjudicator)
 - [Odd March  Bits 8 bits](odd-march-bits-8-bits-1)
