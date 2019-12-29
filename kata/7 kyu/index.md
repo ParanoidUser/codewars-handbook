@@ -183,6 +183,7 @@
 - [How many days are we represented in a foreign country?](how-many-days-are-we-represented-in-a-foreign-country)
 - [How many times does it contain?](how-many-times-does-it-contain)
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
+- [Hëävÿ Mëtäl Ümläüts](heavy-metal-umlauts)
 # I
 - [IntTunes](inttunes)
 - [Is It Negative Zero (-0)?](is-it-negative-zero-0)
