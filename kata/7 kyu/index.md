@@ -311,6 +311,7 @@
 - [Snail crawls up](snail-crawls-up)
 - [Sort an array by value and index](sort-an-array-by-value-and-index)
 - [Sort by binary ones](sort-by-binary-ones)
+- [Sort deck of cards](sort-deck-of-cards)
 - [Sort Out The Men  From Boys](sort-out-the-men-from-boys-1)
 - [Sort the Gift Code](sort-the-gift-code)
 - [Sorted? yes? no? how?](sorted-yes-no-how)
