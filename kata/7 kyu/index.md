@@ -247,6 +247,7 @@
 - [Odd or Even?](odd-or-even)
 - [Odd-Even String Sort](odd-even-string-sort)
 - [Ones and Zeros](ones-and-zeros)
+- [Ordering the words!](ordering-the-words)
 - [ORing arrays](oring-arrays)
 - [Overflowing with joy](overflowing-with-joy)
 # P
