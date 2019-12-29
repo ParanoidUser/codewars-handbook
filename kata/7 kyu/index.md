@@ -228,6 +228,7 @@
 - [Maximum Multiple](maximum-multiple)
 - [Maximum Product](maximum-product)
 - [Maximum Triplet Sum (Array Series #7)](maximum-triplet-sum-array-series-number-7)
+- [Mean vs. Median](mean-vs-median)
 - [Mind the Gap](mind-the-gap)
 - [Minimize Sum Of Array (Array Series #1)](minimize-sum-of-array-array-series-number-1)
 - [Minimum Steps  (Array Series #6)](minimum-steps-array-series-number-6)
