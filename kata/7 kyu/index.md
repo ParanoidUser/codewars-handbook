@@ -382,6 +382,7 @@
 - [Triangular Treasure](triangular-treasure)
 - [Trigrams](trigrams)
 - [TV Remote](tv-remote)
+- [Two fighters, one winner.](two-fighters-one-winner)
 - [Two to One](two-to-one)
 # U
 - [Ultimate Array Reverser](ultimate-array-reverser)
