@@ -324,6 +324,7 @@
 - [Smooth numbers](smooth-numbers)
 - [Snail crawls up](snail-crawls-up)
 - [Sort an array by value and index](sort-an-array-by-value-and-index)
+- [Sort arrays - 1](sort-arrays-1)
 - [Sort by binary ones](sort-by-binary-ones)
 - [Sort deck of cards](sort-deck-of-cards)
 - [Sort Out The Men  From Boys](sort-out-the-men-from-boys-1)
