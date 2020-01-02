@@ -338,6 +338,7 @@
 - [Special  Number (Special Numbers Series  #5)](special-number-special-numbers-series-number-5)
 - [Speed Control](speed-control)
 - [Split By Value](split-by-value)
+- [Spoonerize Me](spoonerize-me)
 - [Square Every Digit](square-every-digit)
 - [Square Pi's](square-pis)
 - [Stacked Balls - 2D](stacked-balls-2d)
