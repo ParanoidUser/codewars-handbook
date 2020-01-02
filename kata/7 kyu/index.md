@@ -221,6 +221,7 @@
 - [Lunar Mathematics: Addition](lunar-mathematics-addition)
 # M
 - [Make a function that does arithmetic!](make-a-function-that-does-arithmetic)
+- [Match My Husband](match-my-husband)
 - [Matrix Addition of Elements](matrix-addition-of-elements)
 - [Matrix Square Up, B!](matrix-square-up-b)
 - [Max diff - easy](max-diff-easy-1)
