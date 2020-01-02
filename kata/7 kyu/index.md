@@ -287,6 +287,7 @@
 - [Regex validate PIN code](regex-validate-pin-code)
 - [Regex validation of 24 hours time.](regex-validation-of-24-hours-time)
 - [Regexp Basics - is it a letter?](regexp-basics-is-it-a-letter)
+- [Regexp Basics - is it a vowel?](regexp-basics-is-it-a-vowel)
 - [Remove duplicate words](remove-duplicate-words)
 - [Remove Duplicates](remove-duplicates)
 - [Replace every nth](replace-every-nth)
