@@ -289,6 +289,7 @@
 - [Redacted!](redacted)
 - [Regex validate PIN code](regex-validate-pin-code)
 - [Regex validation of 24 hours time.](regex-validation-of-24-hours-time)
+- [Regexp Basics - is it a hexadecimal number?](regexp-basics-is-it-a-hexadecimal-number)
 - [Regexp Basics - is it a letter?](regexp-basics-is-it-a-letter)
 - [Regexp Basics - is it a vowel?](regexp-basics-is-it-a-vowel)
 - [Remove duplicate words](remove-duplicate-words)
