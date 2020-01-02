@@ -379,6 +379,7 @@
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
 - [Thinking & Testing : Incomplete string](thinking-and-testing-incomplete-string)
 - [Thinking & Testing : Something capitalized](thinking-and-testing-something-capitalized)
+- [Thinking & Testing : True or False](thinking-and-testing-true-or-false)
 - [Thinking & Testing : Uniq or not Uniq](thinking-and-testing-uniq-or-not-uniq)
 - [Thinking & Testing: A and B?](thinking-and-testing-a-and-b)
 - [Tidy Number (Special Numbers Series  #9)](tidy-number-special-numbers-series-number-9)
