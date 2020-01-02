@@ -195,6 +195,7 @@
 - [Infinitely Nested Radicals](infinitely-nested-radicals)
 - [Insert dashes](insert-dashes)
 - [Inspiring Strings](inspiring-strings)
+- [Integer Primitive Data Types](integer-primitive-data-types)
 - [Interactive Dictionary](interactive-dictionary)
 - [IntTunes](inttunes)
 - [Is It Negative Zero (-0)?](is-it-negative-zero-0)
