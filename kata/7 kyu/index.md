@@ -246,6 +246,7 @@
 # N
 - [N-Dimensional Vector Magnitude](n-dimensional-vector-magnitude)
 - [Name Array Capping](name-array-capping)
+- [Name That Number!](name-that-number)
 - [Nice Array](nice-array)
 - [Nickname Generator](nickname-generator)
 - [Nth power rules them all!](nth-power-rules-them-all)
