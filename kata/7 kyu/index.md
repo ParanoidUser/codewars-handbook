@@ -269,6 +269,7 @@
 - [ORing arrays](oring-arrays)
 - [Overflowing with joy](overflowing-with-joy)
 # P
+- [Parallel resistors](parallel-resistors)
 - [Partial Word Searching](partial-word-searching)
 - [Parts of a list](parts-of-a-list)
 - [Password System](password-system)
