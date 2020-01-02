@@ -221,6 +221,7 @@
 - [Lunar Mathematics: Addition](lunar-mathematics-addition)
 # M
 - [Make a function that does arithmetic!](make-a-function-that-does-arithmetic)
+- [Match My Husband](match-my-husband)
 - [Matrix Addition of Elements](matrix-addition-of-elements)
 - [Matrix Square Up, B!](matrix-square-up-b)
 - [Max diff - easy](max-diff-easy-1)
@@ -246,6 +247,7 @@
 # N
 - [N-Dimensional Vector Magnitude](n-dimensional-vector-magnitude)
 - [Name Array Capping](name-array-capping)
+- [Name That Number!](name-that-number)
 - [Nice Array](nice-array)
 - [Nickname Generator](nickname-generator)
 - [Nth power rules them all!](nth-power-rules-them-all)
@@ -324,6 +326,7 @@
 - [Smooth numbers](smooth-numbers)
 - [Snail crawls up](snail-crawls-up)
 - [Sort an array by value and index](sort-an-array-by-value-and-index)
+- [Sort arrays - 1](sort-arrays-1)
 - [Sort by binary ones](sort-by-binary-ones)
 - [Sort deck of cards](sort-deck-of-cards)
 - [Sort Out The Men  From Boys](sort-out-the-men-from-boys-1)
@@ -377,6 +380,7 @@
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
 - [Thinking & Testing : Incomplete string](thinking-and-testing-incomplete-string)
 - [Thinking & Testing : Something capitalized](thinking-and-testing-something-capitalized)
+- [Thinking & Testing : True or False](thinking-and-testing-true-or-false)
 - [Thinking & Testing : Uniq or not Uniq](thinking-and-testing-uniq-or-not-uniq)
 - [Thinking & Testing: A and B?](thinking-and-testing-a-and-b)
 - [Tidy Number (Special Numbers Series  #9)](tidy-number-special-numbers-series-number-9)
@@ -405,3 +409,5 @@
 # Y
 - [You Can't Code Under Pressure #2](you-cant-code-under-pressure-number-2)
 - [You're a square!](youre-a-square)
+# Z
+- [Zebulan's Nightmare](zebulans-nightmare)
