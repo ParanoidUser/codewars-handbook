@@ -238,6 +238,7 @@
 - [Minimum Steps  (Array Series #6)](minimum-steps-array-series-number-6)
 - [Minimum Ticket Cost](minimum-ticket-cost)
 - [MOD 256 without the MOD operator](mod-256-without-the-mod-operator)
+- [Money, Money, Money](money-money-money)
 - [Monty Hall Problem](monty-hall-problem)
 - [Most digits](most-digits)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
