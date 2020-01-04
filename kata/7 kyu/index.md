@@ -204,6 +204,7 @@
 - [Isograms](isograms)
 # J
 - [Jaden Casing Strings](jaden-casing-strings)
+- [Java Functional Programming (Part 3: Closured for Business)](java-functional-programming-part-3-closured-for-business)
 - [Jumping  Number (Special Numbers Series  #4)](jumping-number-special-numbers-series-number-4)
 # K
 - [Kooka-Counter](kooka-counter)
