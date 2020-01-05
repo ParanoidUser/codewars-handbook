@@ -204,6 +204,8 @@
 - [Isograms](isograms)
 # J
 - [Jaden Casing Strings](jaden-casing-strings)
+- [Java Functional Programming (Part 2: Multiline Functions)](java-functional-programming-part-2-multiline-functions)
+- [Java Functional Programming (Part 3: Closured for Business)](java-functional-programming-part-3-closured-for-business)
 - [Jumping  Number (Special Numbers Series  #4)](jumping-number-special-numbers-series-number-4)
 # K
 - [Kooka-Counter](kooka-counter)
@@ -238,6 +240,7 @@
 - [Minimum Steps  (Array Series #6)](minimum-steps-array-series-number-6)
 - [Minimum Ticket Cost](minimum-ticket-cost)
 - [MOD 256 without the MOD operator](mod-256-without-the-mod-operator)
+- [Money, Money, Money](money-money-money)
 - [Monty Hall Problem](monty-hall-problem)
 - [Most digits](most-digits)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
@@ -269,7 +272,6 @@
 - [ORing arrays](oring-arrays)
 - [Overflowing with joy](overflowing-with-joy)
 # P
-- [Parallel resistors](parallel-resistors)
 - [Partial Word Searching](partial-word-searching)
 - [Parts of a list](parts-of-a-list)
 - [Password System](password-system)
@@ -289,8 +291,10 @@
 - [Redacted!](redacted)
 - [Regex validate PIN code](regex-validate-pin-code)
 - [Regex validation of 24 hours time.](regex-validation-of-24-hours-time)
+- [Regexp Basics - is it a hexadecimal number?](regexp-basics-is-it-a-hexadecimal-number)
 - [Regexp Basics - is it a letter?](regexp-basics-is-it-a-letter)
 - [Regexp Basics - is it a vowel?](regexp-basics-is-it-a-vowel)
+- [Regexp basics - parsing prices](regexp-basics-parsing-prices)
 - [Remove duplicate words](remove-duplicate-words)
 - [Remove Duplicates](remove-duplicates)
 - [Replace every nth](replace-every-nth)
