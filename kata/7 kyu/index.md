@@ -352,6 +352,7 @@
 - [Special  Number (Special Numbers Series  #5)](special-number-special-numbers-series-number-5)
 - [Speed Control](speed-control)
 - [Split By Value](split-by-value)
+- [Split In Parts](split-in-parts)
 - [Spoonerize Me](spoonerize-me)
 - [Square Every Digit](square-every-digit)
 - [Square Pi's](square-pis)
