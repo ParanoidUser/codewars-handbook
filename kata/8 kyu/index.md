@@ -187,6 +187,7 @@
 - [Welcome!](welcome)
 - [Well of Ideas - Easy Version](well-of-ideas-easy-version)
 - [Will there be enough space?](will-there-be-enough-space)
+- [Will you make it?](will-you-make-it)
 - [Wilson primes](wilson-primes)
 # Y
 - [You Can't Code Under Pressure #1](you-cant-code-under-pressure-number-1)
