@@ -290,6 +290,7 @@
 # Q
 - [Quicksum](quicksum)
 # R
+- [Recursive reverse string](recursive-reverse-string)
 - [Redacted!](redacted)
 - [Regex validate PIN code](regex-validate-pin-code)
 - [Regex validation of 24 hours time.](regex-validation-of-24-hours-time)
