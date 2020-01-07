@@ -261,6 +261,7 @@
 - [Null](null)
 - [Number of Decimal Digits](number-of-decimal-digits)
 - [Number of People in the Bus](number-of-people-in-the-bus)
+- [Numbers Which Sum of Powers of Its Digits Is The Same Number](numbers-which-sum-of-powers-of-its-digits-is-the-same-number)
 - [Numbers with d occurrences of digit d](numbers-with-d-occurences-of-digit-d)
 - [Numbers with this digit inside](numbers-with-this-digit-inside)
 # O
