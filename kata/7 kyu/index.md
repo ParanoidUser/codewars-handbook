@@ -35,7 +35,7 @@
 - [Automorphic Number (Special Numbers Series #6)](automorphic-number-special-numbers-series-number-6)
 - [Averages of numbers](averages-of-numbers)
 # B
-- [Balanced Number (Special Numbers Series #1 )](balanced-number-special-numbers-series-number-1)
+- [Balanced Number (Special Numbers Series #1)](balanced-number-special-numbers-series-number-1)
 - [Basic Calculator](basic-calculator)
 - [Basics - Generators #1](basics-generators-number-1)
 - [Batman Quotes](batman-quotes)
@@ -112,7 +112,7 @@
 - [Driving Licence](driving-licence)
 - [Drying Potatoes](drying-potatoes)
 # E
-- [E.S.P.  Cards](esp-cards)
+- [E.S.P. Cards](esp-cards)
 - [EAN Validation](ean-validation)
 - [Easy Line](easy-line)
 - [Easy wallpaper](easy-wallpaper)
@@ -209,7 +209,7 @@
 - [Java Functional Programming (Part 1: The Beginning)](java-functional-programming-part-1-the-beginning)
 - [Java Functional Programming (Part 2: Multiline Functions)](java-functional-programming-part-2-multiline-functions)
 - [Java Functional Programming (Part 3: Closured for Business)](java-functional-programming-part-3-closured-for-business)
-- [Jumping  Number (Special Numbers Series  #4)](jumping-number-special-numbers-series-number-4)
+- [Jumping Number (Special Numbers Series #4)](jumping-number-special-numbers-series-number-4)
 # K
 - [Kooka-Counter](kooka-counter)
 # L
@@ -290,7 +290,7 @@
 - [Predict your age!](predict-your-age)
 - [Principal Diagonal VS Secondary Diagonal](principal-diagonal-vs-secondary-diagonal)
 - [Printer Errors](printer-errors)
-- [Product  Array (Array Series #5)](product-array-array-series-number-5)
+- [Product Array (Array Series #5)](product-array-array-series-number-5)
 - [Product Of Maximums Of Array (Array Series #2)](product-of-maximums-of-array-array-series-number-2)
 # Q
 - [Quicksum](quicksum)
@@ -380,14 +380,14 @@
 - [Summy](summy)
 - [Supernatural](supernatural)
 - [Suzuki needs help lining up his students!](suzuki-needs-help-lining-up-his-students)
-- [Swap  pairs in Array](swap-pairs-in-array)
+- [Swap pairs in Array](swap-pairs-in-array)
 # T
 - [Target Date](target-date)
 - [Ten Green Bottles](ten-green-bottles)
 - [Testing 1-2-3](testing-1-2-3)
 - [The 12 Days of Christmas](the-12-days-of-christmas)
 - [The First Non Repeated Character In A String](the-first-non-repeated-character-in-a-string)
-- [The fusc function  -- Part 1](the-fusc-function-part-1)
+- [The fusc function -- Part 1](the-fusc-function-part-1)
 - [The highest profit wins!](the-highest-profit-wins)
 - [The Office I - Outed](the-office-i-outed)
 - [The Office II - Boredom Score](the-office-ii-boredom-score)
