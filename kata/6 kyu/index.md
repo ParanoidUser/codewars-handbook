@@ -1,3 +1,5 @@
+# \#
+- [80's Kids #7: She's a Small Wonder](80-s-kids-number-7-shes-a-small-wonder)
 # A
 - [A + B == 123](a-plus-b-equals-equals-123)
 # C
