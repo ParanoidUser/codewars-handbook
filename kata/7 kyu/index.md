@@ -222,6 +222,7 @@
 - [Linked Lists - Push & BuildOneTwoThree](linked-lists-push-and-buildonetwothree)
 - [Lombok Builder](lombok-builder)
 - [Lombok Encapsulation](lombok-encapsulation)
+- [London CityHacker](london-cityhacker)
 - [Looking for a benefactor](looking-for-a-benefactor)
 - [Lost number in number sequence](lost-number-in-number-sequence)
 - [Lucky number](lucky-number)
