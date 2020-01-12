@@ -14,10 +14,6 @@ public class KataTest {
   @Test
   public void ageInDaysShouldReturnCorrectNumberOfDaysWhenYourBirthdayIsOneYearAgo() {
     LocalDate birthday = LocalDate.now().minusYears(1);
-    if (LocalDate.now().isLeapYear()) {
-      assertEquals("You are 366 days old", Kata.ageInDays(birthday.getYear(), birthday.getMonthValue(), birthday.getDayOfMonth()));
-    } else {
-      assertEquals("You are 365 days old", Kata.ageInDays(birthday.getYear(), birthday.getMonthValue(), birthday.getDayOfMonth()));
-    }
+    assertEquals("You are 365 days old", Kata.ageInDays(birthday.getYear(), birthday.getMonthValue(), birthday.getDayOfMonth()));
   }
 }
