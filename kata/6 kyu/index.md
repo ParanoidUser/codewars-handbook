@@ -12,6 +12,7 @@
 - [Counting Duplicates](counting-duplicates)
 # E
 - [Encrypt this!](encrypt-this)
+- [Equal Sides Of An Array](equal-sides-of-an-array)
 # M
 - [Make the Deadfish swim](make-the-deadfish-swim)
 - [Matrix Addition](matrix-addition)
