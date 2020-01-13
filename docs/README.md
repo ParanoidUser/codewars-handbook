@@ -65,7 +65,7 @@ If you find the repo helpful, please give it a thank with <span title="↑↑↑
                title="- Complex language features (closures, scopes, monads, etc)&#13;- Complex OOP/Functional concepts&#13;- Basic Design Patterns&#13;- Complex Regular Expressions">6th kyū
             </a>
          </td>
-         <td>19 out of 397</td>
+         <td>24 out of 404</td>
       </tr>
       <tr>
          <td>
@@ -73,7 +73,7 @@ If you find the repo helpful, please give it a thank with <span title="↑↑↑
                title="- Complex language features that require mature OOP/Functional concepts&#13;- Advanced OOP/Functional concepts&#13;- Complex Design Patterns&#13;- Advanced regular expression usage">5th kyū
             </a>
          </td>
-         <td>4 out of 173</td>
+         <td>4 out of 176</td>
       </tr>
       <tr>
          <td rowspan=2>Competent (32 points)</td>
