@@ -19,6 +19,8 @@
 # P
 - [Persistent Bugger.](persistent-bugger)
 - [Piano Kata, Part 1](piano-kata-part-1)
+# S
+- [Sum of Digits / Digital Root](sum-of-digits-slash-digital-root)
 # T
 - [The Walker](the-walker)
 - [Tortoise racing](tortoise-racing)
