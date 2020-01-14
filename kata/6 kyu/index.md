@@ -5,6 +5,7 @@
 # A
 - [A + B == 123](a-plus-b-equals-equals-123)
 - [A floating-point system](a-floating-point-system)
+- [Add All](add-all)
 # B
 - [Binaries](binaries)
 # C
