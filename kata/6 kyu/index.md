@@ -6,6 +6,7 @@
 - [A + B == 123](a-plus-b-equals-equals-123)
 - [A floating-point system](a-floating-point-system)
 - [A Rule of Divisibility by 13](a-rule-of-divisibility-by-13)
+- [A Simple Music Decoder](a-simple-music-decoder)
 - [Ackermann Function](ackermann-function)
 - [Add All](add-all)
 # B
