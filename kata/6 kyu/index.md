@@ -4,6 +4,7 @@
 - [80's Kids #7: She's a Small Wonder](80-s-kids-number-7-shes-a-small-wonder)
 # A
 - [A + B == 123](a-plus-b-equals-equals-123)
+- [A disguised sequence (I)](a-disguised-sequence-i)
 - [A floating-point system](a-floating-point-system)
 - [A Rule of Divisibility by 13](a-rule-of-divisibility-by-13)
 - [A Simple Music Decoder](a-simple-music-decoder)
