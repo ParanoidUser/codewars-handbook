@@ -10,6 +10,7 @@
 - [A Simple Music Decoder](a-simple-music-decoder)
 - [Ackermann Function](ackermann-function)
 - [Add All](add-all)
+- [Alphabet war - airstrike - letters massacre](alphabet-war-airstrike-letters-massacre)
 # B
 - [Binaries](binaries)
 # C
