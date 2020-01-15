@@ -65,7 +65,7 @@ If you find the repo helpful, please give it a thank with <span title="↑↑↑
                title="- Complex language features (closures, scopes, monads, etc)&#13;- Complex OOP/Functional concepts&#13;- Basic Design Patterns&#13;- Complex Regular Expressions">6th kyū
             </a>
          </td>
-         <td>24 out of 404</td>
+         <td>29 out of 404</td>
       </tr>
       <tr>
          <td>
