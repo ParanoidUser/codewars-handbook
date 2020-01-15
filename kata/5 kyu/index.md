@@ -1,3 +1,5 @@
+# A
+- [A Simple Music Encoder](a-simple-music-encoder)
 # C
 - [Common Denominators](common-denominators)
 - [Containers](containers)
