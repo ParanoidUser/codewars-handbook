@@ -14,6 +14,7 @@
 - [Airport Arrivals/Departures - #2](airport-arrivals-slash-departures-number-2)
 - [Alex & snooker: scores](alex-and-snooker-scores)
 - [Alphabet war - airstrike - letters massacre](alphabet-war-airstrike-letters-massacre)
+- [Alphabet wars - reinforces massacre](alphabet-wars-reinforces-massacre)
 - [Are they the "same"?](are-they-the-same)
 - [Are we alternate?](are-we-alternate)
 # B
