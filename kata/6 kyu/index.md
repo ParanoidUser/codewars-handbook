@@ -19,6 +19,7 @@
 - [Are we alternate?](are-we-alternate)
 - [Arrange Matrix by Diagonals -- OMG](arrange-matrix-by-diagonals-omg)
 # B
+- [Backspaces in string](backspaces-in-string)
 - [Binaries](binaries)
 # C
 - [CamelCase Method](camelcase-method)
