@@ -18,6 +18,7 @@
 - [Are they the "same"?](are-they-the-same)
 - [Are we alternate?](are-we-alternate)
 - [Arrange Matrix by Diagonals -- OMG](arrange-matrix-by-diagonals-omg)
+- [Array Cropper](array-cropper)
 # B
 - [B.A.D. Hashing](bad-hashing)
 - [Baby Magpies](baby-magpies)
