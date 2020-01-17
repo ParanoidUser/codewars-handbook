@@ -17,6 +17,7 @@
 - [Alphabet wars - reinforces massacre](alphabet-wars-reinforces-massacre)
 - [Are they the "same"?](are-they-the-same)
 - [Are we alternate?](are-we-alternate)
+- [Arrange Matrix by Diagonals -- OMG](arrange-matrix-by-diagonals-omg)
 # B
 - [Binaries](binaries)
 # C
