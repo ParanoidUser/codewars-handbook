@@ -30,6 +30,7 @@ subprojects {
     }
 
     dependencies {
+        implementation("org.apache.commons:commons-lang3:3.9")
         compileOnly("org.projectlombok:lombok:1.18.10")
         annotationProcessor("org.projectlombok:lombok:1.18.10")
         testImplementation("org.junit.jupiter:junit-jupiter:5.5.2")
