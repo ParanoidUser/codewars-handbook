@@ -428,6 +428,7 @@
 - [Where is THB?](where-is-thb)
 - [Where is Vasya?](where-is-vasya)
 - [Where's Wally](wheres-wally)
+- [Will you survive the zombie onslaught?](will-you-survive-the-zombie-onslaught)
 # Y
 - [You Can't Code Under Pressure #2](you-cant-code-under-pressure-number-2)
 - [You're a square!](youre-a-square)
