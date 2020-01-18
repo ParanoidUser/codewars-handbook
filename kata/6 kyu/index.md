@@ -23,6 +23,7 @@
 - [B.A.D. Hashing](bad-hashing)
 - [Baby Magpies](baby-magpies)
 - [Backspaces in string](backspaces-in-string)
+- [Basic Encryption](basic-encryption)
 - [Binaries](binaries)
 # C
 - [CamelCase Method](camelcase-method)
