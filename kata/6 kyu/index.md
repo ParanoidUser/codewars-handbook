@@ -24,6 +24,7 @@
 - [Baby Magpies](baby-magpies)
 - [Backspaces in string](backspaces-in-string)
 - [Backwards Read Primes](backwards-read-primes)
+- [Ball Upwards](ball-upwards)
 - [Basic Encryption](basic-encryption)
 - [Binaries](binaries)
 # C
