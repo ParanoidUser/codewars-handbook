@@ -29,6 +29,7 @@
 - [Basic Encryption](basic-encryption)
 - [Becoming a Real spy](becoming-a-real-spy)
 - [Binaries](binaries)
+- [Binding within the List Monad](binding-within-the-list-monad)
 - [Bit Counting](bit-counting)
 # C
 - [CamelCase Method](camelcase-method)
