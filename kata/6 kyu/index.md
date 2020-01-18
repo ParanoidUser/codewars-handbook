@@ -25,6 +25,7 @@
 - [Backspaces in string](backspaces-in-string)
 - [Backwards Read Primes](backwards-read-primes)
 - [Ball Upwards](ball-upwards)
+- [Banker's Plan](bankers-plan)
 - [Basic Encryption](basic-encryption)
 - [Binaries](binaries)
 # C
