@@ -27,6 +27,7 @@
 - [Ball Upwards](ball-upwards)
 - [Banker's Plan](bankers-plan)
 - [Basic Encryption](basic-encryption)
+- [Becoming a Real spy](becoming-a-real-spy)
 - [Binaries](binaries)
 # C
 - [CamelCase Method](camelcase-method)
