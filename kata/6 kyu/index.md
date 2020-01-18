@@ -29,6 +29,7 @@
 - [Basic Encryption](basic-encryption)
 - [Becoming a Real spy](becoming-a-real-spy)
 - [Binaries](binaries)
+- [Bit Counting](bit-counting)
 # C
 - [CamelCase Method](camelcase-method)
 - [Counting Duplicates](counting-duplicates)
