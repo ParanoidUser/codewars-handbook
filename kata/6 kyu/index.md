@@ -32,6 +32,7 @@
 - [Binding within the List Monad](binding-within-the-list-monad)
 - [Bingo Card](bingo-card)
 - [Bit Counting](bit-counting)
+- [Bitcoin statistics](bitcoin-statistics)
 # C
 - [CamelCase Method](camelcase-method)
 - [Counting Duplicates](counting-duplicates)
