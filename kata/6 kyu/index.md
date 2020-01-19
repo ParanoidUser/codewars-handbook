@@ -30,6 +30,7 @@
 - [Becoming a Real spy](becoming-a-real-spy)
 - [Binaries](binaries)
 - [Binding within the List Monad](binding-within-the-list-monad)
+- [Bingo Card](bingo-card)
 - [Bit Counting](bit-counting)
 # C
 - [CamelCase Method](camelcase-method)
