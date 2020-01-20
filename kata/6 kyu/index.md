@@ -30,6 +30,7 @@
 - [Becoming a Real spy](becoming-a-real-spy)
 - [Bifid cipher](bifid-cipher)
 - [Binaries](binaries)
+- [Binary to Text (ASCII) Conversion](binary-to-text-ascii-conversion)
 - [Binding within the List Monad](binding-within-the-list-monad)
 - [Bingo Card](bingo-card)
 - [Bit Counting](bit-counting)
