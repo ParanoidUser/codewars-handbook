@@ -35,6 +35,7 @@
 - [Bingo Card](bingo-card)
 - [Bit Counting](bit-counting)
 - [Bitcoin statistics](bitcoin-statistics)
+- [Blocky Octahedrons](blocky-octahedrons)
 # C
 - [CamelCase Method](camelcase-method)
 - [Counting Duplicates](counting-duplicates)
