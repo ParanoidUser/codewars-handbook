@@ -28,6 +28,7 @@
 - [Banker's Plan](bankers-plan)
 - [Basic Encryption](basic-encryption)
 - [Becoming a Real spy](becoming-a-real-spy)
+- [Bifid cipher](bifid-cipher)
 - [Binaries](binaries)
 - [Binding within the List Monad](binding-within-the-list-monad)
 - [Bingo Card](bingo-card)
