@@ -40,6 +40,7 @@
 - [Bowling Pins](bowling-pins)
 - [Braking well](braking-well)
 # C
+- [Calculate String Rotation](calculate-string-rotation)
 - [CamelCase Method](camelcase-method)
 - [Counting Duplicates](counting-duplicates)
 # E
