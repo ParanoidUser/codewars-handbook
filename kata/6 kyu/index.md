@@ -38,6 +38,7 @@
 - [Blocky Octahedrons](blocky-octahedrons)
 - [Bouncing Balls](bouncing-balls)
 - [Bowling Pins](bowling-pins)
+- [Braking well](braking-well)
 # C
 - [CamelCase Method](camelcase-method)
 - [Counting Duplicates](counting-duplicates)
