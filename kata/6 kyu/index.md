@@ -37,6 +37,7 @@
 - [Bitcoin statistics](bitcoin-statistics)
 - [Blocky Octahedrons](blocky-octahedrons)
 - [Bouncing Balls](bouncing-balls)
+- [Bowling Pins](bowling-pins)
 # C
 - [CamelCase Method](camelcase-method)
 - [Counting Duplicates](counting-duplicates)
