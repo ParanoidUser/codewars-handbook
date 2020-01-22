@@ -39,6 +39,7 @@
 - [Bouncing Balls](bouncing-balls)
 - [Bowling Pins](bowling-pins)
 - [Braking well](braking-well)
+- [Brick pyramid.](brick-pyramid)
 - [Build a pile of Cubes](build-a-pile-of-cubes)
 - [Buying a car](buying-a-car)
 # C
