@@ -39,6 +39,7 @@
 - [Bouncing Balls](bouncing-balls)
 - [Bowling Pins](bowling-pins)
 - [Braking well](braking-well)
+- [Buying a car](buying-a-car)
 # C
 - [Calculate String Rotation](calculate-string-rotation)
 - [CamelCase Method](camelcase-method)
