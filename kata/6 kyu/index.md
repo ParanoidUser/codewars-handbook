@@ -45,6 +45,7 @@
 - [Buying a car](buying-a-car)
 # C
 - [Calculate String Rotation](calculate-string-rotation)
+- [Calculate the area of a regular n sides polygon inside a circle of radius r](calculate-the-area-of-a-regular-n-sides-polygon-inside-a-circle-of-radius-r)
 - [CamelCase Method](camelcase-method)
 - [Counting Duplicates](counting-duplicates)
 # E
