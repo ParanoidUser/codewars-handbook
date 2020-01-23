@@ -41,6 +41,7 @@
 - [Braking well](braking-well)
 - [Brick pyramid.](brick-pyramid)
 - [Build a pile of Cubes](build-a-pile-of-cubes)
+- [Button sequences](button-sequences)
 - [Buying a car](buying-a-car)
 # C
 - [Calculate String Rotation](calculate-string-rotation)
