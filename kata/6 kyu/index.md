@@ -48,6 +48,7 @@
 - [Calculate the area of a regular n sides polygon inside a circle of radius r](calculate-the-area-of-a-regular-n-sides-polygon-inside-a-circle-of-radius-r)
 - [Calendar Week](calendar-week)
 - [CamelCase Method](camelcase-method)
+- [CamelCase to underscore](camelcase-to-underscore)
 - [Counting Duplicates](counting-duplicates)
 # E
 - [Encrypt this!](encrypt-this)
