@@ -46,6 +46,7 @@
 # C
 - [Calculate String Rotation](calculate-string-rotation)
 - [Calculate the area of a regular n sides polygon inside a circle of radius r](calculate-the-area-of-a-regular-n-sides-polygon-inside-a-circle-of-radius-r)
+- [Calendar Week](calendar-week)
 - [CamelCase Method](camelcase-method)
 - [Counting Duplicates](counting-duplicates)
 # E
