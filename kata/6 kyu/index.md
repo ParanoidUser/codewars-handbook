@@ -49,6 +49,7 @@
 - [Calendar Week](calendar-week)
 - [CamelCase Method](camelcase-method)
 - [CamelCase to underscore](camelcase-to-underscore)
+- [Card Games: Black Jack](card-games-black-jack)
 - [Cartesian neighbors distance](cartesian-neighbors-distance)
 - [Counting Duplicates](counting-duplicates)
 # E
