@@ -52,6 +52,7 @@
 - [Card Games: Black Jack](card-games-black-jack)
 - [Cartesian neighbors distance](cartesian-neighbors-distance)
 - [Cat Kata, Part 1](cat-kata-part-1)
+- [Catalog](catalog)
 - [Counting Duplicates](counting-duplicates)
 # E
 - [Encrypt this!](encrypt-this)
