@@ -51,6 +51,7 @@
 - [CamelCase to underscore](camelcase-to-underscore)
 - [Card Games: Black Jack](card-games-black-jack)
 - [Cartesian neighbors distance](cartesian-neighbors-distance)
+- [Cat Kata, Part 1](cat-kata-part-1)
 - [Counting Duplicates](counting-duplicates)
 # E
 - [Encrypt this!](encrypt-this)
