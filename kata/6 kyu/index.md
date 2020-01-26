@@ -53,6 +53,7 @@
 - [Cartesian neighbors distance](cartesian-neighbors-distance)
 - [Cat Kata, Part 1](cat-kata-part-1)
 - [Catalog](catalog)
+- [Checking Groups](checking-groups)
 - [Counting Duplicates](counting-duplicates)
 # E
 - [Encrypt this!](encrypt-this)
