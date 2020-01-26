@@ -53,6 +53,7 @@
 - [Cartesian neighbors distance](cartesian-neighbors-distance)
 - [Cat Kata, Part 1](cat-kata-part-1)
 - [Catalog](catalog)
+- [Change your Points of View](change-your-points-of-view)
 - [Checking Groups](checking-groups)
 - [Counting Duplicates](counting-duplicates)
 # E
