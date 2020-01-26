@@ -55,6 +55,7 @@
 - [Catalog](catalog)
 - [Change your Points of View](change-your-points-of-view)
 - [Checking Groups](checking-groups)
+- [Children and candies](children-and-candies)
 - [Counting Duplicates](counting-duplicates)
 # E
 - [Encrypt this!](encrypt-this)
