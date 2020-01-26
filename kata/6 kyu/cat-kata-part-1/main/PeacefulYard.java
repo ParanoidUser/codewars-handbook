@@ -5,7 +5,7 @@ import java.awt.Point;
 class PeacefulYard {
   static boolean peacefulYard(String[] yard, int minDistance) {
     var catPoints = range(0, yard.length).boxed().flatMap(y ->
-                    range(0, yard[y].length()).boxed().filter(x -> yard[x].charAt(x) != '-')
+                    range(0, yard[y].length()).boxed().filter(x -> yard[y].charAt(x) != '-')
                         .map(x -> new Point(x, y))).toArray(Point[]::new);
 
     for (int i = 0; i < catPoints.length; i++) {
