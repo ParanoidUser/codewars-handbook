@@ -313,6 +313,7 @@
 - [Reverse a Number](reverse-a-number)
 - [Reverse words](reverse-words)
 - [Reversing Fun](reversing-fun)
+- [Robinson Crusoe](robinson-crusoe)
 - [Robotic Tattoo Removal](robotic-tattoo-removal)
 - [Rock Off!](rock-off)
 - [Rotate for a Max](rotate-for-a-max)
