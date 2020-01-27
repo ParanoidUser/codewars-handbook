@@ -82,6 +82,7 @@
 - [Complete The Pattern #4](complete-the-pattern-number-4)
 - [Composing squared strings](composing-squared-strings)
 - [CompoundArray](compoundarray)
+- [Conference Traveller](conference-traveller)
 - [Convert a linked list to a string](convert-a-linked-list-to-a-string)
 - [Convert Time to String](convert-time-to-string)
 - [Converting from base 10 to 16! Dare you?](converting-from-base-10-to-16-dare-you)
