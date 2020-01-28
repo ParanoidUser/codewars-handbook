@@ -57,6 +57,7 @@
 - [Checking Groups](checking-groups)
 - [Children and candies](children-and-candies)
 - [Coffee machine](coffee-machine)
+- [Collatz](collatz)
 - [Counting Duplicates](counting-duplicates)
 # E
 - [Encrypt this!](encrypt-this)
