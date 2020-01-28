@@ -74,6 +74,7 @@
 # S
 - [Sum of Digits / Digital Root](sum-of-digits-slash-digital-root)
 - [Sum of Two Integers](sum-of-two-integers)
+- [Sums of Parts](sums-of-parts)
 # T
 - [The Walker](the-walker)
 - [Tortoise racing](tortoise-racing)
