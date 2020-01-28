@@ -73,6 +73,7 @@
 - [Piano Kata, Part 1](piano-kata-part-1)
 # S
 - [Sum of Digits / Digital Root](sum-of-digits-slash-digital-root)
+- [Sum of Two Integers](sum-of-two-integers)
 # T
 - [The Walker](the-walker)
 - [Tortoise racing](tortoise-racing)
