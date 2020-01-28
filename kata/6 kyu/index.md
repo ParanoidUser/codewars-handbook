@@ -60,6 +60,7 @@
 - [Coffee machine](coffee-machine)
 - [Collatz](collatz)
 - [Counting Duplicates](counting-duplicates)
+- [Create Phone Number](create-phone-number)
 # E
 - [Encrypt this!](encrypt-this)
 - [Equal Sides Of An Array](equal-sides-of-an-array)
