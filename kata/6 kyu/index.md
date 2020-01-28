@@ -56,6 +56,7 @@
 - [Change your Points of View](change-your-points-of-view)
 - [Checking Groups](checking-groups)
 - [Children and candies](children-and-candies)
+- [Chocolate problem](chocolate-problem)
 - [Coffee machine](coffee-machine)
 - [Collatz](collatz)
 - [Counting Duplicates](counting-duplicates)
