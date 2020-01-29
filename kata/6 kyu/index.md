@@ -72,6 +72,8 @@
 # P
 - [Persistent Bugger](persistent-bugger)
 - [Piano Kata, Part 1](piano-kata-part-1)
+# R
+- [Row of the odd triangle](row-of-the-odd-triangle)
 # S
 - [Stop gninnipS My sdroW!](stop-gninnips-my-sdrow)
 - [Strongest even number in an interval](strongest-even-number-in-an-interval)
