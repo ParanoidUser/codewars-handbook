@@ -73,6 +73,7 @@
 - [Persistent Bugger](persistent-bugger)
 - [Piano Kata, Part 1](piano-kata-part-1)
 - [Playing on a chessboard](playing-on-a-chessboard)
+- [Primorial Of  a Number](primorial-of-a-number)
 # S
 - [Sum of Digits / Digital Root](sum-of-digits-slash-digital-root)
 - [Sum of Two Integers](sum-of-two-integers)
