@@ -69,6 +69,7 @@
 - [Make the Deadfish swim](make-the-deadfish-swim)
 - [Matrix Addition](matrix-addition)
 - [Mexican Wave](mexican-wave)
+- [Moves in squared strings (II)](moves-in-squared-strings-ii)
 # P
 - [Persistent Bugger](persistent-bugger)
 - [Piano Kata, Part 1](piano-kata-part-1)
