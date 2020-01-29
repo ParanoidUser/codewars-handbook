@@ -60,6 +60,8 @@
 - [Coffee machine](coffee-machine)
 - [Collatz](collatz)
 - [Counting Duplicates](counting-duplicates)
+# D
+- [Decode the Morse code](decode-the-morse-code)
 # E
 - [Encrypt this!](encrypt-this)
 - [Equal Sides Of An Array](equal-sides-of-an-array)
