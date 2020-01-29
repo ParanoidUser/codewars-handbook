@@ -73,6 +73,7 @@
 - [Piano Kata, Part 1](piano-kata-part-1)
 # S
 - [Stop gninnipS My sdroW!](stop-gninnips-my-sdrow)
+- [Strongest even number in an interval](strongest-even-number-in-an-interval)
 - [Sum of Digits / Digital Root](sum-of-digits-slash-digital-root)
 # T
 - [The Walker](the-walker)
