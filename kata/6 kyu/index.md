@@ -90,6 +90,7 @@
 - [Sum of Two Integers](sum-of-two-integers)
 - [Sums of Parts](sums-of-parts)
 # T
+- [Take a Ten Minute Walk](take-a-ten-minute-walk)
 - [The Walker](the-walker)
 - [Tortoise racing](tortoise-racing)
 - [Traffic Lights - one car](traffic-lights-one-car)
