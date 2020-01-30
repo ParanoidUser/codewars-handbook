@@ -67,6 +67,8 @@
 - [Encrypt this!](encrypt-this)
 - [Equal Sides Of An Array](equal-sides-of-an-array)
 - [Experimenting with a sequence of complex numbers](experimenting-with-a-sequence-of-complex-numbers)
+# F
+- [Find The Parity Outlier](find-the-parity-outlier)
 # M
 - [Make the Deadfish swim](make-the-deadfish-swim)
 - [Matrix Addition](matrix-addition)
