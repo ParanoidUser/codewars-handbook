@@ -61,6 +61,8 @@
 - [Collatz](collatz)
 - [Counting Duplicates](counting-duplicates)
 - [Create Phone Number](create-phone-number)
+# D
+- [Decode the Morse code](decode-the-morse-code)
 # E
 - [Encrypt this!](encrypt-this)
 - [Equal Sides Of An Array](equal-sides-of-an-array)
@@ -69,12 +71,17 @@
 - [Make the Deadfish swim](make-the-deadfish-swim)
 - [Matrix Addition](matrix-addition)
 - [Mexican Wave](mexican-wave)
+- [Moves in squared strings (II)](moves-in-squared-strings-ii)
 # P
 - [Persistent Bugger](persistent-bugger)
 - [Piano Kata, Part 1](piano-kata-part-1)
 - [Playing on a chessboard](playing-on-a-chessboard)
 - [Primorial Of  a Number](primorial-of-a-number)
+# R
+- [Row of the odd triangle](row-of-the-odd-triangle)
 # S
+- [Stop gninnipS My sdroW!](stop-gninnips-my-sdrow)
+- [Strongest even number in an interval](strongest-even-number-in-an-interval)
 - [Sum of Digits / Digital Root](sum-of-digits-slash-digital-root)
 - [Sum of Two Integers](sum-of-two-integers)
 - [Sums of Parts](sums-of-parts)
