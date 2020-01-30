@@ -71,6 +71,7 @@
 - [Make the Deadfish swim](make-the-deadfish-swim)
 - [Matrix Addition](matrix-addition)
 - [Mexican Wave](mexican-wave)
+- [Multiples of 3 or 5](multiples-of-3-or-5)
 # P
 - [Persistent Bugger](persistent-bugger)
 - [Piano Kata, Part 1](piano-kata-part-1)
