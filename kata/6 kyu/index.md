@@ -74,6 +74,7 @@
 - [Matrix Addition](matrix-addition)
 - [Mexican Wave](mexican-wave)
 - [Moves in squared strings (II)](moves-in-squared-strings-ii)
+- [Multiples of 3 or 5](multiples-of-3-or-5)
 # P
 - [Persistent Bugger](persistent-bugger)
 - [Piano Kata, Part 1](piano-kata-part-1)
