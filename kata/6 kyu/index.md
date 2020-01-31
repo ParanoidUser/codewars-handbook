@@ -78,6 +78,7 @@
 - [Playing on a chessboard](playing-on-a-chessboard)
 - [Primorial Of  a Number](primorial-of-a-number)
 # R
+- [Reversing a Process](reversing-a-process)
 - [Row of the odd triangle](row-of-the-odd-triangle)
 # S
 - [Stop gninnipS My sdroW!](stop-gninnips-my-sdrow)
