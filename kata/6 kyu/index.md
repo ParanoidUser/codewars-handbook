@@ -67,11 +67,14 @@
 - [Encrypt this!](encrypt-this)
 - [Equal Sides Of An Array](equal-sides-of-an-array)
 - [Experimenting with a sequence of complex numbers](experimenting-with-a-sequence-of-complex-numbers)
+# F
+- [Find The Parity Outlier](find-the-parity-outlier)
 # M
 - [Make the Deadfish swim](make-the-deadfish-swim)
 - [Matrix Addition](matrix-addition)
 - [Mexican Wave](mexican-wave)
 - [Moves in squared strings (II)](moves-in-squared-strings-ii)
+- [Multiples of 3 or 5](multiples-of-3-or-5)
 # P
 - [Persistent Bugger](persistent-bugger)
 - [Piano Kata, Part 1](piano-kata-part-1)
@@ -87,6 +90,7 @@
 - [Sum of Two Integers](sum-of-two-integers)
 - [Sums of Parts](sums-of-parts)
 # T
+- [Take a Ten Minute Walk](take-a-ten-minute-walk)
 - [The Walker](the-walker)
 - [Tortoise racing](tortoise-racing)
 - [Traffic Lights - one car](traffic-lights-one-car)
