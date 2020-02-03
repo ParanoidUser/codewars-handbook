@@ -69,6 +69,8 @@
 - [Experimenting with a sequence of complex numbers](experimenting-with-a-sequence-of-complex-numbers)
 # F
 - [Find The Parity Outlier](find-the-parity-outlier)
+# H
+- [Hidden "Cubic" numbers](hidden-cubic-numbers)
 # M
 - [Make the Deadfish swim](make-the-deadfish-swim)
 - [Matrix Addition](matrix-addition)
