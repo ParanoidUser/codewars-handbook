@@ -71,6 +71,8 @@
 - [Find The Parity Outlier](find-the-parity-outlier)
 # H
 - [Hidden "Cubic" numbers](hidden-cubic-numbers)
+# I
+- [IntroToArt](introtoart)
 # L
 - [Longest alphabetical substring](longest-alphabetical-substring)
 # M
