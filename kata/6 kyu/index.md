@@ -71,6 +71,8 @@
 - [Find The Parity Outlier](find-the-parity-outlier)
 # H
 - [Hidden "Cubic" numbers](hidden-cubic-numbers)
+# L
+- [Longest alphabetical substring](longest-alphabetical-substring)
 # M
 - [Make the Deadfish swim](make-the-deadfish-swim)
 - [Matrix Addition](matrix-addition)
@@ -81,7 +83,7 @@
 - [Persistent Bugger](persistent-bugger)
 - [Piano Kata, Part 1](piano-kata-part-1)
 - [Playing on a chessboard](playing-on-a-chessboard)
-- [Primorial Of  a Number](primorial-of-a-number)
+- [Primorial Of a Number](primorial-of-a-number)
 # R
 - [Reversing a Process](reversing-a-process)
 - [Row of the odd triangle](row-of-the-odd-triangle)
