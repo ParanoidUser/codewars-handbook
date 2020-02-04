@@ -63,6 +63,7 @@
 - [Create Phone Number](create-phone-number)
 # D
 - [Decode the Morse code](decode-the-morse-code)
+- [Duplicate Encoder](duplicate-encoder)
 # E
 - [Ease the StockBroker](ease-the-stockbroker)
 - [Encrypt this!](encrypt-this)
