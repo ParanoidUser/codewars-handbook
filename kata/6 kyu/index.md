@@ -70,6 +70,7 @@
 # F
 - [Find The Parity Outlier](find-the-parity-outlier)
 # H
+- [Help the bookseller!](help-the-bookseller)
 - [Hidden "Cubic" numbers](hidden-cubic-numbers)
 # I
 - [IntroToArt](introtoart)
