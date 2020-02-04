@@ -98,6 +98,7 @@
 - [Sums of Parts](sums-of-parts)
 # T
 - [Take a Ten Minute Walk](take-a-ten-minute-walk)
+- [The Deaf Rats of Hamelin](the-deaf-rats-of-hamelin)
 - [The Walker](the-walker)
 - [Tortoise racing](tortoise-racing)
 - [Traffic Lights - one car](traffic-lights-one-car)
