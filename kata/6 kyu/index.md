@@ -64,6 +64,7 @@
 # D
 - [Decode the Morse code](decode-the-morse-code)
 # E
+- [Ease the StockBroker](ease-the-stockbroker)
 - [Encrypt this!](encrypt-this)
 - [Equal Sides Of An Array](equal-sides-of-an-array)
 - [Experimenting with a sequence of complex numbers](experimenting-with-a-sequence-of-complex-numbers)
