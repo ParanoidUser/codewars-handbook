@@ -113,5 +113,7 @@
 - [Valid Phone Number](valid-phone-number)
 - [Validate Credit Card Number](validate-credit-card-number)
 - [Vasya - Clerk](vasya-clerk)
+# W
+- [Who likes it?](who-likes-it)
 # Y
 - [Your order, please](your-order-please)
