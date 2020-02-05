@@ -96,6 +96,7 @@
 - [Reversing a Process](reversing-a-process)
 - [Row of the odd triangle](row-of-the-odd-triangle)
 # S
+- [Sort the odd](sort-the-odd)
 - [Stop gninnipS My sdroW!](stop-gninnips-my-sdrow)
 - [Strongest even number in an interval](strongest-even-number-in-an-interval)
 - [Sum of Digits / Digital Root](sum-of-digits-slash-digital-root)
