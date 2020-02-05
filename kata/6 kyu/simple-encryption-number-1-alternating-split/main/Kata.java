@@ -1,30 +1,28 @@
 class Kata {
   static String encrypt(String text, int n) {
     while (n-- > 0) {
-      String left = "", right = "";
+      var cypher = new StringBuilder();
       for (int i = 0; i < text.length() - 1; i += 2) {
-        right += text.charAt(i);
-        left += text.charAt(i + 1);
+        cypher.insert(i / 2, text.charAt(i + 1)).append(text.charAt(i));
       }
       if (text.length() % 2 > 0) {
-        right += text.charAt(text.length() - 1);
+        cypher.append(text.charAt(text.length() - 1));
       }
-      text = left + right;
+      text = cypher.toString();
     }
     return text;
   }
 
   static String decrypt(String encryptedText, int n) {
     while (n-- > 0) {
-      String plain = "";
+      var plain = new StringBuilder();
       for (int i = 0; i < encryptedText.length() / 2; i++) {
-        plain += encryptedText.charAt(i + encryptedText.length() / 2);
-        plain += encryptedText.charAt(i);
+        plain.append(encryptedText.charAt(i + encryptedText.length() / 2)).append(encryptedText.charAt(i));
       }
       if (encryptedText.length() % 2 > 0) {
-        plain += encryptedText.charAt(encryptedText.length() - 1);
+        plain.append(encryptedText.charAt(encryptedText.length() - 1));
       }
-      encryptedText = plain;
+      encryptedText = plain.toString();
     }
     return encryptedText;
   }
