@@ -90,6 +90,7 @@
 - [PI approximation](pi-approximation)
 - [Piano Kata, Part 1](piano-kata-part-1)
 - [Playing on a chessboard](playing-on-a-chessboard)
+- [Playing with digits](playing-with-digits)
 - [Primorial Of a Number](primorial-of-a-number)
 # R
 - [Reversing a Process](reversing-a-process)
