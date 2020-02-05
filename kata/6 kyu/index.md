@@ -59,6 +59,7 @@
 - [Chocolate problem](chocolate-problem)
 - [Coffee machine](coffee-machine)
 - [Collatz](collatz)
+- [Consecutive strings](consecutive-strings)
 - [Counting Duplicates](counting-duplicates)
 - [Create Phone Number](create-phone-number)
 # D
