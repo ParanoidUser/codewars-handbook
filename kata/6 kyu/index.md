@@ -100,6 +100,7 @@
 - [Reversing a Process](reversing-a-process)
 - [Row of the odd triangle](row-of-the-odd-triangle)
 # S
+- [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
 - [Sort the odd](sort-the-odd)
 - [Stop gninnipS My sdroW!](stop-gninnips-my-sdrow)
 - [Strongest even number in an interval](strongest-even-number-in-an-interval)
