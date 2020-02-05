@@ -107,6 +107,7 @@
 - [The Walker](the-walker)
 - [Tortoise racing](tortoise-racing)
 - [Traffic Lights - one car](traffic-lights-one-car)
+- [Tribonacci Sequence](tribonacci-sequence)
 # U
 - [Unique Substring From Joined Strings](unique-substring-from-joined-strings)
 - [Up AND down](up-and-down)
