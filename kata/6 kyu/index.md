@@ -65,6 +65,7 @@
 - [Create Phone Number](create-phone-number)
 # D
 - [Decode the Morse code](decode-the-morse-code)
+- [Delete occurrences of an element if it occurs more than n times](delete-occurrences-of-an-element-if-it-occurs-more-than-n-times)
 - [Dubstep](dubstep)
 - [Duplicate Encoder](duplicate-encoder)
 # E
