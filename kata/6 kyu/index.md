@@ -60,6 +60,7 @@
 - [Coffee machine](coffee-machine)
 - [Collatz](collatz)
 - [Consecutive strings](consecutive-strings)
+- [Convert string to camel case](convert-string-to-camel-case)
 - [Count the smiley faces!](count-the-smiley-faces)
 - [Counting Duplicates](counting-duplicates)
 - [Create Phone Number](create-phone-number)
