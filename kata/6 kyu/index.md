@@ -59,10 +59,12 @@
 - [Chocolate problem](chocolate-problem)
 - [Coffee machine](coffee-machine)
 - [Collatz](collatz)
+- [Consecutive strings](consecutive-strings)
 - [Counting Duplicates](counting-duplicates)
 - [Create Phone Number](create-phone-number)
 # D
 - [Decode the Morse code](decode-the-morse-code)
+- [Dubstep](dubstep)
 - [Duplicate Encoder](duplicate-encoder)
 # E
 - [Ease the StockBroker](ease-the-stockbroker)
@@ -70,6 +72,7 @@
 - [Equal Sides Of An Array](equal-sides-of-an-array)
 - [Experimenting with a sequence of complex numbers](experimenting-with-a-sequence-of-complex-numbers)
 # F
+- [Find the missing letter](find-the-missing-letter)
 - [Find the odd int](find-the-odd-int)
 - [Find The Parity Outlier](find-the-parity-outlier)
 # H
@@ -96,6 +99,7 @@
 - [Reversing a Process](reversing-a-process)
 - [Row of the odd triangle](row-of-the-odd-triangle)
 # S
+- [Sort the odd](sort-the-odd)
 - [Stop gninnipS My sdroW!](stop-gninnips-my-sdrow)
 - [Strongest even number in an interval](strongest-even-number-in-an-interval)
 - [Sum of Digits / Digital Root](sum-of-digits-slash-digital-root)
@@ -105,6 +109,7 @@
 - [Take a Ten Minute Walk](take-a-ten-minute-walk)
 - [The Deaf Rats of Hamelin](the-deaf-rats-of-hamelin)
 - [The difference between 11 and 21 in Ping-Pong](the-difference-between-11-and-21-in-ping-pong)
+- [The Supermarket Queue](the-supermarket-queue)
 - [The Walker](the-walker)
 - [Tortoise racing](tortoise-racing)
 - [Traffic Lights - one car](traffic-lights-one-car)
