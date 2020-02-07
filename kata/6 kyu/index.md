@@ -82,6 +82,7 @@
 # H
 - [Help the bookseller!](help-the-bookseller)
 - [Hidden "Cubic" numbers](hidden-cubic-numbers)
+- [Highest Scoring Word](highest-scoring-word)
 # I
 - [IntroToArt](introtoart)
 # L
