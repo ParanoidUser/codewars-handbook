@@ -128,6 +128,7 @@
 - [Validate Credit Card Number](validate-credit-card-number)
 - [Vasya - Clerk](vasya-clerk)
 # W
+- [Which are in?](which-are-in)
 - [Who likes it?](who-likes-it)
 # Y
 - [Your order, please](your-order-please)
