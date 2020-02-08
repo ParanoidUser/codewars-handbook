@@ -13,6 +13,7 @@
 - [AltERnaTIng cAsE <=> ALTerNAtiNG CaSe](alternating-case-equals-alternating-case)
 - [Are You Playing Banjo?](are-you-playing-banjo)
 - [Area of a Square](area-of-a-square)
+- [Area or Perimeter (beta)](area-or-perimeter)
 - [Array plus array](array-plus-array)
 # B
 - [Basic Mathematical Operations](basic-mathematical-operations)
