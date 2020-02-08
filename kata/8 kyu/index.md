@@ -15,6 +15,7 @@
 - [Area of a Square](area-of-a-square)
 - [Array plus array](array-plus-array)
 # B
+- [Bad Colection?](bad-colection)
 - [Basic Mathematical Operations](basic-mathematical-operations)
 - [Basic subclasses - Adam and Eve](basic-subclasses-adam-and-eve)
 - [Basic variable assignment](basic-variable-assignment)
