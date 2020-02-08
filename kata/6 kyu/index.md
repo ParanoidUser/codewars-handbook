@@ -15,6 +15,7 @@
 - [Alex & snooker: scores](alex-and-snooker-scores)
 - [Alphabet war - airstrike - letters massacre](alphabet-war-airstrike-letters-massacre)
 - [Alphabet wars - reinforces massacre](alphabet-wars-reinforces-massacre)
+- [Ancestors Blowfish - play with bits (beta)](ancestors-blowfish-play-with-bits)
 - [Are they the "same"?](are-they-the-same)
 - [Are we alternate?](are-we-alternate)
 - [Arrange Matrix by Diagonals -- OMG](arrange-matrix-by-diagonals-omg)
@@ -129,5 +130,3 @@
 - [Vasya - Clerk](vasya-clerk)
 # W
 - [Who likes it?](who-likes-it)
-# Y
-- [Your order, please](your-order-please)
