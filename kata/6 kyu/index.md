@@ -60,10 +60,13 @@
 - [Coffee machine](coffee-machine)
 - [Collatz](collatz)
 - [Consecutive strings](consecutive-strings)
+- [Convert string to camel case](convert-string-to-camel-case)
+- [Count the smiley faces!](count-the-smiley-faces)
 - [Counting Duplicates](counting-duplicates)
 - [Create Phone Number](create-phone-number)
 # D
 - [Decode the Morse code](decode-the-morse-code)
+- [Delete occurrences of an element if it occurs more than n times](delete-occurrences-of-an-element-if-it-occurs-more-than-n-times)
 - [Dubstep](dubstep)
 - [Duplicate Encoder](duplicate-encoder)
 # E
@@ -75,6 +78,7 @@
 - [Find the missing letter](find-the-missing-letter)
 - [Find the odd int](find-the-odd-int)
 - [Find The Parity Outlier](find-the-parity-outlier)
+- [Find the unique number](find-the-unique-number-1)
 # H
 - [Help the bookseller!](help-the-bookseller)
 - [Hidden "Cubic" numbers](hidden-cubic-numbers)
@@ -99,6 +103,7 @@
 - [Reversing a Process](reversing-a-process)
 - [Row of the odd triangle](row-of-the-odd-triangle)
 # S
+- [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
 - [Sort the odd](sort-the-odd)
 - [Stop gninnipS My sdroW!](stop-gninnips-my-sdrow)
 - [Strongest even number in an interval](strongest-even-number-in-an-interval)
