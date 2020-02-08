@@ -82,6 +82,7 @@
 # H
 - [Help the bookseller!](help-the-bookseller)
 - [Hidden "Cubic" numbers](hidden-cubic-numbers)
+- [Highest Scoring Word](highest-scoring-word)
 # I
 - [IntroToArt](introtoart)
 # L
@@ -101,6 +102,7 @@
 - [Primorial Of a Number](primorial-of-a-number)
 # R
 - [Reversing a Process](reversing-a-process)
+- [Roman Numerals Encoder](roman-numerals-encoder)
 - [Row of the odd triangle](row-of-the-odd-triangle)
 # S
 - [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
@@ -111,6 +113,7 @@
 - [Sum of Two Integers](sum-of-two-integers)
 - [Sums of Parts](sums-of-parts)
 # T
+- [Take a Number And Sum  Its Digits Raised To The Consecutive Powers And ....¡Eureka!!](take-a-number-and-sum-its-digits-raised-to-the-consecutive-powers-and-dot-dot-dot-eureka)
 - [Take a Ten Minute Walk](take-a-ten-minute-walk)
 - [The Deaf Rats of Hamelin](the-deaf-rats-of-hamelin)
 - [The difference between 11 and 21 in Ping-Pong](the-difference-between-11-and-21-in-ping-pong)
@@ -128,6 +131,8 @@
 - [Validate Credit Card Number](validate-credit-card-number)
 - [Vasya - Clerk](vasya-clerk)
 # W
+- [Which are in?](which-are-in)
 - [Who likes it?](who-likes-it)
+- [Write Number in Expanded Form](write-number-in-expanded-form)
 # Y
 - [Your order, please](your-order-please)
