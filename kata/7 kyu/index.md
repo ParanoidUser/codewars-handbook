@@ -35,7 +35,7 @@
 - [Automorphic Number (Special Numbers Series #6)](automorphic-number-special-numbers-series-number-6)
 - [Averages of numbers](averages-of-numbers)
 # B
-- [Bad Colection?](bad-colection)
+- [Bad Collection? (beta)](bad-colection)
 - [Balanced Number (Special Numbers Series #1)](balanced-number-special-numbers-series-number-1)
 - [Basic Calculator](basic-calculator)
 - [Basics - Generators #1](basics-generators-number-1)
@@ -184,7 +184,7 @@
 - [Highest and Lowest](highest-and-lowest)
 - [Histogram - H1](histogram-h1)
 - [Histogram - H2](histogram-h2)
-- [Holiday I - Temperature in Bali](holiday-i-temperature-in-bali)
+- [Holiday I - Temperature in Bali (beta)](holiday-i-temperature-in-bali)
 - [Holiday VII - Local Talk](holiday-vii-local-talk)
 - [How far will I go?](how-far-will-i-go)
 - [How Green Is My Valley?](how-green-is-my-valley)
