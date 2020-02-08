@@ -15,7 +15,6 @@
 - [Area of a Square](area-of-a-square)
 - [Array plus array](array-plus-array)
 # B
-- [Bad Colection?](bad-colection)
 - [Basic Mathematical Operations](basic-mathematical-operations)
 - [Basic subclasses - Adam and Eve](basic-subclasses-adam-and-eve)
 - [Basic variable assignment](basic-variable-assignment)
@@ -92,7 +91,6 @@
 - [Grasshopper - Terminal game move function](grasshopper-terminal-game-move-function)
 # H
 - [Hex to Decimal](hex-to-decimal)
-- [Holiday I - Temperature in Bali](holiday-i-temperature-in-bali)
 - [Holiday VIII - Duty Free](holiday-viii-duty-free)
 - [How do I compare numbers?](how-do-i-compare-numbers)
 - [How good are you really?](how-good-are-you-really)
