@@ -91,6 +91,7 @@
 - [Grasshopper - Terminal game move function](grasshopper-terminal-game-move-function)
 # H
 - [Hex to Decimal](hex-to-decimal)
+- [Holiday I - Temperature in Bali](holiday-i-temperature-in-bali)
 - [Holiday VIII - Duty Free](holiday-viii-duty-free)
 - [How do I compare numbers?](how-do-i-compare-numbers)
 - [How good are you really?](how-good-are-you-really)
