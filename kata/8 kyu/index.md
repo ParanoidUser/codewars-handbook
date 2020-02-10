@@ -13,6 +13,7 @@
 - [AltERnaTIng cAsE <=> ALTerNAtiNG CaSe](alternating-case-equals-alternating-case)
 - [Are You Playing Banjo?](are-you-playing-banjo)
 - [Area of a Square](area-of-a-square)
+- [Area or Perimeter (beta)](area-or-perimeter)
 - [Array plus array](array-plus-array)
 # B
 - [Basic Mathematical Operations](basic-mathematical-operations)
@@ -99,6 +100,7 @@
 # I
 - [I love you, a little, a lot, passionately... not at all](i-love-you-a-little-a-lot-passionately-dot-dot-dot-not-at-all)
 - [If you can't sleep, just count sheep!!](if-you-cant-sleep-just-count-sheep)
+- [Index i? (beta)](index-i)
 - [Invert values](invert-values)
 - [Is it a number?](is-it-a-number)
 - [Is it even?](is-it-even)
