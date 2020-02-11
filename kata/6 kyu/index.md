@@ -103,6 +103,7 @@
 - [Playing with digits](playing-with-digits)
 - [Primorial Of a Number](primorial-of-a-number)
 # R
+- [Rectangle into Squares](rectangle-into-squares)
 - [Reversing a Process](reversing-a-process)
 - [Row of the odd triangle](row-of-the-odd-triangle)
 # S
