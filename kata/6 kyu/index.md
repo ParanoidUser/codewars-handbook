@@ -68,6 +68,7 @@
 # D
 - [Decode the Morse code](decode-the-morse-code)
 - [Delete occurrences of an element if it occurs more than n times](delete-occurrences-of-an-element-if-it-occurs-more-than-n-times)
+- [Detect Pangram](detect-pangram)
 - [Dubstep](dubstep)
 - [Duplicate Encoder](duplicate-encoder)
 # E
@@ -86,6 +87,7 @@
 - [Highest Scoring Word](highest-scoring-word)
 # I
 - [IntroToArt](introtoart)
+- [Is a number prime?](is-a-number-prime)
 # L
 - [Longest alphabetical substring](longest-alphabetical-substring)
 # M
@@ -102,6 +104,7 @@
 - [Playing with digits](playing-with-digits)
 - [Primorial Of a Number](primorial-of-a-number)
 # R
+- [Rectangle into Squares](rectangle-into-squares)
 - [Reversing a Process](reversing-a-process)
 - [Roman Numerals Encoder](roman-numerals-encoder)
 - [Row of the odd triangle](row-of-the-odd-triangle)

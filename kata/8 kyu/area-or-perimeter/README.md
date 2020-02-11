@@ -1,4 +1,4 @@
-# [Area or Perimeter (beta)](https://www.codewars.com/kata/area-or-perimeter "https://www.codewars.com/kata/5ab6538b379d20ad880000ab")
+# [Area or Perimeter](https://www.codewars.com/kata/area-or-perimeter "https://www.codewars.com/kata/5ab6538b379d20ad880000ab")
 
 You are given the `length` and `width` of a 4-sided polygon. The polygon can either be a rectangle or a square.
 
