@@ -305,6 +305,7 @@
 - [Regexp Basics - is it a eight bit signed number?](regexp-basics-is-it-a-eight-bit-signed-number)
 - [Regexp Basics - is it a hexadecimal number?](regexp-basics-is-it-a-hexadecimal-number)
 - [Regexp Basics - is it a letter?](regexp-basics-is-it-a-letter)
+- [Regexp Basics - is it a six bit unsigned number?](regexp-basics-is-it-a-six-bit-unsigned-number)
 - [Regexp Basics - is it a vowel?](regexp-basics-is-it-a-vowel)
 - [Regexp basics - parsing prices](regexp-basics-parsing-prices)
 - [Remove duplicate words](remove-duplicate-words)
