@@ -303,6 +303,7 @@
 - [Regex validate PIN code](regex-validate-pin-code)
 - [Regex validation of 24 hours time.](regex-validation-of-24-hours-time)
 - [Regexp Basics - is it a eight bit signed number?](regexp-basics-is-it-a-eight-bit-signed-number)
+- [Regexp Basics - is it a eight bit unsigned number?](regexp-basics-is-it-a-eight-bit-unsigned-number)
 - [Regexp Basics - is it a hexadecimal number?](regexp-basics-is-it-a-hexadecimal-number)
 - [Regexp Basics - is it a letter?](regexp-basics-is-it-a-letter)
 - [Regexp Basics - is it a six bit unsigned number?](regexp-basics-is-it-a-six-bit-unsigned-number)
