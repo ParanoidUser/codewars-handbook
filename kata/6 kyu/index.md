@@ -86,6 +86,7 @@
 - [Highest Scoring Word](highest-scoring-word)
 # I
 - [IntroToArt](introtoart)
+- [Is a number prime?](is-a-number-prime)
 # L
 - [Longest alphabetical substring](longest-alphabetical-substring)
 # M
