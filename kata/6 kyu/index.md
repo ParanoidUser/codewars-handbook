@@ -92,6 +92,7 @@
 - [Is a number prime?](is-a-number-prime)
 # L
 - [Longest alphabetical substring](longest-alphabetical-substring)
+- [Longest_palindrome](longest-palindrome)
 # M
 - [Make the Deadfish swim](make-the-deadfish-swim)
 - [Matrix Addition](matrix-addition)
