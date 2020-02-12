@@ -81,6 +81,7 @@
 - [Find the odd int](find-the-odd-int)
 - [Find The Parity Outlier](find-the-parity-outlier)
 - [Find the unique number](find-the-unique-number-1)
+- [Fold an array](fold-an-array)
 # G
 - [Give me a Diamond](give-me-a-diamond)
 # H
