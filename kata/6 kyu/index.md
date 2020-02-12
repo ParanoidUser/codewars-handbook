@@ -107,6 +107,7 @@
 - [Primorial Of a Number](primorial-of-a-number)
 # R
 - [Rectangle into Squares](rectangle-into-squares)
+- [Reverse or rotate?](reverse-or-rotate)
 - [Reversing a Process](reversing-a-process)
 - [Roman Numerals Encoder](roman-numerals-encoder)
 - [Row of the odd triangle](row-of-the-odd-triangle)
