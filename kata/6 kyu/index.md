@@ -109,6 +109,7 @@
 # R
 - [Rectangle into Squares](rectangle-into-squares)
 - [Reverse or rotate?](reverse-or-rotate)
+- [Reverse polish notation calculator](reverse-polish-notation-calculator)
 - [Reversing a Process](reversing-a-process)
 - [Roman Numerals Encoder](roman-numerals-encoder)
 - [Row of the odd triangle](row-of-the-odd-triangle)
