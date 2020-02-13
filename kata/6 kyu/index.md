@@ -120,6 +120,7 @@
 - [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
 - [Sort the odd](sort-the-odd)
 - [Stop gninnipS My sdroW!](stop-gninnips-my-sdrow)
+- [Street Fighter 2 - Character Selection](street-fighter-2-character-selection)
 - [Strongest even number in an interval](strongest-even-number-in-an-interval)
 - [Sum of Digits / Digital Root](sum-of-digits-slash-digital-root)
 - [Sum of Two Integers](sum-of-two-integers)
