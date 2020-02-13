@@ -107,6 +107,7 @@
 - [Piano Kata, Part 1](piano-kata-part-1)
 - [Playing on a chessboard](playing-on-a-chessboard)
 - [Playing with digits](playing-with-digits)
+- [Playing with passphrases](playing-with-passphrases)
 - [Primorial Of a Number](primorial-of-a-number)
 # R
 - [Rectangle into Squares](rectangle-into-squares)
