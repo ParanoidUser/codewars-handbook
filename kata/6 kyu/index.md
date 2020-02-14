@@ -97,6 +97,7 @@
 # M
 - [Make the Deadfish swim](make-the-deadfish-swim)
 - [Matrix Addition](matrix-addition)
+- [Meeting](meeting)
 - [Mexican Wave](mexican-wave)
 - [Moves in squared strings (II)](moves-in-squared-strings-ii)
 - [Multi-tap Keypad Text Entry on an Old Mobile Phone](multi-tap-keypad-text-entry-on-an-old-mobile-phone)
