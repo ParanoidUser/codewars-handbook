@@ -137,6 +137,7 @@
 - [Traffic Lights - one car](traffic-lights-one-car)
 - [Tribonacci Sequence](tribonacci-sequence)
 - [Triple trouble](triple-trouble-1)
+- [Two Sum](two-sum)
 # U
 - [Unique Substring From Joined Strings](unique-substring-from-joined-strings)
 - [Up AND down](up-and-down)
