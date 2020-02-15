@@ -112,6 +112,7 @@
 - [Playing with passphrases](playing-with-passphrases)
 - [Primorial Of a Number](primorial-of-a-number)
 # R
+- [Rainfall](rainfall)
 - [Rectangle into Squares](rectangle-into-squares)
 - [Reverse or rotate?](reverse-or-rotate)
 - [Reverse polish notation calculator](reverse-polish-notation-calculator)
