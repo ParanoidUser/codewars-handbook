@@ -192,6 +192,7 @@
 - [How many arguments](how-many-arguments)
 - [How many days are we represented in a foreign country?](how-many-days-are-we-represented-in-a-foreign-country)
 - [How many times does it contain?](how-many-times-does-it-contain)
+- [How many urinals are free?](how-many-urinals-are-free)
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
 - [Hëävÿ Mëtäl Ümläüts](heavy-metal-umlauts)
 # I
