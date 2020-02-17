@@ -78,6 +78,7 @@
 - [Esolang Interpreters #1 - Introduction to Esolangs and My First Interpreter (MiniStringFuck)](esolang-interpreters-number-1-introduction-to-esolangs-and-my-first-interpreter-ministringfuck)
 - [Experimenting with a sequence of complex numbers](experimenting-with-a-sequence-of-complex-numbers)
 # F
+- [Fibonacci, Tribonacci and friends](fibonacci-tribonacci-and-friends)
 - [Find the missing letter](find-the-missing-letter)
 - [Find the odd int](find-the-odd-int)
 - [Find The Parity Outlier](find-the-parity-outlier)
