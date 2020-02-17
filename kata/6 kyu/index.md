@@ -95,6 +95,7 @@
 - [IntroToArt](introtoart)
 - [Is a number prime?](is-a-number-prime)
 # L
+- [Length of missing array](length-of-missing-array)
 - [Longest alphabetical substring](longest-alphabetical-substring)
 - [Longest_palindrome](longest-palindrome)
 # M
