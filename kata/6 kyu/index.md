@@ -127,6 +127,7 @@
 - [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
 - [Sort the odd](sort-the-odd)
 - [Statistics for an Athletic Association](statistics-for-an-athletic-association)
+- [Steps in Primes](steps-in-primes)
 - [Stop gninnipS My sdroW!](stop-gninnips-my-sdrow)
 - [Street Fighter 2 - Character Selection](street-fighter-2-character-selection)
 - [Strongest even number in an interval](strongest-even-number-in-an-interval)
