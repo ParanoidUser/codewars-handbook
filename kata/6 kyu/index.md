@@ -125,6 +125,7 @@
 - [Roman Numerals Encoder](roman-numerals-encoder)
 - [Row of the odd triangle](row-of-the-odd-triangle)
 # S
+- [Salesman's Travel](salesmans-travel)
 - [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
 - [Sort the odd](sort-the-odd)
 - [Statistics for an Athletic Association](statistics-for-an-athletic-association)
