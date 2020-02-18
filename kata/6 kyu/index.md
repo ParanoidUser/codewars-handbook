@@ -132,6 +132,7 @@
 - [Stop gninnipS My sdroW!](stop-gninnips-my-sdrow)
 - [Street Fighter 2 - Character Selection](street-fighter-2-character-selection)
 - [Strongest even number in an interval](strongest-even-number-in-an-interval)
+- [Sum consecutives](sum-consecutives)
 - [Sum of Digits / Digital Root](sum-of-digits-slash-digital-root)
 - [Sum of Two Integers](sum-of-two-integers)
 - [Sums of Parts](sums-of-parts)
