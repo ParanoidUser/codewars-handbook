@@ -1,5 +1,6 @@
 plugins {
     java
+    jacoco
     id("org.sonarqube") version "2.8"
 }
 
@@ -48,13 +49,12 @@ subprojects {
         test {
             useJUnitPlatform()
         }
-    }
-}
-
-tasks {
-    wrapper {
-        gradleVersion = "6.0.1"
-        distributionType = Wrapper.DistributionType.ALL
+        jacocoTestReport {
+            reports {
+                xml.isEnabled = true
+                html.isEnabled = false
+            }
+        }
     }
 }
 
