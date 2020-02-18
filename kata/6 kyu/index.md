@@ -68,6 +68,7 @@
 - [Create Phone Number](create-phone-number)
 # D
 - [Dashatize it](dashatize-it)
+- [Data Reverse](data-reverse)
 - [Decode the Morse code](decode-the-morse-code)
 - [Delete occurrences of an element if it occurs more than n times](delete-occurrences-of-an-element-if-it-occurs-more-than-n-times)
 - [Detect Pangram](detect-pangram)
