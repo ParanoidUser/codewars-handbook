@@ -7,7 +7,7 @@ class RevRot {
     var result = new StringBuilder();
     for (int i = 0; i < strng.length() && sz + i <= strng.length(); i += sz) {
       var chunk = new StringBuilder(strng.substring(i, sz + i));
-      if (range(0, sz).mapToDouble(j -> Math.pow(chunk.charAt(j) - 48, 3)).sum() % 2 > 0) {
+      if (range(0, sz).mapToDouble(j -> Math.pow(chunk.charAt(j) - 48., 3)).sum() % 2 > 0) {
         result.append(chunk.substring(1, sz)).append(chunk.charAt(0));
       } else {
         result.append(chunk.reverse());
