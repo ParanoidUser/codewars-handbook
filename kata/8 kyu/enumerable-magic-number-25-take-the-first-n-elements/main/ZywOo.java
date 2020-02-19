@@ -1,7 +1,7 @@
-import java.util.Arrays;
+import static java.util.stream.IntStream.of;
 
 class ZywOo {
   static int[] take(int[] arr, int n) {
-    return Arrays.stream(arr).limit(n).toArray();
+    return of(arr).limit(n).toArray();
   }
 }
