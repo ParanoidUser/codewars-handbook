@@ -146,6 +146,7 @@
 - [Tank Truck](tank-truck)
 - [The Deaf Rats of Hamelin](the-deaf-rats-of-hamelin)
 - [The difference between 11 and 21 in Ping-Pong](the-difference-between-11-and-21-in-ping-pong)
+- [The Enigma Machine - Part 1: The Plugboard](the-enigma-machine-part-1-the-plugboard)
 - [The Supermarket Queue](the-supermarket-queue)
 - [The Walker](the-walker)
 - [Tortoise racing](tortoise-racing)
