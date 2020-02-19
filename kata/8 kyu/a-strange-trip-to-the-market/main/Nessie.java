@@ -1,5 +1,5 @@
 class Nessie {
-    static boolean isLockNessMonster(String s){
-      return s.contains("tree fiddy") || s.contains("3.50");
-    }
+  static boolean isLockNessMonster(String s) {
+    return s.contains("fid") || s.contains("3");
+  }
 }
