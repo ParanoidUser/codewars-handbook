@@ -1,5 +1,7 @@
+import static org.apache.commons.lang3.StringUtils.countMatches;
+
 class CodeWars {
   static int strCount(String str, char letter) {
-    return (int) str.chars().filter(x -> x == letter).count();
+    return countMatches(str, letter);
   }
 }
