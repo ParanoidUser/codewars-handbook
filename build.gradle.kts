@@ -61,5 +61,6 @@ subprojects {
 sonarqube {
     properties {
         property("sonar.java.libraries", "${System.getProperty("java.home")}/lib/*.jar")
+        property("sonar.coverage.jacoco.xmlReportPaths", "$buildDir/reports/jacoco")
     }
 }
