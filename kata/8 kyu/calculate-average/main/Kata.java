@@ -1,5 +1,7 @@
+import static java.util.stream.IntStream.of;
+
 class Kata {
   static double find_average(int[] array) {
-    return java.util.stream.IntStream.of(array).average().getAsDouble();
+    return of(array).average().orElse(0);
   }
 }
