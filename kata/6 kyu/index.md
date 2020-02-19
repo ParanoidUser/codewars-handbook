@@ -143,6 +143,7 @@
 # T
 - [Take a Number And Sum  Its Digits Raised To The Consecutive Powers And ....¡Eureka!!](take-a-number-and-sum-its-digits-raised-to-the-consecutive-powers-and-dot-dot-dot-eureka)
 - [Take a Ten Minute Walk](take-a-ten-minute-walk)
+- [Tank Truck](tank-truck)
 - [The Deaf Rats of Hamelin](the-deaf-rats-of-hamelin)
 - [The difference between 11 and 21 in Ping-Pong](the-difference-between-11-and-21-in-ping-pong)
 - [The Supermarket Queue](the-supermarket-queue)
