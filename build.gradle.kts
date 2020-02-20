@@ -1,6 +1,6 @@
 plugins {
     java
-    jacoco
+//    jacoco
     id("org.sonarqube") version "2.8"
 }
 
@@ -48,22 +48,23 @@ subprojects {
         }
         test {
             useJUnitPlatform()
-            reports {
-                html.isEnabled = false
-            }
+//            reports {
+//                html.isEnabled = false
+//            }
         }
-        jacocoTestReport {
-            reports {
-                xml.isEnabled = true
-                html.isEnabled = false
-            }
-        }
+//        jacocoTestReport {
+//            reports {
+//                xml.isEnabled = true
+//                html.isEnabled = false
+//            }
+//        }
     }
 }
 
 sonarqube {
     properties {
-        property("sonar.coverage.jacoco.xmlReportPaths", rootProject.tasks.withType<JacocoReport>().map { it.reports.xml.destination })
+//        property("sonar.coverage.jacoco.xmlReportPaths", rootProject.tasks.withType<JacocoReport>().map { it.reports.xml.destination })
+        property("sonar.junit.reportPaths", "build/test-results/test")
         property("sonar.java.libraries", "${System.getProperty("java.home")}/lib/*.jar")
     }
 }
