@@ -19,8 +19,8 @@ before_install:
   - chmod +x gradlew
 
 script:
-  - ./gradlew -Pversion=$VERSION build --scan --parallel --build-cache
-  - ./gradlew -Pversion=$VERSION jacocoTestReport sonarqube --debug
+  - ./gradlew -Pversion=$VERSION test jacocoTestReport --scan --parallel --build-cache
+  - ./gradlew -Pversion=$VERSION sonarqube --info
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
