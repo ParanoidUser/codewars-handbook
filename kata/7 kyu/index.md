@@ -433,6 +433,7 @@
 # W
 - [Waiting room](waiting-room)
 - [WASD Movement](wasd-movement)
+- [What's my golf score?](whats-my-golf-score)
 - [Where is THB?](where-is-thb)
 - [Where is Vasya?](where-is-vasya)
 - [Where's Wally](wheres-wally)
