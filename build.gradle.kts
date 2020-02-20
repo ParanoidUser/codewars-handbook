@@ -7,6 +7,7 @@ plugins {
 subprojects {
     apply(plugin = "java")
     apply(plugin = "jacoco")
+    apply(plugin = "org.sonarqube")
 
     java {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -39,16 +40,16 @@ subprojects {
         testImplementation("junit", "junit", "4.12")
     }
 
-    jacoco {
-        toolVersion = "0.8.5"
-    }
+//    jacoco {
+//        toolVersion = "0.8.5"
+//    }
 
-    sonarqube {
-        properties {
-            property("sonar.coverage.jacoco.xmlReportPaths", "$buildDir/reports/jacoco/test/jacocoTestReport.xml")
-//            property("sonar.java.libraries", "${System.getProperty("java.home")}/lib/*.jar")
-        }
-    }
+//    sonarqube {
+//        properties {
+//            property("sonar.coverage.jacoco.xmlReportPaths", "$buildDir/reports/jacoco/test/jacocoTestReport.xml")
+////            property("sonar.java.libraries", "${System.getProperty("java.home")}/lib/*.jar")
+//        }
+//    }
 
     tasks {
         compileJava {
