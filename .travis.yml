@@ -20,7 +20,7 @@ before_install:
 
 script:
   - ./gradlew -Pversion=$VERSION test jacocoTestReport --scan --parallel --build-cache
-  - ./gradlew -Pversion=$VERSION sonarqube --info
+  - ./gradlew -Pversion=$VERSION sonarqube -x test --debug
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
