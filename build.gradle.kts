@@ -45,11 +45,10 @@ subprojects {
 
     sonarqube {
         properties {
-            property("sonar.coverage.jacoco.xmlReportPaths", "$buildDir/reports/jacoco/jacocoTestReport/jacocoTestReport.xml")
-            property("sonar.java.libraries", "${System.getProperty("java.home")}/lib/*.jar")
+            property("sonar.coverage.jacoco.xmlReportPaths", "$buildDir/reports/jacoco/test/jacocoTestReport.xml")
+//            property("sonar.java.libraries", "${System.getProperty("java.home")}/lib/*.jar")
         }
-        properties.remove("sonar.junit.reportPath")
-        properties.remove("sonar.junit.reportPaths")
+        println(property("sonar.coverage.jacoco.xmlReportPaths"))
     }
 
     tasks {
