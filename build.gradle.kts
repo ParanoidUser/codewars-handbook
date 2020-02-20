@@ -7,7 +7,6 @@ plugins {
 subprojects {
     apply(plugin = "java")
     apply(plugin = "jacoco")
-    apply(plugin = "org.sonarqube")
 
     java {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -32,12 +31,12 @@ subprojects {
     }
 
     dependencies {
-        implementation("org.apache.commons:commons-lang3:3.9")
-        compileOnly("org.projectlombok:lombok:1.18.10")
-        annotationProcessor("org.projectlombok:lombok:1.18.10")
-        testImplementation("org.junit.jupiter:junit-jupiter:5.5.2")
-        testRuntimeOnly("org.junit.vintage:junit-vintage-engine:5.5.2")
-        testImplementation("junit:junit:4.12")
+        implementation("org.apache.commons", "commons-lang3", "3.9")
+        compileOnly("org.projectlombok", "lombok", "1.18.10")
+        annotationProcessor("org.projectlombok", "lombok", "1.18.10")
+        testImplementation("org.junit.jupiter", "junit-jupiter", "5.5.2")
+        testRuntimeOnly("org.junit.vintage", "junit-vintage-engine", "5.5.2")
+        testImplementation("junit", "junit", "4.12")
     }
 
     tasks {
@@ -49,6 +48,9 @@ subprojects {
         }
         test {
             useJUnitPlatform()
+            reports {
+                html.isEnabled = false
+            }
         }
         jacocoTestReport {
             reports {
@@ -56,15 +58,11 @@ subprojects {
                 html.isEnabled = false
             }
         }
-        sonarqube {
-            properties {
-                property("sonar.coverage.jacoco.xmlReportPaths", "$buildDir/reports/jacoco")
-            }
-        }
     }
 
     sonarqube {
         properties {
+            property("sonar.coverage.jacoco.xmlReportPaths", "$buildDir/reports/jacoco/test/jacocoTestReport.xml")
             property("sonar.java.libraries", "${System.getProperty("java.home")}/lib/*.jar")
         }
     }
