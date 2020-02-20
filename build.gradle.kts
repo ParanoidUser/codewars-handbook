@@ -7,7 +7,6 @@ plugins {
 subprojects {
     apply(plugin = "java")
     apply(plugin = "jacoco")
-    apply(plugin = "org.sonarqube")
 
     java {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -40,17 +39,6 @@ subprojects {
         testImplementation("junit", "junit", "4.12")
     }
 
-//    jacoco {
-//        toolVersion = "0.8.5"
-//    }
-
-//    sonarqube {
-//        properties {
-//            property("sonar.coverage.jacoco.xmlReportPaths", "$buildDir/reports/jacoco/test/jacocoTestReport.xml")
-////            property("sonar.java.libraries", "${System.getProperty("java.home")}/lib/*.jar")
-//        }
-//    }
-
     tasks {
         compileJava {
             options.encoding = "UTF-8"
@@ -69,6 +57,17 @@ subprojects {
                 xml.isEnabled = true
 //                html.isEnabled = false
             }
+        }
+    }
+
+    sonarqube {
+        properties {
+            property("sonar.java.coveragePlugin", "jacoco")
+            property("sonar.dynamicAnalysis", "reuseReports")
+            property("sonar.language", "java")
+            property("sonar.verbose", "true")
+            property("sonar.sourceEncoding", "UTF-8")
+            property("sonar.coverage.jacoco.xmlReportPaths", "$buildDir/reports/jacoco/test/jacocoTestReport.xml")
         }
     }
 }
