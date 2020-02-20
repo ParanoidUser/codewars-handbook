@@ -48,7 +48,6 @@ subprojects {
             property("sonar.coverage.jacoco.xmlReportPaths", "$buildDir/reports/jacoco/test/jacocoTestReport.xml")
 //            property("sonar.java.libraries", "${System.getProperty("java.home")}/lib/*.jar")
         }
-        println(property("sonar.coverage.jacoco.xmlReportPaths"))
     }
 
     tasks {
