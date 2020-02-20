@@ -1,6 +1,6 @@
 rootProject.name = "codewars-solutions"
 
-val ignore = setOf("build", "8 kyu", "7 kyu", "6 kyu", "5 kyu", "4 kyu", "3 kyu", "2 kyu", "1 kyu")
+val ignore = setOf("build", "8 kyu", "7 kyu", "6 kyu", "5 kyu", "4 kyu", "3 kyu", "2 kyu", "1 kyu", "kata")
 File("kata").walk().maxDepth(2)
         .filter { it.isDirectory && !ignore.contains(it.name) }
         .forEach {
