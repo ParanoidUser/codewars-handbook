@@ -328,6 +328,7 @@
 - [Scaling Squared Strings](scaling-squared-strings)
 - [Sectional Array Sort](sectional-array-sort)
 - [See You Next Happy Year](see-you-next-happy-year)
+- [Selective fear of numbers](selective-fear-of-numbers)
 - [Send in the Clones](send-in-the-clones)
 - [SequenceSum](sequencesum)
 - [Shift Left](shift-left-1)
