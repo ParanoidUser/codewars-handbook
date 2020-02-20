@@ -59,11 +59,11 @@ subprojects {
             }
         }
     }
+}
 
-    sonarqube {
-        properties {
-            property("sonar.coverage.jacoco.xmlReportPaths", "$buildDir/reports/jacoco/test/jacocoTestReport.xml")
-            property("sonar.java.libraries", "${System.getProperty("java.home")}/lib/*.jar")
-        }
+sonarqube {
+    properties {
+        property("sonar.coverage.jacoco.xmlReportPaths", rootProject.tasks.withType<JacocoReport>().map { it.reports.xml.destination })
+        property("sonar.java.libraries", "${System.getProperty("java.home")}/lib/*.jar")
     }
 }
