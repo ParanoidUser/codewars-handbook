@@ -96,6 +96,7 @@
 - [Help the bookseller!](help-the-bookseller)
 - [Hidden "Cubic" numbers](hidden-cubic-numbers)
 - [Highest Scoring Word](highest-scoring-word)
+- [How Much?](how-much)
 # I
 - [IntroToArt](introtoart)
 - [Is a number prime?](is-a-number-prime)
