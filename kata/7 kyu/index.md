@@ -428,6 +428,7 @@
 - [Unusual Lex Order](unusual-lex-order)
 - [URL Timestamps](url-timestamps)
 # V
+- [Valid teams and names](valid-teams-and-names)
 - [Visible Dots On a Die](visible-dots-on-a-die)
 - [Vowel Count](vowel-count)
 # W
