@@ -16,7 +16,7 @@ install: skip
 
 script:
   - ./gradlew -Pversion=$VERSION test jacocoTestReport --scan --parallel --build-cache
-  - sonar-scanner -Dsonar.projectKey=codewars-solutions -Dsonar.projectVersion=$VERSION -Dsonar.java.binaries=. -Dsonar.sources=main/
+  - sonar-scanner -Dsonar.projectKey=codewars-solutions -Dsonar.projectVersion=$VERSION -Dsonar.java.binaries=. -Dsonar.sources=./**/main/*
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
