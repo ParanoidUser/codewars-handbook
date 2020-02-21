@@ -1,10 +1,5 @@
+dist: bionic
 language: java
-install: true
-os: linux
-dist: trusty
-
-git:
-  depth: false
 
 addons:
   sonarcloud:
@@ -12,15 +7,16 @@ addons:
     token:
       secure: $SONAR_TOKEN
 
-jdk:
-  - openjdk11
+git:
+  depth: false
 
-before_install:
-  - chmod +x gradlew
+jdk: openjdk11
 
-script:
-  - ./gradlew -Pversion=$VERSION test jacocoTestReport --scan --parallel --build-cache
-  - ./gradlew -Pversion=$VERSION sonarqube -x test --info
+install: skip
+
+before_script: chmod +x gradlew
+
+script: ./gradlew -Pversion=$VERSION test jacocoTestReport sonarqube --scan --parallel --build-cache
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
