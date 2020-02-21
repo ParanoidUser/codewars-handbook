@@ -14,9 +14,9 @@ jdk: openjdk11
 
 install: skip
 
-before_script: chmod +x gradlew
-
-script: ./gradlew -Pversion=$VERSION test jacocoTestReport sonarqube --scan --parallel --build-cache
+script:
+  - ./gradlew -Pversion=$VERSION test jacocoTestReport --scan --parallel --build-cache
+  - sonar-scanner
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
