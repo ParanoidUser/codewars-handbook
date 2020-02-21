@@ -12,11 +12,11 @@ git:
 
 jdk: openjdk11
 
-install: skip
+#install: skip
 
 script:
   - ./gradlew -Pversion=$VERSION check --parallel --build-cache --scan
-  - sonar-scanner -Dsonar.projectKey=codewars-solutions -Dsonar.projectVersion=$VERSION -Dsonar.java.binaries=. -Dsonar.sources=**/main/*
+  - sonar-scanner -Dsonar.projectKey=codewars-solutions -Dsonar.projectVersion=$VERSION -Dsonar.java.binaries=. -Dsonar.sources=./kata/**/main
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
