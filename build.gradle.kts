@@ -48,15 +48,14 @@ subprojects {
         }
         test {
             useJUnitPlatform()
-//            reports {
-//                html.isEnabled = false
-//            }
         }
         jacocoTestReport {
             reports {
                 xml.isEnabled = true
-//                html.isEnabled = false
             }
+        }
+        check {
+            dependsOn(jacocoTestReport)
         }
     }
 
