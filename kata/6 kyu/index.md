@@ -131,6 +131,7 @@
 - [Reverse or rotate?](reverse-or-rotate)
 - [Reverse polish notation calculator](reverse-polish-notation-calculator)
 - [Reversing a Process](reversing-a-process)
+- [RoboScript #1 - Implement Syntax Highlighting](roboscript-number-1-implement-syntax-highlighting)
 - [Roman Numerals Encoder](roman-numerals-encoder)
 - [Row of the odd triangle](row-of-the-odd-triangle)
 # S
