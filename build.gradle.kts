@@ -1,7 +1,22 @@
 plugins {
     java
     jacoco
-//    id("org.sonarqube") version "2.8"
+    id("org.sonarqube") version "2.8"
+}
+
+allprojects {
+    sonarqube {
+        properties {
+            property("sonar.projectKey", "codewars-solutions")
+            property("sonar.host.url", "https://sonarcloud.io")
+            property("sonar.java.coveragePlugin", "jacoco")
+            property("sonar.dynamicAnalysis", "reuseReports")
+            property("sonar.language", "java")
+            property("sonar.verbose", "true")
+            property("sonar.sourceEncoding", "UTF-8")
+            property("sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/test/jacocoTestReport.xml")
+        }
+    }
 }
 
 subprojects {
@@ -58,15 +73,4 @@ subprojects {
             dependsOn(jacocoTestReport)
         }
     }
-
-//    sonarqube {
-//        properties {
-//            property("sonar.java.coveragePlugin", "jacoco")
-//            property("sonar.dynamicAnalysis", "reuseReports")
-//            property("sonar.language", "java")
-//            property("sonar.verbose", "true")
-//            property("sonar.sourceEncoding", "UTF-8")
-//            property("sonar.coverage.jacoco.xmlReportPaths", "$buildDir/reports/jacoco/test/jacocoTestReport.xml")
-//        }
-//    }
 }

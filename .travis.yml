@@ -7,8 +7,8 @@ addons:
     token:
       secure: $SONAR_TOKEN
 
-env:
-  - SONAR_OPTS="-Dsonar.projectKey=codewars-solutions -Dsonar.projectVersion=$VERSION -Dsonar.sources=. -Dsonar.inclusions=**/main/* -Dsonar.tests=. -Dsonar.test.inclusions=**/test/* -Dsonar.java.binaries=."
+#env:
+#  - SONAR_OPTS="-Dsonar.projectKey=codewars-solutions -Dsonar.projectVersion=$VERSION -Dsonar.sources=. -Dsonar.inclusions=**/main/* -Dsonar.tests=. -Dsonar.test.inclusions=**/test/* -Dsonar.java.binaries=."
 
 git:
   depth: false
@@ -18,8 +18,9 @@ jdk: openjdk11
 install: skip
 
 script:
-  - ./gradlew -Pversion=$VERSION check --parallel --build-cache --scan
-  - sonar-scanner $SONAR_OPTS
+  - ./gradlew -Pversion=$VERSION test --parallel --build-cache --scan
+  - ./gradlew -Pversion=$VERSION jacocoTestReport sonarqube
+#  - sonar-scanner $SONAR_OPTS
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
