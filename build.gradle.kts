@@ -32,6 +32,13 @@ subprojects {
     }
 
     dependencies {
+        /*
+           Dependency list:
+           - https://github.com/Codewars/codewars.com/wiki/Language-Java#java-11
+           - https://github.com/Codewars/codewars-runner-cli/blob/master/documentation/environments/java.md
+
+           Use ```System.out.println(org.junit.jupiter.api.BeforeAll.class.getProtectionDomain());```
+         */
         implementation("org.apache.commons", "commons-lang3", "3.9")
         compileOnly("org.projectlombok", "lombok", "1.18.12")
         annotationProcessor("org.projectlombok", "lombok", "1.18.12")
