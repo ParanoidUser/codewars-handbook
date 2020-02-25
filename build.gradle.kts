@@ -1,7 +1,7 @@
 plugins {
     java
     jacoco
-    id("org.sonarqube") version "2.7"
+    id("org.sonarqube") version "2.8"
     id("com.github.ben-manes.versions") version "0.28.0"
 }
 
@@ -33,11 +33,11 @@ subprojects {
 
     dependencies {
         implementation("org.apache.commons", "commons-lang3", "3.9")
-        compileOnly("org.projectlombok", "lombok", "1.18.10")
-        annotationProcessor("org.projectlombok", "lombok", "1.18.10")
-        testImplementation("org.junit.jupiter", "junit-jupiter", "5.5.2")
-        testRuntimeOnly("org.junit.vintage", "junit-vintage-engine", "5.5.2")
-        testImplementation("junit", "junit", "4.12")
+        compileOnly("org.projectlombok", "lombok", "1.18.12")
+        annotationProcessor("org.projectlombok", "lombok", "1.18.12")
+        testImplementation("org.junit.jupiter", "junit-jupiter", "5.6.0")
+        testRuntimeOnly("org.junit.vintage", "junit-vintage-engine", "5.6.0")
+        testImplementation("junit", "junit", "4.13")
     }
 
     tasks {
