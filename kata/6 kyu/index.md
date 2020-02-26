@@ -171,6 +171,7 @@
 - [Validate Credit Card Number](validate-credit-card-number)
 - [Vasya - Clerk](vasya-clerk)
 # W
+- [Where is my parent!?(cry)](where-is-my-parent-cry)
 - [Which are in?](which-are-in)
 - [Who likes it?](who-likes-it)
 - [Word a10n (abbreviation)](word-a10n-abbreviation)
