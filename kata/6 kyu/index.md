@@ -129,6 +129,7 @@
 # R
 - [Rainfall](rainfall)
 - [Rectangle into Squares](rectangle-into-squares)
+- [Reducing by steps](reducing-by-steps)
 - [Reverse or rotate?](reverse-or-rotate)
 - [Reverse polish notation calculator](reverse-polish-notation-calculator)
 - [Reversing a Process](reversing-a-process)
