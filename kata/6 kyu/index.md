@@ -138,6 +138,7 @@
 - [Salesman's Travel](salesmans-travel)
 - [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
 - [Sort the odd](sort-the-odd)
+- [Sorting on planet Twisted-3-7](sorting-on-planet-twisted-3-7)
 - [Srot the inner ctonnet in dsnnieedcg oredr](srot-the-inner-ctonnet-in-dsnnieedcg-oredr)
 - [Statistics for an Athletic Association](statistics-for-an-athletic-association)
 - [Steps in Primes](steps-in-primes)
