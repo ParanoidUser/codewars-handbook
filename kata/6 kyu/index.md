@@ -85,6 +85,7 @@
 - [Extract file name](extract-file-name)
 # F
 - [Fibonacci, Tribonacci and friends](fibonacci-tribonacci-and-friends)
+- [Financing Plan on Planet XY140Z-n](financing-plan-on-planet-xy140z-n)
 - [Find the missing letter](find-the-missing-letter)
 - [Find the odd int](find-the-odd-int)
 - [Find The Parity Outlier](find-the-parity-outlier)
