@@ -119,6 +119,7 @@
 - [Numericals of a String](numericals-of-a-string)
 # P
 - [Parse HTML/CSS Colors](parse-html-slash-css-colors)
+- [Pascal's Triangle #2](pascals-triangle-number-2)
 - [Persistent Bugger](persistent-bugger)
 - [PI approximation](pi-approximation)
 - [Piano Kata, Part 1](piano-kata-part-1)
