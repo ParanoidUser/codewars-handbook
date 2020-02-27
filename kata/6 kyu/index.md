@@ -59,6 +59,7 @@
 - [Checking Groups](checking-groups)
 - [Children and candies](children-and-candies)
 - [Chocolate problem](chocolate-problem)
+- [Clocky Mc Clock-Face](clocky-mc-clock-face)
 - [Coffee machine](coffee-machine)
 - [Collatz](collatz)
 - [Consecutive strings](consecutive-strings)
