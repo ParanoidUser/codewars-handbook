@@ -113,6 +113,7 @@
 - [Meeting](meeting)
 - [Mexican Wave](mexican-wave)
 - [Moves in squared strings (II)](moves-in-squared-strings-ii)
+- [Moves in squared strings (III)](moves-in-squared-strings-iii)
 - [Multi-tap Keypad Text Entry on an Old Mobile Phone](multi-tap-keypad-text-entry-on-an-old-mobile-phone)
 - [Multiples of 3 or 5](multiples-of-3-or-5)
 # N
