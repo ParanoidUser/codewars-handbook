@@ -127,6 +127,7 @@
 - [Playing on a chessboard](playing-on-a-chessboard)
 - [Playing with digits](playing-with-digits)
 - [Playing with passphrases](playing-with-passphrases)
+- [Positions Average](positions-average)
 - [Primorial Of a Number](primorial-of-a-number)
 - [Prize Draw](prize-draw)
 # R
