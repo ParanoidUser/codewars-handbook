@@ -93,6 +93,7 @@
 - [Find the unique number](find-the-unique-number-1)
 - [Fold an array](fold-an-array)
 - [Fruit Machine](fruit-machine)
+- [Function iteration](function-iteration)
 # G
 - [Give me a Diamond](give-me-a-diamond)
 # H
