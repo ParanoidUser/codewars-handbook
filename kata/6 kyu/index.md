@@ -77,6 +77,7 @@
 - [Duplicate Encoder](duplicate-encoder)
 # E
 - [Ease the StockBroker](ease-the-stockbroker)
+- [Easy Diagonal](easy-diagonal)
 - [Encrypt this!](encrypt-this)
 - [English beggars](english-beggars)
 - [Equal Sides Of An Array](equal-sides-of-an-array)

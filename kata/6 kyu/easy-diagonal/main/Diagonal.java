@@ -1,0 +1,14 @@
+import static java.math.BigInteger.ONE;
+import static java.math.BigInteger.valueOf;
+
+import java.math.BigInteger;
+
+class Diagonal {
+  static BigInteger diagonal(int n, int p) {
+    BigInteger sum = ONE, P = valueOf(p);
+    for (BigInteger i = ONE, prev = ONE; i.intValue() < n - p + 1; i = i.add(ONE)) {
+      sum = sum.add(prev = prev.multiply(P.add(i)).divide(i));
+    }
+    return sum;
+  }
+}
