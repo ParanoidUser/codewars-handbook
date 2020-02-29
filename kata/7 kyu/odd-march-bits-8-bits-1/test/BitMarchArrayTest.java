@@ -1,8 +1,8 @@
 import static org.hamcrest.CoreMatchers.hasItems;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertThat;
 
 import java.util.Arrays;
 
@@ -12,10 +12,10 @@ public class BitMarchArrayTest {
   @Test
   public void test5() {
     int[][] bits = {
-      { 0, 0, 0, 1, 1, 1, 1, 1 },
-      { 0, 0, 1, 1, 1, 1, 1, 0 },
-      { 0, 1, 1, 1, 1, 1, 0, 0 },
-      { 1, 1, 1, 1, 1, 0, 0, 0 },
+      {0, 0, 0, 1, 1, 1, 1, 1},
+      {0, 0, 1, 1, 1, 1, 1, 0},
+      {0, 1, 1, 1, 1, 1, 0, 0},
+      {1, 1, 1, 1, 1, 0, 0, 0},
     };
     int[][] chosenBits = BitMarchArray.BitMarch(5);
     assertNotNull(chosenBits);
@@ -30,8 +30,8 @@ public class BitMarchArrayTest {
   @Test
   public void test7() {
     int[][] bits = {
-      { 0, 1, 1, 1, 1, 1, 1, 1 },
-      { 1, 1, 1, 1, 1, 1, 1, 0 },
+      {0, 1, 1, 1, 1, 1, 1, 1},
+      {1, 1, 1, 1, 1, 1, 1, 0},
     };
     int[][] chosenBits = BitMarchArray.BitMarch(7);
     assertNotNull(chosenBits);
@@ -45,7 +45,7 @@ public class BitMarchArrayTest {
   @Test
   public void test8() {
     int[][] bits = {
-      { 1, 1, 1, 1, 1, 1, 1, 1 },
+      {1, 1, 1, 1, 1, 1, 1, 1},
     };
     int[][] chosenBits = BitMarchArray.BitMarch(8);
     assertNotNull(chosenBits);
