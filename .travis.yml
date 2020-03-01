@@ -1,12 +1,6 @@
 dist: bionic
 language: java
 
-addons:
-  sonarcloud:
-    organization: $TRAVIS_REPO_OWNER
-    token:
-      secure: $SONAR_TOKEN
-
 git:
   depth: false
 
@@ -15,7 +9,7 @@ jdk: openjdk11
 install: skip
 
 script:
-  - ./gradlew -Pversion=$VERSION test jacocoTestReport sonarqube --parallel --build-cache --scan --no-daemon
+  - ./gradlew -Pversion=$VERSION test jacocoTestReport sonarqube --parallel --build-cache --scan --no-daemon -Dsonar.host.url=$SONAR_HOST -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=$REPO_OWNER -Dsonar.projectKey=$REPO_NAME
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
