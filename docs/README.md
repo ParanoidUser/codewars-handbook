@@ -114,19 +114,18 @@ If you find the repo helpful, **please give it a thank with** <span title="↑�
 
 ## Contribute
 
-Any contribution is highly appreciated you are very welcome to open issues or send pull requests.
+Your contribution is highly appreciated here. Feel free to open issues or send pull requests. If you have any questions or comments [the Gitter chat](https://gitter.im/paranoiduser/codewars-solutions) is open for discussion.  
 
-> *"This solution doesn't solve my kata problem!"* 😤
+> *"This solution no longer solves the kata!"* 😤
 >> Please open an issue or create a pull request with a working copy.
 
 > *"This solution has a bug!"* 😱
 >> Please open an issue or create a pull request with a fixed version.
 
-> *"This solution is outdated and I know a better one!"* 🤔
->> Please open an issue or create a pull request and share it.
+> *"This solution is retrograde and can be solved by a one-liner!"* 🤔
+>> You know what to do, right? 😉 Open an issue or create a pull request with an update!
 
-> *"I didn't find a solution to my kata!"* 🙄
->> You know what to do, right? 😉 Please open an issue and I'll prioritize it.
+NOTE: Please **DO NOT** send your kata solutions here!
 
 ## License
 
