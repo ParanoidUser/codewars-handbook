@@ -9,7 +9,7 @@ jdk: openjdk11
 install: skip
 
 script:
-  - ./gradlew -Pversion=$VERSION test jacocoTestReport sonarqube --parallel --build-cache --scan --no-daemon -Dsonar.host.url=$SONAR_HOST -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=$REPO_OWNER -Dsonar.projectKey=$REPO_NAME
+  - ./gradlew -Pversion=$VERSION check $SONAR_OPTS sonarqube --parallel --build-cache --scan
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
