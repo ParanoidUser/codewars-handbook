@@ -112,9 +112,19 @@ If you find the repo helpful, **please give it a thank with** <span title="↑�
    </tbody>
 </table>
 
+## Disclaimer
+
+Keep in mind, using materials of this repository to gain rank, you violate [the policies of Codewars](https://github.com/Codewars/codewars.com/wiki/Community-Code-of-Conduct#policy), which state:
+> If you are caught cheating on a challenge, you will initially have your solution marked as a cheat and will not receive any honor or rank. This includes clever solutions that are clearly created for the spirit of cheating. Repeat offenders who have intentionally cheated will be banned.
+
+The author assumes no responsibility or liability for any errors or omissions in the content of the repository materials. The information contained in this repository is provided on an "as is" basis with no guarantees of completeness, accuracy, usefulness or timeliness.
+
+The author reserves the right to change any and all items used or contained in the repository at any time without notice.
+
 ## Contribute
 
-Your contribution is highly appreciated here. Feel free to open issues or send pull requests. If you have any questions or comments [the Gitter chat](https://gitter.im/paranoiduser/codewars-solutions) is open for discussion.  
+Your contribution is highly appreciated here. Feel free to open issues or send pull requests.  
+If you have any questions or comments [the Gitter chat](https://gitter.im/paranoiduser/codewars-solutions) is open for discussion.  
 
 > *"This solution no longer solves the kata!"* 😤
 >> Please open an issue or create a pull request with a working copy.
@@ -125,7 +135,7 @@ Your contribution is highly appreciated here. Feel free to open issues or send p
 > *"This solution is retrograde and can be solved by a one-liner!"* 🤔
 >> You know what to do, right? 😉 Open an issue or create a pull request with an update!
 
-NOTE: Please **DO NOT** send your kata solutions here!
+NOTE: Please **DO NOT** send solutions for missing kata problems!
 
 ## License
 
