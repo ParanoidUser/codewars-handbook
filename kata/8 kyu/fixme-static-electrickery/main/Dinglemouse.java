@@ -1,6 +1,5 @@
 class Dinglemouse {
-
-  private static int ONE_HUNDRED = 100;
+  private static final int ONE_HUNDRED = 100;
   public static final Dinglemouse INST = new Dinglemouse();
 
   private final int value;
