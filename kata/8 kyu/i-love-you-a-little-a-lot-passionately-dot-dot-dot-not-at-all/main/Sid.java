@@ -1,7 +1,7 @@
-import java.util.List;
+import static java.util.List.of;
 
 class Sid {
-  static String howMuchILoveYou(int nb_petals) {
-    return List.of("not at all", "I love you", "a little", "a lot", "passionately", "madly").get(nb_petals % 6);
+  static String howMuchILoveYou(int nbPetals) {
+    return of("not at all", "I love you", "a little", "a lot", "passionately", "madly").get(nbPetals % 6);
   }
 }
