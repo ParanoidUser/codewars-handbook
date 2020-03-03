@@ -10,12 +10,11 @@ public class SolutionTest {
   public void sampleTests() {
     int counter = 20;
     AtomicInteger executionCounter = new AtomicInteger();
-    Runnable action =
-        () -> {
+    Runnable action = () -> {
           executionCounter.incrementAndGet();
           try {
             TimeUnit.MICROSECONDS.sleep(100);
-          } catch (InterruptedException ex) {
+          } catch (InterruptedException ignored) {
           }
         };
     Worker.execute(action, counter);
