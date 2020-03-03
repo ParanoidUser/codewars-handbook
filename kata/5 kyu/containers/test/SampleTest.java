@@ -5,7 +5,7 @@ import org.junit.Test;
 public class SampleTest {
   @Test
   public void basicTests() {
-    assertEquals(Kata.containers("A"), 1);
-    assertEquals(Kata.containers("CBACBACBACBACBA"), 3);
+    assertEquals(1, Kata.containers("A"));
+    assertEquals(3, Kata.containers("CBACBACBACBACBA"));
   }
 }
