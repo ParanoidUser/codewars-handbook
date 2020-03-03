@@ -5,7 +5,7 @@ import org.junit.Test;
 public class BoolTest {
   @Test
   public void testBoolToWord() {
-    assertEquals(YesOrNo.boolToWord(true), "Yes");
-    assertEquals(YesOrNo.boolToWord(false), "No");
+    assertEquals("Yes", YesOrNo.boolToWord(true));
+    assertEquals("No", YesOrNo.boolToWord(false));
   }
 }
