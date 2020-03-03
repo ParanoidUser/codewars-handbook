@@ -77,6 +77,7 @@
 - [Duplicate Encoder](duplicate-encoder)
 # E
 - [Ease the StockBroker](ease-the-stockbroker)
+- [Easy Balance Checking](easy-balance-checking)
 - [Easy Diagonal](easy-diagonal)
 - [Encrypt this!](encrypt-this)
 - [English beggars](english-beggars)
