@@ -1,12 +1,21 @@
+import java.util.Arrays;
+
 class Kata {
-  static int[] checkIsContained(int[][] mat1, int mat2[][]) {
-    for (int y = 0; y < mat1.length - 2; y++) {
-      ROW:
-      for (int x = 0; x < mat1[0].length - 2; x++) {
-        for (int z = 0; z < 3; z++) {
-          if (mat1[y + z][x + z] != mat2[z][z]) continue ROW;
+  static int[] checkIsContained(int[][] mat1, int[][] mat2) {
+    int cnt = 0;
+    for (int i = 0; i < mat1.length - 2; i++) {
+      for (int j = 0; j < mat1[i].length - 2; j++) {
+        for (int k = 0; k < 3; k++) {
+          if (Arrays.equals(Arrays.copyOfRange(mat1[i + k], j, j + 3), mat2[k])) {
+            cnt++;
+          } else {
+            cnt = 0;
+            break;
+          }
+          if (cnt == 3) {
+            return new int[] {i, j};
+          }
         }
-        return new int[] {y, x};
       }
     }
     return new int[] {-1, -1};
