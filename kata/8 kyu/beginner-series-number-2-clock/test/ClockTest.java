@@ -5,6 +5,6 @@ import org.junit.Test;
 public class ClockTest {
   @Test
   public void test1() {
-    assertEquals(Clock.Past(0, 1, 1), 61000);
+    assertEquals(61000, Clock.Past(0, 1, 1));
   }
 }
