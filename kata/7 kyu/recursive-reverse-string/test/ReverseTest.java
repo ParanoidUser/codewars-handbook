@@ -27,7 +27,7 @@ public class ReverseTest {
   @Test
   public void should_test_predefined() {
     runner.reverse("hello world");
-    Assert.assertEquals(runner.count, 11);
+    Assert.assertEquals(11, runner.count);
   }
 
   @Test
