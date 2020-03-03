@@ -1,5 +1,6 @@
 import static org.junit.Assert.assertEquals;
 
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import org.junit.Test;
@@ -13,7 +14,7 @@ public class SolutionTest {
         () -> {
           executionCounter.incrementAndGet();
           try {
-            Thread.sleep(100);
+            TimeUnit.MICROSECONDS.sleep(100);
           } catch (InterruptedException ex) {
           }
         };
