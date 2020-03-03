@@ -1,8 +1,28 @@
 rootProject.name = "codewars-solutions"
 
-val ignore = setOf("build", "8 kyu", "7 kyu", "6 kyu", "5 kyu", "4 kyu", "3 kyu", "2 kyu", "1 kyu", "kata")
-File("kata").walk().maxDepth(2)
-        .filter { it.isDirectory && !ignore.contains(it.name) }
+File(rootDir, "kata").walk().maxDepth(2)
+        .filter {
+            logger.debug("$it")
+            var isSubProject = false
+            if (it.isDirectory) {
+                val srcDir = File(it, "main")
+                isSubProject = srcDir.isDirectory && !srcDir.listFiles().isNullOrEmpty()
+                if (srcDir.isDirectory && srcDir.listFiles().isNullOrEmpty()) {
+                    logger.warn("$srcDir no source files found")
+                }
+
+                val testDir = File(it, "test")
+                if (isSubProject && testDir.listFiles().isNullOrEmpty()) {
+                    logger.warn("$testDir no test files found")
+                }
+
+                val readme = File(it, "README.md")
+                if (isSubProject && !readme.isFile) {
+                    logger.warn("$readme not found")
+                }
+            }
+            isSubProject
+        }
         .forEach {
             include(it.name)
             project(":${it.name}").projectDir = it
