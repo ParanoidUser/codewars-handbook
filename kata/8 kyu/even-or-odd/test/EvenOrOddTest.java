@@ -5,7 +5,7 @@ import org.junit.Test;
 public class EvenOrOddTest {
   @Test
   public void testEvenOrOdd() {
-    assertEquals(EvenOrOdd.even_or_odd(6), "Even");
-    assertEquals(EvenOrOdd.even_or_odd(7), "Odd");
+    assertEquals("Even", EvenOrOdd.even_or_odd(6));
+    assertEquals("Odd", EvenOrOdd.even_or_odd(7));
   }
 }
