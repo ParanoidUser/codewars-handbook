@@ -1,7 +1,5 @@
 import static java.util.stream.IntStream.range;
 
-import java.util.stream.IntStream;
-
 class Thirteen {
   static int[] arr = new int[] {1, 10, 9, 12, 3, 4};
 
