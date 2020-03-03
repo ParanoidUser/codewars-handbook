@@ -103,6 +103,7 @@
 - [Highest Scoring Word](highest-scoring-word)
 - [How Much?](how-much)
 # I
+- [Integer depth](integer-depth)
 - [IntroToArt](introtoart)
 - [Is a number prime?](is-a-number-prime)
 # L
