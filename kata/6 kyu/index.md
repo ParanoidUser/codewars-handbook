@@ -172,6 +172,7 @@
 - [Tortoise racing](tortoise-racing)
 - [Traffic Lights - one car](traffic-lights-one-car)
 - [Transform To Prime](transform-to-prime)
+- [Triangle number check](triangle-number-check)
 - [Tribonacci Sequence](tribonacci-sequence)
 - [Triple trouble](triple-trouble-1)
 - [Two Sum](two-sum)
