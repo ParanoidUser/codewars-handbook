@@ -4,8 +4,8 @@ import org.junit.Test;
 
 public class BanjoExampleTest {
   @Test
-  public void PeopleThatPlayBanjo() {
-    assertEquals("Nope!", Banjo.areYouPlayingBanjo("Martin"), "Martin does not play banjo");
-    assertEquals("Nope!", Banjo.areYouPlayingBanjo("Rikke"), "Rikke plays banjo");
+  public void peopleThatPlayBanjo() {
+    assertEquals("Martin does not play banjo", Banjo.areYouPlayingBanjo("Martin"));
+    assertEquals("Rikke plays banjo", Banjo.areYouPlayingBanjo("Rikke"));
   }
 }
