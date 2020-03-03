@@ -1,5 +1,5 @@
 class Geometry {
-  static double squareArea(double A) {
-    return Math.round(Math.pow(.636619 * A, 2) * 100) / 100.;
+  static double squareArea(double a) {
+    return Math.round(Math.pow(.636619 * a, 2) * 100) / 100.;
   }
 }
