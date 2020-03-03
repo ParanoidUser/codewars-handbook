@@ -1,5 +1,5 @@
 class MyFirstInterpreter {
-  private String ascii = "";
+  private final StringBuilder ascii = new StringBuilder();
 
   MyFirstInterpreter(String code) {
     code = code.replaceAll("[^+.]", "");
@@ -7,12 +7,12 @@ class MyFirstInterpreter {
       if (code.charAt(i) == '+') {
         sum = ++sum % 256;
       } else {
-        ascii += (char) sum;
+        ascii.append((char) sum);
       }
     }
   }
 
   String interpret() {
-    return ascii;
+    return ascii.toString();
   }
 }
