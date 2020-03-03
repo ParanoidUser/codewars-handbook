@@ -20,6 +20,12 @@ File(rootDir, "kata").walk().maxDepth(2)
                 if (isSubProject && !readme.isFile) {
                     logger.warn("$readme not found")
                 }
+
+                val groupedByDifficulty = 3
+                val depth = it.toPath().nameCount - rootDir.toPath().nameCount
+                if (isSubProject && depth != groupedByDifficulty) {
+                    logger.warn("$it invalid directory depth. Expected: $groupedByDifficulty, Actual: $depth")
+                }
             }
             isSubProject
         }
