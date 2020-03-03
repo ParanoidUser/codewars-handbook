@@ -1,8 +1,8 @@
-import java.util.Stack;
+import java.util.LinkedList;
 
 class Calc {
   static double evaluate(String expr) {
-    var stack = new Stack<Double>();
+    var stack = new LinkedList<Double>();
     for (var token : expr.split(" ")) {
       switch (token) {
         case "+": stack.push(stack.pop() + stack.pop()); break;
