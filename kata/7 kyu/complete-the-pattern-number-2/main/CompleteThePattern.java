@@ -1,9 +1,9 @@
 class CompleteThePattern {
   static String pattern(int n) {
-    String row = "", pattern = "";
+    StringBuilder row = new StringBuilder(), pattern = new StringBuilder();
     while (n > 0) {
-      pattern = (row += n--) + (pattern.isEmpty() ? "" : "\n") + pattern;
+      pattern.insert(0, row.append(n--)).insert(0, n > 0 ? "\n" : "");
     }
-    return pattern;
+    return pattern.toString();
   }
 }
