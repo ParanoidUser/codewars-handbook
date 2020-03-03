@@ -1,48 +1,43 @@
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
 public class ExampleTests {
   @Test
-  public void HashTest1() {
-    Null n = new Null();
-    assertEquals(n.hashCode(), 0);
+  public void hashTest1() {
+    assertEquals(0, new Null().hashCode());
   }
 
   @Test
-  public void HashTest2() {
-    Null n = new Null();
-    assertEquals(n.hashCode(), new Null().hashCode());
+  public void hashTest2() {
+    assertEquals(new Null().hashCode(), new Null().hashCode());
   }
 
   @Test
-  public void Test1() {
-    Null n = new Null();
-    assertEquals(n, null);
+  public void test1() {
+    assertTrue(new Null().equals(null));
   }
 
   @Test
-  public void Test2() {
+  public void test2() {
     Null n = new Null();
     assertEquals(n, n);
   }
 
   @Test
-  public void Test3() {
-    Null n = new Null();
-    assertEquals(n, new Null());
+  public void test3() {
+    assertEquals(new Null(), new Null());
   }
 
   @Test
-  public void Test4() {
-    Null n = new Null();
-    assertNotEquals(n, new Object());
+  public void test4() {
+    assertNotEquals(new Object(), new Null());
   }
 
   @Test
-  public void Test5() {
-    Null n = new Null();
-    assertEquals(n.toString(), "null");
+  public void test5() {
+    assertEquals("null", new Null().toString());
   }
 }
