@@ -1,10 +1,12 @@
 import java.util.Locale;
 import java.util.Objects;
 
-public class RGB {
-  public int r, g, b;
+class RGB {
+  final int r;
+  final int g;
+  final int b;
 
-  public RGB(int r, int g, int b) {
+  RGB(int r, int g, int b) {
     this.r = r;
     this.g = g;
     this.b = b;
