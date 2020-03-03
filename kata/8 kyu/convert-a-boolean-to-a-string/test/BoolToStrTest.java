@@ -5,11 +5,11 @@ import org.junit.Test;
 public class BoolToStrTest {
   @Test
   public void testTrue() {
-    assertEquals(BooleanToString.convert(true), "true");
+    assertEquals("true", BooleanToString.convert(true));
   }
 
   @Test
   public void testFalse() {
-    assertEquals(BooleanToString.convert(false), "false");
+    assertEquals("false", BooleanToString.convert(false));
   }
 }
