@@ -5,8 +5,8 @@ import org.junit.Test;
 public class SolutionTest {
   @Test
   public void testBasic() {
-    assertEquals(Ascii.getWeight("Joe"), 254);
-    assertEquals(Ascii.getWeight("CJ"), 205);
-    assertEquals(Ascii.getWeight("cj"), 141);
+    assertEquals(254, Ascii.getWeight("Joe"));
+    assertEquals(205, Ascii.getWeight("CJ"));
+    assertEquals(141, Ascii.getWeight("cj"));
   }
 }
