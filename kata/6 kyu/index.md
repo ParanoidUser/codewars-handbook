@@ -133,6 +133,7 @@
 - [Playing on a chessboard](playing-on-a-chessboard)
 - [Playing with digits](playing-with-digits)
 - [Playing with passphrases](playing-with-passphrases)
+- [Points in the circle](points-in-the-circle)
 - [Positions Average](positions-average)
 - [Primorial Of a Number](primorial-of-a-number)
 - [Prize Draw](prize-draw)
