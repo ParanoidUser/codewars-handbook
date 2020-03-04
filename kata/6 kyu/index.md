@@ -62,6 +62,7 @@
 - [Clocky Mc Clock-Face](clocky-mc-clock-face)
 - [Coffee machine](coffee-machine)
 - [Collatz](collatz)
+- [Color Choice](color-choice)
 - [Consecutive strings](consecutive-strings)
 - [Convert string to camel case](convert-string-to-camel-case)
 - [Count the smiley faces!](count-the-smiley-faces)
