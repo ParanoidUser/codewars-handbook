@@ -3,8 +3,8 @@ class Hist {
       var report = new StringBuilder();
       for (String error : new String[] {"u", "w", "x", "z"}) {
         if (s.contains(error)) {
-          int cnt = s.length() - s.replace(error, "").length();
-          report.append(String.format("%s  %d%s%s\r", error, cnt, " ".repeat(6 - (cnt + "").length()), "*".repeat(cnt)));
+          int count = s.replaceAll("[^" + error + "]", "").length();
+          report.append(String.format("%s  %d%s%s\r", error, count, " ".repeat(6 - (count + "").length()), "*".repeat(count)));
         }
       }
       return report.toString().trim();
