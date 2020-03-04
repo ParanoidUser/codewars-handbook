@@ -107,6 +107,7 @@
 # I
 - [Integer depth](integer-depth)
 - [IntroToArt](introtoart)
+- [Irreducible Sum of Rationals](irreducible-sum-of-rationals)
 - [Is a number prime?](is-a-number-prime)
 # L
 - [Length of missing array](length-of-missing-array)
