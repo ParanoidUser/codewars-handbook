@@ -155,6 +155,7 @@
 - [Row of the odd triangle](row-of-the-odd-triangle)
 # S
 - [Salesman's Travel](salesmans-travel)
+- [Separate The Wheat From The Chaff](separate-the-wheat-from-the-chaff)
 - [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
 - [Simple string indices](simple-string-indices)
 - [Sort the odd](sort-the-odd)
