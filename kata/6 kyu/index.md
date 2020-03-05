@@ -71,6 +71,7 @@
 # D
 - [Dashatize it](dashatize-it)
 - [Data Reverse](data-reverse)
+- [Dead Ants](dead-ants)
 - [Decode the Morse code](decode-the-morse-code)
 - [Delete occurrences of an element if it occurs more than n times](delete-occurrences-of-an-element-if-it-occurs-more-than-n-times)
 - [Detect Pangram](detect-pangram)
@@ -96,6 +97,7 @@
 - [Find the odd int](find-the-odd-int)
 - [Find The Parity Outlier](find-the-parity-outlier)
 - [Find the unique number](find-the-unique-number-1)
+- [FIXME: Hello](fixme-hello)
 - [Fold an array](fold-an-array)
 - [Fruit Machine](fruit-machine)
 - [Fun with trees: max sum](fun-with-trees-max-sum)
@@ -153,6 +155,7 @@
 - [Row of the odd triangle](row-of-the-odd-triangle)
 # S
 - [Salesman's Travel](salesmans-travel)
+- [Separate The Wheat From The Chaff](separate-the-wheat-from-the-chaff)
 - [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
 - [Simple string indices](simple-string-indices)
 - [Sort the odd](sort-the-odd)
@@ -187,7 +190,9 @@
 - [Two Sum](two-sum)
 # U
 - [Unique Substring From Joined Strings](unique-substring-from-joined-strings)
+- [Unwanted dollars](unwanted-dollars)
 - [Up AND down](up-and-down)
+- [Upside down numbers](upside-down-numbers)
 # V
 - [Valid Braces](valid-braces)
 - [Valid Phone Number](valid-phone-number)
