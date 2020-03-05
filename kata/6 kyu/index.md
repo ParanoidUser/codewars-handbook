@@ -71,6 +71,7 @@
 # D
 - [Dashatize it](dashatize-it)
 - [Data Reverse](data-reverse)
+- [Dead Ants](dead-ants)
 - [Decode the Morse code](decode-the-morse-code)
 - [Delete occurrences of an element if it occurs more than n times](delete-occurrences-of-an-element-if-it-occurs-more-than-n-times)
 - [Detect Pangram](detect-pangram)
