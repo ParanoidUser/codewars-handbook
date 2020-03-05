@@ -189,6 +189,7 @@
 - [Two Sum](two-sum)
 # U
 - [Unique Substring From Joined Strings](unique-substring-from-joined-strings)
+- [Unwanted dollars](unwanted-dollars)
 - [Up AND down](up-and-down)
 - [Upside down numbers](upside-down-numbers)
 # V
