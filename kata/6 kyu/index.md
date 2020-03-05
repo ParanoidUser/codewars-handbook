@@ -189,6 +189,7 @@
 # U
 - [Unique Substring From Joined Strings](unique-substring-from-joined-strings)
 - [Up AND down](up-and-down)
+- [Upside down numbers](upside-down-numbers)
 # V
 - [Valid Braces](valid-braces)
 - [Valid Phone Number](valid-phone-number)
