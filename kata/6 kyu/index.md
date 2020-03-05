@@ -96,6 +96,7 @@
 - [Find the odd int](find-the-odd-int)
 - [Find The Parity Outlier](find-the-parity-outlier)
 - [Find the unique number](find-the-unique-number-1)
+- [FIXME: Hello](fixme-hello)
 - [Fold an array](fold-an-array)
 - [Fruit Machine](fruit-machine)
 - [Fun with trees: max sum](fun-with-trees-max-sum)
