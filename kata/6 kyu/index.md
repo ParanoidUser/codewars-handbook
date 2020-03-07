@@ -64,6 +64,7 @@
 - [Collatz](collatz)
 - [Color Choice](color-choice)
 - [Consecutive strings](consecutive-strings)
+- [Consonant value](consonant-value)
 - [Convert string to camel case](convert-string-to-camel-case)
 - [Count the smiley faces!](count-the-smiley-faces)
 - [Counting Duplicates](counting-duplicates)
