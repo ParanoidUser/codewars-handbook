@@ -158,6 +158,7 @@
 - [Separate The Wheat From The Chaff](separate-the-wheat-from-the-chaff)
 - [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
 - [Simple string indices](simple-string-indices)
+- [Sort array by sorting its smallest sub-array](sort-array-by-sorting-its-smallest-sub-array)
 - [Sort the odd](sort-the-odd)
 - [Sorting on planet Twisted-3-7](sorting-on-planet-twisted-3-7)
 - [Srot the inner ctonnet in dsnnieedcg oredr](srot-the-inner-ctonnet-in-dsnnieedcg-oredr)
