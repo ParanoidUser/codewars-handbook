@@ -171,6 +171,7 @@
 # T
 - [The Feast of Many Beasts](the-feast-of-many-beasts)
 - [Thinkful - Logic Drills: Traffic light](thinkful-logic-drills-traffic-light)
+- [Thinkful - Number Drills: Blue and red marbles](thinkful-number-drills-blue-and-red-marbles)
 - [Thinkful - Number Drills: Pixelart planning](thinkful-number-drills-pixelart-planning)
 - [Third Angle of a Triangle](third-angle-of-a-triangle)
 - [Tip Calculator](tip-calculator)
