@@ -177,6 +177,7 @@
 - [Take a Ten Minute Walk](take-a-ten-minute-walk)
 - [Tank Truck](tank-truck)
 - [Texting with an old-school mobile phone](texting-with-an-old-school-mobile-phone)
+- [The BIG Pronic challenge](the-big-pronic-challenge)
 - [The Deaf Rats of Hamelin](the-deaf-rats-of-hamelin)
 - [The difference between 11 and 21 in Ping-Pong](the-difference-between-11-and-21-in-ping-pong)
 - [The Enigma Machine - Part 1: The Plugboard](the-enigma-machine-part-1-the-plugboard)
