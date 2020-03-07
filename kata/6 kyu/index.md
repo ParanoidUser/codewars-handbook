@@ -186,6 +186,7 @@
 - [Transform To Prime](transform-to-prime)
 - [Triangle number check](triangle-number-check)
 - [Tribonacci Sequence](tribonacci-sequence)
+- [Triple Sorting - Sort & Stringify a list by 3 attributes](triple-sorting-sort-and-stringify-a-list-by-3-attributes)
 - [Triple trouble](triple-trouble-1)
 - [Two Sum](two-sum)
 # U
