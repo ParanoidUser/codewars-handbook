@@ -186,6 +186,7 @@
 - [The Deaf Rats of Hamelin (2D)](the-deaf-rats-of-hamelin-2d)
 - [The difference between 11 and 21 in Ping-Pong](the-difference-between-11-and-21-in-ping-pong)
 - [The Enigma Machine - Part 1: The Plugboard](the-enigma-machine-part-1-the-plugboard)
+- [The Spider and the Fly (Jumping Spider)](the-spider-and-the-fly-jumping-spider)
 - [The Supermarket Queue](the-supermarket-queue)
 - [The Walker](the-walker)
 - [Tortoise racing](tortoise-racing)
