@@ -163,6 +163,7 @@
 - [Sort array by sorting its smallest sub-array](sort-array-by-sorting-its-smallest-sub-array)
 - [Sort the odd](sort-the-odd)
 - [Sorting on planet Twisted-3-7](sorting-on-planet-twisted-3-7)
+- [Split and then add both sides of an array together.](split-and-then-add-both-sides-of-an-array-together)
 - [Srot the inner ctonnet in dsnnieedcg oredr](srot-the-inner-ctonnet-in-dsnnieedcg-oredr)
 - [Statistics for an Athletic Association](statistics-for-an-athletic-association)
 - [Steps in Primes](steps-in-primes)
