@@ -130,6 +130,7 @@
 - [Multi-tap Keypad Text Entry on an Old Mobile Phone](multi-tap-keypad-text-entry-on-an-old-mobile-phone)
 - [Multiples of 3 or 5](multiples-of-3-or-5)
 # N
+- [Number Zoo Patrol](number-zoo-patrol)
 - [Numericals of a String](numericals-of-a-string)
 # P
 - [Parabolic Arc Length](parabolic-arc-length)
