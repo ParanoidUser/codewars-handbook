@@ -157,6 +157,7 @@
 # S
 - [Salesman's Travel](salesmans-travel)
 - [Separate The Wheat From The Chaff](separate-the-wheat-from-the-chaff)
+- [Sequences and Series](sequences-and-series)
 - [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
 - [Simple string indices](simple-string-indices)
 - [Simple transposition](simple-transposition)
