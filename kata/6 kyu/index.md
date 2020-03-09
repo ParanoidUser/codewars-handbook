@@ -151,6 +151,7 @@
 - [Prize Draw](prize-draw)
 # R
 - [Rainfall](rainfall)
+- [Reach Me and Sum my Digits](reach-me-and-sum-my-digits)
 - [Rectangle into Squares](rectangle-into-squares)
 - [Reducing by steps](reducing-by-steps)
 - [Reverse or rotate?](reverse-or-rotate)
