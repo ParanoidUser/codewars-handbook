@@ -102,6 +102,7 @@
 - [FIXME: Hello](fixme-hello)
 - [Fold an array](fold-an-array)
 - [Format words into a sentence](format-words-into-a-sentence)
+- [Frog jumping](frog-jumping)
 - [Fruit Machine](fruit-machine)
 - [Fun with trees: max sum](fun-with-trees-max-sum)
 - [Function iteration](function-iteration)
