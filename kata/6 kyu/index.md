@@ -156,6 +156,7 @@
 - [Reversing a Process](reversing-a-process)
 - [RoboScript #1 - Implement Syntax Highlighting](roboscript-number-1-implement-syntax-highlighting)
 - [Roman Numerals Encoder](roman-numerals-encoder)
+- [Rotate Array](rotate-array)
 - [Row of the odd triangle](row-of-the-odd-triangle)
 # S
 - [Salesman's Travel](salesmans-travel)
