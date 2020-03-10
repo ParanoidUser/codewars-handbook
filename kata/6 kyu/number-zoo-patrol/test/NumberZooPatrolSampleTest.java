@@ -37,13 +37,7 @@ public class NumberZooPatrolSampleTest {
   @Test
   public void testPerformanceIsLinear() {
     int million = 1000000, missing = current().nextInt(million);
-    int[] numbers = rangeClosed(1, million).filter(i -> i != missing).toArray();
-
-    for (int i = 0; i < 249_999; i++) {
-      int temp = numbers[i * 2];
-      numbers[i * 2] = numbers[999_997 - i * 2];
-      numbers[999_997 - i * 2] = temp;
-    }
+    int[] numbers = rangeClosed(1, million).parallel().filter(i -> i != missing).toArray();
 
     for (int i = 0; i < 100; i++) {
       assertEquals(missing, NumberZooPatrol.findMissingNumber(numbers));
