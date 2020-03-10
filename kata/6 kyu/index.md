@@ -109,6 +109,7 @@
 - [Function iteration](function-iteration)
 # G
 - [Give me a Diamond](give-me-a-diamond)
+- [Guess the number!](guess-the-number-1)
 # H
 - [Help the bookseller!](help-the-bookseller)
 - [Hidden "Cubic" numbers](hidden-cubic-numbers)
