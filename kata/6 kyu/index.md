@@ -141,6 +141,7 @@
 - [Parabolic Arc Length](parabolic-arc-length)
 - [Parse HTML/CSS Colors](parse-html-slash-css-colors)
 - [Pascal's Triangle #2](pascals-triangle-number-2)
+- [Pentabonacci](pentabonacci)
 - [Persistent Bugger](persistent-bugger)
 - [PI approximation](pi-approximation)
 - [Piano Kata, Part 1](piano-kata-part-1)
