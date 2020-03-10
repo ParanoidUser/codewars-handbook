@@ -222,6 +222,7 @@
 - [Valid Phone Number](valid-phone-number)
 - [Validate Credit Card Number](validate-credit-card-number)
 - [Vasya - Clerk](vasya-clerk)
+- [Vasya and Stairs](vasya-and-stairs)
 # W
 - [What's in a name?](whats-in-a-name)
 - [Where is my parent!?(cry)](where-is-my-parent-cry)
