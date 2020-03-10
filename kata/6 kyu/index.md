@@ -152,6 +152,8 @@
 - [Positions Average](positions-average)
 - [Primorial Of a Number](primorial-of-a-number)
 - [Prize Draw](prize-draw)
+# Q
+- [Quick (n choose k) calculator](quick-n-choose-k-calculator)
 # R
 - [Rainfall](rainfall)
 - [Reach Me and Sum my Digits](reach-me-and-sum-my-digits)
