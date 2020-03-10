@@ -129,6 +129,7 @@
 - [Matrix Addition](matrix-addition)
 - [Meeting](meeting)
 - [Mexican Wave](mexican-wave)
+- [Moduli number system](moduli-number-system)
 - [Moves in squared strings (II)](moves-in-squared-strings-ii)
 - [Moves in squared strings (III)](moves-in-squared-strings-iii)
 - [Multi-tap Keypad Text Entry on an Old Mobile Phone](multi-tap-keypad-text-entry-on-an-old-mobile-phone)
