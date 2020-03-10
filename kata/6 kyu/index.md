@@ -176,6 +176,7 @@
 - [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
 - [Simple string indices](simple-string-indices)
 - [Simple transposition](simple-transposition)
+- [Simpson's Rule - Approximate Integration](simpsons-rule-approximate-integration)
 - [Single Word Pig Latin](single-word-pig-latin)
 - [Sort array by sorting its smallest sub-array](sort-array-by-sorting-its-smallest-sub-array)
 - [Sort the odd](sort-the-odd)
