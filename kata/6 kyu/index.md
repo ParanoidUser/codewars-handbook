@@ -152,6 +152,7 @@
 - [Playing with passphrases](playing-with-passphrases)
 - [Points in the circle](points-in-the-circle)
 - [Positions Average](positions-average)
+- [Prime factorization](prime-factorization)
 - [Primorial Of a Number](primorial-of-a-number)
 - [Prize Draw](prize-draw)
 # Q
