@@ -122,6 +122,7 @@
 - [Length of missing array](length-of-missing-array)
 - [Longest alphabetical substring](longest-alphabetical-substring)
 - [Longest_palindrome](longest-palindrome)
+- [Lucas numbers](lucas-numbers)
 # M
 - [Make the Deadfish swim](make-the-deadfish-swim)
 - [Matrix Addition](matrix-addition)
