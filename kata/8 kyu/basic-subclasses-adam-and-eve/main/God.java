@@ -4,8 +4,8 @@ class God {
   }
 }
 
-class Human {}
+interface Human {}
 
-class Man extends Human {}
+class Man implements Human {}
 
-class Woman extends Human {}
+class Woman implements Human {}
