@@ -105,6 +105,7 @@
 - [Format words into a sentence](format-words-into-a-sentence)
 - [Frog jumping](frog-jumping)
 - [Fruit Machine](fruit-machine)
+- [Fun with lists: map](fun-with-lists-map)
 - [Fun with trees: max sum](fun-with-trees-max-sum)
 - [Function iteration](function-iteration)
 # G
