@@ -62,4 +62,20 @@ subprojects {
             dependsOn(jacocoTestReport)
         }
     }
+
+    sonarqube {
+        properties {
+            property("sonar.issue.ignore.multicriteria", "j1,j2,j3,j4,j5")
+            // Code Smell [major]: "for" loop stop conditions should be invariant
+            property("sonar.issue.ignore.multicriteria.j1.ruleKey", "java:S127")
+            // Code Smell [major]: Utility classes should not have public constructors
+            property("sonar.issue.ignore.multicriteria.j2.ruleKey", "java:S1118")
+            // Code Smell [minor]: The default unnamed package should not be used
+            property("sonar.issue.ignore.multicriteria.j3.ruleKey", "java:S1220")
+            // Code Smell [minor]: Multiple variables should not be declared on the same line
+            property("sonar.issue.ignore.multicriteria.j4.ruleKey", "java:S1659")
+            // Code Smell [major]: Ternary operators should not be nested
+            property("sonar.issue.ignore.multicriteria.j5.ruleKey", "java:S3358")
+        }
+    }
 }
