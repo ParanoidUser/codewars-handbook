@@ -1,26 +1,19 @@
-import java.util.ArrayList;
-
 class Encoder {
   static String compress(int[] raw) {
-    var encoded = new ArrayList<String>();
-    for (int i = 0; i < raw.length; ++i) {
-      int j = i;
-      if (i == raw.length - 1) {
-        encoded.add("" + raw[i]);
-      } else {
-        int diff = raw[j + 1] - raw[j];
-        while (j < raw.length - 1 && raw[j + 1] == raw[j] + diff) ++j;
-        if (diff == 0) {
-          encoded.add(raw[i] + "*" + (j - i + 1));
-          i = j;
-        } else if (j - i > 1) {
-          encoded.add(raw[i] + "-" + raw[j] + (Math.abs(diff) == 1 ? "" : ("/" + Math.abs(diff))));
-          i = j;
-        } else {
-          encoded.add(raw[i] + "");
-        }
+    var encoded = new StringBuilder();
+    for (int i = 0; i < raw.length; i++) {
+      int j = 1, diff = i < raw.length - 1 ? raw[i + 1] - raw[i] : 1;
+      while (j + i < raw.length && raw[j + i] == raw[i] + j * diff) j++;
+
+      encoded.append(',').append(raw[i]);
+      if (diff == 0) {
+        i += j - 1;
+        encoded.append('*').append(j);
+      } else if (j > 2) {
+        i += j - 1;
+        encoded.append('-').append(raw[i]).append(Math.abs(diff) != 1 ? "/" + Math.abs(diff) : "");
       }
     }
-    return String.join(",", encoded);
+    return encoded.substring(1);
   }
 }
