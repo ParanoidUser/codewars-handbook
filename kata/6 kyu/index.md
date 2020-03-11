@@ -163,6 +163,7 @@
 - [Reach Me and Sum my Digits](reach-me-and-sum-my-digits)
 - [Rectangle into Squares](rectangle-into-squares)
 - [Reducing by steps](reducing-by-steps)
+- [Return 1, 2, 3 randomly](return-1-2-3-randomly)
 - [Reverse or rotate?](reverse-or-rotate)
 - [Reverse polish notation calculator](reverse-polish-notation-calculator)
 - [Reversing a Process](reversing-a-process)
