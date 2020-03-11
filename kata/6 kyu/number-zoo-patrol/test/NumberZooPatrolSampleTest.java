@@ -2,7 +2,6 @@ import static java.util.concurrent.ThreadLocalRandom.current;
 import static java.util.stream.IntStream.rangeClosed;
 import static org.junit.Assert.assertEquals;
 
-import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Rule;
@@ -10,7 +9,7 @@ import org.junit.Test;
 import org.junit.rules.Timeout;
 
 public class NumberZooPatrolSampleTest {
-  @Rule public Timeout expire = new Timeout(1, TimeUnit.SECONDS);
+  @Rule public Timeout expire = new Timeout(5, TimeUnit.SECONDS);
 
   @Test
   public void testDescriptionExamples() {
