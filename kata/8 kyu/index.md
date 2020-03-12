@@ -50,7 +50,7 @@
 - [Do I get a bonus?](do-i-get-a-bonus)
 - [Duck Duck Goose](duck-duck-goose)
 # E
-- [Easy  logs](easy-logs)
+- [Easy logs](easy-logs)
 - [Enumerable Magic #25 - Take the First N Elements](enumerable-magic-number-25-take-the-first-n-elements)
 - [Even or Odd](even-or-odd)
 - [Exclamation marks series #11: Replace all vowel to exclamation mark in the sentence](exclamation-marks-series-number-11-replace-all-vowel-to-exclamation-mark-in-the-sentence)
@@ -165,7 +165,7 @@
 - [Sum of differences in array](sum-of-differences-in-array)
 - [Sum of positive](sum-of-positive)
 - [Sum without highest and lowest number](sum-without-highest-and-lowest-number)
-- [Surface  Area and Volume of a Box](surface-area-and-volume-of-a-box)
+- [Surface Area and Volume of a Box](surface-area-and-volume-of-a-box)
 - [Swap Values](swap-values)
 - [Switch it Up!](switch-it-up)
 # T
@@ -182,7 +182,7 @@
 - [Triple Trouble](triple-trouble-2)
 - [Twice as old](twice-as-old)
 # U
-- [Unfinished Loop -  Bug Fixing #1](unfinished-loop-bug-fixing-number-1)
+- [Unfinished Loop - Bug Fixing #1](unfinished-loop-bug-fixing-number-1)
 # V
 - [Volume of a Cuboid](volume-of-a-cuboid)
 # W
