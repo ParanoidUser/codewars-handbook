@@ -237,6 +237,7 @@
 - [Which are in?](which-are-in)
 - [Who likes it?](who-likes-it)
 - [Who won the election?](who-won-the-election)
+- [Wind component calculation](wind-component-calculation)
 - [Word a10n (abbreviation)](word-a10n-abbreviation)
 - [Write Number in Expanded Form](write-number-in-expanded-form)
 # Y
