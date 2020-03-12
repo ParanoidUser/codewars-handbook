@@ -109,6 +109,7 @@
 - [Function iteration](function-iteration)
 # G
 - [Give me a Diamond](give-me-a-diamond)
+- [Guess the number!](guess-the-number-1)
 # H
 - [Help the bookseller!](help-the-bookseller)
 - [Hidden "Cubic" numbers](hidden-cubic-numbers)
@@ -141,6 +142,7 @@
 - [Parabolic Arc Length](parabolic-arc-length)
 - [Parse HTML/CSS Colors](parse-html-slash-css-colors)
 - [Pascal's Triangle #2](pascals-triangle-number-2)
+- [Pentabonacci](pentabonacci)
 - [Persistent Bugger](persistent-bugger)
 - [PI approximation](pi-approximation)
 - [Piano Kata, Part 1](piano-kata-part-1)
@@ -150,6 +152,7 @@
 - [Playing with passphrases](playing-with-passphrases)
 - [Points in the circle](points-in-the-circle)
 - [Positions Average](positions-average)
+- [Prime factorization](prime-factorization)
 - [Primorial Of a Number](primorial-of-a-number)
 - [Prize Draw](prize-draw)
 # Q
@@ -174,6 +177,7 @@
 - [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
 - [Simple string indices](simple-string-indices)
 - [Simple transposition](simple-transposition)
+- [Simpson's Rule - Approximate Integration](simpsons-rule-approximate-integration)
 - [Single Word Pig Latin](single-word-pig-latin)
 - [Sort array by sorting its smallest sub-array](sort-array-by-sorting-its-smallest-sub-array)
 - [Sort the odd](sort-the-odd)
@@ -222,6 +226,7 @@
 - [Valid Phone Number](valid-phone-number)
 - [Validate Credit Card Number](validate-credit-card-number)
 - [Vasya - Clerk](vasya-clerk)
+- [Vasya and Stairs](vasya-and-stairs)
 # W
 - [What's in a name?](whats-in-a-name)
 - [Where is my parent!?(cry)](where-is-my-parent-cry)
