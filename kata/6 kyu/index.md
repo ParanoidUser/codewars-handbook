@@ -197,6 +197,7 @@
 - [Sum of Digits / Digital Root](sum-of-digits-slash-digital-root)
 - [Sum of Two Integers](sum-of-two-integers)
 - [Sums of Parts](sums-of-parts)
+- [Surrounding Primes for a value](surrounding-primes-for-a-value)
 # T
 - [T.T.T.51: Four warriors and a lamp](t-dot-t-t-dot-51-four-warriors-and-a-lamp)
 - [Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!](take-a-number-and-sum-its-digits-raised-to-the-consecutive-powers-and-dot-dot-dot-eureka)
