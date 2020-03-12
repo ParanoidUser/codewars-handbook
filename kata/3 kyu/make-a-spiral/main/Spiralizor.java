@@ -1,26 +1,14 @@
 class Spiralizor {
   static int[][] spiralize(int size) {
-    int[][] spiral = new int[size][size--];
-    int col = 0, row = 0;
-    while (row <= size) {
-      for (int c = col, r = row; r <= size; c++, r++) {
-        spiral[row][c] = 1;
-        spiral[r][size] = 1;
+    int[][] spiral = new int[size][size];
+    for (int i = 0; i < size; i++) {
+      for (int j = 0; j < size; j++) {
+        int m = 1 - Math.min(Math.min(i, j), size - 1 - Math.max(i, j)) % 2;
+        spiral[i][j] = i == j + 1 && 2 * i < size ? j % 2 : m;
       }
-
-      if (col > 0) col++;
-      if (row == size - 1) break;
-
-      for (int i = size - 1; i >= col; i--) {
-        spiral[size][i] = 1;
-      }
-      for (int i = size - 1; i >= row + 2; i--) {
-        spiral[i][col] = 1;
-      }
-
-      col++;
-      row += 2;
-      size -= 2;
+    }
+    if (size % 2 == 0) {
+      spiral[size / 2][size / 2 - 1] = 0;
     }
     return spiral;
   }
