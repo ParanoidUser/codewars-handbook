@@ -196,7 +196,7 @@
 - [Sums of Parts](sums-of-parts)
 # T
 - [T.T.T.51: Four warriors and a lamp](t-dot-t-t-dot-51-four-warriors-and-a-lamp)
-- [Take a Number And Sum  Its Digits Raised To The Consecutive Powers And ....¡Eureka!!](take-a-number-and-sum-its-digits-raised-to-the-consecutive-powers-and-dot-dot-dot-eureka)
+- [Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!](take-a-number-and-sum-its-digits-raised-to-the-consecutive-powers-and-dot-dot-dot-eureka)
 - [Take a Ten Minute Walk](take-a-ten-minute-walk)
 - [Tank Truck](tank-truck)
 - [Texting with an old-school mobile phone](texting-with-an-old-school-mobile-phone)
