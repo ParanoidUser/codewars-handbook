@@ -66,6 +66,7 @@
 - [Color Choice](color-choice)
 - [Consecutive strings](consecutive-strings)
 - [Consonant value](consonant-value)
+- [Convert integer to Whitespace format](convert-integer-to-whitespace-format)
 - [Convert string to camel case](convert-string-to-camel-case)
 - [Count the divisible numbers](count-the-divisible-numbers)
 - [Count the smiley faces!](count-the-smiley-faces)
