@@ -163,6 +163,7 @@
 - [Subtract the Sum](subtract-the-sum)
 - [Sum Mixed Array](sum-mixed-array)
 - [Sum of differences in array](sum-of-differences-in-array)
+- [Sum of list values (beta)](sum-of-list-values)
 - [Sum of positive](sum-of-positive)
 - [Sum without highest and lowest number](sum-without-highest-and-lowest-number)
 - [Surface Area and Volume of a Box](surface-area-and-volume-of-a-box)
