@@ -402,6 +402,7 @@
 - [The First Non Repeated Character In A String](the-first-non-repeated-character-in-a-string)
 - [The fusc function -- Part 1](the-fusc-function-part-1)
 - [The highest profit wins!](the-highest-profit-wins)
+- [The Lamp (beta)](the-lamp)
 - [The Office I - Outed](the-office-i-outed)
 - [The Office II - Boredom Score](the-office-ii-boredom-score)
 - [The Office III - Broken Photocopier](the-office-iii-broken-photocopier)
