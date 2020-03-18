@@ -289,6 +289,7 @@
 - [Partial Word Searching](partial-word-searching)
 - [Parts of a list](parts-of-a-list)
 - [Password System](password-system)
+- [Phase Transitions (beta)](phase-transitions)
 - [Pizza Payments](pizza-payments)
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
 - [Pokerhand, straight or not?](pokerhand-straight-or-not)
