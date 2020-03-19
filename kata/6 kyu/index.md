@@ -68,6 +68,7 @@
 - [Consonant value](consonant-value)
 - [Convert integer to Whitespace format](convert-integer-to-whitespace-format)
 - [Convert string to camel case](convert-string-to-camel-case)
+- [Count the days!](count-the-days)
 - [Count the divisible numbers](count-the-divisible-numbers)
 - [Count the smiley faces!](count-the-smiley-faces)
 - [Counting Duplicates](counting-duplicates)
