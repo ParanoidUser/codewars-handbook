@@ -1,0 +1,15 @@
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+public class Tests {
+  @Test
+  public void test() {
+    assertFalse(Kata.hasTwoCubeSums(1));
+    assertTrue(Kata.hasTwoCubeSums(1729));
+    assertFalse(Kata.hasTwoCubeSums(42));
+    assertTrue(Kata.hasTwoCubeSums(4104));
+    assertFalse(Kata.hasTwoCubeSums(4105));
+  }
+}
