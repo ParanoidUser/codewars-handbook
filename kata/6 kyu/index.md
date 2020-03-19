@@ -74,6 +74,7 @@
 - [Create Phone Number](create-phone-number)
 # D
 - [Dashatize it](dashatize-it)
+- [Data compression using run-length encoding](data-compression-using-run-length-encoding)
 - [Data Reverse](data-reverse)
 - [Dead Ants](dead-ants)
 - [Decode the Morse code](decode-the-morse-code)
