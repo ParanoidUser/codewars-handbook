@@ -150,6 +150,7 @@
 - [Parabolic Arc Length](parabolic-arc-length)
 - [Parse HTML/CSS Colors](parse-html-slash-css-colors)
 - [Pascal's Triangle #2](pascals-triangle-number-2)
+- [Paths in the Grid](paths-in-the-grid)
 - [Pentabonacci](pentabonacci)
 - [Persistent Bugger](persistent-bugger)
 - [PI approximation](pi-approximation)
