@@ -144,6 +144,8 @@
 # N
 - [Number Zoo Patrol](number-zoo-patrol)
 - [Numericals of a String](numericals-of-a-string)
+# O
+- [Odd/Even number of divisors](odd-slash-even-number-of-divisors)
 # P
 - [Parabolic Arc Length](parabolic-arc-length)
 - [Parse HTML/CSS Colors](parse-html-slash-css-colors)
