@@ -104,6 +104,7 @@
 - [Find The Parity Outlier](find-the-parity-outlier)
 - [Find the unique number](find-the-unique-number-1)
 - [FIXME: Hello](fixme-hello)
+- [Floating-point Approximation (I)](floating-point-approximation-i)
 - [Fold an array](fold-an-array)
 - [Format words into a sentence](format-words-into-a-sentence)
 - [Frog jumping](frog-jumping)
