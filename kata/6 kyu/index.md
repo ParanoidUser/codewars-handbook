@@ -193,6 +193,7 @@
 - [Single Word Pig Latin](single-word-pig-latin)
 - [Sort array by sorting its smallest sub-array](sort-array-by-sorting-its-smallest-sub-array)
 - [Sort the odd](sort-the-odd)
+- [Sortable Shapes](sortable-shapes)
 - [Sorting on planet Twisted-3-7](sorting-on-planet-twisted-3-7)
 - [Spelling Bee](spelling-bee)
 - [Split and then add both sides of an array together.](split-and-then-add-both-sides-of-an-array-together)
