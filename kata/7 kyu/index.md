@@ -161,6 +161,7 @@
 - [Functional Addition](functional-addition)
 - [Functions of Integers on Cartesian Plane](functions-of-integers-on-cartesian-plane)
 # G
+- [Geometry Basics: Dot Product in  3D](geometry-basics-dot-product-in-3d)
 - [Get the Middle Character](get-the-middle-character)
 - [Ghostbusters (whitespace removal)](ghostbusters-whitespace-removal)
 - [Going to the cinema](going-to-the-cinema)
