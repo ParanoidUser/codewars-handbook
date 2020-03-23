@@ -199,6 +199,7 @@
 - [Spelling Bee](spelling-bee)
 - [Split and then add both sides of an array together.](split-and-then-add-both-sides-of-an-array-together)
 - [Split Strings](split-strings)
+- [Squares in a Rectangle](squares-in-a-rectangle)
 - [Srot the inner ctonnet in dsnnieedcg oredr](srot-the-inner-ctonnet-in-dsnnieedcg-oredr)
 - [Statistics for an Athletic Association](statistics-for-an-athletic-association)
 - [Steps in Primes](steps-in-primes)
