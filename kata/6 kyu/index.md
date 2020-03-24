@@ -197,6 +197,7 @@
 - [Sort the odd](sort-the-odd)
 - [Sortable Shapes](sortable-shapes)
 - [Sorting on planet Twisted-3-7](sorting-on-planet-twisted-3-7)
+- [Special Multiples](special-multiples)
 - [Spelling Bee](spelling-bee)
 - [Split and then add both sides of an array together.](split-and-then-add-both-sides-of-an-array-together)
 - [Split Strings](split-strings)
