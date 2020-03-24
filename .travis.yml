@@ -9,7 +9,7 @@ jdk: openjdk11
 install: skip
 
 script:
-  - ./gradlew --parallel --no-daemon --build-cache --scan "$JAVA_OPTS" -Pversion="$VERSION" check -x processResources -x processTestResources sonarqube "$SONAR_OPTS"
+  - ./gradlew --parallel --no-daemon --build-cache --scan -Pversion="$VERSION" check -x processResources -x processTestResources sonarqube "$SONAR_OPTS"
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
