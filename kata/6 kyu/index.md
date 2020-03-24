@@ -137,6 +137,7 @@
 - [Mexican Wave](mexican-wave)
 - [Missing Alphabet](missing-alphabet)
 - [Moduli number system](moduli-number-system)
+- [Most Frequent Weekdays](most-frequent-weekdays)
 - [Moves in squared strings (II)](moves-in-squared-strings-ii)
 - [Moves in squared strings (III)](moves-in-squared-strings-iii)
 - [Moves in squared strings (IV)](moves-in-squared-strings-iv)
