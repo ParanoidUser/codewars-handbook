@@ -8,6 +8,8 @@
 # H
 - [Happy Birthday](happy-birthday-1)
 - [Holiday I - Temperature in Bali](holiday-i-temperature-in-bali)
+# I
+- [Index i?](index-i)
 # M
 - [Math.pow?](math-dot-pow)
 - [Mode Count](mode-count)
