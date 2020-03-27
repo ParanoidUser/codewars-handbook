@@ -3,6 +3,8 @@
 # B
 - [Bad Collection?](bad-collection)
 - [Beginner friendly: remove the letter o](beginner-friendly-remove-the-letter-o)
+# C
+- [Counting like a kid](counting-like-a-kid)
 # H
 - [Happy Birthday](happy-birthday-1)
 - [Holiday I - Temperature in Bali](holiday-i-temperature-in-bali)
