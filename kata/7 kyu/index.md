@@ -235,7 +235,6 @@
 - [Make a function that does arithmetic!](make-a-function-that-does-arithmetic)
 - [MakeBackronym](makebackronym)
 - [Match My Husband](match-my-husband)
-- [Math.pow? (beta)](math-dot-pow)
 - [Matrix Addition of Elements](matrix-addition-of-elements)
 - [Matrix Square Up, B!](matrix-square-up-b)
 - [Max diff - easy](max-diff-easy-1)
