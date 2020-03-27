@@ -48,7 +48,7 @@ If you find the repo helpful, **please give it a thank with** <span title="â†‘â†
                title="All published kata which are waiting for community approval and difficulty ranking.">Any
             </a>
          </td>
-         <td>15</td>
+         <td>16</td>
       </tr>
       <tr>
          <td rowspan=2>Beginner (2 points)</td>
