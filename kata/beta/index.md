@@ -23,6 +23,7 @@
 - [Phase Transitions](phase-transitions)
 # R
 - [Random Wallpaper](random-wallpaper)
+- [Responsible Drinking](responsible-drinking)
 # S
 - [Sum and Count All Odds vs Evens](sum-and-count-all-odds-vs-evens)
 - [Sum of list values](sum-of-list-values)
