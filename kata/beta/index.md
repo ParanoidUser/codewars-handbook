@@ -8,6 +8,8 @@
 - [Bobby Builds a PC](bobby-builds-a-pc)
 # C
 - [Counting like a kid](counting-like-a-kid)
+# F
+- [Fun with Physics #1 - Are the tanks in range of the cannonballs?](fun-with-physics-number-1-are-the-tanks-in-range-of-the-cannonballs)
 # H
 - [Happy Birthday](happy-birthday-1)
 - [Holiday I - Temperature in Bali](holiday-i-temperature-in-bali)
