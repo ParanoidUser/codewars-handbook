@@ -21,6 +21,8 @@
 # P
 - [Perimeter of a Rectangle](perimeter-of-a-rectangle)
 - [Phase Transitions](phase-transitions)
+# R
+- [Random Wallpaper](random-wallpaper)
 # S
 - [Sum and Count All Odds vs Evens](sum-and-count-all-odds-vs-evens)
 - [Sum of list values](sum-of-list-values)
