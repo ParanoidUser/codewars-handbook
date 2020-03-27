@@ -7,3 +7,4 @@
 - [Holiday I - Temperature in Bali](holiday-i-temperature-in-bali)
 # M
 - [Math.pow?](math-dot-pow)
+- [Mode Count](mode-count)
