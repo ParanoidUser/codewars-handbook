@@ -162,7 +162,6 @@
 - [Subtract the Sum](subtract-the-sum)
 - [Sum Mixed Array](sum-mixed-array)
 - [Sum of differences in array](sum-of-differences-in-array)
-- [Sum of list values (beta)](sum-of-list-values)
 - [Sum of positive](sum-of-positive)
 - [Sum of values from 1 to n inclusive { nΣn=1 } (beta)](sum-of-values-from-1-to-n-inclusive-%7B-nsn-equals-1-%7D)
 - [Sum without highest and lowest number](sum-without-highest-and-lowest-number)
