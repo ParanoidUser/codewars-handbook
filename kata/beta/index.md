@@ -2,6 +2,7 @@
 - [Ancestors Blowfish - play with bits](ancestors-blowfish-play-with-bits)
 # B
 - [Bad Collection?](bad-collection)
+- [Beginner friendly: remove the letter o](beginner-friendly-remove-the-letter-o)
 # H
 - [Happy Birthday](happy-birthday-1)
 - [Holiday I - Temperature in Bali](holiday-i-temperature-in-bali)

@@ -1,4 +1,4 @@
-# [Beginner friendly: remove the letter o (beta)](https://www.codewars.com/kata/beginner-friendly-remove-the-letter-o "https://www.codewars.com/kata/58d3dd53b0fe8c9ac10000b3")
+# [Beginner friendly: remove the letter o](https://www.codewars.com/kata/beginner-friendly-remove-the-letter-o "https://www.codewars.com/kata/58d3dd53b0fe8c9ac10000b3")
 
 Create a function `removeO` to remove all of the letters `o` in a string.
 
