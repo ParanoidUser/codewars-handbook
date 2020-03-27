@@ -163,7 +163,6 @@
 - [Sum Mixed Array](sum-mixed-array)
 - [Sum of differences in array](sum-of-differences-in-array)
 - [Sum of positive](sum-of-positive)
-- [Sum of values from 1 to n inclusive { nΣn=1 } (beta)](sum-of-values-from-1-to-n-inclusive-%7B-nsn-equals-1-%7D)
 - [Sum without highest and lowest number](sum-without-highest-and-lowest-number)
 - [Surface Area and Volume of a Box](surface-area-and-volume-of-a-box)
 - [Swap Values](swap-values)
