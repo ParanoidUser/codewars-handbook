@@ -12,3 +12,5 @@
 - [Phase Transitions](phase-transitions)
 # S
 - [Sum and Count All Odds vs Evens](sum-and-count-all-odds-vs-evens)
+# T
+- [The Lamp](the-lamp)
