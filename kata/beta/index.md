@@ -14,6 +14,7 @@
 - [Math.pow?](math-dot-pow)
 - [Mode Count](mode-count)
 # P
+- [Perimeter of a Rectangle](perimeter-of-a-rectangle)
 - [Phase Transitions](phase-transitions)
 # S
 - [Sum and Count All Odds vs Evens](sum-and-count-all-odds-vs-evens)
