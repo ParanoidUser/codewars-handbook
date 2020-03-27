@@ -3,6 +3,7 @@
 # B
 - [Bad Collection?](bad-collection)
 - [Beginner friendly: remove the letter o](beginner-friendly-remove-the-letter-o)
+- [Bobby Builds a PC](bobby-builds-a-pc)
 # C
 - [Counting like a kid](counting-like-a-kid)
 # H
