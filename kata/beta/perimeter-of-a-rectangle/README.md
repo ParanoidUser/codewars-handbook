@@ -1,4 +1,4 @@
-# [Perimeter of a Rectangle (beta)](https://www.codewars.com/kata/perimeter-of-a-rectangle "https://www.codewars.com/kata/58424c2e5692f50715000080")
+# [Perimeter of a Rectangle](https://www.codewars.com/kata/perimeter-of-a-rectangle "https://www.codewars.com/kata/58424c2e5692f50715000080")
 
 Complete the method to calculate the perimeter of a rectangle using given `width` and `length`.
 

@@ -130,7 +130,6 @@
 - [Opposites Attract](opposites-attract)
 # P
 - [Parse nice int from char problem](parse-nice-int-from-char-problem)
-- [Perimeter of a Rectangle (beta)](perimeter-of-a-rectangle)
 - [Playing with cubes I](playing-with-cubes-i)
 - [Plural](plural)
 - [Printing Array elements with Comma delimiters](printing-array-elements-with-comma-delimiters)
