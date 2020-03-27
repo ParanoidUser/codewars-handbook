@@ -35,7 +35,6 @@
 - [Automorphic Number (Special Numbers Series #6)](automorphic-number-special-numbers-series-number-6)
 - [Averages of numbers](averages-of-numbers)
 # B
-- [Bad Collection? (beta)](bad-colection)
 - [Balanced Number (Special Numbers Series #1)](balanced-number-special-numbers-series-number-1)
 - [Basic Calculator](basic-calculator)
 - [Basics - Generators #1](basics-generators-number-1)
