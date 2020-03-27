@@ -1,4 +1,4 @@
-# [Happy Birthday (beta)](https://www.codewars.com/kata/happy-birthday-1 "https://www.codewars.com/kata/5d65fbdfb96e1800282b5ee0")
+# [Happy Birthday](https://www.codewars.com/kata/happy-birthday-1 "https://www.codewars.com/kata/5d65fbdfb96e1800282b5ee0")
 
 It's your best friend's birthday! You already bought a box for the present. Now you want to pack the present in the box. You want to decorate the box with a ribbon and a bow.
 
