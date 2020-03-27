@@ -1,4 +1,4 @@
-# [Mode Count (beta)](https://www.codewars.com/kata/mode-count "https://www.codewars.com/kata/5d9dce868fd3c90016cfbb35")
+# [Mode Count](https://www.codewars.com/kata/mode-count "https://www.codewars.com/kata/5d9dce868fd3c90016cfbb35")
 
 In statistic is known the term mode. The mode of a set of data values is the value that appears most often. For example suppose the set of data values are {1,2,2,3}. There are three number inside the data set: 1, 2, and 3. Number 1 appears once, 2 appears twice, and 3 appears once. That mean number 2 appears most often so the mode is 2.
 
