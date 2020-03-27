@@ -1,4 +1,4 @@
-# [Phase Transitions (beta)](https://www.codewars.com/kata/phase-transitions "https://www.codewars.com/kata/5c866052ba8bd554757aa4b4")
+# [Phase Transitions](https://www.codewars.com/kata/phase-transitions "https://www.codewars.com/kata/5c866052ba8bd554757aa4b4")
 
 This kata is an issue from Effective Java (by Joshua Bloch).
 
