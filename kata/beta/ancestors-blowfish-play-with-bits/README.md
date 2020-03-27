@@ -1,4 +1,4 @@
-# [Ancestors Blowfish - play with bits (beta)](https://www.codewars.com/kata/ancestors-blowfish-play-with-bits "https://www.codewars.com/kata/587510553793a30f640000ff")
+# [Ancestors Blowfish - play with bits](https://www.codewars.com/kata/ancestors-blowfish-play-with-bits "https://www.codewars.com/kata/587510553793a30f640000ff")
 
 Blowfish is an old & complex encryption algorithm.
 
