@@ -1,4 +1,4 @@
-# [Holiday I - Temperature in Bali (beta)](https://www.codewars.com/kata/holiday-i-temperature-in-bali "https://www.codewars.com/kata/57e8e9df2aee49c0280009ab")
+# [Holiday I - Temperature in Bali](https://www.codewars.com/kata/holiday-i-temperature-in-bali "https://www.codewars.com/kata/57e8e9df2aee49c0280009ab")
 
 So it turns out the weather in Indonesia is beautiful... but also far too hot most of the time.
 
