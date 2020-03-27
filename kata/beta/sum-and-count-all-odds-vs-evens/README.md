@@ -1,4 +1,4 @@
-# [Sum and Count All Odds vs Evens (beta)](https://www.codewars.com/kata/sum-and-count-all-odds-vs-evens "https://www.codewars.com/kata/5c43909243456646dd854a63")
+# [Sum and Count All Odds vs Evens](https://www.codewars.com/kata/sum-and-count-all-odds-vs-evens "https://www.codewars.com/kata/5c43909243456646dd854a63")
 
 Given a list of integers, find the sum of all odds and evens, and raise each sum by it's corresponding number of occurrences. Then return an array of size 2 that looks as follows `[sumOfEvensSquared, SumOfOddsSquared]` For example :
 
