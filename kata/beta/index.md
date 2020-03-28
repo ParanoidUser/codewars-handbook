@@ -28,6 +28,7 @@
 - [Random Wallpaper](random-wallpaper)
 - [Responsible Drinking](responsible-drinking)
 # S
+- [Simple string concatenator](simple-string-concatenator)
 - [Sum and Count All Odds vs Evens](sum-and-count-all-odds-vs-evens)
 - [Sum of list values](sum-of-list-values)
 - [Sum of values from 1 to n inclusive { nÎ£n=1 }](sum-of-values-from-1-to-n-inclusive-%7B-nsn-equals-1-%7D)
