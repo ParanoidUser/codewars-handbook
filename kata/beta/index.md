@@ -18,6 +18,8 @@
 # I
 - [Index i?](index-i)
 - [Integer to Binary!](integer-to-binary)
+# L
+- [Letter to ASCII](letter-to-ascii)
 # M
 - [Math.pow?](math-dot-pow)
 - [Mode Count](mode-count)
