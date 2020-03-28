@@ -16,6 +16,7 @@
 - [Holiday I - Temperature in Bali](holiday-i-temperature-in-bali)
 # I
 - [Index i?](index-i)
+- [Integer to Binary!](integer-to-binary)
 # M
 - [Math.pow?](math-dot-pow)
 - [Mode Count](mode-count)
