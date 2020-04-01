@@ -1,4 +1,4 @@
-# [Extra Perfect Numbers (Special Numbers Series  #7)](https://www.codewars.com/kata/extra-perfect-numbers-special-numbers-series-number-7 "https://www.codewars.com/kata/5a662a02e626c54e87000123")
+# [Extra Perfect Numbers (Special Numbers Series #7)](https://www.codewars.com/kata/extra-perfect-numbers-special-numbers-series-number-7 "https://www.codewars.com/kata/5a662a02e626c54e87000123")
 
 # Definition
 
