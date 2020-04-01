@@ -12,6 +12,7 @@
 - [Counting like a kid](counting-like-a-kid)
 # F
 - [Find something in an Array](find-something-in-an-array)
+- [Flip it](flip-it)
 - [Fun with Physics #1 - Are the tanks in range of the cannonballs?](fun-with-physics-number-1-are-the-tanks-in-range-of-the-cannonballs)
 # H
 - [Happy Birthday](happy-birthday)
