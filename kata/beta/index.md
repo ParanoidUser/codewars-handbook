@@ -8,6 +8,7 @@
 - [Beginner friendly: remove the letter o](beginner-friendly-remove-the-letter-o)
 - [Bobby Builds a PC](bobby-builds-a-pc)
 # C
+- [CaMeLcAsInG](camelcasing)
 - [Check the tire pressure](check-the-tire-pressure)
 - [Counting Characters](counting-characters)
 - [Counting like a kid](counting-like-a-kid)
