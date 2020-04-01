@@ -1,4 +1,4 @@
-# [Take a Number And Sum  Its Digits Raised To The Consecutive Powers And ....¡Eureka!!](https://www.codewars.com/kata/take-a-number-and-sum-its-digits-raised-to-the-consecutive-powers-and-dot-dot-dot-eureka "https://www.codewars.com/kata/5626b561280a42ecc50000d1")
+# [Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!](https://www.codewars.com/kata/take-a-number-and-sum-its-digits-raised-to-the-consecutive-powers-and-dot-dot-dot-eureka "https://www.codewars.com/kata/5626b561280a42ecc50000d1")
 
 The number ```89``` is the first integer with more than one digit that fulfills the property partially introduced in the title of this kata. 
 What's the use of saying "Eureka"? Because this sum gives the same number.

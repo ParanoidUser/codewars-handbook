@@ -1,4 +1,4 @@
-# [Calculate the Harmonic Conjugated Point of a Triplet  of Aligned Points](https://www.codewars.com/kata/calculate-the-harmonic-conjugated-point-of-a-triplet-of-aligned-points "https://www.codewars.com/kata/5600e00e42bcb7b9dc00014e")
+# [Calculate the Harmonic Conjugated Point of a Triplet of Aligned Points](https://www.codewars.com/kata/calculate-the-harmonic-conjugated-point-of-a-triplet-of-aligned-points "https://www.codewars.com/kata/5600e00e42bcb7b9dc00014e")
 
 <a href="http://imgur.com/tfJ9UWc"><img src="http://i.imgur.com/tfJ9UWcm.jpg" title="source: imgur.com" /></a>
 

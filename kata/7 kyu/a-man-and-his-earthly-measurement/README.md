@@ -1,4 +1,4 @@
-# [A Man  and his Earthly Measurement](https://www.codewars.com/kata/a-man-and-his-earthly-measurement "https://www.codewars.com/kata/5b036114de4c7facd70000d4")
+# [A Man and his Earthly Measurement](https://www.codewars.com/kata/a-man-and-his-earthly-measurement "https://www.codewars.com/kata/5b036114de4c7facd70000d4")
 
 ******************************************************************************
 ## Background

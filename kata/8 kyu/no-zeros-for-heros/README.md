@@ -1,4 +1,4 @@
-# [No zeros for heros](https://www.codewars.com/kata/no-zeros-for-heros "https://www.codewars.com/kata/570a6a46455d08ff8d001002")
+# [No zeros for heroes](https://www.codewars.com/kata/no-zeros-for-heros "https://www.codewars.com/kata/570a6a46455d08ff8d001002")
 
 Numbers ending with zeros are boring.
 

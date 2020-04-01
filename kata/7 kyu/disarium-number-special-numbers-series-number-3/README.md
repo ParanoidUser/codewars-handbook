@@ -1,4 +1,4 @@
-# [Disarium Number (Special Numbers Series  #3)](https://www.codewars.com/kata/disarium-number-special-numbers-series-number-3 "https://www.codewars.com/kata/5a53a17bfd56cb9c14000003")
+# [Disarium Number (Special Numbers Series #3)](https://www.codewars.com/kata/disarium-number-special-numbers-series-number-3 "https://www.codewars.com/kata/5a53a17bfd56cb9c14000003")
 
 # Definition
 
