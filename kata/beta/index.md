@@ -14,7 +14,7 @@
 - [Fun with Physics #1 - Are the tanks in range of the cannonballs?](fun-with-physics-number-1-are-the-tanks-in-range-of-the-cannonballs)
 # H
 - [Happy Birthday](happy-birthday)
-- [Happy Birthday-1](happy-birthday-1)
+- [Happy Birthday 1](happy-birthday-1)
 - [Holiday I - Temperature in Bali](holiday-i-temperature-in-bali)
 # I
 - [Index i?](index-i)
@@ -34,7 +34,7 @@
 - [Simple string concatenator](simple-string-concatenator)
 - [Sum and Count All Odds vs Evens](sum-and-count-all-odds-vs-evens)
 - [Sum of list values](sum-of-list-values)
-- [Sum of values from 1 to n inclusive { nÎ£n=1 }](sum-of-values-from-1-to-n-inclusive-%7B-nsn-equals-1-%7D)
+- [Sum of values from 1 to n inclusive { nΣn=1 }](sum-of-values-from-1-to-n-inclusive-%7B-nsn-equals-1-%7D)
 # T
 - [The Lamp](the-lamp)
 - [The most asked question on CodeWars](the-most-asked-question-on-codewars)
