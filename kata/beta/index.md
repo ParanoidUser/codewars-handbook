@@ -17,6 +17,7 @@
 - [Happy Birthday 1](happy-birthday-1)
 - [Holiday I - Temperature in Bali](holiday-i-temperature-in-bali)
 # I
+- [IKEA visit](ikea-visit)
 - [Index i?](index-i)
 - [Integer to Binary!](integer-to-binary)
 # L
