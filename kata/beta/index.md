@@ -9,6 +9,7 @@
 - [Bobby Builds a PC](bobby-builds-a-pc)
 # C
 - [Check the tire pressure](check-the-tire-pressure)
+- [Counting Characters](counting-characters)
 - [Counting like a kid](counting-like-a-kid)
 # F
 - [Find something in an Array](find-something-in-an-array)
