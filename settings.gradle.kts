@@ -40,6 +40,9 @@ plugins {
 
 gradleEnterprise {
     buildScan {
+        termsOfServiceUrl = "https://gradle.com/terms-of-service"
+        termsOfServiceAgree = "yes"
+
         background {
             value("Git Commit", exec("git rev-parse --short=8 --verify HEAD"))
             value("Git Branch", exec("git rev-parse --abbrev-ref HEAD"))
