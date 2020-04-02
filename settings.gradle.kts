@@ -1,4 +1,4 @@
-rootProject.name = "codewars-solutions"
+rootProject.name = "codewars-handbook"
 
 File(rootDir, "kata").walk().maxDepth(2)
         .filter {

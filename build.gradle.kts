@@ -87,7 +87,7 @@ sonarqube {
          *   (fc) The rules violated due to the fulfillment of the code structure
          *        contract defined by the kata author (e.g using default packages).
          *   (iv) The rules intentionally violated by using not traditional Java
-         *        language capabilities to provide smaller (less lines of code) solutions.
+         *        language capabilities to save lines of code (known as code golfing).
          *
          * There are five severity levels defined at Sonar their values following:
          *   (0) - blocker
