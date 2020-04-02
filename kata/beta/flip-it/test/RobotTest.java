@@ -5,6 +5,6 @@ import org.junit.Test;
 public class RobotTest {
   @Test
   public void haha() {
-    assertEquals(Robot.reverse("Emma"), "ammE");
+    assertEquals("ammE", Robot.reverse("Emma"));
   }
 } 
