@@ -1,7 +1,7 @@
-<h1 align="center">Codewars solutions in Java ☕️🚀</h1>
+<h1 align="center">Java Codewars Handbook ☕️🚀</h1>
 
 <p align="center">
-   <a href="http://hits.dwyl.io/ParanoidUser/codewars-solutions">
+   <a href="http://hits.dwyl.io/ParanoidUser/codewars-handbook">
       <img src="https://img.shields.io/badge/dynamic/xml?color=success&label=views&query=//*[name()=%27text%27][2]&url=http://hits.dwyl.io/ParanoidUser/codewars.svg"
            title="Views statistics +1 👀">
    </a>
@@ -9,16 +9,16 @@
       <img src="https://img.shields.io/badge/solved%20kata-879-red.svg"
            title="Number of solved kata 👌">
    </a>
-   <a href="https://travis-ci.org/ParanoidUser/codewars-solutions">
-      <img src="https://img.shields.io/travis/ParanoidUser/codewars-solutions.svg"
+   <a href="https://travis-ci.org/ParanoidUser/codewars-handbook">
+      <img src="https://img.shields.io/travis/ParanoidUser/codewars-handbook.svg"
            title="CI/CD pipeline 🛠">
    </a>
-   <a href="https://gitter.im/paranoiduser/codewars-solutions">
-      <img src="https://img.shields.io/gitter/room/paranoiduser/codewars-solutions?color=49c39e"
+   <a href="https://gitter.im/ParanoidUser/codewars-handbook">
+      <img src="https://img.shields.io/gitter/room/ParanoidUser/codewars-handbook?color=49c39e"
            title="Let's have a chat! 📞">
    </a>
-   <a href="https://lgtm.com/projects/g/ParanoidUser/codewars-solutions/context:java">
-      <img src="https://img.shields.io/lgtm/grade/java/github/ParanoidUser/codewars-solutions.svg?label=java"
+   <a href="https://lgtm.com/projects/g/ParanoidUser/codewars-handbook/context:java">
+      <img src="https://img.shields.io/lgtm/grade/java/github/ParanoidUser/codewars-handbook.svg?label=java"
            title="Continuous security analysis 🔎">
    </a>
 <p>
@@ -131,7 +131,7 @@ You acknowledge and agree that your use of the repository materials is at your o
 ## Contribute
 
 Your contribution is highly appreciated here. Feel free to open issues or send pull requests.  
-If you have any questions or comments [the Gitter chat](https://gitter.im/paranoiduser/codewars-solutions) is open for discussion.  
+If you have any questions or comments [the Gitter chat](https://gitter.im/paranoiduser/codewars-handbook) is open for discussion.  
 
 > *"This solution no longer solves the kata!"* 😤
 >> Please open an issue or create a pull request with a working copy.
