@@ -1,4 +1,4 @@
-# [CaMeLcAsInG](https://www.codewars.com/camelcasing "https://www.codewars.com/54c15f6e6fd290a542000135")
+# [CaMeLcAsInG](https://www.codewars.com/kata/camelcasing "https://www.codewars.com/kata/54c15f6e6fd290a542000135")
 
 You are given a string with a length of 0 or greater. You should transform this string so its characters alternate between uppercase and lowercase.
 

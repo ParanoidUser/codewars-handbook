@@ -1,4 +1,4 @@
-# [Your Basic FizzBuzz kata](https://www.codewars.com/your-basic-fizzbuzz-kata "https://www.codewars.com/5560496dd9a642659300001a")
+# [Your Basic FizzBuzz kata](https://www.codewars.com/kata/your-basic-fizzbuzz-kata "https://www.codewars.com/kata/5560496dd9a642659300001a")
 
 FizzBuzz is probably the second most popular way to introduce beginners to the art of coding (the first probably being the ancient Fibonacci sequence, the grandfather of all the algorithm theory).
 

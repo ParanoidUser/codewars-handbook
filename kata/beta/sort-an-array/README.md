@@ -1,4 +1,4 @@
-# [Sort an Array!](https://www.codewars.com/sort-an-array "https://www.codewars.com/57f9247226df1162bd00008d")
+# [Sort an Array!](https://www.codewars.com/kata/sort-an-array "https://www.codewars.com/kata/57f9247226df1162bd00008d")
 
 Easy Kata! Sort the elements of an integer array from low to high.
 ```
