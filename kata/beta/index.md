@@ -10,6 +10,7 @@
 # C
 - [CaMeLcAsInG](camelcasing)
 - [Check the tire pressure](check-the-tire-pressure)
+- [Convert natural number to its binary representation](convert-natural-number-to-its-binary-representation)
 - [Counting Characters](counting-characters)
 - [Counting like a kid](counting-like-a-kid)
 # F
