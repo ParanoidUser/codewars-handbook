@@ -108,10 +108,10 @@ sonarqube {
 
         // Security Hotspot [Critical]: Using regular expressions is security-sensitive
         property("sonar.issue.ignore.multicriteria.fc11.ruleKey", "java:S4784")
-        property("sonar.issue.ignore.multicriteria.fc11 .resourceKey", "**/*.java")
+        property("sonar.issue.ignore.multicriteria.fc11.resourceKey", "**/*.java")
         // Security Hotspot [Critical]: Using pseudorandom number generators (PRNGs) is security-sensitive
         property("sonar.issue.ignore.multicriteria.fc12.ruleKey", "java:S2245")
-        property("sonar.issue.ignore.multicriteria.fc12 .resourceKey", "**/*.java")
+        property("sonar.issue.ignore.multicriteria.fc12.resourceKey", "**/*.java")
         // Code Smell [major]: Utility classes should not have public constructors
         property("sonar.issue.ignore.multicriteria.fc21.ruleKey", "java:S1118")
         property("sonar.issue.ignore.multicriteria.fc21.resourceKey", "**/*.java")
