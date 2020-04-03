@@ -1,4 +1,4 @@
-# [Vampire Numbers](https://www.codewars.com/vampire-numbers-2 "https://www.codewars.com/586408ffb3a6757c8400003b")
+# [Vampire Numbers](https://www.codewars.com/kata/vampire-numbers-2 "https://www.codewars.com/kata/586408ffb3a6757c8400003b")
 
 ```Vampire numbers``` are not so scary as they named. (Next: ```Vampire number``` = ```VN```).
 This ```VN``` consist of even numbers and obtained from multiplication of 2 numbers. This 2 numbers composed from numerals of main ```VN``` in random order. Let's check the examples:

@@ -1,4 +1,4 @@
-# [Convert natural number to its binary representation](https://www.codewars.com/convert-natural-number-to-its-binary-representation "https://www.codewars.com/55fc061dfb8005f480000051")
+# [Convert natural number to its binary representation](https://www.codewars.com/kata/convert-natural-number-to-its-binary-representation "https://www.codewars.com/kata/55fc061dfb8005f480000051")
 
 Write function that converts an *integer* number to its binary representation and returns it as a *string*.
 
