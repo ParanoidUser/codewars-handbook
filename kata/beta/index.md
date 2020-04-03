@@ -43,3 +43,5 @@
 # T
 - [The Lamp](the-lamp)
 - [The most asked question on CodeWars](the-most-asked-question-on-codewars)
+# Y
+- [Your Basic FizzBuzz kata](your-basic-fizzbuzz-kata)
