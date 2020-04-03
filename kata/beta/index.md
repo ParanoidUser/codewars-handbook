@@ -46,5 +46,7 @@
 # T
 - [The Lamp](the-lamp)
 - [The most asked question on CodeWars](the-most-asked-question-on-codewars)
+# V
+- [Vampire Numbers](vampire-numbers-2)
 # Y
 - [Your Basic FizzBuzz kata](your-basic-fizzbuzz-kata)
