@@ -11,15 +11,15 @@
    </a>
    <a href="https://travis-ci.org/ParanoidUser/codewars-handbook">
       <img src="https://img.shields.io/travis/ParanoidUser/codewars-handbook.svg"
-           title="CI/CD pipeline 🛠">
-   </a>
-   <a href="https://gitter.im/ParanoidUser/codewars-handbook">
-      <img src="https://img.shields.io/gitter/room/ParanoidUser/codewars-handbook?color=49c39e"
-           title="Let's have a chat! 📞">
+           title="CI pipeline 🛠">
    </a>
    <a href="https://sonarcloud.io/dashboard?id=codewars-handbook">
       <img src="https://img.shields.io/sonar/alert_status/codewars-handbook?server=https%3A%2F%2Fsonarcloud.io"
            title="Quality gate 🔎">
+   </a>
+   <a href="https://gitter.im/ParanoidUser/codewars-handbook">
+      <img src="https://img.shields.io/gitter/room/ParanoidUser/codewars-handbook?color=49c39e"
+           title="Let's have a chat! 📞">
    </a>
 <p>
 
