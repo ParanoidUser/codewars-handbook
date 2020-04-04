@@ -17,9 +17,9 @@
       <img src="https://img.shields.io/gitter/room/ParanoidUser/codewars-handbook?color=49c39e"
            title="Let's have a chat! 📞">
    </a>
-   <a href="https://lgtm.com/projects/g/ParanoidUser/codewars-handbook/context:java">
-      <img src="https://img.shields.io/lgtm/grade/java/github/ParanoidUser/codewars-handbook.svg?label=java"
-           title="Continuous security analysis 🔎">
+   <a href="https://sonarcloud.io/dashboard?id=codewars-handbook">
+      <img src="https://img.shields.io/sonar/alert_status/codewars-handbook?server=https%3A%2F%2Fsonarcloud.io"
+           title="Quality gate 🔎">
    </a>
 <p>
 
