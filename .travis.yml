@@ -8,8 +8,14 @@ jdk: openjdk11
 
 install: skip
 
-script:
-  - ./gradlew --parallel --no-daemon --build-cache --scan -Pversion=$VERSION check -x :check -x processResources -x processTestResources sonarqube $SONAR_OPTS
+jobs:
+  include:
+    - stage: build
+      script: ./gradlew --scan --parallel  compileJava -x :compileJava
+    - stage: test
+      script: ./gradlew --scan --parallel --build-cache test -x :test -x processTestResources jacocoTestReport -x :jacocoTestReport -x classes
+    - stage: scan
+      script: ./gradlew --scan sonarqube -x test $SONAR_OPTS
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
