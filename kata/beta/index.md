@@ -9,6 +9,7 @@
 - [Bobby Builds a PC](bobby-builds-a-pc)
 # C
 - [CaMeLcAsInG](camelcasing)
+- [Change for pizza](change-for-pizza)
 - [Check the tire pressure](check-the-tire-pressure)
 - [Convert natural number to its binary representation](convert-natural-number-to-its-binary-representation)
 - [Counting Characters](counting-characters)
