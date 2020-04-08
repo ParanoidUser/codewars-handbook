@@ -1,29 +1,42 @@
 dist: bionic
+os: linux
 language: java
-
+jdk: openjdk11
 git:
   depth: false
-
-jdk: openjdk11
-
-install: skip
-
-jobs:
-  include:
-    - stage: build
-      script: ./gradlew --scan --parallel  compileJava -x :compileJava
-    - stage: test
-      script: ./gradlew --scan --parallel --build-cache test -x :test -x processTestResources jacocoTestReport -x :jacocoTestReport -x classes
-    - stage: scan
-      script: ./gradlew --scan sonarqube -x test $SONAR_OPTS
-
-before_cache:
-  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
-  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
-  - rm -fr $HOME/.gradle/caches/*/scripts/
 
 cache:
   directories:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
     - $HOME/.sonar/cache/
+
+before_cache:
+  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+  - rm -fr $HOME/.gradle/caches/*/scripts/
+
+jobs:
+  include:
+    - stage: Build
+      script: ./gradlew --scan --parallel --build-cache compileJava -x :compileJava
+      workspaces:
+        create:
+          name: shared
+          paths: .
+
+    - stage: Test
+      workspaces:
+        use: shared
+      script: ./gradlew --scan --parallel --build-cache compileTestJava -x :compileTestJava -x classes test -x :test -x testClasses -x processTestResources jacocoTestReport -x :jacocoTestReport
+
+    - stage: Scan
+      workspaces:
+        use: shared
+      script: ./gradlew --scan -Pversion=$VERSION sonarqube -x test $SONAR_OPTS
+
+  # Default stages
+  exclude:
+    - stage: build
+    - stage: test
+    - stage: scan
