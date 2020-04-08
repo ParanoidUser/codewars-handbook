@@ -52,6 +52,12 @@ subprojects {
         }
         test {
             useJUnitPlatform()
+            testLogging {
+                events("FAILED", "SKIPPED")
+                exceptionFormat = org.gradle.api.tasks.testing.logging.TestExceptionFormat.FULL
+                showExceptions = true
+                showStackTraces = false
+            }
             reports {
                 junitXml.isEnabled = false
                 html.isEnabled = false
