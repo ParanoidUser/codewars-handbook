@@ -16,6 +16,7 @@
 # F
 - [Find something in an Array](find-something-in-an-array)
 - [Flip it](flip-it)
+- [Formatting decimal places #2](formatting-decimal-places-number-2)
 - [Fun with Physics #1 - Are the tanks in range of the cannonballs?](fun-with-physics-number-1-are-the-tanks-in-range-of-the-cannonballs)
 # H
 - [Happy Birthday](happy-birthday)
