@@ -5,7 +5,7 @@ import org.junit.Test;
 public class SolutionTest {
   @Test
   public void testSomething() {
-    assertEquals(Kata.rez(100), 100);
-    assertEquals(Kata.rez(110), 90);
+    assertEquals(100, Kata.rez(100));
+    assertEquals(90, Kata.rez(110));
   }
 }
