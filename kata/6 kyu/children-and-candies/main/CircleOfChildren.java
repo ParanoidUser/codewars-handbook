@@ -1,14 +1,16 @@
 import static java.util.stream.IntStream.of;
 
 class CircleOfChildren {
+
   static int[] distributionOfCandy(int[] candies) {
-    int times = 0, dist[];
-    while (of(dist = candies.clone()).distinct().count() != 1) {
-      for (int i = 0; i < dist.length; i++) {
-        candies[i] += (int) Math.ceil((i > 0 ? dist[i - 1] : dist[dist.length - 1]) / 2.) - dist[i] / 2;
+    int times = 0;
+    while (of(candies).distinct().count() != 1) {
+      int prev = (candies[0] + candies[0] % 2) / 2;
+      for (int i = candies.length - 1; i >= 0; i--) {
+        candies[i] = prev + (prev = (candies[i] + candies[i] % 2) / 2);
       }
       times++;
     }
-    return new int[] {times, candies[0]};
+    return new int[]{times, candies[0]};
   }
 }
