@@ -7,7 +7,11 @@ import java.util.DoubleSummaryStatistics;
 class Stats {
   static double[][] getMinAvgMax(long discard, double[][] data) {
     var summary = new DoubleSummaryStatistics();
-    var stats = stream(data).map(a -> stream(a).limit(a.length - discard).skip(discard).summaryStatistics()).peek(summary::combine);
-    return concat(stats, of(summary)).map(s -> new double[] {s.getMin(), s.getAverage(), s.getMax()}).toArray(double[][]::new);
+    var stats = stream(data).map(a -> {
+      var local = stream(a).limit(a.length - discard).skip(discard).summaryStatistics();
+      summary.combine(local);
+      return local;
+    });
+    return concat(stats, of(summary)).map(s -> new double[]{s.getMin(), s.getAverage(), s.getMax()}).toArray(double[][]::new);
   }
 }
