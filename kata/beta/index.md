@@ -49,6 +49,7 @@
 # T
 - [The Lamp](the-lamp)
 - [The most asked question on CodeWars](the-most-asked-question-on-codewars)
+- [Time Conversion](time-conversion)
 # V
 - [Vampire Numbers](vampire-numbers-2)
 # W
