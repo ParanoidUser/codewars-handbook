@@ -35,7 +35,7 @@ File(rootDir, "kata").walk().maxDepth(2)
         }
 
 plugins {
-    id("com.gradle.enterprise") version "3.2"
+    id("com.gradle.enterprise") version "3.2.1"
 }
 
 gradleEnterprise {
