@@ -47,7 +47,12 @@ gradleEnterprise {
 
         background {
             val changes = System.getenv("TRAVIS_COMMIT_RANGE") ?: "origin.."
-            value("Changelog", exec("git log --name-status --pretty=\"format:%C(green)%h%C(reset) at %C(cyan)%ai%C(reset) by %an %C(bold yellow)%d%C(reset)%n%C(bold white)%s%C(reset)\" $changes"))
+            val os = java.io.ByteArrayOutputStream()
+            exec {
+                commandLine("git", "log", "--name-status", "--pretty=format:%C(green)%h%C(reset) at %C(cyan)%ai%C(reset) by %an %C(bold yellow)%d%C(reset)%n%C(bold white)%s%C(reset)", changes)
+                standardOutput = os
+            }
+            value("Changelog", os.toString())
         }
 
         obfuscation {
@@ -56,13 +61,4 @@ gradleEnterprise {
             ipAddresses { it.map { "0.0.0.0" } }
         }
     }
-}
-
-fun exec(command: String): String {
-    val process = Runtime.getRuntime().exec(command)
-    if (process.waitFor() != 0) {
-        println("WARNING: " + String(process.errorStream.readBytes()))
-        return "unknown"
-    }
-    return String(process.inputStream.readBytes()).trim()
 }
