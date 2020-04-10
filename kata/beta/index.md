@@ -16,6 +16,7 @@
 - [Counting Characters](counting-characters)
 - [Counting like a kid](counting-like-a-kid)
 # F
+- [Find Email Domain](find-email-domain)
 - [Find something in an Array](find-something-in-an-array)
 - [Flip it](flip-it)
 - [Formatting decimal places #2](formatting-decimal-places-number-2)
