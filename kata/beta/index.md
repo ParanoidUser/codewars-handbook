@@ -55,5 +55,6 @@
 - [Vampire Numbers](vampire-numbers-2)
 # W
 - [When a "rose" is not a "rose"](when-a-rose-is-not-a-rose)
+- [Who's Next in Line?](whos-next-in-line)
 # Y
 - [Your Basic FizzBuzz kata](your-basic-fizzbuzz-kata)
