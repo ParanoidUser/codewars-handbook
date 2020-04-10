@@ -42,6 +42,7 @@
 - [Random Wallpaper](random-wallpaper)
 - [Responsible Drinking](responsible-drinking)
 # S
+- [Sexagesimal degree](sexagesimal-degree)
 - [Simple string concatenator](simple-string-concatenator)
 - [SimpleEquation](simpleequation)
 - [Sort an Array!](sort-an-array)
