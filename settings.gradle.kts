@@ -45,16 +45,6 @@ gradleEnterprise {
             termsOfServiceAgree = "yes"
         }
 
-        background {
-            val changes = System.getenv("TRAVIS_COMMIT_RANGE") ?: "origin.."
-            val os = java.io.ByteArrayOutputStream()
-            exec {
-                commandLine("git", "log", "--name-status", "--pretty=format:%C(green)%h%C(reset) at %C(cyan)%ai%C(reset) by %an %C(bold yellow)%d%C(reset)%n%C(bold white)%s%C(reset)", changes)
-                standardOutput = os
-            }
-            value("Changelog", os.toString())
-        }
-
         obfuscation {
             username { "[hidden]" }
             hostname { "[hidden]" }
