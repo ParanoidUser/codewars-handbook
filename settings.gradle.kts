@@ -56,9 +56,9 @@ gradleEnterprise {
         }
 
         obfuscation {
-            username { "${it.first()}${it.last()}".toUpperCase() }
-            hostname { "localhost" }
-            ipAddresses { it.map { "0.0.0.0" } }
+            username { "[hidden]" }
+            hostname { "[hidden]" }
+            ipAddresses { listOf("[hidden]") }
         }
     }
 }
