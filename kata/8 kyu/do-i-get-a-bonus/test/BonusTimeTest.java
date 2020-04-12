@@ -1,17 +1,16 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class BonusTimeTest {
+class BonusTimeTest {
   @Test
-  public void basicTests() {
-    boolean wellConfigured = "\u00A3".equalsIgnoreCase("£");
-    assertEquals((wellConfigured ? "£" : "\u00A3") + "100000", Kata.bonusTime(10000, true));
-    assertEquals((wellConfigured ? "£" : "\u00A3") + "250000", Kata.bonusTime(25000, true));
-    assertEquals((wellConfigured ? "£" : "\u00A3") + "10000", Kata.bonusTime(10000, false));
-    assertEquals((wellConfigured ? "£" : "\u00A3") + "60000", Kata.bonusTime(60000, false));
-    assertEquals((wellConfigured ? "£" : "\u00A3") + "20", Kata.bonusTime(2, true));
-    assertEquals((wellConfigured ? "£" : "\u00A3") + "78", Kata.bonusTime(78, false));
-    assertEquals((wellConfigured ? "£" : "\u00A3") + "678900", Kata.bonusTime(67890, true));
+  void basicTests() {
+    assertEquals("£100000", Kata.bonusTime(10000, true));
+    assertEquals("£250000", Kata.bonusTime(25000, true));
+    assertEquals("£10000", Kata.bonusTime(10000, false));
+    assertEquals("£60000", Kata.bonusTime(60000, false));
+    assertEquals("£20", Kata.bonusTime(2, true));
+    assertEquals("£78", Kata.bonusTime(78, false));
+    assertEquals("£678900", Kata.bonusTime(67890, true));
   }
 }

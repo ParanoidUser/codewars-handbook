@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class Examples {
+class Examples {
   @Test
-  public void example() {
+  void example() {
     String expected =
         "6|██ 5%\n"
             + "5|\n"
@@ -16,7 +16,7 @@ public class Examples {
   }
 
   @Test
-  public void all3s() {
+  void all3s() {
     String expected =
         "6|\n"
             + "5|\n"
