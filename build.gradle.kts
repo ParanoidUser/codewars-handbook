@@ -38,8 +38,8 @@ subprojects {
         implementation("org.apache.commons", "commons-lang3", "3.9")
         compileOnly("org.projectlombok", "lombok", "1.18.12")
         annotationProcessor("org.projectlombok", "lombok", "1.18.12")
-        testImplementation("org.junit.jupiter", "junit-jupiter", "5.6.1")
-        testRuntimeOnly("org.junit.vintage", "junit-vintage-engine", "5.6.1")
+        testImplementation("org.junit.jupiter", "junit-jupiter", "5.6.2")
+        testRuntimeOnly("org.junit.vintage", "junit-vintage-engine", "5.6.2")
         testImplementation("junit", "junit", "4.13")
     }
 
