@@ -15,6 +15,8 @@
 - [Count the likes](count-the-likes)
 - [Counting Characters](counting-characters)
 - [Counting like a kid](counting-like-a-kid)
+# E
+- [Everybody hates Mondays](everybody-hates-mondays)
 # F
 - [Find Email Domain](find-email-domain)
 - [Find something in an Array](find-something-in-an-array)
