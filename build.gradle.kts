@@ -70,6 +70,14 @@ subprojects {
             }
         }
     }
+
+    if (projectDir.parentFile != rootDir) {
+        val parent = project(":${projectDir.parentFile.name}")
+        tasks.forEach {
+            parent.tasks.findByName(it.name)?.dependsOn(it)
+        }
+        parent.childProjects[name] = project
+    }
 }
 
 sonarqube {

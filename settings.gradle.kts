@@ -1,34 +1,8 @@
 rootProject.name = "codewars-handbook"
 
+val exclude = listOf("build")
 File(rootDir, "kata").walk().maxDepth(2)
-        .filter {
-            logger.debug("$it")
-            var isSubProject = false
-            if (it.isDirectory) {
-                val srcDir = File(it, "main")
-                isSubProject = srcDir.isDirectory && !srcDir.listFiles().isNullOrEmpty()
-                if (srcDir.isDirectory && srcDir.listFiles().isNullOrEmpty()) {
-                    logger.warn("$srcDir no source files found")
-                }
-
-                val testDir = File(it, "test")
-                if (isSubProject && testDir.listFiles().isNullOrEmpty()) {
-                    logger.warn("$testDir no test files found")
-                }
-
-                val readme = File(it, "README.md")
-                if (isSubProject && !readme.isFile) {
-                    logger.warn("$readme not found")
-                }
-
-                val groupedByDifficulty = 3
-                val depth = it.toPath().nameCount - rootDir.toPath().nameCount
-                if (isSubProject && depth != groupedByDifficulty) {
-                    logger.warn("$it invalid directory depth. Expected: $groupedByDifficulty, Actual: $depth")
-                }
-            }
-            isSubProject
-        }
+        .filter { it.isDirectory && !exclude.contains(it.name) }
         .forEach {
             include(it.name)
             project(":${it.name}").projectDir = it
