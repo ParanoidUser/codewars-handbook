@@ -7,6 +7,7 @@
 - [Bad Collection?](bad-collection)
 - [Beginner friendly: remove the letter o](beginner-friendly-remove-the-letter-o)
 - [Bobby Builds a PC](bobby-builds-a-pc)
+- [Brackets Checker](brackets-checker)
 # C
 - [CaMeLcAsInG](camelcasing)
 - [Change for pizza](change-for-pizza)
