@@ -53,6 +53,7 @@
 - [The Lamp](the-lamp)
 - [The most asked question on CodeWars](the-most-asked-question-on-codewars)
 - [Time Conversion](time-conversion)
+- [Tug-o'-War](tug-o-war)
 # V
 - [Vampire Numbers](vampire-numbers-2)
 # W
