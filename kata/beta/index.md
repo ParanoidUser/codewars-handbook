@@ -31,6 +31,7 @@
 - [Integer to Binary!](integer-to-binary)
 # L
 - [Letter to ASCII](letter-to-ascii)
+- [Load value from system variable](load-value-from-system-variable)
 # M
 - [Math.pow?](math-dot-pow)
 - [Mode Count](mode-count)
