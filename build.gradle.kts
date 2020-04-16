@@ -30,17 +30,21 @@ subprojects {
         mavenCentral()
     }
 
-    /*
-     * The dependency list matches actual dependency versions being used on Codewars platform.
-     * For more information check the link - https://github.com/Codewars/codewars.com/wiki/Language-Java
-     */
     dependencies {
+        /*
+        * The dependency list matches actual dependency versions being used on Codewars platform.
+        * For more information check the links:
+        * - https://github.com/Codewars/codewars.com/wiki/Language-Java
+        * - https://github.com/Codewars/codewars-runner-cli/blob/master/documentation/environments/java.md
+        */
         implementation("org.apache.commons", "commons-lang3", "3.9")
+        implementation("org.springframework.boot", "spring-boot-starter-web", "2.2.6.RELEASE")
         compileOnly("org.projectlombok", "lombok", "1.18.12")
         annotationProcessor("org.projectlombok", "lombok", "1.18.12")
-        testImplementation("org.junit.jupiter", "junit-jupiter", "5.6.2")
         testRuntimeOnly("org.junit.vintage", "junit-vintage-engine", "5.6.2")
+        testImplementation("org.junit.jupiter", "junit-jupiter", "5.6.2")
         testImplementation("junit", "junit", "4.13")
+        testImplementation("org.springframework.boot", "spring-boot-starter-test", "2.2.6.RELEASE")
     }
 
     tasks {
