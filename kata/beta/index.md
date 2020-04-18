@@ -39,6 +39,7 @@
 # M
 - [Math.pow?](math-dot-pow)
 - [Mode Count](mode-count)
+- [Multiline String Maker](multiline-string-maker)
 # P
 - [Palindrome-Generator](palindrome-generator)
 - [Perimeter of a Rectangle](perimeter-of-a-rectangle)
