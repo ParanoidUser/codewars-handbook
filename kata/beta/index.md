@@ -5,6 +5,7 @@
 - [Ancestors Blowfish - play with bits](ancestors-blowfish-play-with-bits)
 # B
 - [Bad Collection?](bad-collection)
+- [BAD Hash - String to String](bad-hash-string-to-string)
 - [Beginner friendly: remove the letter o](beginner-friendly-remove-the-letter-o)
 - [Bobby Builds a PC](bobby-builds-a-pc)
 - [Brackets Checker](brackets-checker)
