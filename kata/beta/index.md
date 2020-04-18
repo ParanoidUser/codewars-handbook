@@ -52,6 +52,7 @@
 - [Simple string concatenator](simple-string-concatenator)
 - [SimpleEquation](simpleequation)
 - [Sort an Array!](sort-an-array)
+- [Stop Donald Trump (2015)](stop-donald-trump-2015)
 - [String Product](string-product)
 - [Sum and Count All Odds vs Evens](sum-and-count-all-odds-vs-evens)
 - [Sum of list values](sum-of-list-values)
