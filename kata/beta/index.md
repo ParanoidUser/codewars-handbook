@@ -44,6 +44,7 @@
 - [Palindrome-Generator](palindrome-generator)
 - [Perimeter of a Rectangle](perimeter-of-a-rectangle)
 - [Phase Transitions](phase-transitions)
+- [Positive & Negative Regex](positive-and-negative-regex)
 # R
 - [Random Wallpaper](random-wallpaper)
 - [Responsible Drinking](responsible-drinking)
