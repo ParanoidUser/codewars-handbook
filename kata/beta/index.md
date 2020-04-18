@@ -58,6 +58,7 @@
 # T
 - [The Lamp](the-lamp)
 - [The most asked question on CodeWars](the-most-asked-question-on-codewars)
+- [The number of digits of a power of 2](the-number-of-digits-of-a-power-of-2)
 - [Time Conversion](time-conversion)
 - [Tug-o'-War](tug-o-war)
 # V
