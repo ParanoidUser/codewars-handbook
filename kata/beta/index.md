@@ -62,6 +62,7 @@
 - [Tug-o'-War](tug-o-war)
 # V
 - [Vampire Numbers](vampire-numbers-2)
+- [Very Simple Inheritance for Beginners](very-simple-inheritance-for-beginners)
 # W
 - [Weton](weton)
 - [When a "rose" is not a "rose"](when-a-rose-is-not-a-rose)
