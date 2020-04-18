@@ -68,6 +68,7 @@
 - [Very Simple Inheritance for Beginners](very-simple-inheritance-for-beginners)
 # W
 - [Weton](weton)
+- [What is the date after some hours?](what-is-the-date-after-some-hours)
 - [When a "rose" is not a "rose"](when-a-rose-is-not-a-rose)
 - [Who's Next in Line?](whos-next-in-line)
 # Y
