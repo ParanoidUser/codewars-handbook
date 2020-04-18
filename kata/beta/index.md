@@ -48,6 +48,7 @@
 - [Positive & Negative Regex](positive-and-negative-regex)
 # R
 - [Random Wallpaper](random-wallpaper)
+- [Regex pattern to check if string has all characters](regex-pattern-to-check-if-string-has-all-characters)
 - [Responsible Drinking](responsible-drinking)
 # S
 - [Sexagesimal degree](sexagesimal-degree)
