@@ -6,7 +6,7 @@
            title="Views statistics +1 👀">
    </a>
    <a href="https://www.codewars.com">
-      <img src="https://img.shields.io/badge/solved%20kata-900-red.svg"
+      <img src="https://img.shields.io/badge/solved%20kata-905-red.svg"
            title="Number of solved kata 👌">
    </a>
    <a href="https://travis-ci.org/ParanoidUser/codewars-handbook">
@@ -48,7 +48,7 @@ If you find the repo helpful, **please give it a thank with** <span title="↑�
                title="All published kata which are waiting for community approval and difficulty ranking.">Any
             </a>
          </td>
-         <td>51</td>
+         <td>56</td>
       </tr>
       <tr>
          <td rowspan=2>Beginner (2 points)</td>
