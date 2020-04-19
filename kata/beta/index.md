@@ -22,6 +22,7 @@
 # F
 - [Find Email Domain](find-email-domain)
 - [Find something in an Array](find-something-in-an-array)
+- [FIXME: String == String](fixme-string-equals-equals-string)
 - [Flip it](flip-it)
 - [Format date DD/MM/YYYY](format-date-dd-slash-mm-slash-yyyy)
 - [Formatting decimal places #2](formatting-decimal-places-number-2)
