@@ -20,6 +20,7 @@
 # E
 - [Everybody hates Mondays](everybody-hates-mondays)
 # F
+- [Fibonacci Number](fibonacci-number-1)
 - [Find Email Domain](find-email-domain)
 - [Find something in an Array](find-something-in-an-array)
 - [FIXME: String == String](fixme-string-equals-equals-string)
