@@ -65,6 +65,7 @@
 - [Sum of list values](sum-of-list-values)
 - [Sum of values from 1 to n inclusive { nΣn=1 }](sum-of-values-from-1-to-n-inclusive-%7B-nsn-equals-1-%7D)
 # T
+- [Tetris - rotate the block](tetris-rotate-the-block)
 - [The Lamp](the-lamp)
 - [The most asked question on CodeWars](the-most-asked-question-on-codewars)
 - [The number of digits of a power of 2](the-number-of-digits-of-a-power-of-2)
