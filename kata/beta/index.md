@@ -71,6 +71,8 @@
 - [The number of digits of a power of 2](the-number-of-digits-of-a-power-of-2)
 - [Time Conversion](time-conversion)
 - [Tug-o'-War](tug-o-war)
+# U
+- [Uglify Word](uglify-word)
 # V
 - [Vampire Numbers](vampire-numbers-2)
 - [Very Simple Inheritance for Beginners](very-simple-inheritance-for-beginners)
