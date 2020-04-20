@@ -47,6 +47,7 @@
 - [Multiline String Maker](multiline-string-maker)
 # P
 - [Palindrome-Generator](palindrome-generator)
+- [Parenthesis validator](parenthesis-validator)
 - [Perimeter of a Rectangle](perimeter-of-a-rectangle)
 - [Phase Transitions](phase-transitions)
 - [Positive & Negative Regex](positive-and-negative-regex)
