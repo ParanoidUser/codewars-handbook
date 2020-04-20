@@ -46,6 +46,7 @@
 - [Mode Count](mode-count)
 - [Multiline String Maker](multiline-string-maker)
 # P
+- [Palindrome checker](palindrome-checker)
 - [Palindrome-Generator](palindrome-generator)
 - [Parenthesis validator](parenthesis-validator)
 - [Perimeter of a Rectangle](perimeter-of-a-rectangle)
