@@ -31,6 +31,7 @@
 - [Happy Birthday](happy-birthday)
 - [Happy Birthday 1](happy-birthday-1)
 - [Holiday I - Temperature in Bali](holiday-i-temperature-in-bali)
+- [Horse Racing](horse-racing)
 - [How bigga ma pizza?](how-bigga-ma-pizza)
 # I
 - [IKEA visit](ikea-visit)
