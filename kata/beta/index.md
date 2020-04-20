@@ -76,6 +76,7 @@
 # W
 - [Weton](weton)
 - [What is the date after some hours?](what-is-the-date-after-some-hours)
+- [What will be the day of the week in a year?](what-will-be-the-day-of-the-week-in-a-year)
 - [When a "rose" is not a "rose"](when-a-rose-is-not-a-rose)
 - [Who's Next in Line?](whos-next-in-line)
 # Y
