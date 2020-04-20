@@ -21,8 +21,11 @@ class BifidCipher {
       }
     }
 
-    message = message.replace("J", "I").replace(" ", "");
-    char[] c = message.toCharArray();
+    char[] c = message.replace("J", "I").replace(" ", "").toCharArray();
+    return crypto(c, code, n, s);
+  }
+
+  private static String crypto(char[] c, boolean code, int[] n, char[] s) {
     int[] r = new int[c.length * 2];
     for (int i = 0; i < c.length; i++) {
       int t = n[c[i] - (c[i] > 73 ? 1 : 0) - 65] - 1;
