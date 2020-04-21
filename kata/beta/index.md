@@ -14,6 +14,7 @@
 - [Change for pizza](change-for-pizza)
 - [Check the tire pressure](check-the-tire-pressure)
 - [Convert natural number to its binary representation](convert-natural-number-to-its-binary-representation)
+- [Convert your name to Japanese! (Game)](convert-your-name-to-japanese-game)
 - [Count the likes](count-the-likes)
 - [Counting Characters](counting-characters)
 - [Counting like a kid](counting-like-a-kid)
