@@ -84,6 +84,7 @@
 - [Composing squared strings](composing-squared-strings)
 - [CompoundArray](compoundarray)
 - [Conference Traveller](conference-traveller)
+- [Consecutive Ducks](consecutive-ducks)
 - [Convert a linked list to a string](convert-a-linked-list-to-a-string)
 - [Convert Time to String](convert-time-to-string)
 - [Converting from base 10 to 16! Dare you?](converting-from-base-10-to-16-dare-you)
