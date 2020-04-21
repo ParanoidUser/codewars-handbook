@@ -63,6 +63,7 @@
 - [Simple string concatenator](simple-string-concatenator)
 - [SimpleEquation](simpleequation)
 - [Sort an Array!](sort-an-array)
+- [Square Root of 2](square-root-of-2)
 - [Stop Donald Trump (2015)](stop-donald-trump-2015)
 - [String anagram checker](string-anagram-checker)
 - [String Product](string-product)
