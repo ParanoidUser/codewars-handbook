@@ -43,6 +43,7 @@
 - [Load value from system variable](load-value-from-system-variable)
 # M
 - [Math.pow?](math-dot-pow)
+- [Merging Phone Numbers](merging-phone-numbers)
 - [Mode Count](mode-count)
 - [Multiline String Maker](multiline-string-maker)
 # P
