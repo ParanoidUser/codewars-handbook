@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-class BracketsChecker {
+interface BracketsChecker {
   static boolean bracketsChecker(String str) {
     var stack = new LinkedList<Integer>();
     return str.chars().allMatch(c -> c == 40 || c == 91 || c == 123 ? stack.add(c) :

@@ -1,7 +1,7 @@
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.IntStream.range;
 
-class Kata {
+interface Kata {
   static String partsLeft(boolean... parts) {
     if (range(0, 8).allMatch(i -> parts[i])) {
       return "Your PC is ready to build!";

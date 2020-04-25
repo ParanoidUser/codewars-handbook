@@ -1,4 +1,4 @@
-class SexagesimalDegree {
+interface SexagesimalDegree {
   static String convert(double lat, double lon) {
     if (lat < -90 || lat > 90 || lon < -180 || lon > 180) throw new IllegalArgumentException();
     return String.format("%s %s, %s %s", createFromFloat(Math.abs(lat)), lat < 0 ? "S" : "N", createFromFloat(Math.abs(lon)), lon < 0 ? "W" : "E");

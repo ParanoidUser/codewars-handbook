@@ -1,6 +1,6 @@
 import static java.util.stream.IntStream.of;
 
-class TugOWar {
+interface TugOWar {
   static String tugOWar(int[][] teams) {
     int t1 = of(teams[0]).sum();
     int t2 = of(teams[1]).sum();

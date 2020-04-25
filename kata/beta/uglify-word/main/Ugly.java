@@ -1,4 +1,4 @@
- class Ugly {
+ interface Ugly {
    static String uglifyWord(String str) {
     var ugly = new StringBuilder();
     boolean up = true;
