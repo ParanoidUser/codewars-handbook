@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 class BracketsCheckerTest {
   @Test
-  void simpleTests() {
+  void sample() {
     assertTrue(BracketsChecker.bracketsChecker("(hello evrybody)"));
     assertTrue(BracketsChecker.bracketsChecker("(Hello! My name is [{Roman}])"));
     assertTrue(BracketsChecker.bracketsChecker("(a),[b(c)],{d}"));

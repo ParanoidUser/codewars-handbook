@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 class FibonacciTest {
   @Test
-  void testSomething() {
+  void sample() {
     assertEquals(1, Fibonacci.fib(1));
     assertEquals(1, Fibonacci.fib(2));
     assertEquals(2, Fibonacci.fib(3));

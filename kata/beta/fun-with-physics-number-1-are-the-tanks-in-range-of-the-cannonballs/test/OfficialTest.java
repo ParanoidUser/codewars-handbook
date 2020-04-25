@@ -1,11 +1,11 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class OfficialTest {
+class OfficialTest {
   @Test
-  public void basicTests() {
+  void basicTests() {
     assertTrue(Kata.areTanksInRange(2000, 175, 30));
     assertTrue(Kata.areTanksInRange(2000, 200, 15));
     assertFalse(Kata.areTanksInRange(20000, 175, 30));

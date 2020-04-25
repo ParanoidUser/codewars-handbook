@@ -1,11 +1,11 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class LikeExampleTests {
+class LikeExampleTests {
   @Test
-  public void tests() {
+  void sample() {
     assertTrue(Kata.evalLikes(new String[]{"today", "was", "so", "like", "awesome"}));
     assertFalse(Kata.evalLikes(new String[]{"yesterday", "was", "even", "ummm", "better"}));
   }

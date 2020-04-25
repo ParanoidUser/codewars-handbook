@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ASCIITest {
+class ASCIITest {
   @Test
-  public void testCharToASCII() {
+  void sample() {
     assertEquals(97, ASCII.charToASCII('a'));
     assertEquals(104, ASCII.charToASCII('h'));
     assertEquals(33, ASCII.charToASCII('!'));

@@ -1,37 +1,37 @@
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PipedInputStream;
 import java.io.PipedOutputStream;
 import java.io.PrintStream;
-import lombok.SneakyThrows;
 
 class System {
   static PipedInputStream in;
   static PrintStream out;
 
-  private static PipedInputStream input;
+  private static PipedInputStream pipe;
 
-  @SneakyThrows
-  public static void write(String s) {
-    in = new PipedInputStream();
-    try (var in = new PrintStream(new PipedOutputStream(System.in))) {
-      in.print(s);
+  static void write(String s) throws IOException {
+    try (var target = new PrintStream(new PipedOutputStream(in))) {
+      target.print(s);
     }
-
-    var output = new PipedOutputStream();
-    out = new PrintStream(output);
-    input = new PipedInputStream(output);
   }
 
-  @SneakyThrows
-  public static String read() {
+  static String read() throws IOException {
     var text = new StringBuilder();
-    try (var in = new BufferedReader(new InputStreamReader(input))) {
+    try (var source = new BufferedReader(new InputStreamReader(pipe))) {
       String line;
-      while (in.ready() && (line = in.readLine()) != null) {
+      while (source.ready() && (line = source.readLine()) != null) {
         text.append(line).append("\n");
       }
     }
     return text.toString();
+  }
+
+  static void reset() throws IOException {
+    in = new PipedInputStream();
+    var output = new PipedOutputStream();
+    out = new PrintStream(output);
+    pipe = new PipedInputStream(output);
   }
 }

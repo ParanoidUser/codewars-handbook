@@ -1,18 +1,18 @@
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class VampireNumbersTest {
+class VampireNumbersTest {
   @Test
-  public void testResultArray() {
+  void testResultArray() {
     assertEquals(List.of(1260, 1395, 1435, 1530, 1827, 2187, 6880), VampireNumbers.searchNumbers(new ArrayList<>()));
   }
 
   @Test
-  public void testNullArray() {
+  void testNullArray() {
     assertNull(VampireNumbers.searchNumbers(null));
   }
 }

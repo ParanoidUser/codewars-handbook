@@ -1,13 +1,13 @@
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import java.util.Arrays;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class RandomWallpaperTest {
+class RandomWallpaperTest {
   @Test
-  public void test1() {
+  void multipleElementsTest() {
     int[] wallpapers = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
     int[] shuffled = RandomWallpaper.randomOrder(wallpapers);
     assertEquals(wallpapers.length, shuffled.length);
@@ -21,7 +21,7 @@ public class RandomWallpaperTest {
   }
 
   @Test
-  public void test2() {
+  void emptyArrayTest() {
     int[] wallpapers = new int[0];
     int[] shuffled = RandomWallpaper.randomOrder(wallpapers);
     assertEquals(wallpapers.length, shuffled.length);
@@ -29,7 +29,7 @@ public class RandomWallpaperTest {
   }
 
   @Test
-  public void test3() {
+  void singleElementTest() {
     int[] wallpapers = new int[]{1};
     int[] shuffled = RandomWallpaper.randomOrder(wallpapers);
     assertEquals(wallpapers.length, shuffled.length);

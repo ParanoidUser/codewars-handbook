@@ -1,11 +1,11 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testSomething() {
+  void sample() {
     assertTrue(Codewars.detect("Can someone explain to me what this kata is about?"));
     assertFalse(Codewars.detect("Can someone solve this kata for me?"));
     assertFalse(Codewars.detect("can someone explain to me how to enable caps lock/"));

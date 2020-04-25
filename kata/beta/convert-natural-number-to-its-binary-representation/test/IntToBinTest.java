@@ -1,19 +1,20 @@
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class IntToBinTest {
-    @Test
-    public void shouldWorkWith0() {
-        assertEquals("Should work with 0", "0", Kata.IntToBin(0));
-    }
+import org.junit.jupiter.api.Test;
 
-    @Test
-    public void shouldWorkWith8() {
-        assertEquals("Should work with 8", "1000", Kata.IntToBin(8));
-    }
+class IntToBinTest {
+  @Test
+  void shouldWorkWith0() {
+    assertEquals("0", Kata.IntToBin(0));
+  }
 
-    @Test
-    public void shouldWorkWith7() {
-        assertEquals("Should work with 7", "111", Kata.IntToBin(7));
-    }
+  @Test
+  void shouldWorkWith8() {
+    assertEquals("1000", Kata.IntToBin(8));
+  }
+
+  @Test
+  void shouldWorkWith7() {
+    assertEquals("111", Kata.IntToBin(7));
+  }
 }

@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ConcatTest {
+class ConcatTest {
   @Test
-  public void test() {
+  void sample() {
     assertEquals("test1test2", StringConcatenator.stringConcat("test1", "test2"));
   }
 } 

@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void fixedTests() {
+  void fixedTests() {
     assertEquals(1, Sum.sum(1));
     assertEquals(36, Sum.sum(8));
     assertEquals(253, Sum.sum(22));

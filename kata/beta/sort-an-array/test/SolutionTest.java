@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testSomething() {
+  void sample() {
     assertArrayEquals(new int[]{-6, -2, 0, 1, 5, 6, 47}, SortArray.sortArray(new int[]{-2, 1, 0, 47, 5, 6, -6}));
   }
 }
