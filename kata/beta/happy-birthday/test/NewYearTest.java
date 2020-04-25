@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class NewYearTest {
+class NewYearTest {
   @Test
-  public void test() {
+  void test() {
     assertEquals(16, NewYear.yakim("Iachimciuc Bogdan"));
     assertEquals(12, NewYear.yakim("Blanari Denis"));
     assertEquals(7, NewYear.yakim("Vitalie"));

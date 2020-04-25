@@ -5,12 +5,8 @@ import org.junit.jupiter.api.Test;
 
 class SolutionTest {
   @Test
-  void ex1() {
+  void sample() {
     assertTrue(Dinglemouse.same("abc", "abc"));
-  }
-
-  @Test
-  void ex2() {
     assertFalse(Dinglemouse.same("abc", "def"));
   }
 }

@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 class SolutionTest {
   @Test
-  void sampleTest() {
+  void sample() {
     assertEquals("AaA", Ugly.uglifyWord("AAA"));
     assertEquals("AaA", Ugly.uglifyWord("AaA"));
     assertEquals("BbB", Ugly.uglifyWord("BbB"));

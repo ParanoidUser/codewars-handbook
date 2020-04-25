@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 class SolutionTest {
   @Test
-  void basicTests() {
+  void sample() {
     String[] queue = new String[]{"Sally", "Jim", "Bob", "Kate"};
     assertEquals("Sally", Kata.findInQueue(queue, 1));
     assertEquals("Bob", Kata.findInQueue(queue, 3));

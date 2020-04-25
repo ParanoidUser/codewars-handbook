@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 class SolutionTest {
   @Test
-  void sampleTests() {
+  void sample() {
     var regex = compile(Kata.regexContainsAll("abc"));
     assertTrue(regex.matcher("bca").find());
     assertTrue(regex.matcher("baczzz").find());

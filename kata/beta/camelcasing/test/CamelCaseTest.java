@@ -1,35 +1,35 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class CamelCaseTest {
+class CamelCaseTest {
   @Test
-  public void testCamelBasic() {
+  void testCamelBasic() {
     assertEquals("TeSt", CamelCase.cAmEl("test"));
   }
 
   @Test
-  public void testCamelEmpty() {
+  void testCamelEmpty() {
     assertEquals("", CamelCase.cAmEl(""));
   }
 
   @Test
-  public void testCamelAllCaps() {
+  void testCamelAllCaps() {
     assertEquals("TeSt", CamelCase.cAmEl("TEST"));
   }
 
   @Test
-  public void testCamelStartWithCapital() {
+  void testCamelStartWithCapital() {
     assertEquals("TeSt", CamelCase.cAmEl("Test"));
   }
 
   @Test
-  public void testCamelStartWithInvertedCamel() {
+  void testCamelStartWithInvertedCamel() {
     assertEquals("TeSt", CamelCase.cAmEl("tEsT"));
   }
 
   @Test
-  public void testCamelOtherWord() {
+  void testCamelOtherWord() {
     assertEquals("IdOnTeVeN", CamelCase.cAmEl("IDOntEvEN"));
   }
 }

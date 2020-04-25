@@ -5,22 +5,10 @@ import org.junit.jupiter.api.Test;
 
 class Tests {
   @Test
-  void test1() {
+  void sample() {
     assertTrue(Zero.isZero("0"));
-  }
-
-  @Test
-  void test2() {
-    assertFalse(Zero.isZero(""));
-  }
-
-  @Test
-  void test3() {
     assertTrue(Zero.isZero("0*4"));
-  }
-
-  @Test
-  void test4() {
     assertTrue(Zero.isZero("17*41*886*9,422,000*0*e*pi"));
+    assertFalse(Zero.isZero(""));
   }
 }

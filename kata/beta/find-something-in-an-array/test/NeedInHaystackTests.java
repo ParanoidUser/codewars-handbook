@@ -1,11 +1,11 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class NeedInHaystackTests {
+class NeedInHaystackTests {
   @Test
-  public void testBasicCases() {
+  void sample() {
     assertTrue(NeedleInHaystack.find("hello", new String[]{"bye bye", "hello"}));
     assertFalse(NeedleInHaystack.find("anything", new String[]{"bye bye", "hello"}));
     assertFalse(NeedleInHaystack.find("", new String[]{"bye bye", "hello"}));

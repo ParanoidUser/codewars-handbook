@@ -1,28 +1,22 @@
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class Tests {
-  @Before
-  public void setUp() {
-    Array.array = new int[] {1, 2, 3, 4};
-  }
-
+class Tests {
   @Test
-  public void notNullTest() {
+  void notNullTest() {
     assertNotNull(Array.array);
   }
 
   @Test
-  public void notEmptyTest() {
-    assertTrue(Array.array.length > 0);
+  void notEmptyTest() {
+    assertNotEquals(0, Array.array.length);
   }
 
   @Test
-  public void compareTests() {
+  void compareTests() {
     for (int i = 0; i < Array.array.length; i++) {
       assertEquals(Array.array[i], Array.array(i));
     }

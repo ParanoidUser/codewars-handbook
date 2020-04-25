@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class Tests {
+class Tests {
   @Test
-  public void sampleTests() {
+  void sample() {
     assertEquals("hell wrld", Kata.removeO("hello world"));
     assertEquals("bn", Kata.removeO("bono"));
     assertEquals("hw are yu tday?", Kata.removeO("how are you today?"));

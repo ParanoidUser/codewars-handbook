@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExampleBlowfishTest {
+class ExampleBlowfishTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals("", SimpleBlowfish.encrypt("", ""));
     assertEquals("", SimpleBlowfish.encrypt("", "tandy"));
     assertEquals("tandy", SimpleBlowfish.encrypt("tandy", ""));
@@ -15,7 +15,7 @@ public class ExampleBlowfishTest {
     char[] expected = {24929, 24930, 24931};
     assertEquals(String.valueOf(expected), SimpleBlowfish.encrypt("abc", "a"));
 
-    expected = new char[] {18259, 21104, 17785, 16672, 21611, 18281, 21108};
+    expected = new char[]{18259, 21104, 17785, 16672, 21611, 18281, 21108};
     assertEquals(String.valueOf(expected), SimpleBlowfish.encrypt("Spy kit", "GREAT"));
   }
 }

@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testSomething() {
+  void sample() {
     assertEquals(30, LearningJava.Sum1(new int[]{8, 5, 4}));
     assertEquals(22, LearningJava.Sum1(new int[]{4, 9}));
     assertEquals(35, LearningJava.Sum1(new int[]{5, 4, 3, 2, 1}));
