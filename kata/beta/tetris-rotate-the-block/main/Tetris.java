@@ -1,4 +1,4 @@
-class Tetris {
+interface Tetris {
   static boolean[][] Rotate(boolean[][] block) {
     var rotated = new boolean[block[0].length][block.length];
     for (int i = 0; i < block.length; i++) {

@@ -2,7 +2,7 @@ import static java.time.LocalDate.parse;
 import static java.time.format.DateTimeFormatter.ofPattern;
 import static java.util.List.of;
 
-class Weton {
+interface Weton {
   static String getWeton(String date) {
     for (var format : of("MMMM d, yyyy", "d MMMM yyyy", "d MMMM, yyyy", "M/d/yyyy", "yyyy-M-d")) {
       try {

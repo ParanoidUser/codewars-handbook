@@ -4,7 +4,7 @@ import static java.util.stream.Stream.of;
 import java.util.function.IntFunction;
 import java.util.function.IntSupplier;
 
-class Dinglemouse {
+interface Dinglemouse {
   static String horseRacing(double[][] horses) {
     String[] top = raceTop(horses);
     if (top[0].isEmpty()) {
