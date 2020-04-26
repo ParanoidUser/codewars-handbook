@@ -1,12 +1,9 @@
 import java.math.BigInteger;
 import java.util.TreeSet;
 
-class GreenNumbers {
+interface GreenNumbers {
   static BigInteger get(int n) {
-    if (n == 1) return BigInteger.ONE;
-
     var set = new TreeSet<BigInteger>();
-
     var num = BigInteger.valueOf(5);
     set.add(num);
     set.add(BigInteger.valueOf(6));
@@ -20,6 +17,6 @@ class GreenNumbers {
       counter += 2;
     }
 
-    return set.toArray(BigInteger[]::new)[n - 2];
+    return n > 1 ? set.toArray(BigInteger[]::new)[n - 2] : BigInteger.ONE;
   }
 }
