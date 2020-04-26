@@ -1,4 +1,4 @@
-class Spiralizor {
+interface Spiralizor {
   static int[][] spiralize(int size) {
     int[][] spiral = new int[size][size];
     for (int i = 0; i < size; i++) {

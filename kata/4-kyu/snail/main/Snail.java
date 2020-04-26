@@ -1,4 +1,4 @@
-class Snail {
+interface Snail {
   static int[] snail(int[][] array) {
     if (array[0].length == 0) return new int[0];
 
