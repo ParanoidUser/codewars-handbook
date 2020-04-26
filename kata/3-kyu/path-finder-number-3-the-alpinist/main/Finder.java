@@ -1,52 +1,30 @@
-class Finder {
-  private static int[][] mountain;
-  private static int[][] field;
-  private static boolean madeChange;
-
+interface Finder {
   static int pathFinder(String map) {
-    mountain = map.lines().map(String::chars).map(stream -> stream.map(c -> c - 48).toArray()).toArray(int[][]::new);
-    field = new int[mountain.length][mountain.length];
+    int[][] mount = map.lines().map(String::chars).map(s -> s.map(c -> c - 48).toArray()).toArray(int[][]::new);
+    int[][] field = new int[mount.length][mount.length];
     field[0][0] = 1;
 
+    boolean keepClimbing;
     do {
-      madeChange = false;
-      for (int ii = 0; ii < field.length; ii++) {
-        for (int jj = 0; jj < field.length; jj++) {
-          int value = getValue(ii, jj);
-          if (value > 0) {
-            updateValue(ii, jj, 1, 0);
-            updateValue(ii, jj, 0, 1);
-            updateValue(ii, jj, -1, 0);
-            updateValue(ii, jj, 0, -1);
-          }
+      keepClimbing = false;
+      for (int x = 0; x < field.length; x++) {
+        for (int y = 0; y < field.length; y++) {
+          keepClimbing |= climb(mount, field, x, y, x + 1, y) > 0;
+          climb(mount, field, x, y, x - 1, y);
+          keepClimbing |= climb(mount, field, x, y, x, y + 1) > 0;
+          climb(mount, field, x, y, x, y - 1);
         }
       }
-    } while (madeChange);
-
-    if (field[field.length - 1][field.length - 1] > 0) {
-      return field[field.length - 1][field.length - 1] - 1;
-    }
-
-    return -1;
+    } while (keepClimbing);
+    return field[field.length - 1][field.length - 1] - 1;
   }
 
-  private static void updateValue(int i, int j, int deltaI, int deltaJ) {
-    int oldValue = getValue(i + deltaI, j + deltaJ);
-    if (oldValue < 0) {
-      return;
-    }
-
-    int newValue = getValue(i, j) + Math.abs(mountain[i][j] - mountain[i + deltaI][j + deltaJ]);
-    if (oldValue == 0 || newValue < oldValue) {
-      field[i + deltaI][j + deltaJ] = newValue;
-      madeChange = true;
-    }
+  private static int climb(int[][] mount, int[][] field, int x, int y, int dx, int dy) {
+    int alt = field[x][y] + Math.abs(mount[x][y] - altitude(mount, dx, dy));
+    return altitude(field, dx, dy) == 0 || altitude(field, dx, dy) > alt ? field[dx][dy] = alt : -1;
   }
 
-  private static int getValue(int i, int j) {
-    if (i >= 0 && i < field.length && j >= 0 && j < field.length) {
-      return field[i][j];
-    }
-    return -2;
+  private static int altitude(int[][] location, int x, int y) {
+    return x >= 0 && x < location.length && y >= 0 && y < location.length ? location[x][y] : -1;
   }
 }
