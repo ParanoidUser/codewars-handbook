@@ -1,12 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.math.BigInteger;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void basicTests() {
+  void basicTests() {
     assertEquals(new BigInteger("1"), GreenNumbers.get(1));
     assertEquals(new BigInteger("5"), GreenNumbers.get(2));
     assertEquals(new BigInteger("6"), GreenNumbers.get(3));
@@ -14,13 +13,13 @@ public class SolutionTest {
   }
 
   @Test
-  public void biggerTests() {
+  void biggerTests() {
     assertEquals(new BigInteger("2890625"), GreenNumbers.get(12));
     assertEquals(new BigInteger("7109376"), GreenNumbers.get(13));
   }
 
   @Test
-  public void advancedTests() {
+  void advancedTests() {
     assertEquals(new BigInteger("6188999442576576769103890995893380022607743740081787109376"), GreenNumbers.get(100));
     assertEquals(new BigInteger("9580863811000557423423230896109004106619977392256259918212890625"), GreenNumbers.get(110));
   }

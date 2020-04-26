@@ -1,24 +1,16 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void sampleTests() {
-    String a = "000\n" + "000\n" + "000",
-        b = "010\n" + "010\n" + "010",
-        c = "010\n" + "101\n" + "010",
-        d = "0707\n" + "7070\n" + "0707\n" + "7070",
-        e = "700000\n" + "077770\n" + "077770\n" + "077770\n" + "077770\n" + "000007",
-        f = "777000\n" + "007000\n" + "007000\n" + "007000\n" + "007000\n" + "007777",
-        g = "000000\n" + "000000\n" + "000000\n" + "000010\n" + "000109\n" + "001010";
-
-    assertEquals(0, Finder.pathFinder(a));
-    assertEquals(2, Finder.pathFinder(b));
-    assertEquals(4, Finder.pathFinder(c));
-    assertEquals(42, Finder.pathFinder(d));
-    assertEquals(14, Finder.pathFinder(e));
-    assertEquals(0, Finder.pathFinder(f));
-    assertEquals(4, Finder.pathFinder(g));
+  void sample() {
+    assertEquals(0, Finder.pathFinder("000\n000\n000"));
+    assertEquals(2, Finder.pathFinder("010\n010\n010"));
+    assertEquals(4, Finder.pathFinder("010\n101\n010"));
+    assertEquals(42, Finder.pathFinder("0707\n7070\n0707\n7070"));
+    assertEquals(14, Finder.pathFinder("700000\n077770\n077770\n077770\n077770\n000007"));
+    assertEquals(0, Finder.pathFinder("777000\n007000\n007000\n007000\n007000\n007777"));
+    assertEquals(4, Finder.pathFinder("000000\n000000\n000000\n000010\n000109\n001010"));
   }
 }
