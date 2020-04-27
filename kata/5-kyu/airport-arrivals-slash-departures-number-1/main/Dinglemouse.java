@@ -1,4 +1,6 @@
-class Dinglemouse extends Preloaded {
+interface Dinglemouse {
+  String ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ?!@#&()|<>.:=-+*/0123456789";
+
   static String[] flapDisplay(String[] lines, int[][] rotors) {
     for (int i = 0; i < lines.length; i++) {
       var line = new StringBuilder();

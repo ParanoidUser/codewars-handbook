@@ -4,12 +4,14 @@ import static java.util.stream.Collectors.joining;
 
 import java.util.function.LongBinaryOperator;
 
-class Fracts {
-  static LongBinaryOperator gcd = (a, b) -> valueOf(a).gcd(valueOf(b)).longValue();
-  static LongBinaryOperator lcm = (a, b) -> b / gcd.applyAsLong(a, b) * a;
+interface Fracts {
+  LongBinaryOperator gcd = (a, b) -> valueOf(a).gcd(valueOf(b)).longValue();
+  LongBinaryOperator lcm = (a, b) -> b / gcd.applyAsLong(a, b) * a;
 
   static String convertFrac(long[][] lst) {
-    if (lst.length == 0) return "";
+    if (lst.length == 0) {
+      return "";
+    }
 
     long lcm = stream(lst).map(r -> r[1]).reduce(lst[0][1], Fracts.lcm::applyAsLong);
     long gcd = stream(lst).map(r -> lcm * r[0] / r[1]).reduce(lcm, Fracts.gcd::applyAsLong);

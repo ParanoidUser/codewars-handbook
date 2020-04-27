@@ -1,4 +1,4 @@
-class Max {
+interface Max {
   static int sequence(int[] arr) {
     int max = 0, sum = 0;
     for (int num : arr) {
