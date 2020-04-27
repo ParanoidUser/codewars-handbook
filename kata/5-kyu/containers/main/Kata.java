@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Kata {
+interface Kata {
   static int containers(String input) {
     var stack = new ArrayList<Character>();
     for (char c : input.toCharArray()) {

@@ -1,4 +1,4 @@
-class Kata {
+interface Kata {
   static int maxContiguousSum(int[] arr) {
     int max = 0, sum = 0;
     for (int num : arr) {
