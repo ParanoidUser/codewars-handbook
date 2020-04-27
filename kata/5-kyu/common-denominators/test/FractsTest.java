@@ -1,10 +1,11 @@
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class FractsTest {
+import org.junit.jupiter.api.Test;
+
+class FractsTest {
   @Test
-  public void test_fractions() {
-    long[][] lst = new long[][] {{1, 2}, {1, 3}, {10, 40}};
-    assertEquals("(6,12)(4,12)(3,12)", Fracts.convertFrac(lst));
+  void sample() {
+    assertEquals("(6,12)(4,12)(3,12)", Fracts.convertFrac(new long[][]{{1, 2}, {1, 3}, {10, 40}}));
+    assertEquals("", Fracts.convertFrac(new long[0][]));
   }
 }
