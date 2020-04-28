@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class Tests {
+class Tests {
   @Test
-  public void exampleTests() {
+  void sample() {
     assertEquals("15-20", Kata.datingRange(17));
     assertEquals("27-66", Kata.datingRange(40));
     assertEquals("14-16", Kata.datingRange(15));

@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testFixed() {
+  void testFixed() {
     assertEquals("S.H", AbbreviateTwoWords.abbrevName("Sam Harris"));
     assertEquals("P.F", AbbreviateTwoWords.abbrevName("Patrick Feenan"));
     assertEquals("E.C", AbbreviateTwoWords.abbrevName("Evan Cole"));
