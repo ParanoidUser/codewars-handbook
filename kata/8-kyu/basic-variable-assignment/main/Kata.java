@@ -1,3 +1,3 @@
-class Kata {
-  static String name = "codewa.rs";
+interface Kata {
+  String name = "codewa.rs";
 }

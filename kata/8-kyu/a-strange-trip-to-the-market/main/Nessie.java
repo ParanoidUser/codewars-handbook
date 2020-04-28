@@ -1,5 +1,5 @@
-class Nessie {
+interface Nessie {
   static boolean isLockNessMonster(String s) {
-    return s.contains("fid") || s.contains("3");
+    return s.matches(".*(fid|3).*");
   }
 }
