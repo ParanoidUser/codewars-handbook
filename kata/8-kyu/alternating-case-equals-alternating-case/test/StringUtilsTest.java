@@ -1,11 +1,10 @@
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
 
-public class StringUtilsTest {
-
+class StringUtilsTest {
   @Test
-  public void fixedTests() {
+  void fixedTests() {
     assertEquals("HELLO WORLD", StringUtils.toAlternativeString("hello world"));
     assertEquals("hello world", StringUtils.toAlternativeString("HELLO WORLD"));
     assertEquals("HELLO world", StringUtils.toAlternativeString("hello WORLD"));
@@ -17,7 +16,7 @@ public class StringUtilsTest {
   }
 
   @Test
-  public void kataTitleTests() {
+  void kataTitleTests() {
     assertEquals("ALTerNAtiNG CaSe", StringUtils.toAlternativeString("altERnaTIng cAsE"));
     assertEquals("altERnaTIng cAsE", StringUtils.toAlternativeString("ALTerNAtiNG CaSe"));
     assertEquals("ALTerNAtiNG CaSe <=> altERnaTIng cAsE", StringUtils.toAlternativeString("altERnaTIng cAsE <=> ALTerNAtiNG CaSe"));

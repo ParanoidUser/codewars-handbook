@@ -1,9 +1,10 @@
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class FirstClassTest {
+import org.junit.jupiter.api.Test;
+
+class FirstClassTest {
   @Test
-  public void testSum() {
+  void sample() {
     assertEquals(3, FirstClass.sum((byte) 1, (byte) 2));
   }
 }

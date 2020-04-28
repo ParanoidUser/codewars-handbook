@@ -1,14 +1,13 @@
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testBasics() {
-    assertThat(BasicOperations.basicMath("+", 4, 7), is(11));
-    assertThat(BasicOperations.basicMath("-", 15, 18), is(-3));
-    assertThat(BasicOperations.basicMath("*", 5, 5), is(25));
-    assertThat(BasicOperations.basicMath("/", 49, 7), is(7));
+  void sample() {
+    assertEquals(11, BasicOperations.basicMath("+", 4, 7));
+    assertEquals(-3, BasicOperations.basicMath("-", 15, 18));
+    assertEquals(25, BasicOperations.basicMath("*", 5, 5));
+    assertEquals(7, BasicOperations.basicMath("/", 49, 7));
   }
 }

@@ -1,11 +1,10 @@
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class GodTest {
+class GodTest {
   @Test
-  public void makingAdam() {
-    Human[] paradise = God.create();
-    assertTrue("Adam are a man", paradise[0] instanceof Man);
+  void sample() {
+    assertTrue(God.create()[0] instanceof Man);
   }
 }

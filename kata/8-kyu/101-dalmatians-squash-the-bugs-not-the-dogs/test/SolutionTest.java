@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals("More than a handful!", ZywOo.howManyDalmatians(26));
     assertEquals("Hardly any", ZywOo.howManyDalmatians(8));
     assertEquals("More than a handful!", ZywOo.howManyDalmatians(14));

@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals("You're a(n) kid", C.describeAge(9));
     assertEquals("You're a(n) kid", C.describeAge(10));
     assertEquals("You're a(n) kid", C.describeAge(11));
