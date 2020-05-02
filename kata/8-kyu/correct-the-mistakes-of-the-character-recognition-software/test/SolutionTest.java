@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testSomething() {
+  void sample() {
     assertEquals("IF-RUDYARD KIPLING", Correct.correct("1F-RUDYARD K1PL1NG"));
     assertEquals("ROBERT MERLE - THE DAY OF THE DOLPHIN", Correct.correct("R0BERT MERLE - THE DAY 0F THE D0LPH1N"));
     assertEquals("RICHARD P. FEYNMAN - THE FEYNMAN LECTURES ON PHYSICS", Correct.correct("R1CHARD P. FEYNMAN - THE FEYNMAN LECTURE5 0N PHY51C5"));

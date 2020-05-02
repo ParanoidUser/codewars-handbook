@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class NumberStringExampleTests {
+class NumberStringExampleTests {
   @Test
-  public void tests() {
+  void sample() {
     assertEquals("67", Kata.numberToString(67));
     assertEquals("123", Kata.numberToString(123));
     assertEquals("999", Kata.numberToString(999));

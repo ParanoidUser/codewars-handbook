@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class KataTest {
+class KataTest {
   @Test
-  public void testToBinary() {
+  void sample() {
     assertEquals(1, Kata.toBinary(1));
     assertEquals(10, Kata.toBinary(2));
     assertEquals(11, Kata.toBinary(3));

@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class DigitizeExampleTests {
+class DigitizeExampleTests {
   @Test
-  public void tests() {
-    assertArrayEquals(new int[] {1, 3, 2, 5, 3}, Kata.digitize(35231));
+  void sample() {
+    assertArrayEquals(new int[]{1, 3, 2, 5, 3}, Kata.digitize(35231));
   }
 }

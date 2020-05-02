@@ -6,9 +6,8 @@ import java.io.PrintStream;
 import org.junit.jupiter.api.Test;
 
 class SolutionTest {
-
   @Test
-  void testSomething() {
+  void sample() {
     var console = new ByteArrayOutputStream();
     System.setOut(new PrintStream(console));
     Solution.main(null);

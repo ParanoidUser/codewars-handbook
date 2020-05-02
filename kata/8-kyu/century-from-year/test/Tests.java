@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class Tests {
+class Tests {
   @Test
-  public void FixedTests() {
+  void sample() {
     assertEquals(18, Solution.century(1705));
     assertEquals(19, Solution.century(1900));
     assertEquals(17, Solution.century(1601));

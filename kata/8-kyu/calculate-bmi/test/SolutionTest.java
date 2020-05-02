@@ -1,10 +1,13 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testBMI() {
+  void sample() {
+    assertEquals("Underweight", Calculate.bmi(80, 2.10));
     assertEquals("Normal", Calculate.bmi(80, 1.80));
+    assertEquals("Overweight", Calculate.bmi(80, 1.70));
+    assertEquals("Obese", Calculate.bmi(100, 1.80));
   }
 }

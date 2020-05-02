@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class MixedTest {
+class MixedTest {
   @Test
-  public void exampleTest() {
-    assertArrayEquals(new int[][] {{1, 1}, {1, 2}, {1, 3}, {2, 1}, {2, 3}, {3, 1}, {3, 2}, {3, 3}}, Kata.cartesianNeighbor(2, 2));
+  void sample() {
+    assertArrayEquals(new int[][]{{1, 1}, {1, 2}, {1, 3}, {2, 1}, {2, 3}, {3, 1}, {3, 2}, {3, 3}}, Kata.cartesianNeighbor(2, 2));
   }
 }
