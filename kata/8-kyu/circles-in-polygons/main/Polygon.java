@@ -1,5 +1,4 @@
 class Polygon {
-
   private final double diameter;
 
   Polygon(int sides, int sideLength) {

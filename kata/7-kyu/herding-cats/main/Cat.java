@@ -1,10 +1,10 @@
 import java.util.Objects;
 
-public class Cat implements Comparable<Cat> {
-  String name;
-  double weight;
+class Cat implements Comparable<Cat> {
+  final String name;
+  final double weight;
 
-  public Cat(String name, double weight) {
+  Cat(String name, double weight) {
     this.name = name;
     this.weight = weight;
   }

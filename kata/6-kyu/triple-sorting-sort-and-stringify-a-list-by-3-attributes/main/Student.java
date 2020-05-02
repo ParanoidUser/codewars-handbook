@@ -1,8 +1,8 @@
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 
 @AllArgsConstructor
-@Data
+@Getter
 class Student {
     private final int age;
     private final int gpa;
