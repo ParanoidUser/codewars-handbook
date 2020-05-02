@@ -1,15 +1,20 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class CounterTest {
-  Boolean[] array1 = {
-    true, true, true, false, true, true, true, true, true, false, true, false, true, false, false,
-    true, true, true, true, true, false, false, true, true
-  };
-
+class CounterTest {
   @Test
-  public void test() {
-    assertEquals("There are 17 sheeps in total", 17, new Counter().countSheeps(array1));
+  void sample() {
+    Boolean[] withoutNulls = {
+        true, true, true, false, true, true, true, true, true, false, true, false,
+        true, false, false, true, true, true, true, true, false, false, true, true
+    };
+    assertEquals(17, Counter.countSheeps(withoutNulls));
+
+    Boolean[] withNulls = {
+        true, true, null, false, true, true, null, false, true, false,
+        false, true, null, true, true, true, false, false, true, true
+    };
+    assertEquals(11, Counter.countSheeps(withNulls));
   }
 }

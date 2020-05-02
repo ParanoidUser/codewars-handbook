@@ -1,12 +1,12 @@
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.List;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testSomething() {
+  void sample() {
     var colors = List.of("white", "yellow", "purple", "red");
     assertTrue(colors.contains(Ghost.getColor()));
   }

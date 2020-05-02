@@ -1,15 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class BoolToStrTest {
+class BoolToStrTest {
   @Test
-  public void testTrue() {
+  void sample() {
     assertEquals("true", BooleanToString.convert(true));
-  }
-
-  @Test
-  public void testFalse() {
     assertEquals("false", BooleanToString.convert(false));
   }
 }

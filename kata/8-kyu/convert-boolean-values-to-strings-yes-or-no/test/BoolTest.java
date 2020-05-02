@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class BoolTest {
+class BoolTest {
   @Test
-  public void testBoolToWord() {
+  void sample() {
     assertEquals("Yes", YesOrNo.boolToWord(true));
     assertEquals("No", YesOrNo.boolToWord(false));
   }
