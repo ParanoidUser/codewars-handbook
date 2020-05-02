@@ -1,6 +1,5 @@
 # [Color Ghost](https://www.codewars.com/kata/color-ghost "https://www.codewars.com/kata/53f1015fa9fe02cbda00111a")
 
-# Color Ghost
 Create a class Ghost
 
 Ghost objects are instantiated without any arguments.
