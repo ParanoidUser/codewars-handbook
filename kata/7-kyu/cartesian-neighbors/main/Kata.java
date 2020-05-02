@@ -1,4 +1,4 @@
-class Kata {
+interface Kata {
   static int[][] cartesianNeighbor(int x, int y) {
     return new int[][] {
       {x - 1, y - 1},

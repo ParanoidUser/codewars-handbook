@@ -1,28 +1,18 @@
 import java.util.Arrays;
 
-class SortArray {
-  static int[] sortArray(int[] names) {
-    Arrays.sort(names);
-    return names;
-  }
-
-  static long[] sortArray(long[] names) {
-    Arrays.sort(names);
-    return names;
-  }
-
-  static float[] sortArray(float[] names) {
-    Arrays.sort(names);
-    return names;
-  }
-
-  static double[] sortArray(double[] names) {
-    Arrays.sort(names);
-    return names;
-  }
-
-  static Object[] sortArray(Object[] names) {
-    Arrays.sort(names);
-    return names;
+interface SortArray {
+  static <T> T sortArray(T array) {
+    if (array instanceof int[]) {
+      Arrays.sort((int[]) array);
+    } else if (array instanceof long[]) {
+      Arrays.sort((long[]) array);
+    } else if (array instanceof float[]) {
+      Arrays.sort((float[]) array);
+    } else if (array instanceof double[]) {
+      Arrays.sort((double[]) array);
+    } else {
+      Arrays.sort((Object[]) array);
+    }
+    return array;
   }
 }
