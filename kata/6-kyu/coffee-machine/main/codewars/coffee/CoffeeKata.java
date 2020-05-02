@@ -7,8 +7,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 class CoffeeKata {
-  private Map<String, Integer> stats = new HashMap<>();
-  private CoffeeMachine machine;
+  private final Map<String, Integer> stats = new HashMap<>();
+  private final CoffeeMachine machine;
 
   CoffeeKata() {
     this(buyCoffeeMachine());

@@ -1,7 +1,7 @@
-import java.util.Arrays;
+import static java.util.stream.Stream.of;
 
 class Counter {
-  int countSheeps(Boolean[] sheep) {
-    return (int) Arrays.stream(sheep).filter(b -> b != null && b).count();
+  static int countSheeps(Boolean[] sheep) {
+    return (int) of(sheep).filter(b -> b != null && b).count();
   }
 }
