@@ -6,6 +6,8 @@
 # B
 - [Bad Collection?](bad-collection)
 - [BAD Hash - String to String](bad-hash-string-to-string)
+- [Base Factorial Converter](base-factorial-converter)
+- [Basic Arabic-To-Roman Numerals (1 to 999)](basic-arabic-to-roman-numerals-1-to-999)
 - [Beginner friendly: remove the letter o](beginner-friendly-remove-the-letter-o)
 - [Bobby Builds a PC](bobby-builds-a-pc)
 - [Brackets Checker](brackets-checker)
@@ -57,6 +59,7 @@
 - [Positive & Negative Regex](positive-and-negative-regex)
 # R
 - [Random Wallpaper](random-wallpaper)
+- [Range Merging](range-merging)
 - [Regex pattern to check if string has all characters](regex-pattern-to-check-if-string-has-all-characters)
 - [Responsible Drinking](responsible-drinking)
 # S
