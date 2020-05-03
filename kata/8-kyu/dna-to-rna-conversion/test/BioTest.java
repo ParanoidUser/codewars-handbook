@@ -1,15 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class BioTest {
+class BioTest {
   @Test
-  public void testDna() {
+  void sample() {
     assertEquals("UUUU", Bio.dnaToRna("TTTT"));
-  }
-
-  @Test
-  public void testDna2() {
     assertEquals("GCAU", Bio.dnaToRna("GCAT"));
   }
 }
