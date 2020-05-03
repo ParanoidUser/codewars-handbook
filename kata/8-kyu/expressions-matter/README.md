@@ -1,7 +1,5 @@
 # [Expressions Matter ](https://www.codewars.com/kata/expressions-matter "https://www.codewars.com/kata/5ae62fcf252e66d44d00008e")
 
-# Task
-
 **_Given_** *three integers* `a` ,`b` ,`c`, **_return_** *the **_largest number_** obtained after inserting the following operators and brackets*: `+`, `*`, `()`. 
 ___
 # Consider an Example :
@@ -47,23 +45,3 @@ expressionsMatter(9,1,1)  ==>  return 18
 ```
 ## **_Explanation_**:
 *After placing signs and brackets, the **_Maximum value_** obtained from the expression is* `9 * (1+1) = 18`.
-___
-___
-___
-
-# [Playing with Numbers Series](https://www.codewars.com/collections/playing-with-numbers)
-
-# [Playing With Lists/Arrays Series](https://www.codewars.com/collections/playing-with-lists-slash-arrays)
-
-# [Bizarre Sorting-katas](https://www.codewars.com/collections/bizarre-sorting-katas)
-
-# [For More Enjoyable Katas](http://www.codewars.com/users/MrZizoScream/authored)
-___
-
-## ALL translations are welcomed
-
-## Enjoy Learning !!
-# Zizou
-
-
-
