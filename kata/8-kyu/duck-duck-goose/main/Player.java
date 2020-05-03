@@ -1,9 +1,7 @@
-public class Player
-{
-    String name;
+class Player {
+  final String name;
 
-    public Player(String name)
-    {
-        this.name = name;
-    }
+  Player(String name) {
+    this.name = name;
+  }
 }
