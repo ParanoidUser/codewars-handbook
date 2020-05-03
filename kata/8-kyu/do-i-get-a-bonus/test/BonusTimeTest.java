@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 class BonusTimeTest {
   @Test
-  void basicTests() {
+  void sample() {
     assertEquals("£100000", Kata.bonusTime(10000, true));
     assertEquals("£250000", Kata.bonusTime(25000, true));
     assertEquals("£10000", Kata.bonusTime(10000, false));

@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class EvenOrOddTest {
+class EvenOrOddTest {
   @Test
-  public void testEvenOrOdd() {
+  void sample() {
     assertEquals("Even", EvenOrOdd.even_or_odd(6));
     assertEquals("Odd", EvenOrOdd.even_or_odd(7));
   }

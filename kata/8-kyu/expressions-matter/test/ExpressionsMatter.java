@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExpressionsMatter {
+class ExpressionsMatter {
   @Test
-  public void checkSmallValues() {
+  void checkSmallValues() {
     assertEquals(6, Kata.expressionsMatter(2, 1, 2));
     assertEquals(3, Kata.expressionsMatter(1, 1, 1));
     assertEquals(4, Kata.expressionsMatter(2, 1, 1));
@@ -14,7 +14,7 @@ public class ExpressionsMatter {
   }
 
   @Test
-  public void checkIntermediateValues() {
+  void checkIntermediateValues() {
     assertEquals(20, Kata.expressionsMatter(5, 1, 3));
     assertEquals(105, Kata.expressionsMatter(3, 5, 7));
     assertEquals(35, Kata.expressionsMatter(5, 6, 1));
@@ -24,7 +24,7 @@ public class ExpressionsMatter {
   }
 
   @Test
-  public void checkMixedValues() {
+  void checkMixedValues() {
     assertEquals(60, Kata.expressionsMatter(2, 10, 3));
     assertEquals(27, Kata.expressionsMatter(1, 8, 3));
     assertEquals(126, Kata.expressionsMatter(9, 7, 2));
