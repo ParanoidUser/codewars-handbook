@@ -1,5 +1,5 @@
-class Kata {
+interface Kata {
   static String position(char alphabet) {
-    return "Position of alphabet: " + (alphabet - 'a' + 1);
+    return "Position of alphabet: " + (alphabet - 96);
   }
 }

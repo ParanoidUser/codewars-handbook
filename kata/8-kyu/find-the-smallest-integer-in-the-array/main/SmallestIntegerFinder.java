@@ -1,7 +1,7 @@
-import java.util.stream.IntStream;
+import static java.util.stream.IntStream.of;
 
-class SmallestIntegerFinder {
+interface SmallestIntegerFinder {
   static int findSmallestInt(int[] args) {
-    return IntStream.of(args).min().getAsInt();
+    return of(args).min().orElse(0);
   }
 }

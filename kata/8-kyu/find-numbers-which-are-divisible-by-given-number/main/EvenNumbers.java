@@ -1,7 +1,7 @@
-import java.util.Arrays;
+import static java.util.stream.IntStream.of;
 
-class EvenNumbers {
+interface EvenNumbers {
   static int[] divisibleBy(int[] numbers, int divider) {
-    return Arrays.stream(numbers).filter(n -> n % divider == 0).toArray();
+    return of(numbers).filter(n -> n % divider == 0).toArray();
   }
 }
