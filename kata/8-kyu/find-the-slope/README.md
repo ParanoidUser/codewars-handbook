@@ -8,9 +8,8 @@ For an undefined slope (division by 0), return  ```undefined```  . Note that the
    a:x1
    b:y1
    c:x2
-   d:y2```
+   d:y2
+```
    
-Assume that ```[a,b,c,d]``` and the answer are all integers 
-(no floating numbers!).
+Assume that ```[a,b,c,d]``` and the answer are all integers (no floating numbers!).  
 Slope: <https://en.wikipedia.org/wiki/Slope>
-
