@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class NearestSqTest {
+class NearestSqTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(1, CodeWarsMath.nearestSq(1));
     assertEquals(1, CodeWarsMath.nearestSq(2));
     assertEquals(9, CodeWarsMath.nearestSq(10));

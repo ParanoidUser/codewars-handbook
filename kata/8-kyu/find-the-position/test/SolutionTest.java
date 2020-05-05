@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals("Position of alphabet: 1", Kata.position('a'));
     assertEquals("Position of alphabet: 26", Kata.position('z'));
     assertEquals("Position of alphabet: 5", Kata.position('e'));
