@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void sampleTest() {
+  void sample() {
     assertEquals(4, Kata.multiply(2, 2));
     assertEquals(10, Kata.multiply(5, 2));
     assertEquals(100, Kata.multiply(100, 1));

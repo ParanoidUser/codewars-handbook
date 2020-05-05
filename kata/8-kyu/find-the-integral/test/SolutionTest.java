@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void exampleTests() {
+  void sample() {
     assertEquals("1x^3", Kata.integrate(3, 2));
     assertEquals("2x^6", Kata.integrate(12, 5));
     assertEquals("10x^2", Kata.integrate(20, 1));
