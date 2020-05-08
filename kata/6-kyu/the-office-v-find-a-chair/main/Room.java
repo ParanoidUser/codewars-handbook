@@ -1,7 +1,7 @@
-import lombok.Data;
+import lombok.AllArgsConstructor;
 
-@Data
-public class Room {
+@AllArgsConstructor
+class Room {
   final String occupants;
   final int chairs;
 }
