@@ -1,5 +1,5 @@
-class Kata {
+interface Kata {
   static String greet(String name, String owner) {
-    return "Hello " + (name.equals(owner) ? "boss" : "guest");
+    return name.equals(owner) ? "Hello boss" : "Hello guest";
   }
 }

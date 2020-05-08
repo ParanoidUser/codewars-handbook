@@ -1,5 +1,5 @@
-class Move {
+interface Move {
   static int move(int position, int roll) {
-    return position + 2 * roll;
+    return 2 * roll + position;
   }
 }
