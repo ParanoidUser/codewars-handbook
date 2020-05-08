@@ -1,6 +1,6 @@
 import static java.util.Arrays.copyOf;
 
-class TheOffice {
+interface TheOffice {
   static Object meeting(Room[] x, int need) {
     int[] chairs = new int[0];
     for (int i = 0; need > 0 && i < x.length; i++) {
