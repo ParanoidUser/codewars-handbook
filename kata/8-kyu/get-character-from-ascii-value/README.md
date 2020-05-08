@@ -1,4 +1,4 @@
-# [get character from ASCII Value](https://www.codewars.com/kata/get-character-from-ascii-value "https://www.codewars.com/kata/55ad04714f0b468e8200001c")
+# [Get character from ASCII value](https://www.codewars.com/kata/get-character-from-ascii-value "https://www.codewars.com/kata/55ad04714f0b468e8200001c")
 
 Write a function which takes a number and returns the corresponding ASCII char for that value.
 
