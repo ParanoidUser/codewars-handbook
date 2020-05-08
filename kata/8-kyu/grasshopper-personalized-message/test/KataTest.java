@@ -1,11 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class KataTest {
+class KataTest {
   @Test
-  public void basicTests() {
-    assertEquals("For inputs \"Daniel\" and \"Daniel\"", "Hello boss", Kata.greet("Daniel", "Daniel"));
-    assertEquals("For inputs \"Greg\" and \"Daniel\"", "Hello guest", Kata.greet("Greg", "Daniel"));
+  void sample() {
+    assertEquals("Hello boss", Kata.greet("Daniel", "Daniel"));
+    assertEquals("Hello guest", Kata.greet("Greg", "Daniel"));
   }
 }

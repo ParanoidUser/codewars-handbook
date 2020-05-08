@@ -1,10 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class GhostCodeTest {
+class GhostCodeTest {
   @Test
-  public void exampleTests() {
+  void sample() {
     assertEquals("Hello my name is Javatlacati", GhostCode.helloName("Javatlacati"));
+    assertEquals("Hello world!", GhostCode.helloName(""));
+    assertEquals("Hello world!", GhostCode.helloName(null));
   }
 }

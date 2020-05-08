@@ -1,15 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class GrassHopperTest {
+class GrassHopperTest {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals(1, GrassHopper.summation(1));
-  }
-
-  @Test
-  public void test2() {
     assertEquals(36, GrassHopper.summation(8));
   }
 }
