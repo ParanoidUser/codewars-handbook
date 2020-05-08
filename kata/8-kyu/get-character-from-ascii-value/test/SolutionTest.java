@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testChar() {
+  void sample() {
     assertEquals('7', Ascii.getChar(55));
     assertEquals('8', Ascii.getChar(56));
     assertEquals('9', Ascii.getChar(57));
@@ -16,6 +16,6 @@ public class SolutionTest {
     assertEquals('?', Ascii.getChar(63));
     assertEquals('@', Ascii.getChar(64));
     assertEquals('A', Ascii.getChar(65));
-    assertEquals("getChar should return a `char`", 0, Character.compare('!', Ascii.getChar(33)));
+    assertEquals('!', Ascii.getChar(33));
   }
 }
