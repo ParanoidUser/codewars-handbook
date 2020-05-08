@@ -1,7 +1,7 @@
 import static java.util.stream.IntStream.of;
 
-class School {
+interface School {
   static int getAverage(int[] marks) {
-    return (int) of(marks).average().getAsDouble();
+    return (int) of(marks).average().orElse(0);
   }
 }

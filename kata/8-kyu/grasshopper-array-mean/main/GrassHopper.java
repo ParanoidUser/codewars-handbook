@@ -1,7 +1,7 @@
-import java.util.Arrays;
+import static java.util.stream.IntStream.of;
 
-class GrassHopper {
+interface GrassHopper {
   static int findAverage(int[] nums) {
-    return (int) Arrays.stream(nums).average().orElse(0);
+    return (int) of(nums).average().orElse(0);
   }
 }
