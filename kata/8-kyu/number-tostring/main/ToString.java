@@ -1,3 +1,5 @@
-class ToString {
-  static String a = "123";
+final class ToString {
+  static final String a = "123";
+
+  private ToString() {}
 }

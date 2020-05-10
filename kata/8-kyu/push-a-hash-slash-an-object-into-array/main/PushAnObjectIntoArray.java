@@ -1,7 +1,9 @@
+import static java.util.List.of;
+
 import java.util.List;
 
-class PushAnObjectIntoArray {
+interface PushAnObjectIntoArray {
   static List<String> push() {
-    return List.of("an object");
+    return of("an object");
   }
 }
