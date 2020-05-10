@@ -1,13 +1,11 @@
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class KataExampleTwistTest {
+class KataExampleTwistTest {
   @Test
-  public void test() {
+  void sample() {
     String[] websites = KataExampleTwist.kataExampleTwist();
-    assertTrue(websites.length > 0);
     assertEquals(1000, websites.length);
     for (String website : websites) {
       assertEquals("codewars", website);

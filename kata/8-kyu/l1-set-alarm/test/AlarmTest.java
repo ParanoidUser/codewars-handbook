@@ -1,13 +1,14 @@
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class AlarmTest {
+class AlarmTest {
   @Test
-  public void setAlarmTest() {
-    assertTrue("Should be true.", Alarm.setAlarm(true, false));
-    assertFalse("Should be false.", Alarm.setAlarm(true, true));
-    assertFalse("Should be false.", Alarm.setAlarm(false, false));
-    assertFalse("Should be false.", Alarm.setAlarm(false, true));
+  void sample() {
+    assertTrue(Alarm.setAlarm(true, false));
+    assertFalse(Alarm.setAlarm(true, true));
+    assertFalse(Alarm.setAlarm(false, false));
+    assertFalse(Alarm.setAlarm(false, true));
   }
 }

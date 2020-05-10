@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SampleTest {
+class SampleTest {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals("I love you", Sid.howMuchILoveYou(1));
     assertEquals("a little", Sid.howMuchILoveYou(2));
     assertEquals("not at all", Sid.howMuchILoveYou(6));

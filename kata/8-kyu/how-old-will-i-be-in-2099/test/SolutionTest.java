@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testAge() {
+  void sample() {
     assertEquals("You are 4 years old.", AgeDiff.CalculateAge(2012, 2016));
     assertEquals("You are 27 years old.", AgeDiff.CalculateAge(1989, 2016));
     assertEquals("You are 90 years old.", AgeDiff.CalculateAge(2000, 2090));
