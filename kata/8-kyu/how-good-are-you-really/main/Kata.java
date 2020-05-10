@@ -1,7 +1,7 @@
-import java.util.Arrays;
+import static java.util.stream.IntStream.of;
 
-class Kata {
+interface Kata {
   static boolean betterThanAverage(int[] classPoints, int yourPoints) {
-    return Arrays.stream(classPoints).average().orElse(0) < yourPoints;
+    return of(classPoints).average().orElse(0) < yourPoints;
   }
 }
