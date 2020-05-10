@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class OppositeExampleTests {
+class OppositeExampleTests {
   @Test
-  public void tests() {
+  void sample() {
     assertEquals(-1, Kata.opposite(1));
   }
 }

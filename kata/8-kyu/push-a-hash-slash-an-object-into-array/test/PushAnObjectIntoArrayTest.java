@@ -1,14 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.List;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class PushAnObjectIntoArrayTest {
+class PushAnObjectIntoArrayTest {
   @Test
-  public void testSomething() {
-    List<String> items = PushAnObjectIntoArray.push();
-    assertEquals(1, items.size());
-    assertEquals("an object", items.get(0));
+  void sample() {
+    assertEquals(List.of("an object"), PushAnObjectIntoArray.push());
   }
 }

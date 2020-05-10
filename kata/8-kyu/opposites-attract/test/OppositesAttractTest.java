@@ -1,26 +1,14 @@
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class OppositesAttractTest {
-  @Test
-  public void testOddAndEven() {
-    assertTrue(OppositesAttract.isLove(1, 4));
-  }
+import org.junit.jupiter.api.Test;
 
+class OppositesAttractTest {
   @Test
-  public void testEvenAndEven() {
-    assertFalse(OppositesAttract.isLove(2, 2));
-  }
-
-  @Test
-  public void testOddAndOdd() {
-    assertFalse(OppositesAttract.isLove(1, 1));
-  }
-
-  @Test
-  public void testEvenAndOdd() {
+  public void sample() {
     assertTrue(OppositesAttract.isLove(0, 1));
+    assertFalse(OppositesAttract.isLove(1, 1));
+    assertTrue(OppositesAttract.isLove(1, 4));
+    assertFalse(OppositesAttract.isLove(2, 2));
   }
 }
