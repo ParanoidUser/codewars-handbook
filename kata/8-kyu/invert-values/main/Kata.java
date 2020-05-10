@@ -1,7 +1,7 @@
-import static java.util.Arrays.stream;
+import static java.util.stream.IntStream.of;
 
-class Kata {
+interface Kata {
   static int[] invert(int[] array) {
-    return stream(array).map(i -> -i).toArray();
+    return of(array).map(i -> -i).toArray();
   }
 }

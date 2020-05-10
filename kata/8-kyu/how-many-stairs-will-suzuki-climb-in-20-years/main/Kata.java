@@ -1,7 +1,9 @@
-import java.util.Arrays;
+import static java.util.stream.Stream.of;
 
-class Kata {
+import java.util.stream.IntStream;
+
+interface Kata {
   static long stairsIn20(int[][] stairs) {
-    return 20L * Arrays.stream(stairs).flatMapToInt(Arrays::stream).sum();
+    return 20L * of(stairs).flatMapToInt(IntStream::of).sum();
   }
 }

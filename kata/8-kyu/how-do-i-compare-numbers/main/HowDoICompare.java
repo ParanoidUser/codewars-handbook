@@ -1,7 +1,7 @@
-import java.util.Map;
+import static java.util.Map.of;
 
-class HowDoICompare {
+interface HowDoICompare {
   static String whatIs(Integer x) {
-    return Map.of(42, "everything", 1764, "everything squared").getOrDefault(x, "nothing");
+    return of(42, "everything", 1764, "everything squared").getOrDefault(x, "nothing");
   }
 }
