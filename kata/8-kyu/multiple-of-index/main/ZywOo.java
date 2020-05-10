@@ -1,7 +1,7 @@
-import java.util.stream.IntStream;
+import static java.util.stream.IntStream.range;
 
-class ZywOo {
+interface ZywOo {
   static int[] multipleOfIndex(int[] a) {
-    return IntStream.range(1, a.length).filter(i -> a[i] % i == 0).map(i -> a[i]).toArray();
+    return range(1, a.length).filter(i -> a[i] % i == 0).map(i -> a[i]).toArray();
   }
 }

@@ -1,6 +1,7 @@
-import static java.util.stream.IntStream.*;
+import static java.util.stream.IntStream.concat;
+import static java.util.stream.IntStream.of;
 
-class Kata {
+interface Kata {
   static int[] mergeArrays(int[] a, int[] b) {
     return concat(of(a), of(b)).sorted().distinct().toArray();
   }
