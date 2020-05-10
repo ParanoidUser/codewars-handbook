@@ -1,13 +1,13 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class KataTest {
+class KataTest {
   @Test
-  public void testSomething() {
-    assertArrayEquals(new int[] {1, 2, 3, 4, 5}, Kata.invert(new int[] {-1, -2, -3, -4, -5}));
-    assertArrayEquals(new int[] {1, -2, 3, -4, 5}, Kata.invert(new int[] {-1, 2, -3, 4, -5}));
+  void sample() {
+    assertArrayEquals(new int[]{1, 2, 3, 4, 5}, Kata.invert(new int[]{-1, -2, -3, -4, -5}));
+    assertArrayEquals(new int[]{1, -2, 3, -4, 5}, Kata.invert(new int[]{-1, 2, -3, 4, -5}));
+    assertArrayEquals(new int[]{0}, Kata.invert(new int[]{0}));
     assertArrayEquals(new int[0], Kata.invert(new int[0]));
-    assertArrayEquals(new int[] {0}, Kata.invert(new int[] {0}));
   }
 }

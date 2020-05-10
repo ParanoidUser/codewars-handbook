@@ -1,19 +1,14 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class HowDoICompareTest {
-
-  static final Object[][] tests = {
-    {0, "nothing"},
-    {123, "nothing"},
-    {-1, "nothing"},
-    {42, "everything"},
-    {42 * 42, "everything squared"},
-  };
-
+class HowDoICompareTest {
   @Test
-  public void test() {
-    for (Object[] t : tests) assertEquals(t[1], HowDoICompare.whatIs((Integer) t[0]));
+  void sample() {
+    assertEquals("nothing", HowDoICompare.whatIs(0));
+    assertEquals("nothing", HowDoICompare.whatIs(123));
+    assertEquals("nothing", HowDoICompare.whatIs(-1));
+    assertEquals("everything", HowDoICompare.whatIs(42));
+    assertEquals("everything squared", HowDoICompare.whatIs(1764));
   }
 }
