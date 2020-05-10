@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class PersonTest {
+class PersonTest {
   @Test
-  public void testInteger() {
-    assertEquals("2,4,5,2", ArrayPrinter.printArray(new Integer[] {2, 4, 5, 2}));
+  void sample() {
+    assertEquals("2,4,5,2", ArrayPrinter.printArray(new Integer[]{2, 4, 5, 2}));
   }
 }

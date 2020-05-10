@@ -1,15 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class PythagoreanTripleTest {
+class PythagoreanTripleTest {
   @Test
-  public void validTriple() {
-    assertEquals(1, PythagoreanTriple.pythagoreanTriple(new int[] {3, 4, 5}));
-  }
-
-  @Test
-  public void invalidTriple() {
-    assertEquals(0, PythagoreanTriple.pythagoreanTriple(new int[] {3, 5, 7}));
+  void sample() {
+    assertEquals(1, PythagoreanTriple.pythagoreanTriple(new int[]{3, 4, 5}));
+    assertEquals(0, PythagoreanTriple.pythagoreanTriple(new int[]{3, 5, 7}));
   }
 }

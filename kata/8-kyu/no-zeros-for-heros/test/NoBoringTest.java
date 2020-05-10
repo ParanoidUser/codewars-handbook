@@ -1,10 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class NoBoringTest {
+class NoBoringTest {
   @Test
-  public void test1() {
+  void sample() {
+    assertEquals(0, NoBoring.noBoringZeros(0));
     assertEquals(145, NoBoring.noBoringZeros(1450));
     assertEquals(96, NoBoring.noBoringZeros(960000));
     assertEquals(105, NoBoring.noBoringZeros(1050));

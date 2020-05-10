@@ -1,20 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class CharProblemTest {
+class CharProblemTest {
   @Test
-  public void test1() {
-    assertEquals(5, CharProblem.howOld("5 years old"));
-  }
-
-  @Test
-  public void test2() {
-    assertEquals(9, CharProblem.howOld("9 years old"));
-  }
-
-  @Test
-  public void test3() {
+  void sample() {
     assertEquals(1, CharProblem.howOld("1 year old"));
+    assertEquals(5, CharProblem.howOld("5 years old"));
+    assertEquals(9, CharProblem.howOld("9 years old"));
   }
 }
