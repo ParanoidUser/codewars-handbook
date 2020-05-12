@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class RemoveCharsTest {
+class RemoveCharsTest {
   @Test
-  public void testRemoval() {
+  void sample() {
     assertEquals("loquen", RemoveChars.remove("eloquent"));
     assertEquals("ountr", RemoveChars.remove("country"));
     assertEquals("erso", RemoveChars.remove("person"));

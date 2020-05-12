@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class MakeNegativeTest {
+class MakeNegativeTest {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals(-42, Kata.makeNegative(42));
   }
 }

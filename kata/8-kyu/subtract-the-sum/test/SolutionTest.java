@@ -1,10 +1,10 @@
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void basicTest() {
+  void sample() {
     assertEquals("apple", Kata.subtractSum(10));
   }
 }

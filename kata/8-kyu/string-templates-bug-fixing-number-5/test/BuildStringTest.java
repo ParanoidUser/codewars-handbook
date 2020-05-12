@@ -1,10 +1,10 @@
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
 
-public class BuildStringTest {
+class BuildStringTest {
   @Test
-  public void fixedTests() {
+  void sample() {
     assertEquals("I like Cheese, Milk, Chocolate!", Kata.buildString("Cheese", "Milk", "Chocolate"));
     assertEquals("I like Cheese, Milk!", Kata.buildString("Cheese", "Milk"));
     assertEquals("I like Chocolate!", Kata.buildString("Chocolate"));

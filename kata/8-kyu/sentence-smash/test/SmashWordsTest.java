@@ -1,20 +1,12 @@
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
 
-public class SmashWordsTest {
+class SmashWordsTest {
   @Test
-  public void validate() {
-    assertEquals("Bilal Djaghout", SmashWords.smash("Bilal", "Djaghout"));
-  }
-
-  @Test
-  public void validateEmpty() {
+  void sample() {
     assertEquals("", SmashWords.smash());
-  }
-
-  @Test
-  public void validateOneWord() {
     assertEquals("Bilal", SmashWords.smash("Bilal"));
+    assertEquals("Bilal Djaghout", SmashWords.smash("Bilal", "Djaghout"));
   }
 }

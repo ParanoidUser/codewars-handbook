@@ -1,10 +1,10 @@
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
 
-public class ExampleTests {
+class ExampleTests {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(7, Kata.findLongest("The quick white fox jumped around the massive dog"));
     assertEquals(10, Kata.findLongest("Take me to tinseltown with you"));
     assertEquals(7, Kata.findLongest("Sausage chops"));
