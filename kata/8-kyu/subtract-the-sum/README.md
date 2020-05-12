@@ -1,7 +1,5 @@
 # [Subtract the Sum](https://www.codewars.com/kata/subtract-the-sum "https://www.codewars.com/kata/56c5847f27be2c3db20009c3")
 
-# Subtract the sum
-
 <span style="color:red">_NOTE! This kata can be more difficult than regular 8-kyu katas_</span>
 
 Complete the function which get an input number `n` such that `n >= 10` and `n < 10000`, then:    
