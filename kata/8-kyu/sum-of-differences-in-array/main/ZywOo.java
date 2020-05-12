@@ -1,8 +1,8 @@
-import java.util.Arrays;
+import static java.util.stream.IntStream.of;
 
-class ZywOo {
+interface ZywOo {
   static int sumOfDifferences(int[] arr) {
-    var stat = Arrays.stream(arr).summaryStatistics();
+    var stat = of(arr).summaryStatistics();
     return arr.length > 1 ? stat.getMax() - stat.getMin() : 0;
   }
 }

@@ -1,11 +1,11 @@
 class Swapper {
-  Object[] arguments;
+  final Object[] arguments;
 
-  public Swapper(Object[] args) {
+  Swapper(Object[] args) {
     arguments = args;
   }
 
-  public void swapValues() {
+  void swapValues() {
     Object temp = arguments[0];
     arguments[0] = arguments[1];
     arguments[1] = temp;

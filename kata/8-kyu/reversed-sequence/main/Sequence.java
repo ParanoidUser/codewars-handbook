@@ -1,7 +1,7 @@
-import java.util.stream.IntStream;
+import static java.util.stream.IntStream.iterate;
 
-class Sequence {
+interface Sequence {
   static int[] reverse(int n) {
-    return IntStream.iterate(n, i -> --i).limit(n).toArray();
+    return iterate(n, i -> --i).limit(n).toArray();
   }
 }

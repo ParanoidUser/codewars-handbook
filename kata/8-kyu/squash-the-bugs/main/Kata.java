@@ -1,7 +1,7 @@
-import java.util.stream.Stream;
+import static java.util.stream.Stream.of;
 
-class Kata {
+interface Kata {
   static int findLongest(String str) {
-    return Stream.of(str.split(" ")).mapToInt(String::length).max().orElse(0);
+    return of(str.split(" ")).mapToInt(String::length).max().orElse(0);
   }
 }
