@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void simpleTest() {
-    assertArrayEquals(new int[] {5, 4, 3, 2, 1}, Sequence.reverse(5));
+  void sample() {
+    assertArrayEquals(new int[]{5, 4, 3, 2, 1}, Sequence.reverse(5));
   }
 }

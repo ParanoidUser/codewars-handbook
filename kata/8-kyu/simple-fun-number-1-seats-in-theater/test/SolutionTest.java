@@ -1,10 +1,10 @@
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void exampleTests() {
+  void sample() {
     assertEquals(96, Kata.seatsInTheater(16, 11, 5, 3));
     assertEquals(0, Kata.seatsInTheater(1, 1, 1, 1));
     assertEquals(18, Kata.seatsInTheater(13, 6, 8, 3));

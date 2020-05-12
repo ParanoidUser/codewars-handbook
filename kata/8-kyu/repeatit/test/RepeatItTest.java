@@ -1,14 +1,12 @@
-import static org.junit.Assert.assertEquals;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class RepeatItTest {
+import org.junit.jupiter.api.Test;
+
+class RepeatItTest {
   @Test
-  public void testStar() {
+  void sample() {
+    assertEquals("Not a string", RepeatIt.repeatString(null, 3));
     assertEquals("***", RepeatIt.repeatString("*", 3));
-  }
-
-  @Test
-  public void testHello() {
     assertEquals("HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello", RepeatIt.repeatString("Hello", 11));
   }
 }

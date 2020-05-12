@@ -1,15 +1,13 @@
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testSomething() {
-    Integer[] args = new Integer[] {1, 2};
-
-    Swapper r = new Swapper(args);
-    r.swapValues();
-    assertEquals("Failed swapping numbers", 2, r.arguments[0]);
-    assertEquals("Failed swapping numbers", 1, r.arguments[1]);
+  void sample() {
+    Integer[] args = new Integer[]{1, 2};
+    new Swapper(args).swapValues();
+    assertEquals(2, args[0]);
+    assertEquals(1, args[1]);
   }
 }
