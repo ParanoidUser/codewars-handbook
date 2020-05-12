@@ -1,7 +1,7 @@
-import java.util.Arrays;
+import static java.util.stream.IntStream.of;
 
-class Kata {
- static int squareSum(int[] n) {
-    return Arrays.stream(n).map(i -> i * i).sum();
+interface Kata {
+  static int squareSum(int[] n) {
+    return of(n).map(i -> i * i).sum();
   }
 }
