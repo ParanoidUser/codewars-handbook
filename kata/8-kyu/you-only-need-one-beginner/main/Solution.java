@@ -1,7 +1,7 @@
-import java.util.Arrays;
+import static java.util.List.of;
 
-class Solution {
+interface Solution {
   static boolean check(Object[] a, Object x) {
-    return Arrays.asList(a).contains(x);
+    return of(a).contains(x);
   }
 }

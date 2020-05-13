@@ -1,5 +1,5 @@
-class Java {
+interface Java {
   static int doubleInteger(int i) {
-    return i * 2;
+    return i + i;
   }
 }

@@ -1,8 +1,8 @@
-import java.util.Arrays;
+import static java.util.stream.Stream.of;
 
-class Kata {
+interface Kata {
   static String well(String[] ideas) {
-    long count = Arrays.stream(ideas).filter(i -> i.equals("good")).count();
+    long count = of(ideas).filter(i -> i.equals("good")).count();
     return count > 2 ? "I smell a series!" : count > 0 ? "Publish!" : "Fail!";
   }
 }
