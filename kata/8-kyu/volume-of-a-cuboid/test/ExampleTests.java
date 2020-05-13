@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExampleTests {
+class ExampleTests {
   @Test
-  public void examples() {
+  void sample() {
     assertEquals(4, Kata.getVolumeOfCuboid(1, 2, 2), 0.0001);
     assertEquals(63, Kata.getVolumeOfCuboid(6.3, 2, 5), 0.0001);
   }

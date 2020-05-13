@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ThirdAngleTest {
+class ThirdAngleTest {
   @Test
-  public void testOtherAngle() {
+  void sample() {
     assertEquals(123, ThirdAngle.otherAngle(45, 12));
     assertEquals(70, ThirdAngle.otherAngle(50, 60));
   }

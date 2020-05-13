@@ -1,21 +1,16 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class WilsonPrimeTest {
+class WilsonPrimeTest {
   @Test
-  public void test1() {
-    assertFalse(WilsonPrime.am_i_wilson(0));
-  }
-
-  @Test
-  public void test2() {
-    assertFalse(WilsonPrime.am_i_wilson(1));
-  }
-
-  @Test
-  public void test3() {
+  void sample() {
     assertTrue(WilsonPrime.am_i_wilson(5));
+    assertTrue(WilsonPrime.am_i_wilson(13));
+    assertTrue(WilsonPrime.am_i_wilson(563));
+    assertFalse(WilsonPrime.am_i_wilson(0));
+    assertFalse(WilsonPrime.am_i_wilson(1));
+    assertFalse(WilsonPrime.am_i_wilson(700));
   }
 }

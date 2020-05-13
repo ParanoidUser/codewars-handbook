@@ -1,16 +1,15 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import java.util.Arrays;
+import java.util.List;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void SampleTests() {
-    assertEquals(Arrays.asList(1), Kata.CreateList(1));
-    assertEquals(Arrays.asList(1, 2), Kata.CreateList(2));
-    assertEquals(Arrays.asList(1, 2, 3), Kata.CreateList(3));
-    assertEquals(Arrays.asList(1, 2, 3, 4), Kata.CreateList(4));
-    assertEquals(Arrays.asList(1, 2, 3, 4, 5), Kata.CreateList(5));
+  void sample() {
+    assertEquals(List.of(1), Kata.CreateList(1));
+    assertEquals(List.of(1, 2), Kata.CreateList(2));
+    assertEquals(List.of(1, 2, 3), Kata.CreateList(3));
+    assertEquals(List.of(1, 2, 3, 4), Kata.CreateList(4));
+    assertEquals(List.of(1, 2, 3, 4, 5), Kata.CreateList(5));
   }
 }

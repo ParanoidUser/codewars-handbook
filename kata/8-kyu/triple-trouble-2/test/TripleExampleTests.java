@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class TripleExampleTests {
+class TripleExampleTests {
   @Test
-  public void tests() {
+  void sample() {
     assertEquals("ttlheoiscstk", Kata.tripleTrouble("this", "test", "lock"));
     assertEquals("abcabc", Kata.tripleTrouble("aa", "bb", "cc"));
     assertEquals("Batman", Kata.tripleTrouble("Bm", "aa", "tn"));

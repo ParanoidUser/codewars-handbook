@@ -1,10 +1,11 @@
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void fixedTests() {
+  void sample() {
     assertTrue(Kata.isDivisible(4050, 27));
     assertTrue(Kata.isDivisible(10000, 20));
     assertTrue(Kata.isDivisible(10005, 1));

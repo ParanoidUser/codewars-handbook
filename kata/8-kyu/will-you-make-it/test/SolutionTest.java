@@ -1,11 +1,11 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testSomething() {
+  void sample() {
     assertTrue(Kata.zeroFuel(50, 25, 2));
     assertFalse(Kata.zeroFuel(100, 50, 1));
   }
