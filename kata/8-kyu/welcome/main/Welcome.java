@@ -1,7 +1,7 @@
 import static java.util.Map.entry;
 import static java.util.Map.ofEntries;
 
-class Welcome {
+interface Welcome {
   static String greet(String language) {
     return ofEntries(
             entry("czech", "Vitejte"),

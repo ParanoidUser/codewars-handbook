@@ -1,7 +1,7 @@
 class NameMe {
-  String firstName;
-  String lastName;
-  String fullName;
+  final String firstName;
+  final String lastName;
+  final String fullName;
 
   NameMe(String first, String last) {
     this.firstName = first;
