@@ -1,9 +1,10 @@
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class HelloTest {
+import org.junit.jupiter.api.Test;
+
+class HelloTest {
   @Test
-  public void test1() {
-    assertEquals("Hello, John Smith! Welcome to Phoenix, Arizona!", Hello.sayHello(new String[] {"John", "Smith"}, "Phoenix", "Arizona"));
+  void sample() {
+    assertEquals("Hello, John Smith! Welcome to Phoenix, Arizona!", Hello.sayHello(new String[]{"John", "Smith"}, "Phoenix", "Arizona"));
   }
 }

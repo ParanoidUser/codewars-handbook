@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class TwiceAsOldTest {
+class TwiceAsOldTest {
   @Test
-  public void testSomething() {
+  void sample() {
     assertEquals(30, TwiceAsOld.TwiceAsOld(30, 0));
     assertEquals(16, TwiceAsOld.TwiceAsOld(30, 7));
     assertEquals(15, TwiceAsOld.TwiceAsOld(45, 30));

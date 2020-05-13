@@ -1,13 +1,15 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void fixedTest() {
+  void sample() {
     assertTrue(Kata.feast("great blue heron", "garlic nann"));
     assertTrue(Kata.feast("chickadee", "chocolate cake"));
     assertFalse(Kata.feast("brown bear", "bear claw"));
+    assertFalse(Kata.feast("brown bear", "polar bear"));
+    assertFalse(Kata.feast("brown bear", "chocolate cake"));
   }
 }
