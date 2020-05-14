@@ -1,13 +1,17 @@
 package com.codewars.julesnuggy;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class BingoOrNotTest {
+class BingoOrNotTest {
   @Test
-  public void fixed() {
-    assertEquals("LOSE", BingoOrNot.bingo(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}));
-    assertEquals("WIN", BingoOrNot.bingo(new int[] {21, 13, 2, 7, 5, 14, 7, 15, 9, 10}));
+  void sample() {
+    assertEquals("LOSE", BingoOrNot.bingo(new int[]{21, 13, 3, 7, 5, 14, 7, 15, 9, 10}));
+    assertEquals("LOSE", BingoOrNot.bingo(new int[]{21, 13, 2, 8, 5, 14, 8, 15, 9, 10}));
+    assertEquals("LOSE", BingoOrNot.bingo(new int[]{21, 13, 2, 7, 5, 14, 7, 15, 4, 10}));
+    assertEquals("LOSE", BingoOrNot.bingo(new int[]{21, 13, 2, 7, 5, 11, 7, 15, 9, 10}));
+    assertEquals("LOSE", BingoOrNot.bingo(new int[]{21, 13, 2, 7, 5, 14, 7, 11, 9, 10}));
+    assertEquals("WIN", BingoOrNot.bingo(new int[]{21, 13, 2, 7, 5, 14, 7, 15, 9, 10}));
   }
 }

@@ -1,23 +1,13 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class FirstNonRepeatedTest {
+class FirstNonRepeatedTest {
   @Test
-  public void test1() {
-    Character output = FirstNonRepeated.firstNonRepeated("test");
-    assertEquals((Character) 'e', output);
-  }
-
-  @Test
-  public void test2() {
-    Character output = FirstNonRepeated.firstNonRepeated("teeter");
-    assertEquals((Character) 'r', output);
-  }
-
-  @Test
-  public void test3() {
-    Character output = FirstNonRepeated.firstNonRepeated("1122321235121222");
-    assertEquals((Character) '5', output);
+  void sample() {
+    assertEquals((Character) 'e', FirstNonRepeated.firstNonRepeated("test"));
+    assertEquals((Character) 'r', FirstNonRepeated.firstNonRepeated("teeter"));
+    assertEquals((Character) '5', FirstNonRepeated.firstNonRepeated("1122321235121222"));
+    assertEquals((Character) '\0', FirstNonRepeated.firstNonRepeated(""));
   }
 }

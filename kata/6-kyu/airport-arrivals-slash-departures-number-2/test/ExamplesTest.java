@@ -1,26 +1,12 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExamplesTest {
+class ExamplesTest {
   @Test
-  public void exampleFlapRotors() {
-    String[] before = new String[] {"CAT"};
-    String[] after = new String[] {"DOG"};
-    int[][] rotors = {{1, 13, 27}};
-    assertArrayEquals(rotors, Dinglemouse.flapRotors(before, after));
-  }
-
-  @Test
-  public void basicFlapRotors() {
-    String[] before = new String[] {"HELLO "};
-    String[] after = new String[] {"WORLD!"};
-    int[][] rotors = {{15, 49, 50, 48, 43, 13}};
-    assertArrayEquals(rotors, Dinglemouse.flapRotors(before, after));
-
-    before = new String[] {"CODE"};
-    after = new String[] {"WARS"};
-    rotors = new int[][] {{20, 20, 28, 0}};
-    assertArrayEquals(rotors, Dinglemouse.flapRotors(before, after));
+  void sample() {
+    assertArrayEquals(new int[][]{{1, 13, 27}}, Dinglemouse.flapRotors(new String[]{"CAT"}, new String[]{"DOG"}));
+    assertArrayEquals(new int[][]{{20, 20, 28, 0}}, Dinglemouse.flapRotors(new String[]{"CODE"}, new String[]{"WARS"}));
+    assertArrayEquals(new int[][]{{15, 49, 50, 48, 43, 13}}, Dinglemouse.flapRotors(new String[]{"HELLO "}, new String[]{"WORLD!"}));
   }
 }
