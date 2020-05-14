@@ -1,4 +1,6 @@
-class Dinglemouse extends Preloaded {
+final class Dinglemouse {
+  static final String ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ?!@#&()|<>.:=-+*/0123456789";
+
   static int[][] flapRotors(String[] linesBefore, String[] linesAfter) {
     int[][] rotors = new int[linesBefore.length][];
     for (int i = 0; i < linesBefore.length; i++) {
@@ -11,4 +13,6 @@ class Dinglemouse extends Preloaded {
     }
     return rotors;
   }
+
+  private Dinglemouse() {}
 }
