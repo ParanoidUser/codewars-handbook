@@ -1,20 +1,15 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class FactorialTests {
+class FactorialTests {
   @Test
-  public void test_factorial0() {
+  void sample() {
     assertEquals(1, Factorial.factorial(0));
-  }
-
-  @Test
-  public void test_factorial3() {
     assertEquals(6, Factorial.factorial(3));
-  }
-
-  @Test
-  public void test_factorial5() {
     assertEquals(120, Factorial.factorial(5));
+    assertThrows(IllegalArgumentException.class, () -> Factorial.factorial(-1));
+    assertThrows(IllegalArgumentException.class, () -> Factorial.factorial(13));
   }
 }
