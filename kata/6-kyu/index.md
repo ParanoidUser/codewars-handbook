@@ -39,6 +39,7 @@
 - [Bouncing Balls](bouncing-balls)
 - [Bowling Pins](bowling-pins)
 - [Braking well](braking-well)
+- [Break camelCase](break-camelcase)
 - [Brick pyramid](brick-pyramid)
 - [Build a pile of Cubes](build-a-pile-of-cubes)
 - [Button sequences](button-sequences)
@@ -80,6 +81,7 @@
 - [Decode the Morse code](decode-the-morse-code)
 - [Delete occurrences of an element if it occurs more than n times](delete-occurrences-of-an-element-if-it-occurs-more-than-n-times)
 - [Detect Pangram](detect-pangram)
+- [Difference of 2](difference-of-2)
 - [Disease Spread](disease-spread)
 - [Dubstep](dubstep)
 - [Duplicate Encoder](duplicate-encoder)
@@ -113,6 +115,7 @@
 - [Function iteration](function-iteration)
 # G
 - [Give me a Diamond](give-me-a-diamond)
+- [Grill it!](grill-it)
 - [Guess the number!](guess-the-number-1)
 # H
 - [Help the bookseller!](help-the-bookseller)
@@ -174,7 +177,9 @@
 - [Rectangle into Squares](rectangle-into-squares)
 - [Reducing by steps](reducing-by-steps)
 - [Regex Tic Tac Toe Win Checker](regex-tic-tac-toe-win-checker)
+- [Replacement](replacement)
 - [Return 1, 2, 3 randomly](return-1-2-3-randomly)
+- [Reverse a singly-linked list](reverse-a-singly-linked-list)
 - [Reverse or rotate?](reverse-or-rotate)
 - [Reverse polish notation calculator](reverse-polish-notation-calculator)
 - [Reversing a Process](reversing-a-process)
