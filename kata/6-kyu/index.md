@@ -84,6 +84,7 @@
 - [Detect Pangram](detect-pangram)
 - [Difference of 2](difference-of-2)
 - [Disease Spread](disease-spread)
+- [Divisible Ints](divisible-ints)
 - [Dubstep](dubstep)
 - [Duplicate Encoder](duplicate-encoder)
 # E
@@ -120,6 +121,7 @@
 - [Grill it!](grill-it)
 - [Guess the number!](guess-the-number-1)
 # H
+- [Handshake problem](handshake-problem)
 - [Help the bookseller!](help-the-bookseller)
 - [Hidden "Cubic" numbers](hidden-cubic-numbers)
 - [Highest Scoring Word](highest-scoring-word)
@@ -131,6 +133,7 @@
 - [Irreducible Sum of Rationals](irreducible-sum-of-rationals)
 - [Is a number prime?](is-a-number-prime)
 # L
+- [L3375p34k](l3375p34k)
 - [Length of missing array](length-of-missing-array)
 - [Longest alphabetical substring](longest-alphabetical-substring)
 - [Longest_palindrome](longest-palindrome)
@@ -149,6 +152,7 @@
 - [Multi-tap Keypad Text Entry on an Old Mobile Phone](multi-tap-keypad-text-entry-on-an-old-mobile-phone)
 - [Multiples of 3 or 5](multiples-of-3-or-5)
 # N
+- [Not prime numbers](not-prime-numbers)
 - [Number Zoo Patrol](number-zoo-patrol)
 - [Numericals of a String](numericals-of-a-string)
 # O
@@ -261,6 +265,7 @@
 - [Vasya and System of Equations](vasya-and-system-of-equations)
 # W
 - [What's in a name?](whats-in-a-name)
+- [What's Your Poison?](whats-your-poison)
 - [Where is my parent!?(cry)](where-is-my-parent-cry)
 - [Which are in?](which-are-in)
 - [Who likes it?](who-likes-it)
