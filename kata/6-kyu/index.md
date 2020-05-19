@@ -102,6 +102,7 @@
 # F
 - [Fibonacci, Tribonacci and friends](fibonacci-tribonacci-and-friends)
 - [Financing Plan on Planet XY140Z-n](financing-plan-on-planet-xy140z-n)
+- [Find last Fibonacci digit [hardcore version]](find-last-fibonacci-digit-hardcore-version)
 - [Find the missing letter](find-the-missing-letter)
 - [Find the odd int](find-the-odd-int)
 - [Find The Parity Outlier](find-the-parity-outlier)
@@ -113,6 +114,7 @@
 - [Fractions class](fractions-class)
 - [Frog jumping](frog-jumping)
 - [Fruit Machine](fruit-machine)
+- [Fun with lists: countIf](fun-with-lists-countif)
 - [Fun with lists: map](fun-with-lists-map)
 - [Fun with trees: max sum](fun-with-trees-max-sum)
 - [Function iteration](function-iteration)
@@ -126,6 +128,7 @@
 - [Hidden "Cubic" numbers](hidden-cubic-numbers)
 - [Highest Scoring Word](highest-scoring-word)
 - [How Much?](how-much)
+- [HTML dynamic color string generation](html-dynamic-color-string-generation)
 # I
 - [Integer depth](integer-depth)
 - [Integers: Recreation Two](integers-recreation-two)
@@ -157,6 +160,7 @@
 - [Numericals of a String](numericals-of-a-string)
 # O
 - [Odd/Even number of divisors](odd-slash-even-number-of-divisors)
+- [Overflowing with longing](overflowing-with-longing)
 # P
 - [Parabolic Arc Length](parabolic-arc-length)
 - [Parse HTML/CSS Colors](parse-html-slash-css-colors)
@@ -201,6 +205,7 @@
 - [Simple card game](simple-card-game)
 - [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
 - [Simple Fun #116: Prime String](simple-fun-number-116-prime-string)
+- [Simple Fun #319: Number And IP Address](simple-fun-number-319-number-and-ip-address)
 - [Simple string indices](simple-string-indices)
 - [Simple transposition](simple-transposition)
 - [Simpson's Rule - Approximate Integration](simpsons-rule-approximate-integration)
