@@ -6,7 +6,7 @@
            title="Views statistics +1 👀">
    </a>
    <a href="https://www.codewars.com">
-      <img src="https://img.shields.io/badge/solved%20kata-950-red.svg"
+      <img src="https://img.shields.io/badge/solved%20kata-955-red.svg"
            title="Number of solved kata 👌">
    </a>
    <a href="https://travis-ci.org/ParanoidUser/codewars-handbook">
@@ -57,7 +57,7 @@ If you find the repo helpful, **please give it a thank with** <span title="↑�
                title="- Defining a simple function (i.e. hello world)&#13;- Basic variable assignments&#13;- Fixing basic syntax issues&#13;- Trivial algorithms such as basic if/else statements">8th kyū
             </a>
          </td>
-         <td>173</td>
+         <td>174</td>
       </tr>
       <tr>
          <td>
@@ -74,7 +74,7 @@ If you find the repo helpful, **please give it a thank with** <span title="↑�
                title="- Complex language features (closures, scopes, monads, etc)&#13;- Complex OOP/Functional concepts&#13;- Basic Design Patterns&#13;- Complex Regular Expressions">6th kyū
             </a>
          </td>
-         <td>259</td>
+         <td>263</td>
       </tr>
       <tr>
          <td>

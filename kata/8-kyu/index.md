@@ -86,6 +86,7 @@
 - [Grasshopper - Debug](grasshopper-debug)
 - [Grasshopper - Debug sayHello](grasshopper-debug-sayhello)
 - [Grasshopper - Grade book](grasshopper-grade-book)
+- [Grasshopper - Messi Goals](grasshopper-messi-goals)
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function)
 - [Grasshopper - Personalized Message](grasshopper-personalized-message)
 - [Grasshopper - Summation](grasshopper-summation)
