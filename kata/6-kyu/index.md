@@ -155,6 +155,7 @@
 - [Multi-tap Keypad Text Entry on an Old Mobile Phone](multi-tap-keypad-text-entry-on-an-old-mobile-phone)
 - [Multiples of 3 or 5](multiples-of-3-or-5)
 # N
+- [No one likes carrying change](no-one-likes-carrying-change)
 - [Not prime numbers](not-prime-numbers)
 - [Number Zoo Patrol](number-zoo-patrol)
 - [Numericals of a String](numericals-of-a-string)
@@ -163,6 +164,7 @@
 - [Overflowing with longing](overflowing-with-longing)
 # P
 - [Parabolic Arc Length](parabolic-arc-length)
+- [Parse bank account number](parse-bank-account-number)
 - [Parse HTML/CSS Colors](parse-html-slash-css-colors)
 - [Pascal's Triangle #2](pascals-triangle-number-2)
 - [Paths in the Grid](paths-in-the-grid)
@@ -205,6 +207,7 @@
 - [Simple card game](simple-card-game)
 - [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
 - [Simple Fun #116: Prime String](simple-fun-number-116-prime-string)
+- [Simple Fun #165: Withdraw](simple-fun-number-165-withdraw)
 - [Simple Fun #319: Number And IP Address](simple-fun-number-319-number-and-ip-address)
 - [Simple string indices](simple-string-indices)
 - [Simple transposition](simple-transposition)
@@ -243,6 +246,7 @@
 - [The Deaf Rats of Hamelin (2D)](the-deaf-rats-of-hamelin-2d)
 - [The difference between 11 and 21 in Ping-Pong](the-difference-between-11-and-21-in-ping-pong)
 - [The Enigma Machine - Part 1: The Plugboard](the-enigma-machine-part-1-the-plugboard)
+- [The Modulo-3 Sequence](the-modulo-3-sequence)
 - [The Office V - Find a Chair](the-office-v-find-a-chair)
 - [The Spider and the Fly (Jumping Spider)](the-spider-and-the-fly-jumping-spider)
 - [The Supermarket Queue](the-supermarket-queue)
