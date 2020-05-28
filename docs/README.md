@@ -48,7 +48,7 @@ If you find the repo helpful, **please give it a thank with** <span title="â†‘â†
                title="All published kata which are waiting for community approval and difficulty ranking.">Any
             </a>
          </td>
-         <td>78</td>
+         <td>77</td>
       </tr>
       <tr>
          <td rowspan=2>Beginner (2 points)</td>
@@ -74,7 +74,7 @@ If you find the repo helpful, **please give it a thank with** <span title="â†‘â†
                title="- Complex language features (closures, scopes, monads, etc)&#13;- Complex OOP/Functional concepts&#13;- Basic Design Patterns&#13;- Complex Regular Expressions">6th kyÅ«
             </a>
          </td>
-         <td>263</td>
+         <td>264</td>
       </tr>
       <tr>
          <td>

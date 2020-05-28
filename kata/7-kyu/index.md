@@ -93,6 +93,7 @@
 - [Count consonants](count-consonants)
 - [Count the Characters](count-the-characters)
 - [Count the Digit](count-the-digit)
+- [Count the divisors of a number](count-the-divisors-of-a-number)
 - [Counting power sets](counting-power-sets)
 - [Covfefe](covfefe)
 - [Credit card issuer checking](credit-card-issuer-checking)
@@ -132,7 +133,6 @@
 - [Fibonacci](fibonacci)
 - [Find all pairs](find-all-pairs-1)
 - [Find Count of Most Frequent Item in an Array](find-count-of-most-frequent-item-in-an-array)
-- [Find divisors of a number](find-divisors-of-a-number)
 - [Find Fibonacci last digit](find-fibonacci-last-digit)
 - [Find Max Tree Node](find-max-tree-node)
 - [Find Screen Size](find-screen-size)
@@ -305,7 +305,6 @@
 # Q
 - [Quicksum](quicksum)
 # R
-- [Recursive reverse string](recursive-reverse-string)
 - [Redacted!](redacted)
 - [Regex validate PIN code](regex-validate-pin-code)
 - [Regex validation of 24 hours time.](regex-validation-of-24-hours-time)
@@ -320,6 +319,7 @@
 - [Remove Duplicates](remove-duplicates)
 - [Replace every nth](replace-every-nth)
 - [Resistor Color Codes](resistor-color-codes)
+- [Responsible Drinking](responsible-drinking)
 - [Return the first M multiples of N](return-the-first-m-multiples-of-n)
 - [Reverse a Number](reverse-a-number)
 - [Reverse words](reverse-words)
