@@ -60,8 +60,7 @@
 # R
 - [Random Wallpaper](random-wallpaper)
 - [Range Merging](range-merging)
-- [Regex pattern to check if string has all characters](regex-pattern-to-check-if-string-has-all-characters)
-- [Responsible Drinking](responsible-drinking)
+- [Recursive reverse string](recursive-reverse-string)
 # S
 - [Sexagesimal degree](sexagesimal-degree)
 - [Simple string concatenator](simple-string-concatenator)
