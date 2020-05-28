@@ -20,8 +20,6 @@
 - [Count the likes](count-the-likes)
 - [Counting Characters](counting-characters)
 - [Counting like a kid](counting-like-a-kid)
-# E
-- [Everybody hates Mondays](everybody-hates-mondays)
 # F
 - [Fibonacci Number](fibonacci-number-1)
 - [Find Email Domain](find-email-domain)

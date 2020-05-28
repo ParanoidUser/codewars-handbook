@@ -96,6 +96,7 @@
 - [Equal Sides Of An Array](equal-sides-of-an-array)
 - [Errors : histogram](errors-histogram)
 - [Esolang Interpreters #1 - Introduction to Esolangs and My First Interpreter (MiniStringFuck)](esolang-interpreters-number-1-introduction-to-esolangs-and-my-first-interpreter-ministringfuck)
+- [Everybody hates Mondays](everybody-hates-mondays)
 - [Evil Autocorrect Prank](evil-autocorrect-prank)
 - [Experimenting with a sequence of complex numbers](experimenting-with-a-sequence-of-complex-numbers)
 - [Extract file name](extract-file-name)
