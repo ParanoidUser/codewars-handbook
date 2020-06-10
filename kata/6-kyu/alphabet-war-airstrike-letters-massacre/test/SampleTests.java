@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SampleTests {
+class SampleTests {
   @Test
-  public void sampleTestCases() {
+  void sample() {
     assertEquals("Right side wins!", AlphabetWarAirstrike.alphabetWar("z"));
     assertEquals("Let's fight again!", AlphabetWarAirstrike.alphabetWar("****"));
     assertEquals("Let's fight again!", AlphabetWarAirstrike.alphabetWar("z*dq*mw*pb*s"));

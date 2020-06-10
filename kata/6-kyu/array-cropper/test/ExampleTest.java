@@ -1,22 +1,20 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExampleTest {
+class ExampleTest {
   @Test
-  public void test() {
-    int[][] sample = {
-      {0, 1, 0, 0},
-      {0, 0, 1, 0},
-      {1, 1, 1, 0},
-      {0, 0, 0, 0}
-    };
-
-    assertArrayEquals(new int[][] {
-          {0, 1, 0},
-          {0, 0, 1},
-          {1, 1, 1}
+  void sample() {
+    assertArrayEquals(new int[][]{
+            {0, 1, 0},
+            {0, 0, 1},
+            {1, 1, 1}
         },
-        ArrayCropper.getCroppedFieldAsArray(sample));
+        ArrayCropper.getCroppedFieldAsArray(new int[][]{
+            {0, 1, 0, 0},
+            {0, 0, 1, 0},
+            {1, 1, 1, 0},
+            {0, 0, 0, 0}
+        }));
   }
 }

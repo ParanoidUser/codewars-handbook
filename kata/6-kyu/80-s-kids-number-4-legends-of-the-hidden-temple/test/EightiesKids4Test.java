@@ -1,25 +1,15 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class EightiesKids4Test {
+class EightiesKids4Test {
   @Test
-  public void test1() {
-    assertEquals("X       X\n  X   X\n    X\n  X   X\nX       X\n", EightiesKids4.markSpot(5));
-  }
-
-  @Test
-  public void test2() {
-    assertEquals("X\n", EightiesKids4.markSpot(1));
-  }
-
-  @Test
-  public void test3() {
+  void sample() {
     assertEquals("X                   X\n  X               X\n    X           X\n      X       X\n        X   X\n          X\n        X   X\n      X       X\n    X           X\n  X               X\nX                   X\n", EightiesKids4.markSpot(11));
-  }
-
-  @Test
-  public void test4() {
+    assertEquals("X       X\n  X   X\n    X\n  X   X\nX       X\n", EightiesKids4.markSpot(5));
+    assertEquals("X\n", EightiesKids4.markSpot(1));
     assertEquals("?", EightiesKids4.markSpot(-1));
+    assertEquals("?", EightiesKids4.markSpot(4));
+    assertEquals("?", EightiesKids4.markSpot(.5f));
   }
 }

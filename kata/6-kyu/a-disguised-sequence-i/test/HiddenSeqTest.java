@@ -1,12 +1,11 @@
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.math.BigInteger;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class HiddenSeqTest {
+class HiddenSeqTest {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals(BigInteger.valueOf(131072), HiddenSeq.fcn(17));
     assertEquals(BigInteger.valueOf(2097152), HiddenSeq.fcn(21));
     assertEquals(BigInteger.valueOf(16384), HiddenSeq.fcn(14));

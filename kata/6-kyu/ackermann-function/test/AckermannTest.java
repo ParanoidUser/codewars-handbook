@@ -1,11 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class AckermannTest {
+class AckermannTest {
   @Test
-  public void shouldWork() {
-    assertEquals("3", 3, Solution.Ackermann(1, 1), 0);
-    assertEquals("13", 13, Solution.Ackermann(4, 0), 0);
+  void sample() {
+    assertEquals(3, Solution.Ackermann(1, 1));
+    assertEquals(13, Solution.Ackermann(4, 0));
+    assertEquals(5, Solution.Ackermann(0, 4));
   }
 }

@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ThirteenTest {
+class ThirteenTest {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals(79, Thirteen.thirt(8529));
     assertEquals(31, Thirteen.thirt(85299258));
     assertEquals(57, Thirteen.thirt(5634));

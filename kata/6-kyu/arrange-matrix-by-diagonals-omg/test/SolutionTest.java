@@ -1,36 +1,34 @@
-import org.junit.Assert;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class SolutionTest {
+import org.junit.jupiter.api.Test;
+
+class SolutionTest {
   @Test
-  public void basicTests() {
-    char[][] input = new char[][] {
-          {'a', 'b'},
-          {'c', 'd'}
-        };
-    Assert.assertArrayEquals(new char[][] {
-            {'a', 'c'},
-            {'b', 'd'}
-    }, JomoPipi.diagonalSort(input));
+  void sample() {
+    assertArrayEquals(new char[][]{
+        {'a', 'c'},
+        {'b', 'd'}
+    }, JomoPipi.diagonalSort(new char[][]{
+        {'a', 'b'},
+        {'c', 'd'}
+    }));
 
-    char[][] t = new char[][] {
-          {'1', 'd', '3'},
-          {'e', '5', 'f'},
-          {'H', 'I', '9'}
-        };
-    Assert.assertArrayEquals(new char[][] {
-          {'1', '3', 'f'},
-          {'d', '5', 'I'},
-          {'e', 'H', '9'}
-        }, JomoPipi.diagonalSort(t));
+    assertArrayEquals(new char[][]{
+        {'1', '3', 'f'},
+        {'d', '5', 'I'},
+        {'e', 'H', '9'}
+    }, JomoPipi.diagonalSort(new char[][]{
+        {'1', 'd', '3'},
+        {'e', '5', 'f'},
+        {'H', 'I', '9'}
+    }));
 
-    char[][] t2 = new char[][] {
-          {'1', '2', '3'},
-          {'4', '5', '6'},
-        };
-    Assert.assertArrayEquals(new char[][] {
-          {'1', '3', '5'},
-          {'2', '4', '6'},
-        }, JomoPipi.diagonalSort(t2));
+    assertArrayEquals(new char[][]{
+        {'1', '3', '5'},
+        {'2', '4', '6'},
+    }, JomoPipi.diagonalSort(new char[][]{
+        {'1', '2', '3'},
+        {'4', '5', '6'},
+    }));
   }
 }
