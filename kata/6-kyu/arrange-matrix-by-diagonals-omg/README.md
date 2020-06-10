@@ -34,7 +34,7 @@ The diagonals run from bottom left to top right.
 The first diagonal starts at element[0][0].
 
 
-# Note: 
+## Note: 
 
 the ascii value of chars is does not affect the ordering.
 

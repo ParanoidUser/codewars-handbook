@@ -1,10 +1,10 @@
 # [Ackermann Function](https://www.codewars.com/kata/ackermann-function "https://www.codewars.com/kata/53ad69892a27079b34000bd9")
 
-The Ackermann function is a famous function that played a big role in computability theory as the first exemple of a total computable function that is not primitive recursive.
+The Ackermann function is a famous function that played a big role in computability theory as the first example of a total computable function that is not primitive recursive.
 
 Since then the function has been a bit simplified but is still of good use. Due to its definition in terms of extremely deep recursion it can be used as a benchmark of a compiler's ability to optimize recursion. 
 
-The goal of this kata is to code a function wich will be given two input, m and n, and will return the Ackermann number A(m,n) defined by:
+The goal of this kata is to code a function which will be given two inputs, m and n, and will return the Ackermann number A(m,n) defined by:
 
 ```
 A(m,n) = n+1                          if m=0  

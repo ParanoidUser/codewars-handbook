@@ -3,12 +3,13 @@
 Given <code>u<sub>0</sub> = 1, u<sub>1</sub> = 2</code> and the relation
 <code>6u<sub>n</sub>u<sub>n+1</sub>-5u<sub>n</sub>u<sub>n+2</sub>+u<sub>n+1</sub>u<sub>n+2</sub> = 0</code>
 calculate <code>u<sub>n</sub> for any integer n >= 0</code>.
-#Examples
+
+## Examples
 
 fcn(n) returns <code>u<sub>n</sub></code>: 
 ` fcn(17) -> 131072, fcn(21) -> 2097152`
 
-Remark:
+## Remark
 You can take two points of view to do this kata: 
 
 - the first one purely algorithmic from the definition of <code>u<sub>n</sub></code>
