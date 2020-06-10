@@ -1,16 +1,16 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class RobotTest {
-  private Robot vicky = new Robot();
-
+class RobotTest {
   @Test
-  public void simpleTest() {
-    assertEquals("Thank you for teaching me hello", vicky.learnWord("hello"));
-    assertEquals("Thank you for teaching me world", vicky.learnWord("world"));
-    assertEquals("Thank you for teaching me goodbye", vicky.learnWord("goodbye"));
-    assertEquals("I already know the word world", vicky.learnWord("world"));
-    assertEquals("I already know the word World", vicky.learnWord("World"));
+  void sample() {
+    var robot = new Robot();
+    assertEquals("Thank you for teaching me hello", robot.learnWord("hello"));
+    assertEquals("Thank you for teaching me world", robot.learnWord("world"));
+    assertEquals("Thank you for teaching me goodbye", robot.learnWord("goodbye"));
+    assertEquals("I already know the word world", robot.learnWord("world"));
+    assertEquals("I already know the word World", robot.learnWord("World"));
+    assertEquals("I do not understand the input", robot.learnWord(""));
   }
 }

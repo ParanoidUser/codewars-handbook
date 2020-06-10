@@ -1,12 +1,13 @@
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class AreSameTest {
+class AreSameTest {
   @Test
-  public void test1() {
-    int[] a = new int[] {121, 144, 19, 161, 19, 144, 19, 11};
-    int[] b = new int[] {121, 14641, 20736, 361, 25921, 361, 20736, 361};
-    assertTrue(AreSame.comp(a, b));
+  void sample() {
+    assertTrue(AreSame.comp(new int[]{121, 144, 19, 161, 19, 144, 19, 11}, new int[]{121, 14641, 20736, 361, 25921, 361, 20736, 361}));
+    assertFalse(AreSame.comp(new int[]{121, 144, 19, 161, 19, 144, 19, 11}, new int[]{121, 14641, 20736, 361, 25921, 361, 20736}));
+    assertFalse(AreSame.comp(new int[]{121, 144, 19, 161, 19, 144, 19, 11}, null));
   }
 }
