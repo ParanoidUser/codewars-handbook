@@ -1,7 +1,5 @@
 # [A + B == 123](https://www.codewars.com/kata/a-plus-b-equals-equals-123 "https://www.codewars.com/kata/5966a52ab4f24db1800000cc")
 
-# Task
-
 Given number `A` you must return number `B` so that
 
 ```

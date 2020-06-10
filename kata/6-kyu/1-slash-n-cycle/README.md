@@ -8,11 +8,11 @@ We see that the decimal part has a cycle: `142857`. The length of this cycle is 
 
 `1/11 = 0.09 09 09 ...`. Cycle length is `2`.
 
-# Task
+## Task
 
 Given an integer n (n > 1), the function cycle(n) returns the length of the cycle if n and 10 are coprimes, otherwise returns -1.
 
-# Examples:
+## Examples:
 ```
 cycle(5) = -1
 cycle(13) = 6 -> 0.076923 076923 0769

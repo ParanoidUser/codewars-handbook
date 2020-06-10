@@ -26,12 +26,12 @@ or (the separator is `\n` or `\r\n` depending on the language)
 "Massachusetts\r\n..... John Daggett 341 King Road Plymouth Massachusetts\r\n..... Sal Carpenter 73 6th Street Boston Massachusetts\r\n Virginia\r\n..... Alice Ford 22 East Broadway Richmond Virginia"
 ```
 
-# Notes
-- There can be a blank last line in the given string of adresses.
+## Notes
+- There can be a blank last line in the given string of addresses.
 - The tests only contains CA, MA, OK, PA, VA, AZ, ID, IN for states.
 - You can see another example in the "Sample tests".
 
-# States
+## States
 For the lazy ones:
 
 	'AZ': 'Arizona',
