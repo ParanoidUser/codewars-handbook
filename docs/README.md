@@ -45,7 +45,7 @@ If you find the repo helpful, **please give it a thank with** <span title="↑�
          <td rowspan=1>In Beta process (4 points)</td>
          <td>
             <a href="/kata/beta/index.md"
-               title="All published kata which are waiting for community approval and difficulty ranking.">Any
+               title="All published kata which are waiting for community approval and difficulty ranking">Any
             </a>
          </td>
          <td>76</td>
@@ -81,7 +81,7 @@ If you find the repo helpful, **please give it a thank with** <span title="↑�
             <a href="/kata/5-kyu/index.md"
                title="- Complex language features that require mature OOP/Functional concepts&#13;- Advanced OOP/Functional concepts&#13;- Complex Design Patterns&#13;- Advanced regular expression usage">5th kyū
             </a>
-         </td>
+         </td> 
          <td>6</td>
       </tr>
       <tr>
@@ -131,7 +131,7 @@ You acknowledge and agree that your use of the repository materials is at your o
 ## Contribute
 
 Your contribution is highly appreciated here. Feel free to open issues or send pull requests.  
-If you have any questions or comments [the Gitter chat](https://gitter.im/paranoiduser/codewars-handbook) is open for discussion.  
+If you have any questions or comments [the chat](https://gitter.im/paranoiduser/codewars-handbook) is open for discussion.  
 
 > *"This solution no longer solves the kata!"* 😤
 >> Please open an issue or create a pull request with a working copy.
@@ -143,7 +143,3 @@ If you have any questions or comments [the Gitter chat](https://gitter.im/parano
 >> You know what to do, right? 😉 Open an issue or create a pull request with an update!
 
 NOTE: Please **DO NOT** send solutions for missing kata problems!
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details
