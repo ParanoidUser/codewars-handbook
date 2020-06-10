@@ -1,6 +1,6 @@
 import java.math.BigInteger;
 
-class HiddenSeq {
+interface HiddenSeq {
   static BigInteger fcn(int n) {
     return BigInteger.TWO.pow(n);
   }

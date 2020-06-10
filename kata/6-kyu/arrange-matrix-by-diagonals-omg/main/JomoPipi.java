@@ -1,4 +1,4 @@
-class JomoPipi {
+interface JomoPipi {
   static char[][] diagonalSort(char[][] data) {
     char[][] sorted = new char[data.length][data[0].length];
     int x = 0, y = 0;

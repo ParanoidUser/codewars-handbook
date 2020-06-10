@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Kata {
+interface Kata {
   static int addAll(int[] numbers) {
     int total = 0;
     while (numbers.length > 1) {
