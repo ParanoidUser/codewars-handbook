@@ -8,9 +8,6 @@ class Robot {
   Set<String> dictionary = of(answers).flatMap(s -> of(s.toLowerCase().split(" "))).collect(toSet());
 
   String learnWord(String word) {
-    if (!word.matches("[a-zA-Z]+")) {
-      return answers[0];
-    }
-    return (dictionary.add(word.toLowerCase()) ? answers[2] : answers[1]) + " " + word;
+    return word.matches("[a-zA-Z]+") ? (dictionary.add(word.toLowerCase()) ? answers[2] : answers[1]) + " " + word : answers[0];
   }
 }

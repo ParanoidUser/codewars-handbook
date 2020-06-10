@@ -1,9 +1,7 @@
-class Cycle {
-  static int cycle(int n) {
-    if (n % 2 == 0 || n % 5 == 0) return -1;
+import static java.util.stream.IntStream.iterate;
 
-    int c = 1, m = 1;
-    while ((m = 10 * m % n) != 1) c++;
-    return c;
+interface Cycle {
+  static int cycle(int n) {
+    return n % 2 > 0 && n % 5 > 0 ? (int) (iterate(10 % n, i -> i > 1, i -> 10 * i % n).count() + 1) : -1;
   }
 }

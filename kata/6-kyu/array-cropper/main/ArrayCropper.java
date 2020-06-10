@@ -1,4 +1,4 @@
-class ArrayCropper {
+interface ArrayCropper {
   static int[][] getCroppedFieldAsArray(int[][] src) {
     int up = 0, down = src.length, left = 0, right = src[0].length;
     for (int i = 0; i < src.length; i++) {
