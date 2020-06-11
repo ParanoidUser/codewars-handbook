@@ -1,6 +1,5 @@
 # [B.A.D. Hashing](https://www.codewars.com/kata/bad-hashing "https://www.codewars.com/kata/59678a814e686ba17b000079")
 
-## Context
 The company <span style="color:#FFCCCC">_Bad Work_</span> has created a hashing algorithm they swear is flawless. [citation missing] You as a developer are tasked to code it. You doubt the peer reviewing of the standard at first but your boss says you should not complain and just create it. He assures you it'll be okay. The **Bombastic Awesome Dominator Hash** can't fail. 
 
 ## Description
@@ -8,12 +7,12 @@ The company <span style="color:#FFCCCC">_Bad Work_</span> has created a hashing 
 The hashing standard works as follows on a string:
 
 * If the string is longer than 32 characters, remove characters from the end until it is. If it contains less than 32 characters, add the 'a' character until it is 32 characters.
-* Convert every character to its' ascii code
-* Lexicographically sort the list by its' value  descending (don't worry about stability)
+* Convert every character to its ascii code
+* Lexicographically sort the list by its value  descending (don't worry about stability)
 * Add the index of the value to the ascii code.
   e.g the first value, 0 is added, second value 1, and so on
 * Take modulo 16 of each value
-* Change each value into a hexidecimal value 0-F
+* Change each value into a hexadecimal value 0-F
 * Return the string in uppercase
 
 They assure you it is _so_ complex, not even they know how it works exactly. Someone did a proof on a whiteboard with some words like "quad erat demonstrantum" and "hypothenuse". They were very good at math in high school.

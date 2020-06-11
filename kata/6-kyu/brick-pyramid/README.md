@@ -1,7 +1,5 @@
 # [Brick pyramid](https://www.codewars.com/kata/brick-pyramid "https://www.codewars.com/kata/5836f1bb44ff28b068000ba4")
 
-  Brick "pyramid".
-
   "Pyramid" is infinite.<br>
   "Pyramid" is two-dimensional (triangle).<br>
   

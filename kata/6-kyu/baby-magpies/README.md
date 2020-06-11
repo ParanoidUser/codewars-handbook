@@ -1,12 +1,12 @@
 # [Baby Magpies](https://www.codewars.com/kata/baby-magpies "https://www.codewars.com/kata/59bb02f5623654a0dc000119")
 
-# Magpies are my favourite birds
+Magpies are my favourite birds
 
 Baby ones even more so...
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Magpie_samcem05.jpg/220px-Magpie_samcem05.jpg"/>
 
-It is a little known fact^ that the black & white colours of baby magpies differ by **at least** one place and **at most** two places from the colours of the mother magpie.
+It is a little known fact that the black & white colours of baby magpies differ by **at least** one place and **at most** two places from the colours of the mother magpie.
 
 So now you can work out if any two magpies may be related. 
 

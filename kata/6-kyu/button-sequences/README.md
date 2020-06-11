@@ -15,7 +15,7 @@ Here 's how it works: 2 buttons (`red` and `blue`) are connected to the LEDs (`r
  
 Here is an example:
 
-```Python
+```
 Red:  "10011010"
 Blue: "10110111"
 #=> "RBRB"
@@ -28,11 +28,3 @@ Red:  "01101000"
 Blue: "00111000"
 #=> "RB"
 ```
-
-PS:
-
-This is my first time making a kata, so there may be some errors. 
-You may report to me if the description is too confusing. 
-Sorry for my poor grammar.
-    
-

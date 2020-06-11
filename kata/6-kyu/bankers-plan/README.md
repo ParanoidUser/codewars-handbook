@@ -12,7 +12,7 @@ Here is his banker plan:
 - Given <code>f<sub>0</sub></code>, `p`, <code>c<sub>0</sub></code>, `i` 
 the banker guarantees that John will be able to go on that way until the `nth` year.
 
-# Example:
+## Example
 
 ```
 f0 = 100000, p = 1 percent, c0 = 2000, n = 15, i = 1 percent
@@ -33,11 +33,11 @@ c3 = c2 + c2*0.01 = 2060.4 (with inflation of previous year, truncated to 2060)
 ```
 and so on...
 
-John wants to know if the bankers'plan is right or wrong.
+John wants to know if the banker's plan is right or wrong.
 Given parameters `f0, p, c0, n, i` build a function `fortune` which returns `true` if John can make a living until the `nth` year
 and `false` if it is not possible.
 
-# Some cases:
+## Some cases
 ```
 fortune(100000, 1, 2000, 15, 1) -> True
 fortune(100000, 1, 10000, 10, 1) -> True
