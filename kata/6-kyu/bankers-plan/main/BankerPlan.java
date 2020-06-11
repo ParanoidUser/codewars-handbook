@@ -1,4 +1,4 @@
-class BankerPlan {
+interface BankerPlan {
   static boolean fortune(int f0, double p, int c0, int n, double i) {
     while (--n > 0) {
       f0 += f0 * p / 100 - c0;

@@ -2,7 +2,7 @@ import static java.util.stream.Collectors.joining;
 
 import java.util.List;
 
-class CodeDecode {
+final class CodeDecode {
   static final List<String> CODES = List.of("10", "11", "0110", "0111", "001100", "001101", "001110", "001111", "00011000", "00011001");
 
   static String code(String strng) {
@@ -18,4 +18,6 @@ class CodeDecode {
       }
     return decoded.toString();
   }
+
+  private CodeDecode() {}
 }

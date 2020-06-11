@@ -1,6 +1,6 @@
 import static java.util.Arrays.fill;
 
-class Kata {
+interface Kata {
   static int[][][] createOctahedron(int size) {
     int[][][] octahedron = new int[Math.abs(size)][Math.abs(size)][Math.abs(size)];
     for (int z = 0, axis = 0; size % 2 > 0 && z < size; z++, axis = z > size / 2 ? size - z - 1 : z) {

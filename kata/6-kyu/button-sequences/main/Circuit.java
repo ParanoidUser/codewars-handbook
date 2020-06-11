@@ -1,4 +1,4 @@
-class Circuit {
+interface Circuit {
   static String ledSeq(String redSeq, String blueSeq) {
     var blinks = new StringBuilder();
     for (int i = 0, prevRed = '0', red, prevBlue = '0', blue; i < redSeq.length(); i++, prevRed = red, prevBlue = blue) {

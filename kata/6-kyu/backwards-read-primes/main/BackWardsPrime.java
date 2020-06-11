@@ -1,7 +1,7 @@
 import java.math.BigInteger;
 import java.util.ArrayList;
 
-class BackWardsPrime {
+interface BackWardsPrime {
   static String backwardsPrime(long start, long end) {
     var primes = new ArrayList<String>();
     var prime = BigInteger.valueOf(start - 1);
