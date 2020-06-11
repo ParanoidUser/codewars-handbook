@@ -1,18 +1,17 @@
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.Set;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class BingoCardTests {
+class BingoCardTests {
   @Test
-  public void cardHas24Numbers() {
-    assertEquals("A card contains 24 numbers.", 24, BingoCard.getCard().length);
+  void cardHas24Numbers() {
+    assertEquals(24, BingoCard.getCard().length);
   }
 
   @Test
-  public void eachNumberOnCardIsUnique() {
+  void eachNumberOnCardIsUnique() {
     for (int i = 0; i < 10; i++) {
       String[] card = BingoCard.getCard();
       Set<String> set = Set.of(card);
@@ -21,7 +20,7 @@ public class BingoCardTests {
   }
 
   @Test
-  public void categoriesAreInCorrectOrder() {
+  void categoriesAreInCorrectOrder() {
     String[] card = BingoCard.getCard();
 
     checkCategory(card, "B", 1, 5);
@@ -32,7 +31,7 @@ public class BingoCardTests {
   }
 
   @Test
-  public void numbersWithinColumnAreAllInTheCorrectRange() {
+  void numbersWithinColumnAreAllInTheCorrectRange() {
     String[] card = BingoCard.getCard();
 
     checkColumn(card, 1, 5, 1, 15);
@@ -43,15 +42,14 @@ public class BingoCardTests {
   }
 
   @Test
-  public void numbersWithinColumnAreInRandomOrder() {
+  void numbersWithinColumnAreInRandomOrder() {
     String[] card = BingoCard.getCard();
 
-    int count =
-        checkColumnOnRandomness(card, 1, 5)
-            + checkColumnOnRandomness(card, 6, 10)
-            + checkColumnOnRandomness(card, 11, 14)
-            + checkColumnOnRandomness(card, 15, 19)
-            + checkColumnOnRandomness(card, 20, 24);
+    int count = checkColumnOnRandomness(card, 1, 5)
+        + checkColumnOnRandomness(card, 6, 10)
+        + checkColumnOnRandomness(card, 11, 14)
+        + checkColumnOnRandomness(card, 15, 19)
+        + checkColumnOnRandomness(card, 20, 24);
 
     assertTrue(count > 1);
   }
@@ -78,8 +76,12 @@ public class BingoCardTests {
       int n1 = Integer.parseInt(card[i].substring(1));
 
       if (n != 0) {
-        if (n1 > n) up = true;
-        if (n1 < n) down = true;
+        if (n1 > n) {
+          up = true;
+        }
+        if (n1 < n) {
+          down = true;
+        }
       }
       n = n1;
     }

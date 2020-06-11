@@ -1,15 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testHello() {
+  void sample() {
     assertEquals("Hello", Solution.binaryToText("0100100001100101011011000110110001101111"));
-  }
-
-  @Test
-  public void testEmptyString() {
     assertEquals("", Solution.binaryToText(""));
   }
 }

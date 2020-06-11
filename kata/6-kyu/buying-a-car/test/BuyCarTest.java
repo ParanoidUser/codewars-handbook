@@ -1,17 +1,11 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class BuyCarTest {
+class BuyCarTest {
   @Test
-  public void test1() {
-    int[] r = {6, 766};
-    assertArrayEquals(r, BuyCar.nbMonths(2000, 8000, 1000, 1.5));
-  }
-
-  @Test
-  public void test2() {
-    int[] r = {0, 4000};
-    assertArrayEquals(r, BuyCar.nbMonths(12000, 8000, 1000, 1.5));
+  void sample() {
+    assertArrayEquals(new int[]{6, 766}, BuyCar.nbMonths(2000, 8000, 1000, 1.5));
+    assertArrayEquals(new int[]{0, 4000}, BuyCar.nbMonths(12000, 8000, 1000, 1.5));
   }
 }

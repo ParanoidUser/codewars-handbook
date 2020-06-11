@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class WeightTest {
+class WeightTest {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals(0, Pyramid.weight(0, 0), 0);
     assertEquals(0.5, Pyramid.weight(1, 0), 0);
     assertEquals(0.5, Pyramid.weight(1, 1), 0);

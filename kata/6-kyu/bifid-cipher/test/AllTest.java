@@ -1,20 +1,19 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class AllTest {
+class AllTest {
   @Test
-  public void enCoding() {
+  void encode() {
     assertEquals("CWUAS", BifidCipher.encodeBifid("", "ELVIS"));
     assertEquals("", BifidCipher.encodeBifid("KEY", ""));
     assertEquals("ORGFOSR", BifidCipher.encodeBifid("CODEWARS", "WARRIOR"));
     assertEquals("EKUCERRRIS", BifidCipher.encodeBifid("ELVIS", "JIMMY JAMES"));
-    assertEquals(
-        "RCPGSSBBBDTELGTHLGHG", BifidCipher.encodeBifid("BIFID", "THE INVENTOR OF BIFID IS"));
+    assertEquals("RCPGSSBBBDTELGTHLGHG", BifidCipher.encodeBifid("BIFID", "THE INVENTOR OF BIFID IS"));
   }
 
   @Test
-  public void deCoding() {
+  void decode() {
     assertEquals("ELVIS", BifidCipher.decodeBifid("", "CWUAS"));
     assertEquals("", BifidCipher.decodeBifid("", ""));
     assertEquals("MEMPHIS", BifidCipher.decodeBifid("ELVIS", "GMGIIBT"));

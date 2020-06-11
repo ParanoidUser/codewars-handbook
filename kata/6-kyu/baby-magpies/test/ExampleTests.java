@@ -1,23 +1,19 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExampleTests {
+class ExampleTests {
   @Test
-  public void child() {
+  void sample() {
     assertTrue(Dinglemouse.child("BWBWBW", "BWBWBB"));
     assertTrue(Dinglemouse.child("BWBWBB", "WWWWBB"));
-  }
+    assertFalse(Dinglemouse.child("BWBWBW", "WWWWBB"));
+    assertFalse(Dinglemouse.child("BWBWBW", "BWBWBW"));
 
-  @Test
-  public void grandchild() {
     assertTrue(Dinglemouse.grandchild("BWBWBW", "WWWWBB"));
     assertTrue(Dinglemouse.grandchild("BWBWBW", "BWBWBB"));
-  }
-
-  @Test
-  public void notChild() {
-    assertFalse(Dinglemouse.child("BWBWBW", "WWWWBB"));
+    assertFalse(Dinglemouse.grandchild("B", "W"));
+    assertFalse(Dinglemouse.grandchild("BWBWBW", "WBWBWB"));
   }
 }
