@@ -4,7 +4,7 @@ import static java.util.stream.Stream.of;
 
 import java.util.DoubleSummaryStatistics;
 
-class Stats {
+interface Stats {
   static double[][] getMinAvgMax(long discard, double[][] data) {
     var summary = new DoubleSummaryStatistics();
     var stats = stream(data).map(a -> {

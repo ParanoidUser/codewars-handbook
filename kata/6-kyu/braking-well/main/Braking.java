@@ -1,4 +1,4 @@
-class Braking {
+interface Braking {
   static double dist(double v, double mu) {
     return (v /= 3.6) + Math.pow(v, 2) / mu / 19.62;
   }

@@ -1,4 +1,4 @@
-class BuyCar {
+interface BuyCar {
   static int[] nbMonths(double priceOld, double priceNew, int savingsPerMonth, double lossByMonth) {
     int savings = 0, months = 0;
     while (priceNew - priceOld > savings) {
