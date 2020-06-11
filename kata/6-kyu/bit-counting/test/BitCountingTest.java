@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class BitCountingTest {
+class BitCountingTest {
   @Test
-  public void testGame() {
+  void sample() {
     assertEquals(5, BitCounting.countBits(1234));
     assertEquals(1, BitCounting.countBits(4));
     assertEquals(3, BitCounting.countBits(7));

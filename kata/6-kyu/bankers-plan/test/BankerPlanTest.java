@@ -1,11 +1,11 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class BankerPlanTest {
+class BankerPlanTest {
   @Test
-  public void test1() {
+  void sample() {
     assertTrue(BankerPlan.fortune(100000, 1, 2000, 15, 1));
     assertFalse(BankerPlan.fortune(100000, 1, 9185, 12, 1));
     assertTrue(BankerPlan.fortune(100000000, 1, 100000, 50, 1));

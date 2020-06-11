@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class OctahedronTests {
+class OctahedronTests {
   @Test
-  public void testExample() {
+  void sample() {
     int[][][] octahedronTest = {
       {
         {0, 0, 0, 0, 0, 0, 0},
@@ -71,7 +71,7 @@ public class OctahedronTests {
       }
     };
     assertArrayEquals(octahedronTest, Kata.createOctahedron(7));
-    assertArrayEquals(new int[][][] {}, Kata.createOctahedron(0));
-    assertArrayEquals(new int[][][] {}, Kata.createOctahedron(-7));
+    assertArrayEquals(new int[0][][], Kata.createOctahedron(0));
+    assertArrayEquals(new int[0][][], Kata.createOctahedron(8));
   }
 }

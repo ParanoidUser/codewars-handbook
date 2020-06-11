@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class CircuitTest {
+class CircuitTest {
   @Test
-  public void sampleTest() {
+  void sample() {
     assertEquals("RBRB", Circuit.ledSeq("10011010", "10110111"));
     assertEquals("RB", Circuit.ledSeq("01101000", "00111000"));
     assertEquals("RB", Circuit.ledSeq("01001000", "01011100"));

@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class BallTest {
+class BallTest {
   @Test
-  public void test() {
+  void sample() {
     assertEquals(10, Ball.maxBall(37));
     assertEquals(13, Ball.maxBall(45));
     assertEquals(28, Ball.maxBall(99));

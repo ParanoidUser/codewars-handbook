@@ -1,15 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class BouncingBallTest {
+class BouncingBallTest {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals(3, BouncingBall.bouncingBall(3.0, 0.66, 1.5));
-  }
-
-  @Test
-  public void test2() {
     assertEquals(15, BouncingBall.bouncingBall(30.0, 0.66, 1.5));
+    assertEquals(-1, BouncingBall.bouncingBall(1.5, 0.66, 30));
   }
 }

@@ -1,25 +1,20 @@
-import static org.junit.Assert.assertEquals;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.List;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class BinderTest {
+class BinderTest {
   @Test
-  public void testBinding() {
-    Binder<Integer, Integer> binder1 = new Binder<>();
-    List<Integer> list = List.of(1, 2, 3);
-    assertEquals(List.of(1, 2, 3), binder1.bind(list, List::of));
+  void sample() {
+    Binder<Integer, Integer> intToInt = new Binder<>();
+    assertEquals(List.of(1, 2, 3), intToInt.bind(List.of(1, 2, 3), List::of));
 
-    Binder<Integer, List<Integer>> binder2 = new Binder<>();
-    list = List.of(7, 8, 9);
-    assertEquals(List.of(List.of(7), List.of(8), List.of(9)), binder2.bind(list, i -> List.of(List.of(i))));
+    Binder<Integer, List<Integer>> intToList = new Binder<>();
+    assertEquals(List.of(List.of(7), List.of(8), List.of(9)), intToList.bind(List.of(7, 8, 9), i -> List.of(List.of(i))));
+    assertEquals(List.of(List.of(3, -3), List.of(4, -4), List.of(5, -5)), intToList.bind(List.of(3, 4, 5), i -> List.of(List.of(i, -i))));
 
-    list = List.of(3, 4, 5);
-    assertEquals(List.of(List.of(3, -3), List.of(4, -4), List.of(5, -5)), binder2.bind(list, i -> List.of(List.of(i, -i))));
-
-    Binder<Integer, String> binder3 = new Binder<>();
-    list = List.of(5, 6, 7);
-    assertEquals(binder3.bind(list, i -> List.of(i.toString())), List.of("5", "6", "7"));
+    Binder<Integer, String> intToStr = new Binder<>();
+    assertEquals(intToStr.bind(List.of(5, 6, 7), i -> List.of(i.toString())), List.of("5", "6", "7"));
   }
 }
