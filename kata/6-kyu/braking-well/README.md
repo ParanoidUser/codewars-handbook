@@ -24,16 +24,14 @@ with the supposition that the reaction time is still `t = 1`.
 
   `speed(d, mu) -> v such that dist(v, mu) = d`.
 
-#Examples:
+## Examples
 
   dist(100, 0.7) -> 83.9598760937531
   
   speed(83.9598760937531, 0.7) -> 100.0
 
-#Notes:
+## Notes
 - Remember to convert the velocity from km/h to m/s or from m/s in km/h when necessary.
 - Don't forget the reaction time t: `t = 1`
 - Don't truncate or round your results. See in "RUN SAMPLE TESTS" the function `assertFuzzyEquals` or `dotest-...`.
-
-
 - Shell: only `dist` is tested.

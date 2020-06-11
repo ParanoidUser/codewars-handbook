@@ -1,8 +1,6 @@
 # [Bowling Pins](https://www.codewars.com/kata/bowling-pins "https://www.codewars.com/kata/585cf93f6ad5e0d9bf000010")
 
-<h2>Mount the Bowling Pins!</h2>
-
-<h3>Task:</h3>
+## Task
 
 Did you ever play Bowling? Short: You have to throw a bowl into 10 Pins arranged like this:
 
@@ -27,7 +25,7 @@ I I   I
 </pre>
 <b>Return a string with the current field.</b>
 
-<h4>Note that:</h4>
+## Note
 
 <code>String.prototype.replace()</code> is not allowed!
 
