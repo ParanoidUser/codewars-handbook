@@ -29,11 +29,9 @@ And of course you should handle empty strings to avoid unnecessary errors. Just 
 
 Example:
 
-`"Calculate15Plus5Equals20" => "Calculate_15_Plus_5_Equals_20"`
-
-`"This_Is_Already_Splitted_Correct" => "This_Is_Already_Splitted_Correct"`
-
-`"ThisIs_Not_SplittedCorrect" => "This_Is_Not_Splitted_Correct"`
-
-`"_UnderscoreMarked_Test_Name_" => _Underscore_Marked_Test_Name_"`
-
+```
+"Calculate15Plus5Equals20" => "Calculate_15_Plus_5_Equals_20"
+"This_Is_Already_Splitted_Correct" => "This_Is_Already_Splitted_Correct"
+"ThisIs_Not_SplittedCorrect" => "This_Is_Not_Splitted_Correct"
+"_UnderscoreMarked_Test_Name_" => _Underscore_Marked_Test_Name_"
+```

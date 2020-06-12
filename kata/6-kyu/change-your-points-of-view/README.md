@@ -26,7 +26,7 @@ the general equation `l*x + m*y + n = 0 (1)` of the straight line through the po
 
 Equation `k*l*x + k*m*y + k*n = 0` is equivalent to (1) and the tests consider that they define the "same" line.
 
-### Examples: See "Sample Tests".
+## Examples:
 
 ```
  foo = point(3, 5)

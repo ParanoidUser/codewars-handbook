@@ -1,7 +1,5 @@
 # [Collatz](https://www.codewars.com/kata/collatz "https://www.codewars.com/kata/5286b2e162056fd0cb000c20")
 
-## Preface
-
 A collatz sequence, starting with a positive integer<i>n</i>, is found by repeatedly applying the following function to <i>n</i> until <i>n</i> == 1 :
 
 <img style="margin:auto;display:block;" src="http://latex.codecogs.com/png.latex?\bg_white&space;n&space;=&space;\begin{cases}&space;\frac{n}{2}&space;&&space;\text&space;{if&space;}&space;n&space;\text{&space;is&space;even}&space;\\&space;3n&space;+&space;1&space;&&space;\text{otherwise}&space;\end{cases}" title="collatz sequence" alt="collatz sequence" />

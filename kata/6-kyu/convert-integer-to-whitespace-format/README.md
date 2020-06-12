@@ -1,6 +1,5 @@
 # [Convert integer to Whitespace format](https://www.codewars.com/kata/convert-integer-to-whitespace-format "https://www.codewars.com/kata/55b350026cc02ac1a7000032")
 
-# Story
 Hereinafter, `[space]` refers to `" "`, `[tab]` refers to `"\t"`, and `[LF]` refers to `"\n"` for illustrative purposes. This does not mean that you can use these placeholders in your solution.
 
 In esoteric language called [Whitespace](http://compsoc.dur.ac.uk/whitespace/), numbers are represented in the following format:
@@ -9,7 +8,8 @@ In esoteric language called [Whitespace](http://compsoc.dur.ac.uk/whitespace/), 
 * characters after that and until `[LF]` are the binary representation of the integer: `[space]` for 0, `[tab]` for 1.
 * the integer MUST be terminated by `[LF]`.
 
-# Notes
+## Notes
+
 * Valid Whitespace number must always have at least two characters: a sign and the terminator. In case there are only two characters, the number is equal to zero.
 * For the purposes of this kata, zero must always be represented as `[space][LF]`.
 * In this kata, the output should not contain any leading zeros.
@@ -17,7 +17,8 @@ In esoteric language called [Whitespace](http://compsoc.dur.ac.uk/whitespace/), 
 * In this kata, input will always be a valid negative or positive integer.
 * For your convenience, in this kata we will use `unbleach()` function when evaluating your results. This function replaces whitespace characters with `[space]`, `[tab]`, and `[LF]` to make fail messages more obvious. You can see how it works in Example Test Cases.
 
-# Examples
+## Examples
+
 * `1` in Whitespace is `" \t\n"`.
 * `0` in Whitespace is `" \n"`.
 * `-1` in Whitespace is `"\t\t\n"`.

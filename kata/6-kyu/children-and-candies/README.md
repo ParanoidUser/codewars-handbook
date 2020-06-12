@@ -1,20 +1,16 @@
 # [Children and candies](https://www.codewars.com/kata/children-and-candies "https://www.codewars.com/kata/582933a3c983ca0cef0003de")
 
->When no more interesting kata can be resolved, I just choose to create the new kata, to solve their own, to enjoy the process  --myjinxin2015 said
+In kindergarten, the teacher gave the children some candies. The number of candies each child gets is not always the same. Here is an array `candies`(all elements are positive integers). It's the number of candy for each child:
+```
+candies = [10,2,8,22,16,4,10,6,14,20]
+```
+The teacher asked the children to form a circle and play a game: Each child gives half of his candies to the child on his right(at the same time). If the number of children's candy is an odd number, the teacher will give him an extra candy, so that he can evenly distribute his candy. 
 
-# Description:
- In kindergarten, the teacher gave the children some candies. The number of candies each child gets is not always the same. Here is an array `candies`(all elements are positive integer). It's the number of candy for each child:
- ```
- candies = [10,2,8,22,16,4,10,6,14,20]
- ```
- The teacher asked the children to form a circle and play a game: Each child gives half of his candies to the child on his right(at the same time). If the number of children's candy is an odd number, the teacher will give him an extra candy, so that he can evenly distribute his candy. 
- 
- Repeat such distribute process, until all the children's candies are equal in number.
- 
- You should return two numbers: 1.How many times of distribution; 2. After the game, the number of each child's candy. Returns the result using an array that contains two elements.
- 
-  
-# Some examples:
+Repeat such distribute process, until all the children's candies are equal in number.
+
+You should return two numbers: 1.How many times of distribution; 2. After the game, the number of each child's candy. Returns the result using an array that contains two elements.
+
+## Some examples:
 
 ```
       candies = [ 1,2,3,4,5 ]
@@ -49,5 +45,4 @@ distribution 17: [ 18, 18, 18, 18, 18, 18, 18, 18, 18, 18 ]
 So, we need return: [17,18]
 
 distributionOfCandy([10,2,8,22,16,4,10,6,14,20]) === [17,18]
-
 ```

@@ -11,10 +11,10 @@ Your assignment is to complete the function that draws cards for the dealer, and
 * Players play against the croupier (dealer) only, not against other players.
 * Each card has its value: the numerals are worth whatever their number indicates; `"J"`, `"Q"` and `"K"` are worth `10`; `"A"` may be worth `11 or 1`, always trying to keep the highest score possible.
 * If any player exceeds `21` points, they lose.
-* The croupier must draw from deck until it's hand scores `17` or more points.
+* The croupier must draw from a deck until it's hand scores `17` or more points.
 * A player has a blackjack when they have 2 cards, one worth `10`, and an `"A"`
 * If the player has a blackjack, then they win, **unless** the croupier also has a blackjack.
-* When the croupier draws a card, the croupier draws the first card from deck.
+* When the croupier draws a card, the croupier draws the first card from a deck.
 
 **Notes:**
 
@@ -37,7 +37,7 @@ Since the dealer has less than 17 points, it must draw a card:
 Now comparing hands:
 * Player 1 scores 21, croupier scores 21, but Player 1 has Black Jack, so Player 1 won
 * Player 2 scores 21, croupier scores 21, draw
-* Player 3 scores 24, Player 3 exceeded 21  so he lost
+* Player 3 scores 24, Player 3 exceeded 21, so he lost
 
 So return `["Player 1"]`
 
