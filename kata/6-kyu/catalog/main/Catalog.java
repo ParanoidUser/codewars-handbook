@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Catalog {
+interface Catalog {
   static String catalog(String s, String article) {
     var search = new ArrayList<String>();
     for (var art : s.split("\n\n")) {

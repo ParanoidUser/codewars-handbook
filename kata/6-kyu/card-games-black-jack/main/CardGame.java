@@ -2,10 +2,10 @@ import static java.util.stream.Stream.of;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Map;
+import java.util.List;
 import java.util.function.Predicate;
 
-class CardGame {
+interface CardGame {
   static String[] getBlackJackWinners(String[] p1, String[] p2, String[] p3, String[] croupier, String... cards) {
     int house;
     while ((house = count(croupier)) < 17 && cards.length > 0) {
@@ -18,10 +18,10 @@ class CardGame {
 
     var win = new ArrayList<String>();
     if (!blackjack.test(croupier)) {
-      var players = Map.of(1, p1, 2, p2, 3, p3);
-      for (int i = 1; i <= players.size(); i++)
+      var players = List.of(p1, p2, p3);
+      for (int i = 0; i < players.size(); i++)
         if (blackjack.test(players.get(i)) || count(players.get(i)) < 22 && (house > 21 || count(players.get(i)) > house))
-          win.add("Player " + i);
+          win.add("Player " + (i + 1));
     }
     return win.toArray(new String[0]);
   }

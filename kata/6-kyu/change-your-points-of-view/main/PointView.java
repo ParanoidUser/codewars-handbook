@@ -1,8 +1,8 @@
 import java.awt.Point;
 import java.util.function.Function;
 
-class PointView {
-  public static Function<Void, Point> point(Integer x, Integer y) {
+interface PointView {
+  static Function<Void, Point> point(Integer x, Integer y) {
     return nil -> new Point(x, y);
   }
 
