@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class CheckchooseTest {
+class CheckchooseTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(2, Checkchoose.checkchoose(6, 4));
     assertEquals(1, Checkchoose.checkchoose(4, 4));
     assertEquals(3, Checkchoose.checkchoose(35, 7));

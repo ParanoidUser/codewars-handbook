@@ -1,12 +1,13 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class RotationTest {
+class RotationTest {
   @Test
-  public void test() {
-    assertEquals(-1, CalculateRotation.shiftedDiff("hoop", "pooh"));
+  void sample() {
     assertEquals(2, CalculateRotation.shiftedDiff("coffee", "eecoff"));
     assertEquals(4, CalculateRotation.shiftedDiff("eecoff", "coffee"));
+    assertEquals(-1, CalculateRotation.shiftedDiff("hoop", "pooh"));
+    assertEquals(-1, CalculateRotation.shiftedDiff("hoop", "oop"));
   }
 }

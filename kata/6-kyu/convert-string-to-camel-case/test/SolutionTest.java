@@ -1,15 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testSomeUnderscoreLowerStart() {
+  void sample() {
     assertEquals("theStealthWarrior", Solution.toCamelCase("the_Stealth_Warrior"));
-  }
-
-  @Test
-  public void testSomeDashLowerStart() {
     assertEquals("theStealthWarrior", Solution.toCamelCase("the-Stealth-Warrior"));
   }
 }

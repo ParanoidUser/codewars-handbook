@@ -1,34 +1,36 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class PeacefulYardTest {
+class PeacefulYardTest {
   @Test
-  public void exampleTests() {
-    assertTrue(PeacefulYard.peacefulYard(new String[] {
-              "------------",
-              "------------",
-              "-L----------",
-              "------------",
-              "------------",
-              "------------"
-            }, 10));
-    assertFalse(PeacefulYard.peacefulYard(new String[] {
-              "------------",
-              "---M--------",
-              "------------",
-              "------------",
-              "-------R----",
-              "------------"
-            }, 6));
-    assertTrue(PeacefulYard.peacefulYard(new String[] {
-              "-----------L",
-              "--R---------",
-              "------------",
-              "------------",
-              "------------",
-              "--M---------"
-            }, 4));
+  void sample() {
+    assertTrue(PeacefulYard.peacefulYard(new String[]{
+        "------------",
+        "------------",
+        "-L----------",
+        "------------",
+        "------------",
+        "------------"
+    }, 10));
+
+    assertFalse(PeacefulYard.peacefulYard(new String[]{
+        "------------",
+        "---M--------",
+        "------------",
+        "------------",
+        "-------R----",
+        "------------"
+    }, 6));
+
+    assertTrue(PeacefulYard.peacefulYard(new String[]{
+        "-----------L",
+        "--R---------",
+        "------------",
+        "------------",
+        "------------",
+        "--M---------"
+    }, 4));
   }
 }

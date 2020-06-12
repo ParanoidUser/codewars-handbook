@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SampleTest {
+class SampleTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(26, ConsonantValue.solve("zodiac"));
     assertEquals(80, ConsonantValue.solve("chruschtschov"));
     assertEquals(38, ConsonantValue.solve("khrushchev"));

@@ -1,14 +1,11 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class Tests {
+class Tests {
   @Test
-  public void exampleTest() {
-    double[] list = Kata.cartesianNeighborsDistance(3, 2, 1);
-    assertArrayEquals(new double[] {1.0, 1.4142135624}, list, 6e-11);
-
-    list = Kata.cartesianNeighborsDistance(0, 0, 2);
-    assertArrayEquals(new double[] {1.0, 1.4142135624, 2.0, 2.2360679775, 2.8284271247}, list, 6e-11);
+  void sample() {
+    assertArrayEquals(new double[]{1.0, 1.4142135624}, Kata.cartesianNeighborsDistance(3, 2, 1), 6e-11);
+    assertArrayEquals(new double[]{1.0, 1.4142135624, 2.0, 2.2360679775, 2.8284271247}, Kata.cartesianNeighborsDistance(0, 0, 2), 6e-11);
   }
 }

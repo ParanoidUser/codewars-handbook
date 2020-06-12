@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class Case {
+class Case {
   @Test
-  public void changeIt() {
+  void sample() {
     assertEquals("Hello world", ChangeCase.toSentenceCase("Hello World"));
     assertEquals("hello world", ChangeCase.toLowerCase("Hello World"));
     assertEquals("HELLO WORLD", ChangeCase.toUpperCase("Hello World"));
