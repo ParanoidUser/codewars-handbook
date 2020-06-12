@@ -1,7 +1,6 @@
 import static java.util.stream.IntStream.of;
 
-class CircleOfChildren {
-
+interface CircleOfChildren {
   static int[] distributionOfCandy(int[] candies) {
     int times = 0;
     while (of(candies).distinct().count() != 1) {

@@ -1,9 +1,9 @@
 import static java.util.Arrays.stream;
+import static java.util.function.Predicate.not;
 
-class Solution {
+interface Solution {
   static String camelCase(String str) {
-    return stream(str.split(" "))
-        .filter(s -> !s.isEmpty())
+    return stream(str.split(" ")).filter(not(String::isEmpty))
         .reduce("", (a, b) -> a + b.substring(0, 1).toUpperCase() + b.substring(1));
   }
 }

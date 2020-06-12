@@ -1,9 +1,9 @@
 import static java.util.stream.Collectors.counting;
 import static java.util.stream.Collectors.groupingBy;
 
-class CountingDuplicates {
+interface CountingDuplicates {
   static int duplicateCount(String text) {
-    return (int) text.toLowerCase().chars().boxed().collect(groupingBy(k -> k, counting()))
-                     .values().stream().filter(n -> n > 1).count();
+    return (int) text.toLowerCase().chars().boxed().collect(groupingBy(k -> k, counting())).values()
+        .stream().filter(n -> n > 1).count();
   }
 }

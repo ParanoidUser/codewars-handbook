@@ -1,11 +1,12 @@
-class Checkchoose {
+import static java.util.stream.IntStream.iterate;
+
+import java.util.concurrent.atomic.AtomicLong;
+
+interface Checkchoose {
   static long checkchoose(long m, long n) {
-    long colors = 1;
-    for (int i = 0; i < n; colors = colors * (n - i) / ++i) {
-      if (colors == m) {
-        return i;
-      }
-    }
-    return -1;
+    var colors = new AtomicLong(1);
+    return iterate(0, i -> i < n, i -> i + 1)
+        .filter(i -> colors.getAndSet(colors.get() * (n - i) / (i + 1)) == m).findFirst()
+        .orElse(-1);
   }
 }
