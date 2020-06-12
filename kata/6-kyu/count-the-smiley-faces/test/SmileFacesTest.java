@@ -1,27 +1,14 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.List;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class SmileFacesTest {
+class SmileFacesTest {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals(2, SmileFaces.countSmileys(List.of(":)", ":D", ":-}", ":-()")));
-  }
-
-  @Test
-  public void test2() {
     assertEquals(1, SmileFaces.countSmileys(List.of(":)", "XD", ":0}", "x:-", "):-", "D:")));
-  }
-
-  @Test
-  public void test4() {
     assertEquals(2, SmileFaces.countSmileys(List.of(":)", ":D", "X-}", "xo)", ":X", ":-3", ":3")));
-  }
-
-  @Test
-  public void test5() {
     assertEquals(4, SmileFaces.countSmileys(List.of(":)", ":)", "x-]", ":ox", ";-(", ";-)", ";~(", ":~D")));
   }
 }

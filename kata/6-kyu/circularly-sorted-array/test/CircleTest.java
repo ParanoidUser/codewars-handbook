@@ -1,16 +1,12 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class CircleTest {
+class CircleTest {
   @Test
-  public void testTrue() {
-    assertTrue(CircleSorted.isCircleSorted(new int[] {3, 0, 1, 2}));
-  }
-
-  @Test
-  public void testFalse() {
-    assertFalse(CircleSorted.isCircleSorted(new int[] {9, 10, 14, 12}));
+  void sample() {
+    assertTrue(CircleSorted.isCircleSorted(new int[]{3, 0, 1, 2}));
+    assertFalse(CircleSorted.isCircleSorted(new int[]{9, 10, 14, 12}));
   }
 }

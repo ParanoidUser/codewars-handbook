@@ -1,16 +1,20 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.Calendar;
-import java.util.Date;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class DayTest {
+class DayTest {
   @Test
-  public void standardTests() {
-    var past = Calendar.getInstance();
-    past.set(2000, Calendar.DECEMBER, 24);
-    assertEquals("The day is in the past!",  Day.countDays(past.getTime()));
-    assertEquals("Today is the day!", Day.countDays(new Date()));
+  void sample() {
+    var today = Calendar.getInstance();
+    assertEquals("Today is the day!", Day.countDays(today.getTime()));
+
+    var yesterday = Calendar.getInstance();
+    yesterday.add(Calendar.DATE, -1);
+    assertEquals("The day is in the past!", Day.countDays(yesterday.getTime()));
+
+    var tomorrow = Calendar.getInstance();
+    tomorrow.add(Calendar.DATE, 2);
+    assertEquals("2 days", Day.countDays(tomorrow.getTime()));
   }
 }

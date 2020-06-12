@@ -1,26 +1,14 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExampleTests {
+class ExampleTests {
   @Test
-  public void test1200() {
+  void sample() {
     assertEquals("12:00", Dinglemouse.whatTimeIsIt(0));
     assertEquals("12:00", Dinglemouse.whatTimeIsIt(360));
-  }
-
-  @Test
-  public void test0300() {
     assertEquals("03:00", Dinglemouse.whatTimeIsIt(90));
-  }
-
-  @Test
-  public void test0600() {
     assertEquals("06:00", Dinglemouse.whatTimeIsIt(180));
-  }
-
-  @Test
-  public void test0900() {
     assertEquals("09:00", Dinglemouse.whatTimeIsIt(270));
   }
 }
