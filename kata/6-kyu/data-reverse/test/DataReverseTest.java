@@ -1,19 +1,32 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class DataReverseTest {
+class DataReverseTest {
   @Test
-  public void test1() {
-    int[] data1 = {1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0};
-    int[] data2 = {1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1};
-    assertArrayEquals(data2, Kata.DataReverse(data1));
-  }
+  void sample() {
+    assertArrayEquals(new int[]{
+        1, 0, 1, 0, 1, 0, 1, 0,
+        0, 0, 0, 0, 1, 1, 1, 1,
+        0, 0, 0, 0, 0, 0, 0, 0,
+        1, 1, 1, 1, 1, 1, 1, 1
+    }, Kata.DataReverse(new int[]{
+        1, 1, 1, 1, 1, 1, 1, 1,
+        0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 1, 1, 1, 1,
+        1, 0, 1, 0, 1, 0, 1, 0
+    }));
 
-  @Test
-  public void test2() {
-    int[] data1 = {0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1};
-    int[] data2 = {0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0};
-    assertArrayEquals(data2, Kata.DataReverse(data1));
+    assertArrayEquals(new int[]{
+        0, 0, 1, 0,
+        1, 0, 0, 1,
+        0, 0, 1, 1,
+        0, 1, 1, 0
+    }, Kata.DataReverse(new int[]{
+        0, 0, 1, 1,
+        0, 1, 1, 0,
+        0, 0, 1, 0,
+        1, 0, 0, 1
+    }));
   }
 }

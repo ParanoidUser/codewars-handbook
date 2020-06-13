@@ -11,8 +11,8 @@ class ExampleTests {
     assertFalse(Dinglemouse.child("BWBWBW", "WWWWBB"));
     assertFalse(Dinglemouse.child("BWBWBW", "BWBWBW"));
 
-    assertTrue(Dinglemouse.grandchild("BWBWBW", "WWWWBB"));
     assertTrue(Dinglemouse.grandchild("BWBWBW", "BWBWBB"));
+    assertTrue(Dinglemouse.grandchild("", ""));
     assertFalse(Dinglemouse.grandchild("B", "W"));
     assertFalse(Dinglemouse.grandchild("BWBWBW", "WBWBWB"));
   }

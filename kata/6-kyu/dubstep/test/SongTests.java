@@ -1,15 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SongTests {
+class SongTests {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals("ABC", Dubstep.SongDecoder("WUBWUBABCWUB"));
-  }
-
-  @Test
-  public void test2() {
     assertEquals("R L", Dubstep.SongDecoder("RWUBWUBWUBLWUB"));
   }
 }

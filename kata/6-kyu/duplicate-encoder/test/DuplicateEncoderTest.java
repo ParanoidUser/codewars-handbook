@@ -1,12 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class DuplicateEncoderTest {
+class DuplicateEncoderTest {
   @Test
-  public void test() {
+  void sample() {
     assertEquals(")()())()(()()(", DuplicateEncoder.encode("Prespecialized"));
-    assertEquals("(((((", DuplicateEncoder.encode("<a(O/"));
     assertEquals("))))())))", DuplicateEncoder.encode("   ()(   "));
+    assertEquals("(((((", DuplicateEncoder.encode("<a(O/"));
   }
 }

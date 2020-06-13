@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class EpidemTest {
+class EpidemTest {
   @Test
-  public void test() {
+  void sample() {
     assertEquals(420, Epidem.epidemic(18, 432, 1004, 1, 0.00209, 0.51));
     assertEquals(461, Epidem.epidemic(12, 288, 1007, 2, 0.00206, 0.45));
     assertEquals(409, Epidem.epidemic(13, 312, 999, 1, 0.00221, 0.55));
