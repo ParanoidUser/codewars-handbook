@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class Tests {
+class Tests {
   @Test
-  public void example() {
+  void sample() {
     assertEquals(0, Dinglemouse.deadAntCount("ant ant ant ant"));
     assertEquals(0, Dinglemouse.deadAntCount(null));
     assertEquals(2, Dinglemouse.deadAntCount("ant anantt aantnt"));

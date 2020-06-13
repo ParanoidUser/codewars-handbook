@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class RunLengthEncodingTests {
+class RunLengthEncodingTests {
   @Test
-  public void testEncode() {
+  void testEncode() {
     assertEquals("1A", RunLengthEncoding.encode("A"));
     assertEquals("3A", RunLengthEncoding.encode("AAA"));
     assertEquals("1A1B", RunLengthEncoding.encode("AB"));
@@ -12,7 +12,7 @@ public class RunLengthEncodingTests {
   }
 
   @Test
-  public void testDecode() {
+  void testDecode() {
     assertEquals("A", RunLengthEncoding.decode("1A"));
     assertEquals("AAA", RunLengthEncoding.decode("3A"));
     assertEquals("AB", RunLengthEncoding.decode("1A1B"));
@@ -20,7 +20,7 @@ public class RunLengthEncodingTests {
   }
 
   @Test
-  public void testRoundTrip() {
+  void testRoundTrip() {
     assertEquals("AAAAAAAAAAB", RunLengthEncoding.decode(RunLengthEncoding.encode("AAAAAAAAAAB")));
     assertEquals("ABCDEFGHIJKLMNOPQRSTUVWXYZ", RunLengthEncoding.decode(RunLengthEncoding.encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ")));
   }
