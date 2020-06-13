@@ -39,14 +39,14 @@ Whatever S0 and I0, R0 (number of recovered at time 0) is always 0.
 The function `epidemic` will return the maximum number of infected 
 as an *integer* (truncate to integer the result of max(I)).
 
-# Example:
+## Example:
 
 ```
 tm = 14 ;n = 336 ;s0 = 996 ;i0 = 2 ;b = 0.00206 ;a = 0.41
 epidemic(tm, n, s0, i0, b, a) --> 483
 ```
     
-# Notes: 
+## Notes: 
 
 - You will pass the tests if
 `abs(actual - expected) <= 1`
