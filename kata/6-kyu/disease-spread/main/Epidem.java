@@ -1,4 +1,4 @@
-class Epidem {
+interface Epidem {
   static int epidemic(int tm, double n, double s0, double i0, double b, double a) {
     double max = -1;
     while (i0 > max) {

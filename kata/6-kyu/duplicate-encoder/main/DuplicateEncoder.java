@@ -1,6 +1,6 @@
 import static java.util.stream.Collectors.joining;
 
-class DuplicateEncoder {
+interface DuplicateEncoder {
   static String encode(String word) {
     return word.toLowerCase()
         .chars()
