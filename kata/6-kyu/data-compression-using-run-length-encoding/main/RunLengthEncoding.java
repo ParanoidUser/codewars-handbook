@@ -1,6 +1,6 @@
 import static java.util.regex.Pattern.compile;
 
-class RunLengthEncoding {
+interface RunLengthEncoding {
   static String encode(String input) {
     return compile("(.)\\1*").matcher(input).replaceAll(m -> m.end() - m.start() + m.group(1));
   }
