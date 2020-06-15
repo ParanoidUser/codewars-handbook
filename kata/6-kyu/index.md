@@ -108,7 +108,9 @@
 - [Find the odd int](find-the-odd-int)
 - [Find The Parity Outlier](find-the-parity-outlier)
 - [Find the unique number](find-the-unique-number-1)
+- [Finding Neo (PG-13)](finding-neo-pg-13)
 - [FIXME: Hello](fixme-hello)
+- [FLAMES Game version 1](flames-game-version-1)
 - [Floating-point Approximation (I)](floating-point-approximation-i)
 - [Fold an array](fold-an-array)
 - [Format words into a sentence](format-words-into-a-sentence)
@@ -128,6 +130,7 @@
 # H
 - [Handshake problem](handshake-problem)
 - [Help the bookseller!](help-the-bookseller)
+- [Hex class](hex-class)
 - [Hidden "Cubic" numbers](hidden-cubic-numbers)
 - [Highest Scoring Word](highest-scoring-word)
 - [How Much?](how-much)
@@ -138,6 +141,8 @@
 - [IntroToArt](introtoart)
 - [Irreducible Sum of Rationals](irreducible-sum-of-rationals)
 - [Is a number prime?](is-a-number-prime)
+# J
+- [Jurassic Word](jurassic-word)
 # L
 - [L3375p34k](l3375p34k)
 - [Length of missing array](length-of-missing-array)
