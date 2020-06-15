@@ -328,6 +328,7 @@
 - [Robotic Tattoo Removal](robotic-tattoo-removal)
 - [Rock Off!](rock-off)
 - [Rotate for a Max](rotate-for-a-max)
+- [Round up to the next multiple of 5](round-up-to-the-next-multiple-of-5)
 - [Row Weights](row-weights)
 # S
 - [Santa's Naughty List](santas-naughty-list)
