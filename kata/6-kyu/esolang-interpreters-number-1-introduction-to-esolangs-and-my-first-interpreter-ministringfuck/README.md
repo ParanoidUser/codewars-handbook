@@ -1,7 +1,5 @@
 # [Esolang Interpreters #1 - Introduction to Esolangs and My First Interpreter (MiniStringFuck)](https://www.codewars.com/kata/esolang-interpreters-number-1-introduction-to-esolangs-and-my-first-interpreter-ministringfuck "https://www.codewars.com/kata/586dd26a69b6fd46dd0000c0")
 
-## What is an esoteric programming language?
-
 An [esoteric programming language](http://esolangs.org), otherwise known as an **Esolang**, is an informal computer programming language that is generally not designed for serious practical use.  There are a few main aims/themes among the vast majority of such languages:
 
 1. **Achieve Turing-completeness in as few commands (instructions) as possible.**  There are currently a number of implemented Esolangs that have been proven to be Turing-complete, [Brainfuck](http://esolangs.org/wiki/Brainfuck) being the most popular of them all, comprised of no more than 8 distinct commands.  Despite having only 8 commands, it has been [objectively proven to be Turing-complete](http://www.hevanet.com/cristofd/brainfuck/utm.b).  However, Brainfuck is not the Turing-complete programming language with the fewest commands.  [Boolfuck](http://esolangs.org/wiki/Boolfuck), a derivative of Brainfuck which operates on bits (`0`s and `1`s) and contains **7 commands** only, has also been proven to be Turing-complete through reduction from Brainfuck.  Another less-known Esolang called [Etre](http://codewars.com/wiki/Etre) contains as few as **3 commands** yet has been proven to be Turing-complete through the translation of a Minsky Machine to Etre.

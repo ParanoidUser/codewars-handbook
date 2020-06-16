@@ -14,18 +14,22 @@ Experiment with `S(n, z)` to guess the domain of convergence `D`of `S` and `lim`
  Call `f` the function `f(z, eps)` which returns `n`.
  If `z` is such that `S(n, z)` has no finite limit (when `z` is outside of `D`) `f` will return -1.
 
-# Examples:
+## Example
+
 I is a complex number such as I * I = -1 (sometimes written `i` or `j`).
 
  `f(0.3 + 0.5 * I, 1e-4) returns 17`
  
  `f(30 + 5 * I, 1e-4) returns -1`
 
-# Remark:
+## Remark
+
 For languages that don't have complex numbers or "easy" complex numbers, a complex number `z` is represented by two real numbers `x` (real part) and `y` (imaginary part).
 
 `f(0.3, 0.5, 1e-4) returns 17`
  
  `f(30, 5, 1e-4) returns -1`
-# Note:
+
+## Note
+
 You pass the tests if `abs(actual - exoected) <= 1`

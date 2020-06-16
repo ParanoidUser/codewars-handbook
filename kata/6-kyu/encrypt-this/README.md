@@ -1,7 +1,5 @@
 # [Encrypt this!](https://www.codewars.com/kata/encrypt-this "https://www.codewars.com/kata/5848565e273af816fb000449")
 
-## Description:
-
 Encrypt this!
 
 You want to create secret messages which can be deciphered by the [Decipher this!](https://www.codewars.com/kata/decipher-this) kata. Here are the conditions:
