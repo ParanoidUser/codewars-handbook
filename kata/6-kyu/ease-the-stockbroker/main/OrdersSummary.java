@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class OrdersSummary {
+interface OrdersSummary {
   static String balanceStatements(String lst) {
     var typos = new ArrayList<String>();
     double bought = 0, sold = 0;
