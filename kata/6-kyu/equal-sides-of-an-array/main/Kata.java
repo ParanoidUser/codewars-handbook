@@ -3,18 +3,11 @@ import static java.util.stream.IntStream.range;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-class Kata {
+interface Kata {
   static int findEvenIndex(int[] arr) {
-    var left = new AtomicInteger();
-    var right = new AtomicInteger(of(arr).sum() - arr[0]);
-
-    if (left.get() == right.get()) {
-      return 0;
-    }
-
-    return range(1, arr.length)
-        .filter(i -> left.addAndGet(arr[i - 1]) == right.addAndGet(-arr[i]))
-        .findFirst()
-        .orElse(-1);
+    AtomicInteger l = new AtomicInteger(), r = new AtomicInteger(of(arr).sum() - arr[0]);
+    return l.get() != r.get() ? range(1, arr.length)
+        .filter(i -> l.addAndGet(arr[i - 1]) == r.addAndGet(-arr[i]))
+        .findFirst().orElse(-1) : 0;
   }
 }

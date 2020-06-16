@@ -1,4 +1,4 @@
-class Hist {
+interface Hist {
     static String hist(String s) {
       var report = new StringBuilder();
       for (String error : new String[] {"u", "w", "x", "z"}) {
