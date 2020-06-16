@@ -14,7 +14,7 @@ letter (error letters are sorted in alphabetical order) in a field of 2 characte
 
 The string has a length greater or equal to one and contains only letters from `a` to `z`.
 
-### Examples
+## Example
 
 ```
 s="uuaaaxbbbbyyhwawiwjjjwwxym"
@@ -31,7 +31,7 @@ w  5     *****
 x  2     **
 z  31    *******************************
 ```
-### Notes
+## Note
 
 - Unfortunately most often Codewars compresses all white spaces into one.
 - You can see another examples in the "Sample tests".

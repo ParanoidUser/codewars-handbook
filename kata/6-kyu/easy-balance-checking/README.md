@@ -34,4 +34,3 @@ So as not to have a too long result string we don't ask for a properly formatted
 - It may happen that one (or more) line(s) is (are) blank.
 - Round to 2 decimals your results.
 - The line separator of results may depend on the language `\n` or `\r\n`. See examples in the "Sample tests".
-

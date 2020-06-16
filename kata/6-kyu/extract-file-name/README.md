@@ -1,14 +1,13 @@
 # [extract file name](https://www.codewars.com/kata/extract-file-name "https://www.codewars.com/kata/597770e98b4b340e5b000071")
 
 You have to extract a portion of the file name as follows:
+ - Assume it will start with date represented as long number
+ - Followed by an underscore
+ - You'll have then a filename with an extension
+ - it will always have an extra extension at the end
 
-* Assume it will start with date represented as long number
-* Followed by an underscore
-* Youll have then a filename with an extension
-* it will always have an extra extension at the end
+## Inputs
 
-Inputs:
----
 ```
 1231231223123131_FILE_NAME.EXTENSION.OTHEREXTENSION
 
@@ -17,8 +16,7 @@ Inputs:
 1231231223123131_myFile.tar.gz2
 ```
 
-Outputs
----
+## Outputs
 
 ```
 FILE_NAME.EXTENSION
@@ -32,4 +30,4 @@ Acceptable characters for random tests:
 
 `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-0123456789`
 
-The recommend way to solve it is using RegEx and specifically groups.
+The recommended way to solve it is using RegEx and specifically groups.
