@@ -93,6 +93,7 @@
 - [Easy Diagonal](easy-diagonal)
 - [Encrypt this!](encrypt-this)
 - [English beggars](english-beggars)
+- [Enigeliisohe too Eniigeeliiisoohee Toroanisoliatooro](enigeliisohe-too-eniigeeliiisoohee-toroanisoliatooro)
 - [Equal Sides Of An Array](equal-sides-of-an-array)
 - [Errors : histogram](errors-histogram)
 - [Esolang Interpreters #1 - Introduction to Esolangs and My First Interpreter (MiniStringFuck)](esolang-interpreters-number-1-introduction-to-esolangs-and-my-first-interpreter-ministringfuck)
@@ -101,7 +102,10 @@
 - [Experimenting with a sequence of complex numbers](experimenting-with-a-sequence-of-complex-numbers)
 - [Extract file name](extract-file-name)
 # F
+- [Factors of triangle numbers](factors-of-triangle-numbers)
+- [Feed Kahumolings!](feed-kahumolings)
 - [Fibonacci, Tribonacci and friends](fibonacci-tribonacci-and-friends)
+- [Figurate Numbers #1 - Pentagonal Number](figurate-numbers-number-1-pentagonal-number)
 - [Financing Plan on Planet XY140Z-n](financing-plan-on-planet-xy140z-n)
 - [Find last Fibonacci digit [hardcore version]](find-last-fibonacci-digit-hardcore-version)
 - [Find the missing letter](find-the-missing-letter)
@@ -209,6 +213,7 @@
 - [RoboScript #1 - Implement Syntax Highlighting](roboscript-number-1-implement-syntax-highlighting)
 - [Roman Numerals Encoder](roman-numerals-encoder)
 - [Rotate Array](rotate-array)
+- [Routes in a square grid](routes-in-a-square-grid)
 - [Row of the odd triangle](row-of-the-odd-triangle)
 # S
 - [Salesman's Travel](salesmans-travel)
