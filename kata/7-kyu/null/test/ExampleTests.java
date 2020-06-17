@@ -1,43 +1,18 @@
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExampleTests {
+class ExampleTests {
   @Test
-  public void hashTest1() {
+  void sample() {
     assertEquals(0, new Null().hashCode());
-  }
-
-  @Test
-  public void hashTest2() {
     assertEquals(new Null().hashCode(), new Null().hashCode());
-  }
-
-  @Test
-  public void test1() {
-    assertTrue(new Null().equals(null));
-  }
-
-  @Test
-  public void test2() {
+    assertEquals(null, new Null());
+    assertEquals(new Null(), new Null());
+    assertEquals("null", new Null().toString());
     Null n = new Null();
     assertEquals(n, n);
-  }
-
-  @Test
-  public void test3() {
-    assertEquals(new Null(), new Null());
-  }
-
-  @Test
-  public void test4() {
     assertNotEquals(new Object(), new Null());
-  }
-
-  @Test
-  public void test5() {
-    assertEquals("null", new Null().toString());
   }
 }

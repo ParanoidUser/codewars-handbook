@@ -1,5 +1,4 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import org.junit.jupiter.api.Test;
@@ -23,7 +22,7 @@ class CatTest {
     assertNotEquals(lily, new Cat("Lily", 12));
     assertNotEquals(lily, new Cat("Drake", 30));
     assertNotEquals(lily, new Object());
-    assertFalse(lily.equals(null));
+    assertNotEquals(null, lily);
   }
 
   @Test
