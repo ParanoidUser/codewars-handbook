@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 class OppositesAttractTest {
   @Test
-  public void sample() {
+  void sample() {
     assertTrue(OppositesAttract.isLove(0, 1));
     assertFalse(OppositesAttract.isLove(1, 1));
     assertTrue(OppositesAttract.isLove(1, 4));

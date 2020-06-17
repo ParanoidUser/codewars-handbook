@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 class TestRangeMerger {
   @Test
-  public void sample() {
+  void sample() {
     assertArrayEquals(new int[0], RangeMerger.merge(new int[0]));
     assertArrayEquals(new int[]{1, 5, 7, 9}, RangeMerger.merge(new int[]{1, 3, 2, 5, 7, 9}));
     assertArrayEquals(new int[]{1, 1}, RangeMerger.merge(new int[]{1, 1}));

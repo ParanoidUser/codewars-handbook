@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 class CatWeightComparatorTest {
   @Test
-  public void testSimpleCase() {
+  void testSimpleCase() {
     Cat[] cats = {
         new Cat("Lily", 30),
         new Cat("Drake", 15)
@@ -17,7 +17,7 @@ class CatWeightComparatorTest {
   }
 
   @Test
-  public void testWithCatsOfTheSameWeight() {
+  void testWithCatsOfTheSameWeight() {
     Cat[] cats = {
         new Cat("Lily", 30),
         new Cat("Drake", 15),
@@ -33,7 +33,7 @@ class CatWeightComparatorTest {
   }
 
   @Test
-  public void testWithCatOfNegativeWeight() {
+  void testWithCatOfNegativeWeight() {
     Cat[] cats = {
         new Cat("Void Kitty", -30),
         new Cat("Drake", 15)
