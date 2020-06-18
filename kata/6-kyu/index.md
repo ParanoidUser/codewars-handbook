@@ -130,6 +130,7 @@
 # G
 - [Give me a Diamond](give-me-a-diamond)
 - [Grill it!](grill-it)
+- [Guess the function](guess-the-function)
 - [Guess the number!](guess-the-number-1)
 # H
 - [Handshake problem](handshake-problem)
@@ -157,6 +158,7 @@
 - [Make the Deadfish swim](make-the-deadfish-swim)
 - [Matrix Addition](matrix-addition)
 - [Meeting](meeting)
+- [Merge in 2048](merge-in-2048)
 - [Mexican Wave](mexican-wave)
 - [Minutes to Midnight](minutes-to-midnight)
 - [Missing Alphabet](missing-alphabet)
@@ -195,6 +197,7 @@
 - [Prime factorization](prime-factorization)
 - [Primorial Of a Number](primorial-of-a-number)
 - [Prize Draw](prize-draw)
+- [Pure odd digits primes](pure-odd-digits-primes)
 # Q
 - [Quick (n choose k) calculator](quick-n-choose-k-calculator)
 # R
@@ -219,6 +222,7 @@
 - [Salesman's Travel](salesmans-travel)
 - [Separate The Wheat From The Chaff](separate-the-wheat-from-the-chaff)
 - [Sequences and Series](sequences-and-series)
+- [Sieve of Eratosthenes](sieve-of-eratosthenes)
 - [Simple card game](simple-card-game)
 - [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
 - [Simple Fun #116: Prime String](simple-fun-number-116-prime-string)
@@ -292,6 +296,7 @@
 # W
 - [What's in a name?](whats-in-a-name)
 - [What's Your Poison?](whats-your-poison)
+- [When greatest is less than smallest](when-greatest-is-less-than-smallest)
 - [Where is my parent!?(cry)](where-is-my-parent-cry)
 - [Which are in?](which-are-in)
 - [Who likes it?](who-likes-it)
