@@ -11,7 +11,7 @@ interface Kata {
         }
         return md5.reverse().toString();
       }
-    } catch (Exception ignore) {}
+    } catch (Exception ignore) { /* Ignore */ }
     return "";
   }
 }
