@@ -1,4 +1,4 @@
-<h1 align="center">Java Codewars Handbook ☕️🚀</h1>
+<h1 align="center">Codewars Handbook ☕️🚀</h1>
 
 <p align="center">
    <a href="http://hits.dwyl.io/ParanoidUser/codewars-handbook">
@@ -7,7 +7,7 @@
    </a>
    <a href="https://www.codewars.com">
       <img src="https://img.shields.io/badge/solved%20kata-975-red.svg"
-           title="Number of solved kata 👌">
+           title="Solved kata 👌">
    </a>
    <a href="https://travis-ci.org/ParanoidUser/codewars-handbook">
       <img src="https://img.shields.io/travis/ParanoidUser/codewars-handbook.svg"
@@ -23,14 +23,11 @@
    </a>
 <p>
 
-[Codewars](https://www.codewars.com) is an educational online platform for computer programming. On the platform, users aka "*codewarriors*" try to solve programming challenges known as "*kata*" to practice programming skills and gain honor points, which represent the level of respect a user has earned from the community. Each kata is set to a kyū rank, based on its subject area and difficulty. The harder the kata, the more points. Every new codewarrior is ranked as 8 kyū (Beginner) and can advance through the ranks by completing kata at or above their rank to reach the final 4th dan (Master). Kyū indicates the number of degrees away from the master level. This is why they count downward. Once you reach the master level, we count upward.
+[Codewars](https://www.codewars.com) is an educational online platform for computer programming. On the platform, users aka "*codewarriors*" try to solve programming challenges known as "*kata*" to practice programming skills and gain honor points, which represent the level of respect a user has earned from the community. Each kata is set to a kyū rank, based on its subject area and difficulty. The harder the kata, the more points. Every new codewarrior is ranked as 8 kyū (Beginner) and can advance through the ranks by completing kata at or above their rank to reach the final 4th dan (Master). Kyū indicates the number of degrees away from the master level. This is why they count downward. Once you reach the master level, we count upward. Enough said... Banzaaaai!
 
 ## Overview
 
-Here is a collection of Java solutions for Codewars challenges grouped by a kyū rank. Each solved kata is placed in a separate folder named by its slug and contains a task description, a solution source code, and verification tests. All solutions were solved on [the official website](https://www.codewars.com) and are verified against their original tests every day by Travis CI automation. **Pay attention:** most solutions are written using Java 11 language features which could be incompatible with Java 8 kata versions.
-
-New solutions keep adding every day. Hit the watch button to stay tuned!  
-If you find the repo helpful, **please give it a thank with** <span title="↑↑↑ hit that button ↑↑↑">`a star` 👉⭐👈</span>
+The repository contains a collection of Java solutions for Codewars challenges grouped by a kyū rank. Each kata is placed in a separate folder named by its slug and accompanied by a task description, a solution source code, and verification tests. All solutions were solved on [the official platform](https://www.codewars.com), verified against their original test cases, and styled to achieve the shortest source code that implements a certain algorithm.
 
 <ins>For quick access</ins> use the index table or do a search by kata URL, name, ID or slug in the repository. 
 
@@ -121,25 +118,47 @@ If you find the repo helpful, **please give it a thank with** <span title="↑�
    </tbody>
 </table>
 
+**Pay attention:** the source code is written with Java 11 and uses language features that could be incompatible with Java 8 kata versions.
+
 ## Disclaimer
 
-Keep in mind, using materials of this repository to gain rank, you violate [the policies of Codewars](https://github.com/Codewars/codewars.com/wiki/Community-Code-of-Conduct#policy), which state:
+Please **DO NOT** look at the solutions until you've solved a kata or at least took the time to think about your own approaches to solve the challenge. Keep in mind, using materials of this repository to gain rank, you violate [the policies of Codewars](https://github.com/Codewars/codewars.com/wiki/Community-Code-of-Conduct#policy), which state:
 > If you are caught cheating on a challenge, you will initially have your solution marked as a cheat and will not receive any honor or rank. This includes clever solutions that are clearly created for the spirit of cheating. Repeat offenders who have intentionally cheated will be banned.
 
 You acknowledge and agree that your use of the repository materials is at your own risk. The author assumes no responsibility or liability for any consequence resulting directly or indirectly for any action or inaction you take based on or made in reliance on the information or material on or linked to this repository. The information contained in this repository is provided on an "as is" basis with no guarantees of completeness, accuracy, usefulness or timeliness. The author reserves the right to change any and all items used or contained in the repository at any time without notice.
 
 ## Contribute
 
-Your contribution is highly appreciated here. Feel free to open issues or send pull requests.  
-If you have any questions or comments [the chat](https://gitter.im/paranoiduser/codewars-handbook) is open for discussion.  
+Your contribution is highly appreciated here. Feel free to send fixes and your brilliant ideas.  
+If you have any questions or comments, [the chat](https://gitter.im/paranoiduser/codewars-handbook) is open for discussion anytime.
 
-> *"This solution no longer solves the kata!"* 😤
->> Please open an issue or create a pull request with a working copy.
+### ✔️ DO'S
 
-> *"This solution has a bug!"* 😱
->> Please open an issue or create a pull request with a fixed version.
+> *"This solution no longer passes test cases!"* 😤
 
+Oops... Please open an issue or create a pull request with a working copy.
+
+---
+> *"This solution has a bug!"* 😳
+
+D'oh! Please open an issue or create a pull request with a fixed version.
+
+---
 > *"This solution is retrograde and can be solved by a one-liner!"* 🤔
->> You know what to do, right? 😉 Open an issue or create a pull request with an update!
 
-NOTE: Please **DO NOT** send solutions for missing kata problems!
+You know what to do, right? 😉 Open an issue or create a pull request with an update!
+
+### ⛔ DON'TS
+
+> Please **DO NOT** send new solutions for kata challenges!
+
+All challenges in the repository were solved by the author themselves and are cherry-picked to be shared with the community. To avoid harm and abuse to the Codewars platform and kata senseis the publishing process goes in the specific order. It starts with an 8-kyū rank (the easiest) and moves to a higher rank when all challenges in the group are solved. Within the same kyu, kata are selected by publication date from the oldest to the newest.
+
+> Please **DO NOT** fork or clone the repository for any purposes other than contribution!
+
+By making your own (or other code warriors') solutions accessible to anyone you disrespect [the Community Code of Conduct](https://github.com/Codewars/codewars.com/wiki/Community-Code-of-Conduct). It's highly discouraged by the Codewars team and the community.
+
+### ❤️ Your Support
+
+If you find the repo helpful, **please give it a thank with a star** <span title="↑↑↑ hit that button ↑↑↑">👉⭐👈</span>  
+As a token of appreciation the names of all stargazers will be mentioned in the release note. Hit the watch button to stay tuned!  
