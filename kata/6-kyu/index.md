@@ -103,6 +103,7 @@
 - [Extract file name](extract-file-name)
 # F
 - [Factors of triangle numbers](factors-of-triangle-numbers)
+- [Fat Fingers](fat-fingers)
 - [Feed Kahumolings!](feed-kahumolings)
 - [Fibonacci, Tribonacci and friends](fibonacci-tribonacci-and-friends)
 - [Figurate Numbers #1 - Pentagonal Number](figurate-numbers-number-1-pentagonal-number)
@@ -153,6 +154,7 @@
 - [Length of missing array](length-of-missing-array)
 - [Longest alphabetical substring](longest-alphabetical-substring)
 - [Longest_palindrome](longest-palindrome)
+- [LOTTO 6 aus 49 - 6 of 49](lotto-6-aus-49-6-of-49)
 - [Lucas numbers](lucas-numbers)
 # M
 - [Make the Deadfish swim](make-the-deadfish-swim)
@@ -174,6 +176,7 @@
 - [Not prime numbers](not-prime-numbers)
 - [Number Zoo Patrol](number-zoo-patrol)
 - [Numericals of a String](numericals-of-a-string)
+- [Nut Farm](nut-farm)
 # O
 - [Odd/Even number of divisors](odd-slash-even-number-of-divisors)
 - [Overflowing with longing](overflowing-with-longing)
@@ -182,6 +185,7 @@
 - [Parse bank account number](parse-bank-account-number)
 - [Parse HTML/CSS Colors](parse-html-slash-css-colors)
 - [Pascal's Triangle #2](pascals-triangle-number-2)
+- [Password Maker](password-maker-1)
 - [Paths in the Grid](paths-in-the-grid)
 - [Pentabonacci](pentabonacci)
 - [Persistent Bugger](persistent-bugger)
@@ -247,6 +251,7 @@
 - [Steps in Primes](steps-in-primes)
 - [Stop gninnipS My sdroW!](stop-gninnips-my-sdrow)
 - [Street Fighter 2 - Character Selection](street-fighter-2-character-selection)
+- [String Pyramid](string-pyramid)
 - [String searching with wildcard](string-searching-with-wildcard)
 - [String subpattern recognition I](string-subpattern-recognition-i)
 - [Strongest even number in an interval](strongest-even-number-in-an-interval)
