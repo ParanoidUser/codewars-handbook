@@ -162,6 +162,7 @@
 - [Functional Addition](functional-addition)
 - [Functions of Integers on Cartesian Plane](functions-of-integers-on-cartesian-plane)
 # G
+- [GCD sum](gcd-sum)
 - [Geometry Basics: Dot Product in 3D](geometry-basics-dot-product-in-3d)
 - [Geometry Basics: Triangle Perimeter in 2D](geometry-basics-triangle-perimeter-in-2d)
 - [Get the Middle Character](get-the-middle-character)

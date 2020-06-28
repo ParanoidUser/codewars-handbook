@@ -206,6 +206,7 @@
 - [Quick (n choose k) calculator](quick-n-choose-k-calculator)
 # R
 - [Rainfall](rainfall)
+- [Ranking NBA teams](ranking-nba-teams)
 - [Reach Me and Sum my Digits](reach-me-and-sum-my-digits)
 - [Rectangle into Squares](rectangle-into-squares)
 - [Reducing by steps](reducing-by-steps)
@@ -233,6 +234,8 @@
 - [Simple Fun #165: Withdraw](simple-fun-number-165-withdraw)
 - [Simple Fun #170: Sum Groups](simple-fun-number-170-sum-groups)
 - [Simple Fun #319: Number And IP Address](simple-fun-number-319-number-and-ip-address)
+- [Simple prime streaming](simple-prime-streaming)
+- [Simple square numbers](simple-square-numbers)
 - [Simple string indices](simple-string-indices)
 - [Simple transposition](simple-transposition)
 - [Simpson's Rule - Approximate Integration](simpsons-rule-approximate-integration)
@@ -308,6 +311,7 @@
 - [Who won the election?](who-won-the-election)
 - [Wind component calculation](wind-component-calculation)
 - [Word a10n (abbreviation)](word-a10n-abbreviation)
+- [Word Segmentation: MaxMatch](word-segmentation-maxmatch)
 - [Write Number in Expanded Form](write-number-in-expanded-form)
 # Y
 - [Your order, please](your-order-please)
