@@ -28,5 +28,6 @@ class NbaTest {
     assertEquals("Error(float number):Boston Celtics 111.1 Brooklyn Nets 105", Nba.nbaCup("Boston Celtics 111.1 Brooklyn Nets 105", "Boston Celtics"));
     assertEquals("Boston Celt:This team didn't play!", Nba.nbaCup(sheet, "Boston Celt"));
     assertEquals("New:This team didn't play!", Nba.nbaCup(sheet, "New"));
+    assertEquals("", Nba.nbaCup(sheet, ""));
   }
 }
