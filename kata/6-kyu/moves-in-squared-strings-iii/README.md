@@ -30,7 +30,8 @@ ijkl|cgko
 mnop|dhlp
 ```
 
-#Task:
+## Task
+
 - Write these functions `diag_1_sym`, `rot_90_clock`, `selfie_and_diag1`
 
 and
@@ -40,14 +41,17 @@ and
  - fct is the function of one variable f to apply to the string `s`
 (fct will be one of `diag_1_sym`, `rot_90_clock`, `selfie_and_diag1`)
 
-#Examples:
+## Examples
+
 ```
 s = "abcd\nefgh\nijkl\nmnop"
 oper(diag_1_sym, s) => "aeim\nbfjn\ncgko\ndhlp"
 oper(rot_90_clock, s) => "miea\nnjfb\nokgc\nplhd"
 oper(selfie_and_diag1, s) => "abcd|aeim\nefgh|bfjn\nijkl|cgko\nmnop|dhlp"
 ```
-# Notes:
+
+## Notes
+
 - The form of the parameter `fct` in oper
 changes according to the language. You can see each form according to the language in "Your test cases".
 - It could be easier to take these katas from number (I) to number (IV)

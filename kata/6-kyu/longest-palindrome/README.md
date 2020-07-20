@@ -1,6 +1,4 @@
-# [longest_palindrome](https://www.codewars.com/kata/longest-palindrome "https://www.codewars.com/kata/54bb6f887e5a80180900046b")
-
-### Longest Palindrome
+# [Longest palindrome](https://www.codewars.com/kata/longest-palindrome "https://www.codewars.com/kata/54bb6f887e5a80180900046b")
 
 Find the length of the longest substring in the given string `s` that is the same in reverse.        
 
@@ -8,7 +6,8 @@ As an example, if the input was “I like racecars that go fast”, the substrin
 
 If the length of the input string is `0`, the return value must be `0`. 
 
-### Example:
+## Example
+
 ```
 "a" -> 1 
 "aab" -> 2  

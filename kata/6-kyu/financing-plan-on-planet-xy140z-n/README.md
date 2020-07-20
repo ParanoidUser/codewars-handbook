@@ -24,12 +24,15 @@ How much money would I have at the end of my financing plan on planet XY140Z-n?
   W1 |  |2 |3 |4 |5 |6 |7 |
   W0 |0 |1 |2 |3 |4 |5 |6 |
   
-#Example:
+## Example
+
 ```
 finance(5) --> 105
 finance(6) --> 168
 finance(7) --> 252
 finance(5000) --> 62537505000
 ```
-#Hint: 
+
+## Hint
+ 
 try to avoid nested loops

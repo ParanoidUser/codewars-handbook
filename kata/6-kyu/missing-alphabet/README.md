@@ -21,5 +21,3 @@ Example:
 
 
 You don't need to validate input, the input string will always contain a certain amount of lowercase letters  (min 1 / max 50).   
-
-

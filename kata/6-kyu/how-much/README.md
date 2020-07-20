@@ -36,5 +36,5 @@ Explanation of the results for `howmuch(1, 100)`:
  * he can buy 7 boats each worth 14: `100 - 7 * 14 = 2`
  * or he can buy 9 cars worth 11: `100 - 9 * 11 = 1`
 
-# Note
+## Note
 See "Sample Tests" to know the format of the return.

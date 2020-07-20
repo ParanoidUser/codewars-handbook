@@ -4,7 +4,7 @@ The code provided has a method `hello` which is supposed to show only those attr
 
 But it's not working properly.
 
-# Notes
+## Notes
 
 There are 3 attributes
 * name 
@@ -13,7 +13,7 @@ There are 3 attributes
 
 When the same attribute is assigned multiple times the `hello` method shows it only once. If this happens the *order* depends on the **first** assignment of that attribute, but the *value* is from the **last** assignment.
 
-# Examples
+## Examples
 
 * `Hello.`
 * `Hello. My name is Bob. I am 27. I am male.`
@@ -21,5 +21,5 @@ When the same attribute is assigned multiple times the `hello` method shows it o
 * `Hello. My name is Alice. I am female.`
 * `Hello. My name is Batman.`
 
-# Task
+## Task
 Fix the code so we can all go home early.

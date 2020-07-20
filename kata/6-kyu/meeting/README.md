@@ -18,5 +18,5 @@ So the result of function `meeting(s)` will be:
 ```
 It can happen that in two distinct families with the same family name two people have the same first name too.
 
-# Notes
+## Notes
 - You can see another examples in the "Sample tests".
