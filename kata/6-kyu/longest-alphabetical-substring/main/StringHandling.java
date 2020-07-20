@@ -1,4 +1,4 @@
-class StringHandling {
+interface StringHandling {
   static String longestAlpabeticalSubstring(String text) {
     int start = 0, offset = 0;
     for (int i = 1, j = 0; i < text.length(); i++) {

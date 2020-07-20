@@ -1,4 +1,4 @@
-class MissingAlphabet {
+interface MissingAlphabet {
   static String insertMissingLetters(String str) {
     return str.chars()
         .mapToObj(c -> (char) c + "ABCDEFGHIJKLMNOPQRSTUVWXYZ".substring(c - 96))

@@ -1,6 +1,6 @@
 import static java.util.Arrays.stream;
 
-class Kata {
+interface Kata {
   static int getLengthOfMissingArray(Object[][] arrayOfArrays) {
     if (arrayOfArrays == null || arrayOfArrays.length == 0 || stream(arrayOfArrays).anyMatch(a -> a == null || a.length == 0)) {
       return 0;

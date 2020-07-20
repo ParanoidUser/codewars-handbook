@@ -1,6 +1,6 @@
 import static java.util.Arrays.copyOfRange;
 
-class Kata {
+interface Kata {
   static int[] foldArray(int[] array, int runs) {
     int[] folded = copyOfRange(array, 0, Math.round(array.length / 2.0f));
     for (int i = 0; i < array.length / 2; i++) {

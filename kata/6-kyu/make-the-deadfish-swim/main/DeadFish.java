@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class DeadFish {
+interface DeadFish {
   static int[] parse(String data) {
     int value = 0;
     var results = new ArrayList<Integer>();

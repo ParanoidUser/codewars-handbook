@@ -1,6 +1,6 @@
 import static java.util.List.of;
 
-class Keypad {
+interface Keypad {
   static int presses(String phrase) {
     var taps = 0;
     for (char c : phrase.toUpperCase().toCharArray()) {
