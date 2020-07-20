@@ -358,6 +358,7 @@
 - [Simple Fun #74: Growing Plant](simple-fun-number-74-growing-plant)
 - [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)
 - [Simple letter removal](simple-letter-removal)
+- [Simple remove duplicates](simple-remove-duplicates)
 - [Simple string division II](simple-string-division-ii)
 - [Small enough? - Beginner](small-enough-beginner)
 - [Smallest value of an array](smallest-value-of-an-array)
