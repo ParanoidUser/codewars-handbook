@@ -1,12 +1,13 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class LucasTest {
+class LucasTest {
   @Test
-  public void test_lucasnum() {
+  void sample() {
     assertEquals(2, Lucas.lucasnum(0));
     assertEquals(1, Lucas.lucasnum(1));
+    assertEquals(3, Lucas.lucasnum(2));
     assertEquals(-11, Lucas.lucasnum(-5));
     assertEquals(123, Lucas.lucasnum(-10));
   }
