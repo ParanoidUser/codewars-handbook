@@ -1,25 +1,25 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertArrayEquals(new String[0], Kata.getW(-5));
     assertArrayEquals(new String[0], Kata.getW(1));
-    assertArrayEquals(new String[] {
-            "*   *   *",
-            " * * * * ",
-            "  *   *  "
+    assertArrayEquals(new String[]{
+        "*   *   *",
+        " * * * * ",
+        "  *   *  "
     }, Kata.getW(3));
-    assertArrayEquals(new String[] {
-          "*           *           *",
-          " *         * *         * ",
-          "  *       *   *       *  ",
-          "   *     *     *     *   ",
-          "    *   *       *   *    ",
-          "     * *         * *     ",
-          "      *           *      "
-        }, Kata.getW(7));
+    assertArrayEquals(new String[]{
+        "*           *           *",
+        " *         * *         * ",
+        "  *       *   *       *  ",
+        "   *     *     *     *   ",
+        "    *   *       *   *    ",
+        "     * *         * *     ",
+        "      *           *      "
+    }, Kata.getW(7));
   }
 }

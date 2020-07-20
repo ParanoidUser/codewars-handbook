@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class KeypadTest {
+class KeypadTest {
   @Test
-  public void simpleTest() {
+  void sample() {
     assertEquals(9, Keypad.presses("LOL"));
     assertEquals(13, Keypad.presses("HOW R U"));
     assertEquals(47, Keypad.presses("WHERE DO U WANT 2 MEET L8R"));

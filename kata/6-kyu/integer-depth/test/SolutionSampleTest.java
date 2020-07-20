@@ -1,15 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionSampleTest {
+class SolutionSampleTest {
   @Test
-  public void sampleTest1() {
+  void sample() {
     assertEquals(10, MySolution.computeDepth(1));
-  }
-
-  @Test
-  public void sampleTest2() {
     assertEquals(9, MySolution.computeDepth(42));
   }
 }

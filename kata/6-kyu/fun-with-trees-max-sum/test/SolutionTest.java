@@ -1,19 +1,14 @@
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void maxSumInNullTree() {
-    assertThat(Solution.maxSum(null), is(0));
-  }
-
-  @Test
-  public void maxSumInPerfectTree() {
+  void sample() {
     TreeNode left = TreeNode.leaf(-22).withLeaves(9, 50);
     TreeNode right = TreeNode.leaf(11).withLeaves(9, 2);
     TreeNode root = TreeNode.join(5, left, right);
-    assertThat(Solution.maxSum(root), is(33));
+    assertEquals(33, Solution.maxSum(root));
+    assertEquals(0, Solution.maxSum(null));
   }
 }

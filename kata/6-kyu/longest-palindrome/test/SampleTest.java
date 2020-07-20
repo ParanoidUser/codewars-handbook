@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SampleTest {
+class SampleTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(1, Palindromes.longestPalindrome("a"));
     assertEquals(2, Palindromes.longestPalindrome("aa"));
     assertEquals(2, Palindromes.longestPalindrome("baa"));

@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SumFractionsTest {
+class SumFractionsTest {
   @Test
-  public void test() {
+  void sample() {
     int[][] a = {{1, 2}, {2, 9}, {3, 18}, {4, 24}, {6, 48}};
     assertEquals("[85, 72]", SumFractions.sumFracts(a));
 

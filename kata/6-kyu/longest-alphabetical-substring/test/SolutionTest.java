@@ -1,28 +1,20 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testSimpleWords() {
-    assertEquals("as", StringHandling.longestAlpabeticalSubstring("asd"));
-    assertEquals("ab", StringHandling.longestAlpabeticalSubstring("nab"));
-    assertEquals("abcde", StringHandling.longestAlpabeticalSubstring("abcdeapbcdef"));
-    assertEquals("aaaabbbbctt", StringHandling.longestAlpabeticalSubstring("asdfaaaabbbbcttavvfffffdf"));
-    assertEquals("fgikl", StringHandling.longestAlpabeticalSubstring("asdfbyfgiklag"));
-  }
-
-  @Test
-  public void testWordsWithSingleLetter() {
+  void sample() {
     assertEquals("a", StringHandling.longestAlpabeticalSubstring("a"));
     assertEquals("f", StringHandling.longestAlpabeticalSubstring("f"));
     assertEquals("z", StringHandling.longestAlpabeticalSubstring("z"));
-  }
-
-  @Test
-  public void testWordsWithLettersInBackwardOrder() {
-    assertEquals("z", StringHandling.longestAlpabeticalSubstring("zpda"));
     assertEquals("f", StringHandling.longestAlpabeticalSubstring("fda"));
     assertEquals("z", StringHandling.longestAlpabeticalSubstring("zyx"));
+    assertEquals("z", StringHandling.longestAlpabeticalSubstring("zpda"));
+    assertEquals("as", StringHandling.longestAlpabeticalSubstring("asd"));
+    assertEquals("ab", StringHandling.longestAlpabeticalSubstring("nab"));
+    assertEquals("abcde", StringHandling.longestAlpabeticalSubstring("abcdeapbcdef"));
+    assertEquals("fgikl", StringHandling.longestAlpabeticalSubstring("asdfbyfgiklag"));
+    assertEquals("aaaabbbbctt", StringHandling.longestAlpabeticalSubstring("asdfaaaabbbbcttavvfffffdf"));
   }
 }
