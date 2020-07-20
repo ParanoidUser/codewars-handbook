@@ -155,7 +155,7 @@
 - [L3375p34k](l3375p34k)
 - [Length of missing array](length-of-missing-array)
 - [Longest alphabetical substring](longest-alphabetical-substring)
-- [Longest_palindrome](longest-palindrome)
+- [Longest palindrome](longest-palindrome)
 - [LOTTO 6 aus 49 - 6 of 49](lotto-6-aus-49-6-of-49)
 - [Lucas numbers](lucas-numbers)
 # M

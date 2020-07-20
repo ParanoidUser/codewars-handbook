@@ -29,7 +29,8 @@ or printed:
                            ....hgfe
                            ....dcba
 ```
-#Task:
+## Task
+
 - Write these two functions `rot`and `selfie_and_rot`
 
 and
@@ -39,18 +40,17 @@ and
  - fct is the function of one variable f to apply to the string `s`
 (fct will be one of `rot, selfie_and_rot`)
 
-#Examples:
+## Example
+
 ```
 s = "abcd\nefgh\nijkl\nmnop"
 oper(rot, s) => "ponm\nlkji\nhgfe\ndcba"
 oper(selfie_and_rot, s) => "abcd....\nefgh....\nijkl....\nmnop....\n....ponm\n....lkji\n....hgfe\n....dcba"
 ```
-# Notes:
+
+## Note
 - The form of the parameter `fct` in oper
 changes according to the language. You can see each form according to the language in "Your test cases".
 - It could be easier to take these katas from number (I) to number (IV)
 
 Forthcoming katas will study other tranformations.
-
-#  Bash Note:
-The input strings are separated by `,` instead of `\n`. The ouput strings should be separated by `\r` instead of `\n`. See "Sample Tests".

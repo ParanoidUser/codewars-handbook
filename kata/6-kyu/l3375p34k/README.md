@@ -1,12 +1,6 @@
 # [L3375p34k](https://www.codewars.com/kata/l3375p34k "https://www.codewars.com/kata/543bfbecdef6345f52000e4d")
 
-General Objective
-================
-
 The objective of this Kata is to provide some way to encode a string into its leetspeak version.
-
-Specific Instructions
---------------------
 
 1) The code must contain a Leetspeak class inherited from an Encoder abstract class and containing an encode(String) method returning itself the encoded String.
 
@@ -16,8 +10,7 @@ Specific Instructions
   
 4) If any character outside the dictionary is given, it should be output as is.
 
-Dictionary to reproduce
-----------------------
+## Dictionary to reproduce
 
 The following dictionary has to be used:
 ```

@@ -31,7 +31,8 @@ ijkl|njfb|bfjn
 mnop|miea|aeim
 ```
 
-#Task:
+## Task
+
 - Write these functions `diag_2_sym`, `rot_90_counter`, `selfie_diag2_counterclock`
 
 and
@@ -41,14 +42,17 @@ and
  - fct is the function of one variable f to apply to the string `s`
 (fct will be one of `diag_2_sym`, `rot_90_counter`, `selfie_diag2_counterclock`)
 
-#Examples:
+## Example
+
 ```
 s = "abcd\nefgh\nijkl\nmnop"
 oper(diag_2_sym, s) => "plhd\nokgc\nnjfb\nmiea"
 oper(rot_90_counter, s) => "dhlp\ncgko\nbfjn\naeim"
 oper(selfie_diag2_counterclock, s) => "abcd|plhd|dhlp\nefgh|okgc|cgko\nijkl|njfb|bfjn\nmnop|miea|aeim"
 ```
-# Notes:
+
+## Note
+
 - The form of the parameter `fct` in oper
 changes according to the language. You can see each form according to the language in "Your test cases".
 - It could be easier to take these katas from number (I) to number (IV)

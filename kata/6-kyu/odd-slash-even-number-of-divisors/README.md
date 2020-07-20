@@ -3,7 +3,7 @@
 Given an integer n return 'odd' if the number of its divisors is odd. 
 Otherwise return 'even'.
 
-***Examples:***
+## Example
 
 All prime numbers have exactly two divisors (hence 'even')
 

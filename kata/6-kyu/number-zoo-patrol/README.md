@@ -1,14 +1,10 @@
 # [Number Zoo Patrol](https://www.codewars.com/kata/number-zoo-patrol "https://www.codewars.com/kata/5276c18121e20900c0000235")
 
-# Background:
-
 You're working in a number zoo, and it seems that one of the numbers has gone missing!
 
 Zoo workers have no idea what number is missing, and are too incompetent to figure it out, so they're hiring you to do it for them.
 
 In case the zoo loses another number, they want your program to work regardless of how many numbers there are in total.
-
-___
 
 ## Task:
 
