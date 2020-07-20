@@ -1,6 +1,6 @@
 import static java.util.stream.IntStream.range;
 
-class MexicanWave {
+interface MexicanWave {
   static String[] wave(String str) {
     return range(0, str.length())
         .filter(n -> str.charAt(n) != ' ')

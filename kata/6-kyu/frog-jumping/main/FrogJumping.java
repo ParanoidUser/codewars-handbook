@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-class FrogJumping {
+interface FrogJumping {
   static int solution(int[] a) {
     var track = new HashSet<>();
     for (int j = 0, i = 0; a.length > 0 && track.add(i); j++, i += a[i]) {

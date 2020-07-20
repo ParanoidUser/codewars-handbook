@@ -4,7 +4,7 @@ import static java.util.stream.Stream.of;
 
 import java.util.function.UnaryOperator;
 
-class Opstrings {
+interface Opstrings {
   static String diag1Sym(String strng) {
     return range(0, strng.indexOf('\n')).mapToObj(i -> of(strng.split("\n")).map(s -> "" + s.charAt(i)).collect(joining())).collect(joining("\n"));
   }

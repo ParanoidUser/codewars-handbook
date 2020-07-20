@@ -4,7 +4,7 @@ import static java.util.stream.Stream.of;
 
 import java.util.function.UnaryOperator;
 
-class Opstrings {
+interface Opstrings {
   static String rot90Counter(String strng) {
     return of(diag2Sym(strng).split("\n")).map(s -> new StringBuilder(s).reverse().toString()).collect(joining("\n"));
   }

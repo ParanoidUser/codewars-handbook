@@ -1,4 +1,4 @@
-class Palindromes {
+interface Palindromes {
   static int longestPalindrome(String s) {
     int longest = 0;
     for (int len = s.length(); len > longest; len--) {

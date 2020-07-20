@@ -1,6 +1,6 @@
 import java.util.function.UnaryOperator;
 
-class Opstrings1 {
+interface Opstrings1 {
   static String rot(String strng) {
     return new StringBuilder(strng).reverse().toString();
   }

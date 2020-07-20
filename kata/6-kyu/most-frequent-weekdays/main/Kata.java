@@ -4,7 +4,7 @@
 
   import java.time.Year;
 
-  class Kata {
+  interface Kata {
     static String[] mostFrequentDays(int year) {
       var jan1 = of(year, 1, 1).getDayOfWeek().getDisplayName(FULL, getDefault());
       var jan2 = of(year, 1, 2).getDayOfWeek().getDisplayName(FULL, getDefault());

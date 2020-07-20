@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Kata {
+interface Kata {
   static String[] getW(int height) {
     String[] w = new String[height < 2 ? 0 : height];
     for (int i = 0, j = 2 * (height - 1); i < w.length; i++) {

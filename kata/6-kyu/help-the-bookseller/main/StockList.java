@@ -3,7 +3,7 @@ import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.summingInt;
 
-class StockList {
+interface StockList {
   static String stockSummary(String[] lstOfArt, String[] lstOf1stLetter) {
     if (lstOfArt.length > 0 && lstOf1stLetter.length > 0) {
       var counts = stream(lstOfArt).collect(groupingBy(s -> s.substring(0, 1), summingInt(s -> Integer.parseInt(s.split(" ")[1]))));

@@ -1,7 +1,7 @@
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.IntStream.rangeClosed;
 
-class Carboat {
+interface Carboat {
   static String howmuch(int m, int n) {
     return "[" + rangeClosed(Math.min(m, n), Math.max(m, n))
             .filter(i -> i % 7 == 2 && i % 9 == 1)
