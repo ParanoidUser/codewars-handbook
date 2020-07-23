@@ -146,6 +146,7 @@
 # I
 - [Integer depth](integer-depth)
 - [Integers: Recreation Two](integers-recreation-two)
+- [Interval](interval)
 - [IntroToArt](introtoart)
 - [Irreducible Sum of Rationals](irreducible-sum-of-rationals)
 - [Is a number prime?](is-a-number-prime)
@@ -319,3 +320,5 @@
 - [Write Number in Expanded Form](write-number-in-expanded-form)
 # Y
 - [Your order, please](your-order-please)
+# Z
+- [Zig-Zag Camel](zig-zag-camel)
