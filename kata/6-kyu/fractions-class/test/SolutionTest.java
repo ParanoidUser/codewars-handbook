@@ -1,4 +1,5 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import org.junit.jupiter.api.Test;
@@ -40,6 +41,10 @@ class SolutionTest {
     assertEquals(new Fraction(2, 2), new Fraction(3, 3));
     assertNotEquals(new Fraction(1, 2), new Fraction(2, 1));
     assertNotEquals(new Fraction(1, 2), new Object());
+
+    var f = new Fraction(1, 2);
+    assertEquals(f, f);
+    assertFalse(f.equals(null));
   }
 
   @Test
