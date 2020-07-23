@@ -7,7 +7,7 @@ interface Opstrings1 {
 
   static String selfieAndRot(String strng) {
     var dots = ".".repeat(strng.indexOf('\n'));
-    return (strng.replaceAll("\n", dots + "\n") + dots + "\n" + dots + rot(strng).replaceAll("\n", "\n" + dots));
+    return (strng.replace("\n", dots + "\n") + dots + "\n" + dots + rot(strng).replace("\n", "\n" + dots));
   }
 
   static String oper(UnaryOperator<String> operator, String s) {
