@@ -1,4 +1,5 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import org.junit.jupiter.api.Test;
 
@@ -21,7 +22,6 @@ class SolutionTest {
 
   @Test
   void fraction_reduction() {
-
     assertEquals(new Fraction(1, 2), new Fraction(4, 8));
     assertEquals(new Fraction(2, 3), new Fraction(10, 15));
     assertEquals(new Fraction(4, 9), new Fraction(24, 54));
@@ -32,5 +32,18 @@ class SolutionTest {
     assertEquals("4/5", (new Fraction(2, 5).add(new Fraction(2, 5))).toString());
     assertEquals("5/6", (new Fraction(2, 4).add(new Fraction(1, 3))).toString());
     assertEquals("13/15", (new Fraction(1, 5).add(new Fraction(4, 6))).toString());
+  }
+
+  @Test
+  void equals_fractions() {
+    assertEquals(new Fraction(1, 2), new Fraction(2, 4));
+    assertEquals(new Fraction(2, 2), new Fraction(3, 3));
+    assertNotEquals(new Fraction(1, 2), new Fraction(2, 1));
+    assertNotEquals(new Fraction(1, 2), new Object());
+  }
+
+  @Test
+  void hashcode_representation() {
+    assertEquals(19, new Fraction(1, 2).hashCode());
   }
 }

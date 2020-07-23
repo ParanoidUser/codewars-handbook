@@ -1,4 +1,5 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 import org.junit.jupiter.api.Test;
 
@@ -13,5 +14,8 @@ class SumFractionsTest {
 
     int[][] c = {{1, 3}, {5, 3}};
     assertEquals("2", SumFractions.sumFracts(c));
+
+    int[][] d = {{-1, 3}, {-5, 3}};
+    assertNull(SumFractions.sumFracts(d));
   }
 }

@@ -1,4 +1,5 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import org.junit.jupiter.api.Test;
 
@@ -16,5 +17,8 @@ class SampleTests {
     assertEquals("0x1FE", ff.plus(ff).toString());
     assertEquals(32, Hex.parse("0x20"));
     assertEquals(512, Hex.parse("200"));
+    assertNotEquals(new Hex(1), new Hex(2));
+    assertNotEquals(new Hex(1), new Object());
+    assertEquals(255, new Hex(255).hashCode());
   }
 }
