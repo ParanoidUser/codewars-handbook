@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class WhichNoteTest {
+class WhichNoteTest {
   @Test
-  public void exampleTests() {
+  void sample() {
     assertEquals("A", WhichNote.whichNote(1));
     assertEquals("C#", WhichNote.whichNote(5));
     assertEquals("G#", WhichNote.whichNote(12));

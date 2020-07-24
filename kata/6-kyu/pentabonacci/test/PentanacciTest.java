@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class PentanacciTest {
+class PentanacciTest {
   @Test
-  public void test() {
+  void sample() {
     assertEquals(15, Pentanacci.countOddPentaFib(45));
     assertEquals(23, Pentanacci.countOddPentaFib(68));
     assertEquals(25, Pentanacci.countOddPentaFib(76));

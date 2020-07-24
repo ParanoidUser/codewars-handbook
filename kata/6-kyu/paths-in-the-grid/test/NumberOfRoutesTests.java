@@ -1,12 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.math.BigInteger;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class NumberOfRoutesTests {
+class NumberOfRoutesTests {
   @Test
-  public void exampleTests() {
+  void sample() {
     assertEquals(new BigInteger("2"), GridPath.numberOfRoutes(1, 1));
     assertEquals(new BigInteger("6"), GridPath.numberOfRoutes(5, 1));
     assertEquals(new BigInteger("35"), GridPath.numberOfRoutes(3, 4));

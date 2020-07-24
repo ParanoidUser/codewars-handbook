@@ -1,10 +1,10 @@
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class PiApproxTest {
+class PiApproxTest {
   @Test
-  public void test() {
+  void sample() {
     assertEquals("[10, 3.0418396189]", PiApprox.iterPi2String(0.1));
   }
 }

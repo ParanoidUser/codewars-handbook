@@ -1,15 +1,11 @@
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class PascalTest {
+class PascalTest {
   @Test
-  public void test1() {
-    assertArrayEquals(new int[][] {{1}}, PascalsTriangle.pascal(1));
-  }
-
-  @Test
-  public void test5() {
-    assertArrayEquals(new int[][] {{1}, {1, 1}, {1, 2, 1}, {1, 3, 3, 1}, {1, 4, 6, 4, 1}}, PascalsTriangle.pascal(5));
+  void sample() {
+    assertArrayEquals(new int[][]{{1}}, PascalsTriangle.pascal(1));
+    assertArrayEquals(new int[][]{{1}, {1, 1}, {1, 2, 1}, {1, 3, 3, 1}, {1, 4, 6, 4, 1}}, PascalsTriangle.pascal(5));
   }
 }

@@ -1,20 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class PizzaTest {
+class PizzaTest {
   @Test
-  public void testNegative() {
+  void sample() {
     assertEquals(-1, Pizza.maxPizza(-2));
-  }
-
-  @Test
-  public void testZero() {
     assertEquals(1, Pizza.maxPizza(0));
-  }
-
-  @Test
-  public void test3() {
     assertEquals(7, Pizza.maxPizza(3));
   }
 }
