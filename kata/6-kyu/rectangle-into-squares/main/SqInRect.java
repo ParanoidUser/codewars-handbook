@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class SqInRect {
+interface SqInRect {
   static List<Integer> sqInRect(int lng, int wdth) {
     if (lng == wdth) return null;
     var result = new ArrayList<Integer>();

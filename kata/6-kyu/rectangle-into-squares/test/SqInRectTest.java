@@ -1,18 +1,13 @@
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 import java.util.List;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class SqInRectTest {
+class SqInRectTest {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals(List.of(3, 2, 1, 1), SqInRect.sqInRect(5, 3));
-  }
-
-  @Test
-  public void test2() {
     assertNull(SqInRect.sqInRect(5, 5));
   }
 }

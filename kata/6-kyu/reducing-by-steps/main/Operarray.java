@@ -3,7 +3,7 @@ import static java.util.stream.LongStream.of;
 
 import java.util.function.LongBinaryOperator;
 
-class Operarray {
+interface Operarray {
   static long gcdi(long x, long y) {
     return valueOf(x).gcd(valueOf(y)).longValue();
   }

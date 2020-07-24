@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void staticTests() {
+  void sample() {
     assertEquals("no one likes this", Solution.whoLikesIt());
     assertEquals("Peter likes this", Solution.whoLikesIt("Peter"));
     assertEquals("Jacob and Alex like this", Solution.whoLikesIt("Jacob", "Alex"));

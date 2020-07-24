@@ -1,7 +1,7 @@
 # [Pentabonacci](https://www.codewars.com/kata/pentabonacci "https://www.codewars.com/kata/55c9172ee4bb15af9000005d")
 
 We have the following sequence:
-```python
+```
 f(0) = 0
 f(1) = 1
 f(2) = 1
@@ -20,7 +20,7 @@ count_odd_pentaFib(5) -----> 1 # because the terms up to 5 are: 0, 1, 1, 2, 4, 8
 ```
 Other examples:
 ```
- count_odd_pentaFib(10) ------> 3 #because the odds terms are: [1, 1, 31, 61] (three different values)
+count_odd_pentaFib(10) ------> 3 #because the odds terms are: [1, 1, 31, 61] (three different values)
 
 count_odd_pentaFib(15) ------> 5 # beacause the odd terms are: [1, 1, 31, 61, 1793, 3525] (five different values)
 ```

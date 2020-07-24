@@ -21,14 +21,15 @@ The *weight* associated with PauL is 2 so PauL's *winning number* is 54 * 2 = 10
 Now one can sort the firstnames in decreasing order of the `winning numbers`. When two
 people have the same `winning number` sort them *alphabetically* by their firstnames.
 
-### Task:
+## Task:
 
 - parameters: `st` a string of firstnames, `we` an array of weights, `n` a rank 
 
 - return: the firstname of the participant whose rank is `n` 
 (ranks are numbered from 1)
 
-### Example:
+## Example:
+
 ```
 names: "COLIN,AMANDBA,AMANDAB,CAROL,PauL,JOSEPH"
 weights: [1, 4, 4, 5, 2, 1]
@@ -36,7 +37,8 @@ n: 4
 
 The function should return: "PauL"
 ```
-# Note:
+
+## Note:
 - If `st` is empty return "No participants".
 
 - If n is greater than the number of participants then return "Not enough participants".

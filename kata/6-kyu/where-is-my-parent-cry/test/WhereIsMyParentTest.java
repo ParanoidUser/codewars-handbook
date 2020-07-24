@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class WhereIsMyParentTest {
+class WhereIsMyParentTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals("AaBb", WhereIsMyParent.findChildren("abBA"));
     assertEquals("AaaaaaZzzz", WhereIsMyParent.findChildren("AaaaaZazzz"));
     assertEquals("AaBbbCcc", WhereIsMyParent.findChildren("CbcBcbaA"));

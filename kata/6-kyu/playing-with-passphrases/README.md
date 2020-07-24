@@ -12,7 +12,7 @@ choose a text in capital letters including or not digits and non alphabetic char
 4. downcase each letter in odd position, upcase each letter in even position (the first character is in position 0), 
 5. reverse the whole result.
 
-#Example:
+## Example:
 
 your text: "BORN IN 2015!", shift 1
 

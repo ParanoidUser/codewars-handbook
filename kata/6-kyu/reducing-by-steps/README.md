@@ -10,7 +10,7 @@ Output: an array of integers, say r, such that
 
 With our example: `r = [2, 6, 12, 20, 30, 50]`
 
-#Task:
+## Task:
 Write the following functions of two variables
 
 - som  : (x, y) -> x + y
@@ -27,7 +27,7 @@ and
 (fct will be one of `som, mini, maxi, lcmu or gcdi`)
  - `init` is the initial value
 
-#Examples:
+## Examples:
 
 ```
 a = [18, 69, -90, -78, 65, 40]
@@ -37,7 +37,7 @@ oper_array(sum, a, 0) => [18, 87, -3, -81, -16, 24]
 oper_array(min, a, a[0]) => [18, 18, -90, -90, -90, -90]
 oper_array(max, a, a[0]) => [18, 69, 69, 69, 69, 69]
 ```
-# Notes:
+## Notes:
 - The form of the parameter `fct` in oper_array (or operArray or oper-array) 
 changes according to the language. You can see each form according to the language in "Your test cases".
 - AFAIK there are no corner cases, everything is as nice as possible.

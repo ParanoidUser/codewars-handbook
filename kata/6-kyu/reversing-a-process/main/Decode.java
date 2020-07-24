@@ -1,6 +1,6 @@
 import static java.util.stream.IntStream.range;
 
-class Decode {
+interface Decode {
   static String decode(String r) {
     var plain = new StringBuilder();
     var code = r.toLowerCase().replaceAll("\\d", "");

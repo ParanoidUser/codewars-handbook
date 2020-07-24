@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testSomething() {
+  void sample() {
     assertEquals("10 + 2", Kata.expandedForm(12));
     assertEquals("40 + 2", Kata.expandedForm(42));
     assertEquals("70000 + 300 + 4", Kata.expandedForm(70304));

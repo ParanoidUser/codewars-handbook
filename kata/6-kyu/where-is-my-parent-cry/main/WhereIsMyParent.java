@@ -1,6 +1,6 @@
 import static java.util.stream.Collectors.joining;
 
-class WhereIsMyParent {
+interface WhereIsMyParent {
   static String findChildren(String text) {
     return text.chars()
         .mapToObj(c -> (char) c + "")

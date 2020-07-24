@@ -1,6 +1,5 @@
 # [Regex pattern to check if string has all characters](https://www.codewars.com/kata/regex-pattern-to-check-if-string-has-all-characters "https://www.codewars.com/kata/5e4eb72bb95d28002dbbecde")
 
-# Task: 
 Your function should return a valid regular expression. This is a pattern which is normally used to match parts of a string.In this case will be used to check if all the characters given in the input appear in a string. 
 
 ## Input
