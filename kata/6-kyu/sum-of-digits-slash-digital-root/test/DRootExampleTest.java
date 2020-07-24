@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.springframework.test.util.AssertionErrors.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class DRootExampleTest {
+class DRootExampleTest {
   @Test
-  public void tests() {
+  void sample() {
     assertEquals("Nope!", 7, DRoot.digital_root(16));
     assertEquals("Nope!", 6, DRoot.digital_root(456));
   }

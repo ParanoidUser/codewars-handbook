@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SpinWordsTest {
+class SpinWordsTest {
   @Test
-  public void test() {
+  void sample() {
     assertEquals("emocleW", SpinWords.spinWords("Welcome"));
     assertEquals("Hey wollef sroirraw", SpinWords.spinWords("Hey fellow warriors"));
   }

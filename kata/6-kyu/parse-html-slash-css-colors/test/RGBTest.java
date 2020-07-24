@@ -22,5 +22,8 @@ class RGBTest {
     assertEquals(black, black);
     assertFalse(new RGB(0,0,0).equals(null));
     assertNotEquals(new RGB(0,0,0), new Object());
+    assertNotEquals(new RGB(0,0,0), new RGB(1,0,0));
+    assertNotEquals(new RGB(0,0,0), new RGB(0,1,0));
+    assertNotEquals(new RGB(0,0,0), new RGB(0,0,1));
   }
 }

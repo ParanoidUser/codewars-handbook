@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SimpsonIntegrationTest {
+class SimpsonIntegrationTest {
   @Test
-  public void test() {
+  void sample() {
     assertEquals(1.9999999986, SimpsonIntegration.simpson(290), 1e-10);
     assertEquals(1.9999996367, SimpsonIntegration.simpson(72), 1e-10);
     assertEquals(1.9999999975, SimpsonIntegration.simpson(252), 1e-10);

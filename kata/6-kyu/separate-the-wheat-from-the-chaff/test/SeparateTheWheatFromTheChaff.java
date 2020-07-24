@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SeparateTheWheatFromTheChaff {
+class SeparateTheWheatFromTheChaff {
   @Test
-  public void checkShortLengthVectors() {
+  void checkShortLengthVectors() {
     assertArrayEquals(new long[] {-6, -4, 6, 2}, Kata.wheatFromChaff(new long[] {2, -4, 6, -6}));
     assertArrayEquals(new long[] {-10, -3, 7}, Kata.wheatFromChaff(new long[] {7, -3, -10}));
     assertArrayEquals(new long[] {-2, -8, 1, 7}, Kata.wheatFromChaff(new long[] {7, -8, 1, -2}));
@@ -14,7 +14,7 @@ public class SeparateTheWheatFromTheChaff {
   }
 
   @Test
-  public void checkMediumLengthVectors() {
+  void checkMediumLengthVectors() {
     assertArrayEquals(new long[] {-2, -37, -48, -47, 25, 41, 16}, Kata.wheatFromChaff(new long[] {16, 25, -48, -47, -37, 41, -2}));
     assertArrayEquals(new long[] {-30, -11, -50, -5, 34, 38, 36}, Kata.wheatFromChaff(new long[] {-30, -11, 36, 38, 34, -5, -50}));
     assertArrayEquals(new long[] {-31, -5, -28, -42, -22, -46, -4, 11}, Kata.wheatFromChaff(new long[] {-31, -5, 11, -42, -22, -46, -4, -28}));
@@ -25,7 +25,7 @@ public class SeparateTheWheatFromTheChaff {
   }
 
   @Test
-  public void checkLengthyVectors() {
+  void checkLengthyVectors() {
     assertArrayEquals(new long[] {-7, -35, -46, -22, -26, -5, -44, -14, 34, 43, 46}, Kata.wheatFromChaff(new long[] {-7, -35, -46, -22, 46, 43, -44, -14, 34, -5, -26}));
     assertArrayEquals(new long[] {-46, -50, -28, -45, -27, -40, -24, -46, 34, 47, 35, 10}, Kata.wheatFromChaff(new long[] {-46, -50, -28, -45, -27, -40, 10, 35, 34, 47, -46, -24}));
     assertArrayEquals(new long[] {-33, -14, -19, -45, -12, -21, -10, -3, 41, 4, 31, 41, 16}, Kata.wheatFromChaff(new long[] {-33, -14, 16, 31, 4, 41, -10, -3, -21, -12, -45, 41, -19}));
@@ -34,7 +34,7 @@ public class SeparateTheWheatFromTheChaff {
   }
 
   @Test
-  public void checkEdgeNegatives() {
+  void checkEdgeNegatives() {
     assertArrayEquals(new long[] {-22, -20, -32}, Kata.wheatFromChaff(new long[] {-22, -20, -32}));
     assertArrayEquals(new long[] {-46, -3, -15, -5}, Kata.wheatFromChaff(new long[] {-46, -3, -15, -5}));
     assertArrayEquals(new long[] {-46, -17, -48, -5, -21}, Kata.wheatFromChaff(new long[] {-46, -17, -48, -5, -21}));
@@ -49,7 +49,7 @@ public class SeparateTheWheatFromTheChaff {
   }
 
   @Test
-  public void checkEdgePositives() {
+  void checkEdgePositives() {
     assertArrayEquals(new long[] {9, 9, 20}, Kata.wheatFromChaff(new long[] {9, 9, 20}));
     assertArrayEquals(new long[] {34, 17, 37, 45}, Kata.wheatFromChaff(new long[] {34, 17, 37, 45}));
     assertArrayEquals(new long[] {18, 9, 27, 45, 35}, Kata.wheatFromChaff(new long[] {18, 9, 27, 45, 35}));

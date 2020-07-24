@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SequenceTest {
+class SequenceTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(50, Sequence.getScore(1));
     assertEquals(150, Sequence.getScore(2));
     assertEquals(300, Sequence.getScore(3));

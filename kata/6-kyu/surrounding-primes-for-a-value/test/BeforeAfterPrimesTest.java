@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class BeforeAfterPrimesTest {
+class BeforeAfterPrimesTest {
   @Test
-  public void test() {
+  void sample() {
     assertEquals(89, BeforeAfterPrimes.primeBefAft(97)[0]);
     assertEquals(101, BeforeAfterPrimes.primeBefAft(97)[1]);
     assertEquals(97, BeforeAfterPrimes.primeBefAft(100)[0]);
