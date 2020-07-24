@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class BlackOrWhiteKeyTest {
+class BlackOrWhiteKeyTest {
   @Test
-  public void ExampleTests() {
+  void sample() {
     assertEquals("white", BlackOrWhiteKey.blackOrWhiteKey(1));
     assertEquals("black", BlackOrWhiteKey.blackOrWhiteKey(5));
     assertEquals("black", BlackOrWhiteKey.blackOrWhiteKey(12));

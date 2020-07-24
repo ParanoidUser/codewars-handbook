@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ArcParabLenTest {
+class ArcParabLenTest {
   @Test
-  public void test() {
+  void test() {
     assertEquals(1.414213562, ArcParabLen.lenCurve(1), 1e-9);
     assertEquals(1.478197397, ArcParabLen.lenCurve(10), 1e-9);
   }

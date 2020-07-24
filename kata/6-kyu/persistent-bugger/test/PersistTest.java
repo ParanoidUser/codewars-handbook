@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class PersistTest {
+class PersistTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(3, Persist.persistence(39));
     assertEquals(0, Persist.persistence(4));
     assertEquals(2, Persist.persistence(25));
