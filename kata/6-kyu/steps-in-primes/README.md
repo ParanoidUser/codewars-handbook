@@ -20,10 +20,9 @@ So this function should return the **first** pair of the two prime numbers space
 between the limits `m`, `n` if these g-steps prime numbers exist otherwise `nil` or `null` or `None` or `Nothing` or `[]` or `"0, 0"` or `{0, 0}` or `0 0`(depending on the language). 
 
 
-#Examples:
+## Examples:
 
 - 
-
 
 `step(2, 5, 7) --> [5, 7] or (5, 7) or {5, 7} or "5 7"`
 
@@ -41,7 +40,8 @@ between the limits `m`, `n` if these g-steps prime numbers exist otherwise `nil`
 `step(6, 100, 110) --> [101, 107]` though there is a prime between 101 and 107 which is 103; the pair 101-103 is a 2-step.
 
 
-#Notes: 
+## Notes: 
+
 The idea of "step" is close to that of "gap" but it is not exactly the same. For those interested they can have a look
 at <http://mathworld.wolfram.com/PrimeGaps.html>. 
 

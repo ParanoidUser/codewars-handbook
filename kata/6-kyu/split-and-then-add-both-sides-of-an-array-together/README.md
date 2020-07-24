@@ -1,6 +1,5 @@
 # [Split and then add both sides of an array together.](https://www.codewars.com/kata/split-and-then-add-both-sides-of-an-array-together "https://www.codewars.com/kata/5946a0a64a2c5b596500019a")
 
-## Task
 You will receive an array as parameter that contains 1 or more integers and a number `n`.
 
 Here is a little visualization of the process:
@@ -23,10 +22,7 @@ Here is a little visualization of the process:
 {2, 4, 7, 12, 15}
 ```
 
-
-
 Repeat the above steps `n` times or until there is only one number left, and then return the array.
-
 
 ## Example
 
