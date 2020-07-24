@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class TestClass {
+class TestClass {
   @Test
-  public void splitAndAdd() {
+  void sample() {
     assertArrayEquals(new int[] {5, 10}, Kata.splitAndAdd(new int[] {1, 2, 3, 4, 5}, 2));
     assertArrayEquals(new int[] {15}, Kata.splitAndAdd(new int[] {1, 2, 3, 4, 5}, 3));
     assertArrayEquals(new int[] {15}, Kata.splitAndAdd(new int[] {15}, 3));

@@ -1,20 +1,14 @@
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class TestPigLatin {
+class TestPigLatin {
   @Test
-  public void testMap() {
+  void sample() {
     assertEquals("apmay", PigLatin.translate("map"));
-  }
-
-  @Test
-  public void testegg() {
     assertEquals("eggway", PigLatin.translate("egg"));
-  }
-
-  @Test
-  public void testspaghetti() {
     assertEquals("aghettispay", PigLatin.translate("spaghetti"));
+    assertNull(PigLatin.translate("123"));
   }
 }

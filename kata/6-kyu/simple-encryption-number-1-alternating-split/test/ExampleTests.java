@@ -1,11 +1,11 @@
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExampleTests {
+class ExampleTests {
   @Test
-  public void testEncrypt() {
+  void encryptTest() {
     assertEquals("This is a test!", Kata.encrypt("This is a test!", 0));
     assertEquals("hsi  etTi sats!", Kata.encrypt("This is a test!", 1));
     assertEquals("s eT ashi tist!", Kata.encrypt("This is a test!", 2));
@@ -16,7 +16,7 @@ public class ExampleTests {
   }
 
   @Test
-  public void testDecrypt() {
+  void decryptTest() {
     assertEquals("This is a test!", Kata.decrypt("This is a test!", 0));
     assertEquals("This is a test!", Kata.decrypt("hsi  etTi sats!", 1));
     assertEquals("This is a test!", Kata.decrypt("s eT ashi tist!", 2));
@@ -27,10 +27,10 @@ public class ExampleTests {
   }
 
   @Test
-  public void testNullOrEmpty() {
+  void nullOrEmptyTest() {
     assertEquals("", Kata.encrypt("", 0));
     assertEquals("", Kata.decrypt("", 0));
-    assertNull(null, Kata.encrypt(null, 0));
-    assertNull(null, Kata.decrypt(null, 0));
+    assertNull(Kata.encrypt(null, 0));
+    assertNull(Kata.decrypt(null, 0));
   }
 }

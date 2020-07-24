@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class StrongestEvenNumberTest {
+class StrongestEvenNumberTest {
   @Test
-  public void sampleTests() {
+  void sample() {
     assertEquals(2, StrongestEvenNumber.strongestEven(1, 2));
     assertEquals(8, StrongestEvenNumber.strongestEven(5, 10));
     assertEquals(48, StrongestEvenNumber.strongestEven(48, 56));

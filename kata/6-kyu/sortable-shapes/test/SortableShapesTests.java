@@ -1,13 +1,13 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SortableShapesTests {
+class SortableShapesTests {
   @Test
-  public void shapesAreSortableOnArea() {
+  void sample() {
     List<Shape> ordered = List.of(
             new CustomShape(1.1234),
             new Square(1.1234),

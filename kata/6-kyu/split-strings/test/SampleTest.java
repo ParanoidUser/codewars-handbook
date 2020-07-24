@@ -1,17 +1,13 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SampleTest {
+class SampleTest {
   @Test
-  public void testEvenString() {
-    assertArrayEquals(new String[] {"ab", "cd", "ef"}, StringSplit.solution("abcdef"));
-    assertArrayEquals(new String[] {"He", "ll", "oW", "or", "ld"}, StringSplit.solution("HelloWorld"));
-  }
-
-  @Test
-  public void testOddString() {
-    assertArrayEquals(new String[] {"ab", "cd", "e_"}, StringSplit.solution("abcde"));
-    assertArrayEquals(new String[] {"Lo", "ve", "Pi", "zz", "a_"}, StringSplit.solution("LovePizza"));
+  void sample() {
+    assertArrayEquals(new String[]{"ab", "cd", "ef"}, StringSplit.solution("abcdef"));
+    assertArrayEquals(new String[]{"He", "ll", "oW", "or", "ld"}, StringSplit.solution("HelloWorld"));
+    assertArrayEquals(new String[]{"ab", "cd", "e_"}, StringSplit.solution("abcde"));
+    assertArrayEquals(new String[]{"Lo", "ve", "Pi", "zz", "a_"}, StringSplit.solution("LovePizza"));
   }
 }

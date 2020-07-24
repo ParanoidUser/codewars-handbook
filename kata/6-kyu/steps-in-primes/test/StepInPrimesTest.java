@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class StepInPrimesTest {
+class StepInPrimesTest {
   @Test
-  public void test() {
+  void sample() {
     assertArrayEquals(new long[] {101, 103}, StepInPrimes.step(2, 100, 110));
     assertArrayEquals(new long[] {103, 107}, StepInPrimes.step(4, 100, 110));
     assertArrayEquals(new long[] {101, 107}, StepInPrimes.step(6, 100, 110));
