@@ -1,4 +1,4 @@
-class Kata {
+interface Kata {
   static String simpleTransposition(String text) {
     var trans = new StringBuilder();
     for (int i = 0; i < text.length(); i += 2) {

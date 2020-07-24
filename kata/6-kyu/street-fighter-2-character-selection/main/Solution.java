@@ -1,4 +1,4 @@
-class Solution {
+interface Solution {
   static String[] streetFighterSelection(String[][] fighters, int[] position, String[] moves) {
     for (int i = 0; i < moves.length; i++) {
       switch (moves[i]) {

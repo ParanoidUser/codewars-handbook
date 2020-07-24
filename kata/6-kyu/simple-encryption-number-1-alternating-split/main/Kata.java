@@ -1,4 +1,4 @@
-class Kata {
+interface Kata {
   static String encrypt(String text, int n) {
     while (n-- > 0) {
       var cypher = new StringBuilder();

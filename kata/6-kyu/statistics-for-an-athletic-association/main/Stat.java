@@ -1,7 +1,7 @@
 import static java.util.stream.IntStream.of;
 import static java.util.stream.Stream.of;
 
-class Stat {
+interface Stat {
   static String stat(String strg) {
     int[] times = of(strg.split(", ")).map(t -> t.split("\\|")).mapToInt(t ->
                      Integer.parseInt(t[2]) + 60 * Integer.parseInt(t[1]) + 3600 * Integer.parseInt(t[0])).sorted().toArray();

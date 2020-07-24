@@ -4,7 +4,7 @@ import static java.util.stream.Stream.of;
 
 import java.util.ArrayList;
 
-class Kata {
+interface Kata {
   static String sortTheInnerContent(String words) {
     var reversed = new ArrayList<String>();
     for (var word : words.split(" ")) {

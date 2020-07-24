@@ -1,7 +1,7 @@
 import static java.math.BigInteger.valueOf;
 import static java.util.stream.LongStream.range;
 
-class StepInPrimes {
+interface StepInPrimes {
   static long[] step(int g, long m, long n) {
     return range(m, n - g)
         .filter(l -> valueOf(l).isProbablePrime(10) && valueOf(l + g).isProbablePrime(10))

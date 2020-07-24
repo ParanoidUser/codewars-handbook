@@ -2,7 +2,7 @@ import static java.util.stream.IntStream.rangeClosed;
 
 import java.util.function.DoubleUnaryOperator;
 
-class SimpsonIntegration {
+interface SimpsonIntegration {
   static double simpson(int n) {
     DoubleUnaryOperator fn = num -> 1.5 * Math.pow(Math.sin(num), 3);
     double h = Math.PI / n;

@@ -2,7 +2,7 @@ import static java.util.stream.Stream.of;
 
 import java.util.ArrayList;
 
-class Travel {
+interface Travel {
   static String travel(String r, String zipcode) {
     var streets = new ArrayList<String>();
     var apartments = new ArrayList<String>();
