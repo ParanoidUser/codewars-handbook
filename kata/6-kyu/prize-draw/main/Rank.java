@@ -3,7 +3,7 @@ import static java.util.Map.Entry.comparingByKey;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
-class Rank {
+interface Rank {
   static String nthRank(String st, Integer[] we, int n) {
     if (st.isEmpty()) {
       return "No participants";

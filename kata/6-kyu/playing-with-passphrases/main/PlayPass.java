@@ -1,6 +1,6 @@
 import java.util.concurrent.atomic.AtomicInteger;
 
-class PlayPass {
+interface PlayPass {
   static String playPass(String s, int n) {
     var sid = new AtomicInteger();
     return s.toUpperCase().chars()

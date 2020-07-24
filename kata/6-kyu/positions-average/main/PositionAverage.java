@@ -1,6 +1,6 @@
 import static java.util.stream.IntStream.range;
 
-class PositionAverage {
+interface PositionAverage {
   static double posAverage(String s) {
     var nums = s.split(", ");
     double occurs = 0, total = nums.length * (nums.length - 1) / 2.;
