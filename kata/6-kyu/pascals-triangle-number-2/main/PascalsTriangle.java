@@ -1,4 +1,4 @@
-class PascalsTriangle {
+interface PascalsTriangle {
   static int[][] pascal(int depth) {
     int[][] triangle = new int[depth][];
     for (int i = 0; i < depth; i++) {

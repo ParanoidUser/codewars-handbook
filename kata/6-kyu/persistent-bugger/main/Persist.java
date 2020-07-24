@@ -1,4 +1,4 @@
-class Persist {
+interface Persist {
   static int persistence(long n) {
     int times = 0;
     while (n > 9) {

@@ -1,4 +1,4 @@
-class PiApprox {
+interface PiApprox {
   static String iterPi2String(double epsilon) {
     double pi = 0;
     int count = 1;
