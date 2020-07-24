@@ -8,7 +8,7 @@ Same meaning: 1 == 1
 
 1 != -1
 
-#Examples:
+## Examples:
 
 ```
 [1,4,4,4,0,4,3,3,1] # should return [1,12,0,4,6,1]

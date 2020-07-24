@@ -1,7 +1,5 @@
 # [Simple Fun #319: Number And IP Address](https://www.codewars.com/kata/simple-fun-number-319-number-and-ip-address "https://www.codewars.com/kata/5936371109ca68fe6900000c")
 
-# Task
-
 An IP address contains four numbers(0-255) and separated by dots. It can be converted to a number by this way:
 
 
@@ -9,7 +7,7 @@ Given a string `s` represents a number or an IP address. Your task is to convert
 
 You can assume that all inputs are valid.
 
-# Example
+## Example
 
 Example IP address: `10.0.3.193`
 
@@ -24,9 +22,7 @@ Convert each number to a 8-bit binary string
 Combine these four strings: `00001010 00000000 00000011 11000001` and then convert them to a decimal number:
 `167773121`
 
-
-# Input/Output
-
+## Input/Output
 
 `[input]` string `s`
 
@@ -36,7 +32,7 @@ A number or IP address in string format.
 
 A converted number or IP address in string format.
 
-# Example
+## Example
 
 For `s = "10.0.3.193"`, the output should be `"167773121"`.
 

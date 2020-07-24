@@ -16,20 +16,20 @@ If n = 16 then
 
 we divided successively 4 times and we reached 1, so the strongness of 16 is `4`
 
-
-# Task
+## Task
 
 Given a closed interval `[n, m]`, return the even number that is the strongest in the interval. If multiple solutions exist return the smallest strongest even number.
 
 Note that programs must run within the allotted server time; a naive solution will probably time out.
 
+## Constraints
 
-# Constraints
 ```
 1 <= n < m <= INT_MAX
 ```
 
-# Examples
+## Examples
+
 ```
 [1, 2]    -->   2  # 1 has strongness 0, 2 has strongness 1
 [5, 10]   -->   8  # 5, 7, 9 have strongness 0; 6, 10 have strongness 1; 8 has strongness 3
