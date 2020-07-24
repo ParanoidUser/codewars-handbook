@@ -1,19 +1,18 @@
 import static java.util.stream.IntStream.of;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.HashSet;
 import java.util.Set;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import org.junit.BeforeClass;
-import org.junit.Test;
+class SolutionTest {
+  private final int[] results = new int[60000];
+  private final Set<Integer> setResults = new HashSet<>();
 
-public class SolutionTest {
-  private static final int[] results = new int[60000];
-  private static final Set<Integer> setResults = new HashSet<>();
-
-  @BeforeClass
-  public static void beforeClass() {
+  @BeforeEach
+  void setUp() {
     for (int i = 0; i < results.length; i++) {
       results[i] = Main.oneTwoThree();
       setResults.add(results[i]);
@@ -21,19 +20,13 @@ public class SolutionTest {
   }
 
   @Test
-  public void testOneTwoThreeMustBePresent() {
+  void sample() {
     assertTrue(setResults.contains(1));
     assertTrue(setResults.contains(2));
     assertTrue(setResults.contains(3));
-  }
 
-  @Test
-  public void testShouldNotContainInvalidNumbers() {
     assertEquals(3, setResults.size());
-  }
 
-  @Test
-  public void testAllNumbersMustBePresentsWithEqualProbability() {
     assertTrue(of(results).filter(n -> n == 1).count() * 1. / results.length - 1. / 3 < 0.005);
     assertTrue(of(results).filter(n -> n == 2).count() * 1. / results.length - 1. / 3 < 0.005);
     assertTrue(of(results).filter(n -> n == 3).count() * 1. / results.length - 1. / 3 < 0.005);

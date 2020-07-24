@@ -1,15 +1,15 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ConversionTest {
+class ConversionTest {
   @Test
-  public void shouldConvertToRoman() {
-    assertEquals("solution(1) should equal to I", "I", Conversion.solution(1));
-    assertEquals("solution(4) should equal to IV", "IV", Conversion.solution(4));
-    assertEquals("solution(6) should equal to VI", "VI", Conversion.solution(6));
-    assertEquals("solution(1) should equal to I", "MCCXXXIV", Conversion.solution(1234));
-    assertEquals("solution(1) should equal to I", "MMMCCCXXI", Conversion.solution(3321));
-    assertEquals("solution(1) should equal to I", "MDCCCXCIX", Conversion.solution(1899));
+  void sample() {
+    assertEquals("I", Conversion.solution(1));
+    assertEquals("IV", Conversion.solution(4));
+    assertEquals("VI", Conversion.solution(6));
+    assertEquals("MCCXXXIV", Conversion.solution(1234));
+    assertEquals("MMMCCCXXI", Conversion.solution(3321));
+    assertEquals("MDCCCXCIX", Conversion.solution(1899));
   }
 }

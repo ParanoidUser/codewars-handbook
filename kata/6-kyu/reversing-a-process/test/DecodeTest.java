@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class DecodeTest {
+class DecodeTest {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals("uogbucwnddunktsjfanzlurnyxmx", Decode.decode("1273409kuqhkoynvvknsdwljantzkpnmfgf"));
     assertEquals("mfmwhbpoudfujjozopaugcb", Decode.decode("1544749cdcizljymhdmvvypyjamowl"));
     assertEquals("Impossible to decode", Decode.decode("1877138eieaqgumigywmicwgcgg"));

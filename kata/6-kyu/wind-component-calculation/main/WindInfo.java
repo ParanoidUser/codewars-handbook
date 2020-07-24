@@ -1,4 +1,4 @@
-class WindInfo {
+interface WindInfo {
   static String message(String rwy, int windDirection, int windSpeed) {
     int a = windDirection - 10 * Integer.parseInt(rwy.substring(0, 2));
     int cw = (int) Math.round(Math.sin(Math.toRadians(a)) * windSpeed);

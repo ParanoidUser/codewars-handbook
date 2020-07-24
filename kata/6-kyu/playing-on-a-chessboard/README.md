@@ -52,5 +52,3 @@ If the denominator is 1 return [numerator, 1].
 
 - In Fortran - as in any other language - the returned string is not permitted
 to contain any redundant trailing whitespace: you can use dynamically allocated character strings.
-
-#### See Example Test Cases for each language

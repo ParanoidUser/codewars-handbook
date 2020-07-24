@@ -1,4 +1,4 @@
-class Solution {
+interface Solution {
   static String whoLikesIt(String... names) {
     if (names.length < 2) {
       return (names.length > 0 ? names[0] : "no one") + " likes this";

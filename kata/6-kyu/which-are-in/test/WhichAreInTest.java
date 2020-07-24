@@ -1,12 +1,12 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class WhichAreInTest {
+class WhichAreInTest {
   @Test
-  public void test() {
-    String[] a = new String[] {"arp", "live", "strong"};
-    String[] b = new String[] {"lively", "alive", "harp", "sharp", "armstrong"};
-    assertArrayEquals(new String[] {"arp", "live", "strong"}, WhichAreIn.inArray(a, b));
+  void sample() {
+    String[] a = new String[]{"arp", "live", "strong"};
+    String[] b = new String[]{"lively", "alive", "harp", "sharp", "armstrong"};
+    assertArrayEquals(new String[]{"arp", "live", "strong"}, WhichAreIn.inArray(a, b));
   }
 }

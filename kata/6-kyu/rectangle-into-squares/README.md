@@ -33,7 +33,7 @@ You will return an array or a string (depending on the language; Shell bash, Pow
   Your result and the reference test solution are compared by strings.
 ```
 
-# Notes:
+## Notes:
 - - lng == wdth as a starting case would be an entirely different problem and the drawing is planned to be interpreted with `lng != wdth`.
  
  - When the initial parameters are so that `lng` == `wdth`, the solution `[lng]` would be the most obvious but not in the spirit of this kata so, in that case, return `None`/`nil`/`null`/`Nothing`

@@ -2,7 +2,7 @@ import static java.util.stream.Stream.of;
 
 import java.util.stream.DoubleStream;
 
-class Rainfall {
+interface Rainfall {
   static double mean(String town, String strng) {
     return stream(town, strng).average().orElse(-1);
   }

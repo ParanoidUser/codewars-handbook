@@ -1,11 +1,11 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExampleTestCases {
+class ExampleTestCases {
   @Test
-  public void someBoardsWithWinnersTests() {
+  void sample() {
     assertTrue(RegexTicTacToeWinChecker.regexTicTacToeWinChecker("XXX-O-O-O"));
     assertTrue(RegexTicTacToeWinChecker.regexTicTacToeWinChecker("X--OOOX-X"));
     assertTrue(RegexTicTacToeWinChecker.regexTicTacToeWinChecker("O--OO-XXX"));
@@ -14,10 +14,6 @@ public class ExampleTestCases {
     assertTrue(RegexTicTacToeWinChecker.regexTicTacToeWinChecker("X-O-OOXXO"));
     assertTrue(RegexTicTacToeWinChecker.regexTicTacToeWinChecker("XO--X-OOX"));
     assertTrue(RegexTicTacToeWinChecker.regexTicTacToeWinChecker("X-OXOOOXX"));
-  }
-
-  @Test
-  public void someBoardsWithoutWinnersTests() {
     assertFalse(RegexTicTacToeWinChecker.regexTicTacToeWinChecker("XO-------"));
     assertFalse(RegexTicTacToeWinChecker.regexTicTacToeWinChecker("XX-XOO---"));
     assertFalse(RegexTicTacToeWinChecker.regexTicTacToeWinChecker("-XX-OO-O-"));

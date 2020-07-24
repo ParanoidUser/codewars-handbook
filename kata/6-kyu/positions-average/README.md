@@ -22,11 +22,11 @@ between the `(n * (n-1)) / 2` sets of substrings taken amongst the given `n` sub
 
 The function returns the percentage formatted as a float with 10 decimals but the result is tested at 1e.-9 (see function assertFuzzy in the tests).
 
-# Example:
+## Example:
 Given string s = "444996, 699990, 666690, 096904, 600644, 640646, 606469, 409694, 666094, 606490"
 composing a set of n = 10 substrings (hence 45 combinations), `pos_average` returns `29.2592592593`.
 
 In a set the `n` substrings will have the same length ( > 0 ).
 
-# Notes
+## Notes
 - You can see other examples in the "Sample tests".

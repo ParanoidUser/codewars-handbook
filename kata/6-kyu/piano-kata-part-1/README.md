@@ -1,6 +1,5 @@
 # [Piano Kata, Part 1](https://www.codewars.com/kata/piano-kata-part-1 "https://www.codewars.com/kata/589273272fab865136000108")
 
-## Your Story
 "A *piano* in the home meant something." - *Fried Green Tomatoes at the Whistle Stop Cafe*
 
 You've just realized a childhood dream by getting a beautiful and beautiful-sounding upright piano from a friend who was leaving the country. You immediately started doing things like playing "<a href="https://en.wikipedia.org/wiki/Heart_and_Soul_(1938_song)#Musical_format">Heart and Soul</a>" over and over again, using one finger to pick out any melody that came into your head, requesting some sheet music books from the library, signing up for some MOOCs like <a href="https://www.coursera.org/learn/develop-your-musicianship">Developing Your Musicianship</a>, and wondering if you will think of any good ideas for writing piano-related katas and apps. 
