@@ -5,7 +5,7 @@ import static org.apache.commons.lang3.tuple.Pair.of;
 
 import java.util.function.BiPredicate;
 
-class Dinglemouse {
+interface Dinglemouse {
   static int howManyBees(char[][] hive) {
     var bs = iterate(0, i -> hive != null && i < hive.length, i -> i + 1).flatMap(i -> range(0, hive[i].length).filter(j -> hive[i][j] == 'b').mapToObj(j -> of(i, j))).collect(toList());
 

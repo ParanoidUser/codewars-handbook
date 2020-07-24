@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.List;
 
-class Consecutives {
+interface Consecutives {
   static List<Integer> sumConsecutives(List<Integer> s) {
     var result = new LinkedList<>(List.of(0));
     var prev = s.get(0);

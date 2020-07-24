@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Kata {
+interface Kata {
   static long[] wheatFromChaff(long[] values) {
     values = Arrays.copyOf(values, values.length);
     for (int l = 0, r = values.length - 1; l < r; l++) {

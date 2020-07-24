@@ -1,4 +1,4 @@
-class SumParts {
+interface SumParts {
   static int[] sumParts(int[] ls) {
     int[] sum = new int[ls.length + 1];
     for (int i = ls.length - 1; i > -1; i--) {

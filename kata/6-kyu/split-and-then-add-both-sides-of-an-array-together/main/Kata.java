@@ -1,6 +1,6 @@
 import static java.util.Arrays.copyOfRange;
 
-class Kata {
+interface Kata {
   static int[] splitAndAdd(int[] numbers, int n) {
     if (numbers.length > 1 && n > 0) {
       int[] half = copyOfRange(numbers, numbers.length / 2, numbers.length);
