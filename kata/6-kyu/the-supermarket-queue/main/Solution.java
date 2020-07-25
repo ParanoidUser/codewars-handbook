@@ -2,7 +2,7 @@ import static java.util.Collections.nCopies;
 
 import java.util.PriorityQueue;
 
-class Solution {
+interface Solution {
   static int solveSuperMarketQueue(int[] customers, int n) {
     var queue = new PriorityQueue<>(nCopies(n, 0));
     for (int customer : customers) {
