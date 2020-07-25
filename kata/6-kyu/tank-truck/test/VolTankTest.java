@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class VolTankTest {
+class VolTankTest {
   @Test
-  public void test() {
+  void sample() {
     assertEquals(2940, VolTank.tankVol(5, 7, 3848));
     assertEquals(907, VolTank.tankVol(2, 7, 3848));
   }

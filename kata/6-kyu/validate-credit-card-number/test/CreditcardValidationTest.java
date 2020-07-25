@@ -1,10 +1,12 @@
-import static org.junit.Assert.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class CreditcardValidationTest {
+class CreditcardValidationTest {
   @Test
-  public void test891() {
+  void sample() {
+    assertTrue(Validate.validate("1230"));
     assertFalse(Validate.validate("891"));
   }
 }

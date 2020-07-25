@@ -1,15 +1,13 @@
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class TriangleNumbersTest {
+class TriangleNumbersTest {
   @Test
-  public void test1() {
+  void sample() {
     assertTrue(TriangleNumbers.isTriangleNumber(125250));
-  }
-
-  @Test
-  public void test2() {
     assertTrue(TriangleNumbers.isTriangleNumber(3126250));
+    assertFalse(TriangleNumbers.isTriangleNumber(617717));
   }
 }

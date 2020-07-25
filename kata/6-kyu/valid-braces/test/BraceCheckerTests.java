@@ -1,14 +1,12 @@
-import static org.junit.Assert.*;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class BraceCheckerTests {
+import org.junit.jupiter.api.Test;
+
+class BraceCheckerTests {
   @Test
-  public void testValid() {
+  void sample() {
     assertTrue(BraceChecker.isValid("()"));
-  }
-
-  @Test
-  public void testInvalid() {
     assertFalse(BraceChecker.isValid("[(])"));
   }
 }

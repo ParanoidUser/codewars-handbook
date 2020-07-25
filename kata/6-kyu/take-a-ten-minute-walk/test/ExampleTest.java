@@ -1,11 +1,11 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExampleTest {
+class ExampleTest {
   @Test
-  public void test() {
+  void sample() {
     assertTrue(TenMinWalk.isValid(new char[] {'n', 's', 'n', 's', 'n', 's', 'n', 's', 'n', 's'}));
     assertFalse(TenMinWalk.isValid(new char[] {'w', 'e', 'w', 'e', 'w', 'e', 'w', 'e', 'w', 'e', 'w', 'e'}));
     assertFalse(TenMinWalk.isValid(new char[] {'w'}));

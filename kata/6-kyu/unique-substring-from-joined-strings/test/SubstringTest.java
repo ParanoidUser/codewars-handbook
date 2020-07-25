@@ -1,12 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SubstringTest {
+class SubstringTest {
   @Test
-  public void test() {
-    assertEquals("Example test 1", 8, FindSubstring.longestSubstring("preface", "singularity"));
-    assertEquals("Example test 2", 5, FindSubstring.longestSubstring(" 8684Hh", "7575H--8---"));
-    assertEquals("Example test 3", 3, FindSubstring.longestSubstring("looking", "zoology"));
+  void sample() {
+    assertEquals(8, FindSubstring.longestSubstring("preface", "singularity"));
+    assertEquals(5, FindSubstring.longestSubstring(" 8684Hh", "7575H--8---"));
+    assertEquals(3, FindSubstring.longestSubstring("looking", "zoology"));
   }
 }
