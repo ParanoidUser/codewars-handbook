@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class UpsideDownTest {
+class UpsideDownTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(3, UpsideDown.solve(0, 10));
     assertEquals(4, UpsideDown.solve(10, 100));
     assertEquals(12, UpsideDown.solve(100, 1000));

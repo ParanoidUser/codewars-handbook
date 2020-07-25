@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class StairTests {
+class StairTests {
   @Test
-  public void test() {
+  void sample() {
     assertEquals(6, Stairs.NumberOfSteps(10, 2));
     assertEquals(-1, Stairs.NumberOfSteps(3, 5));
   }

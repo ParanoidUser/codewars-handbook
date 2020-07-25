@@ -1,12 +1,12 @@
 package com.codewars.geoffp;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class UnwantedDollarsTest {
+class UnwantedDollarsTest {
   @Test
-  public void moneyValue() {
+  void sample() {
     assertEquals(12.34, UnwantedDollars.moneyValue("12.34"), 1e-9);
     assertEquals(5.67, UnwantedDollars.moneyValue(" $5.67"), 1e-9);
     assertEquals(-0.89, UnwantedDollars.moneyValue("-0.89"), 1e-9);
@@ -18,5 +18,6 @@ public class UnwantedDollarsTest {
     assertEquals(0.20, UnwantedDollars.moneyValue("$.2"), 1e-9);
     assertEquals(-0.34, UnwantedDollars.moneyValue("-.34"), 1e-9);
     assertEquals(0.0, UnwantedDollars.moneyValue("$$$"), 1e-9);
+    assertEquals(0.0, UnwantedDollars.moneyValue("$-"), 1e-9);
   }
 }
