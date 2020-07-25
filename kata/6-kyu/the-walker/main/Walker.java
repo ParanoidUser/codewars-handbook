@@ -1,6 +1,6 @@
 import static java.lang.Math.*;
 
-class Walker {
+interface Walker {
   static int[] solve(int a, int b, int c, int alpha, int beta, int gamma) {
     var x = a * sin(PI * (90 - alpha) / 180) - b * sin(PI * beta / 180) - c * sin(PI * (90 - gamma) / 180);
     var y = a * sin(PI * alpha / 180) + b * sin(PI * (90 - beta) / 180) - c * sin(PI * gamma / 180);

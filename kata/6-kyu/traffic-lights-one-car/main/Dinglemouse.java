@@ -1,6 +1,6 @@
 import static java.util.stream.IntStream.range;
 
-class Dinglemouse {
+interface Dinglemouse {
   static String[] trafficLights(String road, int n) {
     String[] moves = new String[n + 1];
     road = (moves[0] = road).replace("C", ".");

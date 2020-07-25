@@ -1,7 +1,7 @@
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.IntStream.range;
 
-class Updown {
+interface Updown {
   static String arrange(String strng) {
     var words = strng.split(" ");
     for (int i = 1; i < words.length; i++) {

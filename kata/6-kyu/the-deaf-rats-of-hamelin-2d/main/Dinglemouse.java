@@ -1,7 +1,7 @@
 import java.util.Map;
 import java.util.function.BiPredicate;
 
-class Dinglemouse {
+interface Dinglemouse {
   static int countDeafRats(char[][] townSquare) {
     int[] piper = {-1, -1};
     for (int i = 0; piper[0] < 0; i++) {

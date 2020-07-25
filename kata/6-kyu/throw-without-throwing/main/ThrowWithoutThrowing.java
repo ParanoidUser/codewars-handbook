@@ -5,23 +5,23 @@ import java.util.Stack;
 
 interface ThrowWithoutThrowing {
   static void arrayIndexOutOfBound() {
-    int a = (new int[0])[1];
+    System.out.println((new int[0])[1]);
   }
 
   static void negativeArraySize() {
-    int[] a = new int[-1];
+    System.out.println(new int[-1]);
   }
 
   static void noSuchElement() {
-    List.of().iterator().next();
+    System.out.println(List.of().iterator().next());
   }
 
   static void arithmetic() {
-    int a = 0 / 0;
+    System.out.println(0 / 0);
   }
 
   static void classCast() {
-    int a = (int) new Object();
+    System.out.println((int) new Object());
   }
 
   static void stackOverflow() {
@@ -29,31 +29,31 @@ interface ThrowWithoutThrowing {
   }
 
   static void nullPointer() {
-    ((Object) null).toString();
+    System.out.println(((Object) null).toString());
   }
 
   static void numberFormat() {
-    Integer.parseInt("");
+    System.out.println(Integer.parseInt(""));
   }
 
   static void illegalArgument() {
-    Character.toChars(-1);
+    System.out.println(Character.toChars(-1));
   }
 
   static void emptyStack() {
-    new Stack<>().peek();
+    System.out.println(new Stack<>().peek());
   }
 
   static void bufferOverflow() {
-    ByteBuffer.allocate(0).put((byte) 1);
+    System.out.println(ByteBuffer.allocate(0).put((byte) 1));
   }
 
   static void arrayStore() {
-    ((Object[]) new String[1])[0] = 0;
+    System.out.println(((Object[]) new String[1])[0] = 0);
   }
 
   static void unsupportedOperation() {
-    List.of().remove(0);
+    System.out.println(List.of().remove(0));
   }
 
   static void illegalState() {

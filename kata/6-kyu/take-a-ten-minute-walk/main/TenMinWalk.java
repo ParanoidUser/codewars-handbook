@@ -1,4 +1,4 @@
-class TenMinWalk {
+interface TenMinWalk {
   static boolean isValid(char[] walk) {
     int x = 0, y = 0;
     for (char c : walk) {

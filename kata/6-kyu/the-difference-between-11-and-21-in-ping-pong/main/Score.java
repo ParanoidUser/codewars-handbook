@@ -1,7 +1,7 @@
 import lombok.Data;
 
 @Data
-public class Score {
-  final int me;
-  final int opponent;
+class Score {
+  private final int me;
+  private final int opponent;
 }

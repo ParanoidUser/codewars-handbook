@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class PingPong {
+interface PingPong {
   static List<Score> result(String s) {
     var total = getScores(s, 10);
     total.addAll(getScores(s, 20));
