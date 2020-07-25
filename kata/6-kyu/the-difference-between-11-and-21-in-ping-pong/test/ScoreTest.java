@@ -1,5 +1,4 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import org.junit.jupiter.api.Test;
@@ -11,13 +10,15 @@ class ScoreTest {
     assertEquals(score, score);
     assertEquals(score, new Score(1, 1));
     assertNotEquals(score, new Score(1, 2));
+    assertNotEquals(score, new Score(2, 1));
     assertNotEquals(score, new Object());
-    assertFalse(score.equals(null));
+    assertNotEquals(null, score);
   }
 
   @Test
   void hashCodeTest() {
-    assertEquals(3541, new Score(1, 1).hashCode());
+    assertEquals(3542, new Score(1, 2).hashCode());
+    assertEquals(3600, new Score(2, 1).hashCode());
   }
 
   @Test

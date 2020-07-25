@@ -1,5 +1,4 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import org.junit.jupiter.api.Test;
@@ -20,10 +19,10 @@ class RGBTest {
     assertEquals(new RGB(0,256,0), new RGB(0,256,0));
     var black = new RGB(0,0,0);
     assertEquals(black, black);
-    assertFalse(new RGB(0,0,0).equals(null));
-    assertNotEquals(new RGB(0,0,0), new Object());
-    assertNotEquals(new RGB(0,0,0), new RGB(1,0,0));
-    assertNotEquals(new RGB(0,0,0), new RGB(0,1,0));
-    assertNotEquals(new RGB(0,0,0), new RGB(0,0,1));
+    assertNotEquals(black, new Object());
+    assertNotEquals(black, new RGB(1,0,0));
+    assertNotEquals(black, new RGB(0,1,0));
+    assertNotEquals(black, new RGB(0,0,1));
+    assertNotEquals(null, black);
   }
 }
