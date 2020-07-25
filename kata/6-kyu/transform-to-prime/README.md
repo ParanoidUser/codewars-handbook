@@ -1,10 +1,8 @@
 # [Transform To Prime](https://www.codewars.com/kata/transform-to-prime "https://www.codewars.com/kata/5a946d9fba1bb5135100007c")
 
-# Task : 
-
 **_Given_** *a List[] of n integers*, **_find minimum number_** to be **inserted** in a *list*, so that **_sum of all elements of list_** should *equal the closest prime number*.
 
-# Notes
+## Notes
 
 * **_List size_** is *at least 2*.
 
@@ -14,7 +12,7 @@
 
 * **_The newer list's sum_** should *equal the closest prime number*. 
 
-# Input >> Output Examples
+## Input >> Output Examples
 
 ```
 1- minimumNumber ({3,1,2}) ==> return (1)

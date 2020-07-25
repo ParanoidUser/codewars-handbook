@@ -8,7 +8,7 @@ Can Vasya sell a ticket to every person and give change if he initially has no m
 
 Return `YES`, if Vasya can sell a ticket to every person and give change with the bills he has at hand at that moment. Otherwise return `NO`.
 
-### Examples:
+## Examples:
 
 ```
 Line.Tickets(new int[] {25, 25, 50}) // => YES 

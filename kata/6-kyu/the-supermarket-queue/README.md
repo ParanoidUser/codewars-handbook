@@ -2,21 +2,17 @@
 
 There is a queue for the self-checkout tills at the supermarket. Your task is write a function to calculate the total time required for all the customers to check out!
 
-### input
+## Input
 * customers: an array of positive integers representing the queue. Each integer represents a customer, and its value is the amount of time they require to check out.
 * n: a positive integer, the number of checkout tills.
 
-### output
+## Output
 The function should return an integer, the total time required.
-
--------------------------------------------
 
 ## Important
 **Please look at the examples and clarifications below, to ensure you understand the task correctly :)**
 
--------
-
-### Examples
+## Examples
 
 ```
 queueTime([5,3,4], 1)
@@ -32,8 +28,7 @@ queueTime([2,3,10], 2)
 // should return 12
 ```
 
-
-### Clarifications
+## Clarifications
 
  * There is only ONE queue serving many tills, and
  * The order of the queue NEVER changes, and

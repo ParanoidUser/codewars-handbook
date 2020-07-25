@@ -1,14 +1,11 @@
 # [up AND down](https://www.codewars.com/kata/up-and-down "https://www.codewars.com/kata/56cac350145912e68b0006f0")
 
-*Don't be afraid, the description is rather long but - hopefully - it is in order that the process be well understood*.
-
----
-
 You are given a string `s` made up of substring `s(1), s(2), ..., s(n)` separated by whitespaces.
 Example:
 `"after be arrived two My so"`
 
-#Task
+## Task
+
 Return a string `t` having the following property:
 
 `length t(O) <= length t(1) >= length t(2) <= length t(3) >= length t(4) .... (P)`
@@ -19,7 +16,7 @@ you must respect the following rule:
 at each step from left to right, you can only move either already consecutive strings 
 or strings that became consecutive after a previous move. The number of moves should be minimum.
 
-#Let us go with our example:
+## Let us go with our example:
 
 The length of "after" is greater than the length of "be". Let us move them ->`"be after arrived two My so"` 
 
@@ -44,7 +41,8 @@ will be lower cases and the others upper cases.
 arrange("after be arrived two My so") should return "be ARRIVED two AFTER my SO"
 ```
 
-# Notes:
+## Notes:
+
 - The string `"My after be arrived so two"` has the property (P) but can't be obtained by
 the **described process** so it won't be accepted as a result. The property (P) 
 doesn't give unicity by itself.
