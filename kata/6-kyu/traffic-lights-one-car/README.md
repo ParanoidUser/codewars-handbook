@@ -1,7 +1,5 @@
 # [Traffic Lights - one car](https://www.codewars.com/kata/traffic-lights-one-car "https://www.codewars.com/kata/5d0ae91acac0a50232e8a547")
 
-# Overview
-
 A character string represents a city road.
 
 Cars travel on the road obeying the traffic lights..
@@ -19,15 +17,12 @@ Something like this:
 C...<span style='background:red;'>R</span>............<span style='background:green;'>G</span>......
 </span><p/>
 
-# Rules
-
 ## Simulation
 
 At each iteration:
 
 1. the lights change, according to the traffic light rules... then
 2. the car moves, obeying the car rules
-
 
 ## Traffic Light Rules
 
@@ -46,8 +41,6 @@ Traffic lights change colour as follows:
  * if the light is <span style='color:black;background:green'>GREEN</span> they can move forward (temporarily occupying the same cell as the light)
  * if the light is <span style='color:black;background:orange'>ORANGE</span> then they must stop (if they have already entered the intersection they can continue through)
  * if the light is <span style='color:black;background:red'>RED</span> the car must stop until the light turns <span style='color:black;background:green'>GREEN</span> again
-
-# Kata Task
 
 Given the initial state of the road, return the states for all iterations of the simiulation.
 
@@ -71,7 +64,7 @@ Given the initial state of the road, return the states for all iterations of the
 * If the car goes off the end of the road it just disappears from view
 * There will always be some road between adjacent traffic lights
 
-# Example
+## Example
 
 Run simulation for 10 time units
 

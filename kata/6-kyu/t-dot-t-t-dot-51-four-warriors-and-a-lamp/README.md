@@ -26,12 +26,12 @@ There are four warriors, they need to go through a dark tunnel. Tunnel is very n
  ```
  Do you have any other better way?
  
-# Task
+## Task
 Complete function `shortestTime()` that accepts 1 argument: `speed` that are the spent time of four warriors. Returns the shortest time that all warriors go through the tunnel.
  
- ###**Note: The method in example above is not always the best way.**
+Note: The method in example above is not always the best way.
 
-# Example
+## Example
 
 ```
 shortestTime([3,4,5,6])  === 21

@@ -12,7 +12,7 @@ Step 1: The [plugboard](http://en.wikipedia.org/wiki/Enigma_machine#Plugboard)
 
 In this Kata, you must implement the plugboard.  
 
-### Physical Description
+## Physical Description
 The plugboard crosswired the 26 letters of the latin alphabet together, so that an input into one letter could generate output as another letter.  If a wire was not present, then the input letter was unchanged.  Each plugboard came with a maximum of 10 wires, so at least six letters were not cross-wired.
 
 For example:
@@ -21,10 +21,10 @@ For example:
 
 * If no wire connects to `C`, then only a `C` input will generate a `C` output.
 
-### Note
+## Note
 In the actual usage of the original Enigma Machine, punctuation was encoded as words transmitted in the stream, in our code, anything that is not in the range A-Z will be returned unchanged.
 
-### Kata
+## Kata
 The `Plugboard` class you will implement, will:
 
 1. Take a list of wire pairs at construction in the form of a string, with a default behaviour of no wires configured.  E.g. `"ABCD"` would wire `A` <-> `B` and `C` <-> `D`.

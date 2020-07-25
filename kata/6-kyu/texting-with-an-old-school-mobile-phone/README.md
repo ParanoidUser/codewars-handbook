@@ -20,38 +20,40 @@ Let's try to remember the good old days and what it was like to send text messag
 -------------------------
 ```
 
-# The task
-
 You got your thumb ready to go, so you'll receive a ```message``` and your job is to figure out which keys you need to press to output the given message with ***the lowest number of clicks possible***. 
 Return the result as a string of key inputs from top row (refer to diagram above).
 
 ***Take your time*** to study the rules below.
 
-# How it works
-### Result
+## How it works
+
 Output string contains inputs that are shown at the **top** row of a key's layout. (`0-9*#`)
-### Typing letters
+
+## Typing letters
+
 To type letters, press a button repeatedly to cycle through the possible characters (bottom row of a key's layout). Pressing is represented by key's top row element repeated `n` times, where n is the position of character on that particular key. Examples: 
 - ```2``` => 'a', ```9999``` => 'z', ```111``` => '?', ```***``` => '+'
 
-### Typing numbers
+## Typing numbers
+
 To type numbers ```0-9``` and special characters ```*#``` - hold that key. Holding is represented by a number, followed by a dash. Examples:
 - ```3-``` => '3', ```5-5-5-``` => '555'
 
-### Uppercase / Lowercase
+## Uppercase / Lowercase
+
 Initially the case is `lowercase`. To ***toggle*** between lowercase and uppercase letters, use the ```#``` symbol. Case switching should only be considered when next character is alphabetic (`a-z`). Examples:
 - ```#2#9999``` => 'Az' (remember, it's a toggle)
 - ```27-#2255``` => 'a7BK' (do not switch before '7')
 
-### Waiting for next character
+## Waiting for next character
+
 If you have 2 or more characters in a sequence that reside on the same button (refer to layout, bottom row), you have to ***wait*** before pressing the same button again. 
 Waiting is represented by adding a **space** between 2 (or more) such characters. Example:
 - ```44 444 44 444``` => 'hihi' 
 
 **Exceptions**: No need to wait **after holding** any key, even if next character resides on same button (```4-4``` => '4g'), or if there's a case switch between 2 characters on same button (```#5#55``` => 'Jk').
 
-
-# Example
+## Example
 
 To put it all together, let's go over an example.
 Say you want to type this message - ```'Def Con 1!'```:
