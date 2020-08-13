@@ -24,7 +24,7 @@ before_cache:
 jobs:
   include:
     - stage: Build
-      script: ./gradlew --parallel --configuration-cache --build-cache --scan compileJava compileTestJava -x classes test -x testClasses -x processTestResources jacocoTestReport
+      script: ./gradlew --parallel --build-cache --scan compileJava compileTestJava -x classes test -x testClasses -x processTestResources jacocoTestReport
       workspaces:
         create:
           name: shared
