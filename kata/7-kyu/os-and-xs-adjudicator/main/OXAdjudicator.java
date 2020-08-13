@@ -1,7 +1,7 @@
 import java.util.List;
 
 class OXAdjudicator {
-  static String judge(List<Integer> history) {
+  String judge(List<Integer> history) {
     char[] field = new char[9];
     boolean xMoving = false;
     for (int move : history) {

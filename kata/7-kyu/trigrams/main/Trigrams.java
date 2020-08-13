@@ -1,4 +1,4 @@
-class Trigrams {
+interface Trigrams {
   static String trigrams(String phrase) {
     var result = new StringBuilder();
     phrase = phrase.replace(" ", "_");

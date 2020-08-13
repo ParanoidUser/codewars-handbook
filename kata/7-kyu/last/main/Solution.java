@@ -1,6 +1,6 @@
 import java.util.List;
 
-class Solution {
+interface Solution {
   static <T> T last(List<T> list) {
     return list.get(list.size() - 1);
   }

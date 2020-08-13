@@ -1,6 +1,6 @@
 import static java.util.stream.IntStream.of;
 
-class Dinglemouse {
+interface Dinglemouse {
   static String histogram(int[] results) {
     var graph = new StringBuilder();
     int sum = of(results).sum();

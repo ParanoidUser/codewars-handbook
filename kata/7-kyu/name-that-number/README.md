@@ -8,4 +8,4 @@ nameThatNumber(19) // returns "nineteen"
 nameThatNumber(99) // returns "ninety nine"
 ```
 
-Words should be separated by only spaces and not hyphens. No need to validate parameters, they will always be in the range [0, 99]. Make sure that the returned String has no leading of trailing spaces.
+Words should be separated by only spaces and not hyphens. No need to validate parameters, they will always be in the range [0, 99]. Make sure the returned String has no leading of trailing spaces.

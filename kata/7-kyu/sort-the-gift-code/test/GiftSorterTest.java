@@ -1,15 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class GiftSorterTest {
+class GiftSorterTest {
   @Test
-  public void tests1() {
-    assertEquals("sort fedcba", "abcdef", GiftSorter.sortGiftCode("fedcba"));
-  }
-
-  @Test
-  public void tests2() {
-    assertEquals("reverse alphabet", "abcdefghijklmnopqrstuvwxyz", GiftSorter.sortGiftCode("zyxwvutsrqponmlkjihgfedcba"));
+  void sample() {
+    assertEquals("abcdef", new GiftSorter().sortGiftCode("fedcba"));
+    assertEquals("abcdefghijklmnopqrstuvwxyz", new GiftSorter().sortGiftCode("zyxwvutsrqponmlkjihgfedcba"));
   }
 }

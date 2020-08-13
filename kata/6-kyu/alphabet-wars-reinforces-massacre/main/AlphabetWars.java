@@ -3,7 +3,7 @@ import static java.util.stream.IntStream.range;
 
 import java.util.Arrays;
 
-class AlphabetWars {
+interface AlphabetWars {
   static String reinforcesMassacre(String[] reinforces, String[] airstrikes) {
     var losses = new int[reinforces[0].length()];
     for (String strike : airstrikes) {

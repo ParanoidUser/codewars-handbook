@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class KataTest {
+class KataTest {
   @Test
-  public void findShort() {
+  void sample() {
     assertEquals(3, Kata.findShort("bitcoin take over the world maybe who knows perhaps"));
     assertEquals(3, Kata.findShort("turns out random test cases are easier than writing out basic ones"));
   }

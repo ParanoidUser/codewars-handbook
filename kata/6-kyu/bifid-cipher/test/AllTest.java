@@ -5,18 +5,18 @@ import org.junit.jupiter.api.Test;
 class AllTest {
   @Test
   void encode() {
-    assertEquals("CWUAS", BifidCipher.encodeBifid("", "ELVIS"));
-    assertEquals("", BifidCipher.encodeBifid("KEY", ""));
-    assertEquals("ORGFOSR", BifidCipher.encodeBifid("CODEWARS", "WARRIOR"));
-    assertEquals("EKUCERRRIS", BifidCipher.encodeBifid("ELVIS", "JIMMY JAMES"));
-    assertEquals("RCPGSSBBBDTELGTHLGHG", BifidCipher.encodeBifid("BIFID", "THE INVENTOR OF BIFID IS"));
+    assertEquals("CWUAS", new BifidCipher().encodeBifid("", "ELVIS"));
+    assertEquals("", new BifidCipher().encodeBifid("KEY", ""));
+    assertEquals("ORGFOSR", new BifidCipher().encodeBifid("CODEWARS", "WARRIOR"));
+    assertEquals("EKUCERRRIS", new BifidCipher().encodeBifid("ELVIS", "JIMMY JAMES"));
+    assertEquals("RCPGSSBBBDTELGTHLGHG", new BifidCipher().encodeBifid("BIFID", "THE INVENTOR OF BIFID IS"));
   }
 
   @Test
   void decode() {
-    assertEquals("ELVIS", BifidCipher.decodeBifid("", "CWUAS"));
-    assertEquals("", BifidCipher.decodeBifid("", ""));
-    assertEquals("MEMPHIS", BifidCipher.decodeBifid("ELVIS", "GMGIIBT"));
-    assertEquals("FELIXDELASTELLE", BifidCipher.decodeBifid("INVENTOR", "DLXEBIQNLVEVZLE"));
+    assertEquals("ELVIS", new BifidCipher().decodeBifid("", "CWUAS"));
+    assertEquals("", new BifidCipher().decodeBifid("", ""));
+    assertEquals("MEMPHIS", new BifidCipher().decodeBifid("ELVIS", "GMGIIBT"));
+    assertEquals("FELIXDELASTELLE", new BifidCipher().decodeBifid("INVENTOR", "DLXEBIQNLVEVZLE"));
   }
 }

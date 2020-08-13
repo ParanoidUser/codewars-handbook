@@ -76,7 +76,7 @@
 - [Function 1 - hello world](function-1-hello-world)
 - [Function 3 - multiplying two numbers](function-3-multiplying-two-numbers)
 # G
-- [Get character from ASCII Value](get-character-from-ascii-value)
+- [Get character from ASCII value](get-character-from-ascii-value)
 - [Get Nth Even Number](get-nth-even-number)
 - [Get the mean of an array](get-the-mean-of-an-array)
 - [Ghost code?!](ghost-code)
@@ -116,7 +116,7 @@
 - [Leonardo Dicaprio and Oscars](leonardo-dicaprio-and-oscars)
 - [Localize The Barycenter of a Triangle](localize-the-barycenter-of-a-triangle)
 # M
-- [MakeUpperCase](makeuppercase)
+- [Make Upper Case](makeuppercase)
 - [Merging sorted integer arrays (without duplicates)](merging-sorted-integer-arrays-without-duplicates)
 - [Miles per gallon to kilometers per liter](miles-per-gallon-to-kilometers-per-liter)
 - [Multiple of index](multiple-of-index)

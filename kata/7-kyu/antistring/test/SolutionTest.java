@@ -1,20 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void basic1() {
+  void sample() {
     assertEquals("a0", JomoPipi.antiString("9Z"));
-  }
-
-  @Test
-  public void basic2() {
     assertEquals("aBc123", JomoPipi.antiString("678XyZ"));
-  }
-
-  @Test
-  public void basic3() {
     assertEquals("678bcdXYZ", JomoPipi.antiString("abcWXY123"));
   }
 }

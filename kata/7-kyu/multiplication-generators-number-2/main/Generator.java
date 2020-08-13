@@ -1,5 +1,5 @@
-public class Generator {
-  public static Generator of(int a) {
+class Generator {
+   static Generator of(int a) {
     return new Generator(a);
   }
 
@@ -10,7 +10,7 @@ public class Generator {
     this.a = a;
   }
 
-  public String next() {
+  String next() {
     return a + " x " + num + " = " + (a * num++);
   }
 }

@@ -2,7 +2,7 @@
 
 In logic, an implication (or material conditional) states that If p is true, q should be true too.
 
-We can express the result of any implication of two statements as an logical table:
+We can express the result of any implication of two statements as a logical table:
 ```
 p\q T F      
 T   T F

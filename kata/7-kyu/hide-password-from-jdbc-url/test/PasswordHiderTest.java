@@ -1,11 +1,11 @@
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class PasswordHiderTest {
+class PasswordHiderTest {
   @Test
-  public void hidePasswordFromConnection() {
-    assertEquals("jdbc:mysql://sdasdasdasd:szdasdasd:dfsdfsdfsdf/sdfsdfsdf?user=root&password=*****",
-        PasswordHider.hidePasswordFromConnection("jdbc:mysql://sdasdasdasd:szdasdasd:dfsdfsdfsdf/sdfsdfsdf?user=root&password=12345"));
+  void sample() {
+    assertEquals("jdbc:mysql://sdasdasdasd:szdasdasd:dfsdfsdfsdf/sdfsdfsdf?user=root&password=*****", PasswordHider.hidePasswordFromConnection("jdbc:mysql://sdasdasdasd:szdasdasd:dfsdfsdfsdf/sdfsdfsdf?user=root&password=12345"));
+    assertEquals("jdbc:google:mysql://127.0.0.1:2021/rh:eu?password=**********&user=nimda", PasswordHider.hidePasswordFromConnection("jdbc:google:mysql://127.0.0.1:2021/rh:eu?password=qwertyuiop&user=nimda"));
   }
 }

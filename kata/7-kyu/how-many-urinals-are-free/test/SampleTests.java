@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SampleTests {
+class SampleTests {
   @Test
-  public void sampleTests_Valid() {
+  void sample() {
     assertEquals(1, FreeUrinals.getFreeUrinals("10001"));
     assertEquals(0, FreeUrinals.getFreeUrinals("1001"));
     assertEquals(3, FreeUrinals.getFreeUrinals("00000"));
@@ -15,10 +15,6 @@ public class SampleTests {
     assertEquals(0, FreeUrinals.getFreeUrinals("1"));
     assertEquals(1, FreeUrinals.getFreeUrinals("0"));
     assertEquals(0, FreeUrinals.getFreeUrinals("10"));
-  }
-
-  @Test
-  public void sampleTests_False() {
     assertEquals(-1, FreeUrinals.getFreeUrinals("110"));
     assertEquals(-1, FreeUrinals.getFreeUrinals("101100001"));
   }

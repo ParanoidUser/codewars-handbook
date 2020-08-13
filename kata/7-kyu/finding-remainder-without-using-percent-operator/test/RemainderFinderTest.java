@@ -1,10 +1,11 @@
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
-public class RemainderFinderTest {
+import org.junit.jupiter.api.Test;
+
+class RemainderFinderTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(new SimpleInteger(1), RemainderFinder.remainder(new SimpleInteger(3), new SimpleInteger(2)));
     assertEquals(new SimpleInteger(1), RemainderFinder.remainder(new SimpleInteger(19), new SimpleInteger(2)));
     assertEquals(new SimpleInteger(0), RemainderFinder.remainder(new SimpleInteger(10), new SimpleInteger(2)));

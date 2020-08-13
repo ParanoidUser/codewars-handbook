@@ -5,8 +5,8 @@ import lombok.Getter;
 @Getter
 class People {
   private static final String GREET = "hello my name is ";
-  private String name, lastName, city, job;
-  private int age;
+  private final String name, lastName, city, job;
+  private final int age;
 
   String greet() {
     return GREET + name;

@@ -5,10 +5,10 @@ import org.junit.jupiter.api.Test;
 
 class PalindromeCheckerTest {
   @Test
-  void testIsPalindrome() {
-    assertTrue(PalindromChecker.isPalindrome("race car"));
-    assertTrue(PalindromChecker.isPalindrome("Amor, Roma"));
-    assertFalse(PalindromChecker.isPalindrome(null));
-    assertFalse(PalindromChecker.isPalindrome("123521"));
+  void sample() {
+    assertTrue(new PalindromChecker().isPalindrome("race car"));
+    assertTrue(new PalindromChecker().isPalindrome("Amor, Roma"));
+    assertFalse(new PalindromChecker().isPalindrome(null));
+    assertFalse(new PalindromChecker().isPalindrome("123521"));
   }
 }

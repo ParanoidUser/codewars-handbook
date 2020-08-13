@@ -2,7 +2,7 @@
 
 Vasya stands in line with number of people `p (including Vasya)`, but he doesn't know exactly which position he occupies. He can say that there are `no less than b` people standing in front of him and `no more than a` people standing behind him. Find the number of different positions Vasya can occupy.
 
-### Input
+## Input
 
 As an input you have 3 numbers:
 
@@ -12,7 +12,8 @@ As an input you have 3 numbers:
 
 `3. Number of people standing behind him `
 
-### Examples:
+## Examples:
+
 ```
 WhereIsVasya.whereIsHe(3, 1, 1)   // => 2  The possible positions are: 2 and 3
 

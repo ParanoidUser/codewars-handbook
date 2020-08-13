@@ -1,15 +1,16 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testSomething() {
+  void sample() {
     assertEquals("Jim", Generator.nickname("Jimmy"));
     assertEquals("Sam", Generator.nickname("Samantha"));
-    assertEquals("Error: Name too short", Generator.nickname("Sam"));
     assertEquals("Kay", Generator.nickname("Kayne"));
     assertEquals("Mel", Generator.nickname("Melissa"));
     assertEquals("Jam", Generator.nickname("James"));
+    assertEquals("Greg", Generator.nickname("Gregory"));
+    assertEquals("Error: Name too short", Generator.nickname("Sam"));
   }
 }

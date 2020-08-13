@@ -1,6 +1,6 @@
 import java.util.List;
 
-class DecodeResistorColors {
+interface DecodeResistorColors {
   static String decodeResistorColors(String bands) {
     var codes = List.of("black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "gray", "white");
     var r = bands.split(" ");

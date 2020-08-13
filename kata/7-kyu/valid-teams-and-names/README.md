@@ -15,6 +15,3 @@ mix(s) == "1:Stefan,Milica,Zvonimir,Andrew"
 s = "W:John,John,John,JohnC:Danger,Man"
 mix(s) == "2:John,John,John,John,Danger,Man"
 ```
-
-
-

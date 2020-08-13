@@ -1,4 +1,4 @@
-class Kata {
+interface Kata {
   static String dative(String word) {
     return word + (word.replaceAll("[^aáoóuúeéiíöőüű]", "")
                        .replaceAll("[aáoóuú]", ">")

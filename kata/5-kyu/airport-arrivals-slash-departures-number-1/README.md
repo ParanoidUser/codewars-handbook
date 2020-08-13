@@ -2,9 +2,9 @@
 
 You are at the airport staring blankly at the arrivals/departures flap display...
 
-<div style="width:75%"><img src="http://www.airport-arrivals-departures.com/img/meta/1200_630_arrivals-departures.png"></div>
+![](http://www.airport-arrivals-departures.com/img/meta/1200_630_arrivals-departures.png)
 
-# How it works
+## How it works
 
 You notice that each flap character is on some kind of a rotor and the order of characters on each rotor is:
 
@@ -13,17 +13,11 @@ You notice that each flap character is on some kind of a rotor and the order of 
 And after a long while you deduce that the display works like this:
 
 * Starting from the left, all rotors (from the current one to the end of the line) flap together until the left-most rotor character is correct.
-
-
 * Then the mechanism advances by 1 rotor to the right...
-
-
 * ...REPEAT this rotor procedure until the whole line is updated
-
-
 * ...REPEAT this line procedure from top to bottom until the whole display is updated
 
-# Example
+## Example
 
 Consider a flap display with 3 rotors and one 1 line which currently spells ```CAT```
 
@@ -42,8 +36,6 @@ Consider a flap display with 3 rotors and one 1 line which currently spells ```C
 * Flap x 27
 * Now line says ```DOG```
 
-<hr>
-
 *This can be represented as*
 
 ```
@@ -61,9 +53,8 @@ result = ["DOG"]
 ```
 
 
-# Kata Task
+## Task
 
 Given the initial display lines and the rotor moves for each line, determine what the board will say after it has been fully updated.
 
 For your convenience the characters of each rotor are in the pre-loaded constant ```ALPHABET``` which is a string.
-<hr>

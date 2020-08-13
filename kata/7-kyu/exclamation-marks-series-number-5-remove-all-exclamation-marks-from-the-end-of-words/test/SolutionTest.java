@@ -1,12 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testBasic() {
+  void sample() {
     assertEquals("nothing to do", R.removeBang("nothing to do"));
-    assertEquals("should remove bangs from the end of words", "No seriously Seriously Wow", R.removeBang("No seriously! Seriously!! Wow"));
-    assertEquals("should remove bangs from the end of words only", "!!No seriously !Seriously !!Wow", R.removeBang("!!No! seriously! !Seriously!! !!Wow!"));
+    assertEquals("No seriously Seriously Wow", R.removeBang("No seriously! Seriously!! Wow"));
+    assertEquals("!!No seriously !Seriously !!Wow", R.removeBang("!!No! seriously! !Seriously!! !!Wow!"));
   }
 }

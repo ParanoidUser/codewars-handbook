@@ -1,11 +1,11 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class KataTest {
+class KataTest {
   @Test
-  public void downcase() {
-    String[] strings = new String[] {"jo", "nelson", "jurie"};
-    assertArrayEquals(new String[] {"Jo", "Nelson", "Jurie"}, Kata.capMe(strings));
+  void sample() {
+    assertArrayEquals(new String[] {"Jo", "Nelson", "Jurie"}, Kata.capMe(new String[] {"jo", "nelson", "jurie"}));
+    assertArrayEquals(new String[] {"Ror", "Nor", "Xor"}, Kata.capMe(new String[] {"Ror", "NOR", "xor"}));
   }
 }

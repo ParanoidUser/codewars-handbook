@@ -1,22 +1,54 @@
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ExampleTests {
-  @Test
-  public void testSquare() {
-    char[][] card = Card.makeSquareCard();
-    assertEquals("square", Dinglemouse.nameTheShape(card));
-  }
+import org.junit.jupiter.api.Test;
 
+class ExampleTests {
   @Test
-  public void testDiamond() {
-    char[][] card = Card.makeDiamondCard();
-    assertEquals("diamond", Dinglemouse.nameTheShape(card));
-  }
-
-  @Test
-  public void testCircle() {
-    char[][] card = Card.makeCircleCard();
-    assertEquals("circle", Dinglemouse.nameTheShape(card));
+  void sample() {
+    assertEquals("square", Dinglemouse.nameTheShape(new char[][]{
+        "/-------------------\\".toCharArray(),
+        "|                   |".toCharArray(),
+        "|                   |".toCharArray(),
+        "|    ***********    |".toCharArray(),
+        "|    *         *    |".toCharArray(),
+        "|    *         *    |".toCharArray(),
+        "|    *         *    |".toCharArray(),
+        "|    *         *    |".toCharArray(),
+        "|    *         *    |".toCharArray(),
+        "|    ***********    |".toCharArray(),
+        "|                   |".toCharArray(),
+        "|                   |".toCharArray(),
+        "\\-------------------/".toCharArray()
+    }));
+    assertEquals("diamond", Dinglemouse.nameTheShape(new char[][]{
+        "/-------------------\\".toCharArray(),
+        "|                   |".toCharArray(),
+        "|         *         |".toCharArray(),
+        "|        * *        |".toCharArray(),
+        "|       *   *       |".toCharArray(),
+        "|      *     *      |".toCharArray(),
+        "|     *       *     |".toCharArray(),
+        "|      *     *      |".toCharArray(),
+        "|       *   *       |".toCharArray(),
+        "|        * *        |".toCharArray(),
+        "|         *         |".toCharArray(),
+        "|                   |".toCharArray(),
+        "\\-------------------/".toCharArray()
+    }));
+    assertEquals("circle", Dinglemouse.nameTheShape(new char[][]{
+        "/-------------------\\".toCharArray(),
+        "|                   |".toCharArray(),
+        "|                   |".toCharArray(),
+        "|       *****       |".toCharArray(),
+        "|     *       *     |".toCharArray(),
+        "|    *         *    |".toCharArray(),
+        "|    *         *    |".toCharArray(),
+        "|    *         *    |".toCharArray(),
+        "|     *       *     |".toCharArray(),
+        "|       *****       |".toCharArray(),
+        "|                   |".toCharArray(),
+        "|                   |".toCharArray(),
+        "\\-------------------/".toCharArray()
+    }));
   }
 }

@@ -1,14 +1,30 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class PaperFoldTest {
+class PaperFoldTest {
   @Test
-  public void testWithTwenty() {
+  void sample() {
     PaperFold p = new PaperFold();
-    int[] testArray = {1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1};
-    for (int i = 0; i < 20; i++) {
-      assertEquals("Element " + (i + 1), testArray[i], p.getAsInt());
-    }
+    assertEquals(1, p.getAsInt());
+    assertEquals(1, p.getAsInt());
+    assertEquals(0, p.getAsInt());
+    assertEquals(1, p.getAsInt());
+    assertEquals(1, p.getAsInt());
+    assertEquals(0, p.getAsInt());
+    assertEquals(0, p.getAsInt());
+    assertEquals(1, p.getAsInt());
+    assertEquals(1, p.getAsInt());
+    assertEquals(1, p.getAsInt());
+    assertEquals(0, p.getAsInt());
+    assertEquals(0, p.getAsInt());
+    assertEquals(1, p.getAsInt());
+    assertEquals(0, p.getAsInt());
+    assertEquals(0, p.getAsInt());
+    assertEquals(1, p.getAsInt());
+    assertEquals(1, p.getAsInt());
+    assertEquals(1, p.getAsInt());
+    assertEquals(0, p.getAsInt());
+    assertEquals(1, p.getAsInt());
   }
 }

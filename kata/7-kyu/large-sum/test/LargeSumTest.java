@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class LargeSumTest {
+class LargeSumTest {
   @Test
-  public void testFirstTenDigitsOfSum() {
+  void sample() {
     String[] number = {
       "37107287533902102798797998220837590246510135740250",
       "46376937677490009712648124896970078050417018260538",

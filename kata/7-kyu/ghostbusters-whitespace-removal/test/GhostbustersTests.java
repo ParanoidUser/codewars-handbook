@@ -1,20 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class GhostbustersTests {
+class GhostbustersTests {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals("Factory", Ghostbusters.ghostBusters("Factor y"));
-  }
-
-  @Test
-  public void test2() {
     assertEquals("Office", Ghostbusters.ghostBusters("O  f fi ce"));
-  }
-
-  @Test
-  public void test3() {
     assertEquals("You just wanted my autograph didn't you?", Ghostbusters.ghostBusters("BusStation"));
   }
 }

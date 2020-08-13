@@ -1,10 +1,14 @@
-import static org.junit.Assert.*;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class TriangleTesterTest {
+import org.junit.jupiter.api.Test;
+
+class TriangleTesterTest {
   @Test
-  public void publicTests() {
+  void sample() {
     assertTrue(TriangleTester.isTriangle(1, 2, 2));
     assertFalse(TriangleTester.isTriangle(7, 2, 2));
+    assertFalse(TriangleTester.isTriangle(0, 2, 3));
+    assertFalse(TriangleTester.isTriangle(1, 3, 2));
   }
 }

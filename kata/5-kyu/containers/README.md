@@ -1,6 +1,5 @@
 # [Containers](https://www.codewars.com/kata/containers "https://www.codewars.com/kata/5b80dea49895f71f3e00002d")
 
-# Your Task
 A seaport container terminal stores large containers that are eventually loaded on seagoing ships for
 transport abroad. Containers coming to the terminal by road and rail are stacked at the terminal as
 they arrive.
@@ -16,17 +15,19 @@ loaded in alphabetical order. Each container is labeled with a capital letter re
 which it needs to be loaded. There is no limit on the number of containers that can be placed in a
 single stack.
 
-# Input
+## Input
+
 Each test case consists of a single string containing from 1 to
 1000 capital letters representing the order of arrival of a set of containers. For example, the string ABAC
 means consecutive containers arrive to be loaded onto ships A, B, A, and C, respectively. When all
 containers have arrived, the ships are loaded in strictly increasing order: first ship A, then ship B, and
 so on.
 
-# Output
+## Output
+
 For each input case, return the minimum number of stacks needed to store the containers before loading starts.
 
-# Example
+## Example
 
 ```
 int Containers("A") = return 1;

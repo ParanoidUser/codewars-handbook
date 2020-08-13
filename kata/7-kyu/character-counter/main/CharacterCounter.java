@@ -4,9 +4,9 @@ import static java.util.stream.Collectors.groupingBy;
 
 import java.util.HashSet;
 
-class CharacterCounter {
+interface CharacterCounter {
   static boolean validateWord(String word) {
     return new HashSet<>(word.toLowerCase().chars().boxed()
-                           .collect(groupingBy(identity(), counting())).values()).size() == 1;
+        .collect(groupingBy(identity(), counting())).values()).size() == 1;
   }
 }

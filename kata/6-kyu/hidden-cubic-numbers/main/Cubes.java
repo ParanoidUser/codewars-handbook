@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 class Cubes {
-  static String isSumOfCubes(String s) {
+  String isSumOfCubes(String s) {
     var cubes = new ArrayList<String>();
     for (String num : s.replaceAll("[^\\d]", " ").trim().split("\\s+")) {
       for (String top3 : num.split("(?<=\\G...)")) {

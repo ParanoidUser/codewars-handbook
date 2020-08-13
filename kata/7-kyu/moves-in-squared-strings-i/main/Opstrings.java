@@ -3,7 +3,7 @@ import static java.util.stream.Collectors.joining;
 
 import java.util.function.UnaryOperator;
 
-class Opstrings {
+interface Opstrings {
   static String vertMirror(String strng) {
     return stream(strng.split("\n")).map(s -> new StringBuilder(s).reverse().toString()).collect(joining("\n"));
   }

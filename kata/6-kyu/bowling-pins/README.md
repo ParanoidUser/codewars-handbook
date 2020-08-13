@@ -1,7 +1,5 @@
 # [Bowling Pins](https://www.codewars.com/kata/bowling-pins "https://www.codewars.com/kata/585cf93f6ad5e0d9bf000010")
 
-## Task
-
 Did you ever play Bowling? Short: You have to throw a bowl into 10 Pins arranged like this:
 
 <pre>

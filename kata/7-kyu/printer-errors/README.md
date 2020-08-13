@@ -4,8 +4,7 @@ In a factory a printer prints labels for boxes. For one kind of boxes
 the printer has to use colors which, for the sake of simplicity,
 are named with letters from `a to m`. 
 
-The colors used by the printer are
-recorded in a control string. For example a "good" control string would be
+The colors used by the printer are recorded in a control string. For example a "good" control string would be
 `aaabbbbhaijjjm` meaning that the printer used three times color a, four times
 color b, one time color h then one time color a...
 
@@ -20,12 +19,12 @@ Don't reduce this fraction to a simpler expression.
 The string has a length greater or equal to one and contains only letters 
 from `a`to `z`.
 
-#Examples:
+## Examples:
+
 ```
 s="aaabbbbhaijjjm"
 error_printer(s) => "0/14"
 
 s="aaaxbbbbyyhwawiwjjjwwm"
 error_printer(s) => "8/22"
-
 ```

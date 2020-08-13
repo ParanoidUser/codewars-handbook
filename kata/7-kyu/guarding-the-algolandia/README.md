@@ -6,7 +6,7 @@ The problem is that there are gangs who wants to destroy the bridges. In order t
 
 Your task now is to determine the minimum number of additional elite guards that needs to be hired to guard all the bridges.
 
-### Note:
+## Note:
 You are given an array `k` with `N` length.
 `k[i] = true`, means that there is an elite guard in that island; `k[i] = false` means no elite guard.
 

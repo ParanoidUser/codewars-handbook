@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class StringTaskTest {
+class StringTaskTest {
   @Test
-  public void perform() {
+  void sample() {
     assertEquals(".t.r", StringTask.perform("tour"));
     assertEquals(".c.d.w.r.s", StringTask.perform("Codewars"));
     assertEquals(".b.c.b", StringTask.perform("aBAcAba"));

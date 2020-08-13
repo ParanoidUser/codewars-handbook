@@ -1,13 +1,13 @@
 class BifidCipher {
-  static String encodeBifid(String key, String message) {
+  String encodeBifid(String key, String message) {
     return bifid(key, message, true);
   }
 
-  static String decodeBifid(String key, String message) {
+  String decodeBifid(String key, String message) {
     return bifid(key, message, false);
   }
 
-  private static String bifid(String key, String message, boolean code) {
+  private String bifid(String key, String message, boolean code) {
     key = key.replace(" ", "").replace("J", "I") + "ABCDEFGHIKLMNOPQRSTUVWXYZ";
     int[] n = new int[25];
     char[] s = new char[25];
@@ -25,7 +25,7 @@ class BifidCipher {
     return crypto(c, code, n, s);
   }
 
-  private static String crypto(char[] c, boolean code, int[] n, char[] s) {
+  private String crypto(char[] c, boolean code, int[] n, char[] s) {
     int[] r = new int[c.length * 2];
     for (int i = 0; i < c.length; i++) {
       int t = n[c[i] - (c[i] > 73 ? 1 : 0) - 65] - 1;

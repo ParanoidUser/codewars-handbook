@@ -1,5 +1,5 @@
 class CircularList<T> {
-  private T[] elements;
+  private final T[] elements;
   private int pointer = -1;
 
   @SafeVarargs

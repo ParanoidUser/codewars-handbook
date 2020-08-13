@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ElectionWinnersTest {
+class ElectionWinnersTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(2, ElectionWinners.find(new int[] {2, 3, 5, 2}, 3));
     assertEquals(0, ElectionWinners.find(new int[] {1, 3, 3, 1, 1}, 0));
     assertEquals(1, ElectionWinners.find(new int[] {5, 1, 3, 4, 1}, 0));

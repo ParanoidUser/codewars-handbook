@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class TimeUtilsTest {
+class TimeUtilsTest {
   @Test
-  public void shouldConvertCorrectly() {
+  void sample() {
     assertEquals("1 1 1 1", TimeUtils.convertTime(90061));
     assertEquals("-1 -1 -1 -1", TimeUtils.convertTime(-90061));
   }

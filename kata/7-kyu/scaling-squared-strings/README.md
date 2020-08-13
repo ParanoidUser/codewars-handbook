@@ -38,6 +38,7 @@ mnop            eeffgghh
                 mmnnoopp
 ```
 
-#Task:
+## Task
+
 - Write function `scale(strng, k, v)` 
 k and v will be positive integers. If `strng == ""` return `""`.

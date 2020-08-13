@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class KataTest {
+class KataTest {
   @Test
-  public void exampleTests() {
+  void sample() {
     assertEquals("+++\n+++\n+++", Kata.generateShape(3));
     assertEquals("+++++\n+++++\n+++++\n+++++\n+++++", Kata.generateShape(5));
     assertEquals("++++++++\n++++++++\n++++++++\n++++++++\n++++++++\n++++++++\n++++++++\n++++++++", Kata.generateShape(8));

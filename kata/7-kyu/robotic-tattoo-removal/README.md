@@ -2,7 +2,7 @@
 
 <img src="https://media.timeout.com/images/102748305/image.jpg" alt="Drawing" style="width: 335px;"/>
 
-Sometimes people get tattoos, sometimes they wish they hadn't, sometimes the tattoos must go. Lets create a robot that can remove tattoos.
+Sometimes people get tattoos, sometimes they wish they hadn't, sometimes the tattoos must go. Let's create a robot that can remove tattoos.
 
 Your ```robot``` function accepts one array argument called ```skinScan```. I have supplied an example array below.
 

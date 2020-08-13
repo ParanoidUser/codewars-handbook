@@ -1,10 +1,11 @@
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class BlockTests {
+import org.junit.jupiter.api.Test;
+
+class BlockTests {
   @Test
-  public void testBasicBlock() {
-    Block b = new Block(new int[] {2, 2, 2});
+  void sample() {
+    Block b = new Block(new int[]{2, 2, 2});
     assertEquals(2, b.getWidth());
     assertEquals(2, b.getLength());
     assertEquals(2, b.getHeight());

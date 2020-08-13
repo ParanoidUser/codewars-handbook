@@ -1,4 +1,5 @@
 # [Linked Lists - Append](https://www.codewars.com/kata/linked-lists-append "https://www.codewars.com/kata/55d17ddd6d7868493e000074")
+
 Write an Append() function which appends one linked list to another. The head of the resulting list should be returned.
 
 ```

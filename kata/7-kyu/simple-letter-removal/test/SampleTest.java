@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SampleTest {
+class SampleTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals("bracadabra", SimpleLetterRemoval.solve("abracadabra", 1));
     assertEquals("brcadabra", SimpleLetterRemoval.solve("abracadabra", 2));
     assertEquals("rcdbr", SimpleLetterRemoval.solve("abracadabra", 6));

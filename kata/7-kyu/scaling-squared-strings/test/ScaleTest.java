@@ -1,13 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ScaleTest {
+class ScaleTest {
   @Test
-  public void test() {
-    String r = "aabbccdd\naabbccdd\naabbccdd\neeffgghh\neeffgghh\neeffgghh\niijjkkll\niijjkkll\niijjkkll\nmmnnoopp\nmmnnoopp\nmmnnoopp";
-    assertEquals(r, Scale.scale("abcd\nefgh\nijkl\nmnop", 2, 3));
-    assertEquals("", Scale.scale("", 5, 5));
+  void sample() {
     assertEquals("Kj\nKj\nSH\nSH", Scale.scale("Kj\nSH", 1, 2));
+    assertEquals("aabbccdd\naabbccdd\naabbccdd\neeffgghh\neeffgghh\neeffgghh\niijjkkll\niijjkkll\niijjkkll\nmmnnoopp\nmmnnoopp\nmmnnoopp", Scale.scale("abcd\nefgh\nijkl\nmnop", 2, 3));
+    assertEquals("", Scale.scale("", 5, 5));
   }
 }

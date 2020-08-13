@@ -13,6 +13,7 @@ Example 2:
 af5134@borchmore.edu
 => af5134 [at] borchmore [dot] edu
 ```
+
 Example 3:
 ```
 jim.kuback@ennerman-hatano.com
@@ -21,12 +22,9 @@ jim.kuback@ennerman-hatano.com
 
 Using the examples above as a guide, write a function that takes an email address string and returns the obfuscated version as a string that replaces the characters `@` and `.` with `[at]` and `[dot]`, respectively.
 
->Notes
+## Notes
 
->* Input (`email`) will always be a string object. Your function should return a string.
-
->* Change only the `@` and `.` characters.
-
->* Email addresses may contain more than one `.` character.
-
->* Note the additional whitespace around the bracketed literals in the examples!
+* Input (`email`) will always be a string object. Your function should return a string.
+* Change only the `@` and `.` characters.
+* Email addresses may contain more than one `.` character.
+* Note the additional whitespace around the bracketed literals in the examples!

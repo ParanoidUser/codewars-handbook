@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class MyTester {
+class MyTester {
   @Test
-  public void myTests() {
+  void sample() {
     assertEquals(24, Chocolate.breakChocolate(5, 5));
     assertEquals(0, Chocolate.breakChocolate(1, 1));
   }

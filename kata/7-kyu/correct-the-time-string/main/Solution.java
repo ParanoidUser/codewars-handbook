@@ -1,6 +1,6 @@
 import static java.util.Arrays.stream;
 
-class Solution {
+interface Solution {
   static String timeCorrect(String timestring) {
     if (timestring == null || !timestring.matches("\\d{2}:\\d{2}:\\d{2}")) return null;
     var units = stream(timestring.split(":")).mapToInt(Integer::parseInt).toArray();

@@ -1,17 +1,13 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class Basic_Test {
+class Basic_Test {
   @Test
-  public void disariumOrNOT() {
+  void sample() {
     assertEquals("Disarium !!", Solution.disariumNumber(89));
     assertEquals("Not !!", Solution.disariumNumber(564));
     assertEquals("Not !!", Solution.disariumNumber(1024));
-  }
-
-  @Test
-  public void largerNumbers() {
     assertEquals("Not !!", Solution.disariumNumber(64599));
     assertEquals("Not !!", Solution.disariumNumber(136586));
     assertEquals("Not !!", Solution.disariumNumber(1048576));

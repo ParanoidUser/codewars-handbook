@@ -1,12 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.math.BigInteger;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class BinarySxoreTests {
+class BinarySxoreTests {
   @Test
-  public void exampleTests() {
+  void sample() {
     assertEquals(new BigInteger("0"), BinarySxore.sxore(new BigInteger("0")));
     assertEquals(new BigInteger("1"), BinarySxore.sxore(new BigInteger("1")));
     assertEquals(new BigInteger("51"), BinarySxore.sxore(new BigInteger("50")));

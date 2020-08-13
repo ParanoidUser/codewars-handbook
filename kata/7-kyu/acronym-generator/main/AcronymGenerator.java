@@ -1,4 +1,4 @@
-class AcronymGenerator {
+interface AcronymGenerator {
   static String createAcronym(String lastName, String firstName) {
     var acronym = new StringBuilder();
     for (String name : (firstName + " " + lastName).split("\\s|-")) {

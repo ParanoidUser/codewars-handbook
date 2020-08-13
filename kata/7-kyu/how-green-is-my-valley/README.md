@@ -43,7 +43,9 @@ make_valley(a) => [14, 14, 14, *7*, 14, 14]
 a = [14,14,14,14,14]
 make_valley(a) => [14, 14, *14*, 14, 14]
 ```
-# A counter-example:
+
+## A counter-example:
+
 ```
 a = [17, 17, 15, 14, 8, 7, 7, 5, 4, 4, 1]
 A solution could be [17, 17, 15, 14, 8, 1, 4, 4, 5, 7, 7]

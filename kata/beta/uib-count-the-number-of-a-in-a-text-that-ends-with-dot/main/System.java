@@ -5,7 +5,9 @@ import java.io.PipedInputStream;
 import java.io.PipedOutputStream;
 import java.io.PrintStream;
 
-class System {
+final class System {
+  private System() {}
+
   static PipedInputStream in;
   static PrintStream out;
 
@@ -20,9 +22,8 @@ class System {
   static String read() throws IOException {
     var text = new StringBuilder();
     try (var source = new BufferedReader(new InputStreamReader(pipe))) {
-      String line;
-      while (source.ready() && (line = source.readLine()) != null) {
-        text.append(line).append("\n");
+      while (source.ready()) {
+        text.append(source.readLine()).append("\n");
       }
     }
     return text.toString();

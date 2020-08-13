@@ -1,16 +1,14 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import java.util.Arrays;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class SumpowdigTest {
+class SumpowdigTest {
   @Test
-  public void test() {
-    assertEquals("[]", Arrays.toString(Sumpowdig.eqSumPowDig(100, 2)));
-    assertEquals("[153]", Arrays.toString(Sumpowdig.eqSumPowDig(200, 3)));
-    assertEquals("[153, 370]", Arrays.toString(Sumpowdig.eqSumPowDig(370, 3)));
-    assertEquals("[153, 370, 371]", Arrays.toString(Sumpowdig.eqSumPowDig(400, 3)));
-    assertEquals("[153, 370, 371, 407]", Arrays.toString(Sumpowdig.eqSumPowDig(500, 3)));
+  void sample() {
+    assertArrayEquals(new long[0], Sumpowdig.eqSumPowDig(100, 2));
+    assertArrayEquals(new long[]{153}, Sumpowdig.eqSumPowDig(200, 3));
+    assertArrayEquals(new long[]{153, 370}, Sumpowdig.eqSumPowDig(370, 3));
+    assertArrayEquals(new long[]{153, 370, 371}, Sumpowdig.eqSumPowDig(400, 3));
+    assertArrayEquals(new long[]{153, 370, 371, 407}, Sumpowdig.eqSumPowDig(500, 3));
   }
 }

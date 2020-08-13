@@ -4,6 +4,6 @@ The `Stanton` measure of an array is computed as follows: count the number of `1
 
 Write a function which takes an integer array and returns its `Stanton` measure.
 
-#### Example
-The Stanton measure of `[1, 4, 3, 2, 1, 2, 3, 2]` is `3`, because `1` occurs `2` times in the array and `2` occurs `3` times.
+## Example
 
+The Stanton measure of `[1, 4, 3, 2, 1, 2, 3, 2]` is `3`, because `1` occurs `2` times in the array and `2` occurs `3` times.

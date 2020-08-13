@@ -1,9 +1,10 @@
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class HexadecimalShould {
+import org.junit.jupiter.api.Test;
+
+class HexadecimalShould {
   @Test
-  public void test() {
+  void sample() {
     assertEquals("0x100", Hexadecimal.convertToHex(256));
   }
 }

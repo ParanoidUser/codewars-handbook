@@ -1,4 +1,4 @@
-class Accumul {
+interface Accumul {
   static String accum(String s) {
     var accum = new StringBuilder();
     for (int i = 0; i < s.length(); i++) {

@@ -1,13 +1,13 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testSomething() {
-    assertEquals(3, FindDivisor.numberOfDivisors(4));
-    assertEquals(2, FindDivisor.numberOfDivisors(5));
-    assertEquals(6, FindDivisor.numberOfDivisors(12));
-    assertEquals(8, FindDivisor.numberOfDivisors(30));
+  void sample() {
+    assertEquals(3, new FindDivisor().numberOfDivisors(4));
+    assertEquals(2, new FindDivisor().numberOfDivisors(5));
+    assertEquals(6, new FindDivisor().numberOfDivisors(12));
+    assertEquals(8, new FindDivisor().numberOfDivisors(30));
   }
 }

@@ -1,6 +1,6 @@
 import static java.util.Arrays.sort;
 
-class Poet {
+interface Poet {
   static int[] pendulum(int[] values) {
     sort(values);
     int[] result = new int[values.length];

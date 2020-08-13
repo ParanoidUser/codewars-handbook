@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SampleTest {
+class SampleTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(11, Kata.houseNumbersSum(new int[] {5, 1, 2, 3, 0, 1, 5, 0, 2}));
     assertEquals(13, Kata.houseNumbersSum(new int[] {4, 2, 1, 6, 0}));
     assertEquals(10, Kata.houseNumbersSum(new int[] {4, 1, 2, 3, 0, 10, 2}));

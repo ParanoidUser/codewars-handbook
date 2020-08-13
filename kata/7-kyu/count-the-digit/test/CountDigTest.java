@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class CountDigTest {
+class CountDigTest {
   @Test
-  public void test() {
+  void sample() {
     assertEquals(4700, CountDig.nbDig(5750, 0));
     assertEquals(9481, CountDig.nbDig(11011, 2));
     assertEquals(7733, CountDig.nbDig(12224, 8));

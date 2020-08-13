@@ -1,11 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SumTest1 {
+class SumTest1 {
   @Test
-  public void test1() {
-    assertEquals(-1, Sum.GetSum(0, -1));
-    assertEquals(1, Sum.GetSum(0, 1));
+  void sample() {
+    assertEquals(-1, new Sum().GetSum(0, -1));
+    assertEquals(1, new Sum().GetSum(0, 1));
   }
 }

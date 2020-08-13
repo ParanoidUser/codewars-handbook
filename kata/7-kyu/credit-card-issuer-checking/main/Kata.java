@@ -1,4 +1,4 @@
-class Kata {
+interface Kata {
     static String getIssuer(String cardNumber) {
         return cardNumber.matches("^3[4|7].{13}$") ? "AMEX"
              : cardNumber.matches("^6011.{12}$") ? "Discover"

@@ -1,13 +1,14 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class KataTests {
+class KataTests {
   @Test
-  public void basicTests() {
+  void sample() {
     assertTrue(Kata.compare("AD", "BC"));
     assertTrue(Kata.compare("A!D", ""));
     assertFalse(Kata.compare("AD", "DD"));
+    assertFalse(Kata.compare(null, "DD"));
   }
 }

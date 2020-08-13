@@ -1,5 +1,5 @@
 class Sum {
-  static int GetSum(int a, int b) {
+  int GetSum(int a, int b) {
     return (a + b) * (Math.abs(a - b) + 1) / 2;
   }
 }

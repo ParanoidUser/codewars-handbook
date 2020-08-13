@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class UIB {
+interface UIB {
   static void countAs() {
     int count = 0;
     try (var in = new Scanner(System.in).useDelimiter("\\.")) {

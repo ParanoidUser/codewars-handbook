@@ -1,4 +1,4 @@
-class Solution {
+interface Solution {
   static String[] capitalize(String s) {
     var r = new String[] {"", ""};
     for (int i = 0; i < s.length(); i++) {

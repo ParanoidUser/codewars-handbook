@@ -1,15 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class KataTest {
+class KataTest {
   @Test
-  public void swap_1() {
+  void sample() {
     assertEquals("HEllOWOrld!", Kata.swap("HelloWorld!"));
-  }
-
-  @Test
-  public void swap_2() {
     assertEquals("SUndAy", Kata.swap("Sunday"));
   }
 }

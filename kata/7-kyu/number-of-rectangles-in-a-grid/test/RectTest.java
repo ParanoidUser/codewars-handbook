@@ -1,15 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class RectTest {
+class RectTest {
   @Test
-  public void shouldWorkWith4x4() {
-    assertEquals("100", 100, Solution.numberOfRectangles(4, 4));
-  }
-
-  @Test
-  public void shouldWorkWith5x5() {
-    assertEquals("225", 225, Solution.numberOfRectangles(5, 5));
+  void sample() {
+    assertEquals(100, new Solution().numberOfRectangles(4, 4));
+    assertEquals(225, new Solution().numberOfRectangles(5, 5));
   }
 }

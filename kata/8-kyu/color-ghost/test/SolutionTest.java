@@ -8,6 +8,6 @@ class SolutionTest {
   @Test
   void sample() {
     var colors = List.of("white", "yellow", "purple", "red");
-    assertTrue(colors.contains(Ghost.getColor()));
+    assertTrue(colors.contains(new Ghost().getColor()));
   }
 }

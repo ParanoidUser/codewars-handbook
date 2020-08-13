@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class BitsBattleTest {
+class BitsBattleTest {
   @Test
-  public void testBasicExamples() {
+  void sample() {
     assertEquals("odds win", BitsBattle.bitsBattle(new int[] {5, 3, 14}));
     assertEquals("evens win", BitsBattle.bitsBattle(new int[] {3, 8, 22, 15, 78}));
     assertEquals("tie", BitsBattle.bitsBattle(new int[] {}));

@@ -1,12 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testSomething() {
-    assertEquals(17, DiceDotCount.totalAmountVisible(3, 6));
-    assertEquals(30, DiceDotCount.totalAmountVisible(3, 8));
-    assertEquals(66, DiceDotCount.totalAmountVisible(1, 12));
+  void sample() {
+    assertEquals(17, new DiceDotCount().totalAmountVisible(3, 6));
+    assertEquals(30, new DiceDotCount().totalAmountVisible(3, 8));
+    assertEquals(66, new DiceDotCount().totalAmountVisible(1, 12));
   }
 }

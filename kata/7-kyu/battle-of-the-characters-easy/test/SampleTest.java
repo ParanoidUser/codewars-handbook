@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SampleTest {
+class SampleTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals("Z", BattleOfTheCharacters.battle("AAA", "Z"));
     assertEquals("TWO", BattleOfTheCharacters.battle("ONE", "TWO"));
     assertEquals("Tie!", BattleOfTheCharacters.battle("ONE", "NEO"));

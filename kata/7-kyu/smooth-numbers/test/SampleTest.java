@@ -1,19 +1,19 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SampleTest {
+class SampleTest {
   @Test
-  public void basicTests() {
+  void sample() {
+    assertEquals("humble number", Solution.isSmooth(7));
     assertEquals("power of 2", Solution.isSmooth(16));
+    assertEquals("non-smooth", Solution.isSmooth(17));
     assertEquals("3-smooth", Solution.isSmooth(36));
     assertEquals("Hamming number", Solution.isSmooth(60));
     assertEquals("humble number", Solution.isSmooth(98));
     assertEquals("non-smooth", Solution.isSmooth(111));
-    assertEquals("power of 2", Solution.isSmooth(4096));
     assertEquals("3-smooth", Solution.isSmooth(729));
     assertEquals("Hamming number", Solution.isSmooth(3125));
-    assertEquals("humble number", Solution.isSmooth(7));
-    assertEquals("non-smooth", Solution.isSmooth(17));
+    assertEquals("power of 2", Solution.isSmooth(4096));
   }
 }

@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class InfiniteCrisis {
+class InfiniteCrisis {
   @Test
-  public void vsZoom() {
+  void sample() {
     assertEquals("Yes", Kata.helpZoom(new int[] {1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1}));
     assertEquals("No", Kata.helpZoom(new int[] {1, 1, 0, 0, 0, 0, 1, 1, 0}));
   }

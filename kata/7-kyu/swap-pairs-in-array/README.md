@@ -1,4 +1,4 @@
-# [Swap  pairs in Array](https://www.codewars.com/kata/swap-pairs-in-array "https://www.codewars.com/kata/58a7394c934f82ed6b0000c0")
+# [Swap pairs in Array](https://www.codewars.com/kata/swap-pairs-in-array "https://www.codewars.com/kata/58a7394c934f82ed6b0000c0")
 
 I have found a class which operates on 
 Arrays of Pairs (Array of length 2) of any type.

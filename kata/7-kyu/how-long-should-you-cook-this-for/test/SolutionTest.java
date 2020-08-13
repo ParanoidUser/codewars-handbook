@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void fixed_Tests() {
+  void sample() {
     assertEquals("3 minutes 15 seconds", CookingTime.getTime("600W", 4, 20, "800W"));
     assertEquals("2 minutes 0 seconds", CookingTime.getTime("800W", 3, 0, "1200W"));
     assertEquals("17 minutes 30 seconds", CookingTime.getTime("100W", 8, 45, "50W"));

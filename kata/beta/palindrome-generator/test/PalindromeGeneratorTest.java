@@ -6,32 +6,12 @@ import org.junit.jupiter.api.Test;
 
 class PalindromeGeneratorTest {
   @Test
-  void testIsPalindromeWithSuccess() {
-    assertTrue(PalindromeGenerator.isPalindrome("otto"));
-  }
-
-  @Test
-  void testIsPalindromeWithFailure() {
-    assertFalse(PalindromeGenerator.isPalindrome("noob"));
-  }
-
-  @Test
-  void testGenerateStringWithPalindrome() {
-    assertEquals("otto", PalindromeGenerator.generateString("otto"));
-  }
-
-  @Test
-  void testGenerateStringWithCasePalindrome() {
-    assertEquals("Otto", PalindromeGenerator.generateString("Otto"));
-  }
-
-  @Test
-  void testGenerateStringWithOddPalindrome() {
-    assertEquals("oto", PalindromeGenerator.generateString("oto"));
-  }
-
-  @Test
-  void testGenerateStringWithoutPalindrome() {
-    assertEquals("ottonoobTest123321tseTboonotto", PalindromeGenerator.generateString("ottonoobTest123"));
+  void sample() {
+    assertTrue(new PalindromeGenerator().isPalindrome("otto"));
+    assertFalse(new PalindromeGenerator().isPalindrome("noob"));
+    assertEquals("otto", new PalindromeGenerator().generateString("otto"));
+    assertEquals("Otto", new PalindromeGenerator().generateString("Otto"));
+    assertEquals("oto", new PalindromeGenerator().generateString("oto"));
+    assertEquals("ottonoobTest123321tseTboonotto", new PalindromeGenerator().generateString("ottonoobTest123"));
   }
 }

@@ -1,12 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SpoonerTest {
+class SpoonerTest {
   @Test
-  public void basicTests() {
-    assertEquals("pit nicking", Spooner.spoonerize("nit picking"));
-    assertEquals("bedding wells", Spooner.spoonerize("wedding bells"));
-    assertEquals("belly jeans", Spooner.spoonerize("jelly beans"));
+  void sample() {
+    assertEquals("pit nicking", new Spooner().spoonerize("nit picking"));
+    assertEquals("bedding wells", new Spooner().spoonerize("wedding bells"));
+    assertEquals("belly jeans", new Spooner().spoonerize("jelly beans"));
   }
 }

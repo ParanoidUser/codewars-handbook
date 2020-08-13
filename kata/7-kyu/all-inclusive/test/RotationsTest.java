@@ -1,13 +1,12 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.List;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class RotationsTest {
+class RotationsTest {
   @Test
-  public void test() {
+  void sample() {
     assertTrue(Rotations.containAllRots("", List.of()));
     assertTrue(Rotations.containAllRots("", List.of("bsjq", "qbsj")));
     assertTrue(Rotations.containAllRots("bsjq", List.of("bsjq", "qbsj", "sjqb", "twZNsslC", "jqbs")));

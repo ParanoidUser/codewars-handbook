@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-class EightiesKids3 {
+interface EightiesKids3 {
   static String[] getSocks(String name, String[] socks) {
     HashSet<String> set = new HashSet<>();
     for (String sock : socks) {

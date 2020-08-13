@@ -1,11 +1,10 @@
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class DeltaBitsTest {
+class DeltaBitsTest {
   @Test
-  public void test() {
-    assertThat(DeltaBits.convertBits(31, 14), is(2));
+  void sample() {
+    assertEquals(2, DeltaBits.convertBits(31, 14));
   }
 }

@@ -1,13 +1,13 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void basicTest() {
+  void sample() {
     assertEquals(0, Solution.signChange(new int[] {1, 3, 4, 5}));
     assertEquals(2, Solution.signChange(new int[] {1, -3, -4, 0, 5}));
-    assertEquals(0, Solution.signChange(new int[] {}));
     assertEquals(3, Solution.signChange(new int[] {-47, 84, -30, -11, -5, 74, 77}));
+    assertEquals(0, Solution.signChange(new int[0]));
   }
 }

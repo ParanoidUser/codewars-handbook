@@ -8,7 +8,7 @@ numberOfRectangles(3, 2) == 18
 numberOfRectangles(4, 4) == 100
 ```
 
-Here is how the 3x2 grid works (Thanks to GiacomoSorbi for the idea):
+Here is how the 3x2 grid works:
 
 1 rectangle of size 3x2:
 ```

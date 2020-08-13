@@ -1,11 +1,11 @@
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SolutionTest {
-    @Test
-    public void fixedTest() {
-        assertEquals(42, Kata.betweenExtremes(new int[]{21, 34, 54, 43, 26, 12}));
-        assertEquals(99, Kata.betweenExtremes(new int[]{-1, -41, -77, -100}));
-    }
+import org.junit.jupiter.api.Test;
+
+class SolutionTest {
+  @Test
+  void sample() {
+    assertEquals(42, Kata.betweenExtremes(new int[]{21, 34, 54, 43, 26, 12}));
+    assertEquals(99, Kata.betweenExtremes(new int[]{-1, -41, -77, -100}));
+  }
 }

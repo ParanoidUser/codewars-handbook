@@ -8,9 +8,9 @@ class MinuteTest {
   @Test
   void sample() {
     var midday = ZonedDateTime.parse("2020-05-29T12:00:00Z");
-    assertEquals("720 minutes", Minute.countMinutes(Date.from(midday.toInstant())));
+    assertEquals("720 minutes", new Minute().countMinutes(Date.from(midday.toInstant())));
 
     var midnight = ZonedDateTime.parse("2020-05-29T23:59:00Z");
-    assertEquals("1 minute", Minute.countMinutes(Date.from(midnight.toInstant())));
+    assertEquals("1 minute", new Minute().countMinutes(Date.from(midnight.toInstant())));
   }
 }

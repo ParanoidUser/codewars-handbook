@@ -1,10 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void exampleTest() {
+  void sample() {
     assertEquals("odd", Codewars.oddOrEven(new int[] {2, 5, 34, 6}));
+    assertEquals("even", Codewars.oddOrEven(new int[] {2, 5, 34, 5}));
   }
 }

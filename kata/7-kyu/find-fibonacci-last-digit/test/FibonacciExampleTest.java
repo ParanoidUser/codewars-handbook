@@ -1,19 +1,12 @@
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class FibonacciExampleTest {
+import org.junit.jupiter.api.Test;
+
+class FibonacciExampleTest {
   @Test
-  public void example1() {
+  void sample() {
     assertEquals(5, Fibonacci.getFibNumb(193150));
-  }
-
-  @Test
-  public void example2() {
     assertEquals(0, Fibonacci.getFibNumb(300));
-  }
-
-  @Test
-  public void example3() {
     assertEquals(6, Fibonacci.getFibNumb(20001));
   }
 }

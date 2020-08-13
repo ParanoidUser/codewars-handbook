@@ -1,4 +1,4 @@
-class JomoPipi {
+interface JomoPipi {
   static String antiString(String str) {
     return str.chars()
         .map(c -> (char) ((c < 'A' ? 105 : 187) - c))

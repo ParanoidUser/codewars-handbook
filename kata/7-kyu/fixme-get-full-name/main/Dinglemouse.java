@@ -1,11 +1,11 @@
 class Dinglemouse {
-  String fullName;
+  private final String fullName;
 
   Dinglemouse(String firstName, String lastName) {
-    fullName = firstName + " " + lastName;
+    fullName = (firstName + " " + lastName).trim();
   }
 
   String getFullName() {
-    return fullName.trim();
+    return fullName;
   }
 }

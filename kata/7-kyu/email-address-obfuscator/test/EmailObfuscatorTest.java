@@ -1,15 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class EmailObfuscatorTest {
+class EmailObfuscatorTest {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals("test [at] 123 [dot] com", EmailObfuscator.obfuscate("test@123.com"));
-  }
-
-  @Test
-  public void test2() {
     assertEquals("Code_warrior [at] foo [dot] ac [dot] uk", EmailObfuscator.obfuscate("Code_warrior@foo.ac.uk"));
   }
 }
