@@ -42,7 +42,7 @@ class SolutionTest {
     assertEquals(f, f);
     assertNotEquals(f, new Fraction(2, 1));
     assertNotEquals(f, new Object());
-    assertNotEquals(null, f);
+    assertNotEquals(f, null);
   }
 
   @Test

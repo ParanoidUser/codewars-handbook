@@ -12,7 +12,7 @@ class ScoreTest {
     assertNotEquals(score, new Score(1, 2));
     assertNotEquals(score, new Score(2, 1));
     assertNotEquals(score, new Object());
-    assertNotEquals(null, score);
+    assertNotEquals(score, null);
   }
 
   @Test
