@@ -23,6 +23,6 @@ class RGBTest {
     assertNotEquals(black, new RGB(1,0,0));
     assertNotEquals(black, new RGB(0,1,0));
     assertNotEquals(black, new RGB(0,0,1));
-    assertNotEquals(null, black);
+    assertNotEquals(black, null);
   }
 }

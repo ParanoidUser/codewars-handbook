@@ -21,7 +21,7 @@ class SampleTests {
     assertEquals(ff, new Hex(255));
     assertNotEquals(ff, new Hex(2));
     assertNotEquals(ff, new Object());
-    assertNotEquals(null, ff);
+    assertNotEquals(ff, null);
     assertEquals(255, ff.hashCode());
   }
 }
