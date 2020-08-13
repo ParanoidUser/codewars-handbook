@@ -1,7 +1,5 @@
 # [Recursive reverse string](https://www.codewars.com/kata/recursive-reverse-string "https://www.codewars.com/kata/536a9f94021a76ef0f00052f")
 
-## Do you know how to write a recursive function? Let's test it!
-
 *Definition: Recursive function is a function that calls itself during its execution*
 ```
 Classic factorial counting on Javascript

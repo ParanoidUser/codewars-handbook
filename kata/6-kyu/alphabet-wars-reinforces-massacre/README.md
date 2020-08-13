@@ -1,11 +1,9 @@
 # [Alphabet wars - reinforces massacre](https://www.codewars.com/kata/alphabet-wars-reinforces-massacre "https://www.codewars.com/kata/593e2077edf0d3e2d500002d")
 
-# Introduction
-
 There is a war and nobody knows - the alphabet war!  
 The letters called airstrikes to help them in war - dashes and dots are spread everywhere on the battlefield.
 
-# Task
+## Task
 
 Write a function that accepts `reinforces` array of strings and `airstrikes` array of strings.  
 The `reinforces` strings consist of only small letters. The size of each string in `reinforces` array is the same.   
@@ -35,7 +33,7 @@ No more airstrikes => return "hi___fg"
 
 ```
 
-# Other example
+## Other example
 
 ```
   reinforces =    
