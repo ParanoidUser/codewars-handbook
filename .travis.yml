@@ -24,7 +24,7 @@ before_cache:
 jobs:
   include:
     - stage: Build
-      script: ./gradlew --scan --watch-fs --parallel --build-cache compileJava compileTestJava -x classes test -x testClasses -x processTestResources jacocoTestReport
+      script: ./gradlew --parallel --configuration-cache --build-cache --scan compileJava compileTestJava -x classes test -x testClasses -x processTestResources jacocoTestReport
       workspaces:
         create:
           name: shared
@@ -33,7 +33,7 @@ jobs:
     - stage: Scan
       workspaces:
         use: shared
-      script: ./gradlew --scan --watch-fs -Pversion=$VERSION sonarqube -x test $SONAR_OPTS
+      script: ./gradlew --configuration-cache --scan -Pversion=$VERSION sonarqube -x test $SONAR_OPTS
 
   # Default stages
   exclude:
