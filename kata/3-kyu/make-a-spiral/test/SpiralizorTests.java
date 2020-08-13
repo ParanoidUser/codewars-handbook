@@ -1,31 +1,28 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SpiralizorTests {
+class SpiralizorTests {
   @Test
-  public void test5() {
-    assertArrayEquals(new int[][] {
-          {1, 1, 1, 1, 1},
-          {0, 0, 0, 0, 1},
-          {1, 1, 1, 0, 1},
-          {1, 0, 0, 0, 1},
-          {1, 1, 1, 1, 1}
+  void sample() {
+    assertArrayEquals(new int[][]{
+            {1, 1, 1, 1, 1},
+            {0, 0, 0, 0, 1},
+            {1, 1, 1, 0, 1},
+            {1, 0, 0, 0, 1},
+            {1, 1, 1, 1, 1}
         },
         Spiralizor.spiralize(5));
-  }
 
-  @Test
-  public void test8() {
-    assertArrayEquals(new int[][] {
-          {1, 1, 1, 1, 1, 1, 1, 1},
-          {0, 0, 0, 0, 0, 0, 0, 1},
-          {1, 1, 1, 1, 1, 1, 0, 1},
-          {1, 0, 0, 0, 0, 1, 0, 1},
-          {1, 0, 1, 0, 0, 1, 0, 1},
-          {1, 0, 1, 1, 1, 1, 0, 1},
-          {1, 0, 0, 0, 0, 0, 0, 1},
-          {1, 1, 1, 1, 1, 1, 1, 1},
+    assertArrayEquals(new int[][]{
+            {1, 1, 1, 1, 1, 1, 1, 1},
+            {0, 0, 0, 0, 0, 0, 0, 1},
+            {1, 1, 1, 1, 1, 1, 0, 1},
+            {1, 0, 0, 0, 0, 1, 0, 1},
+            {1, 0, 1, 0, 0, 1, 0, 1},
+            {1, 0, 1, 1, 1, 1, 0, 1},
+            {1, 0, 0, 0, 0, 0, 0, 1},
+            {1, 1, 1, 1, 1, 1, 1, 1},
         },
         Spiralizor.spiralize(8));
   }
