@@ -1,17 +1,17 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void basicTests() {
-    var arrayOfArrays = new int[][] {new int[] {1, 2, 3, 4, 5, 6}, new int[] {7, 7, 7, 7, 7, 7}};
-    assertArrayEquals(new int[] {8, 9, 10, 11, 12, 13}, Kata.addingShifted(arrayOfArrays, 0));
+  void sample() {
+    assertArrayEquals(new int[]{8, 9, 10, 11, 12, 13}, Kata.addingShifted(
+        new int[][]{{1, 2, 3, 4, 5, 6}, {7, 7, 7, 7, 7, 7}}, 0));
 
-    arrayOfArrays = new int[][] {new int[] {1, 2, 3, 4, 5, 6}, new int[] {7, 7, 7, 7, 7, 7}};
-    assertArrayEquals(new int[] {1, 2, 3, 11, 12, 13, 7, 7, 7}, Kata.addingShifted(arrayOfArrays, 3));
+    assertArrayEquals(new int[]{1, 2, 3, 11, 12, 13, 7, 7, 7}, Kata.addingShifted(
+        new int[][]{{1, 2, 3, 4, 5, 6}, {7, 7, 7, 7, 7, 7}}, 3));
 
-    arrayOfArrays = new int[][] {new int[] {1, 2, 3, 4, 5, 6}, new int[] {7, 7, 7, -7, 7, 7}, new int[] {1, 1, 1, 1, 1, 1}};
-    assertArrayEquals(new int[] {1, 2, 3, 11, 12, 13, -6, 8, 8, 1, 1, 1}, Kata.addingShifted(arrayOfArrays, 3));
+    assertArrayEquals(new int[]{1, 2, 3, 11, 12, 13, -6, 8, 8, 1, 1, 1}, Kata.addingShifted(
+        new int[][]{{1, 2, 3, 4, 5, 6}, {7, 7, 7, -7, 7, 7}, {1, 1, 1, 1, 1, 1}}, 3));
   }
 }

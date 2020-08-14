@@ -1,19 +1,14 @@
-import static org.junit.Assert.assertEquals;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.time.LocalDate;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class KataTest {
+class KataTest {
   @Test
-  public void ageInDaysShouldReturnYouAre2DaysOldWhenYourBirthdayIsTwoDaysAgo() {
-    LocalDate birthday = LocalDate.now().minusDays(2);
-    assertEquals("You are 2 days old", Kata.ageInDays(birthday.getYear(), birthday.getMonthValue(), birthday.getDayOfMonth()));
-  }
-
-  @Test
-  public void ageInDaysShouldReturnCorrectNumberOfDaysWhenYourBirthdayIsOneYearAgo() {
-    LocalDate birthday = LocalDate.now().minusYears(1);
-    assertEquals("You are 366 days old", Kata.ageInDays(birthday.getYear(), birthday.getMonthValue(), birthday.getDayOfMonth()));
+  void sample() {
+    var birthday = LocalDate.now();
+    assertEquals("You are 2 days old", Kata.ageInDays(birthday.minusDays(2).getYear(), birthday.minusDays(2).getMonthValue(), birthday.minusDays(2).getDayOfMonth()));
+    assertEquals("You are 366 days old", Kata.ageInDays(birthday.minusYears(1).getYear(), birthday.minusYears(1).getMonthValue(), birthday.minusYears(1).getDayOfMonth()));
   }
 }

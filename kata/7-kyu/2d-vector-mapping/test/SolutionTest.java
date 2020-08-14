@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertArrayEquals(new double[]{46, 58}, Kata.mapVector(new double[]{46, 58}, new double[]{0, 0, 100}, new double[]{0, 0, 100}), 1e-2);
     assertArrayEquals(new double[]{125, 10}, Kata.mapVector(new double[]{50, 88}, new double[]{-25, 128, 100}, new double[]{50, 50, 100}), 1e-2);
     assertArrayEquals(new double[]{147.78, -87.0}, Kata.mapVector(new double[]{120, 58}, new double[]{100, 76, 36}, new double[]{120, -62, 50}), 1e-2);

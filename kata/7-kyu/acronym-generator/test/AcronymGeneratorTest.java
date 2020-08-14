@@ -1,31 +1,14 @@
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class AcronymGeneratorTest {
+class AcronymGeneratorTest {
   @Test
-  public void testSimple() {
-    assertThat(AcronymGenerator.createAcronym("Meyer", "Thomas"), is("TM"));
-  }
-
-  @Test
-  public void testMultipleLastNames() {
-    assertThat(AcronymGenerator.createAcronym("Meyer-Schmidt", "Paul"), is("PMS"));
-  }
-
-  @Test
-  public void testMultipleFirstNamesWithBlank() {
-    assertThat(AcronymGenerator.createAcronym("Mueller", "Jan Erich"), is("JEM"));
-  }
-
-  @Test
-  public void testMultipleFirstNamesWithDash() {
-    assertThat(AcronymGenerator.createAcronym("Schmidt", "Jan-Erich"), is("JES"));
-  }
-
-  @Test
-  public void testVonName() {
-    assertThat(AcronymGenerator.createAcronym("von Lahnstein", "Peter"), is("PvL"));
+  void sample() {
+    assertEquals("TM", AcronymGenerator.createAcronym("Meyer", "Thomas"));
+    assertEquals("PMS", AcronymGenerator.createAcronym("Meyer-Schmidt", "Paul"));
+    assertEquals("JEM", AcronymGenerator.createAcronym("Mueller", "Jan Erich"));
+    assertEquals("JES", AcronymGenerator.createAcronym("Schmidt", "Jan-Erich"));
+    assertEquals("PvL", AcronymGenerator.createAcronym("von Lahnstein", "Peter"));
   }
 }

@@ -1,18 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class CircleTest {
-
-  @Test(expected = IllegalArgumentException.class)
-  public void testInvalidRadius() {
-    Circle.area(0);
-  }
-
+class CircleTest {
   @Test
-  public void testKnownValues() {
-    for (int i = 0; i < 3; i++) {
-      assertEquals(28.27D, Circle.area(3.), 0.01);
-    }
+  void sample() {
+    assertThrows(IllegalArgumentException.class, () -> Circle.area(0));
+    assertEquals(28.27D, Circle.area(3.), 0.01);
   }
 }
