@@ -1,15 +1,9 @@
-# [anti-virus file scanner](https://www.codewars.com/kata/anti-virus-file-scanner "https://www.codewars.com/kata/5b13027eedd62c5216000001")
+# [Anti-virus file scanner](https://www.codewars.com/kata/anti-virus-file-scanner "https://www.codewars.com/kata/5b13027eedd62c5216000001")
 
-<h1>Task</h1>
-<p>
 You are working for NoVirus Security Solutions and they ask you to make a scanner that scans a file inputted by the user with the function `scanFile(File,VirusDB)` that takes a <Strong>File</Strong> and a <Strong>VirusDB</Strong> object and return whether a file is safe or not. Remember: the searches need to be non-Case-Sensitive
-</p>
 
-<p>
 Your class also has the function `setScanIntensity(int)` which changes the scan intensity. This will only receive values 0, 1, 2 or 3. This has been done for you.
-</p>
 
-<p>
 The scan intensity determines the arrays from the database that will be used. i.e.:
 <ul>
   <li>scanIntensity 0 means off(every file is considered safe)</li>
@@ -18,65 +12,12 @@ The scan intensity determines the arrays from the database that will be used. i.
   <li>scanIntensity 3 means that all 3 arrays will be used</li>
 </ul>
 
-<h2>Outputs</h2>
+## Outputs
 
-<p>The outputs should be:
+The outputs should be:
 ```"Filename is safe"``` or ```"Filename is not safe"``` (Filename is the name of the file that you can get with `file.getName()` )
-</p>
-<p>
 
-</p>
-
-<h2>File Class</h2>
-
-```
-class File{
-  private String name;
-  private String data;
-  
-  public File(String name,String data){
-    this.name = name;
-    this.data = data;
-  }
-  
-  //used in output
-  public String getName(){
-    return this.name;
-  }
-  
-  //the String that you need to scan.
-  public String getData(){
-    return this.data;
-  }
-}
-```
-
-<h2>VirusDB Class</h2>
-
-```
-class VirusDB{
-   private String[] intensity1Signatures;
-   private String[] intensity2Signatures;
-   private String[] intensity3Signatures;
-   
-   public VirusDB(String[] intensity1Signatures,String[] intensity2Signatures,String[] intensity3Signatures){
-     this.intensity1Signatures = intensity1Signatures;
-     this.intensity2Signatures = intensity2Signatures;
-     this.intensity3Signatures = intensity3Signatures;
-   }
-   
-   public String[] getSignatures(int arrayNum){
-     switch (arrayNum){
-       case 1:return this.intensity1Signatures;
-       case 2:return this.intensity2Signatures;
-       case 3:return this.intensity3Signatures;
-       default:return new String[0];
-     }
-   }
-}
-```
-
-<h2>Examples</h2>
+## Examples
 
 ```
       String[] intensity1signatures = new String[]{

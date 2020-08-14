@@ -6,5 +6,3 @@ You are given money in nominal value of `n` with `1<=n<=1500`.
 
 Try to find minimal number of notes that must be used to repay in
 dollars, or output <code lang="java">-1</code> if it is impossible.
-
-Good Luck!!!

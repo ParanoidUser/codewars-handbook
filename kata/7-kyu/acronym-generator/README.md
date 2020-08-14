@@ -12,7 +12,7 @@ For example:
 
 ``martin schmidt => MS``
 
-In your company there work only people with a maxinmum of two first names. If a person has two first names, they might be joined with a dash.
+In your company there work only people with a maximum of two first names. If a person has two first names, they might be joined with a dash.
 
 
 ``Jan-Erich Schmidt => JES``
@@ -28,5 +28,3 @@ In Germany, there are last names which have the leading word ``"von"``. This sha
 ``Paul von Lahnstein => PvL``
 
 ``Martin von Lahnstein-Meyer => MvLM``
-
-Happy coding!

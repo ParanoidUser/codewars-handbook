@@ -22,7 +22,7 @@ The number of steps to get the result is `1`.
 
 The number of steps is 7.
 
-# Task:
+## Task:
 Your task is to return to the function ```seven(m)``` (m integer >= 0) an array (or a pair, depending on the language) of numbers, 
 the first being the *last* number `m` with at most 2 digits obtained by your function (this last `m` will be divisible or not by 7), the second one being the number of steps to get the result.
 
