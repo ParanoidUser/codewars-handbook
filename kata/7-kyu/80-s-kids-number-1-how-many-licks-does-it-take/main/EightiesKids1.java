@@ -1,6 +1,6 @@
 import java.util.Map;
 
-class EightiesKids1 {
+interface EightiesKids1 {
   static String totalLicks(Map<String, Integer> env) {
     String challenge = "";
     int max = 0, licks = 252;

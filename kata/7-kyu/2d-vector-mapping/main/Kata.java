@@ -1,4 +1,4 @@
-class Kata {
+interface Kata {
   static double[] mapVector(double[] vector, double[] circle1, double[] circle2) {
     var ratio = circle2[2] / circle1[2];
     return new double[]{

@@ -1,4 +1,4 @@
-class Kata {
+interface Kata {
   static double[] sensorAnalysis(Object[][] sensorData) {
     double mean = 0;
     for (Object[] data : sensorData) {
