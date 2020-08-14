@@ -1,23 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class Tests {
+class Tests {
   @Test
-  public void EarthTest() {
-    double circ = Eratosthenes.circumference(8.1, 1.0, 800);
-    assertEquals(40075.00, circ, circ * 0.05);
-  }
-
-  @Test
-  public void Test1() {
-    double circ = Eratosthenes.circumference(1, 5, 20);
-    assertEquals(91.0, circ, circ * 0.05);
-  }
-
-  @Test
-  public void Test2() {
-    double circ = Eratosthenes.circumference(2, 5, 50);
-    assertEquals(264.0, circ, circ * 0.05);
+  void sample() {
+    assertEquals(40075.00, Eratosthenes.circumference(8.1, 1.0, 800), 0.05);
+    assertEquals(91.0, Eratosthenes.circumference(1, 5, 20), 0.05);
+    assertEquals(264.0, Eratosthenes.circumference(2, 5, 50), 0.05);
   }
 }

@@ -1,89 +1,48 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class UserTestCases {
+class UserTestCases {
   @Test
-  public void userTests() {
-    AntiVirus AV = new AntiVirus();
+  void sample() {
+    var intensity1signatures = new String[]{"malware", "virus", "infect"};
+    var intensity2signatures = new String[]{"ransomware", "trojan", "trojanHorse", "worm", "spyware", "keystrokelogger", "adware", "botnet", "rootkit"};
+    var intensity3signatures = new String[]{"DeleteSys32", "OverideMBR", "EncryptAll", "openrandomwebsite", "openrandwebsite", "sendalldata", "recordKeyboard", "recordmouse", "destroy", "overheat", "getfullcontrol", "uploadharddrive", "uploadharddisk", "overload", "changeOS", "encrypt", "changeDesktop", "ddos", "dos", "hide", "inject", "ransom", "getcreditcardinfo", "getpasswords", "getpass"};
+    var db = new VirusDB(intensity1signatures, intensity2signatures, intensity3signatures);
 
-    String[] intensity1signatures = new String[] {"malware", "virus", "infect"};
+    var f1 = new File("file0", "qmesMJq1EAjBLPclDJVil3kmP3Bgj5qocZQnQuK0rGffyHvMCY");
+    var f2 = new File("file1", "1OipRqMWEaZlviruse48XKWO2VLz40YMiC9x7FlUOsjg9");
+    var f3 = new File("file2", "q4khFPhsPyWareRbxFZefTpN74cRr8Rh9b18Gtvbyz3");
+    var f4 = new File("file3", "ICqMYeVk6OoAIcI1dGl36AfKH1qyn2VywRjqxMVu6PFeuZyoaxdpaldPAdsdasGeTpASsReRdc");
 
-    String[] intensity2signatures =
-        new String[] {
-          "ransomware",
-          "trojan",
-          "trojanHorse",
-          "worm",
-          "spyware",
-          "keystrokelogger",
-          "adware",
-          "botnet",
-          "rootkit",
-        };
+    AntiVirus av = new AntiVirus();
+    assertEquals("file0 is safe", av.scanFile(f1, db));
+    assertEquals("file1 is safe", av.scanFile(f2, db));
+    assertEquals("file2 is safe", av.scanFile(f3, db));
+    assertEquals("file3 is safe", av.scanFile(f4, db));
 
-    String[] intensity3signatures =
-        new String[] {
-          "DeleteSys32",
-          "OverideMBR",
-          "EncryptAll",
-          "openrandomwebsite",
-          "openrandwebsite",
-          "sendalldata",
-          "recordKeyboard",
-          "recordmouse",
-          "destroy",
-          "overheat",
-          "getfullcontrol",
-          "uploadharddrive",
-          "uploadharddisk",
-          "overload",
-          "changeOS",
-          "encrypt",
-          "changeDesktop",
-          "ddos",
-          "dos",
-          "hide",
-          "inject",
-          "ransom",
-          "getcreditcardinfo",
-          "getpasswords",
-          "getpass",
-        };
+    av.setScanIntensity(1);
+    assertEquals("file0 is safe", av.scanFile(f1, db));
+    assertEquals("file1 is not safe", av.scanFile(f2, db));
+    assertEquals("file2 is safe", av.scanFile(f3, db));
+    assertEquals("file3 is safe", av.scanFile(f4, db));
 
-    VirusDB DB = new VirusDB(intensity1signatures, intensity2signatures, intensity3signatures);
+    av.setScanIntensity(2);
+    assertEquals("file0 is safe", av.scanFile(f1, db));
+    assertEquals("file1 is not safe", av.scanFile(f2, db));
+    assertEquals("file2 is not safe", av.scanFile(f3, db));
+    assertEquals("file3 is safe", av.scanFile(f4, db));
 
-    File[] files = new File[4];
+    av.setScanIntensity(3);
+    assertEquals("file0 is safe", av.scanFile(f1, db));
+    assertEquals("file1 is not safe", av.scanFile(f2, db));
+    assertEquals("file2 is not safe", av.scanFile(f3, db));
+    assertEquals("file3 is not safe", av.scanFile(f4, db));
 
-    files[0] = new File("file0", "qmesMJq1EAjBLPclDJVil3kmP3Bgj5qocZQnQuK0rGffyHvMCY");
-    files[1] = new File("file1", "1OipRqMWEaZlviruse48XKWO2VLz40YMiC9x7FlUOsjg9");
-    files[2] = new File("file2", "q4khFPhsPyWareRbxFZefTpN74cRr8Rh9b18Gtvbyz3");
-    files[3] =
-        new File(
-            "file3", "ICqMYeVk6OoAIcI1dGl36AfKH1qyn2VywRjqxMVu6PFeuZyoaxdpaldPAdsdasGeTpASsReRdc");
-
-    // defualt scanIntensity should be 0 - off so everything is safe.
-    assertEquals(" ", "file0 is safe", AV.scanFile(files[0], DB));
-    assertEquals(" ", "file1 is safe", AV.scanFile(files[1], DB));
-    assertEquals(" ", "file2 is safe", AV.scanFile(files[2], DB));
-    assertEquals(" ", "file3 is safe", AV.scanFile(files[3], DB));
-
-    AV.setScanIntensity(1);
-    assertEquals(" ", "file0 is safe", AV.scanFile(files[0], DB));
-    assertEquals(" ", "file1 is not safe", AV.scanFile(files[1], DB));
-    assertEquals(" ", "file2 is safe", AV.scanFile(files[2], DB));
-    assertEquals(" ", "file3 is safe", AV.scanFile(files[3], DB));
-
-    AV.setScanIntensity(2);
-    assertEquals(" ", "file0 is safe", AV.scanFile(files[0], DB));
-    assertEquals(" ", "file1 is not safe", AV.scanFile(files[1], DB));
-    assertEquals(" ", "file2 is not safe", AV.scanFile(files[2], DB));
-    assertEquals(" ", "file3 is safe", AV.scanFile(files[3], DB));
-
-    AV.setScanIntensity(3);
-    assertEquals(" ", "file0 is safe", AV.scanFile(files[0], DB));
-    assertEquals(" ", "file1 is not safe", AV.scanFile(files[1], DB));
-    assertEquals(" ", "file2 is not safe", AV.scanFile(files[2], DB));
-    assertEquals(" ", "file3 is not safe", AV.scanFile(files[3], DB));
+    av.setScanIntensity(4);
+    assertEquals("file0 is safe", av.scanFile(f1, db));
+    assertEquals("file1 is safe", av.scanFile(f2, db));
+    assertEquals("file2 is safe", av.scanFile(f3, db));
+    assertEquals("file3 is safe", av.scanFile(f4, db));
   }
 }
