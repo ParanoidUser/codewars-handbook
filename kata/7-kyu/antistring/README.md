@@ -1,7 +1,5 @@
 # [ANTISTRING](https://www.codewars.com/kata/antistring "https://www.codewars.com/kata/5ab349e01aaf060cd0000069")
 
-<font color="red"><strong>BEHOLD THE ANTISTRING</font>
-
 <img src="https://static1.squarespace.com/static/5461522ce4b0ba3d01e322c6/t/56958919d82d5e93424a7c92/1452640572847/?format=300w" alt="devil">
 
 given an input string <strong>str</strong>, return a string such that

@@ -17,7 +17,7 @@ Given a map:
 
 The map will be given in the form of a string with \n separating new lines. The bottom left of the map is [0, 0]. X is ALF's spaceship.
 
-In this expample:
+In this example:
 ```
 findSpaceship(map) => "[7, 2]"
 ```

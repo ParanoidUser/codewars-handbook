@@ -2,7 +2,7 @@
 
 <h3>Introduction</h3>
 
-Imagine a function that maps a number from a given range, to another, desired one. If this is too vague - let me explain a little bit further: let's take an arbitrary number - `2` for instance - and map it with this function from range `0-5` to, let's say - `10-20`. Our number lies in `2/5` of the way in it's original range, so in order to map it to the desired one we need to find a number that lies exactly in the same place, but in our new range. This number, in this case, is `14`. You can visualize this as taking a 5cm piece of rubber, putting it next to the ruler, marking the dot on the second centimeter, then streching the rubber between 10th and 20th centimeter and reading the value next to the dot.
+Imagine a function that maps a number from a given range, to another, desired one. If this is too vague - let me explain a little bit further: let's take an arbitrary number - `2` for instance - and map it with this function from range `0-5` to, let's say - `10-20`. Our number lies in `2/5` of the way in it's original range, so in order to map it to the desired one we need to find a number that lies exactly in the same place, but in our new range. This number, in this case, is `14`. You can visualize this as taking a 5 cm piece of rubber, putting it next to the ruler, marking the dot on the second centimeter, then stretching the rubber between 10th and 20th centimeter and reading the value next to the dot.
 
 <h3>Task</h3>
 

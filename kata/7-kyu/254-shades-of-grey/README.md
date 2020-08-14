@@ -16,5 +16,3 @@ As a reminder, the grey color is composed by the same number of red, green and b
 
 When n is negative, just return an empty array.
 If n is higher than 254, just return an array of 254 elements.
-
-Have fun
