@@ -39,7 +39,7 @@ class UserTestCases {
     assertEquals("file2 is not safe", av.scanFile(f3, db));
     assertEquals("file3 is not safe", av.scanFile(f4, db));
 
-    av.setScanIntensity(4);
+    av.setScanIntensity(-5);
     assertEquals("file0 is safe", av.scanFile(f1, db));
     assertEquals("file1 is safe", av.scanFile(f2, db));
     assertEquals("file2 is safe", av.scanFile(f3, db));
