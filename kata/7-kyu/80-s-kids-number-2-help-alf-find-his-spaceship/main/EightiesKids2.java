@@ -1,4 +1,4 @@
-class EightiesKids2 {
+interface EightiesKids2 {
   static String findSpaceship(String map) {
     var lines = map.split("\n");
     for (int i = 0; i < lines.length; i++) {

@@ -1,13 +1,10 @@
-class VirusDB {
-  private String[] intensity1Signatures;
-  private String[] intensity2Signatures;
-  private String[] intensity3Signatures;
+import lombok.AllArgsConstructor;
 
-  VirusDB(String[] intensity1Signatures, String[] intensity2Signatures, String[] intensity3Signatures) {
-    this.intensity1Signatures = intensity1Signatures;
-    this.intensity2Signatures = intensity2Signatures;
-    this.intensity3Signatures = intensity3Signatures;
-  }
+@AllArgsConstructor
+class VirusDB {
+  private final String[] intensity1Signatures;
+  private final String[] intensity2Signatures;
+  private final String[] intensity3Signatures;
 
   String[] getSignatures(int arrayNum) {
     switch (arrayNum) {
