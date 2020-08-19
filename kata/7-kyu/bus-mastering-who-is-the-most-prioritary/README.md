@@ -25,5 +25,4 @@ Knowing that master 0 has the greatest priority, the output of the function shou
 ## Notes
 
 * The resulting string (`char* `) should be allocated in the `arbitrate` function, and will be free'ed in the tests.
-
 * `n` is always greater or equal to 1.

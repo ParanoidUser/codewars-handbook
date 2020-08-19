@@ -8,4 +8,4 @@ For example:
 
 `[1, 434, 555, 34, 112]` should return `554` (i.e., `555 - 1`).
 
-The array will contain a minimun of two elements. Input data range guarantees that `max-min` will cause no integer overflow.
+The array will contain a minimum of two elements. Input data range guarantees that `max-min` will cause no integer overflow.

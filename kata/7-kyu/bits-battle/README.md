@@ -12,7 +12,8 @@ You should return:
 
 Please note that any prefix that might appear in the binary representation, e.g. `0b`, should not be counted towards the battle.
 
-### Example:
+## Example:
+
 For an input list of `[5, 3, 14]`:
 
 * odds: `5` and `3` => `101` and `11` => four `1`s
