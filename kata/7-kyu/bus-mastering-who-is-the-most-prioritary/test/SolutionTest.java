@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals("001000000", BusMastering.arbitrate("001000101", 9));
     assertEquals("000000100", BusMastering.arbitrate("000000101", 9));
     assertEquals("0000", BusMastering.arbitrate("0000", 4));
