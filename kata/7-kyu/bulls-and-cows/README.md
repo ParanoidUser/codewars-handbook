@@ -8,7 +8,7 @@ To implement this you will use:
 
 1) a constructor (int) - initiates the game, receives a number and then sets it as the secret number.
 
-2) and a function "compare with (int)" - compares the given and the secret numbers and then returns a String formated as "X bull/bulls and Y cow/cows". 
+2) and a function "compare with (int)" - compares the given and the secret numbers and then returns a String formatted as "X bull/bulls and Y cow/cows". 
 
 However, there are some notes:
 
