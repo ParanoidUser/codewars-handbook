@@ -1,4 +1,4 @@
-class Calculator {
+interface Calculator {
   static Double calculate(double numberOne, String operation, double numberTwo) {
     switch (operation) {
       case "+": return numberOne + numberTwo;

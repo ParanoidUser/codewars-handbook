@@ -1,5 +1,5 @@
 class BullsAndCows {
-  private String secret;
+  private final String secret;
   private int turn;
 
   BullsAndCows(int secret) {

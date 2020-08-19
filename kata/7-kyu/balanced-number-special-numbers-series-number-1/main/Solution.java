@@ -1,4 +1,4 @@
-class Solution {
+interface Solution {
   static String balancedNum(long number) {
     var s = String.valueOf(number);
     int l = s.substring(0, s.length() / 2 - (s.length() % 2 == 0 ? 1 : 0)).chars().sum();

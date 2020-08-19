@@ -1,19 +1,29 @@
-public class Block {
-  int w, l, h;
+class Block {
+  private final int s[], v, sa;
 
   Block(int[] sides) {
-    w = sides[0];
-    l = sides[1];
-    h = sides[2];
+    s = sides;
+    v = s[0] * s[1] * s[2];
+    sa = 2 * (s[0] * s[1] + s[1] * s[2] + s[0] * s[2]);
   }
 
-  int getWidth() { return w; }
+  int getWidth() {
+    return s[0];
+  }
 
-  int getLength() { return l; }
+  int getLength() {
+    return s[1];
+  }
 
-  int getHeight() { return h; }
+  int getHeight() {
+    return s[2];
+  }
 
-  int getVolume() { return w * h * l; }
+  int getVolume() {
+    return v;
+  }
 
-  int getSurfaceArea() { return 2 * (w * h + w * l + h * l); }
+  int getSurfaceArea() {
+    return sa;
+  }
 }
