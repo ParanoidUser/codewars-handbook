@@ -1,12 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.math.BigInteger;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testSomething() {
+  void sample() {
     assertEquals(new BigInteger("0"), BinaryScore.score(new BigInteger("0")));
     assertEquals(new BigInteger("1"), BinaryScore.score(new BigInteger("1")));
     assertEquals(new BigInteger("63"), BinaryScore.score(new BigInteger("49")));

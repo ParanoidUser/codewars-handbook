@@ -1,28 +1,13 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class HeroTest {
-  static String[] quotes = {
-    "WHERE IS SHE?!", "Holy haberdashery, Batman!", "Let's put a smile on that faaaceee!"
-  };
-
+class HeroTest {
   @Test
-  public void test1() {
-    assertEquals(
-        "Fail", "Robin: Holy haberdashery, Batman!", BatmanQuotes.getQuote(quotes, "Rob1n"));
-  }
-
-  @Test
-  public void test2() {
-    assertEquals("Fail", "Batman: WHERE IS SHE?!", BatmanQuotes.getQuote(quotes, "Batm0n"));
-  }
-
-  @Test
-  public void test3() {
-    assertEquals(
-        "Fail",
-        "Joker: Let's put a smile on that faaaceee!",
-        BatmanQuotes.getQuote(quotes, "Jok2r"));
+  void sample() {
+    String[] quotes = {"WHERE IS SHE?!", "Holy haberdashery, Batman!", "Let's put a smile on that faaaceee!"};
+    assertEquals("Robin: Holy haberdashery, Batman!", BatmanQuotes.getQuote(quotes, "Rob1n"));
+    assertEquals("Batman: WHERE IS SHE?!", BatmanQuotes.getQuote(quotes, "Batm0n"));
+    assertEquals("Joker: Let's put a smile on that faaaceee!", BatmanQuotes.getQuote(quotes, "Jok2r"));
   }
 }
