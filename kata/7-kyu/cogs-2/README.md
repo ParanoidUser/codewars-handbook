@@ -2,8 +2,6 @@
 
 <img src="http://bestanimations.com/Science/Gears/loadinggears/loading-gears-animation-6-4.gif"/>
 
-# Kata Task
-
 You are given a list of cogs in a <a href ="https://en.wikipedia.org/wiki/Gear_train">gear train</a>
 
 Each element represents the number of teeth of that cog

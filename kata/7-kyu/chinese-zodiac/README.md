@@ -5,7 +5,7 @@ The [Chinese zodiac](https://en.wikipedia.org/wiki/Chinese_zodiac) is a repeatin
 Since the current calendar is Gregorian, I will only be using years from the epoch 1924.
 *For simplicity I am counting the year as a whole year and not from January/February to the end of the year.*
 
-##Task
+## Task
 
 Given a year, return the element and animal that year represents ("Element Animal"). 
 For example I'm born in 1998 so I'm an "Earth Tiger".
@@ -20,5 +20,3 @@ For example I'm born in 1998 so I'm an "Earth Tiger".
 
 
 ```['Wood', 'Fire', 'Earth', 'Metal', 'Water']```
-
-Tell me your zodiac sign and element in the comments. Happy coding :)

@@ -2,9 +2,6 @@
 
 <img src="http://bestanimations.com/Science/Gears/loadinggears/loading-gears-animation-6-4.gif"/>
 
-# Kata Task
-
-
 You are given a list of cogs in a <a href ="https://en.wikipedia.org/wiki/Gear_train">gear train</a>
 
 Each element represents the number of teeth of that cog
@@ -18,6 +15,6 @@ If the first cog rotates clockwise at 1 RPM what is the RPM of the final cog?
 (use negative numbers for anti-clockwise rotation)
 
 
-# Notes
+## Notes
 
 * no two cogs share the same shaft

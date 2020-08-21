@@ -10,7 +10,7 @@ The image shows how we can obtain the Harmonic Conjugated Point of three aligned
 
 - We draw the diagonals of the quadrilateral ABNM; they are AN and BM and they intersect at point K
 
-- We unit, with a line L and K, and this line intects the line of points A, B and C at point D
+- We unit, with a line L and K, and this line intersects  the line of points A, B and C at point D
 
 The point D is named the Conjugated Harmonic Point of the points A, B, C.
 You can get more knowledge related with this point at: (https://en.wikipedia.org/wiki/Projective_harmonic_conjugate)
