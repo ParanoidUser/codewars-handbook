@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExampleTests {
+class ExampleTests {
   @Test
-  public void examples() {
+  void sample() {
     assertEquals('R', Kata.triangle("GB"));
     assertEquals('R', Kata.triangle("RRR"));
     assertEquals('B', Kata.triangle("RGBG"));
