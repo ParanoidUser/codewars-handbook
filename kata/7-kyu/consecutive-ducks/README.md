@@ -4,20 +4,19 @@ Positive integers have so many gorgeous features.
 
 Some of them could be expressed as a sum of two or more consecutive positive numbers.
 
-# Consider an Example :
+Consider an Example :
 
 * `10` , could be expressed as a sum of `1 + 2 + 3 + 4 `.
 
-# Task
+## Task
 
 **_Given_** *Positive integer*, N , **_Return_** true if it could be expressed as a sum of two or more consecutive positive numbers , OtherWise return false .
 
-# Notes 
+## Notes 
 
 * Guaranteed constraint  :  **_2  ≤  N  ≤  (2^31) -1_** .
 
-# Input >> Output Examples:
-
+## Input >> Output Examples:
 
 ```
 * consecutiveDucks(9)  ==>  return (true)  //  9 , could be expressed as a sum of ( 2 + 3 + 4 ) or ( 4 + 5 ) . 

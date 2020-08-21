@@ -1,15 +1,15 @@
 # [Complete The Pattern #2](https://www.codewars.com/kata/complete-the-pattern-number-2 "https://www.codewars.com/kata/55733d3ef7c43f8b0700007c")
 
-### Task:
 You have to write a function `pattern` which returns the following Pattern (See Pattern & Examples) upto `n` number of rows. 
 
 * Note: `Returning` the pattern is not the same as `Printing` the pattern.
 
-#### Rules/Note:
+## Rules/Note:
+
 * If `n < 1` then it should return "" i.e. empty string.
 * There are `no whitespaces` in the pattern.
 
-### Pattern:
+## Pattern:
 
     (n)(n-1)(n-2)...4321
     (n)(n-1)(n-2)...432
@@ -21,7 +21,7 @@ You have to write a function `pattern` which returns the following Pattern (See 
     (n)(n-1)
     (n)
     
-### Examples:
+## Examples:
 
 * pattern(4):
 

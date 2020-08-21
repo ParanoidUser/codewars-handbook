@@ -26,8 +26,7 @@ For comparison, my Haskell solution can compute the number of sets for an array 
 
 You should treat each array passed as a set of unique values for this kata.
 
------
-###Examples:
+## Examples:
 ```
 Powers.powers(new int[]{});        // 1
 Powers.powers(new int[]{1});       // 2
