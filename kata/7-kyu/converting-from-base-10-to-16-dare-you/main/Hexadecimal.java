@@ -1,4 +1,4 @@
-class Hexadecimal {
+interface Hexadecimal {
   static String convertToHex(int a) {
     var sb = new StringBuilder();
     while (a != 0) {

@@ -1,7 +1,7 @@
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.IntStream.range;
 
-class Composing {
+interface Composing {
   static String compose(String s1, String s2) {
     var l1 = s1.split("\n");
     var l2 = s2.split("\n");
