@@ -1,4 +1,4 @@
-class Kata {
+interface Kata {
   static String swap(String st) {
     return st.replace("a", "A")
         .replace("e", "E")

@@ -1,4 +1,4 @@
-class Pattern {
+interface Pattern {
   static String pattern(int n) {
     StringBuilder row = new StringBuilder(), pattern = new StringBuilder();
     while (n > 0) {

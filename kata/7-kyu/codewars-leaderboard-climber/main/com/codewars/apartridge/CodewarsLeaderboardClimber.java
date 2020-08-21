@@ -1,6 +1,6 @@
 package com.codewars.apartridge;
 
-class CodewarsLeaderboardClimber {
+interface CodewarsLeaderboardClimber {
   static String leaderBoard(String user, int userScore, int yourScore) {
     return userScore < yourScore ? "Winning!" :
            userScore == yourScore ? "Only need one!" :

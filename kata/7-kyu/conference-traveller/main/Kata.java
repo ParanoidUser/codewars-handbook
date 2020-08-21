@@ -3,7 +3,7 @@ import static java.util.stream.Stream.of;
 
 import java.util.Set;
 
-class Kata {
+interface Kata {
   static String conferencePicker(String[] citiesVisited, String[] citiesOffered) {
     return of(citiesOffered).filter(not(Set.of(citiesVisited)::contains)).findFirst()
         .orElse("No worthwhile conferences this year!");
