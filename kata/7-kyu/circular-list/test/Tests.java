@@ -1,41 +1,41 @@
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class Tests {
+class Tests {
   @Test
-  public void circularListTest() {
+  void circularListTest() {
     var xs = new CircularList<>("one", "two", "three");
-    assertThat(xs.next(), is("one"));
-    assertThat(xs.next(), is("two"));
-    assertThat(xs.next(), is("three"));
-    assertThat(xs.next(), is("one"));
-    assertThat(xs.prev(), is("three"));
-    assertThat(xs.prev(), is("two"));
-    assertThat(xs.prev(), is("one"));
-    assertThat(xs.prev(), is("three"));
+    assertEquals("one", xs.next());
+    assertEquals("two", xs.next());
+    assertEquals("three", xs.next());
+    assertEquals("one", xs.next());
+    assertEquals("three", xs.prev());
+    assertEquals("two", xs.prev());
+    assertEquals("one", xs.prev());
+    assertEquals("three", xs.prev());
 
     var ys = new CircularList<>(1, 2, 3, 4, 5);
-    assertThat(ys.prev(), is(5));
-    assertThat(ys.prev(), is(4));
-    assertThat(ys.next(), is(5));
-    assertThat(ys.next(), is(1));
-    assertThat(ys.next(), is(2));
-    assertThat(ys.next(), is(3));
-    assertThat(ys.next(), is(4));
-    assertThat(ys.prev(), is(3));
-    assertThat(ys.prev(), is(2));
-    assertThat(ys.next(), is(3));
-    assertThat(ys.next(), is(4));
-    assertThat(ys.next(), is(5));
-    assertThat(ys.next(), is(1));
-    assertThat(ys.next(), is(2));
-    assertThat(ys.next(), is(3));
+    assertEquals(5, ys.prev());
+    assertEquals(4, ys.prev());
+    assertEquals(5, ys.next());
+    assertEquals(1, ys.next());
+    assertEquals(2, ys.next());
+    assertEquals(3, ys.next());
+    assertEquals(4, ys.next());
+    assertEquals(3, ys.prev());
+    assertEquals(2, ys.prev());
+    assertEquals(3, ys.next());
+    assertEquals(4, ys.next());
+    assertEquals(5, ys.next());
+    assertEquals(1, ys.next());
+    assertEquals(2, ys.next());
+    assertEquals(3, ys.next());
   }
 
-  @Test(expected = RuntimeException.class)
-  public void circularErrorTest() {
-    new CircularList<>();
+  @Test
+  void circularErrorTest() {
+    assertThrows(RuntimeException.class, CircularList::new);
   }
 }

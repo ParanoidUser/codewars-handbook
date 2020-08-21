@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void testSolution() {
+  void sample() {
     assertEquals("############5616", Maskify.maskify("4556364607935616"));
     assertEquals("#######5616", Maskify.maskify("64607935616"));
     assertEquals("1", Maskify.maskify("1"));

@@ -1,16 +1,17 @@
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ConsonantsTest {
+import org.junit.jupiter.api.Test;
+
+class ConsonantsTest {
   @Test
-  public void testCase1() {
-    assertEquals("Test string is empty string", 0, Consonants.getCount(""));
-    assertEquals("Test string: \"aaaaa\"", 0, Consonants.getCount("aaaaa"));
-    assertEquals("Test string: \"XaeiouX\"", 2, Consonants.getCount("XaeiouX"));
-    assertEquals("Test string: \"Bbbbb\"", 5, Consonants.getCount("Bbbbb"));
-    assertEquals("Test string: \"helLo world\"", 7, Consonants.getCount("helLo world"));
-    assertEquals("Test string: \"h^$&^#$&^elLo world\"", 7, Consonants.getCount("h^$&^#$&^elLo world"));
-    assertEquals("Test string: \"012345_Cb\"", 2, Consonants.getCount("012345_Cb"));
-    assertEquals("Test string: \"0123456789\"", 0, Consonants.getCount("0123456789"));
+  void sample() {
+    assertEquals(0, Consonants.getCount(""));
+    assertEquals(0, Consonants.getCount("aaaaa"));
+    assertEquals(2, Consonants.getCount("XaeiouX"));
+    assertEquals(5, Consonants.getCount("Bbbbb"));
+    assertEquals(7, Consonants.getCount("helLo world"));
+    assertEquals(7, Consonants.getCount("h^$&^#$&^elLo world"));
+    assertEquals(2, Consonants.getCount("012345_Cb"));
+    assertEquals(0, Consonants.getCount("0123456789"));
   }
 }
