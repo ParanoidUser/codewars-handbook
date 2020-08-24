@@ -33,7 +33,7 @@ jobs:
     - stage: Scan
       workspaces:
         use: shared
-      script: ./gradlew --scan -Pversion=$VERSION sonarqube -x test $SONAR_OPTS
+      script: ./gradlew --scan -Pversion=$VERSION -x compileJava -x compileTestJava sonarqube $SONAR_OPTS
 
   # Default stages
   exclude:
