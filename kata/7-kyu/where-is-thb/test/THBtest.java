@@ -1,10 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class THBtest {
+class THBtest {
   @Test
-  public void basicTest() {
-    assertEquals("thhttttbbttt", THB.testing("For those of you who would like to test your solution before submitting it."));
+  void sample() {
+    assertEquals("thhttttbbttt", new THB().testing("For those of you who would like to test your solution before submitting it."));
+    assertEquals("", new THB().testing(null));
   }
 }

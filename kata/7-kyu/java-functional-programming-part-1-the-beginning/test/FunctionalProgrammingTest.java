@@ -1,11 +1,13 @@
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class FunctionalProgrammingTest {
+class FunctionalProgrammingTest {
   @Test
-  public void testJohnSmith() {
-    Student jSmith = new Student("John", "Smith", "js123");
-    assertTrue("John Smith with student number js123 did not return true", FunctionalProgramming.f.apply(jSmith));
+  void sample() {
+    assertTrue(FunctionalProgramming.f.apply(new Student("John", "Smith", "js123")));
+    assertFalse(FunctionalProgramming.f.apply(new Student("John", "Doe", "js123")));
+    assertFalse(FunctionalProgramming.f.apply(new Student("John", "Smith", "js124")));
   }
 }

@@ -17,9 +17,10 @@ class ScoreTest {
 
   @Test
   void hashCodeTest() {
-    assertEquals(3542, new Score(1, 2).hashCode());
-    assertEquals(3600, new Score(2, 1).hashCode());
+    assertEquals(994, new Score(1, 2).hashCode());
+    assertEquals(1024, new Score(2, 1).hashCode());
     assertNotEquals(3600, new Score(1, 2).hashCode());
+    assertNotEquals(3542, new Score(2, 1).hashCode());
   }
 
   @Test

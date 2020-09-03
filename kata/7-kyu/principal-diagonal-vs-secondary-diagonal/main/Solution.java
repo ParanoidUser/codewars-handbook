@@ -1,4 +1,4 @@
-class Solution {
+interface Solution {
   static String diagonal(int[][] matrix) {
     int score = 0;
     for (int i = 0; i < matrix.length; i++) {

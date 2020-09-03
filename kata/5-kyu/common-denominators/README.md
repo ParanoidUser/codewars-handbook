@@ -54,10 +54,10 @@ Example:
 convertFracs [(1, 2), (1, 3), (1, 4)] `shouldBe` [(6, 12), (4, 12), (3, 12)]
 ```
 
-# Note: 
+## Note: 
 Due to the fact that first translations were written long ago - more than 4 years - these translations have only irreducible fractions. Newer translations have some reducible fractions. To be on the safe side it is better to do a bit more work by simplifying fractions even if they don't have to be.
 
-# Note for Bash:
+## Note for Bash:
 input is a string,  e.g `"2,4,2,6,2,8"`
 
 output is  then         `"6 12 4 12 3 12"`

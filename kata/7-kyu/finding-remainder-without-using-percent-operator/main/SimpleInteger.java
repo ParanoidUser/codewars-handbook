@@ -17,6 +17,7 @@ public final class SimpleInteger implements Comparable<SimpleInteger> {
     return new SimpleInteger(this.value / val.value);
   }
 
+  @Override
   public int compareTo(SimpleInteger other) {
     return Integer.compare(this.value, other.value);
   }

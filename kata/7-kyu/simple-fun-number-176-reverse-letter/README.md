@@ -1,15 +1,14 @@
 # [Simple Fun #176: Reverse Letter](https://www.codewars.com/kata/simple-fun-number-176-reverse-letter "https://www.codewars.com/kata/58b8c94b7df3f116eb00005b")
 
-# Task
- Given a string `str`, reverse it omitting all non-alphabetic characters.
+Given a string `str`, reverse it omitting all non-alphabetic characters.
 
-# Example
+## Example
 
  For `str = "krishan"`, the output should be `"nahsirk"`.
  
  For `str = "ultr53o?n"`, the output should be `"nortlu"`.
  
-# Input/Output
+## Input/Output
 
 
  - `[input]` string `str`

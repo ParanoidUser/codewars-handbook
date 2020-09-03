@@ -1,4 +1,4 @@
-class Kata {
+interface Kata {
   static String[][] matrixSquareUp(int b) {
     var matrix = new String[b][b];
     for (int i = 0; i < b; i++) {

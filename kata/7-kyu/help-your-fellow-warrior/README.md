@@ -1,7 +1,7 @@
 # [Help your fellow warrior!](https://www.codewars.com/kata/help-your-fellow-warrior "https://www.codewars.com/kata/5660aa6fa60f03856c000045")
 
 Let's say that in a hypothetical platform that resembles Codewars there is a clan with 2 warriors. The 2nd one in ranking (lets call him **D**) wants to at least reach the honor score of his ally (lets call her **M**). 
-*(Let's say that there is no antagonism here, he just wants to prove his ally that she sould be proud to have him in the clan and sees this as the only way to achieve it! :P )*
+*(Let's say that there is no antagonism here, he just wants to prove his ally that she should be proud to have him in the clan and sees this as the only way to achieve it! :P )*
 
 Your task is to help **D** by providing him with the **quickest path** to reach **M**'s honor score.
 
@@ -35,4 +35,4 @@ getHonorPath(2, 11) should return { '1kyus': 4, '2kyus': 1 }
 getHonorPath(20, 11) should return {}
 ```
 
-**For the purpose of this kata you do not have to worry for any non-integer arguments for honor scores**
+**For the purpose of this kata you do not have to worry about any non-integer arguments for honor scores**

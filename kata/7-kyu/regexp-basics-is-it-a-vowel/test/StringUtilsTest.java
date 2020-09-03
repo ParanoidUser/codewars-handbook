@@ -1,14 +1,14 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class StringUtilsTest {
+class StringUtilsTest {
   @Test
-  public void fixedTests() {
-    assertFalse(StringUtils.isVowel(""));
+  void sample() {
     assertTrue(StringUtils.isVowel("a"));
     assertTrue(StringUtils.isVowel("E"));
+    assertFalse(StringUtils.isVowel(""));
     assertFalse(StringUtils.isVowel("ou"));
     assertFalse(StringUtils.isVowel("z"));
     assertFalse(StringUtils.isVowel("lol"));

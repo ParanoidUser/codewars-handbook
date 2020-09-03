@@ -1,9 +1,9 @@
-class SequenceSum {
-  static String showSequence(int value) {
-    if (value < 1) return value + (value == 0 ? "=0" : "<0");
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.IntStream.rangeClosed;
 
-    var seq = new StringBuilder();
-    for (int i = 0; i <= value; i++) seq.append(i).append("+");
-    return seq.deleteCharAt(seq.length() - 1).append(" = ").append(value * (value + 1) / 2).toString();
+interface SequenceSum {
+  static String showSequence(int value) {
+    return value < 0 ? value + "<0"
+        : rangeClosed(0, value).mapToObj(i -> i + "").collect(joining("+")) + (value < 1 ? "=" : " = ") + value * (value + 1) / 2;
   }
 }

@@ -1,7 +1,7 @@
 import java.util.*;
 
 class Shiritori {
-  static List<String> theGame(List<String> words) {
+  List<String> theGame(List<String> words) {
     if (words.isEmpty() || words.get(0).isEmpty()) {
       return List.of();
     }

@@ -1,6 +1,6 @@
 import static java.util.List.of;
 
-class Dinglemouse {
+interface Dinglemouse {
   enum MyNumber {
     ONE, TWO, THREE, FOUR;
 

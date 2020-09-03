@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 class BioTest {
   @Test
   void sample() {
-    assertEquals("UUUU", Bio.dnaToRna("TTTT"));
-    assertEquals("GCAU", Bio.dnaToRna("GCAT"));
+    assertEquals("UUUU", new Bio().dnaToRna("TTTT"));
+    assertEquals("GCAU", new Bio().dnaToRna("GCAT"));
   }
 }

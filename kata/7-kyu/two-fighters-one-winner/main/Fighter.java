@@ -1,11 +1,8 @@
-class Fighter {
-  String name;
-  int health;
-  int damagePerAttack;
+import lombok.AllArgsConstructor;
 
-  Fighter(String name, int health, int damagePerAttack) {
-    this.name = name;
-    this.health = health;
-    this.damagePerAttack = damagePerAttack;
-  }
+@AllArgsConstructor
+class Fighter {
+  final String name;
+  final int health;
+  final int damagePerAttack;
 }

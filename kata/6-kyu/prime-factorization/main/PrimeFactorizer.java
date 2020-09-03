@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 class PrimeFactorizer {
-  static Map<Long, Integer> factor(long n) {
+  Map<Long, Integer> factor(long n) {
     Map<Long, Integer> factors = new HashMap<>();
     for (long i = 2; i <= n / i; i++) {
       while (n % i == 0) {

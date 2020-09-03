@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void exampleTests() {
+  void sample() {
     assertEquals(22, SmokingTimmy.startSmoking(0, 1));
     assertEquals(224, SmokingTimmy.startSmoking(1, 0));
     assertEquals(247, SmokingTimmy.startSmoking(1, 1));

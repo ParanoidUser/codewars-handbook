@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SampleTest {
+class SampleTest {
   @Test
-  public void exampleTests() {
+  void sample() {
     assertEquals(120., GeometryBasics.trianglePerimeter(
             new Geometry.Triangle(
                 new Geometry.Point(10, 10),

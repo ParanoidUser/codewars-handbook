@@ -5,7 +5,7 @@ Texas Hold-em!
 Your task is to determine if the cards in the list makes up a straight (five cards of sequential rank) or not.
 The cards will always have values ranging from 2-14, where 14 is the ace.
 
-Be aware that the ace (14) also should count as value 1!
+Be aware the ace (14) also should count as value 1!
 
 The number of cards will vary, but will never be more than 7 (the board (5) + player hand (2))
 

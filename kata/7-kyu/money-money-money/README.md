@@ -21,7 +21,7 @@ Example:
     After 3rd Year -->
       P = 1128.30
   
-Thus Mr. Scrooge has to wait for 3 years for the initial pricipal to ammount to the desired sum.
+Thus Mr. Scrooge has to wait for 3 years for the initial principal to amount to the desired sum.
  
 Your task is to complete the method provided and return the number of years 'Y' as a whole in order for Mr. Scrooge to get the desired sum.  
 

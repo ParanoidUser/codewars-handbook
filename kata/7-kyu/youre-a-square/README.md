@@ -12,7 +12,7 @@ Given an integral number, determine if it's a [square number](https://en.wikiped
 
 The tests will _always_ use some integral number, so don't worry about that in dynamic typed languages.
 
-### Examples
+## Examples
 
 ```
 is_square (-1) # => false

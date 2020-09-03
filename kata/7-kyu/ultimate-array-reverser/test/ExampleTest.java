@@ -1,17 +1,11 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExampleTest {
+class ExampleTest {
   @Test
-  public void fixedTest1() {
-    assertArrayEquals(new String[] {"!", "eilt", "onn", "acIdn", "ast", "t", "ubgibe", "kilI"},
-        ArrayReverser.reverse(new String[] {"I", "like", "big", "butts", "and", "I", "cannot", "lie!"}));
-  }
-
-  @Test
-  public void fixedTest2() {
-    assertArrayEquals(new String[] {"How", "many", "shrimp", "do", "you", "have", "to", "eat", "before", "your", "skin", "starts", "to", "turn", "pink?"},
-        ArrayReverser.reverse(new String[] {"?kn", "ipnr", "utotst", "ra", "tsn", "iksr", "uo", "yer", "ofebta", "eote", "vahu", "oyodpm", "ir", "hsyn", "amwoH"}));
+  void sample() {
+    assertArrayEquals(new String[] {"!", "eilt", "onn", "acIdn", "ast", "t", "ubgibe", "kilI"}, ArrayReverser.reverse(new String[] {"I", "like", "big", "butts", "and", "I", "cannot", "lie!"}));
+    assertArrayEquals(new String[] {"How", "many", "shrimp", "do", "you", "have", "to", "eat", "before", "your", "skin", "starts", "to", "turn", "pink?"}, ArrayReverser.reverse(new String[] {"?kn", "ipnr", "utotst", "ra", "tsn", "iksr", "uo", "yer", "ofebta", "eote", "vahu", "oyodpm", "ir", "hsyn", "amwoH"}));
   }
 }

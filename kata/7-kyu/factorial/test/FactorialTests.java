@@ -6,10 +6,11 @@ import org.junit.jupiter.api.Test;
 class FactorialTests {
   @Test
   void sample() {
-    assertEquals(1, Factorial.factorial(0));
-    assertEquals(6, Factorial.factorial(3));
-    assertEquals(120, Factorial.factorial(5));
-    assertThrows(IllegalArgumentException.class, () -> Factorial.factorial(-1));
-    assertThrows(IllegalArgumentException.class, () -> Factorial.factorial(13));
+    var f = new Factorial();
+    assertEquals(1, f.factorial(0));
+    assertEquals(6, f.factorial(3));
+    assertEquals(120, f.factorial(5));
+    assertThrows(IllegalArgumentException.class, () -> f.factorial(-1));
+    assertThrows(IllegalArgumentException.class, () -> f.factorial(13));
   }
 }

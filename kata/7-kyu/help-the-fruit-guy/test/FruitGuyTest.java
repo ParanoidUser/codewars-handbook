@@ -1,17 +1,11 @@
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class FruitGuyTest {
+class FruitGuyTest {
   @Test
-  public void testEmptyFruit() {
-    assertArrayEquals(new String[0], FruitGuy.removeRotten(new String[0]));
-  }
-
-  @Test
-  public void testAllRottenArray() {
-    String[] rotten = { "rottenApple", "rottenBanana", "rottenApple", "rottenPineapple", "rottenKiwi" };
-    String[] expected = {"apple", "banana", "apple", "pineapple", "kiwi"};
-    assertArrayEquals(expected, FruitGuy.removeRotten(rotten));
+  void sample() {
+    assertArrayEquals(new String[]{"apple", "banana", "apple", "pineapple", "kiwi"}, FruitGuy.removeRotten(new String[]{"rottenApple", "rottenBanana", "rottenApple", "rottenPineapple", "rottenKiwi"}));
+    assertArrayEquals(new String[0], FruitGuy.removeRotten(null));
   }
 }

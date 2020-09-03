@@ -1,4 +1,4 @@
-class StringPacket {
+interface StringPacket {
   static String communicationModule(String p) {
     int a = Integer.parseInt(p.substring(8, 12));
     int b = Integer.parseInt(p.substring(12, 16));

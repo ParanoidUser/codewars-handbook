@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class DigitTest {
   @Test
   void sample() {
-    assertTrue(MyUtilities.isDigit("-234.4"));
-    assertFalse(MyUtilities.isDigit("s2324"));
+    assertTrue(new MyUtilities().isDigit("-234.4"));
+    assertFalse(new MyUtilities().isDigit("s2324"));
   }
 }

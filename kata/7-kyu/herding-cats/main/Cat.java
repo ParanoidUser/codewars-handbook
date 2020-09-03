@@ -19,7 +19,7 @@ class Cat implements Comparable<Cat> {
     if (this == o) {
       return true;
     }
-    if (o == null || getClass() != o.getClass()) {
+    if (!(o instanceof Cat)) {
       return false;
     }
     Cat cat = (Cat) o;

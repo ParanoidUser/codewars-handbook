@@ -1,4 +1,4 @@
-# [shorter concat [reverse longer]](https://www.codewars.com/kata/shorter-concat-reverse-longer "https://www.codewars.com/kata/54557d61126a00423b000a45")
+# [Shorter concat [reverse longer]](https://www.codewars.com/kata/shorter-concat-reverse-longer "https://www.codewars.com/kata/54557d61126a00423b000a45")
 
 Given 2 strings, `a` and `b`, return a string of the form: `shorter+reverse(longer)+shorter.`
 

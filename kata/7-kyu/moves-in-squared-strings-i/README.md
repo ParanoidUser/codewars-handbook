@@ -29,7 +29,7 @@ ijkl     lkji     |ijkl     efgh
 mnop     ponm     |mnop     abcd 
 ```
 
-#Task:
+## Task:
 - Write these two functions
 
 and
@@ -39,17 +39,20 @@ and
  - fct is the function of one variable f to apply to the string `s`
 (fct will be one of `vertMirror, horMirror`)
 
-#Examples:
+## Examples:
+
 ```
 s = "abcd\nefgh\nijkl\nmnop"
 oper(vert_mirror, s) => "dcba\nhgfe\nlkji\nponm"
 oper(hor_mirror, s) => "mnop\nijkl\nefgh\nabcd"
 ```
-# Note:
+## Note:
+
 The form of the parameter `fct` in oper
 changes according to the language. You can see each form according to the language in "Sample Tests".
 
-#  Bash Note:
-The input strings are separated by `,` instead of `\n`. The ouput strings should be separated by `\r` instead of `\n`. See "Sample Tests".
+## Bash Note:
 
-Forthcoming katas will study other tranformations.
+The input strings are separated by `,` instead of `\n`. The output strings should be separated by `\r` instead of `\n`. See "Sample Tests".
+
+Forthcoming katas will study other transformations.

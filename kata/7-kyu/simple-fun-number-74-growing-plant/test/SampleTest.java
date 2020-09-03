@@ -1,11 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SampleTest {
+class SampleTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(10, SimpleFun.growingPlant(100, 10, 910));
-    assertEquals(1, SimpleFun.growingPlant( 10,  9,   4));
+    assertEquals(1, SimpleFun.growingPlant(10, 9, 4));
   }
 }

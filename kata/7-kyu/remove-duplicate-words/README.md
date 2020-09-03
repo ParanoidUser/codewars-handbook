@@ -11,4 +11,3 @@ Input:
 Output:
 
 'alpha beta gamma delta'
-  

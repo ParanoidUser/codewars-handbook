@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(56, Kata.sumTriangularNumbers(6));
     assertEquals(7140, Kata.sumTriangularNumbers(34));
     assertEquals(0, Kata.sumTriangularNumbers(-291));

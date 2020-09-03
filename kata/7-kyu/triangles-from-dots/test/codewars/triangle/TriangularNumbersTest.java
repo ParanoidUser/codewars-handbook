@@ -1,14 +1,13 @@
 package codewars.triangle;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.math.BigInteger;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class TriangularNumbersTest {
+class TriangularNumbersTest {
   @Test
-  public void numberOfDots() {
+  void sample() {
     assertEquals(BigInteger.valueOf(1L), TriangularNumbers.numberOfDots(BigInteger.valueOf(1L)));
     assertEquals(BigInteger.valueOf(3L), TriangularNumbers.numberOfDots(BigInteger.valueOf(2L)));
     assertEquals(BigInteger.valueOf(6L), TriangularNumbers.numberOfDots(BigInteger.valueOf(3L)));

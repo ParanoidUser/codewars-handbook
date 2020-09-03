@@ -5,7 +5,7 @@ import lombok.RequiredArgsConstructor;
 @AllArgsConstructor
 @RequiredArgsConstructor
 @Getter
-class Node<T> {
-  private final T data;
-  private Node<T> next;
+class Node {
+  private final int data;
+  private Node next;
 }

@@ -25,11 +25,7 @@ int_rac(125348,300): has a progression of [300,358,354] so our function should r
 int_rac(125348981764,356243): has a progression of [356243,354053,354046] so our function should return 3.
 ```
 
-#
-
-You can use Math.floor (or similar) for each integer approximation.
- 
-#
+You can use Math.floor (or similar) for each integer approximation.  
 
 Note for JavaScript, Coffescript, Typescript:
 

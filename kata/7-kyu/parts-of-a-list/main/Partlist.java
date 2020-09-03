@@ -1,6 +1,6 @@
 import static java.util.Arrays.copyOfRange;
 
-class Partlist {
+interface Partlist {
   static String[][] partlist(String[] arr) {
     var pairs = new String[arr.length - 1][2];
     for (int i = 0; i < pairs.length; i++) {

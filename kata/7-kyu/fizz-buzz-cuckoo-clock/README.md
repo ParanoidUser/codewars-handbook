@@ -1,6 +1,5 @@
 # [Fizz Buzz Cuckoo Clock](https://www.codewars.com/kata/fizz-buzz-cuckoo-clock "https://www.codewars.com/kata/58485a43d750d23bad0000e6")
 
-## Your story
 You've always loved both <a href="https://en.wikipedia.org/wiki/Fizz_buzz">Fizz Buzz</a> katas and <a href="https://en.wikipedia.org/wiki/Cuckoo_clock">cuckoo clocks</a>, and when you walked by a garage sale and saw an ornate cuckoo clock with a missing pendulum, and a "Beyond-Ultimate <a href="https://en.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi</a> Starter Kit" filled with all sorts of sensors and motors and other components, it's like you were suddenly hit by a beam of light and knew that it was your mission to combine the two to create a computerized Fizz Buzz cuckoo clock!
 
 You took them home and set up shop on the kitchen table, getting more and more excited as you got everything working together just perfectly. Soon the only task remaining was to write a function to select from the sounds you had recorded depending on what time it was:

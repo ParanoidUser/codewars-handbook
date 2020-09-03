@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 class PersonTest {
   @Test
-  void testExample() {
-    assertEquals(4, Equation.solve("12=3"));
+  void sample() {
+    assertEquals(4, new Equation().solve("12=3"));
   }
 }

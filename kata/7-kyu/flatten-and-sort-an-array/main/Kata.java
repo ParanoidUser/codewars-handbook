@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Kata {
+interface Kata {
   static int[] flattenAndSort(int[][] array) {
     return Arrays.stream(array).flatMapToInt(Arrays::stream).sorted().toArray();
   }

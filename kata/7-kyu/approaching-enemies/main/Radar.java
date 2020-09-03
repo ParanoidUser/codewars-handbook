@@ -1,5 +1,5 @@
 class Radar {
-  static double CalculateTime(double[] p1, double[] p2) {
+  double CalculateTime(double[] p1, double[] p2) {
     return Math.hypot(p2[1], p2[0]) / Math.hypot(p1[1] - p2[1], p1[0] - p2[0]) * 5;
   }
 }

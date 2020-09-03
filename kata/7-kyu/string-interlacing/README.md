@@ -6,7 +6,7 @@ Example with strings of the same size: given the strings "Hello" and "World" the
 In this case the first character in the result must be the first character of the first function parameter.
 
 With Strings of different sizes repeat the mixing till the end of the larger string repeating characters of the smaller one.
-Example: given the strings "Drinking" and "beer" the the result is "Dbreienrkbienegr".
+Example: given the strings "Drinking" and "beer" the result is "Dbreienrkbienegr".
 With strings of different sizes the result must start with the first character of the larger one.
 
 The result must always end with a character of the other string value than the one used to start the result value.

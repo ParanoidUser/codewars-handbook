@@ -1,6 +1,6 @@
 import java.time.LocalTime;
 
-class FizzBuzzCuckooClock {
+interface FizzBuzzCuckooClock {
   static String fizzBuzzCuckooClock(String time) {
     var clock = LocalTime.parse(time);
     if (clock.getMinute() == 0) {

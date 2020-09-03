@@ -1,13 +1,15 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class DivisibleTest {
+class DivisibleTest {
   @Test
-  public void basicTests() {
-    assertFalse(Divisible.isDivisible(3, 3, 4));
+  void sample() {
     assertTrue(Divisible.isDivisible(12, 3, 4));
+    assertTrue(Divisible.isDivisible());
+    assertFalse(Divisible.isDivisible(3, 3, 4));
+    assertFalse(Divisible.isDivisible(3, 0, 4));
     assertFalse(Divisible.isDivisible(8, 3, 4, 2, 5));
   }
 }

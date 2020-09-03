@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 class SongTests {
   @Test
   void sample() {
-    assertEquals("ABC", Dubstep.SongDecoder("WUBWUBABCWUB"));
-    assertEquals("R L", Dubstep.SongDecoder("RWUBWUBWUBLWUB"));
+    assertEquals("ABC", new Dubstep().SongDecoder("WUBWUBABCWUB"));
+    assertEquals("R L", new Dubstep().SongDecoder("RWUBWUBWUBLWUB"));
   }
 }

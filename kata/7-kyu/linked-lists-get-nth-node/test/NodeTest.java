@@ -1,10 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class NodeTest {
+class NodeTest {
   @Test
-  public void test2() {
+  void sample() {
     Node n = new Node();
     n.data = 1337;
     n.next = new Node();
@@ -14,15 +15,7 @@ public class NodeTest {
     assertEquals(1337, Node.getNth(n, 0));
     assertEquals(42, Node.getNth(n, 1));
     assertEquals(23, Node.getNth(n, 2));
-  }
 
-  @Test(expected = RuntimeException.class)
-  public void testNull() {
-    Node.getNth(null, 0);
-  }
-
-  @Test(expected = RuntimeException.class)
-  public void testWrongIdx() {
-    Node.getNth(new Node(), 1);
+    assertThrows(NullPointerException.class, () -> Node.getNth(n, 3));
   }
 }

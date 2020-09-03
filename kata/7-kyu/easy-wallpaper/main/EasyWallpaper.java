@@ -1,5 +1,5 @@
 class EasyWallpaper {
-  static String wallpaper(double l, double w, double h) {
+  String wallpaper(double l, double w, double h) {
     String[] numbers = {
         "one", "two", "three", "four", "five", "six", "seven",
         "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen",

@@ -1,4 +1,4 @@
-class Arrays {
+interface Arrays {
   static int findSmallest(int[] numbers, String toReturn) {
     int minI = 0;
     for (int i = 1; i < numbers.length; i++) {

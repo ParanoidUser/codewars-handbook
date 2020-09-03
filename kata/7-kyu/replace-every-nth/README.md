@@ -1,7 +1,5 @@
 # [Replace every nth](https://www.codewars.com/kata/replace-every-nth "https://www.codewars.com/kata/57fcaed83206fb15fd00027a")
 
-## Task
-
 Write a method, that replaces every nth char _oldValue_ with char _newValue_.
 
 Method:
@@ -10,6 +8,7 @@ replaceNth(String text, int n, char oldValue, char newValue)
 ```
 
 ## Example:
+
 ```
 n:         2
 oldValue: 'a'

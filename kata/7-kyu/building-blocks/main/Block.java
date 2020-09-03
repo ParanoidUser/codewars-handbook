@@ -1,5 +1,7 @@
 class Block {
-  private final int s[], v, sa;
+  private final int[] s;
+  private final int v;
+  private final int sa;
 
   Block(int[] sides) {
     s = sides;

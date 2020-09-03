@@ -1,5 +1,5 @@
 class NotVisibleCubes {
-  static Long notVisibleCubes(Long n) {
-    return (n = n - 2) * n * n;
+  Long notVisibleCubes(long n) {
+    return (n -= 2) * n * n;
   }
 }

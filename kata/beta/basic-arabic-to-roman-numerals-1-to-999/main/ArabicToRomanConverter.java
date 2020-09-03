@@ -1,5 +1,5 @@
 class ArabicToRomanConverter {
-  static String toRoman(int arabic) {
+  String toRoman(int arabic) {
     return arabic < 1 || arabic > 999 ? "NaR" : "I".repeat(arabic)
         .replace("IIIII", "V").replace("IIII", "IV")
         .replace("VV", "X").replace("VIV", "IX")

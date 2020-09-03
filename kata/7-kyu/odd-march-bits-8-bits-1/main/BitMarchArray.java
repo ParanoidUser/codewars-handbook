@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class BitMarchArray {
+interface BitMarchArray {
   static int[][] BitMarch(int n) {
     var march = new int[9 - n][8];
     for (int i = 0; i < march.length; i++) {

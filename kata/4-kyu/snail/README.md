@@ -20,7 +20,7 @@ snail(array) #=> [1,2,3,4,5,6,7,8,9]
 
 This image will illustrate things more clearly:
 
-<img src="http://www.haan.lu/files/2513/8347/2456/snail.png" />
+![](http://www.haan.lu/files/2513/8347/2456/snail.png)
 
 NOTE: The idea is not sort the elements from the lowest value to the highest; the idea is to traverse the 2-d array in a clockwise snailshell pattern.
 

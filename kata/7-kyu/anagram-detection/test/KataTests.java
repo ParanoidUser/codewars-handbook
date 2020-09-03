@@ -6,10 +6,10 @@ import org.junit.jupiter.api.Test;
 class KataTests {
   @Test
   void sample() {
-    assertTrue(Kata.isAnagram("foefet", "toffee"));
-    assertTrue(Kata.isAnagram("Buckethead", "DeathCubeK"));
-    assertTrue(Kata.isAnagram("Twoo", "Woot"));
-    assertFalse(Kata.isAnagram("apple", "pale"));
-    assertFalse(Kata.isAnagram("apple", "appl"));
+    assertTrue(new Kata().isAnagram("foefet", "toffee"));
+    assertTrue(new Kata().isAnagram("Buckethead", "DeathCubeK"));
+    assertTrue(new Kata().isAnagram("Twoo", "Woot"));
+    assertFalse(new Kata().isAnagram("apple", "pale"));
+    assertFalse(new Kata().isAnagram("apple", "appl"));
   }
 }

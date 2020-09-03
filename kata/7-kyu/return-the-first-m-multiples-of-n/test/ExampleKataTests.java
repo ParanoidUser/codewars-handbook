@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExampleKataTests {
+class ExampleKataTests {
   @Test
-  public void tests() {
+  void sample() {
     assertArrayEquals(new int[] {5, 10, 15}, Kata.multiples(3, 5));
   }
 }

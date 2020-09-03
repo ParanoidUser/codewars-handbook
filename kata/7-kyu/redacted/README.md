@@ -1,7 +1,5 @@
 # [Redacted!](https://www.codewars.com/kata/redacted "https://www.codewars.com/kata/5b662d286d0db722bd000013")
 
-# Meanwhile... somewhere in a Pentagon basement
-
 Your job is to compare two confidential documents that have come into your possession.
 
 The first document has parts <a href=https://www.merriam-webster.com/dictionary/redacted>redacted</a>, and the other one doesn't.
@@ -12,7 +10,7 @@ But the original (unredacted) document might be a fake!
 
 You need to compare the two documents and decide if it is *possible* they are the **same** or not.
 
-# Kata Task
+## Task
 
 Return `true` if the two documents are possibly the same. Return `false` otherwise.
 
@@ -23,7 +21,7 @@ Return `true` if the two documents are possibly the same. Return `false` otherwi
 * The redaction character is `X`
 * The redacted document is always the first one
 
-# Examples
+## Examples
 
 <style>
 #mytable {
@@ -80,4 +78,3 @@ true
 </tr>
 
 </table>
-

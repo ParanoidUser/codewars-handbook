@@ -1,21 +1,13 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class EANValidatorTest {
+class EANValidatorTest {
   @Test
-  public void test_01() {
+  void sample() {
     assertTrue(EANValidator.validate("9783815820865"));
-  }
-
-  @Test
-  public void test_02() {
     assertFalse(EANValidator.validate("9783815820864"));
-  }
-
-  @Test
-  public void test_03() {
     assertTrue(EANValidator.validate("9783827317100"));
   }
 }

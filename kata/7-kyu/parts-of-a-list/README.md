@@ -7,7 +7,7 @@ at least two elements into two non-empty parts.
 - Each part will be in a string
 - Elements of a pair must be in the same order as in the original array.
 
-# Examples of returns in different languages: 
+## Examples: 
 
 `a = ["az", "toto", "picaro", "zone", "kiwi"]` -->
 
@@ -38,4 +38,4 @@ or
 
 `"(az, toto picaro zone kiwi)(az toto, picaro zone kiwi)(az toto picaro, zone kiwi)(az toto picaro zone, kiwi)"`
 
-# You can see other examples for each language in "Your test cases"
+You can see other examples for each language in "Your test cases"

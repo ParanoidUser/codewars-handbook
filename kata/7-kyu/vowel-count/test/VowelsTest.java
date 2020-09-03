@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class VowelsTest {
+class VowelsTest {
   @Test
-  public void testCase1() {
-    assertEquals("Nope!", 5, Vowels.getCount("abracadabra"));
+  void sample() {
+    assertEquals(5, Vowels.getCount("abracadabra"));
   }
 }

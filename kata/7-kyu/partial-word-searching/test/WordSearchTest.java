@@ -1,22 +1,12 @@
-import org.junit.Assert;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class WordSearchTest {
+import org.junit.jupiter.api.Test;
+
+class WordSearchTest {
   @Test
-  public void test() {
-    String[] test1 = {"lemonade", "limeade", "Yoo-Hoo", "root beer", "grapeade ", "water", "Mr. Pibb"};
-    String[] test1results = {"lemonade", "limeade", "grapeade "};
-    Assert.assertArrayEquals(test1results, WordSearch.findWord("ade", test1));
-    String[] test2 = new String[320];
-    for (int i = 0; i < 320; i++) {
-      test2[i] = "o x";
-    }
-    test2[303] = "lox";
-    test2[70] = "Tin + Oxygen";
-
-    String[] test2results = {"Tin + Oxygen", "lox"};
-    Assert.assertArrayEquals(test2results, WordSearch.findWord("ox", test2));
-    String[] test3results = {"Empty"};
-    Assert.assertArrayEquals(test3results, WordSearch.findWord("   ", test1));
+  void sample() {
+    assertArrayEquals(new String[]{"lemonade", "limeade", "grapeade "}, WordSearch.findWord("ade", new String[]{"lemonade", "limeade", "Yoo-Hoo", "root beer", "grapeade ", "water", "Mr. Pibb"}));
+    assertArrayEquals(new String[]{"Tin + Oxygen", "lox"}, WordSearch.findWord("ox", new String[]{"o x", "o x", "o x", "o x", "o x", "Tin + Oxygen", "o x", "o x", "o x", "o x", "o x", "lox", "o x", "o x"}));
+    assertArrayEquals(new String[]{"Empty"}, WordSearch.findWord("   ", new String[]{"o x", "o x", "o x"}));
   }
 }

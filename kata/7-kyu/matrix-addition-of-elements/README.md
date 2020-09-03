@@ -5,7 +5,7 @@ and output a single Integer.
 
 - Matrix can be of any size, not necessarily a square matrix.
 - Matrix can have negative elements as well.
-- Method should take an input 2-Dimentional Array.
+- Method should take an input 2-Dimensional Array.
 
 **Constraints**
 

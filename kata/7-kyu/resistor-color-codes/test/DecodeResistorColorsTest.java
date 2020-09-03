@@ -1,20 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class DecodeResistorColorsTest {
+class DecodeResistorColorsTest {
   @Test
-  public void testOne() {
+  void sample() {
     assertEquals("47 ohms, 20%", DecodeResistorColors.decodeResistorColors("yellow violet black"));
-  }
-
-  @Test
-  public void testTwo() {
     assertEquals("4.7k ohms, 5%", DecodeResistorColors.decodeResistorColors("yellow violet red gold"));
-  }
-
-  @Test
-  public void testThree() {
     assertEquals("1M ohms, 10%", DecodeResistorColors.decodeResistorColors("brown black green silver"));
   }
 }

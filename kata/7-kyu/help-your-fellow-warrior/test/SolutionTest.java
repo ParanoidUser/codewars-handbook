@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void sampleTestOfHonor() {
+  void sample() {
     assertEquals("2kyus: 1, 1kyus: 4", Kata.getHonorPath(2, 11));
     assertEquals("2kyus: 0, 1kyus: 4", Kata.getHonorPath(2, 10));
     assertEquals("2kyus: 1, 1kyus: 0", Kata.getHonorPath(2, 3));

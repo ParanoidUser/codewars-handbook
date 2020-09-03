@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class InPartsTest {
+class InPartsTest {
   @Test
-  public void test() {
+  void sample() {
     assertEquals("sup erc ali fra gil ist ice xpi ali doc iou s", InParts.splitInParts("supercalifragilisticexpialidocious", 3));
     assertEquals("Hel loK ata", InParts.splitInParts("HelloKata", 3));
     assertEquals("H e l l o K a t a", InParts.splitInParts("HelloKata", 1));

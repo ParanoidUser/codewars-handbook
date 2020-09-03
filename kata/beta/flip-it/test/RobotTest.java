@@ -5,6 +5,6 @@ import org.junit.jupiter.api.Test;
 class RobotTest {
   @Test
   void sample() {
-    assertEquals("ammE", Robot.reverse("Emma"));
+    assertEquals("ammE", new Robot().reverse("Emma"));
   }
 } 

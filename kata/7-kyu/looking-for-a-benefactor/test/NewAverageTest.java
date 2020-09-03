@@ -1,16 +1,13 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class NewAverageTest {
+class NewAverageTest {
   @Test
-  public void test() {
-    assertEquals(628, NewAverage.newAvg(new double[] {14.0, 30.0, 5.0, 7.0, 9.0, 11.0, 16.0}, 90));
-    assertEquals(645, NewAverage.newAvg(new double[] {14, 30, 5, 7, 9, 11, 15}, 92));
-  }
-
-  @Test(expected = IllegalArgumentException.class)
-  public void testIllegalArgumentException1() {
-    NewAverage.newAvg(new double[] {14, 30, 5, 7, 9, 11, 15}, 2);
+  void sample() {
+    assertEquals(628, NewAverage.newAvg(new double[]{14.0, 30.0, 5.0, 7.0, 9.0, 11.0, 16.0}, 90));
+    assertEquals(645, NewAverage.newAvg(new double[]{14, 30, 5, 7, 9, 11, 15}, 92));
+    assertThrows(IllegalArgumentException.class, () -> NewAverage.newAvg(new double[]{14, 30, 5, 7, 9, 11, 15}, 2));
   }
 }

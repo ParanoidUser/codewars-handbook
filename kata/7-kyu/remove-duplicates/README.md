@@ -1,7 +1,5 @@
 # [Remove Duplicates](https://www.codewars.com/kata/remove-duplicates "https://www.codewars.com/kata/53e30ec0116393fe1a00060b")
 
-# Remove Duplicates
-
 You are to write a function called `unique` that takes an array of integers and returns the array with duplicates removed. It must return the values in the same order as first seen in the given array. Thus no sorting should be done, if 52 appears before 10 in the given array then it should also be that 52 appears before 10 in the returned array.
 
 ## Assumptions

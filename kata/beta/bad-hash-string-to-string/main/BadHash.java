@@ -3,7 +3,7 @@ import static java.util.stream.IntStream.iterate;
 import static org.apache.commons.lang3.StringUtils.leftPad;
 
 class BadHash {
-  static String hash(String str) {
+  String hash(String str) {
     var bin = leftPad(Integer.toBinaryString(magicNum(str)), 35, "0");
     return iterate(28, i -> i >= 0, i -> i - 7)
         .mapToObj(i -> (char) Byte.parseByte(bin.substring(i, i + 7), 2))
@@ -11,7 +11,7 @@ class BadHash {
         .collect(joining());
   }
 
-  static int magicNum(String str) {
+  int magicNum(String str) {
     int a = str.isEmpty() ? 0 : str.charAt(0), b = 0, c = !str.isEmpty() && str.charAt(0) == ' ' ? 2 : 1;
     for (int i = str.length() - 1; i > 0; i--) {
       a += str.charAt(i);

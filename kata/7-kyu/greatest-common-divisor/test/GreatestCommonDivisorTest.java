@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class GreatestCommonDivisorTest {
+class GreatestCommonDivisorTest {
   @Test
-  public void testGcd() {
+  void sample() {
     assertEquals(6, GCD.compute(30, 12));
     assertEquals(1, GCD.compute(8, 9));
     assertEquals(1, GCD.compute(1, 1));

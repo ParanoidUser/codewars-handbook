@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-class Sum {
+interface Sum {
   static double sum(Double a, Double b) {
     Objects.requireNonNull(a, "Illegal Argument passed: First parameter is Null.");
     Objects.requireNonNull(b, "Illegal Argument passed: Second parameter is Null.");

@@ -1,12 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
-    @Test
-    public void sampleTests() {
-        assertEquals("4547-9-3", Solution.insertDash(454793));
-        assertEquals("123456", Solution.insertDash(123456));
-        assertEquals("1003-567", Solution.insertDash(1003567));
-    }
+class SolutionTest {
+  @Test
+  void sample() {
+    assertEquals("4547-9-3", Solution.insertDash(454793));
+    assertEquals("123456", Solution.insertDash(123456));
+    assertEquals("1003-567", Solution.insertDash(1003567));
+  }
 }

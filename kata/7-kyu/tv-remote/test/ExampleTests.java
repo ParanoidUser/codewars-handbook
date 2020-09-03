@@ -1,15 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExampleTests {
+class ExampleTests {
   @Test
-  public void example() {
-    assertEquals(36, Dinglemouse.tvRemote("codewars"));
-  }
-
-  @Test
-  public void misc() {
+  void sample() {
     assertEquals(16, Dinglemouse.tvRemote("does"));
     assertEquals(23, Dinglemouse.tvRemote("your"));
     assertEquals(33, Dinglemouse.tvRemote("solution"));
@@ -17,5 +12,6 @@ public class ExampleTests {
     assertEquals(12, Dinglemouse.tvRemote("for"));
     assertEquals(27, Dinglemouse.tvRemote("these"));
     assertEquals(25, Dinglemouse.tvRemote("words"));
+    assertEquals(36, Dinglemouse.tvRemote("codewars"));
   }
 }

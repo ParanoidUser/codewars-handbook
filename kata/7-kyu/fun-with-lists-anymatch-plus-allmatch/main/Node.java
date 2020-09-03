@@ -10,8 +10,4 @@ class Node<T> {
   Node(T data) {
     this(data, null);
   }
-
-  public void setNext(Node<T> next) {
-    this.next = next;
-  }
 }

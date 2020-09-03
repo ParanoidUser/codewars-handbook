@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SampleTest {
+class SampleTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(7, Kata.timedReading(4, "The Fox asked the stork, 'How is the soup?'"));
     assertEquals(0, Kata.timedReading(1, "..."));
     assertEquals(3, Kata.timedReading(3, "This play was good for us."));

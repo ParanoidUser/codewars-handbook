@@ -1,5 +1,5 @@
 class Conversion {
-  static String solution(int n) {
+  String solution(int n) {
     return "I".repeat(n)
         .replace("IIIII", "V").replace("IIII", "IV")
         .replace("VV", "X").replace("VIV", "IX")

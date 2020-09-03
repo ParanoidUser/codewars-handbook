@@ -11,8 +11,10 @@ Then you will take the string from the 3rd position and reverse it again:`504123
 
 Continue this pattern until you have done every single position, and then you will return the string you have created. For this particular number, you would return:`504132`
 
-#Input:
+## Input:
+
 A string of length 1 - 1000
 
-#Output:
+## Output:
+
 A correctly reordered string.

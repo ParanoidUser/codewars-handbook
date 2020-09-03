@@ -1,11 +1,11 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class KataTests {
+class KataTests {
   @Test
-  public void basicTests() {
+  void sample() {
     assertTrue(Kata.smallEnough(new int[] {66, 101}, 200));
     assertFalse(Kata.smallEnough(new int[] {78, 117, 110, 99, 104, 117, 107, 115}, 100));
     assertTrue(Kata.smallEnough(new int[] {101, 45, 75, 105, 99, 107}, 107));

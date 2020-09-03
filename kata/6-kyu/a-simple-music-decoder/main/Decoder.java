@@ -8,11 +8,11 @@ import static java.util.stream.Stream.of;
 import java.util.stream.IntStream;
 
 class Decoder {
-  static int[] uncompress(String music) {
-    return of(music.split(",")).map(Decoder::decode).flatMapToInt(identity()).toArray();
+  int[] uncompress(String music) {
+    return of(music.split(",")).map(this::decode).flatMapToInt(identity()).toArray();
   }
 
-  static IntStream decode(String signal) {
+  IntStream decode(String signal) {
     var repeatable = compile("(-?\\d+)\\*(-?\\d+)").matcher(signal);
     if (repeatable.find()) {
       return range(0, Integer.parseInt(repeatable.group(2))).map(i -> Integer.parseInt(repeatable.group(1)));

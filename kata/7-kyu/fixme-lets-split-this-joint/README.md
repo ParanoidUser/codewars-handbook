@@ -4,11 +4,11 @@ The code provided is supposed return an array of items that were separated in th
 
 But it's not working properly.
 
-# Notes
+## Notes
 
 * A zero length input `joint` string should yield an empty output array
 * Empty items are preserved
 
-# Task
+## Task
 
 Fix the bug so we can all go home early.

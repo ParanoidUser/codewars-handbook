@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SumOfDifferencesBetweenProductsAndLCMs {
+class SolutionTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(840, Solution.sumDifferencesBetweenProductsAndLCMs(new int[][] {{15, 18}, {4, 5}, {12, 60}}));
     assertEquals(1092, Solution.sumDifferencesBetweenProductsAndLCMs(new int[][] {{1, 1}, {0, 0}, {13, 91}}));
     assertEquals(0, Solution.sumDifferencesBetweenProductsAndLCMs(new int[][] {{15, 7}, {4, 5}, {19, 60}}));

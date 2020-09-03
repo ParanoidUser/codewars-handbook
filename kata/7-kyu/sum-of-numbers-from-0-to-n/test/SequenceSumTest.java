@@ -1,10 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SequenceSumTest {
+class SequenceSumTest {
   @Test
-  public void testBasic() {
+  void sample() {
     assertEquals("0+1+2+3+4+5+6 = 21", SequenceSum.showSequence(6));
+    assertEquals("0=0", SequenceSum.showSequence(0));
+    assertEquals("-45<0", SequenceSum.showSequence(-45));
   }
 }

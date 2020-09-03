@@ -12,12 +12,9 @@ After 500 seconds Blaze will have traveled 4200 metres.
 
 Your job is to write a function that returns how long a horse will have traveled after a given time.
 
-####Input: 
+## Input: 
 
 * totalTime - How long the horse will be traveling (in seconds)
-
 * runTime - How long the horse can run for before having to rest (in seconds)
-
 * restTime - How long the horse have to rest for after running (in seconds)
-
 * speed - The max speed of the horse (in metres/second)

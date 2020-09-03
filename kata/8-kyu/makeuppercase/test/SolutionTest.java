@@ -5,6 +5,6 @@ import org.junit.jupiter.api.Test;
 class SolutionTest {
   @Test
   void sample() {
-    assertEquals("HELLO", Upper.MakeUpperCase("hello"));
+    assertEquals("HELLO", new Upper().MakeUpperCase("hello"));
   }
 }

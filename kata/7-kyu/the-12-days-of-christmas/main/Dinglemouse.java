@@ -1,7 +1,7 @@
 import java.util.Comparator;
 
-class Dinglemouse {
-  static class HelpSaveChristmas implements Comparator<String> {
+interface Dinglemouse {
+  class HelpSaveChristmas implements Comparator<String> {
     @Override
     public int compare(String line1, String line2) {
       int l1 = Integer.parseInt("0" + line1.replaceAll("\\D", ""));

@@ -8,7 +8,7 @@ Initially our API only needs to support numbers from 1 to 999.
 
 The API must manage nonconvertible numbers by returning the ***Not a Roman*** constant string `"NaR"`.
 
-### Examples: ###
+## Examples:
 
 Given
 ```

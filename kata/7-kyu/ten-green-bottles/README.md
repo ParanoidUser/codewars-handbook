@@ -24,11 +24,9 @@ If that one green bottle should accidentally fall,
 There'll be no green bottles hanging on the wall.
 ```
 
-# Task
+## Task
 
 Write some amazing code to reproduce the above lyrics starting from ```n``` green bottles!
-
-<hr>
 
 * parameter ```n``` is 1 to 10
 * newline terminates every line (including the last)

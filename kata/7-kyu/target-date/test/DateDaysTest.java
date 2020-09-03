@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class DateDaysTest {
+class DateDaysTest {
   @Test
-  public void test() {
+  void sample() {
     assertEquals("2024-07-03", DateDays.dateNbDays(4281, 5087, 2));
     assertEquals("2021-09-19", DateDays.dateNbDays(4620, 5188, 2));
     assertEquals("2018-03-13", DateDays.dateNbDays(9999, 11427, 6));

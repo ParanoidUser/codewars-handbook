@@ -1,15 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExampleTests {
+class ExampleTests {
   @Test
-  public void test1() {
+  void sample() {
+    assertEquals(0, Dinglemouse.stackHeight2d(0), .001);
     assertEquals(1., Dinglemouse.stackHeight2d(1), .001);
-  }
-
-  @Test
-  public void test2() {
     assertEquals(1.866, Dinglemouse.stackHeight2d(2), .001);
   }
 }

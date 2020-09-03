@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class CirlceOfNumbersTest {
+class CirlceOfNumbersTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(7, CircleOfNumbers.circleOfNumbers(10, 2));
     assertEquals(2, CircleOfNumbers.circleOfNumbers(10, 7));
     assertEquals(3, CircleOfNumbers.circleOfNumbers(4, 1));

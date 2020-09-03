@@ -1,6 +1,6 @@
 import java.util.function.Predicate;
 
-class Solution {
+interface Solution {
   static <T> boolean anyMatch(Node<T> head, Predicate<T> p) {
     while (head != null) {
       if (p.test(head.data)) {

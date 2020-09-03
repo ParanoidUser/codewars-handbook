@@ -1,4 +1,4 @@
-# [max diff - easy](https://www.codewars.com/kata/max-diff-easy-1 "https://www.codewars.com/kata/588a3c3ef0fbc9c8e1000095")
+# [Max diff - easy](https://www.codewars.com/kata/max-diff-easy-1 "https://www.codewars.com/kata/588a3c3ef0fbc9c8e1000095")
 
 You must implement a function `maxDiff` that return the difference between the biggest and the smallest value in a list(`lst`) received as parameter.
 

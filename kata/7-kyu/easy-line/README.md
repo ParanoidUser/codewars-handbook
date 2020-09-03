@@ -10,19 +10,19 @@ Can you write a program which calculate `easyline(n)` where `n` is the line numb
 The function will take n (with: `n>= 0`) as parameter and will return the sum
 of the squares of the binomial coefficients on line n.
 
-##Examples:
+## Examples:
 ```
 easyline(0) => 1
 easyline(1) => 2
 easyline(4) => 70
 easyline(50) => 100891344545564193334812497256
 ```
-##Ref:
+## Ref:
 http://mathworld.wolfram.com/BinomialCoefficient.html
 
 ![alternative text](http://i.imgur.com/eUGaNvIm.jpg)
 
-# Note:
+## Note:
 In Javascript, Coffeescript, Typescript, C++, PHP, C, R, Nim to get around the fact that we have no big integers
 the function `easyLine(n)` will in fact return `round(log(easyline(n)))`  and not the `easyline(n)` of the other languages. So, in Javascript, Coffeescript, Typescript, C++, PHP, R, Nim and C:
 

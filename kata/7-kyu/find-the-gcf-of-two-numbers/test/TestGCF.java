@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class TestGCF {
+class TestGCF {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(4, Kata.findGCF(8, 20));
     assertEquals(1, Kata.findGCF(5, 13));
     assertEquals(100, Kata.findGCF(100, 100));

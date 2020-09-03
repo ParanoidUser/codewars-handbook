@@ -1,13 +1,12 @@
 # [Simple Fun #41: Elections Winners](https://www.codewars.com/kata/simple-fun-number-41-elections-winners "https://www.codewars.com/kata/58881b859ab1e053240000cc")
 
-# Task
  Elections are in progress!
 
  Given an array of the numbers of `votes` given to each of the candidates so far, and an integer `k` equal to the number of voters who haven't cast their vote yet, find the number of candidates who still have a chance to win the election.
 
  The winner of the election must secure strictly more votes than any other candidate. If two or more candidates receive the same(maximum) number of votes, assume there is no winner at all.
 
-# Example
+## Example
 
  For `votes = [2, 3, 5, 2]` and `k = 3`, the output should be `2`
  
@@ -42,7 +41,7 @@
  
  `There is no more voters haven't cast their vote yet, and no candidate secure strictly more votes than any other candidate. So no candidate have a chance to win the election. The result should be 0.`
  
-# Input/Output
+## Input/Output
 
  - `[input]` integer array `votes`
 

@@ -1,4 +1,4 @@
-class ZebulansNightmare {
+interface ZebulansNightmare {
   static String zebulansNightmare(String functionName) {
     String[] words = functionName.split("_");
     for (int i = 1; i < words.length; i++) {

@@ -4,10 +4,10 @@ The code provided is supposed to simply return the named number as an integer.
 
 But it's not working properly.
 
-# Task
+## Task
 
 Fix the bug so we can all go home early.
 
-# Notes
+## Notes
 
 * Don't try to modify the `getNumber` API. It returns an enum.

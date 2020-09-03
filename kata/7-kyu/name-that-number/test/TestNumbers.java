@@ -1,12 +1,13 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class TestNumbers {
+class TestNumbers {
   @Test
-  public void basicTests() {
-    assertEquals("10 must be supported and return \"ten\"", "ten", Kata.nameThatNumber(10));
-    assertEquals("93 must be supported and return \"ninety three\"", "ninety three", Kata.nameThatNumber(93));
-    assertEquals("0 must be supported and return \"zero\"", "zero", Kata.nameThatNumber(0));
+  void sample() {
+    assertEquals("ten", Kata.nameThatNumber(10));
+    assertEquals("ninety three", Kata.nameThatNumber(93));
+    assertEquals("zero", Kata.nameThatNumber(0));
+    assertEquals("forty", Kata.nameThatNumber(40));
   }
 }

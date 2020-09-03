@@ -5,6 +5,6 @@ import org.junit.jupiter.api.Test;
 class SolutionTest {
   @Test
    void sample() {
-    assertEquals(23, Solution.solution(10));
+    assertEquals(23, new Solution().solution(10));
   }
 }

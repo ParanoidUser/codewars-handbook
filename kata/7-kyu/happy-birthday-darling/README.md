@@ -8,7 +8,7 @@ Your task is to translate the given age to the much desired 20 (or 21) years, an
 
 **Note:** input will be always > 21
 
-### Examples:
+## Examples:
 
 ```
 32  -->  "32? That's just 20, in base 16!"
