@@ -6,7 +6,9 @@ System A : buy a ticket (15 dollars) every time
 System B : buy a card (500 dollars) and every time 
     buy a ticket the price of which is 0.90 times the price he paid for the previous one.
 ```
-#Example: 
+
+## Example: 
+
 If John goes to the cinema 3 times:
 ```
 System A : 15 * 3 = 45

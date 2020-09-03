@@ -1,10 +1,11 @@
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class KataTest {
+class KataTest {
   @Test
-  public void simpleTests() {
+  void sample() {
     assertTrue(Kata.hasUniqueChars(""));
     assertTrue(Kata.hasUniqueChars("abc"));
     assertFalse(Kata.hasUniqueChars("a b c"));

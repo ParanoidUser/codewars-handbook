@@ -1,7 +1,5 @@
 # [Odd March Bits 8 bits](https://www.codewars.com/kata/odd-march-bits-8-bits-1 "https://www.codewars.com/kata/58ee4db3e479611e6f000086")
 
-Odd bits are getting ready for 
-<a href="https://www.codewars.com/kata/world-bits-war/java">Bits Battles</a>.
 Therefore the n number of bits march from right to left along 8 bits path.<br /> Once the first bit reaches  to the left their march is done. 
 Each step will be save in an array element which will be returned. <br />
 There is no space between the bits.<br /> 1 <= n <= 8

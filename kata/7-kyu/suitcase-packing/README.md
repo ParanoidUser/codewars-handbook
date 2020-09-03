@@ -9,7 +9,8 @@ a,b are the sizes of the squares
 m,n are the sizes of the suitcase
 ```
 
-# Example
+## Example
+
 ```
 fit_in(1,2,3,2) should return True
 fit_in(1,2,2,1) should return False

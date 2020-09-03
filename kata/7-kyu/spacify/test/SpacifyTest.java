@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SpacifyTest {
+class SpacifyTest {
   @Test
-  public void basicTest() {
+  void sample() {
     assertEquals("h e l l o   w o r l d", Spacify.spacify("hello world"));
     assertEquals("1 2 3 4 5", Spacify.spacify("12345"));
   }

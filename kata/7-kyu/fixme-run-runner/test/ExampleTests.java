@@ -1,11 +1,17 @@
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import java.util.concurrent.TimeUnit;
+import org.junit.jupiter.api.Test;
 
-public class ExampleTests {
+class ExampleTests {
   @Test
-  public void test() {
+  void sample() throws Exception {
+    assertEquals(-1, ThreadUtil.id1);
+    assertEquals(-1, ThreadUtil.id2);
+
     Dinglemouse.runRunners();
-    assertTrue("Sorry, try again :-(", ThreadUtil.checkThreads());
+    TimeUnit.MILLISECONDS.sleep(100);
+    assertTrue(ThreadUtil.id1 != -1 && ThreadUtil.id2 != -1 && ThreadUtil.id1 != ThreadUtil.id2);
   }
 }

@@ -1,15 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class TriangularTest {
+class TriangularTest {
   @Test
-  public void test_Two_Should_Be_Three() {
+  void sample() {
     assertEquals(3, Triangular.triangular(2));
-  }
-
-  @Test
-  public void test_Four_Should_Be_Ten() {
     assertEquals(10, Triangular.triangular(4));
+    assertEquals(0, Triangular.triangular(0));
   }
 }

@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class FunReverseTest {
+class FunReverseTest {
   @Test
-  public void test() {
+  void sample() {
     assertEquals("201", FunReverse.funReverse("012"));
     assertEquals("504132", FunReverse.funReverse("012345"));
     assertEquals("9081726354", FunReverse.funReverse("0123456789"));

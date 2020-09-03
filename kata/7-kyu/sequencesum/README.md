@@ -1,6 +1,5 @@
 # [SequenceSum](https://www.codewars.com/kata/sequencesum "https://www.codewars.com/kata/5436f26c4e3d6c40e5000282")
 
-### Sum of 'n' Numbers
 A [sequence or a series][1], in mathematics, is a string of objects, like numbers, that follow a particular pattern. The individual elements in a sequence are called terms.
 
 For example, some simple patterns include: 

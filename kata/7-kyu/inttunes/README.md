@@ -1,7 +1,5 @@
 # [intTunes](https://www.codewars.com/kata/inttunes "https://www.codewars.com/kata/5b8dc84b8ce20454bd00002e")
 
-<h1><u>Theory</u></h1>
-
 <p> <i>This section does not need to be read and can be skipped, but it does provide some clarity into the inspiration behind the problem.</i></p>
 
 <p>In music theory, <a href = "https://en.wikipedia.org/wiki/Major_scale">a major scale</a> consists of seven notes, or <a href = "https://en.wikipedia.org/wiki/Degree_(music)">scale degrees</a>, in order (with tonic listed twice for demonstrative purposes):</p>
@@ -12,7 +10,7 @@
   <li>Mediant, 2 semitones above the supertonic and 4 above the tonic</li>
   <li>Subdominant, 1 semitone above the median and 5 above the tonic</li>
   <li>Dominant, 2 semitones above the subdominant and 7 above the tonic</li>
-  <li>Submediant, 2 semitones above the dominatn and 9 above the tonic</li>
+  <li>Submediant, 2 semitones above the dominant and 9 above the tonic</li>
   <li>Leading tone, 2 semitones above the mediant and 11 above the tonic</li>
   <li value = 1>Tonic (again!), 1 semitone above the leading tone and 12 semitones (or one octave) above the tonic
 </ol>

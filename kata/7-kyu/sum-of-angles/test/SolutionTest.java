@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void sampleTests() {
+  void sample() {
     assertEquals(180, AngleSum.sumOfAngles(3));
     assertEquals(360, AngleSum.sumOfAngles(4));
   }

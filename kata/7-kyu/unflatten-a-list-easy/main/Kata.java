@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-class Kata {
+interface Kata {
   static Object[] unflatten(int[] flatArray) {
     var list = new ArrayList<>();
     for (int i = 0; i < flatArray.length; ) {

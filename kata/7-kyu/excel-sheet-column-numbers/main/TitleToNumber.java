@@ -1,9 +1,5 @@
-class TitleToNumber {
+interface TitleToNumber {
   static long titleToNumber(String title) {
-    long sum = 0;
-    for (char c : title.toCharArray()) {
-      sum = sum * 26 + c - 64;
-    }
-    return sum;
+    return title.chars().mapToLong(c -> c).reduce(0, (s, c) -> 26 * s + c - 64);
   }
 }

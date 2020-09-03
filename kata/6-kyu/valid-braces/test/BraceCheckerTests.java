@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class BraceCheckerTests {
   @Test
   void sample() {
-    assertTrue(BraceChecker.isValid("()"));
-    assertFalse(BraceChecker.isValid("[(])"));
+    assertTrue(new BraceChecker().isValid("()"));
+    assertFalse(new BraceChecker().isValid("[(])"));
   }
 }

@@ -1,6 +1,6 @@
 import java.math.BigInteger;
 
-class Easyline {
+interface Easyline {
   static BigInteger easyLine(int n) {
     BigInteger c = BigInteger.ONE, sum = BigInteger.ONE;
     for (int i = 0; i <= n; i++) {

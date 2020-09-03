@@ -1,4 +1,4 @@
-class HeavyMetalUmlauts {
+interface HeavyMetalUmlauts {
   static String heavyMetalUmlauts(String boringText) {
     return boringText
         .replace("A", "Ä")

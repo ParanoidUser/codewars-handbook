@@ -28,7 +28,7 @@ The function sumax (sum of g) will take n as a parameter and return the sum of m
 The function sumsum (sum of h) will take n as a parameter and return the sum of x + y in the same domain.
 
 
-#Examples:
+## Examples:
 ```
 sumin(6) --> 91
 sumin(45) --> 31395
@@ -46,6 +46,6 @@ sumsum(999) --> 998001000
 sumsum(5000) --> 125025000000
 ```
 
-#Hint:
+## Hint:
 1. Try to avoid nested loops
 2. Note that h = f + g

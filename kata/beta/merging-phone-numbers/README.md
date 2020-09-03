@@ -1,9 +1,5 @@
 # [Merging Phone Numbers](https://www.codewars.com/kata/merging-phone-numbers "https://www.codewars.com/kata/59565018bf41d39dc5000043")
 
-# Description
-
-## Background
-
 Assume you have an application handling customers of your company 'ACME Incorporated'. In order for 'ACME Incorporated' to stay in contact with customers, they may give you their phone numbers. Your application has worked fine and dandy so far. However, you noticed that your customers might change their phone numbers from time to time. You need to implement a way for the customers to add (and modify) phone numbers.
 
 You anticipated that a customer might have more than one phone number, for example his land line and his mobile. In your application, each phone number consists of its type (a String, e.g. "land line" or "business") and the actual number (a String).

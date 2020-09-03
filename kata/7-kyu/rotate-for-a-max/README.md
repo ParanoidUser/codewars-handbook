@@ -19,7 +19,7 @@ You have the following sequence of numbers:
 
 and you must return the greatest: `68957`.
 
-# Task
+## Task
 
 Write `function max_rot(n)` which given a positive integer `n` returns the maximum number you got doing rotations similar to the above example.
 

@@ -1,19 +1,10 @@
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ExampleTests {
+import org.junit.jupiter.api.Test;
+
+class ExampleTests {
   @Test
-  public void ex() {
-    String expected =
-        "Two green bottles hanging on the wall,\n"
-            + "Two green bottles hanging on the wall,\n"
-            + "And if one green bottle should accidentally fall,\n"
-            + "There'll be one green bottle hanging on the wall.\n"
-            + "\n"
-            + "One green bottle hanging on the wall,\n"
-            + "One green bottle hanging on the wall,\n"
-            + "If that one green bottle should accidentally fall,\n"
-            + "There'll be no green bottles hanging on the wall.\n";
-    assertEquals(expected, Dinglemouse.tenGreenBottles(2));
+  void sample() {
+    assertEquals("Two green bottles hanging on the wall,\nTwo green bottles hanging on the wall,\nAnd if one green bottle should accidentally fall,\nThere'll be one green bottle hanging on the wall.\n\nOne green bottle hanging on the wall,\nOne green bottle hanging on the wall,\nIf that one green bottle should accidentally fall,\nThere'll be no green bottles hanging on the wall.\n", Dinglemouse.tenGreenBottles(2));
   }
 }

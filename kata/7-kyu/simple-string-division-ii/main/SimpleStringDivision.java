@@ -1,4 +1,4 @@
-class SimpleStringDivision {
+interface SimpleStringDivision {
   static int solve(String s, int k) {
     int count = 0;
     var numbers = s.split(" ");

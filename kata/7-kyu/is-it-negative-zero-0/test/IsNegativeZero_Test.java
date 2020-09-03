@@ -1,11 +1,11 @@
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class IsNegativeZero_Test {
+class IsNegativeZero_Test {
   @Test
-  public void basic_tests() {
+  void sample() {
     assertTrue(NegativeZeroValidator.isNegativeZero(-0f));
     assertFalse(NegativeZeroValidator.isNegativeZero(-5f));
     assertFalse(NegativeZeroValidator.isNegativeZero(-4f));

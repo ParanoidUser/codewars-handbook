@@ -1,20 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class DescendingOrderTest {
+class DescendingOrderTest {
   @Test
-  public void test_01() {
+  void sample() {
     assertEquals(0, DescendingOrder.sortDesc(0));
-  }
-
-  @Test
-  public void test_02() {
     assertEquals(51, DescendingOrder.sortDesc(15));
-  }
-
-  @Test
-  public void test_03() {
     assertEquals(987654321, DescendingOrder.sortDesc(123456789));
   }
 }

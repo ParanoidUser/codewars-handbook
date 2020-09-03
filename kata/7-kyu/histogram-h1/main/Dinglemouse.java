@@ -1,4 +1,4 @@
-class Dinglemouse {
+interface Dinglemouse {
   static String histogram(int[] results) {
     var graph = new StringBuilder();
     for (int i = 5; i >= 0; i--) {

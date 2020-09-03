@@ -5,7 +5,9 @@ import java.io.PipedInputStream;
 import java.io.PipedOutputStream;
 import java.io.PrintStream;
 
-class System {
+final class System {
+  private System() {}
+
   static PipedInputStream in;
   static PrintStream out;
 

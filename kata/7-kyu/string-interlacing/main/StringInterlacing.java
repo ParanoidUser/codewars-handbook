@@ -1,4 +1,4 @@
-class StringInterlacing {
+interface StringInterlacing {
   static String interlace(String first, String second) {
     if (first.length() < second.length()) {
       var temp = first;

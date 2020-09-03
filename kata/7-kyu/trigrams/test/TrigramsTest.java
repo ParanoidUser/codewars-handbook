@@ -1,15 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class TrigramsTest {
+class TrigramsTest {
   @Test
-  public void trigramsShouldWork() {
+  void sample() {
     assertEquals("the he_ e_q _qu qui uic ick ck_ k_r _re red", Trigrams.trigrams("the quick red"));
-  }
-
-  @Test
-  public void emptyStringForShortPhrase() {
     assertEquals("", Trigrams.trigrams("no"));
   }
 }

@@ -1,15 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class WhereIsVasyaTest {
+class WhereIsVasyaTest {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals(2, WhereIsVasya.whereIsHe(3, 1, 1));
-  }
-
-  @Test
-  public void test2() {
     assertEquals(3, WhereIsVasya.whereIsHe(5, 2, 3));
   }
 }

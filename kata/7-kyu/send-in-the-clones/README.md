@@ -2,13 +2,13 @@
 
 *It seemed a good idea at the time...*
 
-# <span style='color:red'>Why I did it?</span>
+## Why I did it?
 
 After a year on **Codewars** I really needed a holiday...
 
 But not wanting to drift backwards in the honour rankings while I was away, I hatched a cunning plan!
 
-# <span style='color:red'>The Cunning Plan</spac>
+## The Cunning Plan
 
 So I borrowed my friend's "Clone Machine" and cloned myself :-)
 
@@ -21,8 +21,6 @@ Brilliant!!
 Furthermore, at the end of the day my clone can re-clone herself...
 
 Double brilliant!!
-
-
 
 I wonder why I didn't think to do this earlier?
 
@@ -37,11 +35,10 @@ So as I left for the airport I gave my clone instructions to:
 * all clones re-clone
 * repeat same next day
 
-# <span style='color:red'>The Flaw</span>
+## The Flaw
 
 Well, how was I supposed to know that cloned DNA is faulty?
 
-:-(
 
 Every time they sleep they wake up with decreased ability - they get slower... they get dumber... they are only able to solve 1 less Kata than they could the previous day.
 
@@ -49,7 +46,7 @@ For example, if they can solve 10 Kata today, then tomorrow they can solve only 
 
 And (unlike me), when the clone cannot solve any more Kata they are no longer clever enough to operate the clone machine either!
 
-# <span style='color:red'>The Return Home</span>
+## The Return Home
 
 I suspected something was wrong when I noticed my **Codewars** honour had stopped rising.
 
@@ -63,7 +60,7 @@ The fridge and pantry are empty.
 
 And I can't find the cat.
 
-# <span style='color:red'>Kata Task</span>
+## Task
 
 Write a method to predict the final outcome where:
 

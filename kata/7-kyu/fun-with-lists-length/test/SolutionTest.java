@@ -1,10 +1,11 @@
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SolutionTest {
+import org.junit.jupiter.api.Test;
+
+class SolutionTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(0, Solution.length(null));
-    assertEquals(4, Solution.length(Helpers.listFromArray(1, 2, 3, 4)));
+    assertEquals(4, Solution.length(new Node(1, new Node(2, new Node(3, new Node(4))))));
   }
 }

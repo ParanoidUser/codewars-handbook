@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ThinkingAndTestingTest {
+class ThinkingAndTestingTest {
   @Test
-  public void exampleTests() {
+  void sample() {
     assertEquals("", ThinkingAndTesting.testSomethingCapitalized(""));
     assertEquals("A", ThinkingAndTesting.testSomethingCapitalized("a"));
     assertEquals("B", ThinkingAndTesting.testSomethingCapitalized("b"));

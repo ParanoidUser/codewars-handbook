@@ -5,10 +5,10 @@ import org.junit.jupiter.api.Test;
 class BadHashTest {
   @Test
   void sample() {
-    assertEquals("!B", BadHash.hash(""));
-    assertEquals("`", BadHash.hash(" "));
-    assertEquals("@", BadHash.hash("a"));
-    assertEquals("X!$", BadHash.hash(" Yo, What's Good! - "));
-    assertEquals("0y-z-z!1", BadHash.hash("Hi!"));
+    assertEquals("!B", new BadHash().hash(""));
+    assertEquals("`", new BadHash().hash(" "));
+    assertEquals("@", new BadHash().hash("a"));
+    assertEquals("X!$", new BadHash().hash(" Yo, What's Good! - "));
+    assertEquals("0y-z-z!1", new BadHash().hash("Hi!"));
   }
 }

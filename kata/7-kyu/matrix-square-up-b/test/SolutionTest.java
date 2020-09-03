@@ -1,33 +1,26 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
-
+class SolutionTest {
   @Test
-  public void basic_Tests() {
-    String[][] t2 =
-        new String[][] {
-          {"x", "1"},
-          {"2", "1"}
-        };
-    assertArrayEquals(t2, Kata.matrixSquareUp(2));
+  void sample() {
+    assertArrayEquals(new String[][]{
+        {"x", "1"},
+        {"2", "1"}
+    }, Kata.matrixSquareUp(2));
 
-    String[][] t3 =
-        new String[][] {
-          {"x", "x", "1"},
-          {"x", "2", "1"},
-          {"3", "2", "1"}
-        };
-    for (int i = 0; i < 3; i++) assertArrayEquals(t3[i], Kata.matrixSquareUp(3)[i]);
+    assertArrayEquals(new String[][]{
+        {"x", "x", "1"},
+        {"x", "2", "1"},
+        {"3", "2", "1"}
+    }, Kata.matrixSquareUp(3));
 
-    String[][] t4 =
-        new String[][] {
-          {"x", "x", "x", "1"},
-          {"x", "x", "2", "1"},
-          {"x", "3", "2", "1"},
-          {"4", "3", "2", "1"}
-        };
-    for (int i = 0; i < 4; i++) assertArrayEquals(t4[i], Kata.matrixSquareUp(4)[i]);
+    assertArrayEquals(new String[][]{
+        {"x", "x", "x", "1"},
+        {"x", "x", "2", "1"},
+        {"x", "3", "2", "1"},
+        {"4", "3", "2", "1"}
+    }, Kata.matrixSquareUp(4));
   }
 }

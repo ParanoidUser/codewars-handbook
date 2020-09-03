@@ -1,4 +1,4 @@
-class Dinglemouse {
+interface Dinglemouse {
   static int tvRemote(String word) {
     int moves = 0, x = 0, y = 0;
     for (char c : word.toCharArray()) {

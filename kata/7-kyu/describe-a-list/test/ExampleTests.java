@@ -1,12 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.List;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class ExampleTests {
+class ExampleTests {
   @Test
-  public void examples() {
+  void sample() {
     assertEquals("empty", Kata.describeList(List.of()));
     assertEquals("singleton", Kata.describeList(List.of(1)));
     assertEquals("longer", Kata.describeList(List.of(1, 2)));

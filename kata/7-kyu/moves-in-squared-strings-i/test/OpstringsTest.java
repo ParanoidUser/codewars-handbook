@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class OpstringsTest {
+class OpstringsTest {
   @Test
-  public void test() {
+   void sample() {
     assertEquals("QHdgSh\noaMDnH\nXxNNlC\nHxxvRi\nAvVTqb\nuRySvw", Opstrings.oper(Opstrings::vertMirror, "hSgdHQ\nHnDMao\nClNNxX\niRvxxH\nbqTVvA\nwvSyRu"));
     assertEquals("EWTOzI\nMCebkk\nMxZzuW\nwJddDv\nFHyJij\nxSfHVP", Opstrings.oper(Opstrings::vertMirror, "IzOTWE\nkkbeCM\nWuzZxM\nvDddJw\njiJyHF\nPVHfSx"));
     assertEquals("yeCt\nCSbg\nJVhv\nlVHt", Opstrings.oper(Opstrings::horMirror, "lVHt\nJVhv\nCSbg\nyeCt"));

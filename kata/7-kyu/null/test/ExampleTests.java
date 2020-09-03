@@ -13,6 +13,6 @@ class ExampleTests {
     assertEquals(new Null(), new Null());
     Null n = new Null();
     assertEquals(n, n);
-    assertNotEquals(new Object(), new Null());
+    assertNotEquals(new Null(), new Object());
   }
 }

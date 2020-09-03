@@ -1,5 +1,5 @@
 class Game {
-  static String winner(String[] deckSteve, String[] deckJosh) {
+  String winner(String[] deckSteve, String[] deckJosh) {
     int steve = 0, josh = 0;
     for (int i = 0; i < deckSteve.length; i++) {
       int score = "23456789TJQKA".indexOf(deckSteve[i]) - "23456789TJQKA".indexOf(deckJosh[i]);

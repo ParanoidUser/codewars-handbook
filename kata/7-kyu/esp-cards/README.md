@@ -5,18 +5,18 @@
 You are in the lab and have been asked to focus your mind, harness all your psychic powers, and name the shape printed on the back of the card I am holding.
 
 Suddenly, three things happen -
- * You realise that you have no psychic powers whatsover
+ * You realise that you have no psychic powers whatsoever
  * You notice that if you squint in the reflection of the window behind me you can see the back of my card
  * You decide to cheat in my experiment
 
-# Kata Task
+## Kata Task
 
 Name the shape on my card.
 
 It is one of ```square```, ```diamond```, ```circle```
 
 
-# Notes
+## Notes
 
 Some real examples of my cards are shown below.
 

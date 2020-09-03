@@ -1,42 +1,14 @@
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class FindMaxValueInTreeTest {
+class FindMaxValueInTreeTest {
   @Test
-  public void findMaxInLeaf() {
-    TreeNode root = TreeNode.leaf(-1);
-    assertThat(FindMaxValueInTree.findMax(root), is(-1));
-  }
-
-  @Test
-  public void findMaxInOneChildTree() {
-    TreeNode root = TreeNode.leaf(1).withLeftLeaf(2);
-    assertThat(FindMaxValueInTree.findMax(root), is(2));
-  }
-
-  @Test
-  public void findMaxInPerfectTree() {
-    TreeNode left = TreeNode.leaf(-22).withLeaves(9, 50);
-    TreeNode right = TreeNode.leaf(11).withLeaves(9, 2);
-    TreeNode root = TreeNode.join(5, left, right);
-    assertThat(FindMaxValueInTree.findMax(root), is(50));
-  }
-
-  @Test
-  public void findMaxInUnbalancedTree() {
-    TreeNode left = TreeNode.leaf(50).withLeaves(-100, -10);
-    TreeNode right = TreeNode.leaf(40);
-    TreeNode root = TreeNode.join(6, left, right);
-    assertThat(FindMaxValueInTree.findMax(root), is(50));
-  }
-
-  @Test
-  public void findMaxInNegativeTree() {
-    TreeNode left = TreeNode.leaf(-50).withLeaves(-100, -10);
-    TreeNode right = TreeNode.leaf(-40);
-    TreeNode root = TreeNode.join(-600, left, right);
-    assertThat(FindMaxValueInTree.findMax(root), is(-10));
+  void sample() {
+    assertEquals(-1, FindMaxValueInTree.findMax(TreeNode.leaf(-1)));
+    assertEquals(2, FindMaxValueInTree.findMax(TreeNode.leaf(1).withLeftLeaf(2)));
+    assertEquals(50, FindMaxValueInTree.findMax(TreeNode.join(6, TreeNode.leaf(50).withLeaves(-100, -10), TreeNode.leaf(40))));
+    assertEquals(-10, FindMaxValueInTree.findMax(TreeNode.join(-600, TreeNode.leaf(-50).withLeaves(-100, -10), TreeNode.leaf(-40))));
+    assertEquals(50, FindMaxValueInTree.findMax(TreeNode.join(5, TreeNode.leaf(-22).withLeaves(9, 50), TreeNode.leaf(11).withLeaves(9, 2))));
   }
 }

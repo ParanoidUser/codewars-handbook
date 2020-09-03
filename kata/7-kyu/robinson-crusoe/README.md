@@ -24,7 +24,8 @@ The function `crusoe` has parameters;
 `crusoe(n, d, ang, distmult, angmult)` should return
 `lastx, lasty` as an array or a tuple depending on the language.
 
-### Example:
+## Example:
+
 `crusoe(5, 0.2, 30, 1.02, 1.1)` ->
 
 The successive `x` are : `0.0, 0.173205, 0.344294, 0.511991, 0.674744, 0.830674` (approximately)
@@ -36,7 +37,7 @@ and
 lastx: 0.8306737544381833
 lasty: 0.620694691344071
 ```
-### A drawing:
+## A drawing:
 
 ![alternative text](https://i.imgur.com/SGHbb6Vl.png)
 
@@ -45,5 +46,6 @@ Successive points:
 - x: `0.0, 0.9659..., 1.8319..., 2.3319..., 1.8319...`
 - y: `0.0, 0.2588..., 0.7588..., 1.6248..., 2.4908...`
 
-### Note
+## Note
+
 Please could you ask before translating: some translations are already written and published when/if the kata is approved.

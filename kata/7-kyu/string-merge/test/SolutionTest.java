@@ -1,20 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals("pere", Kata.stringMerge("person", "here", 'e'));
-  }
-
-  @Test
-  public void test2() {
     assertEquals("apowiejouh", Kata.stringMerge("apowiejfoiajsf", "iwahfeijouh", 'j'));
-  }
-
-  @Test
-  public void test3() {
     assertEquals("abcdefxxxyyyxyzz", Kata.stringMerge("abcdefxxxyzz", "abcxxxyyyxyzz", 'x'));
   }
 }

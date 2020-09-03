@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SolutionTest {
+class SolutionTest {
   @Test
-  public void exampleTests() {
+  void sample() {
     assertEquals(2, StringCounter.stringCounter("Hello World", 'o'));
     assertEquals(4, StringCounter.stringCounter("Wait isn't it supposed to be cynical?", 'i'));
     assertEquals(4, StringCounter.stringCounter("I'm gona be the best code warrior ever dad", 'r'));

@@ -7,6 +7,7 @@ The sorting has to be ascending.<br>
 The array will never be null and will always contain numbers.
 <br><br>
 Example:
+
 ```
 Input: 23, 2, 3, 4, 5
 Product of value and index:

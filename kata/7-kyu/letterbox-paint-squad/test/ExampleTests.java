@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExampleTests {
+class ExampleTests {
   @Test
-  public void ex() {
+  void sample() {
     assertArrayEquals(new int[] {1, 9, 6, 3, 0, 1, 1, 1, 1, 1}, Dinglemouse.paintLetterboxes(125, 132));
   }
 }

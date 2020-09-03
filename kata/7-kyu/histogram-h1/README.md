@@ -1,7 +1,5 @@
 # [Histogram - H1](https://www.codewars.com/kata/histogram-h1 "https://www.codewars.com/kata/57d532d2164a67cded0001c7")
 
-<h2>Background</h2>
-
 A 6-sided die is rolled a number of times and the results are plotted as a character-based histogram.
 
 Example:
@@ -15,11 +13,11 @@ Example:
 1|####### 7
 ```
 
-<h2>Task</h2>
+## Task
 
 You will be passed the dice value frequencies, and your task is to write the code to return a string representing a histogram, so that when it is printed it has the same format as the example.
 
-<h2>Notes</h2>
+## Notes
 
 * There are no trailing spaces on the lines
 * All lines (including the last) end with a newline ```\n```

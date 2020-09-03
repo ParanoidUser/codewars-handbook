@@ -1,10 +1,10 @@
 class Primitive {
-  static String determineType(String number) {
+  String determineType(String number) {
     try {
       long n = Long.parseLong(number);
-      if (n >= Byte.MIN_VALUE && n <= Byte.MAX_VALUE) return "byte";
-      if (n >= Short.MIN_VALUE && n <= Short.MAX_VALUE) return "short";
-      if (n >= Integer.MIN_VALUE && n <= Integer.MAX_VALUE) return "int";
+      if (n > -129 && n < 128) return "byte";
+      if (n > -32769 && n < 32768) return "short";
+      if (n > -2147483649L && n < 2147483648L) return "int";
       return "long";
     } catch (Exception ex) {
       return "none";

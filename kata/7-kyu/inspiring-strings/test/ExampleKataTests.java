@@ -1,12 +1,14 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ExampleKataTests {
+class ExampleKataTests {
   @Test
-  public void tests() {
+  void sample() {
     assertEquals("fgh", Kata.longestWord("a b c d e fgh"));
     assertEquals("three", Kata.longestWord("one two three"));
     assertEquals("grey", Kata.longestWord("red blue grey"));
+    assertEquals("orange", Kata.longestWord("orange red blue grey"));
+    assertEquals("", Kata.longestWord("   "));
   }
 }

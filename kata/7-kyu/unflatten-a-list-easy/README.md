@@ -5,7 +5,7 @@ These katas are done by so many warriors, that the count of available list to fl
 
 So you have to build a method, that creates new arrays, that can be flattened!
 
-#Shorter: You have to unflatten a list/an array.
+## Shorter: You have to unflatten a list/an array.
 
 You get an array of integers and have to unflatten it by these rules:
 ```

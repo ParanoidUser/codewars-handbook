@@ -1,5 +1,5 @@
-class Dinglemouse {
+interface Dinglemouse {
   static long hoursToSeconds(int hours) {
-    return hours * 3600L;
+    return 3600L * hours;
   }
 }

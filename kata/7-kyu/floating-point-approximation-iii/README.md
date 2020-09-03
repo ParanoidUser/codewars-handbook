@@ -22,11 +22,13 @@ with `a, b, c strictly positive numbers`, and `b being large (b >= 10 ** 9)`.
 Professor C. will check your result `x2` (the smaller root in absolute value. Don't return the other root!) by reporting `x2` in (1) 
 and seeing if `abs(g(x2)) < 1e-12`.
 
-# Task: 
+## Task:
+
 `solve(a, b, c)` 
 
 that will return the "solution" `x2` of (1) such as `abs(a * x2 ** 2 + b * x2 + c) < 1e-12`.
 
-# Example: 
+## Example:
+
 for equation `7*x**2 + 0.40E+14 * x + 8 = 0` we can find: `x2 = -2e-13`
 which verifies `abs(g(x)) < 1e-12`.

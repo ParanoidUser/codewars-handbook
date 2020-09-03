@@ -1,11 +1,23 @@
+import java.util.Objects;
 import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
 import lombok.ToString;
 
 @AllArgsConstructor
-@EqualsAndHashCode
 @ToString
 class Score {
   private final int me;
   private final int opponent;
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) return true;
+    if (o == null || getClass() != o.getClass()) return false;
+    Score score = (Score) o;
+    return me == score.me && opponent == score.opponent;
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(me, opponent);
+  }
 }

@@ -1,12 +1,12 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SampleTests {
+class SampleTests {
   @Test
-  public void sampleTests() {
-    assertEquals(255, SetBits.eliminateUnsetBits("11010101010101"));
-    assertEquals(7, SetBits.eliminateUnsetBits("111"));
-    assertEquals(1, SetBits.eliminateUnsetBits("1000000"));
+  void sample() {
+    assertEquals(255, new SetBits().eliminateUnsetBits("11010101010101"));
+    assertEquals(7, new SetBits().eliminateUnsetBits("111"));
+    assertEquals(1, new SetBits().eliminateUnsetBits("1000000"));
   }
 }

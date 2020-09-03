@@ -1,14 +1,11 @@
-import org.junit.Assert;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class GapMinderTest {
-  @Test
-  public void testABC() {
-    Assert.assertEquals("All carriages are present, so method should find 0 missing", 0, TrainInspector.countMissingCarriages("ABC"));
-  }
+import org.junit.jupiter.api.Test;
 
+class GapMinderTest {
   @Test
-  public void testABD() {
-    Assert.assertEquals("Carriage C is missing, so method should find 1 missing", 1, TrainInspector.countMissingCarriages("ABD"));
+  void sample() {
+    assertEquals(0, TrainInspector.countMissingCarriages("ABC"));
+    assertEquals(1, TrainInspector.countMissingCarriages("ABD"));
   }
 }

@@ -1,5 +1,5 @@
-public class Geometry {
-  static class Triangle {
+interface Geometry {
+  class Triangle {
     final Point a;
     final Point b;
     final Point c;
@@ -11,7 +11,7 @@ public class Geometry {
     }
   }
 
-  static class Point {
+  class Point {
     final double x;
     final double y;
 

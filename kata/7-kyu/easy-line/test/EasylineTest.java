@@ -1,12 +1,11 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.math.BigInteger;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class EasylineTest {
+class EasylineTest {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals(new BigInteger("3432"), Easyline.easyLine(7));
     assertEquals(new BigInteger("10400600"), Easyline.easyLine(13));
     assertEquals(new BigInteger("2333606220"), Easyline.easyLine(17));

@@ -1,4 +1,4 @@
-class Fibonacci {
+interface Fibonacci {
   static int getFibNumb(int n) {
     return new int[] {
           0, 1, 1, 2, 3, 5, 8, 3, 1, 4, 5, 9, 4, 3, 7, 0, 7, 7, 4, 1, 5, 6, 1, 7, 8, 5, 3, 8, 1, 9,

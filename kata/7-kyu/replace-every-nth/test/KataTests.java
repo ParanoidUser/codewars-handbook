@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class KataTests {
+class KataTests {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals("Vader soid: No, I am your fother!", Kata.replaceNth("Vader said: No, I am your father!", 2, 'a', 'o'));
     assertEquals("Vader said: No, I am your fother!", Kata.replaceNth("Vader said: No, I am your father!", 4, 'a', 'o'));
     assertEquals("Vader said: No, I am your father!", Kata.replaceNth("Vader said: No, I am your father!", 6, 'a', 'o'));

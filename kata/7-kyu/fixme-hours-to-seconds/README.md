@@ -4,10 +4,10 @@ The code provided is meant to return how many seconds there are in a given numbe
 
 But it's not working properly.
 
-# Task
+## Task
 
 Fix the bug so we can all go home early.
 
-# Notes
+## Notes
 
 The ```hours``` passed will be in the range 0 - 1000000

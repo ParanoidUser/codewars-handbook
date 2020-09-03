@@ -1,4 +1,4 @@
-class Kata {
+interface Kata {
   static String vowel2Index(String s) {
     var result = new StringBuilder();
     for (int i = 0; i < s.length(); i++) {

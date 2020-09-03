@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class PangramTest {
   @Test
   void sample() {
-    assertTrue(PangramChecker.check("The quick brown fox jumps over the lazy dog."));
-    assertFalse(PangramChecker.check("You shall not pass!"));
+    assertTrue(new PangramChecker().check("The quick brown fox jumps over the lazy dog."));
+    assertFalse(new PangramChecker().check("You shall not pass!"));
   }
 }

@@ -1,32 +1,15 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class OrderingTest {
-  private Ordering ordering = new Ordering();
-
+class OrderingTest {
   @Test
-  public void test1_HelloWorld() {
+  void sample() {
+    var ordering = new Ordering();
     assertEquals(" !,HWdellloor", ordering.orderWord("Hello, World!"));
-  }
-
-  @Test
-  public void test2_completesolution() {
     assertEquals("ceeillmnooopsttu", ordering.orderWord("completesolution"));
-  }
-
-  @Test
-  public void test3_nonletters() {
     assertEquals("!\"#$%&(*@[]^", ordering.orderWord("\"][@!#$*(^&%"));
-  }
-
-  @Test
-  public void test4_lettersandnot() {
     assertEquals("!\"#$%&(@[]^addilorrwz", ordering.orderWord("i\"d][@z!#$r(^a&world%"));
-  }
-
-  @Test
-  public void test7_null_empty() {
     assertEquals("Invalid String!", ordering.orderWord(null));
     assertEquals("Invalid String!", ordering.orderWord(""));
   }

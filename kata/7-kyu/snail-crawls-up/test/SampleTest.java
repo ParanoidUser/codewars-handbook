@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SampleTest {
+class SampleTest {
   @Test
-  public void basicTests() {
+  void sample() {
     assertEquals(2, Kata.snail(3, 2, 1));
     assertEquals(5, Kata.snail(10, 3, 1));
     assertEquals(8, Kata.snail(10, 3, 2));

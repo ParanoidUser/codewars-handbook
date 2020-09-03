@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class MovieTest {
+class MovieTest {
   @Test
-  public void test1() {
+  void sample() {
     assertEquals(43, Movie.movie(500, 15, 0.9));
     assertEquals(24, Movie.movie(100, 10, 0.95));
   }

@@ -4,7 +4,7 @@ import static java.util.stream.Stream.concat;
 import java.util.List;
 
 class PhoneNumberMerger {
-  static List<PhoneNumber> merge(List<PhoneNumber> oldNumbers, List<PhoneNumber> newNumbers) {
+  List<PhoneNumber> merge(List<PhoneNumber> oldNumbers, List<PhoneNumber> newNumbers) {
     return concat(newNumbers.stream(), oldNumbers.stream().filter(o -> newNumbers.stream().noneMatch(n -> n.type.equals(o.type)))).collect(toList());
   }
 

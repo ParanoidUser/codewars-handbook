@@ -1,6 +1,6 @@
 import static java.util.stream.IntStream.of;
 
-class Valley {
+interface Valley {
   static int[] makeValley(int[] arr) {
     var sorted = of(arr).sorted().toArray();
     for (int i = 0; i < sorted.length; i++) {

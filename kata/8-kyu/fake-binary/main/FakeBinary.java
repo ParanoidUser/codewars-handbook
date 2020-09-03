@@ -1,5 +1,5 @@
 class FakeBinary {
-  static String fakeBin(String s) {
+  String fakeBin(String s) {
     return s.replaceAll("[1-4]", "0").replaceAll("[^0]", "1");
   }
 }

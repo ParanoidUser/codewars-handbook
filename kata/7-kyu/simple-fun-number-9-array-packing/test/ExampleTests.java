@@ -1,9 +1,10 @@
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ExampleTests {
+import org.junit.jupiter.api.Test;
+
+class ExampleTests {
   @Test
-  public void exampleTests() {
+  void sample() {
     assertEquals(21784, Kata.arrayPacking(new int[] {24, 85, 0}));
     assertEquals(2567447, Kata.arrayPacking(new int[] {23, 45, 39}));
     assertEquals(257, Kata.arrayPacking(new int[] {1, 1}));

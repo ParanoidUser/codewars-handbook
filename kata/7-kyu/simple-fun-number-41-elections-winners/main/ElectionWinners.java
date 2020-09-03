@@ -1,6 +1,6 @@
 import static java.util.stream.IntStream.of;
 
-class ElectionWinners {
+interface ElectionWinners {
   static int find(int[] votes, int k) {
     int max = of(votes).max().orElse(0);
     if (k > 0) {

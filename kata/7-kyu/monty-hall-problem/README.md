@@ -4,7 +4,7 @@ The Monty Hall problem is a probability puzzle base on the American TV show "Let
 
 In this show, you would be presented with 3 doors: One with a prize behind it, and two without (represented with goats).
 
-After choosing a door, the host would open one of the other two doors which didn't include a prize, and ask the participant if he or she wanted to switch to the third door. Most wouldn't. One would think you have a fifty-fifty chance of winning after having been shown a false door, however the math proves that you significally increase your chances, from 1/3 to 2/3 by switching.
+After choosing a door, the host would open one of the other two doors which didn't include a prize, and ask the participant if he or she wanted to switch to the third door. Most wouldn't. One would think you have a fifty-fifty chance of winning after having been shown a false door, however the math proves that you significantly increase your chances, from 1/3 to 2/3 by switching.
 
 Further information about this puzzle can be found on https://en.wikipedia.org/wiki/Monty_Hall_problem.
 

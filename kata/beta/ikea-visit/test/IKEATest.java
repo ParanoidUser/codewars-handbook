@@ -6,8 +6,8 @@ import org.junit.jupiter.api.Test;
 class IKEATest {
   @Test
   void sample() {
-    assertTrue(IKEA.checkEnoughScrews(4, 10));
-    assertFalse(IKEA.checkEnoughScrews(6, 20));
-    assertTrue(IKEA.checkEnoughScrews(3, 6));
+    assertTrue(new IKEA().checkEnoughScrews(4, 10));
+    assertFalse(new IKEA().checkEnoughScrews(6, 20));
+    assertTrue(new IKEA().checkEnoughScrews(3, 6));
   }
 }

@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class DoorTest {
+class DoorTest {
   @Test
-  public void testDoor() {
-    assertTrue("You can write a comment, but not code", GreenGlassDoor.stepThroughWith("comment"));
+  void sample() {
+    assertTrue(new GreenGlassDoor().stepThroughWith("comment"));
   }
 }

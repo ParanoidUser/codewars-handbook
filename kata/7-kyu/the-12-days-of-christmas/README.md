@@ -4,7 +4,7 @@ Oh No!
 
 The song sheets have been dropped in the snow and the lines of each verse have become all jumbled up. 
 
-<h1>Task</h1>
+## Task
 
 You have to write a comparator function which can sort the lines back into their correct order, otherwise Christmas will be cancelled!
 

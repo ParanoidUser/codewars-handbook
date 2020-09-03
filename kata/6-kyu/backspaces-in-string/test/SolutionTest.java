@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 class SolutionTest {
   @Test
   void sample() {
-    assertEquals("ac", BackspacesInString.cleanString("abc#d##c"));
-    assertEquals("", BackspacesInString.cleanString("abc####d##c#"));
+    assertEquals("ac", new BackspacesInString().cleanString("abc#d##c"));
+    assertEquals("", new BackspacesInString().cleanString("abc####d##c#"));
   }
 }

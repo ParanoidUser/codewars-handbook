@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SampleTests {
+class SampleTests {
   @Test
-  public void digits() {
+  void sample() {
     assertEquals(1, DecTools.Digits(5L));
     assertEquals(5, DecTools.Digits(12345L));
     assertEquals(10, DecTools.Digits(9876543210L));

@@ -1,4 +1,4 @@
-class Solution {
+interface Solution {
   static String solveRockOff(int[] alice, int[] bob) {
     int a = 0, b = 0;
     for (int i = 0; i < alice.length; i++) {

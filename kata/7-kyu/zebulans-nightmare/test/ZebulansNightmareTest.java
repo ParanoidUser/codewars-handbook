@@ -1,10 +1,10 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ZebulansNightmareTest {
+class ZebulansNightmareTest {
   @Test
-  public void basicTest() {
+  void sample() {
     assertEquals("camelCase", ZebulansNightmare.zebulansNightmare("camel_case"));
     assertEquals("zebulansNightmare", ZebulansNightmare.zebulansNightmare("zebulans_nightmare"));
     assertEquals("markAsIssue", ZebulansNightmare.zebulansNightmare("mark_as_issue"));

@@ -1,21 +1,13 @@
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class JadenCaseTest {
+class JadenCaseTest {
   @Test
-  public void test() {
-    assertEquals("Most Trees Are Blue", JadenCase.toJadenCase("most trees are blue"));
-  }
-
-  @Test
-  public void testNullArg() {
-    assertNull("Must return null when the arg is null", JadenCase.toJadenCase(null));
-  }
-
-  @Test
-  public void testEmptyArg() {
-    assertNull("Must return null when the arg is empty string", JadenCase.toJadenCase(""));
+  void sample() {
+    assertEquals("Most Trees Are Blue", new JadenCase().toJadenCase("most trees are blue"));
+    assertNull(new JadenCase().toJadenCase(null));
+    assertNull(new JadenCase().toJadenCase(""));
   }
 }

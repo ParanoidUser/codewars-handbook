@@ -1,35 +1,16 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class SumTest {
+class SumTest {
   @Test
-  public void basicTest() {
+  void sample() {
     assertEquals(5.0, Sum.sum(2.0, 3.0), 0.001);
-  }
-
-  @Test(expected = IllegalArgumentException.class)
-  public void zeroTest() {
-    assertEquals(3.0, Sum.sum(0.0, 3.0), 0.001);
-  }
-
-  @Test(expected = NullPointerException.class)
-  public void basicTest1() {
-    assertEquals(5.0, Sum.sum(null, 3.0), 0.001);
-  }
-
-  @Test(expected = NullPointerException.class)
-  public void basicTest2() {
-    assertEquals(5.0, Sum.sum(8.0, null), 0.001);
-  }
-
-  @Test(expected = IllegalArgumentException.class)
-  public void basicTest3() {
-    assertEquals(5.0, Sum.sum(-2.0, 3.0), 0.001);
-  }
-
-  @Test(expected = IllegalArgumentException.class)
-  public void basicTest4() {
-    assertEquals(5.0, Sum.sum(2.0, -3.0), 0.001);
+    assertThrows(IllegalArgumentException.class, () -> Sum.sum(0.0, 3.0));
+    assertThrows(NullPointerException.class, () -> Sum.sum(null, 3.0));
+    assertThrows(NullPointerException.class, () -> Sum.sum(8.0, null));
+    assertThrows(IllegalArgumentException.class, () -> Sum.sum(-2.0, 3.0));
+    assertThrows(IllegalArgumentException.class, () -> Sum.sum(2.0, -3.0));
   }
 }

@@ -1,9 +1,7 @@
-class BasedNumbers {
-  String number;
-  int base;
+import lombok.AllArgsConstructor;
 
-  BasedNumbers(String number, int base) {
-    this.number = number;
-    this.base = base;
-  }
+@AllArgsConstructor
+class BasedNumbers {
+  final String number;
+  final int base;
 }

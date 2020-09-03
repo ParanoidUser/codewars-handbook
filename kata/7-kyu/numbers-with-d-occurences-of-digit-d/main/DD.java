@@ -1,6 +1,6 @@
 import static java.util.stream.IntStream.range;
 
-class DD {
+interface DD {
   static boolean isDD(int n) {
     return range(1, 9)
         .mapToObj(i -> ("" + n).replaceAll("[^" + i + "]", ""))

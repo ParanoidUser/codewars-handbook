@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 class SolutionSampleTest {
   @Test
   void sample() {
-    assertEquals(10, MySolution.computeDepth(1));
-    assertEquals(9, MySolution.computeDepth(42));
+    assertEquals(10, new MySolution().computeDepth(1));
+    assertEquals(9, new MySolution().computeDepth(42));
   }
 }
