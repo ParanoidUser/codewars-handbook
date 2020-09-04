@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class CWarsTest {
+class ExampleTestCases {
   @Test
   void sample() {
     assertEquals("C.Wars", CWars.initials("code wars"));

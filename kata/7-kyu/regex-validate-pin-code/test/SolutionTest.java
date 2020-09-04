@@ -8,16 +8,20 @@ class SolutionTest {
   void sample() {
     assertTrue(Solution.validatePin("1234"));
     assertTrue(Solution.validatePin("0000"));
+    assertTrue(Solution.validatePin("1111"));
     assertTrue(Solution.validatePin("123456"));
     assertTrue(Solution.validatePin("098765"));
     assertTrue(Solution.validatePin("000000"));
+    assertTrue(Solution.validatePin("090909"));
     assertFalse(Solution.validatePin("a234"));
-    assertFalse(Solution.validatePin("1.234"));
-    assertFalse(Solution.validatePin("-1234"));
+    assertFalse(Solution.validatePin(".234"));
     assertFalse(Solution.validatePin("1"));
     assertFalse(Solution.validatePin("12"));
     assertFalse(Solution.validatePin("123"));
     assertFalse(Solution.validatePin("12345"));
     assertFalse(Solution.validatePin("1234567"));
+    assertFalse(Solution.validatePin("-1234"));
+    assertFalse(Solution.validatePin("1.234"));
+    assertFalse(Solution.validatePin("00000000"));
   }
 }

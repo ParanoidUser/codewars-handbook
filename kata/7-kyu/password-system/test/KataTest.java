@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class KataTest {
+class InfiniteCrisis {
   @Test
   void sample() {
     assertEquals("Yes", Kata.helpZoom(new int[] {1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1}));

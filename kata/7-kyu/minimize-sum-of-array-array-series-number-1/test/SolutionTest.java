@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class SolutionTest {
+class MinimumSum {
   @Test
   void sample() {
     assertEquals(22, Solution.minSum(new int[] {5, 4, 2, 3}));

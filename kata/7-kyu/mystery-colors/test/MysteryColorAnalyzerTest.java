@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 class MysteryColorAnalyzerTest {
   @Test
-  void emptyColorsList() {
+  void sample() {
     var analyzer = new MysteryColorAnalyzerImpl();
     List<Color> empty = List.of();
     assertEquals(0, analyzer.numberOfDistinctColors(empty));
@@ -17,11 +17,7 @@ class MysteryColorAnalyzerTest {
     assertEquals(0, analyzer.colorOccurrence(empty, Color.PURPLE));
     assertEquals(0, analyzer.colorOccurrence(empty, Color.WHITE));
     assertEquals(0, analyzer.colorOccurrence(empty, Color.BLACK));
-  }
 
-  @Test
-  void rgbColors() {
-    var analyzer = new MysteryColorAnalyzerImpl();
     var rgb = List.of(Color.RED, Color.GREEN, Color.BLUE);
     assertEquals(3, analyzer.numberOfDistinctColors(rgb));
     assertEquals(1, analyzer.colorOccurrence(rgb, Color.RED));
@@ -32,11 +28,7 @@ class MysteryColorAnalyzerTest {
     assertEquals(0, analyzer.colorOccurrence(rgb, Color.PURPLE));
     assertEquals(0, analyzer.colorOccurrence(rgb, Color.WHITE));
     assertEquals(0, analyzer.colorOccurrence(rgb, Color.BLACK));
-  }
 
-  @Test
-  void duplicateColors() {
-    var analyzer = new MysteryColorAnalyzerImpl();
     var duplicate = List.of(Color.RED, Color.GREEN, Color.PURPLE, Color.BLUE, Color.RED, Color.BLUE, Color.RED, Color.BLUE, Color.BLACK, Color.PURPLE, Color.ORANGE, Color.GREEN);
     assertEquals(6, analyzer.numberOfDistinctColors(duplicate));
     assertEquals(3, analyzer.colorOccurrence(duplicate, Color.RED));
