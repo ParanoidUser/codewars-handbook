@@ -243,7 +243,7 @@
 - [Lunar Mathematics: Addition](lunar-mathematics-addition)
 # M
 - [Make a function that does arithmetic!](make-a-function-that-does-arithmetic)
-- [MakeBackronym](makebackronym)
+- [Make Backronym](makebackronym)
 - [Match My Husband](match-my-husband)
 - [Matrix Addition of Elements](matrix-addition-of-elements)
 - [Matrix Square Up, B!](matrix-square-up-b)
@@ -436,12 +436,11 @@
 - [Triangular Treasure](triangular-treasure)
 - [Trigrams](trigrams)
 - [TV Remote](tv-remote)
-- [Two fighters, one winner.](two-fighters-one-winner)
+- [Two fighters, one winner](two-fighters-one-winner)
 - [Two to One](two-to-one)
 # U
 - [Ultimate Array Reverser](ultimate-array-reverser)
 - [Unflatten a list (Easy)](unflatten-a-list-easy)
-- [Unique Characters](unique-characters)
 - [Unlucky Days](unlucky-days)
 - [Unusual Lex Order](unusual-lex-order)
 - [URL Timestamps](url-timestamps)
