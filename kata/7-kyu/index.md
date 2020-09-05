@@ -1,4 +1,5 @@
 # \#
+- [16+18=214](16-plus-18-equals-214)
 - [21 Sticks](21-sticks)
 - [254 shades of grey](254-shades-of-grey)
 - [2D Vector Mapping](2d-vector-mapping)
@@ -312,6 +313,7 @@
 # Q
 - [Quicksum](quicksum)
 # R
+- [Recursion 101](recursion-101)
 - [Redacted!](redacted)
 - [Regex validate PIN code](regex-validate-pin-code)
 - [Regex validation of 24 hours time.](regex-validation-of-24-hours-time)
@@ -349,6 +351,7 @@
 - [Shortest Word](shortest-word)
 - [Show multiples of 2 numbers within a range](show-multiples-of-2-numbers-within-a-range)
 - [Simple beads count](simple-beads-count)
+- [Simple equation reversal](simple-equation-reversal)
 - [Simple Fun #152: Invite More Women?](simple-fun-number-152-invite-more-women)
 - [Simple Fun #176: Reverse Letter](simple-fun-number-176-reverse-letter)
 - [Simple Fun #2: Circle of Numbers](simple-fun-number-2-circle-of-numbers)
@@ -362,6 +365,8 @@
 - [Simple remove duplicates](simple-remove-duplicates)
 - [Simple string characters](simple-string-characters)
 - [Simple string division II](simple-string-division-ii)
+- [Simple string reversal](simple-string-reversal)
+- [Simple string reversal II](simple-string-reversal-ii)
 - [Small enough? - Beginner](small-enough-beginner)
 - [Smallest value of an array](smallest-value-of-an-array)
 - [Smoking Timmy](smoking-timmy)
