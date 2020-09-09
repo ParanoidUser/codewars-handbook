@@ -1,4 +1,5 @@
 # \#
+- [16+18=214](16-plus-18-equals-214)
 - [21 Sticks](21-sticks)
 - [254 shades of grey](254-shades-of-grey)
 - [2D Vector Mapping](2d-vector-mapping)
@@ -142,6 +143,7 @@
 - [Find sum of top-left to bottom-right diagonals](find-sum-of-top-left-to-bottom-right-diagonals)
 - [Find the GCF of Two Numbers](find-the-gcf-of-two-numbers)
 - [Find the next perfect square!](find-the-next-perfect-square)
+- [Find the nth occurrence of a word in a string!](find-the-nth-occurrence-of-a-word-in-a-string)
 - [Find the stray number](find-the-stray-number)
 - [Finding Remainder Without Using '%' Operator](finding-remainder-without-using-percent-operator)
 - [Fix string case](fix-string-case)
@@ -312,6 +314,7 @@
 # Q
 - [Quicksum](quicksum)
 # R
+- [Recursion 101](recursion-101)
 - [Redacted!](redacted)
 - [Regex validate PIN code](regex-validate-pin-code)
 - [Regex validation of 24 hours time.](regex-validation-of-24-hours-time)
@@ -349,7 +352,10 @@
 - [Shorter concat [reverse longer]](shorter-concat-reverse-longer)
 - [Shortest Word](shortest-word)
 - [Show multiples of 2 numbers within a range](show-multiples-of-2-numbers-within-a-range)
+- [Simple array product](simple-array-product)
 - [Simple beads count](simple-beads-count)
+- [Simple equation reversal](simple-equation-reversal)
+- [Simple fibonacci strings](simple-fibonacci-strings)
 - [Simple Fun #152: Invite More Women?](simple-fun-number-152-invite-more-women)
 - [Simple Fun #176: Reverse Letter](simple-fun-number-176-reverse-letter)
 - [Simple Fun #2: Circle of Numbers](simple-fun-number-2-circle-of-numbers)
@@ -362,7 +368,10 @@
 - [Simple letter removal](simple-letter-removal)
 - [Simple remove duplicates](simple-remove-duplicates)
 - [Simple string characters](simple-string-characters)
+- [Simple string division](simple-string-division)
 - [Simple string division II](simple-string-division-ii)
+- [Simple string reversal](simple-string-reversal)
+- [Simple string reversal II](simple-string-reversal-ii)
 - [Small enough? - Beginner](small-enough-beginner)
 - [Smallest value of an array](smallest-value-of-an-array)
 - [Smoking Timmy](smoking-timmy)
@@ -456,6 +465,7 @@
 - [Where is Vasya?](where-is-vasya)
 - [Where's Wally](wheres-wally)
 - [Will you survive the zombie onslaught?](will-you-survive-the-zombie-onslaught)
+- [Word values](word-values)
 # Y
 - [You Can't Code Under Pressure #2](you-cant-code-under-pressure-number-2)
 - [You're a square!](youre-a-square)

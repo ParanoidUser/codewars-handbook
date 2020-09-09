@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 class SolutionTest {
   @Test
   void sample() {
+    assertEquals(1, Solution.solve(new int[0][]));
     assertEquals(8, Solution.solve(new int[][]{{1, 2}, {3, 4}}));
     assertEquals(45, Solution.solve(new int[][]{{10, -15}, {-1, -3}}));
     assertEquals(12, Solution.solve(new int[][]{{-3, -4}, {1, 2, -3}}));
