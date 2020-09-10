@@ -102,6 +102,7 @@
 - [Covfefe](covfefe)
 - [Credit card issuer checking](credit-card-issuer-checking)
 - [Credit Card Mask](credit-card-mask)
+- [Cryptanalysis Word Patterns](cryptanalysis-word-patterns)
 - [Curing Arachnophobia](curing-arachnophobia)
 # D
 - [Decimal decomposition](decimal-decomposition)
