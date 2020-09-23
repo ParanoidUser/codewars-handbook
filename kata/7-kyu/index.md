@@ -355,6 +355,7 @@
 - [Show multiples of 2 numbers within a range](show-multiples-of-2-numbers-within-a-range)
 - [Simple array product](simple-array-product)
 - [Simple beads count](simple-beads-count)
+- [Simple consecutive pairs](simple-consecutive-pairs)
 - [Simple directions reversal](simple-directions-reversal)
 - [Simple equation reversal](simple-equation-reversal)
 - [Simple fibonacci strings](simple-fibonacci-strings)
