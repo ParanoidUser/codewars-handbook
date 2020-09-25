@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class AutoMorphic {
+class SolutionTest {
   @Test
   void sample() {
     assertEquals("Automorphic", Solution.autoMorphic(1));

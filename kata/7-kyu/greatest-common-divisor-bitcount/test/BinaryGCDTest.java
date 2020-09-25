@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class BinaryGCDtest {
+class BinaryGCDTest {
   @Test
   void sample() {
     assertEquals(6, BinaryGCD.gcdBinary(666666, 333111));

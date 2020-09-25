@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class ExampleTestCases {
+class FizzBuzzCuckooClockTest {
   @Test
   void sample() {
     assertEquals("tick", FizzBuzzCuckooClock.fizzBuzzCuckooClock("13:34"));
