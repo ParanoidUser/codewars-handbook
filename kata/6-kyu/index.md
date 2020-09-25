@@ -51,6 +51,7 @@
 - [Calendar Week](calendar-week)
 - [CamelCase Method](camelcase-method)
 - [CamelCase to underscore](camelcase-to-underscore)
+- [Can you win the codewar?](can-you-win-the-codewar)
 - [Card Games: Black Jack](card-games-black-jack)
 - [Cartesian neighbors distance](cartesian-neighbors-distance)
 - [Cat Kata, Part 1](cat-kata-part-1)
