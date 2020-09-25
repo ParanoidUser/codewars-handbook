@@ -259,6 +259,7 @@
 - [Steps in Primes](steps-in-primes)
 - [Stop gninnipS My sdroW!](stop-gninnips-my-sdrow)
 - [Street Fighter 2 - Character Selection](street-fighter-2-character-selection)
+- [String array duplicates](string-array-duplicates)
 - [String Pyramid](string-pyramid)
 - [String searching with wildcard](string-searching-with-wildcard)
 - [String subpattern recognition I](string-subpattern-recognition-i)
