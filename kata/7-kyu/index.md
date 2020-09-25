@@ -327,6 +327,7 @@
 - [Regexp Basics - is it a letter?](regexp-basics-is-it-a-letter)
 - [Regexp Basics - is it a six bit unsigned number?](regexp-basics-is-it-a-six-bit-unsigned-number)
 - [Regexp Basics - is it a vowel?](regexp-basics-is-it-a-vowel)
+- [Regexp basics - parsing prices](regexp-basics-parsing-prices)
 - [Remove duplicate words](remove-duplicate-words)
 - [Remove Duplicates](remove-duplicates)
 - [Replace every nth](replace-every-nth)
