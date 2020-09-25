@@ -246,6 +246,7 @@
 - [Simple string indices](simple-string-indices)
 - [Simple transposition](simple-transposition)
 - [Simpson's Rule - Approximate Integration](simpsons-rule-approximate-integration)
+- [Single character palindromes](single-character-palindromes)
 - [Single Word Pig Latin](single-word-pig-latin)
 - [Sort array by sorting its smallest sub-array](sort-array-by-sorting-its-smallest-sub-array)
 - [Sort the odd](sort-the-odd)
