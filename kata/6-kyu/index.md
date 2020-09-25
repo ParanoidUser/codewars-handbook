@@ -240,6 +240,7 @@
 - [Simple Fun #165: Withdraw](simple-fun-number-165-withdraw)
 - [Simple Fun #170: Sum Groups](simple-fun-number-170-sum-groups)
 - [Simple Fun #319: Number And IP Address](simple-fun-number-319-number-and-ip-address)
+- [Simple nearest prime](simple-nearest-prime)
 - [Simple prime streaming](simple-prime-streaming)
 - [Simple square numbers](simple-square-numbers)
 - [Simple string indices](simple-string-indices)
