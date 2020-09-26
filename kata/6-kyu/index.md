@@ -214,6 +214,7 @@
 - [Rainfall](rainfall)
 - [Ranking NBA teams](ranking-nba-teams)
 - [Reach Me and Sum my Digits](reach-me-and-sum-my-digits)
+- [Real Password Cracker](real-password-cracker)
 - [Rectangle into Squares](rectangle-into-squares)
 - [Reducing by steps](reducing-by-steps)
 - [Regex pattern to check if string has all characters](regex-pattern-to-check-if-string-has-all-characters)
