@@ -54,6 +54,7 @@
 - [Can you win the codewar?](can-you-win-the-codewar)
 - [Card Games: Black Jack](card-games-black-jack)
 - [Cartesian neighbors distance](cartesian-neighbors-distance)
+- [Casino chips](casino-chips)
 - [Cat Kata, Part 1](cat-kata-part-1)
 - [Catalog](catalog)
 - [Change case](change-case)
