@@ -240,6 +240,7 @@
 - [Sieve of Eratosthenes](sieve-of-eratosthenes)
 - [Simple card game](simple-card-game)
 - [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
+- [Simple frequency sort](simple-frequency-sort)
 - [Simple Fun #116: Prime String](simple-fun-number-116-prime-string)
 - [Simple Fun #165: Withdraw](simple-fun-number-165-withdraw)
 - [Simple Fun #170: Sum Groups](simple-fun-number-170-sum-groups)
