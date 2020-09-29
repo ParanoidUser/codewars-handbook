@@ -76,6 +76,7 @@
 - [Count the divisible numbers](count-the-divisible-numbers)
 - [Count the smiley faces!](count-the-smiley-faces)
 - [Counting Duplicates](counting-duplicates)
+- [Crack the PIN](crack-the-pin)
 - [Create Phone Number](create-phone-number)
 # D
 - [Dashatize it](dashatize-it)
