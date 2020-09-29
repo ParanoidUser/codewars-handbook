@@ -42,7 +42,7 @@ subprojects {
         compileOnly("org.projectlombok", "lombok", "1.18.12")
         annotationProcessor("org.projectlombok", "lombok", "1.18.12")
         testImplementation("org.mockito", "mockito-inline", "3.5.13")
-        testImplementation("org.junit.jupiter", "junit-jupiter", "5.6.2")
+        testImplementation("org.junit.jupiter", "junit-jupiter", "5.7.0")
         testImplementation("org.springframework.boot", "spring-boot-starter-test", "2.2.6.RELEASE")
     }
 
