@@ -8,15 +8,7 @@ public class PhotoManager {
     return names.contains(name);
   }
 
-  void addName(String name) {
-    names.add(name);
-  }
-
   boolean nameWasUnique(String name) {
-    if (!nameExists(name)) {
-      addName(name);
-      return true;
-    }
-    return false;
+    return names.add(name);
   }
 }
