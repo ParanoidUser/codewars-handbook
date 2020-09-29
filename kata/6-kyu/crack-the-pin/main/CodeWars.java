@@ -4,7 +4,7 @@ import static java.util.stream.IntStream.range;
 import java.math.BigInteger;
 
 class CodeWars {
-  static String crack(String hash) {
+  String crack(String hash) {
     return range(0, 100000).mapToObj(i -> String.format("%05d", i)).filter(
         pin -> {
           try {
