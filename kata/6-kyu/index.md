@@ -148,6 +148,7 @@
 - [How Much?](how-much)
 - [HTML dynamic color string generation](html-dynamic-color-string-generation)
 # I
+- [Image host filename generator](image-host-filename-generator)
 - [Integer depth](integer-depth)
 - [Integers: Recreation Two](integers-recreation-two)
 - [Interval](interval)
