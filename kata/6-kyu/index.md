@@ -210,6 +210,7 @@
 - [Possibilities of throwing a coin n times](possibilities-of-throwing-a-coin-n-times)
 - [Prime factorization](prime-factorization)
 - [Primorial Of a Number](primorial-of-a-number)
+- [Print number with character](print-number-with-character)
 - [Prize Draw](prize-draw)
 - [Pure odd digits primes](pure-odd-digits-primes)
 # Q
