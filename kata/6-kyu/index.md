@@ -119,6 +119,7 @@
 - [Find the odd int](find-the-odd-int)
 - [Find The Parity Outlier](find-the-parity-outlier)
 - [Find the unique number](find-the-unique-number-1)
+- [Find the X from Equation](find-the-x-from-equation)
 - [Finding Neo (PG-13)](finding-neo-pg-13)
 - [FIRE and FURY](fire-and-fury)
 - [FIXME: Hello](fixme-hello)
