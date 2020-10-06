@@ -220,6 +220,7 @@
 - [Rainfall](rainfall)
 - [Ranking NBA teams](ranking-nba-teams)
 - [Reach Me and Sum my Digits](reach-me-and-sum-my-digits)
+- [Read the time](read-the-time)
 - [Real Password Cracker](real-password-cracker)
 - [Rectangle into Squares](rectangle-into-squares)
 - [Reducing by steps](reducing-by-steps)
