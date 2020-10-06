@@ -100,6 +100,7 @@
 - [English beggars](english-beggars)
 - [Enigeliisohe too Eniigeeliiisoohee Toroanisoliatooro](enigeliisohe-too-eniigeeliiisoohee-toroanisoliatooro)
 - [Equal Sides Of An Array](equal-sides-of-an-array)
+- [Error correction #1 - Hamming Code](error-correction-number-1-hamming-code)
 - [Errors : histogram](errors-histogram)
 - [Esolang Interpreters #1 - Introduction to Esolangs and My First Interpreter (MiniStringFuck)](esolang-interpreters-number-1-introduction-to-esolangs-and-my-first-interpreter-ministringfuck)
 - [Everybody hates Mondays](everybody-hates-mondays)
