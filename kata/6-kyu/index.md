@@ -317,6 +317,7 @@
 - [Vasya and Stairs](vasya-and-stairs)
 - [Vasya and System of Equations](vasya-and-system-of-equations)
 # W
+- [What century is it?](what-century-is-it)
 - [What's in a name?](whats-in-a-name)
 - [What's Your Poison?](whats-your-poison)
 - [When greatest is less than smallest](when-greatest-is-less-than-smallest)
