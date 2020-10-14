@@ -360,6 +360,7 @@
 - [Simple consecutive pairs](simple-consecutive-pairs)
 - [Simple directions reversal](simple-directions-reversal)
 - [Simple equation reversal](simple-equation-reversal)
+- [Simple eviternity numbers](simple-eviternity-numbers)
 - [Simple fibonacci strings](simple-fibonacci-strings)
 - [Simple Fun #152: Invite More Women?](simple-fun-number-152-invite-more-women)
 - [Simple Fun #176: Reverse Letter](simple-fun-number-176-reverse-letter)
