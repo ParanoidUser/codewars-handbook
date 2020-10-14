@@ -413,6 +413,7 @@
 - [Suitcase packing](suitcase-packing)
 - [Sum Array with different bases](sum-array-with-different-bases)
 - [Sum of angles](sum-of-angles)
+- [Sum of array singles](sum-of-array-singles)
 - [Sum of differences between products and LCMs](sum-of-differences-between-products-and-lcms)
 - [Sum of numbers from 0 to N](sum-of-numbers-from-0-to-n)
 - [Sum of Odd Cubed Numbers](sum-of-odd-cubed-numbers)
