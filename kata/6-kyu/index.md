@@ -287,6 +287,7 @@
 - [Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!](take-a-number-and-sum-its-digits-raised-to-the-consecutive-powers-and-dot-dot-dot-eureka)
 - [Take a Ten Minute Walk](take-a-ten-minute-walk)
 - [Tank Truck](tank-truck)
+- [TDD Area Calculations](tdd-area-calculations)
 - [Texting with an old-school mobile phone](texting-with-an-old-school-mobile-phone)
 - [The BIG Pronic challenge](the-big-pronic-challenge)
 - [The Deaf Rats of Hamelin](the-deaf-rats-of-hamelin)
