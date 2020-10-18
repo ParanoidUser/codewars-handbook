@@ -14,29 +14,37 @@ cache:
 install: skip
 
 before_cache:
-  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
-  - rm -f  $HOME/.gradle/caches/transforms-1/transforms-1.lock
+  # - rm -f  $HOME/.gradle/caches/*/*.lock
+  # - rm -f  $HOME/.gradle/caches/*/*/*.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
   - rm -fr $HOME/.gradle/caches/*/scripts/
   - rm -fr $HOME/.gradle/caches/*/scripts-remapped/
   - rm -fr $HOME/.gradle/caches/*/fileHashes/
 
 jobs:
-  include:
+  exclude:
     - stage: Build
-      script: ./gradlew --scan --watch-fs --parallel --build-cache compileJava compileTestJava -x classes test -x testClasses -x processTestResources jacocoTestReport
+    - stage: Compile
+    - stage: Scan
+    - stage: Test
+  include:
+    - stage: compile-source-code
+      script: ./gradlew --parallel --build-cache --scan compileJava compileTestJava -x classes
       workspaces:
         create:
-          name: shared
+          name: compile
           paths: .
 
-    - stage: Scan
+    - stage: run-unit-tests
+      script: ./gradlew --parallel --build-cache --scan test -x classes -x testClasses jacocoTestReport
       workspaces:
-        use: shared
-      script: ./gradlew --scan --watch-fs -Pversion=$VERSION sonarqube -x test $SONAR_OPTS
+        use: compile
+        create:
+          name: test
+          paths: .
 
-  # Default stages
-  exclude:
-    - stage: build
-    - stage: test
-    - stage: scan
+    - stage: analyze-code-quality
+      script: ./gradlew --scan -Pversion=$VERSION sonarqube -x compileJava -x compileTestJava $SONAR_OPTS
+      workspaces:
+        use:
+          - test
