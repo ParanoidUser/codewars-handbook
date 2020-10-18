@@ -1,4 +1,5 @@
 # \#
+- [|||clickbait||| Matrix Shift |||clickbait|||](clickbait-matrix-shift-clickbait)
 - [1/n- Cycle](1-slash-n-cycle)
 - [80's Kids #4: Legends of the Hidden Temple](80-s-kids-number-4-legends-of-the-hidden-temple)
 - [80's Kids #7: She's a Small Wonder](80-s-kids-number-7-shes-a-small-wonder)
@@ -339,5 +340,3 @@
 - [Your order, please](your-order-please)
 # Z
 - [Zig-Zag Camel](zig-zag-camel)
-# \#
-- [|||clickbait||| Matrix Shift |||clickbait|||](clickbait-matrix-shift-clickbait)
