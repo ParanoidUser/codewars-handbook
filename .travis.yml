@@ -14,8 +14,8 @@ cache:
 install: skip
 
 before_cache:
-  - rm -f  $HOME/.gradle/caches/*/*.lock
-  - rm -f  $HOME/.gradle/caches/*/*/*.lock
+  # - rm -f  $HOME/.gradle/caches/*/*.lock
+  # - rm -f  $HOME/.gradle/caches/*/*/*.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
   - rm -fr $HOME/.gradle/caches/*/scripts/
   - rm -fr $HOME/.gradle/caches/*/scripts-remapped/
@@ -25,74 +25,113 @@ before_cache:
 jobs:
   exclude:
     - stage: Build
-    - stage: Scan
-  include:
     - stage: Compile
-      script: ./gradlew --parallel --build-cache --scan compileJava compileTestJava -x classes
+    - stage: Scan
+    - stage: Test
+  include:
+    - stage: "Compile Source Code"
+      name: 3-kyu
+      script: ./gradlew --parallel --build-cache --scan :3-kyu:clean :3-kyu:compileJava :3-kyu:compileTestJava -x classes
       workspaces:
         create:
-          name: all-classes
-          paths: .
+          name: 3-kyu-compile
+          paths: ./kata/3-kyu
+    - name: 4-kyu
+      script: ./gradlew --parallel --build-cache --scan :4-kyu:clean :4-kyu:compileJava :4-kyu:compileTestJava -x classes
+      workspaces:
+        create:
+          name: 4-kyu-compile
+          paths: ./kata/4-kyu
+    - name: 5-kyu
+      script: ./gradlew --parallel --build-cache --scan :5-kyu:clean :5-kyu:compileJava :5-kyu:compileTestJava -x classes
+      workspaces:
+        create:
+          name: 5-kyu-compile
+          paths: ./kata/5-kyu
+    - name: 6-kyu
+      script: ./gradlew --parallel --build-cache --scan :6-kyu:clean :6-kyu:compileJava :6-kyu:compileTestJava -x classes
+      workspaces:
+        create:
+          name: 6-kyu-compile
+          paths: ./kata/6-kyu
+    - name: 7-kyu
+      script: ./gradlew --parallel --build-cache --scan :7-kyu:clean :7-kyu:compileJava :7-kyu:compileTestJava -x classes
+      workspaces:
+        create:
+          name: 7-kyu-compile
+          paths: ./kata/7-kyu
+    - name: 8-kyu
+      script: ./gradlew --parallel --build-cache --scan :8-kyu:clean :8-kyu:compileJava :8-kyu:compileTestJava -x classes
+      workspaces:
+        create:
+          name: 8-kyu-compile
+          paths: ./kata/8-kyu
+    - name: beta
+      script: ./gradlew --parallel --build-cache --scan :beta:clean :beta:compileJava :beta:compileTestJava -x classes
+      workspaces:
+        create:
+          name: beta-compile
+          paths: ./kata/beta
 
-    - stage: Test
+    - stage: "Run Unit Tests"
       name: 3-kyu
       script: ./gradlew --parallel --build-cache --scan :3-kyu:test -x classes -x testClasses :3-kyu:jacocoTestReport
       workspaces:
-        use: all-classes
+        use: 3-kyu-compile
         create:
-          name: 3-kyu-test-results
+          name: 3-kyu-test
           paths: ./kata/3-kyu
     - name: 4-kyu
       script: ./gradlew --parallel --build-cache --scan :4-kyu:test -x classes -x testClasses :4-kyu:jacocoTestReport
       workspaces:
-        use: all-classes
+        use: 4-kyu-compile
         create:
-          name: 4-kyu-test-results
+          name: 4-kyu-test
           paths: ./kata/4-kyu
     - name: 5-kyu
       script: ./gradlew --parallel --build-cache --scan :5-kyu:test -x classes -x testClasses :5-kyu:jacocoTestReport
       workspaces:
-        use: all-classes
+        use: 5-kyu-compile
         create:
-          name: 5-kyu-test-results
+          name: 5-kyu-test
           paths: ./kata/5-kyu
     - name: 6-kyu
       script: ./gradlew --parallel --build-cache --scan :6-kyu:test -x classes -x testClasses :6-kyu:jacocoTestReport
       workspaces:
-        use: all-classes
+        use: 6-kyu-compile
         create:
-          name: 6-kyu-test-results
+          name: 6-kyu-test
           paths: ./kata/6-kyu
     - name: 7-kyu
       script: ./gradlew --parallel --build-cache --scan :7-kyu:test -x classes -x testClasses :7-kyu:jacocoTestReport
       workspaces:
-        use: all-classes
+        use: 7-kyu-compile
         create:
-          name: 7-kyu-test-results
+          name: 7-kyu-test
           paths: ./kata/7-kyu
     - name: 8-kyu
       script: ./gradlew --parallel --build-cache --scan :8-kyu:test -x classes -x testClasses :8-kyu:jacocoTestReport
       workspaces:
-        use: all-classes
+        use: 8-kyu-compile
         create:
-          name: 8-kyu-test-results
+          name: 8-kyu-test
           paths: ./kata/8-kyu
     - name: Beta
       script: ./gradlew --parallel --build-cache --scan :beta:test -x classes -x testClasses :beta:jacocoTestReport
       workspaces:
-        use: all-classes
+        use: beta-kyu-compile
         create:
-          name: beta-test-results
+          name: beta-test
           paths: ./kata/beta
 
-    - stage: Analyze
+    - stage: "Analyze Code Quality"
       script: ./gradlew --scan -Pversion=$VERSION sonarqube -x compileJava -x compileTestJava $SONAR_OPTS
       workspaces:
         use:
-          - 3-kyu-test-results
-          - 4-kyu-test-results
-          - 5-kyu-test-results
-          - 6-kyu-test-results
-          - 7-kyu-test-results
-          - 8-kyu-test-results
-          - beta-test-results
+          - 3-kyu-test
+          - 4-kyu-test
+          - 5-kyu-test
+          - 6-kyu-test
+          - 7-kyu-test
+          - 8-kyu-test
+          - beta-test
