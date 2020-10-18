@@ -14,29 +14,85 @@ cache:
 install: skip
 
 before_cache:
-  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
-  - rm -f  $HOME/.gradle/caches/transforms-1/transforms-1.lock
+  - rm -f  $HOME/.gradle/caches/*/*.lock
+  - rm -f  $HOME/.gradle/caches/*/*/*.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
   - rm -fr $HOME/.gradle/caches/*/scripts/
   - rm -fr $HOME/.gradle/caches/*/scripts-remapped/
   - rm -fr $HOME/.gradle/caches/*/fileHashes/
+  - rm -fr $HOME/.gradle/caches/*/executionHistory/
 
 jobs:
-  include:
+  exclude:
     - stage: Build
-      script: ./gradlew --parallel --build-cache --scan compileJava compileTestJava -x classes test -x testClasses -x processTestResources jacocoTestReport
+    - stage: Scan
+  include:
+    - stage: Compile
+      script: ./gradlew --parallel --build-cache --scan compileJava compileTestJava -x classes
       workspaces:
         create:
-          name: shared
+          name: all-classes
           paths: .
 
-    - stage: Scan
+    - stage: Test
+      name: 3-kyu
+      script: ./gradlew --parallel --build-cache --scan :3-kyu:test -x classes -x testClasses :3-kyu:jacocoTestReport
       workspaces:
-        use: shared
-      script: ./gradlew --scan -Pversion=$VERSION -x compileJava -x compileTestJava sonarqube $SONAR_OPTS
+        use: all-classes
+        create:
+          name: 3-kyu-test-results
+          paths: ./kata/3-kyu
+    - name: 4-kyu
+      script: ./gradlew --parallel --build-cache --scan :4-kyu:test -x classes -x testClasses :4-kyu:jacocoTestReport
+      workspaces:
+        use: all-classes
+        create:
+          name: 4-kyu-test-results
+          paths: ./kata/4-kyu
+    - name: 5-kyu
+      script: ./gradlew --parallel --build-cache --scan :5-kyu:test -x classes -x testClasses :5-kyu:jacocoTestReport
+      workspaces:
+        use: all-classes
+        create:
+          name: 5-kyu-test-results
+          paths: ./kata/5-kyu
+    - name: 6-kyu
+      script: ./gradlew --parallel --build-cache --scan :6-kyu:test -x classes -x testClasses :6-kyu:jacocoTestReport
+      workspaces:
+        use: all-classes
+        create:
+          name: 6-kyu-test-results
+          paths: ./kata/6-kyu
+    - name: 7-kyu
+      script: ./gradlew --parallel --build-cache --scan :7-kyu:test -x classes -x testClasses :7-kyu:jacocoTestReport
+      workspaces:
+        use: all-classes
+        create:
+          name: 7-kyu-test-results
+          paths: ./kata/7-kyu
+    - name: 8-kyu
+      script: ./gradlew --parallel --build-cache --scan :8-kyu:test -x classes -x testClasses :8-kyu:jacocoTestReport
+      workspaces:
+        use: all-classes
+        create:
+          name: 8-kyu-test-results
+          paths: ./kata/8-kyu
+    - name: Beta
+      script: ./gradlew --parallel --build-cache --scan :beta:test -x classes -x testClasses :beta:jacocoTestReport
+      workspaces:
+        use: all-classes
+        create:
+          name: beta-test-results
+          paths: ./kata/beta
 
-  # Default stages
-  exclude:
-    - stage: build
-    - stage: test
-    - stage: scan
+    - stage: Analyze
+      script: ./gradlew --scan -Pversion=$VERSION sonarqube -x compileJava -x compileTestJava $SONAR_OPTS
+      workspaces:
+        use:
+          - 3-kyu-test-results
+          - 4-kyu-test-results
+          - 5-kyu-test-results
+          - 6-kyu-test-results
+          - 7-kyu-test-results
+          - 8-kyu-test-results
+          - beta-test-results
