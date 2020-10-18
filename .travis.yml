@@ -29,7 +29,7 @@ jobs:
     - stage: Scan
     - stage: Test
   include:
-    - stage: "Compile Source Code"
+    - stage: compile-source-code
       name: 3-kyu
       script: ./gradlew --parallel --build-cache --scan :3-kyu:clean :3-kyu:compileJava :3-kyu:compileTestJava -x classes
       workspaces:
@@ -73,7 +73,7 @@ jobs:
           name: beta-compile
           paths: ./kata/beta
 
-    - stage: "Run Unit Tests"
+    - stage: run-unit-tests
       name: 3-kyu
       script: ./gradlew --parallel --build-cache --scan :3-kyu:test -x classes -x testClasses :3-kyu:jacocoTestReport
       workspaces:
@@ -124,7 +124,7 @@ jobs:
           name: beta-test
           paths: ./kata/beta
 
-    - stage: "Analyze Code Quality"
+    - stage: analyze-code-quality
       script: ./gradlew --scan -Pversion=$VERSION sonarqube -x compileJava -x compileTestJava $SONAR_OPTS
       workspaces:
         use:
