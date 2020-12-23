@@ -26,9 +26,8 @@ class SolutionTest {
     assertTrue(setResults.contains(3));
 
     assertEquals(3, setResults.size());
-
-    assertTrue(of(results).filter(n -> n == 1).count() * 1. / results.length - 1. / 3 < 0.005);
-    assertTrue(of(results).filter(n -> n == 2).count() * 1. / results.length - 1. / 3 < 0.005);
-    assertTrue(of(results).filter(n -> n == 3).count() * 1. / results.length - 1. / 3 < 0.005);
+    assertEquals(0.333, of(results).filter(n -> n == 1).count() * 1. / results.length, 0.01);
+    assertEquals(0.333, of(results).filter(n -> n == 2).count() * 1. / results.length, 0.01);
+    assertEquals(0.333, of(results).filter(n -> n == 3).count() * 1. / results.length, 0.01);
   }
 }
