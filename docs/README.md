@@ -9,7 +9,7 @@
       <img src="https://img.shields.io/badge/solved%20kata-1040-red.svg"
            title="Solved kata 👌">
    </a>
-   <a href="https://travis-ci.org/ParanoidUser/codewars-handbook">
+   <a href="https://travis-ci.com/ParanoidUser/codewars-handbook">
       <img src="https://img.shields.io/travis/ParanoidUser/codewars-handbook.svg"
            title="CI pipeline 🛠">
    </a>
