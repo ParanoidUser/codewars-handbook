@@ -1,5 +1,5 @@
 interface Consonants {
   static int getCount(String str) {
-    return str.replaceAll("[^a-zA-Z]|[aeiou]", "").length();
+    return str.replaceAll("(?i)[^bcdfghj-np-tv-z]", "").length();
   }
 }
