@@ -320,6 +320,7 @@
 - [Quicksum](quicksum)
 # R
 - [Recursion 101](recursion-101)
+- [Red Knight](red-knight)
 - [Redacted!](redacted)
 - [Regex validate PIN code](regex-validate-pin-code)
 - [Regex validation of 24 hours time.](regex-validation-of-24-hours-time)
