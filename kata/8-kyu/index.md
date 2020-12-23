@@ -120,6 +120,7 @@
 - [Merging sorted integer arrays (without duplicates)](merging-sorted-integer-arrays-without-duplicates)
 - [Miles per gallon to kilometers per liter](miles-per-gallon-to-kilometers-per-liter)
 - [Multiple of index](multiple-of-index)
+- [Multiplication table for number](multiplication-table-for-number)
 - [Multiply](multiply)
 - [My head is at the wrong end!](my-head-is-at-the-wrong-end)
 # N

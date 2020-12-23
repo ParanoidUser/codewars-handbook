@@ -6,7 +6,7 @@
            title="Views statistics +1 👀">
    </a>
    <a href="https://www.codewars.com">
-      <img src="https://img.shields.io/badge/solved%20kata-1035-red.svg"
+      <img src="https://img.shields.io/badge/solved%20kata-1036-red.svg"
            title="Solved kata 👌">
    </a>
    <a href="https://travis-ci.org/ParanoidUser/codewars-handbook">
@@ -54,7 +54,7 @@ The repository contains a collection of Java solutions for Codewars challenges g
                title="- Defining a simple function (i.e. hello world)&#13;- Basic variable assignments&#13;- Fixing basic syntax issues&#13;- Trivial algorithms such as basic if/else statements">8th kyū
             </a>
          </td>
-         <td>174</td>
+         <td>175</td>
       </tr>
       <tr>
          <td>
