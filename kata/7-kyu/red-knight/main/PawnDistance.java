@@ -1,7 +1,9 @@
-import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
 
-@Data
+@AllArgsConstructor
+@EqualsAndHashCode
 class PawnDistance {
-  private final String color;
-  private final long distance;
+  final String color;
+  final long distance;
 }
