@@ -201,6 +201,7 @@
 - [How Green Is My Valley?](how-green-is-my-valley)
 - [How long should you cook this for?](how-long-should-you-cook-this-for)
 - [How many arguments](how-many-arguments)
+- [How many consecutive numbers are needed?](how-many-consecutive-numbers-are-needed)
 - [How many days are we represented in a foreign country?](how-many-days-are-we-represented-in-a-foreign-country)
 - [How many times does it contain?](how-many-times-does-it-contain)
 - [How many urinals are free?](how-many-urinals-are-free)
