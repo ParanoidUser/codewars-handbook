@@ -299,6 +299,7 @@
 - [ORing arrays](oring-arrays)
 - [Overflowing with joy](overflowing-with-joy)
 # P
+- [Palindrome chain length](palindrome-chain-length)
 - [Parallel resistors](parallel-resistors)
 - [Partial Word Searching](partial-word-searching)
 - [Parts of a list](parts-of-a-list)
