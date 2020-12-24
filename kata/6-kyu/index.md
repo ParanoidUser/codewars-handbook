@@ -227,6 +227,7 @@
 - [Reducing by steps](reducing-by-steps)
 - [Regex pattern to check if string has all characters](regex-pattern-to-check-if-string-has-all-characters)
 - [Regex Tic Tac Toe Win Checker](regex-tic-tac-toe-win-checker)
+- [Remove a Specific Element of an Array](remove-a-specific-element-of-an-array)
 - [Replacement](replacement)
 - [Return 1, 2, 3 randomly](return-1-2-3-randomly)
 - [Reverse a singly-linked list](reverse-a-singly-linked-list)
