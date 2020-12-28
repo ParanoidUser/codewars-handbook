@@ -302,6 +302,7 @@
 - [The Enigma Machine - Part 1: The Plugboard](the-enigma-machine-part-1-the-plugboard)
 - [The Modulo-3 Sequence](the-modulo-3-sequence)
 - [The Office V - Find a Chair](the-office-v-find-a-chair)
+- [The queen on the chessboard](the-queen-on-the-chessboard)
 - [The Spider and the Fly (Jumping Spider)](the-spider-and-the-fly-jumping-spider)
 - [The Supermarket Queue](the-supermarket-queue)
 - [The Walker](the-walker)
