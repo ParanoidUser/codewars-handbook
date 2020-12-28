@@ -149,6 +149,7 @@
 - [Hex class](hex-class)
 - [Hidden "Cubic" numbers](hidden-cubic-numbers)
 - [Highest Scoring Word](highest-scoring-word)
+- [How Many Numbers?](how-many-numbers)
 - [How Much?](how-much)
 - [HTML dynamic color string generation](html-dynamic-color-string-generation)
 # I
