@@ -117,6 +117,7 @@
 - [Figurate Numbers #1 - Pentagonal Number](figurate-numbers-number-1-pentagonal-number)
 - [Financing Plan on Planet XY140Z-n](financing-plan-on-planet-xy140z-n)
 - [Find last Fibonacci digit [hardcore version]](find-last-fibonacci-digit-hardcore-version)
+- [Find Numbers with Same Amount of Divisors](find-numbers-with-same-amount-of-divisors)
 - [Find the First Number in Having a Certain Number of Divisors I](find-the-first-number-in-having-a-certain-number-of-divisors-i)
 - [Find the missing letter](find-the-missing-letter)
 - [Find the odd int](find-the-odd-int)
