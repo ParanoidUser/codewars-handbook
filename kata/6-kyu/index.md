@@ -258,6 +258,7 @@
 - [Simple missing sum](simple-missing-sum)
 - [Simple nearest prime](simple-nearest-prime)
 - [Simple prime streaming](simple-prime-streaming)
+- [Simple reversed parenthesis](simple-reversed-parenthesis)
 - [Simple square numbers](simple-square-numbers)
 - [Simple string indices](simple-string-indices)
 - [Simple transposition](simple-transposition)
