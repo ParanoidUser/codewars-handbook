@@ -38,6 +38,7 @@
 - [Bit Counting](bit-counting)
 - [Bitcoin statistics](bitcoin-statistics)
 - [Blocky Octahedrons](blocky-octahedrons)
+- [Bonuses](bonuses)
 - [Bouncing Balls](bouncing-balls)
 - [Bowling Pins](bowling-pins)
 - [Braking well](braking-well)
