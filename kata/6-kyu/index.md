@@ -161,6 +161,7 @@
 - [Irreducible Sum of Rationals](irreducible-sum-of-rationals)
 - [Is a number prime?](is-a-number-prime)
 # J
+- [Java format Unicode encoder/decoder](java-format-unicode-encoder-slash-decoder)
 - [Jurassic Word](jurassic-word)
 # L
 - [L3375p34k](l3375p34k)
