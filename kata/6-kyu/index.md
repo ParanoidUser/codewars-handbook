@@ -240,6 +240,7 @@
 - [Reverse or rotate?](reverse-or-rotate)
 - [Reverse polish notation calculator](reverse-polish-notation-calculator)
 - [Reversing a Process](reversing-a-process)
+- [Reversing Euclid's GCD. Parameters out of results](reversing-euclids-gcd-parameters-out-of-results)
 - [RoboScript #1 - Implement Syntax Highlighting](roboscript-number-1-implement-syntax-highlighting)
 - [Roman Numerals Encoder](roman-numerals-encoder)
 - [Rotate Array](rotate-array)
