@@ -268,6 +268,7 @@
 - [Simple reversed parenthesis](simple-reversed-parenthesis)
 - [Simple square numbers](simple-square-numbers)
 - [Simple string indices](simple-string-indices)
+- [Simple time difference](simple-time-difference)
 - [Simple transposition](simple-transposition)
 - [Simpson's Rule - Approximate Integration](simpsons-rule-approximate-integration)
 - [Single character palindromes](single-character-palindromes)
