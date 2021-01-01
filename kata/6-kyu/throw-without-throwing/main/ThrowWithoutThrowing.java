@@ -1,62 +1,70 @@
 import java.nio.ByteBuffer;
-import java.util.Collections;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 interface ThrowWithoutThrowing {
+  ThreadLocal<Object[]> singleElementArray = ThreadLocal.withInitial(() -> new String[1]);
+  ThreadLocal<Stack<?>> newStack = ThreadLocal.withInitial(Stack::new);
+  ThreadLocal<List<?>> emptyList = ThreadLocal.withInitial(Collections::emptyList);
+  ThreadLocal<Iterator<?>> emptyIterator = ThreadLocal.withInitial(emptyList.get()::iterator);
+  ThreadLocal<ByteBuffer> emptyBuffer = ThreadLocal.withInitial(() -> ByteBuffer.allocate(0));
+  ThreadLocal<Runnable> recurringMethod = ThreadLocal.withInitial(() -> ThrowWithoutThrowing::stackOverflow);
+  ThreadLocal<String> invalidNumber = ThreadLocal.withInitial(() -> "");
+  ThreadLocal<Integer> negativeNumber = ThreadLocal.withInitial(() -> -1);
+  ThreadLocal<? super Object> outcome = new ThreadLocal<>();
+
   static void arrayIndexOutOfBound() {
-    Integer.valueOf((new int[0])[1]);
+    outcome.set(singleElementArray.get()[2]);
   }
 
   static void negativeArraySize() {
-    List.of(new int[-1]);
+    outcome.set(new int[negativeNumber.get()]);
   }
 
   static void noSuchElement() {
-    List.of().iterator().next();
+    emptyIterator.get().next();
   }
 
   static void arithmetic() {
-    Integer.valueOf(1 / 0);
+    outcome.set(1 / newStack.get().size());
   }
 
   static void classCast() {
-    ((String) new Object()).getClass();
+    outcome.set(((Integer[]) (singleElementArray.get()))[0].floatValue());
   }
 
   static void stackOverflow() {
-    stackOverflow();
+    recurringMethod.get().run();
   }
 
   static void nullPointer() {
-    ((Object) null).toString();
+    outcome.set(singleElementArray.get()[0].toString());
   }
 
   static void numberFormat() {
-    Integer.parseInt("");
+    outcome.set(Integer.parseInt(invalidNumber.get()));
   }
 
   static void illegalArgument() {
-    Character.toChars(-1);
+    outcome.set(Character.toChars(negativeNumber.get()));
   }
 
   static void emptyStack() {
-    new Stack<>().peek();
+    newStack.get().peek();
   }
 
   static void bufferOverflow() {
-    ByteBuffer.allocate(0).put((byte) 1);
+    emptyBuffer.get().put((byte) 1);
   }
 
   static void arrayStore() {
-    ((Object[]) new String[1])[0] = 0;
+    singleElementArray.get()[0] = 0;
   }
 
   static void unsupportedOperation() {
-    List.of().remove(0);
+    emptyList.get().remove(0);
   }
 
   static void illegalState() {
-    Collections.emptyIterator().remove();
+    emptyIterator.get().remove();
   }
 }
