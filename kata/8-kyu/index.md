@@ -156,6 +156,7 @@
 - [Simple multiplication](simple-multiplication)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
 - [Sleigh Authentication](sleigh-authentication)
+- [Smallest unused ID](smallest-unused-id)
 - [Sort and Star](sort-and-star)
 - [Sort My Textbooks](sort-my-textbooks)
 - [Square(n) Sum](square-n-sum)
