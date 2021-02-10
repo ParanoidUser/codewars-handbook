@@ -169,6 +169,7 @@
 - [Fun with lists: length](fun-with-lists-length)
 - [Functional Addition](functional-addition)
 - [Functions of Integers on Cartesian Plane](functions-of-integers-on-cartesian-plane)
+- [Fusion Chamber Shutdown](fusion-chamber-shutdown)
 # G
 - [GCD sum](gcd-sum)
 - [Geometry Basics: Dot Product in 3D](geometry-basics-dot-product-in-3d)
