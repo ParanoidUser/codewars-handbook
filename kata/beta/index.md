@@ -79,7 +79,6 @@
 - [Time Conversion](time-conversion)
 - [Tug-o'-War](tug-o-war)
 # U
-- [Uglify Word](uglify-word)
 - [Unique Characters](unique-characters)
 # V
 - [Vampire Numbers](vampire-numbers-2)

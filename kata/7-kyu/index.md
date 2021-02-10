@@ -465,6 +465,7 @@
 - [Two fighters, one winner](two-fighters-one-winner)
 - [Two to One](two-to-one)
 # U
+- [Uglify Word](uglify-word)
 - [Ultimate Array Reverser](ultimate-array-reverser)
 - [Unflatten a list (Easy)](unflatten-a-list-easy)
 - [Unique string characters](unique-string-characters)
