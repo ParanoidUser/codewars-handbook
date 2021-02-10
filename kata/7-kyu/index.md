@@ -410,6 +410,7 @@
 - [Stacked Balls - 3D (square base)](stacked-balls-3d-square-base)
 - [Stacked Balls - 3D (triangle base)](stacked-balls-3d-triangle-base)
 - [Stanton measure](stanton-measure)
+- [Status Arrays](status-arrays)
 - [String ends with?](string-ends-with)
 - [String interlacing](string-interlacing)
 - [String Merge!](string-merge)
