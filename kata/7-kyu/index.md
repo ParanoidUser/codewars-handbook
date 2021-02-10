@@ -100,6 +100,7 @@
 - [Count the divisors of a number](count-the-divisors-of-a-number)
 - [Counting power sets](counting-power-sets)
 - [Covfefe](covfefe)
+- [Create palindrome](create-palindrome)
 - [Credit card issuer checking](credit-card-issuer-checking)
 - [Credit Card Mask](credit-card-mask)
 - [Cryptanalysis Word Patterns](cryptanalysis-word-patterns)
