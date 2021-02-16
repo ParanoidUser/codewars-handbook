@@ -63,6 +63,7 @@
 - [Sexagesimal degree](sexagesimal-degree)
 - [Simple Equation](simpleequation)
 - [Simple string concatenator](simple-string-concatenator)
+- [Simplified Nim - AI](simplified-nim-ai)
 - [Sort an Array!](sort-an-array)
 - [Square Root of 2](square-root-of-2)
 - [Stop Donald Trump (2015)](stop-donald-trump-2015)
