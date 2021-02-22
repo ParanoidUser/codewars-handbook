@@ -38,6 +38,7 @@
 - [Holiday I - Temperature in Bali](holiday-i-temperature-in-bali)
 - [Horse Racing](horse-racing)
 - [How bigga ma pizza?](how-bigga-ma-pizza)
+- [How many inches does Subway waste?](how-many-inches-does-subway-waste)
 # I
 - [IKEA visit](ikea-visit)
 - [Index i?](index-i)
