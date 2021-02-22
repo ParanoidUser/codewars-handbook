@@ -43,6 +43,7 @@
 # L
 - [Letter to ASCII](letter-to-ascii)
 - [Load value from system variable](load-value-from-system-variable)
+- [Lost number of arithmetic progression](lost-number-of-arithmetic-progression)
 # M
 - [Math.pow?](math-dot-pow)
 - [Merging Phone Numbers](merging-phone-numbers)
