@@ -20,6 +20,8 @@
 - [Count the likes](count-the-likes)
 - [Counting Characters](counting-characters)
 - [Counting like a kid](counting-like-a-kid)
+# D
+- [Divisible by 9?](divisible-by-9)
 # F
 - [Fibonacci Number](fibonacci-number-1)
 - [Find Email Domain](find-email-domain)
