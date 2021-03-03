@@ -360,6 +360,7 @@
 - [Send in the Clones](send-in-the-clones)
 - [SequenceSum](sequencesum)
 - [Shift Left](shift-left-1)
+- [Shifter words](shifter-words)
 - [Shorter concat [reverse longer]](shorter-concat-reverse-longer)
 - [Shortest Word](shortest-word)
 - [Show multiples of 2 numbers within a range](show-multiples-of-2-numbers-within-a-range)
