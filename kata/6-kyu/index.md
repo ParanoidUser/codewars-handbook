@@ -131,6 +131,7 @@
 - [FLAMES Game version 1](flames-game-version-1)
 - [Floating-point Approximation (I)](floating-point-approximation-i)
 - [Fold an array](fold-an-array)
+- [Follow that Spy](follow-that-spy)
 - [Format words into a sentence](format-words-into-a-sentence)
 - [Fractions class](fractions-class)
 - [Frog jumping](frog-jumping)
