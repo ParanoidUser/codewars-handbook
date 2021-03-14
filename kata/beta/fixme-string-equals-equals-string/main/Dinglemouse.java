@@ -1,5 +1,7 @@
+import static java.lang.CharSequence.compare;
+
 interface Dinglemouse {
   static boolean same(String a, String b) {
-    return a.replace(b, "").isEmpty();
+    return compare(a, b) == 0;
   }
 }
