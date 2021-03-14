@@ -343,6 +343,7 @@
 - [Responsible Drinking](responsible-drinking)
 - [Return the first M multiples of N](return-the-first-m-multiples-of-n)
 - [Reverse a Number](reverse-a-number)
+- [Reverse the bits in an integer](reverse-the-bits-in-an-integer)
 - [Reverse words](reverse-words)
 - [Reversing Fun](reversing-fun)
 - [Robinson Crusoe](robinson-crusoe)
