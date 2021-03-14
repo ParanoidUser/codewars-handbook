@@ -7,6 +7,8 @@ class SolutionTest {
   @Test
   void sample() {
     assertTrue(Dinglemouse.same("abc", "abc"));
+    assertTrue(Dinglemouse.same("", ""));
     assertFalse(Dinglemouse.same("abc", "def"));
+    assertFalse(Dinglemouse.same("", "stuvwx"));
   }
 }
