@@ -90,6 +90,7 @@
 - [Decode the Morse code](decode-the-morse-code)
 - [Delete occurrences of an element if it occurs more than n times](delete-occurrences-of-an-element-if-it-occurs-more-than-n-times)
 - [Detect Pangram](detect-pangram)
+- [Determine the date by the day number](determine-the-date-by-the-day-number)
 - [Difference of 2](difference-of-2)
 - [Disease Spread](disease-spread)
 - [Divisible Ints](divisible-ints)
