@@ -326,6 +326,7 @@
 - [Tribonacci Sequence](tribonacci-sequence)
 - [Triple Sorting - Sort & Stringify a list by 3 attributes](triple-sorting-sort-and-stringify-a-list-by-3-attributes)
 - [Triple trouble](triple-trouble-1)
+- [Trumpness detector](trumpness-detector)
 - [Two cube sums](two-cube-sums)
 - [Two Sum](two-sum)
 # U
