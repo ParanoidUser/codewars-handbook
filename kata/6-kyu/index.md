@@ -280,6 +280,7 @@
 - [Single character palindromes](single-character-palindromes)
 - [Single Word Pig Latin](single-word-pig-latin)
 - [Some Fun with Aggregate Operations (Part 1)](some-fun-with-aggregate-operations-part-1)
+- [Some Fun with Aggregate Operations (Part 2)](some-fun-with-aggregate-operations-part-2)
 - [Sort array by sorting its smallest sub-array](sort-array-by-sorting-its-smallest-sub-array)
 - [Sort the odd](sort-the-odd)
 - [Sortable Shapes](sortable-shapes)
