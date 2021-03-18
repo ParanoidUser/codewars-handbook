@@ -49,6 +49,7 @@
 - [Lost number of arithmetic progression](lost-number-of-arithmetic-progression)
 # M
 - [Math.pow?](math-dot-pow)
+- [Max Consecutive Sum](max-consecutive-sum)
 - [Merging Phone Numbers](merging-phone-numbers)
 - [Mode Count](mode-count)
 - [Multiline String Maker](multiline-string-maker)
