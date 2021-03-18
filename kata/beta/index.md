@@ -73,6 +73,7 @@
 - [Square Root of 2](square-root-of-2)
 - [Stop Donald Trump (2015)](stop-donald-trump-2015)
 - [String anagram checker](string-anagram-checker)
+- [String Calculator With Different Input Types](string-calculator-with-different-input-types)
 - [String Product](string-product)
 - [Sum and Count All Odds vs Evens](sum-and-count-all-odds-vs-evens)
 - [Sum of list values](sum-of-list-values)
