@@ -176,6 +176,7 @@
 - [LOTTO 6 aus 49 - 6 of 49](lotto-6-aus-49-6-of-49)
 - [Lucas numbers](lucas-numbers)
 # M
+- [Make A Window](make-a-window)
 - [Make the Deadfish swim](make-the-deadfish-swim)
 - [Matrix Addition](matrix-addition)
 - [Meeting](meeting)
