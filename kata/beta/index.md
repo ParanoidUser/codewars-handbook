@@ -60,6 +60,7 @@
 - [Perimeter of a Rectangle](perimeter-of-a-rectangle)
 - [Phase Transitions](phase-transitions)
 - [Positive & Negative Regex](positive-and-negative-regex)
+- [Primary Primes](primary-primes)
 # R
 - [Random Wallpaper](random-wallpaper)
 - [Range Merging](range-merging)
