@@ -156,6 +156,7 @@
 - [Highest Scoring Word](highest-scoring-word)
 - [How Many Numbers?](how-many-numbers)
 - [How Much?](how-much)
+- [HTML Complementary Color](html-complementary-color)
 - [HTML dynamic color string generation](html-dynamic-color-string-generation)
 # I
 - [Image host filename generator](image-host-filename-generator)
