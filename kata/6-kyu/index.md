@@ -144,6 +144,7 @@
 - [Fun with trees: max sum](fun-with-trees-max-sum)
 - [Function iteration](function-iteration)
 # G
+- [Get the Excel column title!](get-the-excel-column-title)
 - [Give me a Diamond](give-me-a-diamond)
 - [Grill it!](grill-it)
 - [Guess the function](guess-the-function)
