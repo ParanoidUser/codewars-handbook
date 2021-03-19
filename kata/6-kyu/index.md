@@ -96,6 +96,7 @@
 - [Disease Spread](disease-spread)
 - [Divisible Ints](divisible-ints)
 - [Dubstep](dubstep)
+- [Dude, my computer cannot count!](dude-my-computer-cannot-count)
 - [Duplicate Encoder](duplicate-encoder)
 # E
 - [Ease the StockBroker](ease-the-stockbroker)
