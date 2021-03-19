@@ -184,6 +184,7 @@
 - [Matrix Addition](matrix-addition)
 - [Meeting](meeting)
 - [Merge in 2048](merge-in-2048)
+- [Message Validator](message-validator)
 - [Mexican Wave](mexican-wave)
 - [Minutes to Midnight](minutes-to-midnight)
 - [Missing Alphabet](missing-alphabet)
