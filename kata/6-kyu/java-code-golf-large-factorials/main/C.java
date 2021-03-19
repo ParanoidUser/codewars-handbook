@@ -1,0 +1,1 @@
+import java.math.*;class C{static String f(int n){return n>1?new BigDecimal(n).multiply(new BigDecimal(f(n-1)))+"":"1";}}
