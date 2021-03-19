@@ -169,6 +169,7 @@
 - [Irreducible Sum of Rationals](irreducible-sum-of-rationals)
 - [Is a number prime?](is-a-number-prime)
 # J
+- [Java Code Golf: Large Factorials](java-code-golf-large-factorials)
 - [Java format Unicode encoder/decoder](java-format-unicode-encoder-slash-decoder)
 - [Jurassic Word](jurassic-word)
 # L
