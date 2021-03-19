@@ -78,6 +78,7 @@
 - [Convert string to camel case](convert-string-to-camel-case)
 - [Count the days!](count-the-days)
 - [Count the divisible numbers](count-the-divisible-numbers)
+- [Count the number of days between two dates](count-the-number-of-days-between-two-dates)
 - [Count the smiley faces!](count-the-smiley-faces)
 - [Counting Duplicates](counting-duplicates)
 - [Crack the PIN](crack-the-pin)
