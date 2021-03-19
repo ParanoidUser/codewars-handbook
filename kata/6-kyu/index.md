@@ -283,6 +283,7 @@
 - [Some Fun with Aggregate Operations (Part 1)](some-fun-with-aggregate-operations-part-1)
 - [Some Fun with Aggregate Operations (Part 2)](some-fun-with-aggregate-operations-part-2)
 - [Some Fun with Aggregate Operations (Part 3)](some-fun-with-aggregate-operations-part-3)
+- [Some Fun with Aggregate Operations (Part 4)](some-fun-with-aggregate-operations-part-4)
 - [Sort array by sorting its smallest sub-array](sort-array-by-sorting-its-smallest-sub-array)
 - [Sort the odd](sort-the-odd)
 - [Sortable Shapes](sortable-shapes)
