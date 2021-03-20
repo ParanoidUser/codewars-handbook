@@ -305,6 +305,7 @@
 - [String Pyramid](string-pyramid)
 - [String searching with wildcard](string-searching-with-wildcard)
 - [String subpattern recognition I](string-subpattern-recognition-i)
+- [String subpattern recognition III](string-subpattern-recognition-iii)
 - [Strongest even number in an interval](strongest-even-number-in-an-interval)
 - [Sum consecutives](sum-consecutives)
 - [Sum of Digits / Digital Root](sum-of-digits-slash-digital-root)
