@@ -6,7 +6,7 @@
            title="Views statistics +1 👀">
    </a>
    <a href="https://www.codewars.com">
-      <img src="https://img.shields.io/badge/solved%20kata-1091-red.svg"
+      <img src="https://img.shields.io/badge/solved%20kata-1092-red.svg"
            title="Solved kata 👌">
    </a>
    <a href="https://travis-ci.com/ParanoidUser/codewars-handbook">
@@ -71,7 +71,7 @@ The repository contains a collection of Java solutions for Codewars challenges g
                title="- Complex language features (closures, scopes, monads, etc)&#13;- Complex OOP/Functional concepts&#13;- Basic Design Patterns&#13;- Complex Regular Expressions">6th kyū
             </a>
          </td>
-         <td>349</td>
+         <td>350</td>
       </tr>
       <tr>
          <td>
