@@ -195,6 +195,7 @@
 - [Welcome to the City](welcome-to-the-city)
 - [Welcome!](welcome)
 - [Well of Ideas - Easy Version](well-of-ideas-easy-version)
+- [What is between?](what-is-between)
 - [Will there be enough space?](will-there-be-enough-space)
 - [Will you make it?](will-you-make-it)
 - [Wilson primes](wilson-primes)
