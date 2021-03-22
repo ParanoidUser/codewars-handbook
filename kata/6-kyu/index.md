@@ -357,6 +357,7 @@
 - [Vasya and Stairs](vasya-and-stairs)
 - [Vasya and System of Equations](vasya-and-system-of-equations)
 # W
+- [We are the Robots d[(0)(0)]b](we-are-the-robots-d-0-0-b)
 - [What century is it?](what-century-is-it)
 - [What time is it?](what-time-is-it-1)
 - [What's in a name?](whats-in-a-name)
