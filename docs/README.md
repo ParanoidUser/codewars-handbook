@@ -1,8 +1,8 @@
 <h1 align="center">Codewars Handbook ☕️🚀</h1>
 
 <p align="center">
-   <a href="http://hits.dwyl.io/ParanoidUser/codewars-handbook">
-      <img src="https://img.shields.io/badge/dynamic/xml?color=success&label=views&query=//*[name()=%27text%27][2]&url=http://hits.dwyl.io/ParanoidUser/codewars.svg"
+   <a href="https://hits.dwyl.com/ParanoidUser/codewars-handbook">
+      <img src="https://img.shields.io/badge/dynamic/xml?color=success&label=views&query=//*[name()=%27text%27][2]&url=https://hits.dwyl.com/ParanoidUser/codewars.svg"
            title="Views statistics +1 👀">
    </a>
    <a href="https://www.codewars.com">
