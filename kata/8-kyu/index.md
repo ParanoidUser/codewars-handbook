@@ -22,6 +22,7 @@
 - [Be Concise I - The Ternary Operator](be-concise-i-the-ternary-operator)
 - [Beginner - Lost Without a Map](beginner-lost-without-a-map)
 - [Beginner - Reduce but Grow](beginner-reduce-but-grow)
+- [Beginner Series #1 School Paperwork](beginner-series-number-1-school-paperwork)
 - [Beginner Series #2 Clock](beginner-series-number-2-clock)
 - [Beginner Series #4 Cockroach](beginner-series-number-4-cockroach)
 # C
