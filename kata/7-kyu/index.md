@@ -106,6 +106,7 @@
 - [Credit Card Mask](credit-card-mask)
 - [Cryptanalysis Word Patterns](cryptanalysis-word-patterns)
 - [Curing Arachnophobia](curing-arachnophobia)
+- [Currying functions: multiply all elements in an array](currying-functions-multiply-all-elements-in-an-array)
 # D
 - [Decimal decomposition](decimal-decomposition)
 - [Decipher the Message](decipher-the-message)
