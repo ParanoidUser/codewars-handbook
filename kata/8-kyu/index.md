@@ -111,6 +111,7 @@
 # K
 - [Kata Example Twist](kata-example-twist)
 - [Keep Hydrated!](keep-hydrated-1)
+- [Keep up the hoop](keep-up-the-hoop)
 # L
 - [L1: Set Alarm](l1-set-alarm)
 - [Lario and Muigi Pipe Problem](lario-and-muigi-pipe-problem)
