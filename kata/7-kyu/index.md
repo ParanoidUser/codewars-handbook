@@ -15,6 +15,7 @@
 - [Adding values of arrays in a shifted way](adding-values-of-arrays-in-a-shifted-way)
 - [Age in days](age-in-days)
 - [All Inclusive?](all-inclusive)
+- [All Star Code Challenge #22](all-star-code-challenge-number-22)
 - [Alphabet symmetry](alphabet-symmetry)
 - [Alphabet war](alphabet-war)
 - [Alphabetical Addition](alphabetical-addition)
