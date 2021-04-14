@@ -147,6 +147,7 @@
 - [Remove String Spaces](remove-string-spaces)
 - [RepeatIt](repeatit)
 - [Return Negative](return-negative)
+- [Returning Strings](returning-strings)
 - [Reversed sequence](reversed-sequence)
 - [Reversed Strings](reversed-strings)
 - [Reversed Words](reversed-words)
