@@ -1,7 +1,7 @@
 plugins {
     java
     jacoco
-    id("org.sonarqube") version "3.1.1"
+    id("org.sonarqube") version "3.3"
 }
 
 subprojects {
