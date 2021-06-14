@@ -62,14 +62,14 @@ subprojects {
                 showStackTraces = false
             }
             reports {
-                junitXml.isEnabled = false
-                html.isEnabled = false
+                junitXml.required.set(false)
+                html.required.set(false)
             }
         }
         jacocoTestReport {
             reports {
-                xml.isEnabled = true
-                html.isEnabled = false
+                xml.required.set(true)
+                html.required.set(false)
             }
         }
     }
