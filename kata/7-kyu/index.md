@@ -66,6 +66,7 @@
 - [Cartesian coordinates from degree angle](cartesian-coordinates-from-degree-angle)
 - [Cartesian neighbors](cartesian-neighbors)
 - [Cat Years, Dog Years (2)](cat-years-dog-years-2)
+- [Center of the Matrix](center-of-the-matrix)
 - [Ch4113ng3](ch4113ng3)
 - [Changing letters](changing-letters)
 - [Character Counter](character-counter)
