@@ -238,6 +238,7 @@
 # L
 - [Large sum](large-sum)
 - [Largest 5 digit number in a series](largest-5-digit-number-in-a-series)
+- [Largest pair sum in array](largest-pair-sum-in-array)
 - [Last](last)
 - [Laxative Shot Roulette](laxative-shot-roulette)
 - [Letterbox Paint-Squad](letterbox-paint-squad)
