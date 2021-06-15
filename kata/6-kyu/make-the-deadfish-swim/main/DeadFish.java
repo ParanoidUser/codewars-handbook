@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 interface DeadFish {
   static int[] parse(String data) {
-    int value = 0;
+    var value = 0;
     var results = new ArrayList<Integer>();
     for (char c : data.toCharArray()) {
       if (c == 'i') value++;

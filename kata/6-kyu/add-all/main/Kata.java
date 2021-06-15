@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 interface Kata {
   static int addAll(int[] numbers) {
-    int total = 0;
+    var total = 0;
     while (numbers.length > 1) {
       Arrays.sort(numbers);
       total += numbers[1] += numbers[0];

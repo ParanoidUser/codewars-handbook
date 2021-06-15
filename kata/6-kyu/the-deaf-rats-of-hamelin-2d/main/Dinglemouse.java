@@ -3,8 +3,8 @@ import java.util.function.BiPredicate;
 
 interface Dinglemouse {
   static int countDeafRats(char[][] townSquare) {
-    int[] piper = {-1, -1};
-    for (int i = 0; piper[0] < 0; i++) {
+    var piper = new int[]{-1, -1};
+    for (var i = 0; piper[0] < 0; i++) {
       piper[0] = new String(townSquare[i]).indexOf('P');
       piper[1] = i;
     }
@@ -19,9 +19,9 @@ interface Dinglemouse {
             '←', (x, y) -> x <= piper[0],
             '→', (x, y) -> x >= piper[0]);
 
-    int deaf = 0;
-    for (int i = 0; i < townSquare.length; i++) {
-      for (int j = 0; j < townSquare[i].length; j++) {
+    var deaf = 0;
+    for (var i = 0; i < townSquare.length; i++) {
+      for (var j = 0; j < townSquare[i].length; j++) {
         if (goingWrong.getOrDefault(townSquare[i][j], (x, y) -> false).test(j, i)) {
           deaf++;
         }

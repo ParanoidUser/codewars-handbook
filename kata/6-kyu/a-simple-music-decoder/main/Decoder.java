@@ -19,9 +19,9 @@ class Decoder {
     }
     var sequential = compile("(-?\\d+)-(-?\\d+)(/(-?\\d+))?").matcher(signal);
     if (sequential.find()) {
-      int from = Integer.parseInt(sequential.group(1));
-      int to = Integer.parseInt(sequential.group(2));
-      int step = Integer.parseInt(ofNullable(sequential.group(4)).orElse("1"));
+      var from = Integer.parseInt(sequential.group(1));
+      var to = Integer.parseInt(sequential.group(2));
+      var step = Integer.parseInt(ofNullable(sequential.group(4)).orElse("1"));
       return iterate(from, i -> to > from ? i <= to : i >= to, i -> to > from ? i + step : i - step);
     }
     return IntStream.of(Integer.parseInt(signal));

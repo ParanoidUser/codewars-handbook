@@ -12,7 +12,7 @@ class Score {
   public boolean equals(Object o) {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
-    Score score = (Score) o;
+    var score = (Score) o;
     return me == score.me && opponent == score.opponent;
   }
 

@@ -2,8 +2,8 @@ final class Dinglemouse {
   static final String ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ?!@#&()|<>.:=-+*/0123456789";
 
   static int[][] flapRotors(String[] linesBefore, String[] linesAfter) {
-    int[][] rotors = new int[linesBefore.length][];
-    for (int i = 0; i < linesBefore.length; i++) {
+    var rotors = new int[linesBefore.length][];
+    for (var i = 0; i < linesBefore.length; i++) {
       rotors[i] = new int[linesBefore[i].length()];
       for (int j = 0, f = ALPHABET.length(); j < linesBefore[i].length(); j++) {
         int afterPos = ALPHABET.indexOf(linesAfter[i].charAt(j));

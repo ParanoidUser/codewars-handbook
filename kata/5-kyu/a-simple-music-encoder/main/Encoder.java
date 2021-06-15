@@ -1,7 +1,7 @@
 class Encoder {
   String compress(int[] raw) {
     var encoded = new StringBuilder();
-    for (int i = 0; i < raw.length; i++) {
+    for (var i = 0; i < raw.length; i++) {
       int j = 1, diff = i < raw.length - 1 ? raw[i + 1] - raw[i] : 1;
       while (j + i < raw.length && raw[j + i] == raw[i] + j * diff) j++;
 

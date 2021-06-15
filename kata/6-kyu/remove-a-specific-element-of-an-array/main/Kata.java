@@ -9,7 +9,7 @@ interface Kata {
 
     double min = prod;
     var idx = new HashSet<Integer>();
-    for (int i = 0; i < arr.length; i++) {
+    for (var i = 0; i < arr.length; i++) {
       var q = Math.abs(prod / arr[i] / (sum == arr[i] ? 1 : sum - arr[i]));
       if (q < min) {
         min = q;

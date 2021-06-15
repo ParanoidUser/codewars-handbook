@@ -16,8 +16,8 @@ interface Pyramid {
   static String watchPyramidFromAbove(String characters) {
     if (characters == null) return null;
     var above = new StringBuilder();
-    for (int i = 0; i < characters.length(); i++) {
-      for (int j = 0; j < i; j++) {
+    for (var i = 0; i < characters.length(); i++) {
+      for (var j = 0; j < i; j++) {
         above.append(characters.charAt(j));
       }
       above.append((characters.charAt(i) + "").repeat(2 * (characters.length() - i) - 1));
@@ -27,8 +27,8 @@ interface Pyramid {
       above.append("\n");
     }
 
-    for (int i = 0; i < characters.length() - 1; i++) {
-      for (int j = 0; j < characters.length() - i - 1; j++) {
+    for (var i = 0; i < characters.length() - 1; i++) {
+      for (var j = 0; j < characters.length() - i - 1; j++) {
         above.append(characters.charAt(j));
       }
       above.append((characters.charAt(characters.length() - i - 2) + "").repeat(2 * i + 1));

@@ -14,7 +14,7 @@ interface Dinglemouse {
     BiPredicate<Integer, Integer> left = (i, j) -> j > 1 && hive[i][j - 1] == 'e' && hive[i][j - 2] == 'e';
     BiPredicate<Integer, Integer> right = (i, j) -> j < hive[i].length - 2 && hive[i][j + 1] == 'e' && hive[i][j + 2] == 'e';
 
-    int bees = 0;
+    var bees = 0;
     for (var ij : bs) {
       if (up.test(ij.getLeft(), ij.getRight())) bees++;
       if (down.test(ij.getLeft(), ij.getRight())) bees++;

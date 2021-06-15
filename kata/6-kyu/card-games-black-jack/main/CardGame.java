@@ -19,7 +19,7 @@ interface CardGame {
     var win = new ArrayList<String>();
     if (!blackjack.test(croupier)) {
       var players = List.of(p1, p2, p3);
-      for (int i = 0; i < players.size(); i++)
+      for (var i = 0; i < players.size(); i++)
         if (blackjack.test(players.get(i)) || count(players.get(i)) < 22 && (house > 21 || count(players.get(i)) > house))
           win.add("Player " + (i + 1));
     }

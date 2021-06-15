@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 interface UIB {
   static void countAs() {
-    int count = 0;
+    var count = 0;
     try (var in = new Scanner(System.in).useDelimiter("\\.")) {
       while (in.hasNext()) {
         count += in.next().replaceAll("[^a]", "").length();

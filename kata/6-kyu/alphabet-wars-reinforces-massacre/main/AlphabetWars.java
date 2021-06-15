@@ -7,7 +7,7 @@ interface AlphabetWars {
   static String reinforcesMassacre(String[] reinforces, String[] airstrikes) {
     var losses = new int[reinforces[0].length()];
     for (String strike : airstrikes) {
-      int[] massacre = new int[losses.length];
+      var massacre = new int[losses.length];
       int bombAt;
       while ((bombAt = strike.indexOf('*')) != -1) {
         massacre[Math.max(bombAt - 1, 0)] = massacre[bombAt] = massacre[Math.min(bombAt + 1, massacre.length - 1)] = 1;

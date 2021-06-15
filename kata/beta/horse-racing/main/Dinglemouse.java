@@ -23,13 +23,13 @@ interface Dinglemouse {
   }
 
   private static String[] raceTop(double[][] horses) {
-    String[] top = {"", "", ""};
+    var top = new String[]{"", "", ""};
     IntSupplier places = () -> range(0, 3).filter(i -> top[i].isEmpty()).findFirst().orElse(0);
     IntFunction<String> names = h ->  h > 1 ? "C " : h > 0 ? "B " : "A ";
-    double[] dist = new double[3];
-    for (int i = 0; i < horses[0].length && of(top).mapToInt(String::length).sum() < 6; i++) {
-      int place = places.getAsInt();
-      for (int h = 0; h < 3; h++) {
+    var dist = new double[3];
+    for (var i = 0; i < horses[0].length && of(top).mapToInt(String::length).sum() < 6; i++) {
+      var place = places.getAsInt();
+      for (var h = 0; h < 3; h++) {
         if (dist[h] < 10 && (dist[h] += horses[h][i]) >= 10) {
           top[place] += names.apply(h);
         }

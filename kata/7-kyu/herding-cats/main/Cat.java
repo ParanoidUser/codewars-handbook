@@ -22,7 +22,7 @@ class Cat implements Comparable<Cat> {
     if (!(o instanceof Cat)) {
       return false;
     }
-    Cat cat = (Cat) o;
+    var cat = (Cat) o;
     return Double.compare(cat.weight, weight) == 0 && Objects.equals(name, cat.name);
   }
 

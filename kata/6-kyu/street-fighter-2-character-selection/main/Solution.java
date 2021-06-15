@@ -1,6 +1,6 @@
 interface Solution {
   static String[] streetFighterSelection(String[][] fighters, int[] position, String[] moves) {
-    for (int i = 0; i < moves.length; i++) {
+    for (var i = 0; i < moves.length; i++) {
       switch (moves[i]) {
         case "right": position[1] = (position[1] + 1) % 6; break;
         case "left": position[1] = (position[1] + 5) % 6; break;

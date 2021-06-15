@@ -1,6 +1,6 @@
 interface Solution {
   static int[] solve(int a, int b) {
-    for (int i = 0; i < 3; i++) {
+    for (var i = 0; i < 3; i++) {
       a %= 2 * Math.max(b, 1);
       b %= 2 * Math.max(a, 1);
     }

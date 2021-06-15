@@ -2,7 +2,7 @@ interface Kata {
   static String fatFingers(String str) {
     if (str == null) return null;
     var output = new StringBuilder();
-    boolean caps = false;
+    var caps = false;
     for (char c : str.toCharArray()) {
       if (c == 'a' || c == 'A') {
         caps = !caps;

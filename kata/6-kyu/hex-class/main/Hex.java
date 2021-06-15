@@ -47,7 +47,7 @@ class Hex {
       return false;
     }
 
-    Hex hex = (Hex) o;
+    var hex = (Hex) o;
     return value == hex.value;
   }
 

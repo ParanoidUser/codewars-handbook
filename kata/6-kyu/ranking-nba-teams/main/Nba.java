@@ -6,15 +6,15 @@ interface Nba {
       return "";
     }
 
-    int[] stats = new int[5];
+    var stats = new int[5];
     for (var match : of(resultSheet.split(",")).filter(s -> s.contains(toFind)).toArray(String[]::new)) {
       if (match.contains(".")) {
         return "Error(float number):" + match;
       }
       var teams = match.substring(0, match.lastIndexOf(' ')).replaceAll(" \\d+ ", "@").split("@");
       if (teams[0].equals(toFind) || teams[1].equals(toFind)) {
-        int pointsA = Integer.parseInt(match.substring(match.lastIndexOf(' ') + 1));
-        int pointsB = Integer.parseInt(match.substring(teams[0].length() + 1, match.indexOf(teams[1]) - 1));
+        var pointsA = Integer.parseInt(match.substring(match.lastIndexOf(' ') + 1));
+        var pointsB = Integer.parseInt(match.substring(teams[0].length() + 1, match.indexOf(teams[1]) - 1));
         updateMatchStatistics(pointsA, pointsB, match.startsWith(toFind), stats);
       }
     }
@@ -23,7 +23,7 @@ interface Nba {
 
   private static void updateMatchStatistics(int pointsA, int pointsB, boolean home, int[] stats) {
     if (home) {
-      int temp = pointsA;
+      var temp = pointsA;
       pointsA = pointsB;
       pointsB = temp;
     }
