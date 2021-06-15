@@ -30,7 +30,7 @@ jobs:
     - stage: Test
   include:
     - stage: compile-source-code
-      script: ./gradlew --parallel --build-cache --scan compileJava compileTestJava -x classes
+      script: ./gradlew --parallel --build-cache --scan compileTestJava -x processResources
       workspaces:
         create:
           name: compile
