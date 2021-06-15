@@ -11,7 +11,7 @@ interface Rank {
 
     var names = st.split(",");
     HashMap<String, Integer> map = new HashMap<>();
-    for (int i = 0; names.length >= n && i < names.length; i++) {
+    for (var i = 0; names.length >= n && i < names.length; i++) {
       we[i] *= names[i].toUpperCase().chars().map(c -> c - 64).sum() + names[i].length();
       map.put(names[i], we[i]);
     }

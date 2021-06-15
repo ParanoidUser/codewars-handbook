@@ -4,7 +4,7 @@ interface Decode {
   static String decode(String r) {
     var plain = new StringBuilder();
     var code = r.toLowerCase().replaceAll("\\d", "");
-    int key = Integer.parseInt(r.replaceAll("[^\\d]", ""));
+    var key = Integer.parseInt(r.replaceAll("[^\\d]", ""));
     for (char c : code.toCharArray()) {
       int temp = range(0, 26).filter(i -> i == c - 97).findFirst().orElse(0);
       range(0, 26).filter(i -> i * key % 26 == temp).forEach(i -> plain.append((char) (i + 97)));

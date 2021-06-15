@@ -5,7 +5,7 @@ class Fraction {
   final long bottom;
 
   Fraction(long numerator, long denominator) {
-    long gcd = valueOf(numerator).gcd(valueOf(denominator)).longValue();
+    var gcd = valueOf(numerator).gcd(valueOf(denominator)).longValue();
     top = numerator / gcd;
     bottom = denominator / gcd;
   }

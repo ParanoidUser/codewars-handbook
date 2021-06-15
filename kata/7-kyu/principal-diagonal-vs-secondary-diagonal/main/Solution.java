@@ -1,7 +1,7 @@
 interface Solution {
   static String diagonal(int[][] matrix) {
-    int score = 0;
-    for (int i = 0; i < matrix.length; i++) {
+    var score = 0;
+    for (var i = 0; i < matrix.length; i++) {
       score += matrix[i][i];
       score -= matrix[i][matrix.length - 1 - i];
     }

@@ -2,7 +2,7 @@ import static java.util.stream.IntStream.of;
 
 interface Kata {
   static String printNumber(int num, char ch) {
-    String[] n = {
+    var n = new String[]{
         " @@@@   @@   @@@@  @@@@ @@  @@@@@@@@   @@ @@@@@@ @@@@  @@@@ ",
         "@@  @@ @@@  @@  @@@@  @@@@  @@@@      @@  @@  @@@@  @@@@  @@",
         "@@  @@@ @@     @@    @@ @@  @@@@@@@  @@@@    @@  @@@@ @@  @@",

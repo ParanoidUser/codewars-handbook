@@ -8,7 +8,7 @@ interface JomoPipi {
       return Cache.NUMBERS.get(n);
     }
     var pn = BigInteger.valueOf(n);
-    for (int i = 0; i < n; i++) {
+    for (var i = 0; i < n; i++) {
       pn = (pn = pn.subtract(pipi(i))).multiply(pn);
     }
     Cache.NUMBERS.add(pn);

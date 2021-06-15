@@ -2,7 +2,7 @@ import static java.util.Arrays.fill;
 
 interface Kata {
   static int[][][] createOctahedron(int size) {
-    int[][][] octahedron = new int[Math.abs(size)][Math.abs(size)][Math.abs(size)];
+    var octahedron = new int[Math.abs(size)][Math.abs(size)][Math.abs(size)];
     for (int z = 0, axis = 0; size % 2 > 0 && z < size; z++, axis = z > size / 2 ? size - z - 1 : z) {
       int x0 = size / 2, xN = size / 2;
       for (int y = size / 2 - axis; y <= size / 2 + axis; y++) {

@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 interface Kata {
   static String[] getW(int height) {
-    String[] w = new String[height < 2 ? 0 : height];
+    var w = new String[height < 2 ? 0 : height];
     for (int i = 0, j = 2 * (height - 1); i < w.length; i++) {
       var line = new String[4 * height - 3];
       Arrays.fill(line, " ");

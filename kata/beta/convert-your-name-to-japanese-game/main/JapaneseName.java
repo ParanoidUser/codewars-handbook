@@ -4,7 +4,7 @@ interface JapaneseName {
       return "";
     }
 
-    boolean up = true;
+    var up = true;
     var jap = new StringBuilder();
     for (char c : name.toLowerCase().toCharArray()) {
       if (Character.isWhitespace(c)) {
@@ -17,7 +17,7 @@ interface JapaneseName {
         return "Only ASCII";
       }
 
-      String[] alphabet = {
+      var alphabet = new String[]{
           "ka", "zu", "mi", "te", "ku",
           "lu", "ji", "ri", "ki", "zusu",
           "me", "ta", "rin", "to", "mo",

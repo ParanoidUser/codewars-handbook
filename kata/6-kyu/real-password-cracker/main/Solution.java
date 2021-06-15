@@ -23,7 +23,7 @@ interface Solution extends Iterator<String> {
 
   static String passwordCracker(String hash) {
     String guess = Util.CACHE.get(hash);
-    for (String sha1 = ""; guess == null || !(sha1 = Util.SHA1.apply(guess)).equals(hash); guess = Util.INSTANCE.next()) {
+    for (var sha1 = ""; guess == null || !(sha1 = Util.SHA1.apply(guess)).equals(hash); guess = Util.INSTANCE.next()) {
       Util.CACHE.put(sha1, guess);
     }
     return guess;

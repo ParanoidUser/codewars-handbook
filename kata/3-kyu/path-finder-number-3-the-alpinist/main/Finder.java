@@ -1,14 +1,14 @@
 interface Finder {
   static int pathFinder(String map) {
     int[][] mount = map.lines().map(String::chars).map(s -> s.map(c -> c - 48).toArray()).toArray(int[][]::new);
-    int[][] field = new int[mount.length][mount.length];
+    var field = new int[mount.length][mount.length];
     field[0][0] = 1;
 
     boolean keepClimbing;
     do {
       keepClimbing = false;
-      for (int x = 0; x < field.length; x++) {
-        for (int y = 0; y < field.length; y++) {
+      for (var x = 0; x < field.length; x++) {
+        for (var y = 0; y < field.length; y++) {
           keepClimbing |= climb(mount, field, x, y, x + 1, y) > 0;
           climb(mount, field, x, y, x - 1, y);
           keepClimbing |= climb(mount, field, x, y, x, y + 1) > 0;

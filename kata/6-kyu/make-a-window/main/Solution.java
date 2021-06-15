@@ -4,7 +4,7 @@ interface Solution {
   static String makeAWindow(int num) {
     var row = String.format("|%1$s|%1$s|", ".".repeat(num));
     var windows = new LinkedList<String>();
-    for (int i = 0; i < num; i++) {
+    for (var i = 0; i < num; i++) {
       windows.add(row);
       windows.add(row);
     }

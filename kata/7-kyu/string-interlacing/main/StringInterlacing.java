@@ -10,7 +10,7 @@ interface StringInterlacing {
     second = second.replace(" ", "");
 
     var result = new StringBuilder();
-    for (int i = 0; i < first.length(); i++) {
+    for (var i = 0; i < first.length(); i++) {
       result.append(first.charAt(i)).append(second.charAt(i % second.length()));
     }
     return result.toString();

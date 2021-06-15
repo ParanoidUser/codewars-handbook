@@ -5,7 +5,7 @@ import java.util.List;
 interface Rotations {
   static boolean containAllRots(String strng, List<String> arr) {
     arr = arr.stream().map(String::toLowerCase).collect(toList());
-    for (int i = 0; i < strng.length(); i++) {
+    for (var i = 0; i < strng.length(); i++) {
       if (!arr.contains(strng.toLowerCase())) {
         return false;
       }

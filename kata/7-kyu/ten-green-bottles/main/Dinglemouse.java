@@ -1,7 +1,7 @@
 interface Dinglemouse {
   static String tenGreenBottles(int n) {
     var lyrics = new StringBuilder();
-    String[] count = {"No", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", " green bottle"};
+    var count = new String[]{"No", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", " green bottle"};
     while (n > 0) {
       lyrics.append(count[n]).append(count[11]).append(n > 1 ? "s" : "").append(" hanging on the wall,\n");
       lyrics.append(count[n]).append(count[11]).append(n > 1 ? "s" : "").append(" hanging on the wall,\n");

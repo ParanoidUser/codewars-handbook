@@ -2,7 +2,7 @@ import static java.util.stream.IntStream.range;
 
 interface Dinglemouse {
   static String[] trafficLights(String road, int n) {
-    String[] moves = new String[n + 1];
+    var moves = new String[n + 1];
     road = (moves[0] = road).replace("C", ".");
 
     for (int car = moves[0].indexOf('C'); n > 0; n--) {

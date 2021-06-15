@@ -2,8 +2,8 @@ import java.util.List;
 
 class OXAdjudicator {
   String judge(List<Integer> history) {
-    char[] field = new char[9];
-    boolean xMoving = false;
+    var field = new char[9];
+    var xMoving = false;
     for (int move : history) {
       field[move] = (xMoving = !xMoving) ? 'X' : 'O';
     }

@@ -1,6 +1,6 @@
 interface JomoPipi {
   static char[][] diagonalSort(char[][] data) {
-    char[][] sorted = new char[data.length][data[0].length];
+    var sorted = new char[data.length][data[0].length];
     int x = 0, y = 0;
     for (char[] row : data)
       for (char el : row) {

@@ -8,7 +8,7 @@ interface Kata {
     LinkedList<Integer> enemy = stream(opponent).sorted().collect(LinkedList::new, LinkedList::addLast, LinkedList::addAll);
     LinkedList<Integer> draw = new LinkedList<>();
 
-    int score = 0;
+    var score = 0;
     while (!army.isEmpty()) {
       if (army.getLast() > enemy.getLast()) {
         army.removeLast();

@@ -21,7 +21,7 @@ class RGB {
   public boolean equals(Object o) {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
-    RGB rgb = (RGB) o;
+    var rgb = (RGB) o;
     return r == rgb.r && g == rgb.g && b == rgb.b;
   }
 
