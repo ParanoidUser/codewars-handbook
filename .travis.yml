@@ -1,5 +1,8 @@
 dist: focal
 os: linux
+virt: lxd
+group: edge
+arch: arm64-graviton2
 language: java
 jdk: openjdk11
 git:
