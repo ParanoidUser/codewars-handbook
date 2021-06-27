@@ -33,6 +33,7 @@
 - [Circles in Polygons](circles-in-polygons)
 - [Classic Hello World](classic-hello-world)
 - [Color Ghost](color-ghost)
+- [Compare within margin](compare-within-margin)
 - [Convert a Boolean to a String](convert-a-boolean-to-a-string)
 - [Convert a Number to a String!](convert-a-number-to-a-string)
 - [Convert a String to a Number!](convert-a-string-to-a-number)
