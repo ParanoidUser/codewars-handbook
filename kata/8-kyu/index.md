@@ -181,6 +181,7 @@
 - [Switch it Up!](switch-it-up)
 # T
 - [The Feast of Many Beasts](the-feast-of-many-beasts)
+- [The Wide-Mouthed frog!](the-wide-mouthed-frog)
 - [Thinkful - Logic Drills: Traffic light](thinkful-logic-drills-traffic-light)
 - [Thinkful - Number Drills: Blue and red marbles](thinkful-number-drills-blue-and-red-marbles)
 - [Thinkful - Number Drills: Pixelart planning](thinkful-number-drills-pixelart-planning)
