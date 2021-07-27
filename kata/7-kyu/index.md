@@ -194,6 +194,7 @@
 # H
 - [Halving Sum](halving-sum)
 - [Happy Birthday, Darling!](happy-birthday-darling)
+- [Harvest Festival](harvest-festival)
 - [Help Suzuki complete his chores!](help-suzuki-complete-his-chores)
 - [Help Suzuki rake his garden!](help-suzuki-rake-his-garden)
 - [Help the Fruit Guy](help-the-fruit-guy)
