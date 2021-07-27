@@ -6,7 +6,7 @@
            title="Views statistics +1 👀">
    </a>
    <a href="https://www.codewars.com">
-      <img src="https://img.shields.io/badge/solved%20kata-1110-red.svg"
+      <img src="https://img.shields.io/badge/solved%20kata-1111-red.svg"
            title="Solved kata 👌">
    </a>
    <a href="https://travis-ci.com/ParanoidUser/codewars-handbook">
@@ -45,7 +45,7 @@ The repository contains a collection of Java solutions for Codewars challenges g
                title="All published kata which are waiting for community approval and difficulty ranking">Any
             </a>
          </td>
-         <td>83</td>
+         <td>84</td>
       </tr>
       <tr>
          <td rowspan=2>Beginner (2 points)</td>
