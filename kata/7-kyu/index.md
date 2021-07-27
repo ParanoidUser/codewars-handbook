@@ -13,6 +13,7 @@
 - [Acronym Generator](acronym-generator)
 - [AD2070: Help Lorimar troubleshoot his robots- ultrasonic distance analysis](ad2070-help-lorimar-troubleshoot-his-robots-ultrasonic-distance-analysis)
 - [Adding values of arrays in a shifted way](adding-values-of-arrays-in-a-shifted-way)
+- [Aerial Firefighting](aerial-firefighting)
 - [Age in days](age-in-days)
 - [All Inclusive?](all-inclusive)
 - [All Star Code Challenge #22](all-star-code-challenge-number-22)
