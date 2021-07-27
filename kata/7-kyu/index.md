@@ -150,6 +150,7 @@
 - [Find the GCF of Two Numbers](find-the-gcf-of-two-numbers)
 - [Find the next perfect square!](find-the-next-perfect-square)
 - [Find the nth occurrence of a word in a string!](find-the-nth-occurrence-of-a-word-in-a-string)
+- [Find the Squares](find-the-squares)
 - [Find the stray number](find-the-stray-number)
 - [Finding Remainder Without Using '%' Operator](finding-remainder-without-using-percent-operator)
 - [Fix string case](fix-string-case)
