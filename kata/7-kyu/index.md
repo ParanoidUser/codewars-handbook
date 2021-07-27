@@ -441,6 +441,7 @@
 - [Supernatural](supernatural)
 - [Suzuki needs help lining up his students!](suzuki-needs-help-lining-up-his-students)
 - [Swap pairs in Array](swap-pairs-in-array)
+- [Switcheroo](switcheroo)
 # T
 - [Target Date](target-date)
 - [Ten Green Bottles](ten-green-bottles)
