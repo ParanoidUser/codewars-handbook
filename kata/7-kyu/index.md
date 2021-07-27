@@ -464,6 +464,7 @@
 - [Thinking & Testing: A and B?](thinking-and-testing-a-and-b)
 - [Tidy Number (Special Numbers Series #9)](tidy-number-special-numbers-series-number-9)
 - [ToLeetSpeak](toleetspeak)
+- [Triangle area](triangle-area)
 - [Triangles from Dots](triangles-from-dots)
 - [Triangular Treasure](triangular-treasure)
 - [Trigrams](trigrams)
