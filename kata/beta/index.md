@@ -13,6 +13,7 @@
 - [Brackets Checker](brackets-checker)
 # C
 - [CaMeLcAsInG](camelcasing)
+- [Center of Array](center-of-array)
 - [Change for pizza](change-for-pizza)
 - [Check the tire pressure](check-the-tire-pressure)
 - [Convert natural number to its binary representation](convert-natural-number-to-its-binary-representation)
