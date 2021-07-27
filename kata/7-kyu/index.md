@@ -257,6 +257,7 @@
 # M
 - [Make a function that does arithmetic!](make-a-function-that-does-arithmetic)
 - [Make Backronym](makebackronym)
+- [Map over a list of lists](map-over-a-list-of-lists)
 - [Match My Husband](match-my-husband)
 - [Matrix Addition of Elements](matrix-addition-of-elements)
 - [Matrix Square Up, B!](matrix-square-up-b)
