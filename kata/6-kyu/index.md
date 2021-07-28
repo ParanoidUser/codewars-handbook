@@ -356,6 +356,7 @@
 - [Vasya - Clerk](vasya-clerk)
 - [Vasya and Stairs](vasya-and-stairs)
 - [Vasya and System of Equations](vasya-and-system-of-equations)
+- [VIN Checker](vin-checker)
 # W
 - [We are the Robots d[(0)(0)]b](we-are-the-robots-d-0-0-b)
 - [What century is it?](what-century-is-it)
