@@ -26,6 +26,7 @@
 - [Divisible by 9?](divisible-by-9)
 # F
 - [Fibonacci Number](fibonacci-number-1)
+- [Filter Map Sort Practice](filter-map-sort-practice)
 - [Find Email Domain](find-email-domain)
 - [Find something in an Array](find-something-in-an-array)
 - [FIXME: String == String](fixme-string-equals-equals-string)

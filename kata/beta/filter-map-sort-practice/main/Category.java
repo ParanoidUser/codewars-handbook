@@ -1,0 +1,3 @@
+enum Category {
+  HAZARDOUS, OVERSIZED, FRAGILE, OBLONG, HEAVY
+}
