@@ -214,6 +214,7 @@
 - [Pascal's Triangle #2](pascals-triangle-number-2)
 - [Password Maker](password-maker-1)
 - [Paths in the Grid](paths-in-the-grid)
+- [Peel the onion](peel-the-onion)
 - [Pentabonacci](pentabonacci)
 - [Persistent Bugger](persistent-bugger)
 - [PI approximation](pi-approximation)
