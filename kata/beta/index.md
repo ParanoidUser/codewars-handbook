@@ -14,6 +14,7 @@
 - [Brackets Checker](brackets-checker)
 # C
 - [CaMeLcAsInG](camelcasing)
+- [Carbon Dating](carbon-dating)
 - [Center of Array](center-of-array)
 - [Change for pizza](change-for-pizza)
 - [Check the tire pressure](check-the-tire-pressure)
