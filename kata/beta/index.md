@@ -18,6 +18,7 @@
 - [Center of Array](center-of-array)
 - [Change for pizza](change-for-pizza)
 - [Check the tire pressure](check-the-tire-pressure)
+- [Collatz conjecture counter for big numbers](collatz-conjecture-counter-for-big-numbers)
 - [Convert natural number to its binary representation](convert-natural-number-to-its-binary-representation)
 - [Convert your name to Japanese! (Game)](convert-your-name-to-japanese-game)
 - [Count the likes](count-the-likes)
