@@ -1,15 +1,18 @@
 # [VIN Checker](https://www.codewars.com/kata/vin-checker "https://www.codewars.com/kata/60a54750138eac0031eb98e1")
 
-In this Kata you should write a function to validate VINs, Vehicle Identification Numbers. Valid VINs are exactly 17 characters long, its composed of capital letters (except "I","O" and "Q") and digits. The 9th character is a MODULUS 11 check digit. Here is how it works:
+In this Kata you should write a function to validate VINs, Vehicle Identification Numbers. Valid
+VINs are exactly 17 characters long, it's composed of capital letters (except "I","O" and "Q") and
+digits. The 9th character is a MODULUS 11 check digit. Here is how it works:
 
 ## 1. Letters are converted to numbers
 
-Following the table bellow, letters are converted to numbers. "I","O" and "Q" are invalid characters.
+Following the table bellow, letters are converted to numbers. "I","O" and "Q" are invalid
+characters.
 
     A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
     1 2 3 4 5 6 7 8   1 2 3 4 5   7   9 2 3 4 5 6 7 8 9
 
- Ex.: VIN **5YJ3E1EA7HF000337** becomes **58135151786000337**.
+Ex.: VIN **5YJ3E1EA7HF000337** becomes **58135151786000337**.
 
 ## 2. Each number is multiplied by a weight
 
@@ -47,4 +50,5 @@ If the modulus 11 of the sum is equal to 10, then the digit is "X".
 
 ## Input Validation
 
-Input validation is part of the Kata, VINs with lengths different from 17 characters or containing invalid characters should return `False` as well.
+Input validation is part of the Kata, VINs with lengths different from 17 characters or containing
+invalid characters should return `False` as well.

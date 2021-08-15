@@ -11,5 +11,6 @@ class SolutionTest {
     assertTrue(CodeWars.checkVin("5VGYMVUX7JV764512"));
     assertFalse(CodeWars.checkVin("7WDMMTDV9TG739741"));
     assertFalse(CodeWars.checkVin("7JTRH08L5EJ234829"));
+    assertFalse(CodeWars.checkVin("9PTA00RSXWH3737000"));
   }
 }
