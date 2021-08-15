@@ -54,6 +54,7 @@
 - [Duck Duck Goose](duck-duck-goose)
 # E
 - [Easy logs](easy-logs)
+- [Enumerable Magic #1 - True for All?](enumerable-magic-number-1-true-for-all)
 - [Enumerable Magic #25 - Take the First N Elements](enumerable-magic-number-25-take-the-first-n-elements)
 - [Even or Odd](even-or-odd)
 - [Exclamation marks series #11: Replace all vowel to exclamation mark in the sentence](exclamation-marks-series-number-11-replace-all-vowel-to-exclamation-mark-in-the-sentence)
