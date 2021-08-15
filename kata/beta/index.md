@@ -57,6 +57,7 @@
 - [Merging Phone Numbers](merging-phone-numbers)
 - [Mode Count](mode-count)
 - [Multiline String Maker](multiline-string-maker)
+- [My friend time](my-friend-time)
 # P
 - [Palindrome checker](palindrome-checker)
 - [Palindrome-Generator](palindrome-generator)
