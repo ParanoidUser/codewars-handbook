@@ -142,6 +142,7 @@
 # F
 - [Factorial](factorial)
 - [Fibonacci](fibonacci)
+- [Filter the number](filter-the-number)
 - [Find all pairs](find-all-pairs-1)
 - [Find Count of Most Frequent Item in an Array](find-count-of-most-frequent-item-in-an-array)
 - [Find Fibonacci last digit](find-fibonacci-last-digit)
