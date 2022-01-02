@@ -1,9 +1,9 @@
 package preload;
 
-import java.util.Random;
+import static java.util.concurrent.ThreadLocalRandom.current;
 
 public interface Preload {
   static int oneTwo() {
-    return new Random().nextInt(2) + 1;
+    return current().nextInt(2) + 1;
   }
 }
