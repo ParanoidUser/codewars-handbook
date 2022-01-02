@@ -246,6 +246,7 @@
 - [Largest 5 digit number in a series](largest-5-digit-number-in-a-series)
 - [Largest pair sum in array](largest-pair-sum-in-array)
 - [Last](last)
+- [Last Survivor](last-survivor)
 - [Laxative Shot Roulette](laxative-shot-roulette)
 - [Letterbox Paint-Squad](letterbox-paint-squad)
 - [Linked Lists - Append](linked-lists-append)
