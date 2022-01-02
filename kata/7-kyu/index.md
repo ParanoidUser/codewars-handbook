@@ -324,6 +324,7 @@
 - [Password System](password-system)
 - [Pizza Payments](pizza-payments)
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
+- [Point in a unit circle](point-in-a-unit-circle)
 - [Points in Segments](points-in-segments)
 - [Pokerhand, straight or not?](pokerhand-straight-or-not)
 - [Possibilities Array](possiblities-array)
