@@ -219,6 +219,7 @@
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
 - [Hëävÿ Mëtäl Ümläüts](heavy-metal-umlauts)
 # I
+- [Incrementer](incrementer)
 - [Indexed capitalization](indexed-capitalization)
 - [Infinitely Nested Radicals](infinitely-nested-radicals)
 - [Insert dashes](insert-dashes)
