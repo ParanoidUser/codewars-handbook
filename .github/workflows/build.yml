@@ -1,0 +1,63 @@
+on: [
+    push,
+    pull_request,
+    workflow_dispatch
+]
+
+jobs:
+  build:
+    runs-on: macos-11
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2.4.0
+
+      - name: Setup Java
+        uses: actions/setup-java@v2.5.0
+        with:
+          distribution: adopt
+          java-version: 11
+          cache: gradle
+
+      - name: Validate Gradle checksum
+        uses: gradle/wrapper-validation-action@v1.0.4
+
+      - name: Make Gradle executable
+        run: chmod +x ./gradlew
+
+      - name: Compile source code
+        uses: gradle/gradle-build-action@v2.1.0
+        with:
+          arguments: |
+            compileTestJava -x processResources
+            --parallel
+            --build-cache
+            --no-daemon
+            --scan
+
+      - name: Run unit tests
+        uses: gradle/gradle-build-action@v2.1.0
+        with:
+          arguments: |
+            test -x classes -x testClasses 
+            jacocoTestReport
+            --parallel
+            --build-cache
+            --no-daemon
+            --scan
+
+      - name: Analyze code quality
+        uses: gradle/gradle-build-action@v2.1.0
+        env:
+          VERSION: 1.7.0
+        with:
+          arguments: |
+            sonarqube -x compileJava -x compileTestJava
+            --parallel
+            --no-daemon
+            --scan
+            -Pversion=${{format('{0}+{1}', env.VERSION, github.RUN_NUMBER)}}
+            -Dsonar.host.url=https://sonarcloud.io
+            -Dsonar.login=${{secrets.SONAR_TOKEN}}
+            -Dsonar.organization=${{secrets.SONAR_KEY}}
+            -Dsonar.branch.name=${{github.REF_NAME}}
+            -Dsonar.scm.disabled=true

@@ -9,8 +9,8 @@
       <img src="https://img.shields.io/badge/solved%20kata-1135-red.svg"
            title="Solved kata 👌">
    </a>
-   <a href="https://travis-ci.com/ParanoidUser/codewars-handbook">
-      <img src="https://img.shields.io/travis/ParanoidUser/codewars-handbook.svg"
+   <a href="https://github.com/ParanoidUser/codewars-handbook">
+      <img src="https://img.shields.io/github/workflow/status/ParanoidUser/codewars-handbook/build"
            title="CI pipeline 🛠">
    </a>
    <a href="https://sonarcloud.io/dashboard?id=codewars-handbook">
