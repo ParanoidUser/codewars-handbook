@@ -39,7 +39,7 @@ subprojects {
         */
         implementation("org.apache.commons:commons-lang3:3.11")
         implementation("org.springframework.boot:spring-boot-starter-web:2.4.1")
-        compileOnly("org.projectlombok:lombok:1.18.16")
+        compileOnly("org.projectlombok:lombok:1.18.22")
         annotationProcessor("org.projectlombok:lombok:1.18.16")
         testImplementation("org.mockito:mockito-inline:3.6.28")
         testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
