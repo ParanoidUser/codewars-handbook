@@ -2,7 +2,7 @@
 
 <p align="center">
    <a href="https://hits.dwyl.com/ParanoidUser/codewars-handbook">
-      <img src="https://img.shields.io/badge/dynamic/xml?color=success&label=views&query=//*[name()=%27text%27][2]&url=https://hits.dwyl.com/ParanoidUser/codewars.svg"
+       <img src="https://hits.dwyl.com/ParanoidUser/codewars-handbook.svg?style=flat"
            title="Views statistics +1 👀">
    </a>
    <a href="https://www.codewars.com">
