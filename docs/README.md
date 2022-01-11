@@ -10,7 +10,7 @@
            title="Solved kata 👌">
    </a>
    <a href="https://github.com/ParanoidUser/codewars-handbook">
-      <img src="https://img.shields.io/github/workflow/status/ParanoidUser/codewars-handbook/build"
+      <img src="https://img.shields.io/github/workflow/status/ParanoidUser/codewars-handbook/CI"
            title="CI pipeline 🛠">
    </a>
    <a href="https://sonarcloud.io/dashboard?id=codewars-handbook">
