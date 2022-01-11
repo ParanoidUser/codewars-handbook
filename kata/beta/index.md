@@ -13,12 +13,14 @@
 - [Bobby Builds a PC](bobby-builds-a-pc)
 - [Brackets Checker](brackets-checker)
 # C
+- [Calculator](calculator)
 - [CaMeLcAsInG](camelcasing)
 - [Carbon Dating](carbon-dating)
 - [Center of Array](center-of-array)
 - [Change for pizza](change-for-pizza)
 - [Check the tire pressure](check-the-tire-pressure)
 - [Collatz conjecture counter for big numbers](collatz-conjecture-counter-for-big-numbers)
+- [Consecutive Sum](consecutive-sum)
 - [Convert natural number to its binary representation](convert-natural-number-to-its-binary-representation)
 - [Convert your name to Japanese! (Game)](convert-your-name-to-japanese-game)
 - [Count the likes](count-the-likes)
@@ -27,6 +29,7 @@
 # D
 - [Decoding a logic transmission](decoding-a-logic-transmission)
 - [Divisible by 9?](divisible-by-9)
+- [Dubstep](dubstep)
 # F
 - [Fibonacci Number](fibonacci-number-1)
 - [Filter Map Sort Practice](filter-map-sort-practice)
@@ -40,7 +43,6 @@
 - [Fun with Physics #1 - Are the tanks in range of the cannonballs?](fun-with-physics-number-1-are-the-tanks-in-range-of-the-cannonballs)
 # H
 - [Happy Birthday](happy-birthday)
-- [Happy Birthday 1](happy-birthday-1)
 - [Holiday I - Temperature in Bali](holiday-i-temperature-in-bali)
 - [Horse Racing](horse-racing)
 - [How bigga ma pizza?](how-bigga-ma-pizza)
@@ -54,24 +56,27 @@
 - [Load value from system variable](load-value-from-system-variable)
 - [Lost number of arithmetic progression](lost-number-of-arithmetic-progression)
 # M
-- [Math.pow?](math-dot-pow)
 - [Max Consecutive Sum](max-consecutive-sum)
 - [Merging Phone Numbers](merging-phone-numbers)
 - [Mode Count](mode-count)
 - [Multiline String Maker](multiline-string-maker)
 - [My friend time](my-friend-time)
+# N
+- [Number toString](number-tostring)
 # P
 - [Palindrome checker](palindrome-checker)
 - [Palindrome-Generator](palindrome-generator)
 - [Parenthesis validator](parenthesis-validator)
 - [Perimeter of a Rectangle](perimeter-of-a-rectangle)
 - [Phase Transitions](phase-transitions)
+- [Points in Segments](points-in-segments)
 - [Positive & Negative Regex](positive-and-negative-regex)
 - [Primary Primes](primary-primes)
 # R
 - [Random Wallpaper](random-wallpaper)
 - [Range Merging](range-merging)
 - [Recursive reverse string](recursive-reverse-string)
+- [Replacement](replacement)
 # S
 - [Sexagesimal degree](sexagesimal-degree)
 - [Simple Equation](simpleequation)
@@ -83,6 +88,7 @@
 - [String anagram checker](string-anagram-checker)
 - [String Calculator With Different Input Types](string-calculator-with-different-input-types)
 - [String Product](string-product)
+- [String Task](string-task)
 - [Sum and Count All Odds vs Evens](sum-and-count-all-odds-vs-evens)
 - [Sum of list values](sum-of-list-values)
 - [Sum of numbers](sum-of-numbers)
@@ -98,12 +104,17 @@
 - [Unique Characters](unique-characters)
 # V
 - [Vampire Numbers](vampire-numbers-2)
+- [Vasya - Clerk](vasya-clerk)
+- [Vasya and Stairs](vasya-and-stairs)
+- [Vasya and System of Equations](vasya-and-system-of-equations)
 - [Very Simple Inheritance for Beginners](very-simple-inheritance-for-beginners)
 # W
 - [Weton](weton)
 - [What is the date after some hours?](what-is-the-date-after-some-hours)
+- [What time is it?](what-time-is-it-1)
 - [What will be the day of the week in a year?](what-will-be-the-day-of-the-week-in-a-year)
 - [When a "rose" is not a "rose"](when-a-rose-is-not-a-rose)
+- [Where is Vasya?](where-is-vasya)
 - [Who's Next in Line?](whos-next-in-line)
 # Y
 - [Your Basic FizzBuzz kata](your-basic-fizzbuzz-kata)

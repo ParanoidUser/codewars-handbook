@@ -1,4 +1,4 @@
-# [STRONGN Strong Number (Special Numbers Series #2)](https://www.codewars.com/kata/strongn-strong-number-special-numbers-series-number-2 "https://www.codewars.com/kata/5a4d303f880385399b000001")
+# [Strong Number (Special Numbers Series #2)](https://www.codewars.com/kata/strong-number-special-numbers-series-number-2 "https://www.codewars.com/kata/5a4d303f880385399b000001")
 
 **_Strong number_** is the number that *the sum of the factorial of its digits is equal to number itself*.
 
