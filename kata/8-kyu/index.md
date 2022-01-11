@@ -133,7 +133,6 @@
 # N
 - [N-th Power](n-th-power)
 - [No zeros for heroes](no-zeros-for-heros)
-- [Number toString](number-tostring)
 # O
 - [Opposite number](opposite-number)
 - [Opposites Attract](opposites-attract)

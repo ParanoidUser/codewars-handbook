@@ -45,7 +45,7 @@ The repository contains a collection of Java solutions for Codewars challenges g
                title="All published kata which are waiting for community approval and difficulty ranking">Any
             </a>
          </td>
-         <td>91</td>
+         <td>101</td>
       </tr>
       <tr>
          <td rowspan=2>Beginner (2 points)</td>
@@ -54,7 +54,7 @@ The repository contains a collection of Java solutions for Codewars challenges g
                title="- Defining a simple function (i.e. hello world)&#13;- Basic variable assignments&#13;- Fixing basic syntax issues&#13;- Trivial algorithms such as basic if/else statements">8th kyū
             </a>
          </td>
-         <td>189</td>
+         <td>188</td>
       </tr>
       <tr>
          <td>
@@ -62,7 +62,7 @@ The repository contains a collection of Java solutions for Codewars challenges g
                title="- Iterating arrays and returning a subset of values&#13;- Basic data type manipulations&#13;- Basic functional or object-oriented concepts&#13;- Basic Regular Expressions">7th kyū
             </a>
          </td>
-         <td>489</td>
+         <td>486</td>
       </tr>
       <tr>
          <td rowspan=2>Novice (8 points)</td>
@@ -71,7 +71,7 @@ The repository contains a collection of Java solutions for Codewars challenges g
                title="- Complex language features (closures, scopes, monads, etc)&#13;- Complex OOP/Functional concepts&#13;- Basic Design Patterns&#13;- Complex Regular Expressions">6th kyū
             </a>
          </td>
-         <td>354</td>
+         <td>349</td>
       </tr>
       <tr>
          <td>
@@ -96,7 +96,7 @@ The repository contains a collection of Java solutions for Codewars challenges g
                title="- Computer science concepts utilizing advanced algorithms&#13;- Ability to implement advanced requirements in a scalable fashion&#13;- Basic AI/machine learning algorithms&#13;- Detailed usage of advanced concepts such as concurrency, parallelism and cryptography">3rd kyū
             </a>
          </td>
-         <td>3</td>
+         <td>2</td>
       </tr>
       <tr>
          <td rowspan=2>Proficient (128 points)</td>
