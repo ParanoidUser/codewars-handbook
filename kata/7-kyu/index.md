@@ -195,7 +195,7 @@
 - [Guess the Sequence](guess-the-sequence)
 # H
 - [Halving Sum](halving-sum)
-- [Happy Birthday](happy-birthday-1)
+- [Happy Birthday 1](happy-birthday-1)
 - [Happy Birthday, Darling!](happy-birthday-darling)
 - [Harvest Festival](harvest-festival)
 - [Help Suzuki complete his chores!](help-suzuki-complete-his-chores)
@@ -241,6 +241,7 @@
 - [Java Functional Programming (Part 3: Closured for Business)](java-functional-programming-part-3-closured-for-business)
 - [Jumping Number (Special Numbers Series #4)](jumping-number-special-numbers-series-number-4)
 # K
+- [Keypad horror](keypad-horror)
 - [Kooka-Counter](kooka-counter)
 # L
 - [Large sum](large-sum)
