@@ -337,6 +337,7 @@
 - [Possibilities Array](possibilities-array)
 - [Powers of i](powers-of-i)
 - [Predict your age!](predict-your-age)
+- [Previous multiple of three](previous-multiple-of-three)
 - [Principal Diagonal VS Secondary Diagonal](principal-diagonal-vs-secondary-diagonal)
 - [Printer Errors](printer-errors)
 - [Product Array (Array Series #5)](product-array-array-series-number-5)
