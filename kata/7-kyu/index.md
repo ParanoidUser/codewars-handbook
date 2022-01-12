@@ -371,6 +371,7 @@
 # S
 - [Santa's Naughty List](santas-naughty-list)
 - [Scaling Squared Strings](scaling-squared-strings)
+- [Scrabble Score](scrabble-score)
 - [Sectional Array Sort](sectional-array-sort)
 - [See You Next Happy Year](see-you-next-happy-year)
 - [Selective fear of numbers](selective-fear-of-numbers)
