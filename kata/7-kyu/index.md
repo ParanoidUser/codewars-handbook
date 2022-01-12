@@ -137,6 +137,7 @@
 - [Excel sheet column numbers](excel-sheet-column-numbers)
 - [Excessively Abundant Numbers](excessively-abundant-numbers)
 - [Exclamation marks series #5: Remove all exclamation marks from the end of words](exclamation-marks-series-number-5-remove-all-exclamation-marks-from-the-end-of-words)
+- [Exclamation marks series #8: Move all exclamation marks to the end of the sentence](exclamation-marks-series-number-8-move-all-exclamation-marks-to-the-end-of-the-sentence)
 - [Execute me nTimes](execute-me-ntimes)
 - [Exes and Ohs](exes-and-ohs)
 - [Extended weekends](extended-weekends)
