@@ -379,6 +379,7 @@
 - [See You Next Happy Year](see-you-next-happy-year)
 - [Selective fear of numbers](selective-fear-of-numbers)
 - [Send in the Clones](send-in-the-clones)
+- [Series of integers from 0 to n](series-of-integers-from-0-to-n)
 - [Series of integers from m to n](series-of-integers-from-m-to-n)
 - [Shift Left](shift-left-1)
 - [Shifter words](shifter-words)
