@@ -327,6 +327,7 @@
 - [Parallel resistors](parallel-resistors)
 - [Partial Word Searching](partial-word-searching)
 - [Parts of a list](parts-of-a-list)
+- [Password maker](password-maker)
 - [Password System](password-system)
 - [Paul's Misery](pauls-misery)
 - [Pizza Payments](pizza-payments)
