@@ -354,6 +354,7 @@
 - [Regexp Basics - is it a six bit unsigned number?](regexp-basics-is-it-a-six-bit-unsigned-number)
 - [Regexp Basics - is it a vowel?](regexp-basics-is-it-a-vowel)
 - [Regexp basics - parsing prices](regexp-basics-parsing-prices)
+- [Remove consecutive duplicate words](remove-consecutive-duplicate-words)
 - [Remove duplicate words](remove-duplicate-words)
 - [Remove Duplicates](remove-duplicates)
 - [Replace every nth](replace-every-nth)
