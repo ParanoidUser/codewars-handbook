@@ -480,6 +480,7 @@
 - [The Poet And The Pendulum](the-poet-and-the-pendulum)
 - [The Pony Express](the-pony-express)
 - [The Speed of Letters](the-speed-of-letters)
+- [Thinkful - Number Drills: Congo warehouses](thinkful-number-drills-congo-warehouses)
 - [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
 - [Thinking & Testing : Incomplete string](thinking-and-testing-incomplete-string)
 - [Thinking & Testing : Something capitalized](thinking-and-testing-something-capitalized)
