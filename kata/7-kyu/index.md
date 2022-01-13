@@ -413,6 +413,7 @@
 - [Simple string division II](simple-string-division-ii)
 - [Simple string reversal](simple-string-reversal)
 - [Simple string reversal II](simple-string-reversal-ii)
+- [Single digit](single-digit)
 - [Small enough? - Beginner](small-enough-beginner)
 - [Smallest value of an array](smallest-value-of-an-array)
 - [Smoking Timmy](smoking-timmy)

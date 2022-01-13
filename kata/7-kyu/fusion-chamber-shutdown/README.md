@@ -1,4 +1,4 @@
-# [⚠️Fusion  Chamber Shutdown⚠️](https://www.codewars.com/kata/fusion-chamber-shutdown "https://www.codewars.com/kata/5fde1ea66ba4060008ea5bd9")
+# [Fusion Chamber Shutdown](https://www.codewars.com/kata/fusion-chamber-shutdown "https://www.codewars.com/kata/5fde1ea66ba4060008ea5bd9")
 
 A laboratory is testing how atoms react in ionic state during nuclear fusion. They introduce different elements with Hydrogen in high temperature and pressurized chamber. Due to unknown reason the chamber lost its power and the elements in it started precipitating</br>
 Given the number of atoms of Carbon [C],Hydrogen[H] and Oxygen[O] in the chamber. Calculate how many molecules of Water [H<sub>2</sub>O], Carbon Dioxide [CO<sub>2</sub>] and Methane [CH<sub>4</sub>] will be produced following the order of reaction affinity below</br>
