@@ -307,6 +307,7 @@
 - [Number of Decimal Digits](number-of-decimal-digits)
 - [Number of People in the Bus](number-of-people-in-the-bus)
 - [Number of Rectangles in a Grid](number-of-rectangles-in-a-grid)
+- [Number-Star ladder](number-star-ladder)
 - [Numbers in strings](numbers-in-strings)
 - [Numbers Which Sum of Powers of Its Digits Is The Same Number](numbers-which-sum-of-powers-of-its-digits-is-the-same-number)
 - [Numbers with d occurrences of digit d](numbers-with-d-occurences-of-digit-d)
