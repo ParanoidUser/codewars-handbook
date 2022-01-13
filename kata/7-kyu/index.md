@@ -126,6 +126,7 @@
 - [Don't give me five!](dont-give-me-five)
 - [Double Sort](double-sort)
 - [Driving Licence](driving-licence)
+- [Driving School Series #2](driving-school-series-number-2)
 - [Drying Potatoes](drying-potatoes)
 # E
 - [E.S.P. Cards](esp-cards)
