@@ -1,7 +1,7 @@
 <h1 align="center">Codewars Handbook ☕️🚀</h1>
 
 <p align="center">
-   <a href="https://hits.dwyl.com/ParanoidUser/codewars-handbook">
+   <a href="https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url=https://github.com/ParanoidUser/codewars-handbook">
        <img src="https://img.shields.io/badge/dynamic/xml?color=success&label=views&query=//*[name()=%27text%27][3]&url=https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FParanoidUser%2Fcodewars-handbook"
            title="Views statistics +1 👀">
    </a>
