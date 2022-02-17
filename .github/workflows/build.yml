@@ -49,7 +49,7 @@ jobs:
       - name: Analyze code quality
         uses: gradle/gradle-build-action@v2.1.0
         env:
-          VERSION: 1.7.0
+          VERSION: 1.8.0
         with:
           arguments: |
             sonarqube -x compileJava -x compileTestJava
