@@ -257,6 +257,7 @@
 - [Linked Lists - Append](linked-lists-append)
 - [Linked Lists - Get Nth Node](linked-lists-get-nth-node)
 - [Linked Lists - Push & BuildOneTwoThree](linked-lists-push-and-buildonetwothree)
+- [List Filtering](list-filtering)
 - [Lombok Builder](lombok-builder)
 - [Lombok Encapsulation](lombok-encapsulation)
 - [London CityHacker](london-cityhacker)
