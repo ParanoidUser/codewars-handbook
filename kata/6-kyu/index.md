@@ -21,6 +21,7 @@
 - [Arrange Matrix by Diagonals -- OMG](arrange-matrix-by-diagonals-omg)
 - [Array combinations](array-combinations)
 - [Array Cropper](array-cropper)
+- [Array.diff](array-dot-diff)
 # B
 - [B.A.D. Hashing](bad-hashing)
 - [Baby Magpies](baby-magpies)
