@@ -297,7 +297,7 @@
 - [Multiple implications](multiple-implications)
 - [Multiplication - Generators #2](multiplication-generators-number-2)
 - [Mumbling](mumbling)
-- [My Languages](mylanguages)
+- [My Language Skills](my-language-skills)
 - [Mystery Colors](mystery-colors)
 # N
 - [N-Dimensional Vector Magnitude](n-dimensional-vector-magnitude)
