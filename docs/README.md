@@ -6,7 +6,7 @@
            title="Views statistics +1 👀">
    </a>
    <a href="https://www.codewars.com">
-      <img src="https://img.shields.io/badge/solved%20kata-1153-red.svg"
+      <img src="https://img.shields.io/badge/solved%20kata-1154-red.svg"
            title="Solved kata 👌">
    </a>
    <a href="https://github.com/ParanoidUser/codewars-handbook">
@@ -62,7 +62,7 @@ The repository contains a collection of Java solutions for Codewars challenges g
                title="- Iterating arrays and returning a subset of values&#13;- Basic data type manipulations&#13;- Basic functional or object-oriented concepts&#13;- Basic Regular Expressions">7th kyū
             </a>
          </td>
-         <td>501</td>
+         <td>502</td>
       </tr>
       <tr>
          <td rowspan=2>Novice (8 points)</td>
