@@ -198,6 +198,7 @@
 - [Moves in squared strings (IV)](moves-in-squared-strings-iv)
 - [Multi-tap Keypad Text Entry on an Old Mobile Phone](multi-tap-keypad-text-entry-on-an-old-mobile-phone)
 - [Multiples of 3 or 5](multiples-of-3-or-5)
+- [My friend time](my-friend-time)
 # N
 - [No one likes carrying change](no-one-likes-carrying-change)
 - [Not prime numbers](not-prime-numbers)
@@ -317,7 +318,7 @@
 # T
 - [T.T.T.51: Four warriors and a lamp](t-dot-t-t-dot-51-four-warriors-and-a-lamp)
 - [Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!](take-a-number-and-sum-its-digits-raised-to-the-consecutive-powers-and-dot-dot-dot-eureka)
-- [Take a Ten Minute Walk](take-a-ten-minute-walk)
+- [Take a Ten Minutes Walk](take-a-ten-minutes-walk)
 - [Tank Truck](tank-truck)
 - [TDD Area Calculations](tdd-area-calculations)
 - [Texting with an old-school mobile phone](texting-with-an-old-school-mobile-phone)

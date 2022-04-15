@@ -1,4 +1,4 @@
-# [My Languages](https://www.codewars.com/kata/mylanguages "https://www.codewars.com/kata/5b16490986b6d336c900007d")
+# [My Language Skills](https://www.codewars.com/kata/my-language-skills "https://www.codewars.com/kata/5b16490986b6d336c900007d")
 
 ## Your task
 
