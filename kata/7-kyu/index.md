@@ -107,6 +107,7 @@
 - [Credit card issuer checking](credit-card-issuer-checking)
 - [Credit Card Mask](credit-card-mask)
 - [Cryptanalysis Word Patterns](cryptanalysis-word-patterns)
+- [CubeSummation](cubesummation)
 - [Curing Arachnophobia](curing-arachnophobia)
 - [Currying functions: multiply all elements in an array](currying-functions-multiply-all-elements-in-an-array)
 # D
