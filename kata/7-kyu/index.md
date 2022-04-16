@@ -511,6 +511,7 @@
 # V
 - [Valid Spacing](valid-spacing)
 - [Valid teams and names](valid-teams-and-names)
+- [Very Even Numbers](very-even-numbers)
 - [Visible Dots On a Die](visible-dots-on-a-die)
 - [Vowel Count](vowel-count)
 # W
