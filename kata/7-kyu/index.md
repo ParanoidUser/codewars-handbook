@@ -383,6 +383,7 @@
 # S
 - [Santa's Naughty List](santas-naughty-list)
 - [Scaling Squared Strings](scaling-squared-strings)
+- [Scoring Tests](scoring-tests)
 - [Scrabble Score](scrabble-score)
 - [Scrolling Text](scrolling-text)
 - [Sectional Array Sort](sectional-array-sort)
