@@ -26,7 +26,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Compile source code
-        uses: gradle/gradle-build-action@v2.1.0
+        uses: gradle/gradle-build-action@v2.1.5
         with:
           arguments: |
             compileTestJava -x processResources
@@ -36,7 +36,7 @@ jobs:
             --scan
 
       - name: Run unit tests
-        uses: gradle/gradle-build-action@v2.1.0
+        uses: gradle/gradle-build-action@v2.1.5
         with:
           arguments: |
             test -x classes -x testClasses 
@@ -47,7 +47,7 @@ jobs:
             --scan
 
       - name: Analyze code quality
-        uses: gradle/gradle-build-action@v2.1.0
+        uses: gradle/gradle-build-action@v2.1.5
         env:
           VERSION: 1.8.0
         with:
