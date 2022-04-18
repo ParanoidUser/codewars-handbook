@@ -2,16 +2,16 @@ import java.util.Arrays;
 
 interface SortArray {
   static <T> T sortArray(T array) {
-    if (array instanceof int[]) {
-      Arrays.sort((int[]) array);
-    } else if (array instanceof long[]) {
-      Arrays.sort((long[]) array);
-    } else if (array instanceof float[]) {
-      Arrays.sort((float[]) array);
-    } else if (array instanceof double[]) {
-      Arrays.sort((double[]) array);
-    } else {
-      Arrays.sort((Object[]) array);
+    if (array instanceof int[] ints) {
+      Arrays.sort(ints);
+    } else if (array instanceof long[] longs) {
+      Arrays.sort(longs);
+    } else if (array instanceof float[] floats) {
+      Arrays.sort(floats);
+    } else if (array instanceof double[] doubles) {
+      Arrays.sort(doubles);
+    } else if (array instanceof Object[] objects){
+      Arrays.sort(objects);
     }
     return array;
   }

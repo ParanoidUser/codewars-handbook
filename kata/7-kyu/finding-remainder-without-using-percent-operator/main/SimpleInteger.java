@@ -26,10 +26,10 @@ public final class SimpleInteger implements Comparable<SimpleInteger> {
   public boolean equals(Object obj) {
     if (this == obj) {
       return true;
-    } else if (!(obj instanceof SimpleInteger)) {
+    } else if (!(obj instanceof SimpleInteger sint)) {
       return false;
     } else {
-      return this.value == ((SimpleInteger) obj).value;
+      return this.value == sint.value;
     }
   }
 

@@ -1,10 +1,8 @@
-import static java.util.stream.Collectors.toList;
-
 import java.util.List;
 
 interface Rotations {
   static boolean containAllRots(String strng, List<String> arr) {
-    arr = arr.stream().map(String::toLowerCase).collect(toList());
+    arr = arr.stream().map(String::toLowerCase).toList();
     for (var i = 0; i < strng.length(); i++) {
       if (!arr.contains(strng.toLowerCase())) {
         return false;
