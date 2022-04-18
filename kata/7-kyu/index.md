@@ -521,6 +521,7 @@
 - [Waiting room](waiting-room)
 - [WASD Movement](wasd-movement)
 - [What a "Classy" Song](what-a-classy-song)
+- [What is the flag?](what-is-the-flag)
 - [What's my golf score?](whats-my-golf-score)
 - [Where is THB?](where-is-thb)
 - [Where's Wally](wheres-wally)
