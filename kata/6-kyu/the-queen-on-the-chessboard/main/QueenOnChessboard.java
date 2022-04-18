@@ -1,5 +1,3 @@
-import static java.util.stream.Collectors.toList;
-
 import java.util.List;
 import java.util.function.BiPredicate;
 import java.util.stream.Stream;
@@ -17,6 +15,6 @@ interface QueenOnChessboard {
     };
 
     return "ABCDEFGH".chars().mapToObj(x -> "12345678".chars().filter(y -> queenMove.test(x, y))
-        .mapToObj(y -> (char) x + "" + (char) y)).flatMap(Stream::sorted).collect(toList());
+        .mapToObj(y -> (char) x + "" + (char) y)).flatMap(Stream::sorted).toList();
   }
 }

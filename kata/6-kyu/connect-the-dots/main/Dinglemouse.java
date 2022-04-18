@@ -1,11 +1,10 @@
 import static java.util.Comparator.comparingInt;
-import static java.util.stream.Collectors.toList;
 import static java.util.stream.IntStream.range;
 
 interface Dinglemouse {
   static String connectTheDots(String paper) {
     var conn = new StringBuilder(paper);
-    var dots = range(0, paper.length()).boxed().filter(i -> paper.charAt(i) > 96).sorted(comparingInt(paper::charAt)).collect(toList());
+    var dots = range(0, paper.length()).boxed().filter(i -> paper.charAt(i) > 96).sorted(comparingInt(paper::charAt)).toList();
     for (int i = 0, l = paper.indexOf('\n') + 1; i < dots.size() - 1; i++) {
       int a = dots.get(i);
       int b = dots.get(i + 1);

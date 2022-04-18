@@ -1,7 +1,5 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import java.time.ZoneId;
-import java.time.ZoneOffset;
 import java.util.Calendar;
 import java.util.TimeZone;
 import org.junit.jupiter.api.Test;
