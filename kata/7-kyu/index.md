@@ -237,6 +237,7 @@
 - [Invisible cubes](invisible-cubes)
 - [Is It Negative Zero (-0)?](is-it-negative-zero-0)
 - [Is n divisible by (...)?](is-n-divisible-by-dot-dot-dot)
+- [Is Sator Square?](is-sator-square)
 - [Is this a triangle?](is-this-a-triangle)
 - [Is valid identifier?](is-valid-identifier)
 - [Isograms](isograms)
