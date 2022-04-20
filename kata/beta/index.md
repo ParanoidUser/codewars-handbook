@@ -58,6 +58,8 @@
 - [Merging Phone Numbers](merging-phone-numbers)
 - [Mode Count](mode-count)
 - [Multiline String Maker](multiline-string-maker)
+# O
+- [Open a weak chest.](open-a-weak-chest)
 # P
 - [Palindrome checker](palindrome-checker)
 - [Palindrome-Generator](palindrome-generator)
