@@ -2,6 +2,8 @@
 - [Calculator](calculator)
 # D
 - [Dubstep](dubstep)
+# L
+- [List:Find Total Numbers](list-find-total-numbers)
 # N
 - [Number toString](number-tostring)
 # P

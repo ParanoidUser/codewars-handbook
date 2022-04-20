@@ -6,7 +6,7 @@
            title="Views statistics +1 👀">
    </a>
    <a href="https://www.codewars.com">
-      <img src="https://img.shields.io/badge/solved%20kata-1162-red.svg"
+      <img src="https://img.shields.io/badge/solved%20kata-1163-red.svg"
            title="Solved kata 👌">
    </a>
    <a href="https://github.com/ParanoidUser/codewars-handbook">
@@ -65,7 +65,7 @@ repository.
                title="Low-quality kata with a low satisfaction rate">Retired
             </a>
          </td>
-         <td>13</td>
+         <td>14</td>
       </tr>
       <tr>
          <td rowspan=2>Beginner (2 points)</td>
