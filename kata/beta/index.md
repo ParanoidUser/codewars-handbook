@@ -32,6 +32,7 @@
 - [Fibonacci Number](fibonacci-number-1)
 - [Filter Map Sort Practice](filter-map-sort-practice)
 - [Find Email Domain](find-email-domain)
+- [Find next greater number with disjoint set of digits](find-next-greater-number-with-disjoint-set-of-digits)
 - [Find something in an Array](find-something-in-an-array)
 - [FIXME: String == String](fixme-string-equals-equals-string)
 - [Flatten a List](flatten-a-list)
