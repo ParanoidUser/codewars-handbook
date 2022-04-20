@@ -2,10 +2,10 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-@Getter
 class WeakChest {
 
   private final int code;
+  @Getter
   private boolean open;
 
   public void openChest(int inputCode) throws BadCodeException {
@@ -16,9 +16,3 @@ class WeakChest {
   }
 }
 
-class BadCodeException extends RuntimeException {
-
-  public BadCodeException(String errorMessage) {
-    super(errorMessage);
-  }
-}

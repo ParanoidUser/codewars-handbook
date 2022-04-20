@@ -10,8 +10,8 @@ interface SortArray {
       Arrays.sort(floats);
     } else if (array instanceof double[] doubles) {
       Arrays.sort(doubles);
-    } else if (array instanceof Object[] objects){
-      Arrays.sort(objects);
+    } else {
+      Arrays.sort((Object[]) array);
     }
     return array;
   }
