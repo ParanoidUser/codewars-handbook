@@ -76,6 +76,7 @@
 - [Consecutive strings](consecutive-strings)
 - [Consonant value](consonant-value)
 - [Convert integer to Whitespace format](convert-integer-to-whitespace-format)
+- [Convert ISBN-10 to ISBN-13](convert-isbn-10-to-isbn-13)
 - [Convert string to camel case](convert-string-to-camel-case)
 - [Count the days!](count-the-days)
 - [Count the divisible numbers](count-the-divisible-numbers)
