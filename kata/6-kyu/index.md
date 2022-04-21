@@ -47,6 +47,7 @@
 - [Break camelCase](break-camelcase)
 - [Brick pyramid](brick-pyramid)
 - [Build a pile of Cubes](build-a-pile-of-cubes)
+- [Build Tower](build-tower)
 - [Button sequences](button-sequences)
 - [Buying a car](buying-a-car)
 # C
