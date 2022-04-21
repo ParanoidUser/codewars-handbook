@@ -69,6 +69,7 @@
 - [Chocolate problem](chocolate-problem)
 - [Circularly Sorted Array](circularly-sorted-array)
 - [Clocky Mc Clock-Face](clocky-mc-clock-face)
+- [Code-breaking by Letter Frequency](code-breaking-by-letter-frequency)
 - [Coffee machine](coffee-machine)
 - [Collatz](collatz)
 - [Color Choice](color-choice)
