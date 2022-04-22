@@ -216,6 +216,7 @@
 - [Parabolic Arc Length](parabolic-arc-length)
 - [Parse bank account number](parse-bank-account-number)
 - [Parse HTML/CSS Colors](parse-html-slash-css-colors)
+- [Pascal's Triangle](pascals-triangle)
 - [Pascal's Triangle #2](pascals-triangle-number-2)
 - [Password Maker](password-maker-1)
 - [Paths in the Grid](paths-in-the-grid)
