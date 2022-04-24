@@ -204,6 +204,7 @@
 - [Multiples of 3 or 5](multiples-of-3-or-5)
 - [My friend time](my-friend-time)
 # N
+- [New Cashier Does Not Know About Space or Shift](new-cashier-does-not-know-about-space-or-shift)
 - [No one likes carrying change](no-one-likes-carrying-change)
 - [Not prime numbers](not-prime-numbers)
 - [Number Zoo Patrol](number-zoo-patrol)
