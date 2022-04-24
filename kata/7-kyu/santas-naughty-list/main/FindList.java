@@ -1,6 +1,6 @@
 import java.util.List;
 
-interface findList {
+interface FindList {
   static List<String> findChildren(List<String> santasList, List<String> children) {
     return santasList.stream().filter(children::contains).distinct().sorted().toList();
   }
