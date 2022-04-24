@@ -214,6 +214,7 @@
 - [Odd/Even number of divisors](odd-slash-even-number-of-divisors)
 - [Overflowing with longing](overflowing-with-longing)
 # P
+- [Pair of gloves](pair-of-gloves)
 - [Parabolic Arc Length](parabolic-arc-length)
 - [Parse bank account number](parse-bank-account-number)
 - [Parse HTML/CSS Colors](parse-html-slash-css-colors)
