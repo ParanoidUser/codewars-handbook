@@ -123,7 +123,7 @@ sonarqube {
          *  - and this is the second rule being excluded with this severity
          */
 
-        property("sonar.issue.ignore.multicriteria", "fc11,fc12,fc21,fc22,fc23,fc31,fc32,fc33,iv21,iv22,iv23,iv24,iv31")
+        property("sonar.issue.ignore.multicriteria", "fc11,fc12,fc21,fc22,fc23,fc31,iv21,iv22,iv23,iv24,iv31")
 
         // Security Hotspot [Critical]: Using regular expressions is security-sensitive
         property("sonar.issue.ignore.multicriteria.fc11.ruleKey", "java:S4784")
@@ -143,12 +143,6 @@ sonarqube {
         // Code Smell [minor]: The default unnamed package should not be used
         property("sonar.issue.ignore.multicriteria.fc31.ruleKey", "java:S1220")
         property("sonar.issue.ignore.multicriteria.fc31.resourceKey", "**/*.java")
-        // Code Smell [minor]: Class names should comply with a naming convention
-        property("sonar.issue.ignore.multicriteria.fc32.ruleKey", "java:S101")
-        property("sonar.issue.ignore.multicriteria.fc32.resourceKey", "**/*.java")
-        // Code Smell [minor]: Method names should comply with a naming convention
-        property("sonar.issue.ignore.multicriteria.fc33.ruleKey", "java:S100")
-        property("sonar.issue.ignore.multicriteria.fc33.resourceKey", "**/*.java")
 
         // Code Smell [major]: "for" loop stop conditions should be invariant
         property("sonar.issue.ignore.multicriteria.iv21.ruleKey", "java:S127")
