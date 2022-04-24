@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 class SolutionTest {
   @Test
   void sample() {
-    assertArrayEquals(new String[]{"*"}, Kata.TowerBuilder(1));
-    assertArrayEquals(new String[]{" * ", "***"}, Kata.TowerBuilder(2));
-    assertArrayEquals(new String[]{"  *  ", " *** ", "*****"}, Kata.TowerBuilder(3));
+    assertArrayEquals(new String[]{"*"}, Kata.towerBuilder(1));
+    assertArrayEquals(new String[]{" * ", "***"}, Kata.towerBuilder(2));
+    assertArrayEquals(new String[]{"  *  ", " *** ", "*****"}, Kata.towerBuilder(3));
   }
 }
