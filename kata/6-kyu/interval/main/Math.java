@@ -1,7 +1,7 @@
 import static java.util.stream.IntStream.of;
 
 interface Math {
-  static int[] Interval(int[] arr, String str) {
+  static int[] interval(int[] arr, String str) {
     if (str.isEmpty()) {
       return new int[0];
     }

@@ -1,5 +1,5 @@
-class Solution {
-  int Ackermann(int m, int n) {
-    return m > 0 ? n > 0 ? Ackermann(m - 1, Ackermann(m, --n)) : Ackermann(--m, 1) : ++n;
+interface Solution {
+  static int ackermann(int m, int n) {
+    return m > 0 ? n > 0 ? ackermann(m - 1, ackermann(m, --n)) : ackermann(--m, 1) : ++n;
   }
 }

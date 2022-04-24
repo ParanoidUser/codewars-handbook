@@ -2,7 +2,7 @@ import static java.security.MessageDigest.getInstance;
 import static org.apache.commons.lang3.StringUtils.isAsciiPrintable;
 
 interface Kata {
-  static String F(String s) {
+  static String f(String s) {
     try {
       if (isAsciiPrintable(s)) {
         var md5 = new StringBuilder(32);
