@@ -123,14 +123,8 @@ sonarqube {
          *  - and this is the second rule being excluded with this severity
          */
 
-        property("sonar.issue.ignore.multicriteria", "fc11,fc12,fc21,fc22,fc23,fc31,iv21,iv22,iv23,iv24,iv31")
+        property("sonar.issue.ignore.multicriteria", "fc21,fc22,fc23,fc31,iv21,iv22,iv23,iv24,iv31")
 
-        // Security Hotspot [Critical]: Using regular expressions is security-sensitive
-        property("sonar.issue.ignore.multicriteria.fc11.ruleKey", "java:S4784")
-        property("sonar.issue.ignore.multicriteria.fc11.resourceKey", "**/*.java")
-        // Security Hotspot [Critical]: Using pseudorandom number generators (PRNGs) is security-sensitive
-        property("sonar.issue.ignore.multicriteria.fc12.ruleKey", "java:S2245")
-        property("sonar.issue.ignore.multicriteria.fc12.resourceKey", "**/*.java")
         // Code Smell [major]: Utility classes should not have public constructors
         property("sonar.issue.ignore.multicriteria.fc21.ruleKey", "java:S1118")
         property("sonar.issue.ignore.multicriteria.fc21.resourceKey", "**/*.java")
