@@ -68,7 +68,6 @@
 - [Perimeter of a Rectangle](perimeter-of-a-rectangle)
 - [Phase Transitions](phase-transitions)
 - [Playing with Streams: Sum](playing-with-streams-sum)
-- [Positive & Negative Regex](positive-and-negative-regex)
 - [Primary Primes](primary-primes)
 # R
 - [Random Wallpaper](random-wallpaper)
