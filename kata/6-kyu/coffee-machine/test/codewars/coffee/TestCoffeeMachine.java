@@ -1,9 +1,8 @@
 package codewars.coffee;
 
-import static java.util.concurrent.ThreadLocalRandom.current;
-
 import codewars.coffee.PreloadedCoffee.Coffee;
 import codewars.coffee.PreloadedCoffee.CoffeeMachine;
+import java.security.SecureRandom;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -14,7 +13,7 @@ class TestCoffeeMachine implements CoffeeMachine {
   };
 
   static Coffee generate() {
-    return new Coffee(coffeeTypes[current().nextInt(coffeeTypes.length)]);
+    return new Coffee(coffeeTypes[new SecureRandom().nextInt(coffeeTypes.length)]);
   }
 
   static final Map<String, Integer> data = new HashMap<>();

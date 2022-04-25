@@ -1,11 +1,12 @@
 import static java.util.Arrays.stream;
-import static java.util.concurrent.ThreadLocalRandom.current;
 import static java.util.stream.IntStream.concat;
+
+import java.security.SecureRandom;
 
 interface LOTTO {
   static int[] numberGenerator() {
-    var raffle = current().ints(1, 51).distinct().limit(7).sorted().toArray();
-    raffle[6] = current().nextInt(10);
+    var raffle = new SecureRandom().ints(1, 51).distinct().limit(7).sorted().toArray();
+    raffle[6] = new SecureRandom().nextInt(10);
     return raffle;
   }
 
