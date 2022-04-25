@@ -57,7 +57,7 @@ repository.
                title="All published kata which are waiting for community approval and difficulty ranking">Any
             </a>
          </td>
-         <td>90</td>
+         <td>89</td>
       </tr>
       <tr>
          <td>
@@ -65,7 +65,7 @@ repository.
                title="Low-quality kata with a low satisfaction rate">Retired
             </a>
          </td>
-         <td>14</td>
+         <td>15</td>
       </tr>
       <tr>
          <td rowspan=2>Beginner (2 points)</td>

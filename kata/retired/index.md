@@ -8,6 +8,7 @@
 - [Number toString](number-tostring)
 # P
 - [Points in Segments](points-in-segments)
+- [Positive & Negative Regex](positive-and-negative-regex)
 # R
 - [Recursive reverse string](recursive-reverse-string)
 - [Replacement](replacement)
