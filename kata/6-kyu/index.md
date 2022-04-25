@@ -228,6 +228,7 @@
 - [PI approximation](pi-approximation)
 - [Piano Kata, Part 1](piano-kata-part-1)
 - [Piano Kata, Part 2](piano-kata-part-2)
+- [Ping Pong](ping-pong-1)
 - [Pipi Numbers!](pipi-numbers)
 - [Pizza pieces](pizza-pieces)
 - [Playing on a chessboard](playing-on-a-chessboard)
