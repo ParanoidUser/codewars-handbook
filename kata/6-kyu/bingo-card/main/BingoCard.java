@@ -1,6 +1,7 @@
-import static java.util.concurrent.ThreadLocalRandom.current;
 import static java.util.stream.IntStream.rangeClosed;
 import static java.util.stream.Stream.of;
+
+import java.security.SecureRandom;
 
 final class BingoCard {
   private static final int[][] SCHEME = {
@@ -12,7 +13,7 @@ final class BingoCard {
   };
 
   static String[] getCard() {
-    return of(SCHEME).flatMap(s -> rangeClosed(s[1], s[2]).boxed().sorted((a, b) -> current().nextInt(-1, 2)).limit(s[3])
+    return of(SCHEME).flatMap(s -> rangeClosed(s[1], s[2]).boxed().sorted((a, b) -> new SecureRandom().nextInt(-1, 2)).limit(s[3])
         .map(i -> (char) s[0] + "" + i)).toArray(String[]::new);
   }
 

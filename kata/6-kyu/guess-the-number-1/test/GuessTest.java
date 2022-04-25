@@ -1,14 +1,14 @@
-import static java.util.concurrent.ThreadLocalRandom.current;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+import java.security.SecureRandom;
 import org.junit.jupiter.api.Test;
 
 class GuessTest {
 
   @Test
   void sample() {
-    int guess = current().nextInt(1, 1001);
+    int guess = new SecureRandom().nextInt(1, 1001);
     var solution1 = new GuesserSolution();
     solution1.setAnswer(guess);
     assertEquals(guess, solution1.getNumber());

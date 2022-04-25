@@ -1,7 +1,7 @@
-import static java.util.concurrent.ThreadLocalRandom.current;
 import static java.util.stream.IntStream.rangeClosed;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import java.security.SecureRandom;
 import org.junit.jupiter.api.Test;
 
 class NumberZooPatrolSampleTest {
@@ -21,7 +21,7 @@ class NumberZooPatrolSampleTest {
 
   @Test
   void testPerformanceIsLinear() {
-    int million = 1000000, missing = current().nextInt(million);
+    int million = 1000000, missing = new SecureRandom().nextInt(million);
     int[] numbers = rangeClosed(1, million).parallel().filter(i -> i != missing).toArray();
 
     for (int i = 0; i < 100; i++) {
