@@ -123,17 +123,8 @@ sonarqube {
          *  - and this is the second rule being excluded with this severity
          */
 
-        property("sonar.issue.ignore.multicriteria", "fc21,fc22,fc23,fc31,iv21,iv22,iv23,iv24,iv31")
+        property("sonar.issue.ignore.multicriteria", "fc31,iv21,iv22,iv23,iv24,iv31")
 
-        // Code Smell [major]: Utility classes should not have public constructors
-        property("sonar.issue.ignore.multicriteria.fc21.ruleKey", "java:S1118")
-        property("sonar.issue.ignore.multicriteria.fc21.resourceKey", "**/*.java")
-        // Code Smell [major]: Unused method parameters should be removed
-        property("sonar.issue.ignore.multicriteria.fc22.ruleKey", "java:S1172")
-        property("sonar.issue.ignore.multicriteria.fc22.resourceKey", "**/*.java")
-        // Code Smell [major]: Non-constructor methods should not have the same name as the enclosing class
-        property("sonar.issue.ignore.multicriteria.fc23.ruleKey", "java:S1223")
-        property("sonar.issue.ignore.multicriteria.fc23.resourceKey", "**/*.java")
         // Code Smell [minor]: The default unnamed package should not be used
         property("sonar.issue.ignore.multicriteria.fc31.ruleKey", "java:S1220")
         property("sonar.issue.ignore.multicriteria.fc31.resourceKey", "**/*.java")
