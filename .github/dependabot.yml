@@ -5,6 +5,5 @@
       schedule:
         interval: daily
       target-branch: develop
-      milestone: ${{secrets.VERSION}}
       labels:
         - "chore"
