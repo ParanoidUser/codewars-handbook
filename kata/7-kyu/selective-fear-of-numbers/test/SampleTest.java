@@ -6,20 +6,20 @@ import org.junit.jupiter.api.Test;
 class SampleTest {
   @Test
   void sample() {
-    assertTrue(Arithmophobia.AmIAfraid("Monday", 12));
-    assertFalse(Arithmophobia.AmIAfraid("Monday", 13));
-    assertTrue(Arithmophobia.AmIAfraid("Tuesday", 965));
-    assertFalse(Arithmophobia.AmIAfraid("Tuesday", 2));
-    assertTrue(Arithmophobia.AmIAfraid("Wednesday", 34));
-    assertFalse(Arithmophobia.AmIAfraid("Wednesday", 32));
-    assertTrue(Arithmophobia.AmIAfraid("Thursday", 0));
-    assertFalse(Arithmophobia.AmIAfraid("Thursday", 2));
-    assertTrue(Arithmophobia.AmIAfraid("Friday", 2));
-    assertFalse(Arithmophobia.AmIAfraid("Friday", 3));
-    assertTrue(Arithmophobia.AmIAfraid("Saturday", 56));
-    assertFalse(Arithmophobia.AmIAfraid("Saturday", 57));
-    assertTrue(Arithmophobia.AmIAfraid("Sunday", -666));
-    assertTrue(Arithmophobia.AmIAfraid("Shmanday", -666));
-    assertFalse(Arithmophobia.AmIAfraid("Shmanday", -667));
+    assertTrue(Arithmophobia.amIAfraid("Monday", 12));
+    assertFalse(Arithmophobia.amIAfraid("Monday", 13));
+    assertTrue(Arithmophobia.amIAfraid("Tuesday", 965));
+    assertFalse(Arithmophobia.amIAfraid("Tuesday", 2));
+    assertTrue(Arithmophobia.amIAfraid("Wednesday", 34));
+    assertFalse(Arithmophobia.amIAfraid("Wednesday", 32));
+    assertTrue(Arithmophobia.amIAfraid("Thursday", 0));
+    assertFalse(Arithmophobia.amIAfraid("Thursday", 2));
+    assertTrue(Arithmophobia.amIAfraid("Friday", 2));
+    assertFalse(Arithmophobia.amIAfraid("Friday", 3));
+    assertTrue(Arithmophobia.amIAfraid("Saturday", 56));
+    assertFalse(Arithmophobia.amIAfraid("Saturday", 57));
+    assertTrue(Arithmophobia.amIAfraid("Sunday", -666));
+    assertTrue(Arithmophobia.amIAfraid("Shmanday", -666));
+    assertFalse(Arithmophobia.amIAfraid("Shmanday", -667));
   }
 }

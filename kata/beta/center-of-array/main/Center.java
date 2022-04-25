@@ -1,5 +1,5 @@
 interface Center {
-  static int FindCenter(int[] arr) {
+  static int findCenter(int[] arr) {
     return arr[arr.length / 2];
   }
 }

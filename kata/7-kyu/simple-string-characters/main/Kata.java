@@ -1,5 +1,5 @@
 interface Kata {
-  static int[] Solve(String word) {
+  static int[] solve(String word) {
     return new int[] {
         word.replaceAll("[^A-Z]", "").length(),
         word.replaceAll("[^a-z]", "").length(),
