@@ -161,6 +161,7 @@
 - [Hidden "Cubic" numbers](hidden-cubic-numbers)
 - [Highest Scoring Word](highest-scoring-word)
 - [How Many Numbers?](how-many-numbers)
+- [How many pages in a book?](how-many-pages-in-a-book)
 - [How Much?](how-much)
 - [HTML Complementary Color](html-complementary-color)
 - [HTML dynamic color string generation](html-dynamic-color-string-generation)
