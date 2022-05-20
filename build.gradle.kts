@@ -38,7 +38,7 @@ subprojects {
         * - https://github.com/Codewars/codewars-runner-cli/blob/master/documentation/environments/java.md
         */
         implementation("org.apache.commons:commons-lang3:3.12.0")
-        implementation("org.springframework.boot:spring-boot-starter-web:2.6.8")
+        implementation("org.springframework.boot:spring-boot-starter-web:2.7.0")
         compileOnly("org.projectlombok:lombok:1.18.24")
         annotationProcessor("org.projectlombok:lombok:1.18.24")
         testImplementation("org.mockito:mockito-inline:4.5.1")
