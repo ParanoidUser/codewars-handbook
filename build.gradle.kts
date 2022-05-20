@@ -43,7 +43,7 @@ subprojects {
         annotationProcessor("org.projectlombok:lombok:1.18.24")
         testImplementation("org.mockito:mockito-inline:4.5.1")
         testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
-        testImplementation("org.springframework.boot:spring-boot-starter-test:2.6.8")
+        testImplementation("org.springframework.boot:spring-boot-starter-test:2.7.0")
     }
 
     tasks {
