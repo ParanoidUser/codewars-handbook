@@ -1,3 +1,4 @@
+import static org.awaitility.Awaitility.await;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.concurrent.TimeUnit;
@@ -9,13 +10,8 @@ class SolutionTest {
   void sample() {
     int counter = 20;
     AtomicInteger executionCounter = new AtomicInteger();
-    Runnable action = () -> {
-      executionCounter.incrementAndGet();
-      try {
-        TimeUnit.MICROSECONDS.sleep(100);
-      } catch (InterruptedException ignored) {
-      }
-    };
+    Runnable action = () -> await().atMost(200, TimeUnit.MILLISECONDS)
+             .until(() -> executionCounter.get() < executionCounter.incrementAndGet());
     new Worker().execute(action, counter);
     assertEquals(counter, executionCounter.get());
   }
