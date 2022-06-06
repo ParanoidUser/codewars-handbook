@@ -3,7 +3,7 @@ interface Kata {
     return new int[] {
         word.replaceAll("[^A-Z]", "").length(),
         word.replaceAll("[^a-z]", "").length(),
-        word.replaceAll("[^0-9]", "").length(),
+        word.replaceAll("\\D", "").length(),
         word.replaceAll("\\w", "").length()
     };
   }
