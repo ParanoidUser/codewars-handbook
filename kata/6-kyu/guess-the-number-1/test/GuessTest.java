@@ -14,7 +14,7 @@ class GuessTest {
 
     var mid = new GuesserSolution();
     mid.setAnswer(500);
-    assertEquals(1, mid.getNumber());
+    assertEquals(500, mid.getNumber());
 
     var bottom = new GuesserSolution();
     bottom.setAnswer(1000);
