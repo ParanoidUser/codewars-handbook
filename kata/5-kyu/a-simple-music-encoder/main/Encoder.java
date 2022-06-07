@@ -1,9 +1,13 @@
 class Encoder {
   String compress(int[] raw) {
     var encoded = new StringBuilder();
-    for (var i = 0; i < raw.length; i++) {
-      int j = 1, diff = i < raw.length - 1 ? raw[i + 1] - raw[i] : 1;
-      while (j + i < raw.length && raw[j + i] == raw[i] + j * diff) j++;
+    int i = 0;
+    for (; i < raw.length; i++) {
+      int j = 1;
+      int diff = i < raw.length - 1 ? raw[i + 1] - raw[i] : 1;
+      while (j + i < raw.length && raw[j + i] == raw[i] + j * diff) {
+        j++;
+      }
 
       encoded.append(',').append(raw[i]);
       if (diff == 0) {

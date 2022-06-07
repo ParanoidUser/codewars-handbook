@@ -20,8 +20,13 @@ interface Finder {
   }
 
   private static int climb(int[][] mount, int[][] field, int x, int y, int dx, int dy) {
-    int alt = field[x][y] + Math.abs(mount[x][y] - altitude(mount, dx, dy));
-    return altitude(field, dx, dy) == 0 || altitude(field, dx, dy) > alt ? field[dx][dy] = alt : -1;
+    int alt0 = field[x][y] + Math.abs(mount[x][y] - altitude(mount, dx, dy));
+    int alt1 = altitude(field, dx, dy);
+    if (alt1 != 0 && alt1 <= alt0) {
+      return -1;
+    }
+    field[dx][dy] = alt0;
+    return alt0;
   }
 
   private static int altitude(int[][] location, int x, int y) {

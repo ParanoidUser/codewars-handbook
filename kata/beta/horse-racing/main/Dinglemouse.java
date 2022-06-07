@@ -30,11 +30,18 @@ interface Dinglemouse {
     for (var i = 0; i < horses[0].length && of(top).mapToInt(String::length).sum() < 6; i++) {
       var place = places.getAsInt();
       for (var h = 0; h < 3; h++) {
-        if (dist[h] < 10 && (dist[h] += horses[h][i]) >= 10) {
-          top[place] += names.apply(h);
-        }
+        moveHorse(horses[h][i], top, names.apply(h), dist, place, h);
       }
     }
     return top;
+  }
+
+  private static void moveHorse(double horse, String[] top, String name, double[] dist, int place, int h) {
+    if (dist[h] < 10) {
+      dist[h] += horse;
+      if (dist[h] >= 10) {
+        top[place] += name;
+      }
+    }
   }
 }
