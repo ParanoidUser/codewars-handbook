@@ -1,7 +1,9 @@
 interface MaxConsecutiveSum {
   static int[] maxConsecutiveSum(int num) {
-    long start = 1, end = (long) Math.sqrt(2. * num);
-    for (long sum = end * (end + 1) / 2; num > 2 && end < num / 2 + 2; end++, sum += end) {
+    long start = 1;
+    long end = (long) Math.sqrt(2. * num);
+    long sum = end * (end + 1) / 2;
+    for (; num > 2 && end < num / 2 + 2; end++, sum += end) {
       while (sum > num) {
         sum -= start++;
       }

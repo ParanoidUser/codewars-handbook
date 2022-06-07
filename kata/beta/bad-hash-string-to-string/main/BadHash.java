@@ -12,7 +12,9 @@ class BadHash {
   }
 
   int magicNum(String str) {
-    int a = str.isEmpty() ? 0 : str.charAt(0), b = 0, c = !str.isEmpty() && str.charAt(0) == ' ' ? 2 : 1;
+    int a = str.isEmpty() ? 0 : str.charAt(0);
+    int b = 0;
+    int c = !str.isEmpty() && str.charAt(0) == ' ' ? 2 : 1;
     for (int i = str.length() - 1; i > 0; i--) {
       a += str.charAt(i);
       b += str.charAt(i) - str.charAt(i - 1);
