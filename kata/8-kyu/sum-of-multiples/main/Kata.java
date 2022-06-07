@@ -1,6 +1,9 @@
 interface Kata {
-  static long sumMul(int n, int m) {
-    if (n > 0 && m > 0) return (m = --m / n) * ++m * n / 2;
+  static long sumMul(long n, long m) {
+    if (n > 0 && m > 0) {
+      m = --m / n;
+      return m * ++m * n / 2;
+    }
     throw new IllegalArgumentException();
   }
 }

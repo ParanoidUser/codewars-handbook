@@ -1,5 +1,6 @@
 interface Calculate {
   static String bmi(double weight, double height) {
-    return (weight /= Math.pow(height, 2)) > 30 ? "Obese" : weight > 25 ? "Overweight" : weight > 18.5 ? "Normal" : "Underweight";
+    double bmi = weight / Math.pow(height, 2);
+    return bmi > 30 ? "Obese" : bmi > 25 ? "Overweight" : bmi > 18.5 ? "Normal" : "Underweight";
   }
 }
