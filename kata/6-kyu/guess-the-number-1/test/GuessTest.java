@@ -8,10 +8,22 @@ class GuessTest {
 
   @Test
   void sample() {
+    var top = new GuesserSolution();
+    top.setAnswer(1);
+    assertEquals(1, top.getNumber());
+
+    var mid = new GuesserSolution();
+    mid.setAnswer(500);
+    assertEquals(1, mid.getNumber());
+
+    var bottom = new GuesserSolution();
+    bottom.setAnswer(1000);
+    assertEquals(1000, bottom.getNumber());
+
     int guess = new SecureRandom().nextInt(1, 1001);
-    var solution1 = new GuesserSolution();
-    solution1.setAnswer(guess);
-    assertEquals(guess, solution1.getNumber());
+    var random = new GuesserSolution();
+    random.setAnswer(guess);
+    assertEquals(guess, random.getNumber());
 
     assertThrows(Guesser.GameException.class, () -> new GuesserSolution().guess(1));
 
