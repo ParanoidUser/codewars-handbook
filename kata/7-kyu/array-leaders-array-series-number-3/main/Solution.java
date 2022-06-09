@@ -4,7 +4,8 @@ import java.util.List;
 interface Solution {
   static List<Integer> arrayLeaders(int[] numbers) {
     var arr = new ArrayList<Integer>();
-    for (int i = numbers.length - 1, sum = 0; i >= 0; i--) {
+    int sum = 0;
+    for (int i = numbers.length - 1; i >= 0; i--) {
       if (numbers[i] > sum) arr.add(0, numbers[i]);
       sum += numbers[i];
     }

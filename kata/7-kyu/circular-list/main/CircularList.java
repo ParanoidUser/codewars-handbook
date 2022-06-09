@@ -9,10 +9,16 @@ class CircularList<T> {
   }
 
   T next() {
-    return elements[(pointer = ++pointer > elements.length - 1 ? 0 : pointer)];
+    if (++pointer > elements.length - 1) {
+      pointer = 0;
+    }
+    return elements[pointer];
   }
 
   T prev() {
-    return elements[(pointer = --pointer < 0 ? elements.length - 1 : pointer)];
+    if (--pointer < 0) {
+      pointer = elements.length - 1;
+    }
+    return elements[pointer];
   }
 }
