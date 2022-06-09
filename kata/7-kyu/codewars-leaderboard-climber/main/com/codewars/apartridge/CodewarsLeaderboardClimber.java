@@ -2,9 +2,15 @@ package com.codewars.apartridge;
 
 interface CodewarsLeaderboardClimber {
   static String leaderBoard(String user, int userScore, int yourScore) {
-    return userScore < yourScore ? "Winning!" :
-           userScore == yourScore ? "Only need one!" :
-           "To beat " + user + "'s score, I must complete " + (yourScore = (userScore -= yourScore) / 3) +
-           " Beta kata and " + (userScore = userScore % 3) + " 8kyu kata." + (yourScore + userScore > 1000 ? " Dammit!" : "");
+    int diff = userScore - yourScore;
+    if (diff < 0) {
+      return "Winning!";
+    }
+    if (diff == 0) {
+      return "Only need one!";
+    }
+    int beta = diff / 3;
+    int kyu8 = diff % 3;
+    return "To beat " + user + "'s score, I must complete " + beta + " Beta kata and " + kyu8 + " 8kyu kata." + (beta + kyu8 > 1000 ? " Dammit!" : "");
   }
 }
