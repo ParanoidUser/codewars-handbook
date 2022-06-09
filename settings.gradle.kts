@@ -9,7 +9,7 @@ File(rootDir, "kata").walk().maxDepth(2)
         }
 
 plugins {
-    id("com.gradle.enterprise") version "3.10.1"
+    id("com.gradle.enterprise") version "3.10.2"
 }
 
 gradleEnterprise {
