@@ -10,8 +10,10 @@ import java.util.function.UnaryOperator;
 interface Solution extends Iterator<String> {
   default String next() {
     var guess = new StringBuilder();
-    for (int i = Util.CHAR_CODE.getAndIncrement(), l = Util.CHAR_LEVEL.get(), m; l >= 0; l--, i %= m) {
-      guess.append((char) (i / (m = (int) Math.pow(26, l)) + 'a'));
+    int m;
+    for (int i = Util.CHAR_CODE.getAndIncrement(), l = Util.CHAR_LEVEL.get(); l >= 0; l--, i %= m) {
+      m = (int) Math.pow(26, l);
+      guess.append((char) (i / m + 'a'));
     }
 
     if (Util.CHAR_CODE.get() > Math.pow(26, Util.CHAR_LEVEL.get() + 1.)) {
@@ -22,9 +24,11 @@ interface Solution extends Iterator<String> {
   }
 
   static String passwordCracker(String hash) {
-    String guess = Util.CACHE.get(hash);
-    for (var sha1 = ""; guess == null || !(sha1 = Util.SHA1.apply(guess)).equals(hash); guess = Util.INSTANCE.next()) {
+    var guess = Util.CACHE.get(hash);
+    var sha1 = "";
+    while (guess == null || !(sha1 = Util.SHA1.apply(guess)).equals(hash)) {
       Util.CACHE.put(sha1, guess);
+      guess = Util.INSTANCE.next();
     }
     return guess;
   }

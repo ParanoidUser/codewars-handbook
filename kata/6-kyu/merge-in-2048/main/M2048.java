@@ -1,11 +1,15 @@
 interface M2048 {
   static int[] merge(int[] line) {
     var shrink = new int[line.length];
-    for (int i = 0, j = 0, m = 0; i < line.length; i++) {
-      if (m < 0 && line[i] == shrink[j - 1]) {
-        shrink[m = j - 1] *= 2;
-      } else if (line[i] > 0) {
-        m -= 2048 - (shrink[j++] = line[i]);
+    int j = 0;
+    int m = 0;
+    for (int l : line) {
+      if (m < 0 && l == shrink[j - 1]) {
+        m = j - 1;
+        shrink[m] *= 2;
+      } else if (l > 0) {
+        shrink[j++] = l;
+        m -= 2048 - l;
       }
     }
     return shrink;

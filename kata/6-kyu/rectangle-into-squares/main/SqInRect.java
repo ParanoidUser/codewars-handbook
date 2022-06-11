@@ -6,7 +6,15 @@ interface SqInRect {
     var result = new ArrayList<Integer>();
     if (lng == wdth) return result;
     while (lng * wdth > 0) {
-      result.add(lng > wdth ? lng - (lng -= wdth) : wdth - (wdth -= lng));
+      if (lng > wdth) {
+        int tmp = lng;
+        lng -= wdth;
+        result.add(tmp - lng);
+      } else {
+        int tmp = wdth;
+        wdth -= lng;
+        result.add(tmp - wdth);
+      }
     }
     return result;
   }

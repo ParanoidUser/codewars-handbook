@@ -1,7 +1,8 @@
 interface Dinglemouse {
   static int[] shakeTree(char[][] tree) {
     var nuts = new int[tree[0].length];
-    for (int i = 0, j = i; i < tree[0].length; i++, j = i) {
+    int j = 0;
+    for (int i = 0; i < tree[0].length; i++, j = i) {
       if (tree[0][i] != 'o') {
         continue;
       }
