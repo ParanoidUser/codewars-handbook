@@ -15,7 +15,8 @@ interface Dinglemouse {
 
       conn.setCharAt(a, '*');
       while (a != b) {
-        conn.setCharAt(a += d, '*');
+        a += d;
+        conn.setCharAt(a, '*');
       }
     }
     return conn.toString();

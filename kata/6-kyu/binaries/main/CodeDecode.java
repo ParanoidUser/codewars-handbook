@@ -11,9 +11,12 @@ final class CodeDecode {
 
   static String decode(String str) {
     var decoded = new StringBuilder();
-    for (int i = 0, l = 1; i < str.length(); i++, l++)
+    int l = 1;
+    int i;
+    for (i = 0; i < str.length(); i++, l++)
       if (str.charAt(i) == '1') {
-        decoded.append(Integer.parseInt(str.substring(i + 1, (i += l) + 1), 2));
+        decoded.append(Integer.parseInt(str.substring(i + 1, l + i + 1), 2));
+        i += l;
         l = 0;
       }
     return decoded.toString();

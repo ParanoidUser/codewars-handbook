@@ -6,7 +6,12 @@ import java.time.LocalDate;
 
 interface Mondays {
   static long count(LocalDate birthday, LocalDate today) {
-    return (birthday = birthday.plusYears(22)).isAfter(today) ? 0 :
-        birthday.with(nextOrSame(MONDAY)).datesUntil((birthday = birthday.plusYears(56)).isBefore(today) ? birthday : today.plusDays(1), ofWeeks(1)).count();
+    birthday = birthday.plusYears(22);
+    if (birthday.isAfter(today)) {
+      return 0;
+    }
+    var nextMonday = birthday.with(nextOrSame(MONDAY));
+    birthday = birthday.plusYears(56);
+    return nextMonday.datesUntil(birthday.isBefore(today) ? birthday : today.plusDays(1), ofWeeks(1)).count();
   }
 }
