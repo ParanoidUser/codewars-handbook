@@ -6,7 +6,9 @@ interface CircleOfChildren {
     while (of(candies).distinct().count() != 1) {
       int prev = (candies[0] + candies[0] % 2) / 2;
       for (int i = candies.length - 1; i >= 0; i--) {
-        candies[i] = prev + (prev = (candies[i] + candies[i] % 2) / 2);
+        int next = (candies[i] + candies[i] % 2) / 2;
+        candies[i] = prev + next;
+        prev = next;
       }
       times++;
     }

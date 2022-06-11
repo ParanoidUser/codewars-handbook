@@ -3,7 +3,8 @@ class MyFirstInterpreter {
 
   MyFirstInterpreter(String code) {
     code = code.replaceAll("[^+.]", "");
-    for (int i = 0, sum = 0; i < code.length(); i++) {
+    int sum = 0;
+    for (int i = 0; i < code.length(); i++) {
       if (code.charAt(i) == '+') {
         sum = ++sum % 256;
       } else {

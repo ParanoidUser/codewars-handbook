@@ -1,7 +1,9 @@
 interface Circuit {
   static String ledSeq(String redSeq, String blueSeq) {
     var blinks = new StringBuilder();
-    for (int i = 0, prevRed = '0', red, prevBlue = '0', blue; i < redSeq.length(); i++, prevRed = red, prevBlue = blue) {
+    int red;
+    int blue;
+    for (int i = 0, prevRed = '0', prevBlue = '0'; i < redSeq.length(); i++, prevRed = red, prevBlue = blue) {
       red = redSeq.charAt(i);
       blue = blueSeq.charAt(i);
 
