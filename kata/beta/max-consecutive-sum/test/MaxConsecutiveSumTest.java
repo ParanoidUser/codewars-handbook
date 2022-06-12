@@ -1,17 +1,16 @@
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
 
 import org.junit.jupiter.api.Test;
 
 class MaxConsecutiveSumTest {
   @Test
   void sample() {
-    assertNull(MaxConsecutiveSum.maxConsecutiveSum(-1));
-    assertNull(MaxConsecutiveSum.maxConsecutiveSum(0));
-    assertNull(MaxConsecutiveSum.maxConsecutiveSum(1));
-    assertNull(MaxConsecutiveSum.maxConsecutiveSum(2));
-    assertNull(MaxConsecutiveSum.maxConsecutiveSum(1024));
-    assertNull(MaxConsecutiveSum.maxConsecutiveSum(1073741824));
+    assertArrayEquals(new int[0], MaxConsecutiveSum.maxConsecutiveSum(-1));
+    assertArrayEquals(new int[0], MaxConsecutiveSum.maxConsecutiveSum(0));
+    assertArrayEquals(new int[0], MaxConsecutiveSum.maxConsecutiveSum(1));
+    assertArrayEquals(new int[0], MaxConsecutiveSum.maxConsecutiveSum(2));
+    assertArrayEquals(new int[0], MaxConsecutiveSum.maxConsecutiveSum(1024));
+    assertArrayEquals(new int[0], MaxConsecutiveSum.maxConsecutiveSum(1073741824));
     assertArrayEquals(new int[]{1, 2}, MaxConsecutiveSum.maxConsecutiveSum(3));
     assertArrayEquals(new int[]{2, 3}, MaxConsecutiveSum.maxConsecutiveSum(5));
     assertArrayEquals(new int[]{495, 496}, MaxConsecutiveSum.maxConsecutiveSum(991));

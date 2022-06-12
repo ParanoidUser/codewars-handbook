@@ -11,6 +11,6 @@ interface MaxConsecutiveSum {
         return new int[]{(int) start, (int) end};
       }
     }
-    return null;
+    return new int[0];
   }
 }
