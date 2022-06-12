@@ -3,11 +3,15 @@ import static java.util.stream.IntStream.range;
 interface Dinglemouse {
   static String[] trafficLights(String road, int n) {
     var moves = new String[n + 1];
-    road = (moves[0] = road).replace("C", ".");
+    moves[0] = road;
+    road = road.replace("C", ".");
 
-    for (int car = moves[0].indexOf('C'); n > 0; n--) {
+    int car = moves[0].indexOf('C');
+    for (; n > 0; n--) {
       road = switchLights(road, moves.length - n, moves[0]);
-      if (car > road.length() - 2 || ".G".indexOf(road.charAt(car + 1)) > -1) car++;
+      if (car > road.length() - 2 || ".G".indexOf(road.charAt(car + 1)) > -1) {
+        car++;
+      }
       moves[moves.length - n] = car < road.length() ? road.substring(0, car) + 'C' + road.substring(car + 1) : road;
     }
     return moves;
