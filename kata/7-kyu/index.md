@@ -257,6 +257,7 @@
 - [Last](last)
 - [Last Survivor](last-survivor)
 - [Laxative Shot Roulette](laxative-shot-roulette)
+- [Length and two values](length-and-two-values)
 - [Letterbox Paint-Squad](letterbox-paint-squad)
 - [Linked Lists - Append](linked-lists-append)
 - [Linked Lists - Get Nth Node](linked-lists-get-nth-node)
