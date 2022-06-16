@@ -152,6 +152,7 @@
 # G
 - [Get the Excel column title!](get-the-excel-column-title)
 - [Give me a Diamond](give-me-a-diamond)
+- [Give your kata a name](give-your-kata-a-name)
 - [Grill it!](grill-it)
 - [Guess the function](guess-the-function)
 - [Guess the number!](guess-the-number-1)
