@@ -373,6 +373,7 @@
 - [Validate Credit Card Number](validate-credit-card-number)
 - [VIN Checker](vin-checker)
 # W
+- [Wave Sorting](wave-sorting)
 - [We are the Robots d[(0)(0)]b](we-are-the-robots-d-0-0-b)
 - [What century is it?](what-century-is-it)
 - [What's in a name?](whats-in-a-name)
