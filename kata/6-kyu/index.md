@@ -182,6 +182,7 @@
 - [Jurassic Word](jurassic-word)
 # L
 - [L3375p34k](l3375p34k)
+- [Last Survivors Ep.2](last-survivors-ep-dot-2)
 - [Length of missing array](length-of-missing-array)
 - [Longest alphabetical substring](longest-alphabetical-substring)
 - [Longest palindrome](longest-palindrome)
