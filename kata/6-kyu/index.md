@@ -102,6 +102,7 @@
 - [Divisible Ints](divisible-ints)
 - [Dude, my computer cannot count!](dude-my-computer-cannot-count)
 - [Duplicate Encoder](duplicate-encoder)
+- [Duplicates. Duplicates Everywhere.](duplicates-duplicates-everywhere)
 # E
 - [Ease the StockBroker](ease-the-stockbroker)
 - [Easy Balance Checking](easy-balance-checking)
