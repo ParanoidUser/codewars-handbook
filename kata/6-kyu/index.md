@@ -239,6 +239,7 @@
 - [Playing with digits](playing-with-digits)
 - [Playing with passphrases](playing-with-passphrases)
 - [Points in the circle](points-in-the-circle)
+- [Polybius square cipher - encode](polybius-square-cipher-encode)
 - [Positions Average](positions-average)
 - [Possibilities of throwing a coin n times](possibilities-of-throwing-a-coin-n-times)
 - [Prime factorization](prime-factorization)
