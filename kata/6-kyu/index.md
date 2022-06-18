@@ -327,6 +327,7 @@
 - [Strongest even number in an interval](strongest-even-number-in-an-interval)
 - [Sum consecutives](sum-consecutives)
 - [Sum of Digits / Digital Root](sum-of-digits-slash-digital-root)
+- [Sum of prime-indexed elements](sum-of-prime-indexed-elements)
 - [Sum of Two Integers](sum-of-two-integers)
 - [Sums of Parts](sums-of-parts)
 - [Surrounding Primes for a value](surrounding-primes-for-a-value)
