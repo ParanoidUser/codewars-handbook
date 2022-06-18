@@ -303,6 +303,7 @@
 - [Some Fun with Aggregate Operations (Part 4)](some-fun-with-aggregate-operations-part-4)
 - [Sort array by sorting its smallest sub-array](sort-array-by-sorting-its-smallest-sub-array)
 - [Sort the odd](sort-the-odd)
+- [Sort two arrays](sort-two-arrays)
 - [Sortable Shapes](sortable-shapes)
 - [Sorting on planet Twisted-3-7](sorting-on-planet-twisted-3-7)
 - [Special Multiples](special-multiples)
