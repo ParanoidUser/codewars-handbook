@@ -129,6 +129,7 @@
 - [Find Numbers with Same Amount of Divisors](find-numbers-with-same-amount-of-divisors)
 - [Find the First Number in Having a Certain Number of Divisors I](find-the-first-number-in-having-a-certain-number-of-divisors-i)
 - [Find the missing letter](find-the-missing-letter)
+- [Find the missing term in an Arithmetic Progression](find-the-missing-term-in-an-arithmetic-progression)
 - [Find the odd int](find-the-odd-int)
 - [Find The Parity Outlier](find-the-parity-outlier)
 - [Find the unique number](find-the-unique-number-1)
