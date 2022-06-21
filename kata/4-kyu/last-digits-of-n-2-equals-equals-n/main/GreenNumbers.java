@@ -8,7 +8,8 @@ interface GreenNumbers {
     set.add(num);
     set.add(BigInteger.valueOf(6));
 
-    int digitNo = 2, counter = 2;
+    int digitNo = 2;
+    int counter = 2;
     while (counter < n + n / 5) {
       var powOfTen = BigInteger.TEN.pow(digitNo++);
       num = num.multiply(num).mod(powOfTen);

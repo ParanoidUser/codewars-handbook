@@ -9,9 +9,17 @@ interface TimeFormatter {
     var units = stream(time.replaceAll("[^\\d:]", "").split(":")).mapToInt(Integer::parseInt).toArray();
 
     IntUnaryOperator hh = h -> h % 12 > 0 ? h % 12 : 12;
-    IntFunction<String> mm = m -> clock[m] + (m == 15 || m == 30 ? "" : m == 1 ? " minute" : " minutes");
+    IntFunction<String> mm = m -> {
+      var suffix = "";
+      if (m != 15 && m != 30) {
+        suffix = " minute" + (m > 1 ? "s" : "");
+      }
+      return clock[m] + suffix;
+    };
 
-    return units[1] > 30 ? mm.apply(60 - units[1]) + " to " + clock[hh.applyAsInt(units[0] + 1)] :
-           units[1] > 0 ? mm.apply(units[1]) + " past " + clock[hh.applyAsInt(units[0])] : clock[hh.applyAsInt(units[0])] + " " + clock[0];
+    if (units[1] > 30) {
+      return mm.apply(60 - units[1]) + " to " + clock[hh.applyAsInt(units[0] + 1)];
+    }
+    return units[1] > 0 ? mm.apply(units[1]) + " past " + clock[hh.applyAsInt(units[0])] : clock[hh.applyAsInt(units[0])] + " " + clock[0];
   }
 }
