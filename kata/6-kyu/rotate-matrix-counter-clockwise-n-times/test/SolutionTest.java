@@ -13,6 +13,15 @@ class SolutionTest {
             {3, 4}}, 1));
 
     assertArrayEquals(new int[][]{
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}},
+        Kata.rotateCounterclockwise(new int[][]{
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}}, 4));
+
+    assertArrayEquals(new int[][]{
             {4, 8, 12, 16},
             {3, 7, 11, 15},
             {2, 6, 10, 14},
