@@ -1,7 +1,11 @@
 # C
 - [Calculator](calculator)
+- [Checking Groups](checking-groups)
 # D
 - [Dubstep](dubstep)
+# F
+- [Find the GCF of Two Numbers](find-the-gcf-of-two-numbers)
+- [Form The Largest](form-the-largest)
 # L
 - [List:Find Total Numbers](list-find-total-numbers)
 # N
@@ -21,5 +25,6 @@
 - [Vasya and Stairs](vasya-and-stairs)
 - [Vasya and System of Equations](vasya-and-system-of-equations)
 # W
+- [Watermelon](watermelon)
 - [What time is it?](what-time-is-it-1)
 - [Where is Vasya?](where-is-vasya)

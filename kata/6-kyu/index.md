@@ -66,7 +66,6 @@
 - [Change your Points of View](change-your-points-of-view)
 - [Character with longest consecutive repetition](character-with-longest-consecutive-repetition)
 - [Chaser's schedule](chasers-schedule)
-- [Checking Groups](checking-groups)
 - [Children and candies](children-and-candies)
 - [Chocolate problem](chocolate-problem)
 - [Circularly Sorted Array](circularly-sorted-array)

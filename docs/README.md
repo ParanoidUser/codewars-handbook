@@ -65,7 +65,7 @@ repository.
                title="Low-quality kata with a low satisfaction rate">Retired
             </a>
          </td>
-         <td>15</td>
+         <td>19</td>
       </tr>
       <tr>
          <td rowspan=2>Beginner (2 points)</td>
@@ -74,7 +74,7 @@ repository.
                title="- Defining a simple function (i.e. hello world)&#13;- Basic variable assignments&#13;- Fixing basic syntax issues&#13;- Trivial algorithms such as basic if/else statements">8th kyū
             </a>
          </td>
-         <td>190</td>
+         <td>189</td>
       </tr>
       <tr>
          <td>
@@ -82,7 +82,7 @@ repository.
                title="- Iterating arrays and returning a subset of values&#13;- Basic data type manipulations&#13;- Basic functional or object-oriented concepts&#13;- Basic Regular Expressions">7th kyū
             </a>
          </td>
-         <td>510</td>
+         <td>508</td>
       </tr>
       <tr>
          <td rowspan=2>Novice (8 points)</td>
@@ -91,7 +91,7 @@ repository.
                title="- Complex language features (closures, scopes, monads, etc)&#13;- Complex OOP/Functional concepts&#13;- Basic Design Patterns&#13;- Complex Regular Expressions">6th kyū
             </a>
          </td>
-         <td>372</td>
+         <td>371</td>
       </tr>
       <tr>
          <td>
