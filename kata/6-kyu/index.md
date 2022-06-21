@@ -272,6 +272,7 @@
 - [RoboScript #1 - Implement Syntax Highlighting](roboscript-number-1-implement-syntax-highlighting)
 - [Roman Numerals Encoder](roman-numerals-encoder)
 - [Rotate Array](rotate-array)
+- [Rotate matrix counter - clockwise N - times!](rotate-matrix-counter-clockwise-n-times)
 - [Routes in a square grid](routes-in-a-square-grid)
 - [Row of the odd triangle](row-of-the-odd-triangle)
 # S
