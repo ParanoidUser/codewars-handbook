@@ -1,5 +1,11 @@
 interface TirePressure {
   static String checkPressure(int x) {
-    return x > 220 ? "Too high" : x < 220 ? "Too low" : "Optimal";
+    if (x < 220) {
+      return "Too low";
+    }
+    if (x > 220) {
+      return "Too high";
+    }
+    return "Optimal";
   }
 }

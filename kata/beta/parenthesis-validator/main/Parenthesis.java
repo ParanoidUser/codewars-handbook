@@ -1,5 +1,12 @@
 interface Parenthesis {
   static boolean validate(String s) {
-    return s.chars().reduce(0, (t, p) -> t < 0 ? -1 : p > 40 ? --t : ++t) == 0;
+    int n = 0;
+    for (char c : s.toCharArray()) {
+      n += c == '(' ? 1 : -1;
+      if (n < 0) {
+        return false;
+      }
+    }
+    return n == 0;
   }
 }

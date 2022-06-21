@@ -1,7 +1,6 @@
 import static java.util.stream.IntStream.range;
 import static java.util.stream.Stream.of;
 
-import java.util.function.IntFunction;
 import java.util.function.IntSupplier;
 
 interface Dinglemouse {
@@ -25,18 +24,24 @@ interface Dinglemouse {
   private static String[] raceTop(double[][] horses) {
     var top = new String[]{"", "", ""};
     IntSupplier places = () -> range(0, 3).filter(i -> top[i].isEmpty()).findFirst().orElse(0);
-    IntFunction<String> names = h ->  h > 1 ? "C " : h > 0 ? "B " : "A ";
     var dist = new double[3];
     for (var i = 0; i < horses[0].length && of(top).mapToInt(String::length).sum() < 6; i++) {
       var place = places.getAsInt();
       for (var h = 0; h < 3; h++) {
-        moveHorse(horses[h][i], top, names.apply(h), dist, place, h);
+        moveHorse(horses[h][i], top, dist, place, h);
       }
     }
     return top;
   }
 
-  private static void moveHorse(double horse, String[] top, String name, double[] dist, int place, int h) {
+  private static void moveHorse(double horse, String[] top, double[] dist, int place, int h) {
+    String name = "A ";
+    if (h > 1) {
+      name = "C ";
+    } else if (h > 0) {
+     name = "B ";
+    }
+
     if (dist[h] < 10) {
       dist[h] += horse;
       if (dist[h] >= 10) {

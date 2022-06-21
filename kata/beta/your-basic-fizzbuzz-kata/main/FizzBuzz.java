@@ -1,5 +1,14 @@
 interface FizzBuzz {
   static String convert(int i) {
-    return i % 15 == 0 ? "fizz buzz" : i % 3 == 0 ? "fizz" : i % 5 == 0 ? "buzz" : i + "";
+    if (i % 15 == 0) {
+      return "fizz buzz";
+    }
+    if (i % 5 == 0) {
+      return "buzz";
+    }
+    if (i % 3 == 0) {
+      return "fizz";
+    }
+    return i + "";
   }
 }
