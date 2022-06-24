@@ -361,6 +361,7 @@
 - [Triple Sorting - Sort & Stringify a list by 3 attributes](triple-sorting-sort-and-stringify-a-list-by-3-attributes)
 - [Triple trouble](triple-trouble-1)
 - [Trumpness detector](trumpness-detector)
+- [TV Remote (shift and space)](tv-remote-shift-and-space)
 - [TV Remote (wrap)](tv-remote-wrap)
 - [Two cube sums](two-cube-sums)
 - [Two Sum](two-sum)
