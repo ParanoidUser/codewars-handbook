@@ -13,6 +13,8 @@
 - [Number of trailing zeros of N!](number-of-trailing-zeros-of-n)
 # P
 - [Product of consecutive Fib numbers](product-of-consecutive-fib-numbers)
+# S
+- [Scramblies](scramblies)
 # V
 - [Valid Parentheses](valid-parentheses)
 # W
