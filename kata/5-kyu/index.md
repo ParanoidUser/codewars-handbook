@@ -6,6 +6,8 @@
 - [Containers](containers)
 # D
 - [Directions Reduction](directions-reduction)
+# H
+- [Human Readable Time](human-readable-time)
 # M
 - [Maximum Contiguous Sum](maximum-contiguous-sum)
 - [Maximum subarray sum](maximum-subarray-sum)
