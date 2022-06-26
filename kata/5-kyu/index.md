@@ -4,6 +4,8 @@
 # C
 - [Common Denominators](common-denominators)
 - [Containers](containers)
+# D
+- [Directions Reduction](directions-reduction)
 # M
 - [Maximum Contiguous Sum](maximum-contiguous-sum)
 - [Maximum subarray sum](maximum-subarray-sum)
