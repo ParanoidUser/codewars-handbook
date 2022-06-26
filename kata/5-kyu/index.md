@@ -7,3 +7,5 @@
 # M
 - [Maximum Contiguous Sum](maximum-contiguous-sum)
 - [Maximum subarray sum](maximum-subarray-sum)
+# N
+- [Number of trailing zeros of N!](number-of-trailing-zeros-of-n)
