@@ -9,5 +9,7 @@
 - [Maximum subarray sum](maximum-subarray-sum)
 # N
 - [Number of trailing zeros of N!](number-of-trailing-zeros-of-n)
+# P
+- [Product of consecutive Fib numbers](product-of-consecutive-fib-numbers)
 # W
 - [Weight for weight](weight-for-weight)

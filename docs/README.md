@@ -6,7 +6,7 @@
            title="Views statistics +1 👀">
    </a>
    <a href="https://www.codewars.com">
-      <img src="https://img.shields.io/badge/solved%20kata-1194-red.svg"
+      <img src="https://img.shields.io/badge/solved%20kata-1195-red.svg"
            title="Solved kata 👌">
    </a>
    <a href="https://github.com/ParanoidUser/codewars-handbook">
@@ -99,7 +99,7 @@ repository.
                title="- Complex language features that require mature OOP/Functional concepts&#13;- Advanced OOP/Functional concepts&#13;- Complex Design Patterns&#13;- Advanced regular expression usage">5th kyū
             </a>
          </td> 
-         <td>8</td>
+         <td>9</td>
       </tr>
       <tr>
          <td rowspan=2>Competent (32 points)</td>
