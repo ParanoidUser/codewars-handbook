@@ -17,6 +17,7 @@
 - [Product of consecutive Fib numbers](product-of-consecutive-fib-numbers)
 # S
 - [Scramblies](scramblies)
+- [Simple Pig Latin](simple-pig-latin)
 # V
 - [Valid Parentheses](valid-parentheses)
 # W
