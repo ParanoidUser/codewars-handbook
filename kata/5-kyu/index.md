@@ -13,5 +13,7 @@
 - [Number of trailing zeros of N!](number-of-trailing-zeros-of-n)
 # P
 - [Product of consecutive Fib numbers](product-of-consecutive-fib-numbers)
+# V
+- [Valid Parentheses](valid-parentheses)
 # W
 - [Weight for weight](weight-for-weight)
