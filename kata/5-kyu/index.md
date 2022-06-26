@@ -9,3 +9,5 @@
 - [Maximum subarray sum](maximum-subarray-sum)
 # N
 - [Number of trailing zeros of N!](number-of-trailing-zeros-of-n)
+# W
+- [Weight for weight](weight-for-weight)
