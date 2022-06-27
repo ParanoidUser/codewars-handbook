@@ -39,5 +39,6 @@ class SampleTests {
     assertEquals(28, Dinglemouse.tvRemote("For"));
     assertEquals(41, Dinglemouse.tvRemote("These"));
     assertEquals(35, Dinglemouse.tvRemote("Words"));
+    assertEquals(27, Dinglemouse.tvRemote("qV/YN"));
   }
 }
