@@ -124,10 +124,13 @@ sonarqube {
          *  - and this is the second rule being excluded with this severity
          */
 
-        property("sonar.issue.ignore.multicriteria", "fc31")
+        property("sonar.issue.ignore.multicriteria", "fc31,iv22")
 
         // Code Smell [minor]: The default unnamed package should not be used
         property("sonar.issue.ignore.multicriteria.fc31.ruleKey", "java:S1220")
         property("sonar.issue.ignore.multicriteria.fc31.resourceKey", "**/*.java")
+        // Code Smell [major]: Ternary operators should not be nested
+        property("sonar.issue.ignore.multicriteria.iv22.ruleKey", "java:S3358")
+        property("sonar.issue.ignore.multicriteria.iv22.resourceKey", "**/*.java")
     }
 }
