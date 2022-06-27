@@ -13,5 +13,6 @@ class ParenthesisTest {
     assertFalse(Parenthesis.validate("((())()))"));
     assertFalse(Parenthesis.validate("(a)"));
     assertFalse(Parenthesis.validate(")))"));
+    assertFalse(Parenthesis.validate("((("));
   }
 }

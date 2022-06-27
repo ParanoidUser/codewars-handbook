@@ -7,9 +7,10 @@ class SolutionTest {
   @Test
   void sample() {
     assertTrue(Solution.validParentheses("()"));
-    assertFalse(Solution.validParentheses("())"));
     assertTrue(Solution.validParentheses("32423(sgsdg)"));
-    assertFalse(Solution.validParentheses("(dsgdsg))2432"));
     assertTrue(Solution.validParentheses("adasdasfa"));
+    assertFalse(Solution.validParentheses("())"));
+    assertFalse(Solution.validParentheses("(()"));
+    assertFalse(Solution.validParentheses("(dsgdsg))2432"));
   }
 }
