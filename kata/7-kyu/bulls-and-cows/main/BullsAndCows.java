@@ -17,7 +17,8 @@ class BullsAndCows {
     }
     turn++;
 
-    int c = 0, b = 0;
+    int c = 0;
+    int b = 0;
     for (var i = 0; i < 4; i++) {
       if (guess.charAt(i) == secret.charAt(i)) b++;
       else if (guess.indexOf(secret.charAt(i)) != -1) c++;

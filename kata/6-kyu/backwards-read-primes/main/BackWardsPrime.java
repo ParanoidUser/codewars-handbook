@@ -6,7 +6,8 @@ interface BackWardsPrime {
     var primes = new ArrayList<String>();
     var prime = BigInteger.valueOf(start - 1);
     while ((prime = prime.nextProbablePrime()).longValue() <= end) {
-      String s = prime + "", r = new StringBuilder(s).reverse() + "";
+      String s = prime + "";
+      String r = new StringBuilder(s).reverse() + "";
       if (!r.equals(s) && new BigInteger(r).isProbablePrime(10)) {
         primes.add(s);
       }

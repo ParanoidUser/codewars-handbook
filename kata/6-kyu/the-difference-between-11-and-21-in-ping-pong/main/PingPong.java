@@ -10,7 +10,8 @@ interface PingPong {
 
   static List<Score> getScores(String game, int n) {
     var scores = new ArrayList<Score>();
-    int me = 0, opp = 0;
+    int me = 0;
+    int opp = 0;
     for (char match : game.toCharArray()) {
       if (match == 'W') me++; else opp++;
       if ((me > n || opp > n) && Math.abs(me - opp) > 1) {

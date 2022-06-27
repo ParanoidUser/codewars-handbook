@@ -3,7 +3,8 @@ import java.util.Map;
 interface EightiesKids1 {
   static String totalLicks(Map<String, Integer> env) {
     var challenge = "";
-    int max = 0, licks = 252;
+    int max = 0;
+    int licks = 252;
     for (var it : env.entrySet()) {
       if (it.getValue() > max) {
         max = it.getValue();
