@@ -3,7 +3,8 @@ import java.util.Set;
 import java.util.TreeSet;
 
 class Song {
-  private final String title, artist;
+  private final String title;
+  private final String artist;
   private final Set<String> uniqueListeners = new TreeSet<>(String::compareToIgnoreCase);
 
   Song(String title, String artist) {

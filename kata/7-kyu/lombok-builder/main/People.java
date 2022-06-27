@@ -1,12 +1,15 @@
 import lombok.Builder;
-import lombok.Getter;
+import lombok.Value;
 
 @Builder
-@Getter
+@Value
 class People {
   private static final String GREET = "hello my name is ";
-  private final String name, lastName, city, job;
-  private final int age;
+  String name;
+  String lastName;
+  String city;
+  String job;
+  int age;
 
   String greet() {
     return GREET + name;

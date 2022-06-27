@@ -1,6 +1,7 @@
 interface BuyCar {
   static int[] nbMonths(double priceOld, double priceNew, int savingsPerMonth, double lossByMonth) {
-    int savings = 0, months = 0;
+    int savings = 0;
+    int months = 0;
     while (priceNew - priceOld > savings) {
       if (++months % 2 == 0) {
         lossByMonth += .5;

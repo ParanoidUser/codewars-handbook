@@ -3,7 +3,8 @@ import java.util.ArrayList;
 interface OrdersSummary {
   static String balanceStatements(String lst) {
     var typos = new ArrayList<String>();
-    double bought = 0, sold = 0;
+    double bought = 0;
+    double sold = 0;
     for (String order : lst.split(", ")) {
       if (order.matches("^.*?(\\d+) (\\d*\\.\\d+) ([BS])$")) {
         String[] simple = order.split(" ");
