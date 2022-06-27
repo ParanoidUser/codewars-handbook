@@ -1,24 +1,18 @@
 interface Dinglemouse {
   static int tvRemote(String words) {
-    int[] cursor = {0, 0};
-    boolean[] upper = {false};
-    return words.chars().reduce(0, (s, c) -> {
-      if ((!upper[0] && Character.isUpperCase(c)) || (upper[0] && Character.isLowerCase(c))) {
-        s += moveCursor('^', cursor);
-        upper[0] = !upper[0];
+    int moves = 0;
+    int i = 0;
+    boolean upper = false;
+    for (char c : words.toCharArray()) {
+      if (Character.isLetter(c) && Character.isUpperCase(c) != upper) {
+        moves += 6 - i / 8 + i % 8;
+        i = 40;
+        upper = !upper;
       }
-      return s + moveCursor((char) c, cursor);
-    });
-  }
-
-  private static int moveCursor(char c, int[] cursor) {
-    var keypad = "abcde123fghij456klmno789pqrst.@0uvwxyz_/^ ";
-    int index = keypad.indexOf(Character.toLowerCase(c));
-    int i = index / 8;
-    int j = index % 8;
-    int moves = Math.abs(cursor[0] - i) + Math.abs(cursor[1] - j) + 1;
-    cursor[0] = i;
-    cursor[1] = j;
+      int p = "abcde123fghij456klmno789pqrst.@0uvwxyz_/^ ".indexOf(Character.toLowerCase(c));
+      moves += Math.abs(i / 8 - p / 8) + Math.abs(i % 8 - p % 8) + 1;
+      i = p;
+    }
     return moves;
   }
 }
