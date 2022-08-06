@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import org.junit.jupiter.api.Test;
 
-class Tests {
+class ArrayTest {
   @Test
   void sample() {
     assertNotNull(Array.array);
