@@ -2,8 +2,9 @@ name: CI
 
 on:
   push:
+    branches-ignore: [ dependabot/** ]
   pull_request:
-    types: [opened, reopened]
+    types: [ opened, reopened ]
 
 jobs:
   build:
