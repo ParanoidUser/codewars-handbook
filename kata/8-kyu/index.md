@@ -43,6 +43,7 @@
 - [Convert number to reversed array of digits](convert-number-to-reversed-array-of-digits)
 - [Convert to Binary](convert-to-binary)
 - [Correct the mistakes of the character recognition software](correct-the-mistakes-of-the-character-recognition-software)
+- [Count by X](count-by-x)
 - [Count Odd Numbers below n](count-odd-numbers-below-n)
 - [Count of positives / sum of negatives](count-of-positives-slash-sum-of-negatives)
 - [Count the Monkeys!](count-the-monkeys)
