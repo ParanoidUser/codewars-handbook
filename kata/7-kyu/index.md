@@ -151,6 +151,7 @@
 - [Extra Perfect Numbers (Special Numbers Series #7)](extra-perfect-numbers-special-numbers-series-number-7)
 # F
 - [Factorial](factorial)
+- [Factorial](factorial-1)
 - [Fibonacci](fibonacci)
 - [Filter the number](filter-the-number)
 - [Find all pairs](find-all-pairs-1)
