@@ -85,6 +85,7 @@
 - [Common Substrings](common-substrings)
 - [Compare Strings by Sum of Chars](compare-strings-by-sum-of-chars)
 - [Complementary DNA](complementary-dna)
+- [Complete The Pattern #1](complete-the-pattern-number-1)
 - [Complete The Pattern #2](complete-the-pattern-number-2)
 - [Complete The Pattern #4](complete-the-pattern-number-4)
 - [Composing squared strings](composing-squared-strings)
