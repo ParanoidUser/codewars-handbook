@@ -74,6 +74,7 @@
 - [Coffee machine](coffee-machine)
 - [Collatz](collatz)
 - [Color Choice](color-choice)
+- [Compare powers](compare-powers)
 - [Connect the Dots](connect-the-dots)
 - [Consecutive strings](consecutive-strings)
 - [Consonant value](consonant-value)
