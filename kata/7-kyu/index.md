@@ -126,6 +126,7 @@
 - [Disarium Number (Special Numbers Series #3)](disarium-number-special-numbers-series-number-3)
 - [Disemvowel Trolls](disemvowel-trolls)
 - [Don't give me five!](dont-give-me-five)
+- [Dot Calculator](dot-calculator)
 - [Double Every Other](double-every-other)
 - [Double Sort](double-sort)
 - [Driving Licence](driving-licence)
