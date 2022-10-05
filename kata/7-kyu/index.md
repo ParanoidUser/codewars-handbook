@@ -296,6 +296,7 @@
 - [Monty Hall Problem](monty-hall-problem)
 - [Most digits](most-digits)
 - [Most valuable character](most-valuable-character)
+- [Move 10](move-10)
 - [Moves in squared strings (I)](moves-in-squared-strings-i)
 - [Multiple implications](multiple-implications)
 - [Multiplication - Generators #2](multiplication-generators-number-2)
