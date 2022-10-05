@@ -22,6 +22,7 @@
 - [Array combinations](array-combinations)
 - [Array Cropper](array-cropper)
 - [Array.diff](array-dot-diff)
+- [Arrh, grabscrab!](arrh-grabscrab)
 # B
 - [B.A.D. Hashing](bad-hashing)
 - [Baby Magpies](baby-magpies)
