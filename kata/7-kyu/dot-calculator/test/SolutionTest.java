@@ -14,5 +14,6 @@ class SolutionTest {
     assertEquals("..", Solution.calc("..... - ..."));
     assertEquals("", Solution.calc(". - ."));
     assertEquals("", Solution.calc(". // .."));
+    assertEquals("", Solution.calc("..... % .........."));
   }
 }
