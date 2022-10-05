@@ -230,6 +230,7 @@
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
 - [Hëävÿ Mëtäl Ümläüts](heavy-metal-umlauts)
 # I
+- [I Will Take the Biggest One and Nothing Else](i-will-take-the-biggest-one-and-nothing-else)
 - [Incrementer](incrementer)
 - [Indexed capitalization](indexed-capitalization)
 - [Infinitely Nested Radicals](infinitely-nested-radicals)
