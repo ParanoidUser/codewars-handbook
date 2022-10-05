@@ -48,6 +48,7 @@
 - [Battle of the characters (Easy)](battle-of-the-characters-easy)
 - [Beginner Series #3 Sum of Numbers](beginner-series-number-3-sum-of-numbers)
 - [Between Extremes](between-extremes)
+- [Binary Addition](binary-addition)
 - [Binary Calculator](binary-calculator)
 - [Binary scORe](binary-score)
 - [Binary sXORe](binary-sxore)
