@@ -379,6 +379,7 @@
 - [Robinson Crusoe](robinson-crusoe)
 - [Robotic Tattoo Removal](robotic-tattoo-removal)
 - [Rock Off!](rock-off)
+- [Rock Paper Scissors Lizard Spock](rock-paper-scissors-lizard-spock)
 - [Rotate for a Max](rotate-for-a-max)
 - [Round up to the next multiple of 5](round-up-to-the-next-multiple-of-5)
 - [Row Weights](row-weights)
