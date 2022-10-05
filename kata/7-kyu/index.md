@@ -209,6 +209,7 @@
 - [Help your fellow warrior!](help-your-fellow-warrior)
 - [Herding cats](herding-cats)
 - [Hero's root](heros-root)
+- [Heron's formula](herons-formula-1)
 - [Hide password from jdbc url](hide-password-from-jdbc-url)
 - [Highest and Lowest](highest-and-lowest)
 - [Histogram - H1](histogram-h1)
