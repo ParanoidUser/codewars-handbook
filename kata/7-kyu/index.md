@@ -110,7 +110,6 @@
 - [Credit card issuer checking](credit-card-issuer-checking)
 - [Credit Card Mask](credit-card-mask)
 - [Cryptanalysis Word Patterns](cryptanalysis-word-patterns)
-- [CubeSummation](cubesummation)
 - [Curing Arachnophobia](curing-arachnophobia)
 - [Currying functions: multiply all elements in an array](currying-functions-multiply-all-elements-in-an-array)
 # D
@@ -373,7 +372,6 @@
 - [Regexp basics - parsing prices](regexp-basics-parsing-prices)
 - [Remove consecutive duplicate words](remove-consecutive-duplicate-words)
 - [Remove duplicate words](remove-duplicate-words)
-- [Remove Duplicates](remove-duplicates)
 - [Replace every nth](replace-every-nth)
 - [Resistor Color Codes](resistor-color-codes)
 - [Responsible Drinking](responsible-drinking)
@@ -496,7 +494,6 @@
 - [The Pony Express](the-pony-express)
 - [The Speed of Letters](the-speed-of-letters)
 - [Thinkful - Number Drills: Congo warehouses](thinkful-number-drills-congo-warehouses)
-- [Thinkful - String Drills: Repeater](thinkful-string-drills-repeater)
 - [Thinking & Testing : Incomplete string](thinking-and-testing-incomplete-string)
 - [Thinking & Testing : Something capitalized](thinking-and-testing-something-capitalized)
 - [Thinking & Testing : True or False](thinking-and-testing-true-or-false)

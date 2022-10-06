@@ -57,7 +57,7 @@ repository.
                title="All published kata which are waiting for community approval and difficulty ranking">Any
             </a>
          </td>
-         <td>90</td>
+         <td>59</td>
       </tr>
       <tr>
          <td>
@@ -65,7 +65,7 @@ repository.
                title="Low-quality kata with a low satisfaction rate">Retired
             </a>
          </td>
-         <td>19</td>
+         <td>57</td>
       </tr>
       <tr>
          <td rowspan=2>Beginner (2 points)</td>
@@ -74,7 +74,7 @@ repository.
                title="- Defining a simple function (i.e. hello world)&#13;- Basic variable assignments&#13;- Fixing basic syntax issues&#13;- Trivial algorithms such as basic if/else statements">8th kyū
             </a>
          </td>
-         <td>190</td>
+         <td>186</td>
       </tr>
       <tr>
          <td>
@@ -82,7 +82,7 @@ repository.
                title="- Iterating arrays and returning a subset of values&#13;- Basic data type manipulations&#13;- Basic functional or object-oriented concepts&#13;- Basic Regular Expressions">7th kyū
             </a>
          </td>
-         <td>518</td>
+         <td>515</td>
       </tr>
       <tr>
          <td rowspan=2>Novice (8 points)</td>
