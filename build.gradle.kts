@@ -15,14 +15,10 @@ subprojects {
 
     sourceSets {
         main {
-            java {
-                srcDir("main")
-            }
+            java.srcDir("main")
         }
         test {
-            java {
-                srcDir("test")
-            }
+            java.srcDir("test")
         }
     }
 
@@ -31,12 +27,6 @@ subprojects {
     }
 
     dependencies {
-        /*
-        * The dependency list matches actual dependency versions being used on Codewars platform.
-        * For more information check the links:
-        * - https://github.com/Codewars/codewars.com/wiki/Language-Java
-        * - https://github.com/Codewars/codewars-runner-cli/blob/master/documentation/environments/java.md
-        */
         implementation("org.apache.commons:commons-lang3:3.12.0")
         implementation("org.springframework.boot:spring-boot-starter-web:2.7.4")
         compileOnly("org.projectlombok:lombok:1.18.24")
@@ -86,46 +76,7 @@ subprojects {
 
 sonarqube {
     properties {
-        /*
-         * Down below is a list of SonarQube rules excluded from the analysis to
-         * reflect the specifics of source code created on the Codewars platform.
-         *
-         * Initially, users are provided with a source code of class (or set
-         * of classes) where they need to add their code to a predefined static
-         * method to implement the logic described in a task. They are allowed,
-         * but not obligated, to create additional fields, methods or inner
-         * classes that should help them in task completion. But they cannot
-         * change the original class structure or its parts, such as package name,
-         * class name, predefined field and method name, method arguments, etc.
-         * Sometimes, authors translate their kata from other languages to Java
-         * without following naming conventions or best practices in the language
-         * which raises code smells ordinary users cannot fix by themselves.
-         *
-         * Each exclusion SHOULD be unique and defined in the format: [group][severity][sid]
-         *
-         * Currently, there are two groups specified:
-         *   (fc) The rules violated due to the fulfillment of the code structure
-         *        contract defined by the kata author (e.g using default packages).
-         *   (iv) The rules intentionally violated by using not traditional Java
-         *        language capabilities to save lines of code (known as code golfing).
-         *
-         * There are five severity levels defined at Sonar their values following:
-         *   (0) - blocker
-         *   (1) - critical
-         *   (2) - major
-         *   (3) - minor
-         *   (4) - info
-         *
-         * For example, the exclusion 'sonar.issue.ignore.multicriteria.fc32.ruleKey = java:S101'
-         * can be explained as:
-         *  - ignore the class naming conventions in the source code
-         *  - because the bad class name was chosen by kata author (not the user)
-         *  - the severity of the rule is minor
-         *  - and this is the second rule being excluded with this severity
-         */
-
         property("sonar.issue.ignore.multicriteria", "fc31,iv22")
-
         // Code Smell [minor]: The default unnamed package should not be used
         property("sonar.issue.ignore.multicriteria.fc31.ruleKey", "java:S1220")
         property("sonar.issue.ignore.multicriteria.fc31.resourceKey", "**/*.java")
