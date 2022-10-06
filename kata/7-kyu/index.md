@@ -26,6 +26,7 @@
 - [Alternate Square Sum](alternate-square-sum)
 - [An English Twist on a Japanese Classic](an-english-twist-on-a-japanese-classic)
 - [Anagram Detection](anagram-detection)
+- [Another card game](another-card-game)
 - [Anti-virus file scanner](anti-virus-file-scanner)
 - [ANTISTRING](antistring)
 - [Approaching enemies](approaching-enemies)
