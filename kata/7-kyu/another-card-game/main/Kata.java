@@ -1,5 +1,5 @@
 interface Kata {
-  static boolean Game(int[] frank, int[] sam, int[] tom) {
+  static boolean game(int[] frank, int[] sam, int[] tom) {
     return frank[2] > Math.max(sam[0], tom[0]) && frank[3] > Math.max(sam[1], tom[1]);
   }
 }
