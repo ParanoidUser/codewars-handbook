@@ -58,6 +58,7 @@
 - [CamelCase Method](camelcase-method)
 - [CamelCase to underscore](camelcase-to-underscore)
 - [Can you win the codewar?](can-you-win-the-codewar)
+- [Car Number Plate Calculator](car-number-plate-calculator)
 - [Card Games: Black Jack](card-games-black-jack)
 - [Cartesian neighbors distance](cartesian-neighbors-distance)
 - [Casino chips](casino-chips)
