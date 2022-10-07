@@ -23,6 +23,7 @@
 - [Array Cropper](array-cropper)
 - [Array.diff](array-dot-diff)
 - [Arrh, grabscrab!](arrh-grabscrab)
+- [Ascend, Descend, Repeat?](ascend-descend-repeat)
 # B
 - [B.A.D. Hashing](bad-hashing)
 - [Baby Magpies](baby-magpies)
