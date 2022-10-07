@@ -6,7 +6,7 @@
            title="Views statistics +1 👀">
    </a>
    <a href="https://www.codewars.com">
-      <img src="https://img.shields.io/badge/solved%20kata-1217-red.svg"
+      <img src="https://img.shields.io/badge/solved%20kata-1218-red.svg"
            title="Solved kata 👌">
    </a>
    <a href="https://github.com/ParanoidUser/codewars-handbook">
@@ -91,7 +91,7 @@ repository.
                title="- Complex language features (closures, scopes, monads, etc)&#13;- Complex OOP/Functional concepts&#13;- Basic Design Patterns&#13;- Complex Regular Expressions">6th kyū
             </a>
          </td>
-         <td>378</td>
+         <td>379</td>
       </tr>
       <tr>
          <td>
