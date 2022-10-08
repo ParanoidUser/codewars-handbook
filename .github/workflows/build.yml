@@ -29,6 +29,7 @@ jobs:
       - name: Compile source code
         uses: gradle/gradle-build-action@fd32ae908111fe31afa48827bd1ee909540aa971
         with:
+          gradle-home-cache-cleanup: true
           arguments: |
             compileTestJava -x processResources
             --parallel
@@ -39,6 +40,7 @@ jobs:
       - name: Run unit tests
         uses: gradle/gradle-build-action@fd32ae908111fe31afa48827bd1ee909540aa971
         with:
+          gradle-home-cache-cleanup: true
           arguments: |
             test -x classes -x testClasses 
             jacocoTestReport
@@ -52,6 +54,7 @@ jobs:
         env:
           VERSION: 1.11.0
         with:
+          gradle-home-cache-cleanup: true
           arguments: |
             sonarqube -x compileJava -x compileTestJava
             --parallel
