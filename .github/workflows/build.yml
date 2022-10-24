@@ -27,7 +27,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Compile source code
-        uses: gradle/gradle-build-action@fd32ae908111fe31afa48827bd1ee909540aa971
+        uses: gradle/gradle-build-action@3fbe033aaae657f011f88f29be9e65ed26bd29ef
         with:
           gradle-home-cache-cleanup: true
           arguments: |
@@ -38,7 +38,7 @@ jobs:
             --scan
 
       - name: Run unit tests
-        uses: gradle/gradle-build-action@fd32ae908111fe31afa48827bd1ee909540aa971
+        uses: gradle/gradle-build-action@3fbe033aaae657f011f88f29be9e65ed26bd29ef
         with:
           gradle-home-cache-cleanup: true
           arguments: |
@@ -50,7 +50,7 @@ jobs:
             --scan
 
       - name: Analyze code quality
-        uses: gradle/gradle-build-action@fd32ae908111fe31afa48827bd1ee909540aa971
+        uses: gradle/gradle-build-action@3fbe033aaae657f011f88f29be9e65ed26bd29ef
         env:
           VERSION: 1.11.0
         with:
