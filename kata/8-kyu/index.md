@@ -154,6 +154,7 @@
 - [Remove First and Last Character](remove-first-and-last-character)
 - [Remove String Spaces](remove-string-spaces)
 - [Return Negative](return-negative)
+- [Return the day](return-the-day)
 - [Returning Strings](returning-strings)
 - [Reversed sequence](reversed-sequence)
 - [Reversed Strings](reversed-strings)
