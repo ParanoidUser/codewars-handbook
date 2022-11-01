@@ -198,6 +198,7 @@
 - [Unfinished Loop - Bug Fixing #1](unfinished-loop-bug-fixing-number-1)
 # V
 - [Volume of a Cuboid](volume-of-a-cuboid)
+- [Vowel remover](vowel-remover)
 # W
 - [Welcome to the City](welcome-to-the-city)
 - [Welcome!](welcome)
