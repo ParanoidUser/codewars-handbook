@@ -17,6 +17,7 @@
 - [Age in days](age-in-days)
 - [All Inclusive?](all-inclusive)
 - [All Star Code Challenge #22](all-star-code-challenge-number-22)
+- [All unique](all-unique)
 - [Alphabet symmetry](alphabet-symmetry)
 - [Alphabet war](alphabet-war)
 - [Alphabetical Addition](alphabetical-addition)
