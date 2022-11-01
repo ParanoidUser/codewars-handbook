@@ -174,6 +174,7 @@
 - [String Templates - Bug Fixing #5](string-templates-bug-fixing-number-5)
 - [Stringy Strings](stringy-strings)
 - [Subtract the Sum](subtract-the-sum)
+- [Sum Arrays](sum-arrays)
 - [Sum Mixed Array](sum-mixed-array)
 - [Sum of differences in array](sum-of-differences-in-array)
 - [Sum of Multiples](sum-of-multiples)
