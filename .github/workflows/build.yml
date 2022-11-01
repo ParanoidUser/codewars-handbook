@@ -56,7 +56,7 @@ jobs:
         with:
           gradle-home-cache-cleanup: true
           arguments: |
-            sonarqube -x compileJava -x compileTestJava
+            sonar -x compileJava -x compileTestJava
             --parallel
             --no-daemon
             --scan
@@ -65,4 +65,5 @@ jobs:
             -Dsonar.login=${{secrets.SONAR_TOKEN}}
             -Dsonar.organization=${{secrets.SONAR_KEY}}
             -Dsonar.branch.name=${{github.REF_NAME}}
+            -Dsonar.exclusions=kata/retired/**
             -Dsonar.scm.disabled=true
