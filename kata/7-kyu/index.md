@@ -474,6 +474,7 @@
 - [Sum of odd numbers](sum-of-odd-numbers)
 - [Sum of the first nth term of Series](sum-of-the-first-nth-term-of-series)
 - [Sum of Triangular Numbers](sum-of-triangular-numbers)
+- [Summation Triangle #1](summation-triangle-number-1)
 - [Summy](summy)
 - [Supernatural](supernatural)
 - [Suzuki needs help lining up his students!](suzuki-needs-help-lining-up-his-students)
