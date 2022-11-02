@@ -100,6 +100,7 @@
 - [Gravity Flip](gravity-flip)
 # H
 - [Hex to Decimal](hex-to-decimal)
+- [Holiday VI - Shark Pontoon](holiday-vi-shark-pontoon)
 - [Holiday VIII - Duty Free](holiday-viii-duty-free)
 - [How do I compare numbers?](how-do-i-compare-numbers)
 - [How good are you really?](how-good-are-you-really)
