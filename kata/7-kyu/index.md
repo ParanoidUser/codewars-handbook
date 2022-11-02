@@ -79,6 +79,7 @@
 - [Check contained matrix](check-contained-matrix)
 - [Check three and two](check-three-and-two)
 - [Chinese Zodiac](chinese-zodiac)
+- [Circle cipher](circle-cipher)
 - [Circular List](circular-list)
 - [Closest to Zero](closest-to-zero)
 - [Codewars Leaderboard Climber](codewars-leaderboard-climber)
