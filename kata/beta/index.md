@@ -67,6 +67,7 @@
 # V
 - [Vampire Numbers](vampire-numbers-2)
 - [Very Simple Inheritance for Beginners](very-simple-inheritance-for-beginners)
+- [Vowel replace](vowel-replace)
 # W
 - [Weton](weton)
 - [What is the date after some hours?](what-is-the-date-after-some-hours)
