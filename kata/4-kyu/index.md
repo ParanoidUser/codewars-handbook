@@ -6,3 +6,4 @@
 - [Snail](snail)
 - [Strip Comments](strip-comments)
 - [Sum of Intervals](sum-of-intervals)
+- [Sum Strings as Numbers](sum-strings-as-numbers)
