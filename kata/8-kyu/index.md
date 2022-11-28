@@ -81,6 +81,7 @@
 - [Formatting decimal places #0](formatting-decimal-places-number-0)
 - [Fuel Calculator](fuel-calculator)
 - [Function 1 - hello world](function-1-hello-world)
+- [Function 2 - squaring an argument](function-2-squaring-an-argument)
 # G
 - [Get character from ASCII value](get-character-from-ascii-value)
 - [Get Nth Even Number](get-nth-even-number)
