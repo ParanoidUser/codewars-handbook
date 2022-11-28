@@ -531,6 +531,7 @@
 - [Vowel Count](vowel-count)
 # W
 - [Waiting room](waiting-room)
+- [Walking in the hallway](walking-in-the-hallway)
 - [WASD Movement](wasd-movement)
 - [What a "Classy" Song](what-a-classy-song)
 - [What is the flag?](what-is-the-flag)
