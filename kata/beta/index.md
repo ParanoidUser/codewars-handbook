@@ -39,6 +39,8 @@
 - [Max Consecutive Sum](max-consecutive-sum)
 - [Merging Phone Numbers](merging-phone-numbers)
 - [Mode Count](mode-count)
+# N
+- [Number + reverse number = n](number-plus-reverse-number-equals-n)
 # P
 - [Palindrome checker](palindrome-checker)
 - [Palindrome-Generator](palindrome-generator)
