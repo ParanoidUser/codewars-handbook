@@ -37,7 +37,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@19eeec562b37d29a1ad055b7de9c280bd0906d8d
         with:
-          distribution: adopt
+          distribution: temurin
           java-version: 17
           cache: gradle
 
@@ -83,7 +83,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@19eeec562b37d29a1ad055b7de9c280bd0906d8d
         with:
-          distribution: adopt
+          distribution: temurin
           java-version: 17
           cache: gradle
 
