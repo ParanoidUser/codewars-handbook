@@ -1,0 +1,20 @@
+name: Update Gradle Wrapper
+
+on:
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  update-gradle-wrapper:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
+
+      - name: Update Gradle Wrapper
+        uses: gradle-update/update-gradle-wrapper-action@981c551b17dbcf1940b1b4435afdb79babb7c13a
+        with:
+          base-branch: develop
+          target-branch: develop
+          labels: chore
