@@ -39,8 +39,6 @@
 - [Max Consecutive Sum](max-consecutive-sum)
 - [Merging Phone Numbers](merging-phone-numbers)
 - [Mode Count](mode-count)
-# N
-- [Number + reverse number = n](number-plus-reverse-number-equals-n)
 # P
 - [Palindrome checker](palindrome-checker)
 - [Palindrome-Generator](palindrome-generator)
@@ -69,7 +67,6 @@
 # V
 - [Vampire Numbers](vampire-numbers-2)
 - [Very Simple Inheritance for Beginners](very-simple-inheritance-for-beginners)
-- [Vowel replace](vowel-replace)
 # W
 - [Weton](weton)
 - [What is the date after some hours?](what-is-the-date-after-some-hours)
