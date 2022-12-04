@@ -57,7 +57,7 @@ repository.
                title="All published kata which are waiting for community approval and difficulty ranking">Any
             </a>
          </td>
-         <td>61</td>
+         <td>59</td>
       </tr>
       <tr>
          <td>
@@ -65,7 +65,7 @@ repository.
                title="Low-quality kata with a low satisfaction rate">Retired
             </a>
          </td>
-         <td>57</td>
+         <td>63</td>
       </tr>
       <tr>
          <td rowspan=2>Beginner (2 points)</td>
@@ -82,7 +82,7 @@ repository.
                title="- Iterating arrays and returning a subset of values&#13;- Basic data type manipulations&#13;- Basic functional or object-oriented concepts&#13;- Basic Regular Expressions">7th kyū
             </a>
          </td>
-         <td>523</td>
+         <td>520</td>
       </tr>
       <tr>
          <td rowspan=2>Novice (8 points)</td>
@@ -91,7 +91,7 @@ repository.
                title="- Complex language features (closures, scopes, monads, etc)&#13;- Complex OOP/Functional concepts&#13;- Basic Design Patterns&#13;- Complex Regular Expressions">6th kyū
             </a>
          </td>
-         <td>384</td>
+         <td>383</td>
       </tr>
       <tr>
          <td>
