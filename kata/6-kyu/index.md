@@ -139,6 +139,7 @@
 - [Find The Parity Outlier](find-the-parity-outlier)
 - [Find the unique number](find-the-unique-number-1)
 - [Find the X from Equation](find-the-x-from-equation)
+- [Finding Arrows in a String](finding-arrows-in-a-string)
 - [Finding Neo (PG-13)](finding-neo-pg-13)
 - [FIRE and FURY](fire-and-fury)
 - [FIXME: Hello](fixme-hello)
