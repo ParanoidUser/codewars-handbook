@@ -479,6 +479,7 @@
 - [Summation Triangle #1](summation-triangle-number-1)
 - [Summy](summy)
 - [Supernatural](supernatural)
+- [Survive the attack](survive-the-attack)
 - [Suzuki needs help lining up his students!](suzuki-needs-help-lining-up-his-students)
 - [Swap pairs in Array](swap-pairs-in-array)
 - [Switcheroo](switcheroo)
