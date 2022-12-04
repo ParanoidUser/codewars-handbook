@@ -7,20 +7,22 @@ on:
     types: [ opened, reopened ]
   workflow_dispatch:
     inputs:
+      ref_name:
+        description: Branch, tag or SHA to checkout
       job_count:
-        description: Total concurrent jobs
+        description: Max concurrent jobs to execute
 
 jobs:
   fork:
     runs-on: ubuntu-22.04
     outputs:
-      job_count: ${{ steps.sequence.outputs.count }}
-      job_sid: ${{ steps.sequence.outputs.sid }}
+      job_count: ${{ steps.job.outputs.count }}
+      job_sid: ${{ steps.job.outputs.sid }}
     steps:
       - name: Assign job IDs
-        id: sequence
+        id: job
         run: |
-          # max concurrent jobs allowed in the GitHub plan
+          # set default as inputs resolve only at manual executions
           JOB_COUNT=${{ github.event.inputs.job_count || 40 }}
           echo "count=$JOB_COUNT" >> $GITHUB_OUTPUT
           echo "sid=[`seq -s , 1 $JOB_COUNT`]" >> $GITHUB_OUTPUT
@@ -35,6 +37,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
+        with:
+          ref: ${{ github.event.inputs.ref_name || github.REF_NAME}}
 
       - name: Switch to Gradle Binary Distribution
         run: sed -i 's/-all.zip/-bin.zip/' gradle/wrapper/gradle-wrapper.properties
@@ -78,6 +82,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
+        with:
+          ref: ${{ github.event.inputs.ref_name || github.REF_NAME}}
 
       - name: Download fork artifacts
         uses: actions/download-artifact@9782bd6a9848b53b110e712e20e42d89988822b7
@@ -109,6 +115,6 @@ jobs:
             -Dsonar.host.url=https://sonarcloud.io
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
             -Dsonar.organization=${{ secrets.SONAR_KEY }}
-            -Dsonar.branch.name=${{ github.REF_NAME }}
+            -Dsonar.branch.name=${{ github.event.inputs.ref_name || github.REF_NAME}}
             -Dsonar.exclusions=kata/retired/**
             -Dsonar.scm.disabled=true
