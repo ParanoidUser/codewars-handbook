@@ -6,7 +6,7 @@
            title="Views statistics +1 👀">
    </a>
    <a href="https://www.codewars.com">
-      <img src="https://img.shields.io/badge/solved%20kata-1236-red.svg"
+      <img src="https://img.shields.io/badge/solved%20kata-1237-red.svg"
            title="Solved kata 👌">
    </a>
    <a href="https://github.com/ParanoidUser/codewars-handbook">
@@ -108,7 +108,7 @@ repository.
                title="- Computer science concepts utilizing complex algorithms&#13;- Advanced design patterns&#13;- Understanding intricate business requirements&#13;- Advanced concepts such as concurrency, parallelism, meta programming and cryptography">4th kyū
             </a>
          </td>
-         <td>6</td>
+         <td>7</td>
       </tr>
       <tr>
          <td>
