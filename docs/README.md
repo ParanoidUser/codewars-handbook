@@ -3,23 +3,23 @@
 <p align="center">
    <a href="https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url=https://github.com/ParanoidUser/codewars-handbook">
        <img src="https://img.shields.io/badge/dynamic/xml?color=success&label=views&query=//*[name()=%27text%27][3]&url=https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FParanoidUser%2Fcodewars-handbook"
-           title="Views statistics +1 👀">
+           alt="Views statistics +1 👀">
    </a>
    <a href="https://www.codewars.com">
       <img src="https://img.shields.io/badge/solved%20kata-1240-red.svg"
-           title="Solved kata 👌">
+           alt="Solved kata 👌">
    </a>
    <a href="https://github.com/ParanoidUser/codewars-handbook">
       <img src="https://img.shields.io/github/workflow/status/ParanoidUser/codewars-handbook/CI"
-           title="CI pipeline 🛠">
+           alt="CI pipeline 🛠">
    </a>
    <a href="https://sonarcloud.io/dashboard?id=codewars-handbook">
       <img src="https://img.shields.io/sonar/alert_status/codewars-handbook?server=https%3A%2F%2Fsonarcloud.io"
-           title="Quality gate 🔎">
+           alt="Quality gate 🔎">
    </a>
    <a href="https://gitter.im/ParanoidUser/codewars-handbook">
       <img src="https://img.shields.io/gitter/room/ParanoidUser/codewars-handbook?color=49c39e"
-           title="Let's have a chat! 📞">
+           alt="Let's have a chat! 📞">
    </a>
 <p>
 
@@ -138,8 +138,8 @@ repository.
    </tbody>
 </table>
 
-**Pay attention:** the source code is written with Java 11 and uses language features that could be
-incompatible with Java 8 kata versions.
+**Pay attention:** the source code is written with Java 17 and uses language features that could be
+incompatible with Java 8, 11 kata versions.
 
 ## Disclaimer
 
@@ -200,7 +200,5 @@ disrespect [the Community Code of Conduct](https://github.com/Codewars/codewars.
 
 ### ❤️ Your Support
 
-If you find the repo helpful, **please give it a thank with a
-star** <span title="↑↑↑ hit that button ↑↑↑">👉⭐👈</span>  
-As a token of appreciation the names of all stargazers will be mentioned in the release note. Hit
-the watch button to stay tuned!  
+As a token of appreciation, all stargazers are mentioned in release notes.
+Hit the watch button to stay tuned!
