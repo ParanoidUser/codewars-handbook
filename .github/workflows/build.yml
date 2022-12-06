@@ -44,7 +44,7 @@ jobs:
         run: sed -i 's/-all.zip/-bin.zip/' gradle/wrapper/gradle-wrapper.properties
 
       - name: Setup Java
-        uses: actions/setup-java@19eeec562b37d29a1ad055b7de9c280bd0906d8d
+        uses: actions/setup-java@c3ac5dd0ed8db40fedb61c32fbe677e6b355e94c
         with:
           distribution: temurin
           java-version: 17
@@ -95,7 +95,7 @@ jobs:
         run: sed -i 's/-all.zip/-bin.zip/' gradle/wrapper/gradle-wrapper.properties
 
       - name: Setup Java
-        uses: actions/setup-java@19eeec562b37d29a1ad055b7de9c280bd0906d8d
+        uses: actions/setup-java@c3ac5dd0ed8db40fedb61c32fbe677e6b355e94c
         with:
           distribution: temurin
           java-version: 17
