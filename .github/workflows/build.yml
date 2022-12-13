@@ -35,10 +35,15 @@ jobs:
       matrix:
         job_sid: ${{ fromJson(needs.fork.outputs.job_sid) }}
     steps:
-      - name: Checkout repository
+      - name: Checkout repository (default ref)
+        if: ${{ github.event.inputs.ref_name == '' }}
         uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
+
+      - name: Checkout repository (custom ref)
+        uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
+        if: ${{ github.event.inputs.ref_name != '' }}
         with:
-          ref: ${{ github.event.inputs.ref_name || github.REF_NAME}}
+          ref: ${{ github.event.inputs.ref_name }}
 
       - name: Switch to Gradle Binary Distribution
         run: sed -i 's/-all.zip/-bin.zip/' gradle/wrapper/gradle-wrapper.properties
@@ -80,10 +85,15 @@ jobs:
     needs: test
     runs-on: ubuntu-22.04
     steps:
-      - name: Checkout repository
+      - name: Checkout repository (default ref)
+        if: ${{ github.event.inputs.ref_name == '' }}
+        uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
+
+      - name: Checkout repository (custom ref)
+        if: ${{ github.event.inputs.ref_name != '' }}
         uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
         with:
-          ref: ${{ github.event.inputs.ref_name || github.REF_NAME}}
+          ref: ${{ github.event.inputs.ref_name }}
 
       - name: Download fork artifacts
         uses: actions/download-artifact@9782bd6a9848b53b110e712e20e42d89988822b7
