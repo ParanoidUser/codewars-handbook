@@ -37,10 +37,9 @@ downward. Once you reach the master level, we count upward. Enough said... Banza
 The repository contains a collection of Java solutions for Codewars challenges grouped by a kyū
 rank. Each kata is placed in a separate folder named by its slug and accompanied by a task
 description, a solution source code, and verification tests. All solutions were solved
-on [the official platform](https://www.codewars.com), verified against their original test cases,
-and styled to achieve the shortest source code that implements a certain algorithm.
+on [the official platform](https://www.codewars.com) and verified against the original test suite.
 
-<ins>For quick access</ins> use the index table or do a search by kata URL, name, ID or slug in the
+<ins>For quick access</ins> use the index table or do a search by kata URL, name, ID, or slug in the
 repository.
 
 <table>
@@ -139,66 +138,26 @@ repository.
 </table>
 
 **Pay attention:** the source code is written with Java 17 and uses language features that could be
-incompatible with Java 8, 11 kata versions.
+incompatible with Java 8, and 11 versions.
 
-## Disclaimer
+## ⚠️ Disclaimer
 
-Please **DO NOT** look at the solutions until you've solved a kata or at least took the time to
-think about your own approaches to solve the challenge. Keep in mind, using materials of this
-repository to gain rank, you
-violate [the policies of Codewars](https://github.com/Codewars/codewars.com/wiki/Community-Code-of-Conduct#policy)
-, which state:
+Please **DO NOT** look at solutions until you've solved a kata or at least spent some time
+thinking about your own approaches to solving the challenge. Keep in mind, by using materials of
+this repository to gain rank, you
+violate [the Codewars policy](https://docs.codewars.com/community/rules/#policy):
 > If you are caught cheating on a challenge, you will initially have your solution marked as a cheat
 > and will not receive any honor or rank. This includes clever solutions that are clearly created
-> for
-> the spirit of cheating. Repeat offenders who have intentionally cheated will be banned.
+> for the spirit of cheating. Repeat offenders who have intentionally cheated will be banned.
 
 You acknowledge and agree that your use of the repository materials is at your own risk. The author
-assumes no responsibility or liability for any consequence resulting directly or indirectly for any
+assumes no responsibility or liability for any consequence resulting directly or indirectly from any
 action or inaction you take based on or made in reliance on the information or material on or linked
 to this repository. The information contained in this repository is provided on an "as is" basis
-with no guarantees of completeness, accuracy, usefulness or timeliness. The author reserves the
+with no guarantees of completeness, accuracy, usefulness, or timeliness. The author reserves the
 right to change any and all items used or contained in the repository at any time without notice.
 
-## Contribute
+## ❤️ Credits
 
-Your contribution is highly appreciated here. Feel free to send fixes and your brilliant ideas.  
-If you have any questions or comments, [the chat](https://gitter.im/paranoiduser/codewars-handbook)
-is open for discussion anytime.
-
-### ✔️ DO'S
-
-> *"This solution no longer passes test cases!"* 😤
-
-Oops... Please open an issue or create a pull request with a working copy.
-
----
-> *"This solution has a bug!"* 😳
-
-D'oh! Please open an issue or create a pull request with a fixed version.
-
----
-> *"This solution is retrograde and can be solved by a one-liner!"* 🤔
-
-You know what to do, right? 😉 Open an issue or create a pull request with an update!
-
-### ⛔ DON'TS
-
-> Please **DO NOT** send new solutions for kata challenges!
-
-All challenges in the repository were solved by the author themselves and are cherry-picked to be
-shared with the community. To avoid harm and abuse to the Codewars platform and kata senseis the
-publishing process goes in the specific order. It starts with an 8-kyū rank (the easiest) and moves
-to a higher rank when all challenges in the group are solved. Within the same kyu, kata are selected
-by publication date from the oldest to the newest.
-
-> Please **DO NOT** fork or clone the repository for any purposes other than contribution!
-
-By making your own (or other code warriors') solutions accessible to anyone you
-disrespect [the Community Code of Conduct](https://github.com/Codewars/codewars.com/wiki/Community-Code-of-Conduct)
-. It's highly discouraged by the Codewars team and the community.
-
-### ❤️ Your Support
-
-As a token of appreciation, all stargazers are mentioned in release notes.
-Hit the watch button to stay tuned!
+As a token of appreciation, all stargazers and followers are honored in [release notes](https://github.com/ParanoidUser/codewars-handbook/releases) and pinned 📌 on the world map!
+![worldstar](https://user-images.githubusercontent.com/5120290/207752409-b2606c7e-5c6c-4aa2-8556-831e562511e7.png)
