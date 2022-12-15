@@ -24,12 +24,12 @@
 <p>
 
 [Codewars](https://www.codewars.com) is an educational online platform for computer programming. On
-the platform, users aka "*codewarriors*" try to solve programming challenges known as "*kata*" to
+the platform, users aka "*code warriors*" try to solve programming challenges known as "*kata*" to
 practice programming skills and gain honor points, which represent the level of respect a user has
 earned from the community. Each kata is set to a kyū rank, based on its subject area and difficulty.
 The harder the kata, the more points. Every new codewarrior is ranked as 8 kyū (Beginner) and can
-advance through the ranks by completing kata at or above their rank to reach the final 4th dan (
-Master). Kyū indicates the number of degrees away from the master level. This is why they count
+advance through the ranks by completing kata at or above their rank to reach the final 4th dan
+(Master). Kyū indicates the number of degrees away from the master level. This is why they count
 downward. Once you reach the master level, we count upward. Enough said... Banzaaaai!
 
 ## Overview
@@ -70,5 +70,5 @@ right to change any and all items used or contained in the repository at any tim
 
 As a token of appreciation, all stargazers are honored
 in [release notes](https://github.com/ParanoidUser/codewars-handbook/releases) and pinned 📌 on the
-world map!
-![worldstar](https://user-images.githubusercontent.com/5120290/207752409-b2606c7e-5c6c-4aa2-8556-831e562511e7.png)
+star map!
+![star map](https://user-images.githubusercontent.com/5120290/207752409-b2606c7e-5c6c-4aa2-8556-831e562511e7.png)
