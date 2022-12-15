@@ -42,100 +42,9 @@ on [the official platform](https://www.codewars.com) and verified against the or
 <ins>For quick access</ins> use the index table or do a search by kata URL, name, ID, or slug in the
 repository.
 
-<table>
-   <tbody>
-      <tr>
-         <th>Difficulty</th>
-         <th>Rank</th>
-         <th>Solved</th>
-      </tr>
-      <tr>
-         <td rowspan=2>In Beta process (4 points)</td>
-         <td>
-            <a href="/kata/beta/index.md"
-               title="All published kata which are waiting for community approval and difficulty ranking">Any
-            </a>
-         </td>
-         <td>59</td>
-      </tr>
-      <tr>
-         <td>
-            <a href="/kata/retired/index.md" 
-               title="Low-quality kata with a low satisfaction rate">Retired
-            </a>
-         </td>
-         <td>63</td>
-      </tr>
-      <tr>
-         <td rowspan=2>Beginner (2 points)</td>
-         <td>
-            <a href="/kata/8-kyu/index.md"
-               title="- Defining a simple function (i.e. hello world)&#13;- Basic variable assignments&#13;- Fixing basic syntax issues&#13;- Trivial algorithms such as basic if/else statements">8th kyū
-            </a>
-         </td>
-         <td>192</td>
-      </tr>
-      <tr>
-         <td>
-            <a href="/kata/7-kyu/index.md"
-               title="- Iterating arrays and returning a subset of values&#13;- Basic data type manipulations&#13;- Basic functional or object-oriented concepts&#13;- Basic Regular Expressions">7th kyū
-            </a>
-         </td>
-         <td>520</td>
-      </tr>
-      <tr>
-         <td rowspan=2>Novice (8 points)</td>
-         <td>
-            <a href="/kata/6-kyu/index.md"
-               title="- Complex language features (closures, scopes, monads, etc)&#13;- Complex OOP/Functional concepts&#13;- Basic Design Patterns&#13;- Complex Regular Expressions">6th kyū
-            </a>
-         </td>
-         <td>383</td>
-      </tr>
-      <tr>
-         <td>
-            <a href="/kata/5-kyu/index.md"
-               title="- Complex language features that require mature OOP/Functional concepts&#13;- Advanced OOP/Functional concepts&#13;- Complex Design Patterns&#13;- Advanced regular expression usage">5th kyū
-            </a>
-         </td> 
-         <td>14</td>
-      </tr>
-      <tr>
-         <td rowspan=2>Competent (32 points)</td>
-         <td>
-            <a href="/kata/4-kyu/index.md"
-               title="- Computer science concepts utilizing complex algorithms&#13;- Advanced design patterns&#13;- Understanding intricate business requirements&#13;- Advanced concepts such as concurrency, parallelism, meta programming and cryptography">4th kyū
-            </a>
-         </td>
-         <td>7</td>
-      </tr>
-      <tr>
-         <td>
-            <a href="/kata/3-kyu/index.md"
-               title="- Computer science concepts utilizing advanced algorithms&#13;- Ability to implement advanced requirements in a scalable fashion&#13;- Basic AI/machine learning algorithms&#13;- Detailed usage of advanced concepts such as concurrency, parallelism and cryptography">3rd kyū
-            </a>
-         </td>
-         <td>2</td>
-      </tr>
-      <tr>
-         <td rowspan=2>Proficient (128 points)</td>
-         <td>
-            <a href="/kata/2-kyu/index.md"
-               title="- Complex AI/machine learning algorithms&#13;- Reverse engineering techniques&#13;- Basic interpreters and compilers&#13;- Basic mini-programs with multiple feature requirements (such as a basic markdown parser)">2nd kyū
-            </a>
-         </td>
-         <td>-</td>
-      </tr>
-      <tr>
-         <td>
-            <a href="/kata/1-kyu/index.md" 
-               title="- Advanced AI/machine learning algorithms&#13;- Complex interpreters and compilers&#13;- Complex Mini-programs with multiple feature requirements (such as a complete markdown parser)">1st kyū
-            </a>
-         </td>
-         <td>-</td>
-      </tr>
-   </tbody>
-</table>
+| [1 kyu](/kata/1-kyu/index.md) | [2 kyu](/kata/2-kyu/index.md) | [3 kyu](/kata/3-kyu/index.md) | [4 kyu](/kata/4-kyu/index.md) | [5 kyu](/kata/5-kyu/index.md) | [6 kyu](/kata/6-kyu/index.md) | [7 kyu](/kata/7-kyu/index.md) | [8 kyu](/kata/8-kyu/index.md) | [beta](/kata/beta/index.md) | [retired](/kata/retired/index.md) |
+|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:---------------------------:|:---------------------------------:|
+|               -               |               -               |               2               |               7               |              14               |              383              |              520              |              192              |             59              |                63                 |
 
 **Pay attention:** the source code is written with Java 17 and uses language features that could be
 incompatible with Java 8, and 11 versions.
@@ -159,5 +68,7 @@ right to change any and all items used or contained in the repository at any tim
 
 ## ❤️ Credits
 
-As a token of appreciation, all stargazers and followers are honored in [release notes](https://github.com/ParanoidUser/codewars-handbook/releases) and pinned 📌 on the world map!
+As a token of appreciation, all stargazers are honored
+in [release notes](https://github.com/ParanoidUser/codewars-handbook/releases) and pinned 📌 on the
+world map!
 ![worldstar](https://user-images.githubusercontent.com/5120290/207752409-b2606c7e-5c6c-4aa2-8556-831e562511e7.png)
