@@ -1,27 +1,10 @@
-<h1 align="center">Codewars Handbook ☕️🚀</h1>
+# Codewars Handbook ☕️🚀
 
-<p align="center">
-   <a href="https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url=https://github.com/ParanoidUser/codewars-handbook">
-       <img src="https://img.shields.io/badge/dynamic/xml?color=success&label=views&query=//*[name()=%27text%27][3]&url=https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FParanoidUser%2Fcodewars-handbook"
-           alt="Views statistics +1 👀">
-   </a>
-   <a href="https://www.codewars.com">
-      <img src="https://img.shields.io/badge/solved%20kata-1240-red.svg"
-           alt="Solved kata 👌">
-   </a>
-   <a href="https://github.com/ParanoidUser/codewars-handbook">
-      <img src="https://img.shields.io/github/workflow/status/ParanoidUser/codewars-handbook/CI"
-           alt="CI pipeline 🛠">
-   </a>
-   <a href="https://sonarcloud.io/dashboard?id=codewars-handbook">
-      <img src="https://img.shields.io/sonar/alert_status/codewars-handbook?server=https%3A%2F%2Fsonarcloud.io"
-           alt="Quality gate 🔎">
-   </a>
-   <a href="https://gitter.im/ParanoidUser/codewars-handbook">
-      <img src="https://img.shields.io/gitter/room/ParanoidUser/codewars-handbook?color=49c39e"
-           alt="Let's have a chat! 📞">
-   </a>
-<p>
+[![Views statistics +1 👀](https://img.shields.io/badge/dynamic/xml?color=success&label=views&query=//*[name()=%27text%27][3]&url=https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FParanoidUser%2Fcodewars-handbook)](https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url=https://github.com/ParanoidUser/codewars-handbook)
+[![Solved kata 👌](https://img.shields.io/badge/solved%20kata-1240-red.svg)](https://www.codewars.com/kata/search/java)
+[![CI pipeline 🛠](https://img.shields.io/github/actions/workflow/status/ParanoidUser/codewars-handbook/build.yml?branch=main)](https://github.com/ParanoidUser/codewars-handbook/actions/workflows/build.yml)
+[![Quality gate 🔎](https://img.shields.io/sonar/alert_status/codewars-handbook?server=https%3A%2F%2Fsonarcloud.io)](https://sonarcloud.io/dashboard?id=codewars-handbook)
+[![Let's have a chat! 📞](https://img.shields.io/gitter/room/ParanoidUser/codewars-handbook?color=49c39e)](https://gitter.im/ParanoidUser/codewars-handbook)
 
 [Codewars](https://www.codewars.com) is an educational online platform for computer programming. On
 the platform, users aka "*code warriors*" try to solve programming challenges known as "*kata*" to
@@ -30,7 +13,7 @@ earned from the community. Each kata is set to a kyū rank, based on its subject
 The harder the kata, the more points. Every new codewarrior is ranked as 8 kyū (Beginner) and can
 advance through the ranks by completing kata at or above their rank to reach the final 4th dan
 (Master). Kyū indicates the number of degrees away from the master level. This is why they count
-downward. Once you reach the master level, we count upward. Enough said... Banzaaaai!
+downward. Once you reach the master level, we count upward. Enough said... Banzai!
 
 ## Overview
 
