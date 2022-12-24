@@ -15,6 +15,8 @@
 - [Number of trailing zeros of N!](number-of-trailing-zeros-of-n)
 # P
 - [Product of consecutive Fib numbers](product-of-consecutive-fib-numbers)
+# R
+- [RGB To Hex Conversion](rgb-to-hex-conversion)
 # S
 - [Scramblies](scramblies)
 - [Simple Pig Latin](simple-pig-latin)
