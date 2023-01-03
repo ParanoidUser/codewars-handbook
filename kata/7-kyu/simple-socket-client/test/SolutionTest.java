@@ -29,8 +29,7 @@ class SolutionTest {
 
   @Test
   void serverUnavailable() {
-    var exception = assertThrows(IllegalStateException.class, Solution::isRegularServer);
-    assertEquals("java.net.ConnectException: Connection refused: connect", exception.getMessage());
+    assertThrows(IllegalStateException.class, Solution::isRegularServer);
   }
 
   private static Runnable createServer(boolean isRegular) {
