@@ -422,6 +422,7 @@
 - [Simple Fun #9: Array Packing](simple-fun-number-9-array-packing)
 - [Simple letter removal](simple-letter-removal)
 - [Simple remove duplicates](simple-remove-duplicates)
+- [Simple Socket Client](simple-socket-client)
 - [Simple string characters](simple-string-characters)
 - [Simple string division](simple-string-division)
 - [Simple string division II](simple-string-division-ii)
