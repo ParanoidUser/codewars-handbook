@@ -1,11 +1,12 @@
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.atomic.AtomicBoolean;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SolutionTest {
   @Test
@@ -24,6 +25,12 @@ class SolutionTest {
       }
       assertEquals(expected, actual.get());
     }
+  }
+
+  @Test
+  void serverUnavailable() {
+    var exception = assertThrows(IllegalStateException.class, Solution::isRegularServer);
+    assertEquals("java.net.ConnectException: Connection refused: connect", exception.getMessage());
   }
 
   private static Runnable createServer(boolean isRegular) {

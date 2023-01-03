@@ -1,15 +1,20 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 
 class KataTests {
-  @Test
-  void sample() {
-    assertEquals(19009, Kata.nextBiggerNumber(10990));
-    assertEquals(21, Kata.nextBiggerNumber(12));
-    assertEquals(531, Kata.nextBiggerNumber(513));
-    assertEquals(2071, Kata.nextBiggerNumber(2017));
-    assertEquals(441, Kata.nextBiggerNumber(414));
-    assertEquals(414, Kata.nextBiggerNumber(144));
+  @ParameterizedTest
+  @CsvSource(textBlock = """
+              12, 21
+             144, 414
+             414, 441
+             513, 531
+            2017, 2071
+           10990, 19009
+      9876543210, -1
+      """)
+  void sample(long n, long expected) {
+    assertEquals(expected, Kata.nextBiggerNumber(n));
   }
 }
