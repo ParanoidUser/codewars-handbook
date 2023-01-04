@@ -344,6 +344,7 @@
 - [Password maker](password-maker)
 - [Password System](password-system)
 - [Paul's Misery](pauls-misery)
+- [Perpendicular lines](perpendicular-lines-1)
 - [Pizza Payments](pizza-payments)
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
 - [Point in a unit circle](point-in-a-unit-circle)
