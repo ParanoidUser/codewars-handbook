@@ -1,5 +1,10 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.mockito.Mockito.mockStatic;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
@@ -12,5 +17,13 @@ class SolutionTest {
       """)
   void sample(String input, String expected) {
     assertEquals(expected, Kata.sha256(input));
+  }
+
+  @Test
+  void negative() {
+    try (var mock = mockStatic(MessageDigest.class)) {
+      mock.when(() -> MessageDigest.getInstance("SHA-256")).thenThrow(NoSuchAlgorithmException.class);
+      assertThrows(IllegalStateException.class, () -> Kata.sha256("any"));
+    }
   }
 }
