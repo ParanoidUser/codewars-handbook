@@ -288,6 +288,7 @@
 - [Salesman's Travel](salesmans-travel)
 - [Separate The Wheat From The Chaff](separate-the-wheat-from-the-chaff)
 - [Sequences and Series](sequences-and-series)
+- [SHA-256](sha-256)
 - [SHA-256 Cracker](sha-256-cracker)
 - [Sieve of Eratosthenes](sieve-of-eratosthenes)
 - [Simple card game](simple-card-game)
