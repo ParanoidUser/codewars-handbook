@@ -4,11 +4,15 @@ import java.math.BigInteger;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.NoSuchElementException;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.UnaryOperator;
 
 interface Solution extends Iterator<String> {
   default String next() {
+    if (!hasNext()) {
+      throw new NoSuchElementException();
+    }
     var guess = new StringBuilder();
     int m;
     for (int i = Util.CHAR_CODE.getAndIncrement(), l = Util.CHAR_LEVEL.get(); l >= 0; l--, i %= m) {
