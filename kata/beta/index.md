@@ -50,6 +50,7 @@
 - [Random Wallpaper](random-wallpaper)
 - [Range Merging](range-merging)
 # S
+- [Signal Generator](signal-generator)
 - [Simple Equation](simpleequation)
 - [Simple string concatenator](simple-string-concatenator)
 - [Sort an Array!](sort-an-array)
