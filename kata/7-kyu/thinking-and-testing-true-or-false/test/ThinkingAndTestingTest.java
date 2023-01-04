@@ -1,23 +1,27 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 
 class ThinkingAndTestingTest {
-  @Test
-  void sample() {
-    assertEquals(0, ThinkingAndTesting.testTrueFalse(0));
-    assertEquals(1, ThinkingAndTesting.testTrueFalse(1));
-    assertEquals(1, ThinkingAndTesting.testTrueFalse(2));
-    assertEquals(2, ThinkingAndTesting.testTrueFalse(3));
-    assertEquals(1, ThinkingAndTesting.testTrueFalse(4));
-    assertEquals(2, ThinkingAndTesting.testTrueFalse(5));
-    assertEquals(2, ThinkingAndTesting.testTrueFalse(6));
-    assertEquals(3, ThinkingAndTesting.testTrueFalse(7));
-    assertEquals(1, ThinkingAndTesting.testTrueFalse(8));
-    assertEquals(2, ThinkingAndTesting.testTrueFalse(9));
-    assertEquals(2, ThinkingAndTesting.testTrueFalse(10));
-    assertEquals(3, ThinkingAndTesting.testTrueFalse(100));
-    assertEquals(6, ThinkingAndTesting.testTrueFalse(1000));
-    assertEquals(5, ThinkingAndTesting.testTrueFalse(10000));
+  @ParameterizedTest
+  @CsvSource(textBlock = """
+          0,0
+          1,1
+          2,1
+          3,2
+          4,1
+          5,2
+          6,2
+          7,3
+          8,1
+          9,2
+         10,2
+        100,3
+       1000,6
+      10000,5
+      """)
+  void sample(int n, int expected) {
+    assertEquals(expected, ThinkingAndTesting.testTrueFalse(n));
   }
 }
