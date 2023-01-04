@@ -1,9 +1,14 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
+import java.util.NoSuchElementException;
 import org.junit.jupiter.api.Test;
 
 class SignalTest {
+
   @Test
   void linear() {
     var it = new SignalIterator(0, 3, 2, 1);
@@ -27,5 +32,13 @@ class SignalTest {
     assertEquals(-1.07, it.next(), 0.1);
     assertEquals(1.60, it.next(), 0.1);
     assertEquals(1.30, it.next(), 0.1);
+  }
+
+  @Test
+  void negative() {
+    var it = mock(SignalIterator.class);
+    when(it.hasNext()).thenReturn(false);
+    when(it.next()).thenCallRealMethod();
+    assertThrows(NoSuchElementException.class, it::next);
   }
 }
