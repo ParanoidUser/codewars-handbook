@@ -210,6 +210,7 @@
 - [Minutes to Midnight](minutes-to-midnight)
 - [Missing Alphabet](missing-alphabet)
 - [Moduli number system](moduli-number-system)
+- [More Zeros than Ones](more-zeros-than-ones)
 - [Most Frequent Weekdays](most-frequent-weekdays)
 - [Moves in squared strings (II)](moves-in-squared-strings-ii)
 - [Moves in squared strings (III)](moves-in-squared-strings-iii)
