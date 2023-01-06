@@ -96,7 +96,7 @@ jobs:
           ref: ${{ github.event.inputs.ref_name }}
 
       - name: Download fork artifacts
-        uses: actions/download-artifact@9782bd6a9848b53b110e712e20e42d89988822b7
+        uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a
 
       - name: Unpack fork artifacts
         run: for f in fork-*/artifacts.tar.gz; do tar xf $f && rm $f; done
