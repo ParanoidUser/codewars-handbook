@@ -37,10 +37,10 @@ jobs:
     steps:
       - name: Checkout repository (default ref)
         if: ${{ github.event.inputs.ref_name == '' }}
-        uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b
+        uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c
 
       - name: Checkout repository (custom ref)
-        uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b
+        uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c
         if: ${{ github.event.inputs.ref_name != '' }}
         with:
           ref: ${{ github.event.inputs.ref_name }}
@@ -87,11 +87,11 @@ jobs:
     steps:
       - name: Checkout repository (default ref)
         if: ${{ github.event.inputs.ref_name == '' }}
-        uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b
+        uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c
 
       - name: Checkout repository (custom ref)
         if: ${{ github.event.inputs.ref_name != '' }}
-        uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b
+        uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c
         with:
           ref: ${{ github.event.inputs.ref_name }}
 
