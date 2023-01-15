@@ -5,6 +5,7 @@ updates:
     schedule:
       interval: daily
     target-branch: develop
+    milestone: 1.12.0
     labels:
       - "chore"
   - package-ecosystem: github-actions
@@ -12,5 +13,6 @@ updates:
     schedule:
       interval: daily
     target-branch: develop
+    milestone: 1.12.0
     labels:
       - "chore"
