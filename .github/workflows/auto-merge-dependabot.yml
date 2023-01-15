@@ -2,6 +2,10 @@ name: Auto-merge Dependabot PRs
 
 on: pull_request_target
 
+permissions:
+  pull-requests: write
+  contents: write
+
 jobs:
   merge-dependabot-pr:
     runs-on: ubuntu-22.04
