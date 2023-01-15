@@ -15,6 +15,7 @@ on:
 jobs:
   fork:
     runs-on: ubuntu-22.04
+    timeout-minutes: 1
     outputs:
       job_count: ${{ steps.job.outputs.count }}
       job_sid: ${{ steps.job.outputs.sid }}
@@ -31,6 +32,7 @@ jobs:
   test:
     needs: fork
     runs-on: ubuntu-22.04
+    timeout-minutes: 5
     strategy:
       matrix:
         job_sid: ${{ fromJson(needs.fork.outputs.job_sid) }}
@@ -84,6 +86,7 @@ jobs:
   scan:
     needs: test
     runs-on: ubuntu-22.04
+    timeout-minutes: 10
     steps:
       - name: Checkout repository (default ref)
         if: ${{ github.event.inputs.ref_name == '' }}
