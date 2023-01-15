@@ -19,4 +19,6 @@ jobs:
         if: ${{ steps.dependabot-metadata.outputs.update-type != 'version-update:semver-major' }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh pr merge --auto --squash ${{ github.event.pull_request.html_url }}
+        run: |
+          gh pr review --approve ${{ github.event.pull_request.html_url }}
+          gh pr merge --auto --squash ${{ github.event.pull_request.html_url }}
