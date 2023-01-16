@@ -4,6 +4,6 @@ class PalindromeGenerator {
   }
 
   String generateString(String word) {
-    return word + new StringBuilder(isPalindrome(word) ? "" : word).reverse().toString();
+    return word + new StringBuilder(isPalindrome(word) ? "" : word).reverse();
   }
 }
