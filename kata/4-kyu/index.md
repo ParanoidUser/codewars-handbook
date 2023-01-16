@@ -6,6 +6,8 @@
 - [Last digits of N^2 == N](last-digits-of-n-2-equals-equals-n)
 # N
 - [Next bigger number with the same digits](next-bigger-number-with-the-same-digits)
+# R
+- [Range Extraction](range-extraction)
 # S
 - [Snail](snail)
 - [So Many Permutations!](so-many-permutations)
