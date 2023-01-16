@@ -465,6 +465,7 @@
 - [String Packet Based Communications](string-packet-based-communications)
 - [String prefix and suffix](string-prefix-and-suffix)
 - [Strong Number (Special Numbers Series #2)](strong-number-special-numbers-series-number-2)
+- [Subcuboids](subcuboids)
 - [Suitcase packing](suitcase-packing)
 - [Sum Array with different bases](sum-array-with-different-bases)
 - [Sum of angles](sum-of-angles)
