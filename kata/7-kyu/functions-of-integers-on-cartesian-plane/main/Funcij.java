@@ -1,12 +1,12 @@
 import java.math.BigInteger;
 
 interface Funcij {
-  static BigInteger sumin(int n) {
-    return BigInteger.valueOf((long) n * (n + 1) * (2 * n + 1) / 6);
+  static BigInteger sumin(long n) {
+    return BigInteger.valueOf(n * (n + 1) * (2 * n + 1) / 6);
   }
 
-  static BigInteger sumax(int n) {
-    return BigInteger.valueOf((long) n * n * n - (long) n * (n - 1) * (2 * n - 1) / 6);
+  static BigInteger sumax(long n) {
+    return BigInteger.valueOf(n * n * n - n * (n - 1) * (2 * n - 1) / 6);
   }
 
   static BigInteger sumsum(int n) {
