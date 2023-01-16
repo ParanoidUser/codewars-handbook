@@ -406,6 +406,7 @@
 - [World Bits War](world-bits-war)
 - [Write Number in Expanded Form](write-number-in-expanded-form)
 # Y
+- [You are a Robot: Translating a Path](you-are-a-robot-translating-a-path)
 - [Your order, please](your-order-please)
 # Z
 - [Zig-Zag Camel](zig-zag-camel)
