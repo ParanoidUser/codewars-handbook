@@ -14,6 +14,7 @@
 - [Maximum Contiguous Sum](maximum-contiguous-sum)
 - [Maximum subarray sum](maximum-subarray-sum)
 # N
+- [Not very secure](not-very-secure)
 - [Number of trailing zeros of N!](number-of-trailing-zeros-of-n)
 # P
 - [Perimeter of squares in a rectangle](perimeter-of-squares-in-a-rectangle)
