@@ -16,6 +16,7 @@
 # N
 - [Number of trailing zeros of N!](number-of-trailing-zeros-of-n)
 # P
+- [Perimeter of squares in a rectangle](perimeter-of-squares-in-a-rectangle)
 - [Product of consecutive Fib numbers](product-of-consecutive-fib-numbers)
 # R
 - [RGB To Hex Conversion](rgb-to-hex-conversion)
