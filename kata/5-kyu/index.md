@@ -23,6 +23,7 @@
 # S
 - [Scramblies](scramblies)
 - [Simple Pig Latin](simple-pig-latin)
+- [String incrementer](string-incrementer)
 # V
 - [Valid Parentheses](valid-parentheses)
 # W
