@@ -7,15 +7,11 @@ class VirusDB {
   private final String[] intensity3Signatures;
 
   String[] getSignatures(int arrayNum) {
-    switch (arrayNum) {
-      case 1:
-        return this.intensity1Signatures;
-      case 2:
-        return this.intensity2Signatures;
-      case 3:
-        return this.intensity3Signatures;
-      default:
-        return new String[0];
-    }
+    return switch (arrayNum) {
+      case 1 -> this.intensity1Signatures;
+      case 2 -> this.intensity2Signatures;
+      case 3 -> this.intensity3Signatures;
+      default -> new String[0];
+    };
   }
 }
