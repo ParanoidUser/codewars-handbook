@@ -6,6 +6,8 @@
 - [Containers](containers)
 # D
 - [Directions Reduction](directions-reduction)
+# G
+- [Greed is Good](greed-is-good)
 # H
 - [Human Readable Time](human-readable-time)
 # M
