@@ -8,6 +8,7 @@
 - [Next bigger number with the same digits](next-bigger-number-with-the-same-digits)
 # S
 - [Snail](snail)
+- [So Many Permutations!](so-many-permutations)
 - [Strip Comments](strip-comments)
 - [Sudoku Solution Validator](sudoku-solution-validator)
 - [Sum of Intervals](sum-of-intervals)
