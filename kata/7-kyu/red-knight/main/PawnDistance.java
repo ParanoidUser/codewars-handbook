@@ -11,10 +11,9 @@ class PawnDistance {
     if (this == o) {
       return true;
     }
-    if (!(o instanceof PawnDistance)) {
+    if (!(o instanceof PawnDistance pawn)) {
       return false;
     }
-    PawnDistance pawn = (PawnDistance) o;
     return pawn.distance == distance && Objects.equals(pawn.color, color);
   }
 

@@ -19,10 +19,9 @@ class Cat implements Comparable<Cat> {
     if (this == o) {
       return true;
     }
-    if (!(o instanceof Cat)) {
+    if (!(o instanceof Cat cat)) {
       return false;
     }
-    var cat = (Cat) o;
     return Double.compare(cat.weight, weight) == 0 && Objects.equals(name, cat.name);
   }
 
