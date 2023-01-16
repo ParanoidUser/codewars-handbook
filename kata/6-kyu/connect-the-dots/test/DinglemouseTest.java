@@ -3,67 +3,74 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 class DinglemouseTest {
+
   @Test
   void sample() {
-    assertEquals(
-      "           \n" +
-      " ********* \n" +
-      " *       * \n" +
-      " *       * \n" +
-      " ********* \n" +
-      "           \n",
-      Dinglemouse.connectTheDots(
-        "           \n" +
-        " a       b \n" +
-        " e         \n" +
-        "           \n" +
-        " d       c \n" +
-        "           \n"
-      )
+    assertEquals("""
+                      \s
+             *********\s
+             *       *\s
+             *       *\s
+             *********\s
+                      \s
+            """,
+        Dinglemouse.connectTheDots("""
+                      \s
+             a       b\s
+             e        \s
+                      \s
+             d       c\s
+                      \s
+            """
+        )
     );
 
-    assertEquals(
-      "           \n" +
-      "     *     \n" +
-      "    * *    \n" +
-      "   *   *   \n" +
-      "  *     *  \n" +
-      "   *   *   \n" +
-      "    * *    \n" +
-      "     *     \n" +
-      "           \n",
-      Dinglemouse.connectTheDots(
-        "           \n" +
-        "     a     \n" +
-        "    e      \n" +
-        "           \n" +
-        "  d     b  \n" +
-        "           \n" +
-        "           \n" +
-        "     c     \n" +
-        "           \n"
-      )
+    assertEquals("""
+                      \s
+                 *    \s
+                * *   \s
+               *   *  \s
+              *     * \s
+               *   *  \s
+                * *   \s
+                 *    \s
+                      \s
+            """,
+        Dinglemouse.connectTheDots("""
+                      \s
+                 a    \s
+                e     \s
+                      \s
+              d     b \s
+                      \s
+                      \s
+                 c    \s
+                      \s
+            """
+        )
     );
 
-    assertEquals(
-      "  *  \n" +
-      " **  \n" +
-      "* *  \n" +
-      "  *  \n" +
-      "  *  \n" +
-      "  *  \n" +
-      "  *  \n" +
-      "*****\n",
-      Dinglemouse.connectTheDots(
-        "  d  \n" +
-        "     \n" +
-        "e    \n" +
-        "     \n" +
-        "     \n" +
-        "     \n" +
-        "     \n" +
-        "a c b\n"
-      )
+    assertEquals("""
+              * \s
+             ** \s
+            * * \s
+              * \s
+              * \s
+              * \s
+              * \s
+            *****
+            """,
+        Dinglemouse.connectTheDots("""
+              d \s
+                \s
+            e   \s
+                \s
+                \s
+                \s
+                \s
+            a c b
+            """
+        )
     );
   }
 }

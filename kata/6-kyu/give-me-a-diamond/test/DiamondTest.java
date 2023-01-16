@@ -6,8 +6,18 @@ import org.junit.jupiter.api.Test;
 class DiamondTest {
   @Test
   void sample() {
-    assertEquals(" *\n" + "***\n" + " *\n", Diamond.print(3));
-    assertEquals("  *\n" + " ***\n" + "*****\n" + " ***\n" + "  *\n", Diamond.print(5));
+    assertEquals("""
+         *
+        ***
+         *
+        """, Diamond.print(3));
+    assertEquals("""
+          *
+         ***
+        *****
+         ***
+          *
+        """, Diamond.print(5));
     assertEquals("*\n", Diamond.print(1));
     assertNull(Diamond.print(0));
     assertNull(Diamond.print(-2));
