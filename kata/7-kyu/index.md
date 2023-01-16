@@ -489,6 +489,7 @@
 - [Ten Green Bottles](ten-green-bottles)
 - [Testing 1-2-3](testing-1-2-3)
 - [The 12 Days of Christmas](the-12-days-of-christmas)
+- [The alphabet product](the-alphabet-product)
 - [The Culling of Stratholme](the-culling-of-stratholme)
 - [The First Non Repeated Character In A String](the-first-non-repeated-character-in-a-string)
 - [The fusc function -- Part 1](the-fusc-function-part-1)
