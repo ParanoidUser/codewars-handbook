@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class Tests {
+class SolutionTest {
   @Test
   void sample() {
     assertEquals("15-20", Kata.datingRange(17));

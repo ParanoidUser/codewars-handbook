@@ -3,7 +3,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.Test;
 
-class Tests {
+class SolutionTest {
   @Test
   void circularListTest() {
     var xs = new CircularList<>("one", "two", "three");

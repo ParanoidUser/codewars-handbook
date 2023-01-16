@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class Tests {
+class SolutionTest {
   @Test
   void sample() {
     assertEquals(4, Solution.duplicates(new int[]{1, 2, 2, 20, 6, 20, 2, 6, 2}));

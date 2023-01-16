@@ -3,7 +3,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-class IsNegativeZero_Test {
+class SolutionTest {
   @Test
   void sample() {
     assertTrue(NegativeZeroValidator.isNegativeZero(-0f));

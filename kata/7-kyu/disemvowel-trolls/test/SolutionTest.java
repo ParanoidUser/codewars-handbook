@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class Tests {
+class SolutionTest {
   @Test
   void sample() {
     assertEquals("Wht r y,  cmmnst?", Troll.disemvowel("What are you, a communist?"));
