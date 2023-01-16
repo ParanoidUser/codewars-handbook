@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class Tests {
+class SolutionTest {
   @Test
   void sample() {
     assertEquals(40900.3, new Eratosthenes().circumference(8.1, 1.0, 800), 0.1);

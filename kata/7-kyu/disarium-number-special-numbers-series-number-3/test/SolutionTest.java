@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class Basic_Test {
+class SolutionTest {
   @Test
   void sample() {
     assertEquals("Disarium !!", Solution.disariumNumber(89));

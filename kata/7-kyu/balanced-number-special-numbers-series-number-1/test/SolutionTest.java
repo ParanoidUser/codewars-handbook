@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class Solution_Test {
+class SolutionTest {
   @Test
   void sample() {
     assertEquals("Balanced", Solution.balancedNum(7));

@@ -3,7 +3,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import java.util.Arrays;
 import org.junit.jupiter.api.Test;
 
-class Tests {
+class SolutionTest {
   @Test
   void sample() {
     var lines = new String[]{

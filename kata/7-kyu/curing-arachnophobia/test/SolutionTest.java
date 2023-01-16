@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class TestingSpiders {
+class SolutionTest {
   @Test
   void sample() {
     assertEquals("^(oWo)^", Spiders.drawSpider(1, 1, 'W', 'o'));

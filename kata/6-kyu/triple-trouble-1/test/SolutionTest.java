@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class Tests {
+class SolutionTest {
   @Test
   void sample() {
     assertEquals(1, Kata.TripleDouble(451999277L, 41177722899L));
