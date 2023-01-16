@@ -31,7 +31,7 @@ subprojects {
         implementation("org.springframework.boot:spring-boot-starter-web:3.0.1")
         compileOnly("org.projectlombok:lombok:1.18.24")
         annotationProcessor("org.projectlombok:lombok:1.18.24")
-        testImplementation("org.mockito:mockito-inline:4.11.0")
+        testImplementation("org.mockito:mockito-inline:5.0.0")
         testImplementation("org.junit.jupiter:junit-jupiter:5.9.2")
         testImplementation("org.awaitility:awaitility:4.2.0")
         testImplementation("org.springframework.boot:spring-boot-starter-test:3.0.1")
