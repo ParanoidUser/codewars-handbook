@@ -8,7 +8,7 @@ Most Frequent --> Least Frequent
 
 `e t a o i n s h r d l c u m w f g y p b v k j x q z`
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/English_letter_frequency_%28frequency%29.svg/380px-English_letter_frequency_%28frequency%29.svg.png">
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/English_letter_frequency_%28frequency%29.svg/380px-English_letter_frequency_%28frequency%29.svg.png)
 
 ## Kata Task
 
@@ -39,4 +39,3 @@ person who gave the speech!
 
 * Each test case passes the same speech each time! There are a small number of speeches (5) to solve
   for this Kata. They are uniquely identified by the parameter `n` = 1,2,3,4,5.
-

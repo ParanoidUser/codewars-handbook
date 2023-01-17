@@ -1,11 +1,8 @@
 # [Horse Racing](https://www.codewars.com/kata/horse-racing "https://www.codewars.com/kata/5d8de9fdeeae51002600dfa4")
 
-# Game
-
 There is an old-fashioned mechanical horse racing game with 3 horses.
 
-<img src="https://i.imgur.com/QGSJ32S.png" style='height:300px;width:500px'/>
-<br/><br/>
+![](https://i.imgur.com/QGSJ32S.png)
 
 Wind up the key and press a button to start the game!
 
@@ -15,7 +12,7 @@ First horse the to end of the track wins.
 
 If two or more horses reach the end on same iteration then they will have **equal** placing.
 
-# Kata Task
+## Kata Task
 
 The horses are imaginatively named `A`, `B`, `C`.
 
@@ -30,11 +27,12 @@ An array `horses[3][N]` indicates how far each of the horses advances at each it
 * There are `N` iterations before wind-up mechanism stops
 
 For example,
+
 * `[0][0]`, `[0][1]`, `[0][2]` ... `[0][N-1]` = Horse `A` 1st, 2nd, 3rd, ... Nth iteration
 * `[1][0]`, `[1][1]`, `[1][2]` ... `[1][N-1]` = Horse `B` 1st, 2nd, 3rd, ... Nth iteration
 * `[2][0]`, `[2][1]`, `[2][2]` ... `[2][N-1]` = Horse `C` 1st, 2nd, 3rd, ... Nth iteration
 
-## Output 
+## Output
 
 A result string, formatted to show the placing of each horse. (Refer to the examples).
 
@@ -42,9 +40,10 @@ A result string, formatted to show the placing of each horse. (Refer to the exam
 
 A normal result:
 
-  * `1st: A 2nd: B 3rd: C`
+* `1st: A 2nd: B 3rd: C`
 
 Equal places. Use `-` to indicate other places that cannot be filled:
+
 * Equal first place: `1st: A B 2nd: C 3rd: -`
 
 * Equal second place: `1st: A 2nd: B C 3rd: -`
@@ -63,4 +62,3 @@ Or any combinations of the above...
 * The number of iterations `N` may be different for each game
 * Equal placed horses are displayed alphabetically
 * The race ends either when all horses have finished, or when all `N` iterations have completed
-

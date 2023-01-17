@@ -5,8 +5,8 @@ Given a number `n` we will define it's sXORe to be `0 XOR 1 XOR 2 ... XOR n` whe
 Write a function that takes `n` and returns it's sXORe.
 
 #### Examples
-|    n    | sXORe n |
-| ------- | ------- |
+| n       | sXORe n |
+|---------|---------|
 | 0       | 0       |
 | 1       | 1       |
 | 50      | 51      |
