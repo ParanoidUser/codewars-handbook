@@ -3,7 +3,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 class WildsTest {
-  String haystack = "Once upon a midnight dreary, while I pondered, weak and weary";
+  private final String haystack = "Once upon a midnight dreary, while I pondered, weak and weary";
 
   @Test
   void normalSearchTest() {

@@ -1,6 +1,14 @@
 class Node {
-  int data;
-  Node next;
+  static Node buildOneTwoThree() {
+    return push(push(new Node(3), 2), 1);
+  }
+
+  static Node push(Node head, int data) {
+    return new Node(head, data);
+  }
+
+  final int data;
+  final Node next;
 
   Node(int data) {
     this(null, data);
@@ -9,13 +17,5 @@ class Node {
   Node(Node child, int data) {
     this.next = child;
     this.data = data;
-  }
-
-  static Node push(Node head, int data) {
-    return new Node(head, data);
-  }
-
-  static Node buildOneTwoThree() {
-    return new Node(new Node(new Node(3), 2), 1);
   }
 }

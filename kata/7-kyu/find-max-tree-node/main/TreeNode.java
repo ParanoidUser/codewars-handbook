@@ -1,34 +1,27 @@
-public class TreeNode {
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor(access = AccessLevel.PRIVATE)
+class TreeNode {
+  final int value;
   TreeNode left;
   TreeNode right;
-  int value;
 
-  TreeNode(int value) {
-    this(value, null, null);
+  public static TreeNode of(int i) {
+    return of(i, null, null);
   }
 
-  TreeNode(int value, TreeNode left, TreeNode right) {
-    this.value = value;
-    this.left = left;
-    this.right = right;
-  }
-
-  public static TreeNode leaf(int i) {
-    return new TreeNode(i);
-  }
-
-  public TreeNode withLeftLeaf(int i) {
-    left = new TreeNode(i);
-    return this;
-  }
-
-  public TreeNode withLeaves(int left, int right) {
-    this.left = new TreeNode(left);
-    this.right = new TreeNode(right);
-    return this;
-  }
-
-  public static TreeNode join(int i, TreeNode left, TreeNode right) {
+  public static TreeNode of(int i, TreeNode left, TreeNode right) {
     return new TreeNode(i, left, right);
+  }
+
+  public TreeNode left(int value) {
+    this.left = of(value);
+    return this;
+  }
+
+  public TreeNode right(int value) {
+    this.right = of(value);
+    return this;
   }
 }
