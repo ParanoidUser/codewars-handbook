@@ -1,6 +1,6 @@
 # [Cogs 2](https://www.codewars.com/kata/cogs-2 "https://www.codewars.com/kata/59e72bdcfc3c4974190000d9")
 
-<img src="http://bestanimations.com/Science/Gears/loadinggears/loading-gears-animation-6-4.gif"/>
+![](https://bestanimations.com/Science/Gears/loadinggears/loading-gears-animation-6-4.gif)
 
 You are given a list of cogs in a <a href ="https://en.wikipedia.org/wiki/Gear_train">gear train</a>
 

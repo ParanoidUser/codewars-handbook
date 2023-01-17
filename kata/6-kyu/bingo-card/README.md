@@ -1,6 +1,7 @@
 # [Bingo Card](https://www.codewars.com/kata/bingo-card "https://www.codewars.com/kata/566d5e2e57d8fae53c00000c")
 
-After yet another dispute on their game the Bingo Association decides to change course and automize the game.
+After yet another dispute on their game the Bingo Association decides to change course and automize
+the game.
 
 Can you help the association by writing a method to create a random Bingo card?
 
@@ -34,5 +35,5 @@ BingoCard.getCard()
 <li>The numbers must be in the order of their column: B, I, N, G, O. Within the columns the order of the numbers is random. 
 
 </ul>
-<br>
-<img style="height:220px" src="http://myfreebingocards.com/numbers/1-75/printable-bingo-card-generator/link_img.png" />
+
+![](https://myfreebingocards.com/numbers/1-75/printable-bingo-card-generator/link_img.png)

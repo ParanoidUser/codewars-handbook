@@ -2,9 +2,10 @@
 
 Your job is to compare two confidential documents that have come into your possession.
 
-The first document has parts <a href=https://www.merriam-webster.com/dictionary/redacted>redacted</a>, and the other one doesn't.
+The first document has parts [redacted](https://www.merriam-webster.com/dictionary/redacted), and
+the other one doesn't.
 
-<img src="https://i.imgur.com/8BSbFEy.png" style='width:300px'/>
+![](https://i.imgur.com/8BSbFEy.png)
 
 But the original (unredacted) document might be a fake!
 
@@ -43,12 +44,12 @@ Return `true` if the two documents are possibly the same. Return `false` otherwi
 <pre style='background-color:white;color:gray'>
 TOP SECRET:
 The missile launch code for Sunday <span style='background-color:black'>XXXXXXXXXX</span> is:
-<span style='background-color:black'>XXXXXXXXXXXXXXXXX</span>
+<span style='background-color:black'>XXXXXXXXXXXXXXXXX</span></pre>
 <td id="mytd">
 <pre style='background-color:white;color:gray'>
 TOP SECRET:
 The missile launch code for Sunday 5th August is:
-7-ZERO-8X-ALPHA-1
+7-ZERO-8X-ALPHA-1</pre>
 <td id="mytd">
 true
 </tr>
@@ -56,10 +57,10 @@ true
 <tr>
 <td id="mytd">
 <pre style='background-color:white;color:gray'>
-The name of the mole is Professor <span style='background-color:black'>XXXXX</span>
+The name of the mole is Professor <span style='background-color:black'>XXXXX</span></pre>
 <td id="mytd">
 <pre style='background-color:white;color:gray'>
-The name of the mole is Professor Plum
+The name of the mole is Professor Plum</pre>
 <td id="mytd">
 false
 </tr>
@@ -68,11 +69,11 @@ false
 <td id="mytd">
 <pre style='background-color:white;color:gray'>
 <span style='background-color:black'>XXXXXXXX</span> <span style='background-color:black'>XXXXXXX</span> <span style='background-color:black'>XXXXXXXXXXXXXXXXXXX</span>
-<span style='background-color:black'>XXXX</span> <span style='background-color:black'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span> <span style='background-color:black'>XXXXXXXXX</span> <span style='background-color:black'>XXXXXXXXXXXXX</span> <span style='background-color:black'>XXXXX</span>
+<span style='background-color:black'>XXXX</span> <span style='background-color:black'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span> <span style='background-color:black'>XXXXXXXXX</span> <span style='background-color:black'>XXXXXXXXXXXXX</span> <span style='background-color:black'>XXXXX</span></pre>
 <td id="mytd">
 <pre style='background-color:white;color:gray'>
 Area-51. Medical Report. 23/Oct/1969
-E.T. subject 4 was given an asprin after reporting sick for duty today
+E.T. subject 4 was given an asprin after reporting sick for duty today</pre>
 <td id="mytd">
 true
 </tr>
