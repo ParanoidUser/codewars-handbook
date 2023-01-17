@@ -17,8 +17,7 @@ class TestCoffeeMachine implements CoffeeMachine {
   }
 
   static final Map<String, Integer> data = new HashMap<>();
-  static AtomicInteger counter = new AtomicInteger(0);
-
+  static final AtomicInteger counter = new AtomicInteger(0);
 
   @Override
   public Coffee makeCoffee() {

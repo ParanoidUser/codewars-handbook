@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 class BadCollection {
-  Set<Short> set = new HashSet<>();
+  final Set<Short> set = new HashSet<>();
 
   void addAll(int... numbers) {
     stream(numbers).forEach(i -> set.add((short) i));

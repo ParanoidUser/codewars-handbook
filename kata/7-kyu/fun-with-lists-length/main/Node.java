@@ -1,6 +1,6 @@
 class Node {
-  Object data;
-  Node next;
+  final Object data;
+  final Node next;
 
   Node(Object data) {
     this(data, null);

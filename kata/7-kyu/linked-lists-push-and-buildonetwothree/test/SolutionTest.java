@@ -4,7 +4,6 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 import org.junit.jupiter.api.Test;
 
 class SolutionTest {
-
   @Test
   void sample() {
     assertNull(Node.push(null, 1).next);

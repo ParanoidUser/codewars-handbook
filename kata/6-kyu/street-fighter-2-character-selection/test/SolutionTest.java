@@ -3,7 +3,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import org.junit.jupiter.api.Test;
 
 class SolutionTest {
-  String[][] fighters = {
+  private final String[][] fighters = {
     {"Ryu", "E.Honda", "Blanka", "Guile", "Balrog", "Vega"},
     {"Ken", "Chun Li", "Zangief", "Dhalsim", "Sagat", "M.Bison"},
   };

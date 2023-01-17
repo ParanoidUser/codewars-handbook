@@ -1,16 +1,4 @@
 class Node {
-  int data;
-  Node next;
-
-  Node(int data) {
-    this(data, null);
-  }
-
-  Node(int data, Node next) {
-    this.data = data;
-    this.next = next;
-  }
-
   static Node append(Node listA, Node listB) {
     if (listA == null && listB == null) {
       return null;
@@ -23,5 +11,17 @@ class Node {
       return listA;
     }
     return listA != null ? listA : listB;
+  }
+
+  final int data;
+  Node next;
+
+  Node(int data) {
+    this(data, null);
+  }
+
+  Node(int data, Node next) {
+    this.data = data;
+    this.next = next;
   }
 }
