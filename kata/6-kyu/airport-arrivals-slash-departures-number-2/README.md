@@ -2,7 +2,7 @@
 
 Well here you are again, still staring blankly at the same arrivals/departures flap display...
 
-<div style="width:75%"><img src="http://www.airport-arrivals-departures.com/img/meta/1200_630_arrivals-departures.png"></div>
+![](https://www.airport-arrivals-departures.com/img/meta/1200_630_arrivals-departures.png)
 
 # Kata Task
 
