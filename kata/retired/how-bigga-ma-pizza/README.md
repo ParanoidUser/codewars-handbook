@@ -1,8 +1,6 @@
 # [How bigga ma pizza?](https://www.codewars.com/kata/how-bigga-ma-pizza "https://www.codewars.com/kata/5e9c06f95ea5b30033903194")
 
-<img src="https://i.imgur.com/TIc4lby.png" title="pizza shop" />
-
-# Kata Task
+![](https://i.imgur.com/TIc4lby.png)
 
 Welcome to ma pizza shop!
 
@@ -14,16 +12,16 @@ You just choosa the **"crispy"** crust or the **"thick"** crust.
 
 So, how bigga ma pizza gonna be?
 
-## Input
+### Input
 
 * `blob` = my dough blob diameter
 * `crust` = "crispy" or "thick"
 
-## Output
+### Output
 
 * Pizza radius
 
-# Notes
+## Notes
 
 * All data is valid
 * Blob diameter is >= 0

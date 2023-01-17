@@ -15,7 +15,7 @@ Something like this:
 
 <span style='font-family:monospace;font-size:30px;background:black;'>
 C...<span style='background:red;'>R</span>............<span style='background:green;'>G</span>......
-</span><p/>
+</span>
 
 ## Simulation
 

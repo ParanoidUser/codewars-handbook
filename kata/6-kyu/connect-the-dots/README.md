@@ -12,7 +12,7 @@ Connect the dots in order to make a picture!
 
 ## Examples
 
-<table border='1' style='width:50%'>
+<table style='width:50%'>
 <tr><th style='width:50%'>Input</th><th>Expected</th></tr>
 <tr><td>
 <pre style='background:black;font-size:20px;line-height:20px;font-family:monospace;'>&nbsp;
@@ -33,7 +33,7 @@ Connect the dots in order to make a picture!
 </pre></td></tr>
 </table>
 
-<table border='1' style='width:50%;'>
+<table style='width:50%;'>
 <tr><th style='width:50%'>Input</th><th>Expected</th></tr>
 <tr><td>
 <pre style='background:black;font-size:20px;line-height:20px;font-family:monospace;'>&nbsp;
