@@ -17,15 +17,14 @@ Decoding is the same process in reverse. If we decode `csordaew`, we get `codewa
 ### Examples:
 
 1.
-
- ```
- encode "codewars" -> "csordaew"
- decode "csordaew" -> "codewars"
- ```
+   ```
+   encode "codewars" -> "csordaew"
+   decode "csordaew" -> "codewars"
+   ```
 
 2.
 
- ```
- encode "white" -> "wehti"
- decode "wehti" -> "white"
- ```
+   ```
+   encode "white" -> "wehti"
+   decode "wehti" -> "white"
+   ```

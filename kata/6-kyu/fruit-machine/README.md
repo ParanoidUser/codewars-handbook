@@ -21,18 +21,18 @@ You will be given three reels of different images and told at which index the re
 
 # Scoring
 
-Item   | Three of the same | Two of the same | Two of the same plus one Wild
-:---   | :---------------: | :-------------: | :---------------------------:
-Wild   | 100               | 10              | N/A
-Star   | 90                | 9               | 18
-Bell   | 80                | 8               | 16
-Shell  | 70                | 7               | 14
-Seven  | 60                | 6               | 12
-Cherry | 50                | 5               | 10
-Bar    | 40                | 4               | 8
-King   | 30                | 3               | 6
-Queen  | 20                | 2               | 4
-Jack   | 10                | 1               | 2
+| Item   | Three of the same | Two of the same | Two of the same plus one Wild |
+|:-------|:-----------------:|:---------------:|:-----------------------------:|
+| Wild   |        100        |       10        |              N/A              |
+| Star   |        90         |        9        |              18               |
+| Bell   |        80         |        8        |              16               |
+| Shell  |        70         |        7        |              14               |
+| Seven  |        60         |        6        |              12               |
+| Cherry |        50         |        5        |              10               |
+| Bar    |        40         |        4        |               8               |
+| King   |        30         |        3        |               6               |
+| Queen  |        20         |        2        |               4               |
+| Jack   |        10         |        1        |               2               |
 
 # Returns
 Return an integer of the <font color="#A1A85E">score</font>.<br>
