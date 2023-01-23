@@ -10,7 +10,7 @@
 On the platform, users known as *code warriors* attempt to solve programming challenges, known as
 *kata*, to practice programming skills and earn honor points. Each kata is assigned a *kyū* rank
 based on its subject and difficulty. The more difficult the kata, the more points will be awarded.
-All code warriors start at 8 kyū and advance through the ranks to the final 4th dan (master 🥋).
+All code warriors start at 8 kyū 👘 and advance through the ranks to the final 4th dan 🥋.
 Warriors are not the ones who always win, but the ones that always fight. Banzai!
 
 ## Overview
@@ -28,7 +28,7 @@ slug.
 |               -               |               -               |               2               |              11               |              19               |              388              |              525              |              192              |             60              |                63                 |
 
 **Note:** The source code is written in Java 17 and may use language features that are incompatible
-with Java 8 and 11.
+with Java 8, 11.
 
 ## ❤️ Credits
 
@@ -36,7 +36,7 @@ Kudos 🙌 to all community members around the world, your support is greatly ap
 will be recognized in
 the [release notes](https://github.com/ParanoidUser/codewars-handbook/releases) and pinned 📌 to
 the star map ⭐🌎.
-[![star map](https://user-images.githubusercontent.com/5120290/214153645-0806f035-98dd-4b32-bd7e-76f8992bb4ba.png)](https://www.fla-shop.com/visited-countries/?st=BO%2CBR%2CBY%2CCN%2CCO%2CEE%2CEG%2CFR%2CGB%2CID%2CIN%2CJP%2CKE%2CNG%2CPL%2CPT%2CRU%2CTH%2CTR%2CTW%2CUA%2CUS%2CVN&vc=6699cc&uc=e8e8e8&hc=40bfa6&bc=ffffff&ss=on)
+[![star map](https://user-images.githubusercontent.com/5120290/214156928-2c1cfd83-6625-4d51-b526-bf42f473b69d.png)](https://www.fla-shop.com/visited-countries/?st=BO%2CBR%2CBY%2CCN%2CCO%2CEE%2CEG%2CFR%2CGB%2CID%2CIN%2CJP%2CKE%2CNG%2CPL%2CPT%2CRU%2CTH%2CTR%2CTW%2CUA%2CUS%2CVN&vc=6699cc&uc=e8e8e8&hc=40bfa6&bc=ffffff&ss=on)
 
 ## ⚠️ Disclaimer
 
