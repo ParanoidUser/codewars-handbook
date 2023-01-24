@@ -55,7 +55,10 @@
 - [RepeatIt](repeatit)
 - [Replacement](replacement)
 # S
+- [Series of integers from 0 to n](series-of-integers-from-0-to-n)
+- [Series of integers from m to n](series-of-integers-from-m-to-n)
 - [Sexagesimal degree](sexagesimal-degree)
+- [Signal Generator](signal-generator)
 - [Simple transposition](simple-transposition)
 - [Simplified Nim - AI](simplified-nim-ai)
 - [Squash the bugs](squash-the-bugs)
