@@ -79,7 +79,7 @@
 - [FIXME: Replace all dots](fixme-replace-all-dots)
 - [FIXME: Static electrickery](fixme-static-electrickery)
 - [Formatting decimal places #0](formatting-decimal-places-number-0)
-- [Fuel Calculator](fuel-calculator)
+- [Fuel Calculator: Total Cost](fuel-calculator-total-cost)
 - [Function 1 - hello world](function-1-hello-world)
 - [Function 2 - squaring an argument](function-2-squaring-an-argument)
 # G
@@ -137,7 +137,7 @@
 - [N-th Power](n-th-power)
 - [No zeros for heroes](no-zeros-for-heros)
 # O
-- [Object Oriented Piracy](object-oriented-piracy)
+- [OOP: Object Oriented Piracy](oop-object-oriented-piracy)
 - [Opposite number](opposite-number)
 - [Opposites Attract](opposites-attract)
 # P

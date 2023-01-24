@@ -1,10 +1,10 @@
-# [Object Oriented Piracy](https://www.codewars.com/kata/object-oriented-piracy "https://www.codewars.com/kata/54fe05c4762e2e3047000add")
+# [OOP: Object Oriented Piracy ](https://www.codewars.com/kata/oop-object-oriented-piracy "https://www.codewars.com/kata/54fe05c4762e2e3047000add")
 
 Ahoy matey!
 
 You are a leader of a small pirate crew. And you have a plan.
-With the help of OOP you wish to make a pretty efficient system to identify ships with a heavy booty
-on board.
+With the help of OOP you wish to make a pretty efficient system to identify ships with heavy booty
+on board!
 
 Unfortunately for you, people weigh a lot these days, so how do you know if a ship is full of gold
 and not people?
@@ -13,13 +13,13 @@ You begin with writing a generic Ship class / struct:
 
 ```
 public class Ship {
-    private final double draft;
-    private final int crew;
-    
-    public Ship(double draft, int crew) {
-        this.draft = draft;
-        this.crew = crew;
-    }
+  private final double draft;
+  private final int crew;
+
+  public Ship(double draft, int crew) {
+    this.draft = draft;
+    this.crew = crew;
+  }
 } 
 ```
 
@@ -53,5 +53,3 @@ to decide if the ship is worthy to loot. For example:
 ```
 titanic.isWorthIt() == false
 ```
-
-This Kata teaches you the very basics of method creation.

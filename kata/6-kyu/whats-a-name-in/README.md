@@ -1,17 +1,18 @@
-# [What's in a name?](https://www.codewars.com/kata/whats-in-a-name "https://www.codewars.com/kata/59daf400beec9780a9000045")
+# [What's A Name In?](https://www.codewars.com/kata/whats-a-name-in "https://www.codewars.com/kata/59daf400beec9780a9000045")
 
 ..Or rather, what's a name in? For us, a particular string is where we are looking for a name.
 
 ## Task
 
-Test whether or not the string contains all of the letters which spell a given name, in order.
+Write a function, taking two strings in parameter, that tests whether the first string
+contains all the letters of the second string, in order.
 
-## The format
-A function passing two strings, searching for one (the name) within the other.
-``function nameInStr(str, name){ return true || false }``
+The function should return `true` if that is the case, and else `false`.
+Letter comparison should be case-INsensitive.
 
 ## Examples
 
+```
     nameInStr("Across the rivers", "chris") --> true
                 ^      ^  ^^   ^
                 c      h  ri   s
@@ -42,6 +43,4 @@ A function passing two strings, searching for one (the name) within the other.
                  
     Contains all of the correct letters in "Allison", in order, 
     but not enough of all of them (missing an 'l').
-    
-
-Note: testing will _not_ be case-sensitive.
+```

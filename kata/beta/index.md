@@ -50,7 +50,6 @@
 - [Random Wallpaper](random-wallpaper)
 - [Range Merging](range-merging)
 # S
-- [Signal Generator](signal-generator)
 - [Simple Equation](simpleequation)
 - [Simple string concatenator](simple-string-concatenator)
 - [Sort an Array!](sort-an-array)
@@ -58,7 +57,7 @@
 - [String anagram checker](string-anagram-checker)
 - [String Calculator With Different Input Types](string-calculator-with-different-input-types)
 - [Sum of list values](sum-of-list-values)
-- [Sum of values from 1 to n inclusive { nΣn=1 }](sum-of-values-from-1-to-n-inclusive-%7B-nsn-equals-1-%7D)
+- [Sum of values from 1 to n inclusive { nΣn=1 }](sum-of-values-from-1-to-n-inclusive-{-nsn-equals-1-})
 # T
 - [Tetris - rotate the block](tetris-rotate-the-block)
 - [The Lamp](the-lamp)
