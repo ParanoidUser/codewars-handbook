@@ -11,6 +11,8 @@
 - [Greed is Good](greed-is-good)
 # H
 - [Human Readable Time](human-readable-time)
+# L
+- [Let's Play Darts!](lets-play-darts)
 # M
 - [Maximum Contiguous Sum](maximum-contiguous-sum)
 - [Maximum subarray sum](maximum-subarray-sum)
