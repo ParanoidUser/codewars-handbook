@@ -65,6 +65,7 @@
 - [The Lamp](the-lamp)
 - [The most asked question on CodeWars](the-most-asked-question-on-codewars)
 - [Time Conversion](time-conversion)
+- [Tinder for Programmers](tinder-for-programmers)
 - [Tug-o'-War](tug-o-war)
 # V
 - [Vampire Numbers](vampire-numbers-2)
