@@ -1,6 +1,8 @@
 name: Auto-merge Dependabot PRs
 
-on: pull_request_target
+on:
+  pull_request_target:
+    types: [ review_requested ]
 
 permissions:
   pull-requests: write
