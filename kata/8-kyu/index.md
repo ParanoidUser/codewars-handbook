@@ -1,6 +1,7 @@
 # \#
 - ["this" is a problem](this-is-a-problem)
 - [101 Dalmatians - squash the bugs, not the dogs!](101-dalmatians-squash-the-bugs-not-the-dogs)
+- [2 + 2 * 2 problem](2-plus-2-star-2-problem)
 - [8kyu interpreters: HQ9+](8kyu-interpreters-hq9-plus)
 # A
 - [A + B](a-plus-b)
