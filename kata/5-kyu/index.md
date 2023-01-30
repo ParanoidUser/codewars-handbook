@@ -11,6 +11,8 @@
 - [Greed is Good](greed-is-good)
 # H
 - [Human Readable Time](human-readable-time)
+# I
+- [Int32 to IPv4](int32-to-ipv4)
 # L
 - [Let's Play Darts!](lets-play-darts)
 # M
