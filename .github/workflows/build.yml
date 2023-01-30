@@ -13,6 +13,10 @@ on:
       job_count:
         description: Max concurrent jobs to execute
 
+concurrency:
+  group: ${{ github.head_ref }}
+  cancel-in-progress: true
+
 jobs:
   fork:
     runs-on: ubuntu-22.04
