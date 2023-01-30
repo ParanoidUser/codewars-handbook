@@ -8,6 +8,7 @@
 - [Next bigger number with the same digits](next-bigger-number-with-the-same-digits)
 # R
 - [Range Extraction](range-extraction)
+- [Roman Numerals Helper](roman-numerals-helper)
 # S
 - [Snail](snail)
 - [So Many Permutations!](so-many-permutations)
