@@ -2,9 +2,10 @@ name: Build CI
 
 on:
   push:
-    branches-ignore: [ dependabot/** ]
+    branches: [ main, develop ]
     tags: [ '[0-9]+.[0-9]+.[0-9]+' ]
   pull_request:
+    branches: [ develop ]
     types: [ opened, reopened, synchronize ]
   workflow_dispatch:
     inputs:
