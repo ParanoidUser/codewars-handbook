@@ -402,6 +402,7 @@
 - [See You Next Happy Year](see-you-next-happy-year)
 - [Selective fear of numbers](selective-fear-of-numbers)
 - [Send in the Clones](send-in-the-clones)
+- [Set Reducer](set-reducer)
 - [Shift Left](shift-left-1)
 - [Shifter words](shifter-words)
 - [Shorter concat [reverse longer]](shorter-concat-reverse-longer)
