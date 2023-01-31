@@ -115,6 +115,7 @@
 - [Currying functions: multiply all elements in an array](currying-functions-multiply-all-elements-in-an-array)
 - [Cyclops numbers](cyclops-numbers)
 # D
+- [Debug Sum of Digits of a Number](debug-sum-of-digits-of-a-number)
 - [Decimal decomposition](decimal-decomposition)
 - [Decipher the Message](decipher-the-message)
 - [Delta Bits](delta-bits)
