@@ -10,3 +10,6 @@
 
 # The build directory of this project into which Gradle generates all build artifacts
 build/
+
+# Java Heap/CPU Profiling files
+ *.hprof
