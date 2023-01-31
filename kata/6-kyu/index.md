@@ -339,6 +339,7 @@
 - [String subpattern recognition I](string-subpattern-recognition-i)
 - [String subpattern recognition III](string-subpattern-recognition-iii)
 - [Strongest even number in an interval](strongest-even-number-in-an-interval)
+- [Sudoku board validator](sudoku-board-validator)
 - [Sum consecutives](sum-consecutives)
 - [Sum of Digits / Digital Root](sum-of-digits-slash-digital-root)
 - [Sum of prime-indexed elements](sum-of-prime-indexed-elements)
