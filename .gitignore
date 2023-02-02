@@ -12,4 +12,4 @@
 build/
 
 # Java Heap/CPU Profiling files
- *.hprof
+*.hprof
