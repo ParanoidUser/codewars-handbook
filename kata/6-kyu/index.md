@@ -302,6 +302,7 @@
 - [Simple Fun #165: Withdraw](simple-fun-number-165-withdraw)
 - [Simple Fun #170: Sum Groups](simple-fun-number-170-sum-groups)
 - [Simple Fun #319: Number And IP Address](simple-fun-number-319-number-and-ip-address)
+- [Simple Fun #52: Pair Of Shoes](simple-fun-number-52-pair-of-shoes)
 - [Simple max digit sum](simple-max-digit-sum)
 - [Simple missing sum](simple-missing-sum)
 - [Simple nearest prime](simple-nearest-prime)
