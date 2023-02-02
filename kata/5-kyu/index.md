@@ -27,6 +27,7 @@
 - [Product of consecutive Fib numbers](product-of-consecutive-fib-numbers)
 # R
 - [RGB To Hex Conversion](rgb-to-hex-conversion)
+- [ROT13](rot13)
 # S
 - [Scramblies](scramblies)
 - [Simple Pig Latin](simple-pig-latin)
