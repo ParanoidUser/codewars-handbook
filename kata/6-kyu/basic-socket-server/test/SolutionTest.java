@@ -29,14 +29,14 @@ class SolutionTest {
 
   @Test
   void serverUnavailable() throws Exception {
-    try (var socket = new ServerSocket(80)) {
+    try (var socket = new ServerSocket(1111)) {
       assertFalse(socket.isClosed());
       assertThrows(IllegalStateException.class, Solution::runServer);
     }
   }
 
   private static void createClient(List<String> requests, List<String> responses) {
-    try (var socket = new Socket("127.0.0.1", 80)) {
+    try (var socket = new Socket("127.0.0.1", 1111)) {
       var out = socket.getOutputStream();
       for (String request : requests) {
         out.write(request.getBytes());

@@ -2,7 +2,7 @@ import java.net.ServerSocket;
 
 interface Solution {
   static void runServer() {
-    try (ServerSocket server = new ServerSocket(80)) {
+    try (ServerSocket server = new ServerSocket(1111)) {
       var socket = server.accept();
       byte[] buffer = new byte[1024];
       int length;
