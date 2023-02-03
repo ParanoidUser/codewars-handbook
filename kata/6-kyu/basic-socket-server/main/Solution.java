@@ -5,8 +5,8 @@ interface Solution {
     try (ServerSocket server = new ServerSocket(1111)) {
       var socket = server.accept();
       byte[] buffer = new byte[1024];
-      int length;
-      while ((length = socket.getInputStream().read(buffer)) > 0) {
+      while (true) {
+        int length = socket.getInputStream().read(buffer);
         String message = new String(buffer, 0, length);
         if (message.equals("exit")) {
           socket.close();
