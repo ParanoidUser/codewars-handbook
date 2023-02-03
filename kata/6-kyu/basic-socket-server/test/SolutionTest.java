@@ -1,5 +1,8 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
+import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.LinkedList;
 import java.util.List;
@@ -8,33 +11,42 @@ import org.junit.jupiter.api.Test;
 class SolutionTest {
   @Test
   void sample() {
-    Thread server = new Thread(Solution::runServer);
-    server.start();
+    List<String> requests = List.of("there\n", "is\n", "a\n", "house\n", "in\n", "new\n", "orleans\n");
+    List<String> responses = new LinkedList<>();
 
-    List<String> request = List.of("there\n", "is\n", "a\n", "house\n", "in\n", "new\n", "orleans\n");
-    List<String> response = createClient(request);
+    Thread server = new Thread(Solution::runServer);
+    Thread client = new Thread(() -> createClient(requests, responses));
+    server.start();
+    client.start();
     try {
       server.join();
+      client.join();
     } catch (InterruptedException e) {
       throw new RuntimeException(e);
     }
-    assertEquals(request, response);
+    assertEquals(requests, responses);
   }
 
-  private static List<String> createClient(List<String> requests) {
-    List<String> response = new LinkedList<>();
+  @Test
+  void serverUnavailable() throws Exception {
+    try (var socket = new ServerSocket(80)) {
+      assertFalse(socket.isClosed());
+      assertThrows(IllegalStateException.class, Solution::runServer);
+    }
+  }
+
+  private static void createClient(List<String> requests, List<String> responses) {
     try (var socket = new Socket("127.0.0.1", 80)) {
       var out = socket.getOutputStream();
       for (String request : requests) {
         out.write(request.getBytes());
         byte[] buffer = new byte[1024];
         int length = socket.getInputStream().read(buffer);
-        response.add(new String(buffer, 0, length));
+        responses.add(new String(buffer, 0, length));
       }
       out.write("exit".getBytes());
     } catch (Exception e) {
       throw new RuntimeException(e);
     }
-    return response;
   }
 }
