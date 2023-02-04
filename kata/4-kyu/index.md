@@ -18,3 +18,5 @@
 - [Sudoku Solution Validator](sudoku-solution-validator)
 - [Sum of Intervals](sum-of-intervals)
 - [Sum Strings as Numbers](sum-strings-as-numbers)
+# T
+- [The observed PIN](the-observed-pin)
