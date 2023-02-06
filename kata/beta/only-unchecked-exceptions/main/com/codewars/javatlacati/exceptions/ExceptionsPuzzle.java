@@ -7,7 +7,7 @@ interface ExceptionsPuzzle {
     doThrow(new SQLException());
   }
 
-  private static <E extends Throwable> void doThrow(Exception e) throws E {
+  static <E extends Throwable> void doThrow(Exception e) throws E {
     throw (E) e;
   }
 }
