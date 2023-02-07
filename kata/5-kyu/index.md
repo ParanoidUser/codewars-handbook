@@ -5,6 +5,7 @@
 - [Calculate Fibonacci return count of digit occurrences](calculate-fibonacci-return-count-of-digit-occurrences)
 - [Common Denominators](common-denominators)
 - [Containers](containers)
+- [Count IP Addresses](count-ip-addresses)
 # D
 - [Directions Reduction](directions-reduction)
 # G
