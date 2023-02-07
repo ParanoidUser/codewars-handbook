@@ -20,6 +20,7 @@
 - [Counting Characters](counting-characters)
 # D
 - [Decoding a logic transmission](decoding-a-logic-transmission)
+- [Digits](digits)
 - [Divisible by 9?](divisible-by-9)
 # F
 - [Fibonacci Number](fibonacci-number-1)
