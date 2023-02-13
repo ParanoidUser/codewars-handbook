@@ -10,7 +10,7 @@ class VersionManager {
   VersionManager(String version) {
     try {
       var chunks = version.split("\\.");
-      int major = chunks.length > 0 && !chunks[0].isEmpty() ? Integer.parseInt(chunks[0]) : 0;
+      int major = chunks[0].isEmpty() ? 0 : Integer.parseInt(chunks[0]);
       int minor = chunks.length > 1 ? Integer.parseInt(chunks[1]) : 0;
       int patch = chunks.length > 2 ? Integer.parseInt(chunks[2]) : major + minor > 0 ? 0 : 1;
       stack.push(new Version(major, minor, patch));
