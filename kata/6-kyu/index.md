@@ -390,6 +390,7 @@
 - [Valid Braces](valid-braces)
 - [Valid Phone Number](valid-phone-number)
 - [Validate Credit Card Number](validate-credit-card-number)
+- [Versions manager](versions-manager)
 - [VIN Checker](vin-checker)
 # W
 - [Wave Sorting](wave-sorting)
