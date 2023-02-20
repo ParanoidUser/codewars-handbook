@@ -335,6 +335,7 @@
 - [Odd or Even?](odd-or-even)
 - [Odd-Even String Sort](odd-even-string-sort)
 - [Ones and Zeros](ones-and-zeros)
+- [Ordered Count of Characters](ordered-count-of-characters)
 - [Ordering the words!](ordering-the-words)
 - [ORing arrays](oring-arrays)
 - [Over The Road](over-the-road-1)
