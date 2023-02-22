@@ -491,6 +491,7 @@
 - [Target Date](target-date)
 - [Ten Green Bottles](ten-green-bottles)
 - [Testing 1-2-3](testing-1-2-3)
+- [The 'spiraling' box](the-spiraling-box)
 - [The 12 Days of Christmas](the-12-days-of-christmas)
 - [The alphabet product](the-alphabet-product)
 - [The Culling of Stratholme](the-culling-of-stratholme)
