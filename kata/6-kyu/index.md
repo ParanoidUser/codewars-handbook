@@ -346,6 +346,7 @@
 - [Sum of Digits / Digital Root](sum-of-digits-slash-digital-root)
 - [Sum of prime-indexed elements](sum-of-prime-indexed-elements)
 - [Sum of Two Integers](sum-of-two-integers)
+- [Sum the nums, sum the sums and sum the nums up to that sum](sum-the-nums-sum-the-sums-and-sum-the-nums-up-to-that-sum)
 - [Sums of Parts](sums-of-parts)
 - [Surrounding Primes for a value](surrounding-primes-for-a-value)
 # T
