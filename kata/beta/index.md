@@ -37,6 +37,7 @@
 - [Letter to ASCII](letter-to-ascii)
 - [Lost number of arithmetic progression](lost-number-of-arithmetic-progression)
 # M
+- [Matrix Weight](matrix-weight)
 - [Max Consecutive Sum](max-consecutive-sum)
 - [Merging Phone Numbers](merging-phone-numbers)
 - [Mode Count](mode-count)
