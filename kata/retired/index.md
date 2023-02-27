@@ -1,4 +1,5 @@
 # \#
+- [2 + 2 * 2 problem](2-plus-2-star-2-problem)
 - [[UIB] Count the number of 'a' in a text that ends with '.'](uib-count-the-number-of-a-in-a-text-that-ends-with-dot)
 # A
 - [Addornot's message](addornots-message)
@@ -18,6 +19,7 @@
 # D
 - [Dubstep](dubstep)
 # F
+- [Find all pairs](find-all-pairs-1)
 - [Find next greater number with disjoint set of digits](find-next-greater-number-with-disjoint-set-of-digits)
 - [Find the GCF of Two Numbers](find-the-gcf-of-two-numbers)
 - [FIXME: String == String](fixme-string-equals-equals-string)
@@ -65,8 +67,10 @@
 - [Stop Donald Trump (2015)](stop-donald-trump-2015)
 - [String Product](string-product)
 - [String Task](string-task)
+- [Sudoku Solution Validator](sudoku-solution-validator)
 - [Sum and Count All Odds vs Evens](sum-and-count-all-odds-vs-evens)
 - [Sum of numbers](sum-of-numbers)
+- [Summy](summy)
 # T
 - [The number of digits of a power of 2](the-number-of-digits-of-a-power-of-2)
 - [Thinkful - Number Drills: Pixelart planning](thinkful-number-drills-pixelart-planning)

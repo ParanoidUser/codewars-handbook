@@ -7,6 +7,7 @@
 - [Containers](containers)
 - [Count IP Addresses](count-ip-addresses)
 # D
+- [Digits](digits)
 - [Directions Reduction](directions-reduction)
 # G
 - [Greed is Good](greed-is-good)
