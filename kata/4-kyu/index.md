@@ -15,7 +15,6 @@
 - [Snail](snail)
 - [So Many Permutations!](so-many-permutations)
 - [Strip Comments](strip-comments)
-- [Sudoku Solution Validator](sudoku-solution-validator)
 - [Sum of Intervals](sum-of-intervals)
 - [Sum Strings as Numbers](sum-strings-as-numbers)
 # T
