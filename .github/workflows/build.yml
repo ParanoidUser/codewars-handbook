@@ -2,10 +2,10 @@ name: Build CI
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ main ]
     tags: [ '[0-9]+.[0-9]+.[0-9]+' ]
   pull_request:
-    branches: [ develop ]
+    branches: [ main ]
     types: [ opened, reopened, synchronize ]
   workflow_dispatch:
     inputs:
@@ -123,7 +123,7 @@ jobs:
       - name: Analyze code quality
         uses: gradle/gradle-build-action@6095a76664413da4c8c134ee32e8a8ae900f0f1f
         env:
-          VERSION: 1.13.0
+          VERSION: 1.14.0
         with:
           gradle-home-cache-cleanup: true
           arguments: |
