@@ -3,11 +3,7 @@ package com.codewars.javatlacati.exceptions;
 import java.sql.SQLException;
 
 interface ExceptionsPuzzle {
-  static void callMe() {
-    doThrow(new SQLException());
-  }
-
-  static <E extends Throwable> void doThrow(Exception e) throws E {
-    throw (E) e;
+  static <E extends Exception> void callMe() throws E {
+    throw (E) new SQLException();
   }
 }
