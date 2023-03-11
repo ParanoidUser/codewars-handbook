@@ -2,11 +2,16 @@ name: Build CI
 
 on:
   push:
-    branches: [ main ]
     tags: [ '[0-9]+.[0-9]+.[0-9]+' ]
   pull_request:
     branches: [ main ]
     types: [ opened, reopened, synchronize ]
+    paths:
+      - .github/workflows/**
+      - gradle/**
+      - kata/**
+      - build.gradle.kts
+      - settings.gradle.kts
   workflow_dispatch:
     inputs:
       ref_name:
