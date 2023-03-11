@@ -1,0 +1,3 @@
+class Neo extends Exception {
+
+}
