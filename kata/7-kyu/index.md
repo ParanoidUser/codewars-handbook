@@ -340,6 +340,7 @@
 - [Over The Road](over-the-road-1)
 - [Overflowing with joy](overflowing-with-joy)
 # P
+- [Page replacement algorithms: FIFO](page-replacement-algorithms-fifo)
 - [Palindrome chain length](palindrome-chain-length)
 - [Pandemia 🌡️](pandemia)
 - [Parallel resistors](parallel-resistors)
