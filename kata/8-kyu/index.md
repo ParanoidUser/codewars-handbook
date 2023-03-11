@@ -200,6 +200,7 @@
 - [Triple Trouble](triple-trouble-2)
 - [Twice as old](twice-as-old)
 # U
+- [Unexpected parsing](unexpected-parsing)
 - [Unfinished Loop - Bug Fixing #1](unfinished-loop-bug-fixing-number-1)
 # V
 - [Volume of a Cuboid](volume-of-a-cuboid)
