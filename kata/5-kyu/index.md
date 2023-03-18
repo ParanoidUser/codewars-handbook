@@ -36,6 +36,8 @@
 - [Scramblies](scramblies)
 - [Simple Pig Latin](simple-pig-latin)
 - [String incrementer](string-incrementer)
+# T
+- [Tic-Tac-Toe Checker](tic-tac-toe-checker)
 # V
 - [Valid Parentheses](valid-parentheses)
 # W
