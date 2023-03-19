@@ -168,6 +168,7 @@
 - [Find the nth occurrence of a word in a string!](find-the-nth-occurrence-of-a-word-in-a-string)
 - [Find the Squares](find-the-squares)
 - [Find the stray number](find-the-stray-number)
+- [Finding queens on the board](finding-queens-on-the-board)
 - [Finding Remainder Without Using '%' Operator](finding-remainder-without-using-percent-operator)
 - [Fix string case](fix-string-case)
 - [FIXME: 1, 2, 3, 4](fixme-1-2-3-4)
