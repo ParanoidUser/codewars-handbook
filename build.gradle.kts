@@ -28,7 +28,7 @@ subprojects {
 
     dependencies {
         implementation("org.apache.commons:commons-lang3:3.12.0")
-        implementation("org.springframework.boot:spring-boot-starter-web:3.0.4")
+        implementation("org.springframework.boot:spring-boot-starter-web:3.0.5")
         compileOnly("org.projectlombok:lombok:1.18.26")
         annotationProcessor("org.projectlombok:lombok:1.18.26")
         testImplementation("org.mockito:mockito-inline:5.2.0")
