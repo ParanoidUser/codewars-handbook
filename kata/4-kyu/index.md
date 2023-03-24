@@ -12,6 +12,7 @@
 - [Next bigger number with the same digits](next-bigger-number-with-the-same-digits)
 # R
 - [Range Extraction](range-extraction)
+- [Recover a secret string from random triplets](recover-a-secret-string-from-random-triplets)
 - [Roman Numerals Helper](roman-numerals-helper)
 # S
 - [Snail](snail)
