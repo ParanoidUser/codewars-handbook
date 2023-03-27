@@ -17,6 +17,7 @@
 - [Human Readable Time](human-readable-time)
 # I
 - [Int32 to IPv4](int32-to-ipv4)
+- [Is the King in check ?](is-the-king-in-check)
 # L
 - [Last digit of a large number](last-digit-of-a-large-number)
 - [Let's Play Darts!](lets-play-darts)
