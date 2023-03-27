@@ -290,6 +290,7 @@
 - [Row of the odd triangle](row-of-the-odd-triangle)
 # S
 - [Salesman's Travel](salesmans-travel)
+- [Same matrix (2 * 2)](same-matrix-2-star-2)
 - [Separate The Wheat From The Chaff](separate-the-wheat-from-the-chaff)
 - [Sequences and Series](sequences-and-series)
 - [SHA-256](sha-256)
