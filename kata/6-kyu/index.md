@@ -304,6 +304,7 @@
 - [Simple Fun #116: Prime String](simple-fun-number-116-prime-string)
 - [Simple Fun #135: Missing Alphabets](simple-fun-number-135-missing-alphabets)
 - [Simple Fun #165: Withdraw](simple-fun-number-165-withdraw)
+- [Simple Fun #169: Press Button](simple-fun-number-169-press-button)
 - [Simple Fun #170: Sum Groups](simple-fun-number-170-sum-groups)
 - [Simple Fun #319: Number And IP Address](simple-fun-number-319-number-and-ip-address)
 - [Simple Fun #52: Pair Of Shoes](simple-fun-number-52-pair-of-shoes)
