@@ -210,6 +210,7 @@
 - [Merge in 2048](merge-in-2048)
 - [Message Validator](message-validator)
 - [Mexican Wave](mexican-wave)
+- [Millipede of words](millipede-of-words)
 - [Minutes to Midnight](minutes-to-midnight)
 - [Missing Alphabet](missing-alphabet)
 - [Moduli number system](moduli-number-system)
