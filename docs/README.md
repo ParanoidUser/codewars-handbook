@@ -22,6 +22,7 @@ on [the official platform](https://www.codewars.com) and verified against the or
 
 <ins>For quick access</ins>, use the index table or search the repository by kata URL, name, ID, or
 slug.
+
 | [1 kyu](/kata/1-kyu/index.md) | [2 kyu](/kata/2-kyu/index.md) | [3 kyu](/kata/3-kyu/index.md) | [4 kyu](/kata/4-kyu/index.md) | [5 kyu](/kata/5-kyu/index.md) | [6 kyu](/kata/6-kyu/index.md) | [7 kyu](/kata/7-kyu/index.md) | [8 kyu](/kata/8-kyu/index.md) | [beta](/kata/beta/index.md) | [retired](/kata/retired/index.md) |
 |:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:---------------------------:|:---------------------------------:|
 |               -               |               -               |               2               |              15               |              30               |              396              |              530              |              193              |             63              |                70                 |
