@@ -117,6 +117,7 @@
 # D
 - [Debug Sum of Digits of a Number](debug-sum-of-digits-of-a-number)
 - [Decimal decomposition](decimal-decomposition)
+- [Decimal Time Conversion](decimal-time-conversion)
 - [Decipher the Message](decipher-the-message)
 - [Delta Bits](delta-bits)
 - [Deodorant Evaporator](deodorant-evaporator)
