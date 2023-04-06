@@ -4,13 +4,13 @@ updates:
     directory: /
     schedule:
       interval: daily
-    milestone: 7
+    milestone: 8
     labels:
       - "chore"
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: daily
-    milestone: 7
+    milestone: 8
     labels:
       - "chore"
