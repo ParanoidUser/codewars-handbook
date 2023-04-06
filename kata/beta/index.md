@@ -19,7 +19,6 @@
 - [Count the likes](count-the-likes)
 - [Counting Characters](counting-characters)
 # D
-- [Decimal Time Conversion](decimal-time-conversion)
 - [Decoding a logic transmission](decoding-a-logic-transmission)
 - [Divisible by 9?](divisible-by-9)
 # F
