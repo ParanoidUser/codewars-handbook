@@ -78,6 +78,7 @@
 # U
 - [Unique Characters](unique-characters)
 # V
+- [Valid Parentheses](valid-parentheses)
 - [Vasya - Clerk](vasya-clerk)
 - [Vasya and Stairs](vasya-and-stairs)
 - [Vasya and System of Equations](vasya-and-system-of-equations)

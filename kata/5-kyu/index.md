@@ -40,7 +40,5 @@
 - [String incrementer](string-incrementer)
 # T
 - [Tic-Tac-Toe Checker](tic-tac-toe-checker)
-# V
-- [Valid Parentheses](valid-parentheses)
 # W
 - [Weight for weight](weight-for-weight)
