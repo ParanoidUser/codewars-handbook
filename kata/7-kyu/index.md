@@ -357,6 +357,7 @@
 - [Point in a unit circle](point-in-a-unit-circle)
 - [Pokerhand, straight or not?](pokerhand-straight-or-not)
 - [Possibilities Array](possibilities-array)
+- [Power of two](power-of-two)
 - [Powers of i](powers-of-i)
 - [Predict your age!](predict-your-age)
 - [Previous multiple of three](previous-multiple-of-three)
