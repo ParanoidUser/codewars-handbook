@@ -303,6 +303,7 @@
 - [Simple frequency sort](simple-frequency-sort)
 - [Simple Fun #116: Prime String](simple-fun-number-116-prime-string)
 - [Simple Fun #135: Missing Alphabets](simple-fun-number-135-missing-alphabets)
+- [Simple Fun #158: Not So Random](simple-fun-number-158-not-so-random)
 - [Simple Fun #165: Withdraw](simple-fun-number-165-withdraw)
 - [Simple Fun #169: Press Button](simple-fun-number-169-press-button)
 - [Simple Fun #170: Sum Groups](simple-fun-number-170-sum-groups)
