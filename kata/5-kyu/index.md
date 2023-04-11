@@ -1,6 +1,8 @@
 # A
 - [A Simple Music Encoder](a-simple-music-encoder)
 - [Airport Arrivals/Departures - #1](airport-arrivals-slash-departures-number-1)
+# B
+- [Best travel](best-travel)
 # C
 - [Calculate Fibonacci return count of digit occurrences](calculate-fibonacci-return-count-of-digit-occurrences)
 - [Common Denominators](common-denominators)
