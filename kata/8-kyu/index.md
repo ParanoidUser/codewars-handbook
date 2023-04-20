@@ -150,6 +150,7 @@
 - [Push a hash/an object into array](push-a-hash-slash-an-object-into-array)
 - [Pythagorean Triple](pythagorean-triple)
 # Q
+- [Quadrants](quadrants)
 - [Quarter of the year](quarter-of-the-year)
 # R
 - [Regexp Basics - is it a digit?](regexp-basics-is-it-a-digit)
