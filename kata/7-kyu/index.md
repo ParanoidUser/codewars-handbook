@@ -398,6 +398,7 @@
 - [Rotate for a Max](rotate-for-a-max)
 - [Round up to the next multiple of 5](round-up-to-the-next-multiple-of-5)
 - [Row Weights](row-weights)
+- [Running out of space](running-out-of-space)
 # S
 - [Santa's Naughty List](santas-naughty-list)
 - [Scaling Squared Strings](scaling-squared-strings)
