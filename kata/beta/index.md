@@ -26,6 +26,7 @@
 - [Filter Map Sort Practice](filter-map-sort-practice)
 - [Find Email Domain](find-email-domain)
 - [Find something in an Array](find-something-in-an-array)
+- [Find your caterer](find-your-caterer)
 - [Flip it](flip-it)
 - [Formatting decimal places #2](formatting-decimal-places-number-2)
 # H
