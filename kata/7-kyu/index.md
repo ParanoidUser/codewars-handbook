@@ -474,6 +474,7 @@
 - [Strong Number (Special Numbers Series #2)](strong-number-special-numbers-series-number-2)
 - [Subcuboids](subcuboids)
 - [Suitcase packing](suitcase-packing)
+- [Sum a list but ignore any duplicates](sum-a-list-but-ignore-any-duplicates)
 - [Sum Array with different bases](sum-array-with-different-bases)
 - [Sum of angles](sum-of-angles)
 - [Sum of array singles](sum-of-array-singles)
