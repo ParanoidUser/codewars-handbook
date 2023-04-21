@@ -113,6 +113,7 @@
 - [Ease the StockBroker](ease-the-stockbroker)
 - [Easy Balance Checking](easy-balance-checking)
 - [Easy Diagonal](easy-diagonal)
+- [Emotional Sort ( ︶︿︶)](emotional-sort-<)
 - [Encrypt this!](encrypt-this)
 - [English beggars](english-beggars)
 - [Enigeliisohe too Eniigeeliiisoohee Toroanisoliatooro](enigeliisohe-too-eniigeeliiisoohee-toroanisoliatooro)
