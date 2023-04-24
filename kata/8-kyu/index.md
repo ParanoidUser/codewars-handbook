@@ -10,7 +10,7 @@
 - [Abbreviate a Two Word Name](abbreviate-a-two-word-name)
 - [Age Range Compatibility Equation](age-range-compatibility-equation)
 - [All Star Code Challenge #18](all-star-code-challenge-number-18)
-- [AltERnaTIng cAsE <=> ALTerNAtiNG CaSe](alternating-case-equals-alternating-case)
+- [AltERnaTIng cAsE <=> ALTerNAtiNG CaSe](alternating-case-<-equals->-alternating-case)
 - [Are You Playing Banjo?](are-you-playing-banjo)
 - [Area of a Square](area-of-a-square)
 - [Area or Perimeter](area-or-perimeter)
@@ -50,6 +50,7 @@
 - [Counting sheep...](counting-sheep-dot-dot-dot)
 # D
 - [Determine offspring sex based on genes XX and XY chromosomes](determine-offspring-sex-based-on-genes-xx-and-xy-chromosomes)
+- [Did she say hallo?](did-she-say-hallo)
 - [Difference of Volumes of Cuboids](difference-of-volumes-of-cuboids)
 - [DNA to RNA Conversion](dna-to-rna-conversion)
 - [Do I get a bonus?](do-i-get-a-bonus)
