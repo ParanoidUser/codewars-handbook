@@ -112,6 +112,7 @@
 - [I love you, a little, a lot, passionately... not at all](i-love-you-a-little-a-lot-passionately-dot-dot-dot-not-at-all)
 - [If you can't sleep, just count sheep!!](if-you-cant-sleep-just-count-sheep)
 - [Invert values](invert-values)
+- [Is he gonna survive?](is-he-gonna-survive)
 - [Is it a number?](is-it-a-number)
 - [Is it even?](is-it-even)
 - [Is n divisible by x and y?](is-n-divisible-by-x-and-y)
