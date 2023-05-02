@@ -159,6 +159,7 @@
 - [Remove exclamation marks](remove-exclamation-marks)
 - [Remove First and Last Character](remove-first-and-last-character)
 - [Remove String Spaces](remove-string-spaces)
+- [Remove the time](remove-the-time)
 - [Removing Elements](removing-elements)
 - [Return Negative](return-negative)
 - [Return the day](return-the-day)
