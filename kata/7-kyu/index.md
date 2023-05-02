@@ -225,6 +225,7 @@
 - [Highest and Lowest](highest-and-lowest)
 - [Histogram - H1](histogram-h1)
 - [Histogram - H2](histogram-h2)
+- [Holiday III - Fire on the boat](holiday-iii-fire-on-the-boat)
 - [Holiday VII - Local Talk](holiday-vii-local-talk)
 - [How far will I go?](how-far-will-i-go)
 - [How Green Is My Valley?](how-green-is-my-valley)
