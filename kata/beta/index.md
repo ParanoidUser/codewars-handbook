@@ -26,7 +26,6 @@
 - [Filter Map Sort Practice](filter-map-sort-practice)
 - [Find Email Domain](find-email-domain)
 - [Find something in an Array](find-something-in-an-array)
-- [Find your caterer](find-your-caterer)
 - [Flip it](flip-it)
 - [Formatting decimal places #2](formatting-decimal-places-number-2)
 # H
@@ -37,7 +36,6 @@
 - [Letter to ASCII](letter-to-ascii)
 - [Lost number of arithmetic progression](lost-number-of-arithmetic-progression)
 # M
-- [Matrix Weight](matrix-weight)
 - [Max Consecutive Sum](max-consecutive-sum)
 - [Merging Phone Numbers](merging-phone-numbers)
 - [Mode Count](mode-count)
