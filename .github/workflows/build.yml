@@ -128,7 +128,7 @@ jobs:
       - name: Analyze code quality
         uses: gradle/gradle-build-action@749f47bda3e44aa060e82d7b3ef7e40d953bd629
         env:
-          VERSION: 1.15.0
+          VERSION: 1.16.0
         with:
           gradle-home-cache-cleanup: true
           arguments: |
