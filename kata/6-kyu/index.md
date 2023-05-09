@@ -208,6 +208,7 @@
 - [Make A Window](make-a-window)
 - [Make the Deadfish swim](make-the-deadfish-swim)
 - [Matrix Addition](matrix-addition)
+- [Maze Runner](maze-runner)
 - [Meeting](meeting)
 - [Merge in 2048](merge-in-2048)
 - [Message Validator](message-validator)
