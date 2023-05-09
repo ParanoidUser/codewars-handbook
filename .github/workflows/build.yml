@@ -12,6 +12,7 @@ on:
       - kata/**
       - build.gradle.kts
       - settings.gradle.kts
+      - gradle.properties
   workflow_dispatch:
     inputs:
       ref_name:
