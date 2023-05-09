@@ -85,6 +85,7 @@
 - [Convert integer to Whitespace format](convert-integer-to-whitespace-format)
 - [Convert ISBN-10 to ISBN-13](convert-isbn-10-to-isbn-13)
 - [Convert string to camel case](convert-string-to-camel-case)
+- [Count characters in your string](count-characters-in-your-string)
 - [Count the days!](count-the-days)
 - [Count the divisible numbers](count-the-divisible-numbers)
 - [Count the number of days between two dates](count-the-number-of-days-between-two-dates)
