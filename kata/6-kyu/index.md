@@ -250,6 +250,7 @@
 - [Peel the onion](peel-the-onion)
 - [Pentabonacci](pentabonacci)
 - [Persistent Bugger](persistent-bugger)
+- [PhoneWords](phonewords-1)
 - [PI approximation](pi-approximation)
 - [Piano Kata, Part 1](piano-kata-part-1)
 - [Piano Kata, Part 2](piano-kata-part-2)
