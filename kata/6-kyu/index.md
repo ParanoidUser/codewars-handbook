@@ -133,6 +133,7 @@
 - [Fat Fingers](fat-fingers)
 - [Feed Kahumolings!](feed-kahumolings)
 - [Feynman's square question](feynmans-square-question)
+- [Fibonacci Rabbits](fibonacci-rabbits)
 - [Fibonacci, Tribonacci and friends](fibonacci-tribonacci-and-friends)
 - [Figurate Numbers #1 - Pentagonal Number](figurate-numbers-number-1-pentagonal-number)
 - [Financing Plan on Planet XY140Z-n](financing-plan-on-planet-xy140z-n)
