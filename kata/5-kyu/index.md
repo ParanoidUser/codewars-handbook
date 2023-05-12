@@ -5,6 +5,7 @@
 - [Best travel](best-travel)
 # C
 - [Calculate Fibonacci return count of digit occurrences](calculate-fibonacci-return-count-of-digit-occurrences)
+- [Can you get the loop ?](can-you-get-the-loop)
 - [Common Denominators](common-denominators)
 - [Containers](containers)
 - [Count IP Addresses](count-ip-addresses)
