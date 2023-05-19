@@ -270,6 +270,7 @@
 - [Largest pair sum in array](largest-pair-sum-in-array)
 - [Last](last)
 - [Last Survivor](last-survivor)
+- [Latin Squares](latin-squares)
 - [Laxative Shot Roulette](laxative-shot-roulette)
 - [Length and two values](length-and-two-values)
 - [Letterbox Paint-Squad](letterbox-paint-squad)
