@@ -360,6 +360,7 @@
 - [Paul's Misery](pauls-misery)
 - [Perpendicular lines](perpendicular-lines-1)
 - [Pizza Payments](pizza-payments)
+- [Playing Cards Draw Order – Part 1](playing-cards-draw-order-part-1)
 - [Plus - minus - plus - plus - ... - Count](plus-minus-plus-plus-dot-dot-dot-count)
 - [Point in a unit circle](point-in-a-unit-circle)
 - [Pokerhand, straight or not?](pokerhand-straight-or-not)
