@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Fetch Dependabot metadata
         id: dependabot-metadata
-        uses: dependabot/fetch-metadata@efb5c8deb113433243b6b08de1aa879d5aa01cf7
+        uses: dependabot/fetch-metadata@28a846a1194a2665a2eea75dd4556c91e43af857
 
       - name: Enable auto-merge for minor updates
         if: ${{ steps.dependabot-metadata.outputs.update-type != 'version-update:semver-major' }}
