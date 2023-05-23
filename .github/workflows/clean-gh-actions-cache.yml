@@ -1,6 +1,8 @@
 name: Clean-up cache after PR merge
 
 on:
+  pull_request_review:
+    types: [ submitted ]
   pull_request:
     types: [ closed ]
 
