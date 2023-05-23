@@ -484,6 +484,7 @@
 - [Suitcase packing](suitcase-packing)
 - [Sum a list but ignore any duplicates](sum-a-list-but-ignore-any-duplicates)
 - [Sum Array with different bases](sum-array-with-different-bases)
+- [Sum of a sequence](sum-of-a-sequence)
 - [Sum of angles](sum-of-angles)
 - [Sum of array singles](sum-of-array-singles)
 - [Sum of Cubes](sum-of-cubes)
