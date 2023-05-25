@@ -20,6 +20,7 @@
 - [Basic subclasses - Adam and Eve](basic-subclasses-adam-and-eve)
 - [Basic variable assignment](basic-variable-assignment)
 - [Be Concise I - The Ternary Operator](be-concise-i-the-ternary-operator)
+- [Be Concise IV - Index of an element in an array](be-concise-iv-index-of-an-element-in-an-array)
 - [Beginner - Lost Without a Map](beginner-lost-without-a-map)
 - [Beginner - Reduce but Grow](beginner-reduce-but-grow)
 - [Beginner Series #1 School Paperwork](beginner-series-number-1-school-paperwork)
