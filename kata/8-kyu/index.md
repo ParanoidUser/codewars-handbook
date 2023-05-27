@@ -146,6 +146,7 @@
 - [Opposites Attract](opposites-attract)
 # P
 - [Parse nice int from char problem](parse-nice-int-from-char-problem)
+- [Pillars](pillars)
 - [Playing with cubes I](playing-with-cubes-i)
 - [Plural](plural)
 - [Points of Reflection](points-of-reflection)
