@@ -33,6 +33,7 @@
 # P
 - [PaginationHelper](paginationhelper)
 - [Perimeter of squares in a rectangle](perimeter-of-squares-in-a-rectangle)
+- [Pick peaks](pick-peaks)
 - [Primes in numbers](primes-in-numbers)
 - [Product of consecutive Fib numbers](product-of-consecutive-fib-numbers)
 # R
