@@ -394,6 +394,7 @@
 - [TV Remote (shift and space)](tv-remote-shift-and-space)
 - [TV Remote (wrap)](tv-remote-wrap)
 - [Two cube sums](two-cube-sums)
+- [Two Sets of Equal Sum](two-sets-of-equal-sum)
 - [Two Sum](two-sum)
 # U
 - [Unique Substring From Joined Strings](unique-substring-from-joined-strings)
