@@ -11,7 +11,9 @@ class SolutionTest {
     assertEquals(List.of(8, 5, 4, 1), groups.get(0));
     assertEquals(List.of(7, 6, 3, 2), groups.get(1));
 
-    assertEquals(List.of(List.of(), List.of()), CreateTwoSetsOfEqualSum.createTwoSetsOfEqualSum(1));
-    assertEquals(List.of(List.of(), List.of()), CreateTwoSetsOfEqualSum.createTwoSetsOfEqualSum(9));
+    var empty = List.of(List.of(), List.of());
+    assertEquals(empty, CreateTwoSetsOfEqualSum.createTwoSetsOfEqualSum(1));
+    assertEquals(empty, CreateTwoSetsOfEqualSum.createTwoSetsOfEqualSum(2));
+    assertEquals(empty, CreateTwoSetsOfEqualSum.createTwoSetsOfEqualSum(9));
   }
 }
