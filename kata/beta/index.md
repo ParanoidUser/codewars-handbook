@@ -1,7 +1,5 @@
 # \#
 - [02. Sum of array's elements](02-sum-of-arrays-elements)
-# A
-- [Ancestors Blowfish - play with bits](ancestors-blowfish-play-with-bits)
 # B
 - [Bad Collection?](bad-collection)
 - [BAD Hash - String to String](bad-hash-string-to-string)
@@ -23,7 +21,6 @@
 - [Divisible by 9?](divisible-by-9)
 # F
 - [Fibonacci Number](fibonacci-number-1)
-- [Filter Map Sort Practice](filter-map-sort-practice)
 - [Find Email Domain](find-email-domain)
 - [Find something in an Array](find-something-in-an-array)
 - [Flip it](flip-it)

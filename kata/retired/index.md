@@ -3,6 +3,7 @@
 - [[UIB] Count the number of 'a' in a text that ends with '.'](uib-count-the-number-of-a-in-a-text-that-ends-with-dot)
 # A
 - [Addornot's message](addornots-message)
+- [Ancestors Blowfish - play with bits](ancestors-blowfish-play-with-bits)
 - [Array to ArrayList](array-to-arraylist)
 # B
 - [Bobby Builds a PC](bobby-builds-a-pc)
@@ -19,6 +20,7 @@
 # D
 - [Dubstep](dubstep)
 # F
+- [Filter Map Sort Practice](filter-map-sort-practice)
 - [Find all pairs](find-all-pairs-1)
 - [Find next greater number with disjoint set of digits](find-next-greater-number-with-disjoint-set-of-digits)
 - [Find the GCF of Two Numbers](find-the-gcf-of-two-numbers)
