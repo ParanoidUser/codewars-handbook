@@ -3,6 +3,7 @@ name: Build CI
 on:
   push:
     tags: [ '[0-9]+.[0-9]+.[0-9]+' ]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
     types: [ opened, reopened, synchronize ]
