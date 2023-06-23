@@ -34,7 +34,7 @@ subprojects {
         testImplementation("org.mockito:mockito-inline:5.2.0")
         testImplementation("org.junit.jupiter:junit-jupiter:5.9.3")
         testImplementation("org.awaitility:awaitility:4.2.0")
-        testImplementation("org.springframework.boot:spring-boot-starter-test:3.1.0")
+        testImplementation("org.springframework.boot:spring-boot-starter-test:3.1.1")
     }
 
     tasks {
