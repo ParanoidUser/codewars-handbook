@@ -19,6 +19,7 @@
 # S
 - [Snail](snail)
 - [So Many Permutations!](so-many-permutations)
+- [Strings Mix](strings-mix)
 - [Strip Comments](strip-comments)
 - [Sum of Intervals](sum-of-intervals)
 - [Sum Strings as Numbers](sum-strings-as-numbers)
