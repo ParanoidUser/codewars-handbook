@@ -7,6 +7,11 @@ updates:
     milestone: 10
     labels:
       - "chore"
+    groups:
+      spring:
+        patterns:
+          - "org.springframework.boot:spring-boot-starter-web"
+          - "org.springframework.boot:spring-boot-starter-test"
   - package-ecosystem: github-actions
     directory: /
     schedule:
