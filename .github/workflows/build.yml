@@ -71,7 +71,7 @@ jobs:
           cache: gradle
 
       - name: Test project
-        uses: gradle/gradle-build-action@8e02c8272aba4650563824b7012f8a86158901c6
+        uses: gradle/gradle-build-action@40b6781dcdec2762ad36556682ac74e31030cfe2
         with:
           gradle-home-cache-cleanup: true
           arguments: |
@@ -128,7 +128,7 @@ jobs:
           cache: gradle
 
       - name: Analyze code quality
-        uses: gradle/gradle-build-action@8e02c8272aba4650563824b7012f8a86158901c6
+        uses: gradle/gradle-build-action@40b6781dcdec2762ad36556682ac74e31030cfe2
         env:
           VERSION: 1.17.0
         with:
