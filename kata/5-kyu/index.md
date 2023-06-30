@@ -15,6 +15,7 @@
 # F
 - [Fibonacci Streaming](fibonacci-streaming)
 # G
+- [Gap in Primes](gap-in-primes)
 - [Greed is Good](greed-is-good)
 # H
 - [Human Readable Time](human-readable-time)
