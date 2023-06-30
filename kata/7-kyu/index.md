@@ -272,6 +272,7 @@
 - [Last Survivor](last-survivor)
 - [Latin Squares](latin-squares)
 - [Laxative Shot Roulette](laxative-shot-roulette)
+- [Leap Years](leap-years)
 - [Length and two values](length-and-two-values)
 - [Letterbox Paint-Squad](letterbox-paint-squad)
 - [Linked Lists - Append](linked-lists-append)
