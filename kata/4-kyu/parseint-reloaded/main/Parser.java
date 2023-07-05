@@ -16,7 +16,7 @@ interface Parser {
     for (int i = 0; i < chunks.length; i++) {
       switch (chunks[i]) {
         case "thousand" -> number *= 1000;
-        case "hundred" -> number *= 100 * terms.get(chunks[i - 1]) - terms.get(chunks[i - 1]);
+        case "hundred" -> number += 100 * terms.get(chunks[i - 1]) - terms.get(chunks[i - 1]);
         default -> number += terms.get(chunks[i]);
       }
     }
