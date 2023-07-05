@@ -12,6 +12,8 @@
 - [Most frequently used words in a text](most-frequently-used-words-in-a-text)
 # N
 - [Next bigger number with the same digits](next-bigger-number-with-the-same-digits)
+# P
+- [ParseInt() reloaded](parseint-reloaded)
 # R
 - [Range Extraction](range-extraction)
 - [Recover a secret string from random triplets](recover-a-secret-string-from-random-triplets)
