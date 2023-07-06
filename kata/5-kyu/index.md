@@ -23,6 +23,8 @@
 - [Int32 to IPv4](int32-to-ipv4)
 - [Integers: Recreation One](integers-recreation-one)
 - [Is the King in check ?](is-the-king-in-check)
+# J
+- [Josephus Permutation](josephus-permutation)
 # L
 - [Last digit of a large number](last-digit-of-a-large-number)
 - [Let's Play Darts!](lets-play-darts)
