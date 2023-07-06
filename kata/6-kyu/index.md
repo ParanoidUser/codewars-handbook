@@ -196,6 +196,8 @@
 - [Java Code Golf: Large Factorials](java-code-golf-large-factorials)
 - [Java format Unicode encoder/decoder](java-format-unicode-encoder-slash-decoder)
 - [Jurassic Word](jurassic-word)
+# K
+- [Killer Garage Door](killer-garage-door)
 # L
 - [L3375p34k](l3375p34k)
 - [Last Survivors Ep.2](last-survivors-ep-dot-2)
