@@ -252,6 +252,7 @@
 - [Password Maker](password-maker-1)
 - [Paths in the Grid](paths-in-the-grid)
 - [Peel the onion](peel-the-onion)
+- [Pell Numbers](pell-numbers)
 - [Pentabonacci](pentabonacci)
 - [Persistent Bugger](persistent-bugger)
 - [PhoneWords](phonewords-1)
