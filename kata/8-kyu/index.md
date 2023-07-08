@@ -138,7 +138,7 @@
 - [Multiply](multiply)
 - [My head is at the wrong end!](my-head-is-at-the-wrong-end)
 # N
-- [N-th Power](n-th-power)
+- [Never visit a . . . !?](never-visit-a)
 - [No zeros for heroes](no-zeros-for-heros)
 # O
 - [OOP: Object Oriented Piracy](oop-object-oriented-piracy)
@@ -184,7 +184,6 @@
 - [String repeat](string-repeat)
 - [String Templates - Bug Fixing #5](string-templates-bug-fixing-number-5)
 - [Stringy Strings](stringy-strings)
-- [Subtract the Sum](subtract-the-sum)
 - [Sum Arrays](sum-arrays)
 - [Sum Mixed Array](sum-mixed-array)
 - [Sum of differences in array](sum-of-differences-in-array)

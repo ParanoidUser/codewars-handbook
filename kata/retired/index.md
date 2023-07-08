@@ -6,6 +6,7 @@
 - [Ancestors Blowfish - play with bits](ancestors-blowfish-play-with-bits)
 - [Array to ArrayList](array-to-arraylist)
 # B
+- [Base Factorial Converter](base-factorial-converter)
 - [Bobby Builds a PC](bobby-builds-a-pc)
 # C
 - [Calculator](calculator)
@@ -45,6 +46,7 @@
 # M
 - [Multiline String Maker](multiline-string-maker)
 # N
+- [N-th Power](n-th-power)
 - [Number + reverse number = n](number-plus-reverse-number-equals-n)
 - [Number toString](number-tostring)
 # O
@@ -81,6 +83,7 @@
 - [Unique Characters](unique-characters)
 # V
 - [Valid Parentheses](valid-parentheses)
+- [Vampire Numbers](vampire-numbers-2)
 - [Vasya - Clerk](vasya-clerk)
 - [Vasya and Stairs](vasya-and-stairs)
 - [Vasya and System of Equations](vasya-and-system-of-equations)
