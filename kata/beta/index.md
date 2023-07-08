@@ -3,7 +3,6 @@
 # B
 - [Bad Collection?](bad-collection)
 - [BAD Hash - String to String](bad-hash-string-to-string)
-- [Base Factorial Converter](base-factorial-converter)
 - [Basic Arabic-To-Roman Numerals (1 to 999)](basic-arabic-to-roman-numerals-1-to-999)
 - [Beginner friendly: remove the letter o](beginner-friendly-remove-the-letter-o)
 - [Brackets Checker](brackets-checker)
@@ -65,7 +64,6 @@
 - [Tinder for Programmers](tinder-for-programmers)
 - [Tug-o'-War](tug-o-war)
 # V
-- [Vampire Numbers](vampire-numbers-2)
 - [Very Simple Inheritance for Beginners](very-simple-inheritance-for-beginners)
 # W
 - [Weton](weton)
