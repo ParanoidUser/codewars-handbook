@@ -148,6 +148,3 @@ jobs:
             -Dsonar.exclusions=kata/retired/**
             -Dsonar.scm.disabled=true
             -Dsonar.qualitygate.wait=true
-
-      - name: Print Gradle BOM
-        run: cat /home/runner/work/codewars-handbook/codewars-handbook/dependency-graph-reports/build_ci-scan.json
