@@ -150,4 +150,4 @@ jobs:
             -Dsonar.qualitygate.wait=true
 
       - name: Print Gradle BOM
-        run: echo /home/runner/work/codewars-handbook/codewars-handbook/dependency-graph-reports/build_ci-scan.json
+        run: cat /home/runner/work/codewars-handbook/codewars-handbook/dependency-graph-reports/build_ci-scan.json
