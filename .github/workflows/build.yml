@@ -129,7 +129,7 @@ jobs:
           java-version: 17
           cache: gradle
 
-      - name: Analyze code quality
+      - name: Analyze code quality & submit dependency graph
         uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25
         env:
           VERSION: 1.17.0
@@ -148,3 +148,6 @@ jobs:
             -Dsonar.exclusions=kata/retired/**
             -Dsonar.scm.disabled=true
             -Dsonar.qualitygate.wait=true
+
+      - name: Print Gradle BOM
+        run: echo /home/runner/work/codewars-handbook/codewars-handbook/dependency-graph-reports/build_ci-scan.json
