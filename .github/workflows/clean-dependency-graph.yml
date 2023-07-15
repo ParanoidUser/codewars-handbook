@@ -1,8 +1,9 @@
 name: 'Clear dependency graph for a correlator'
 
-inputs:
-  job-correlator:
-    required: true
+workflow_dispatch:
+  inputs:
+    job-correlator:
+      description: Job correlator
 
 runs:
   using: "composite"
