@@ -135,7 +135,8 @@ jobs:
           VERSION: 1.17.0
         with:
           gradle-home-cache-cleanup: true
-          dependency-graph: generate-and-submit
+          # https://github.com/gradle/gradle-build-action/issues/791
+          # dependency-graph: generate-and-submit
           arguments: |
             sonar -x compileJava -x compileTestJava
             --no-daemon
