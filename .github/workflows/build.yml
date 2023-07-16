@@ -160,7 +160,6 @@ jobs:
             -Dsonar.host.url=https://sonarcloud.io
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
             -Dsonar.organization=${{ secrets.SONAR_KEY }}
-            -Dsonar.branch.name=${{ github.event.inputs.ref_name || github.REF_NAME}}
             -Dsonar.pullrequest.branch=${{ github.HEAD_REF }}
             -Dsonar.pullrequest.base=${{ github.BASE_REF }}
             -Dsonar.pullrequest.key=${{ github.event.number }}
