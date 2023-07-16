@@ -99,9 +99,9 @@ jobs:
   scan:
     needs: test
     runs-on: ubuntu-22.04
-    permissions:
-      contents: write
     timeout-minutes: 10
+    env:
+      VERSION: 1.18.0
     steps:
       - name: Checkout repository (default ref)
         if: ${{ github.event.inputs.ref_name == '' }}
@@ -129,10 +129,9 @@ jobs:
           java-version: 17
           cache: gradle
 
-      - name: Analyze code quality & submit dependency graph
+      - name: Analyze code quality (main)
+        if: startsWith(github.event_name, 'pull_request') == false
         uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25
-        env:
-          VERSION: 1.18.0
         with:
           gradle-home-cache-cleanup: true
           # https://github.com/gradle/gradle-build-action/issues/791
@@ -147,5 +146,23 @@ jobs:
             -Dsonar.organization=${{ secrets.SONAR_KEY }}
             -Dsonar.branch.name=${{ github.event.inputs.ref_name || github.REF_NAME}}
             -Dsonar.exclusions=kata/retired/**
-            -Dsonar.scm.disabled=true
+            -Dsonar.qualitygate.wait=true
+
+      - name: Analyze code quality (PR)
+        if: startsWith(github.event_name, 'pull_request')
+        uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25
+        with:
+          arguments: |
+            sonar -x compileJava -x compileTestJava
+            --no-daemon
+            --scan
+            -Pversion=${{ format('{0}+{1}', env.VERSION, github.RUN_NUMBER) }}
+            -Dsonar.host.url=https://sonarcloud.io
+            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+            -Dsonar.organization=${{ secrets.SONAR_KEY }}
+            -Dsonar.branch.name=${{ github.event.inputs.ref_name || github.REF_NAME}}
+            -Dsonar.pullrequest.branch=${{ github.HEAD_REF }}
+            -Dsonar.pullrequest.base=${{ github.BASE_REF }}
+            -Dsonar.pullrequest.key=${{ github.event.number }}
+            -Dsonar.exclusions=kata/retired/**
             -Dsonar.qualitygate.wait=true
