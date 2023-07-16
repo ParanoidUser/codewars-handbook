@@ -106,6 +106,8 @@ jobs:
       - name: Checkout repository (default ref)
         if: ${{ github.event.inputs.ref_name == '' }}
         uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9
+        with:
+          fetch-depth: 0
 
       - name: Checkout repository (custom ref)
         if: ${{ github.event.inputs.ref_name != '' }}
