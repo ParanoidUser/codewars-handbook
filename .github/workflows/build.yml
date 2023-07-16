@@ -132,7 +132,7 @@ jobs:
       - name: Analyze code quality & submit dependency graph
         uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25
         env:
-          VERSION: 1.17.0
+          VERSION: 1.18.0
         with:
           gradle-home-cache-cleanup: true
           # https://github.com/gradle/gradle-build-action/issues/791
