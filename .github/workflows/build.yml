@@ -100,6 +100,8 @@ jobs:
     needs: test
     runs-on: ubuntu-22.04
     timeout-minutes: 10
+    permissions:
+      contents: write
     env:
       VERSION: 1.18.0
     steps:
@@ -136,8 +138,7 @@ jobs:
         uses: gradle/gradle-build-action@915a66c096a03101667f9df2e56c9efef558b165
         with:
           gradle-home-cache-cleanup: true
-          # https://github.com/gradle/gradle-build-action/issues/791
-          # dependency-graph: generate-and-submit
+          dependency-graph: generate-and-submit
           arguments: |
             sonar -x compileJava -x compileTestJava
             --no-daemon
