@@ -3,11 +3,11 @@ import kotlin.math.roundToInt
 
 rootProject.name = "codewars-handbook"
 val projectDepth = 3 // kata/<rank>/<problem>/
-var excludeFilter = "${File.pathSeparator}retired${File.pathSeparator}"
+var excludeFilter = "${File.separator}retired${File.separator}"
 val kata = File(rootDir, "kata").walk()
-    .filter { it.isDirectory && excludeFilter !in it.path && it.toPath().nameCount == rootDir.toPath().nameCount + projectDepth }
-    .sortedBy { it.name }
-    .toList()
+        .filter { it.isDirectory && excludeFilter !in it.path && it.toPath().nameCount == rootDir.toPath().nameCount + projectDepth }
+        .sortedBy { it.name }
+        .toList()
 
 val forkCount: Int = Integer.getInteger("forkCount", 1)
 val forkSid: Int = Integer.getInteger("forkSid", 1)
