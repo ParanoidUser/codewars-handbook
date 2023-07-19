@@ -18,7 +18,8 @@ val from: Int = (length * (forkSid - 1)).roundToInt()
 val to: Int = (length * forkSid).roundToInt()
 logger.info("($forkSid/$forkCount) ${to - from} projects out of ${kata.size} in range=[$from,$to]")
 
-kata.subList(from, to).forEach {
+println("Total: ${kata.size}")
+kata.subList(from, to).onEach { println(it) }.forEach {
     include(it.name)
     project(":${it.name}").projectDir = it
 }
