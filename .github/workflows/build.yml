@@ -77,7 +77,6 @@ jobs:
           arguments: |
             test jacocoTestReport -x processResources -x processTestResources
             --parallel
-            --build-cache
             --no-daemon
             --scan
             -DforkCount=${{ needs.fork.outputs.job_count }}
