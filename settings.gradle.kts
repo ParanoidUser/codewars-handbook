@@ -4,7 +4,7 @@ import kotlin.math.roundToInt
 rootProject.name = "codewars-handbook"
 val projectDepth = 3 // kata/<rank>/<problem>/
 val kata = File(rootDir, "kata").walk()
-    .filter { it.isDirectory && it.toPath().nameCount == rootDir.toPath().nameCount + projectDepth }
+    .filter { it.isDirectory && "\\retired\\" !in it.path && it.toPath().nameCount == rootDir.toPath().nameCount + projectDepth }
     .sortedBy { it.name }
     .toList()
 
