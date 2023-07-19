@@ -3,8 +3,9 @@ import kotlin.math.roundToInt
 
 rootProject.name = "codewars-handbook"
 val projectDepth = 3 // kata/<rank>/<problem>/
+var excludeFilter = "${File.pathSeparator}retired${File.pathSeparator}"
 val kata = File(rootDir, "kata").walk()
-    .filter { it.isDirectory && "\\retired\\" !in it.path && it.toPath().nameCount == rootDir.toPath().nameCount + projectDepth }
+    .filter { it.isDirectory && excludeFilter !in it.path && it.toPath().nameCount == rootDir.toPath().nameCount + projectDepth }
     .sortedBy { it.name }
     .toList()
 
@@ -18,8 +19,7 @@ val from: Int = (length * (forkSid - 1)).roundToInt()
 val to: Int = (length * forkSid).roundToInt()
 logger.info("($forkSid/$forkCount) ${to - from} projects out of ${kata.size} in range=[$from,$to]")
 
-println("Total: ${kata.size}")
-kata.subList(from, to).onEach { println(it) }.forEach {
+kata.subList(from, to).forEach {
     include(it.name)
     project(":${it.name}").projectDir = it
 }
