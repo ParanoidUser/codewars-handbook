@@ -148,7 +148,6 @@ jobs:
             -Dsonar.token=${{ secrets.SONAR_TOKEN }}
             -Dsonar.organization=${{ secrets.SONAR_KEY }}
             -Dsonar.branch.name=${{ github.event.inputs.ref_name || github.REF_NAME}}
-            -Dsonar.exclusions=kata/retired/**
             -Dsonar.qualitygate.wait=true
 
       - name: Analyze code quality (PR)
@@ -166,5 +165,4 @@ jobs:
             -Dsonar.pullrequest.branch=${{ github.HEAD_REF }}
             -Dsonar.pullrequest.base=${{ github.BASE_REF }}
             -Dsonar.pullrequest.key=${{ github.event.number }}
-            -Dsonar.exclusions=kata/retired/**
             -Dsonar.qualitygate.wait=true
