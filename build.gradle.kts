@@ -27,7 +27,7 @@ subprojects {
     }
 
     dependencies {
-        implementation("org.apache.commons:commons-lang3:3.12.0")
+        implementation("org.apache.commons:commons-lang3:3.13.0")
         compileOnly("org.projectlombok:lombok:1.18.28")
         annotationProcessor("org.projectlombok:lombok:1.18.28")
         testImplementation("org.mockito:mockito-inline:5.2.0")
