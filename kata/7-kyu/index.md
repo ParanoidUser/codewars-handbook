@@ -535,6 +535,7 @@
 - [Trigrams](trigrams)
 - [TV Remote](tv-remote)
 - [Two fighters, one winner](two-fighters-one-winner)
+- [Two numbers are positive](two-numbers-are-positive)
 - [Two to One](two-to-one)
 # U
 - [Uglify Word](uglify-word)
