@@ -178,6 +178,7 @@
 - [FIXME: Hours to Seconds](fixme-hours-to-seconds)
 - [FIXME: Let's split this joint](fixme-lets-split-this-joint)
 - [FIXME: Run, Runner!](fixme-run-runner)
+- [Fizz / Buzz](fizz-slash-buzz)
 - [Fizz Buzz Cuckoo Clock](fizz-buzz-cuckoo-clock)
 - [Flatten and sort an array](flatten-and-sort-an-array)
 - [Floating-point Approximation (III)](floating-point-approximation-iii)
