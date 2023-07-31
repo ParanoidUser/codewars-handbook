@@ -162,6 +162,7 @@
 - [Find Count of Most Frequent Item in an Array](find-count-of-most-frequent-item-in-an-array)
 - [Find Fibonacci last digit](find-fibonacci-last-digit)
 - [Find Max Tree Node](find-max-tree-node)
+- [Find min and max](find-min-and-max)
 - [Find Screen Size](find-screen-size)
 - [Find sum of top-left to bottom-right diagonals](find-sum-of-top-left-to-bottom-right-diagonals)
 - [Find the index of the second occurrence of a letter in a string](find-the-index-of-the-second-occurrence-of-a-letter-in-a-string)
