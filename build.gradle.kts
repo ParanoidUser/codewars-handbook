@@ -1,7 +1,7 @@
 plugins {
     java
     jacoco
-    id("org.sonarqube") version "4.3.0.3225"
+    alias(libs.plugins.sonarqube)
 }
 
 subprojects {
@@ -27,12 +27,12 @@ subprojects {
     }
 
     dependencies {
-        implementation("org.apache.commons:commons-lang3:3.13.0")
-        compileOnly("org.projectlombok:lombok:1.18.28")
-        annotationProcessor("org.projectlombok:lombok:1.18.28")
-        testImplementation("org.mockito:mockito-inline:5.2.0")
-        testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
-        testImplementation("org.awaitility:awaitility:4.2.0")
+        implementation(rootProject.libs.commons.lang3)
+        compileOnly(rootProject.libs.lombok)
+        annotationProcessor(rootProject.libs.lombok)
+        testImplementation(rootProject.libs.mockito.inline)
+        testImplementation(rootProject.libs.junit.jupiter)
+        testImplementation(rootProject.libs.awaitility)
     }
 
     tasks {

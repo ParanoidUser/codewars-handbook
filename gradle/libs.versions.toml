@@ -1,0 +1,17 @@
+[versions]
+commons-lang3 = "3.13.0"
+lombok = "1.18.28"
+mockito = "5.2.0"
+junit = "5.10.0"
+awaitility = "4.2.0"
+sonarqube = "4.3.0.3225"
+
+[libraries]
+commons-lang3 = { group = "org.apache.commons", name = "commons-lang3", version.ref = "commons-lang3" }
+lombok = { group = "org.projectlombok", name = "lombok", version.ref = "lombok" }
+mockito-inline = { group = "org.mockito", name = "mockito-inline", version.ref = "mockito" }
+junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.ref = "junit" }
+awaitility = { group = "org.awaitility", name = "awaitility", version.ref = "awaitility" }
+
+[plugins]
+sonarqube = { id = "org.sonarqube", version.ref = "sonarqube" }
