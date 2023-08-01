@@ -14,6 +14,7 @@
 - [Directions Reduction](directions-reduction)
 # F
 - [Fibonacci Streaming](fibonacci-streaming)
+- [First Variation on Caesar Cipher](first-variation-on-caesar-cipher)
 # G
 - [Gap in Primes](gap-in-primes)
 - [Greed is Good](greed-is-good)
