@@ -19,8 +19,8 @@ class SolutionTest {
     server.start();
     client.start();
     try {
-      server.join();
-      client.join();
+      server.join(100);
+      client.join(100);
     } catch (InterruptedException e) {
       throw new RuntimeException(e);
     }
