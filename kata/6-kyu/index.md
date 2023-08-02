@@ -332,6 +332,7 @@
 - [Simpson's Rule - Approximate Integration](simpsons-rule-approximate-integration)
 - [Single character palindromes](single-character-palindromes)
 - [Single Word Pig Latin](single-word-pig-latin)
+- [Snakes & Ladders](snakes-and-ladders)
 - [Some Fun with Aggregate Operations (Part 1)](some-fun-with-aggregate-operations-part-1)
 - [Some Fun with Aggregate Operations (Part 2)](some-fun-with-aggregate-operations-part-2)
 - [Some Fun with Aggregate Operations (Part 3)](some-fun-with-aggregate-operations-part-3)
