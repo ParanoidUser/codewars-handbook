@@ -41,7 +41,7 @@ class VisitorStatisticsTest {
     }
     latch.countDown();
     for (Thread thread : threads) {
-      thread.join();
+      thread.join(100);
     }
     assertEquals(threads.length, visitorStatistics.totalVisits());
     assertEquals(threads.length, visitorStatistics.visitsBy(name));
