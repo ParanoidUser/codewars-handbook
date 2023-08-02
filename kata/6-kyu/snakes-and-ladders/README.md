@@ -82,6 +82,3 @@ Board: [0, 0, 3, 0, 0, 0, 0, -2, 0, 0, <span style="color:red">0</span>]
 <hr>
 
 You are on the final square so the game ends. Return ```10```
-
-
-
