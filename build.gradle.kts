@@ -32,6 +32,7 @@ subprojects {
         annotationProcessor(rootProject.libs.lombok)
         testImplementation(rootProject.libs.mockito.inline)
         testImplementation(rootProject.libs.junit.jupiter)
+        testRuntimeOnly(rootProject.libs.junit.platform.launcher)
         testImplementation(rootProject.libs.awaitility)
     }
 
