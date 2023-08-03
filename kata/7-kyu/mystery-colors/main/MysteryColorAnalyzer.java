@@ -1,6 +1,6 @@
 import java.util.List;
 
-public interface MysteryColorAnalyzer {
+interface MysteryColorAnalyzer {
   /**
    * This method will determine how many distinct colors are in the given list
    *
