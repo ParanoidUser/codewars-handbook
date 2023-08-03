@@ -12,10 +12,10 @@ Given a point in a [Euclidean plane](https://en.wikipedia.org/wiki/Euclidean_pla
 (19, -56)  => 4
 ```
 # Reference
-<center>
+<div style="text-align: center;">
 <img style="background:white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Cartesian_coordinates_2D.svg/300px-Cartesian_coordinates_2D.svg.png" title="Quadrants">
 <i>Quadrants</i>
-</center>
+</div>
 
 There are four quadrants:
 1. First quadrant, the quadrant in the top-right, contains all points with positive X and Y
