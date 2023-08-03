@@ -12,4 +12,4 @@ Kata.evalLikes(new String[] {"THIS", "IS", "LIKE", "TERRIBLE"}) // ==> true;
 Kata.evalLikes(new String[] {"likely", "story"}) // ==> false;
 ```
 
-Your solution must be case-insensitive but you do not need to worry about punctuation (the device you have been fitted with automatically filters this out).
+Your solution must be case-insensitive, but you do not need to worry about punctuation (the device you have been fitted with automatically filters this out).

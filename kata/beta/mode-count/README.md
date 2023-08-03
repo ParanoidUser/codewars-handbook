@@ -2,7 +2,7 @@
 
 In statistic is known the term mode. The mode of a set of data values is the value that appears most often. For example suppose the set of data values are {1,2,2,3}. There are three number inside the data set: 1, 2, and 3. Number 1 appears once, 2 appears twice, and 3 appears once. That mean number 2 appears most often so the mode is 2.
 
-Sometime we can find that the most often more than one number here the example
+Sometimes we can find that the most often more than one number here the example
 ```
 Data set    = {2,2,2,3,3,3,4,5,6}
 Mode result = {2,3}

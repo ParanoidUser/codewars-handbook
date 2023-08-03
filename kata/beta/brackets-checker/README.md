@@ -2,11 +2,11 @@
 
 The greatest enemy of all programmers is ";".
 Very often we forgot about this symbol.
-Also we can forgot about closing brackets (If we don't use IDE that closes brackets for us).
+Also, we can forget about closing brackets (If we don't use IDE that closes brackets for us).
 
-Task: to make a method wich will checks if the brackets "(","{","[" have a couple ")","}","].
+Task: to make a method which will check if the brackets "(","{","[" have a couple ")","}","]".
 
-For example: "(hello evrybody)" -> true;
+For example: "(hello everybody)" -> true;
 
 "} - bracket" -> false;
 

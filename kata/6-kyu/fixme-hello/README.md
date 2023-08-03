@@ -22,4 +22,4 @@ When the same attribute is assigned multiple times the `hello` method shows it o
 * `Hello. My name is Batman.`
 
 ## Task
-Fix the code so we can all go home early.
+Fix the code, so we can all go home early.
