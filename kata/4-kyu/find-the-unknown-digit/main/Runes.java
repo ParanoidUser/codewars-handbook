@@ -12,11 +12,6 @@ interface Runes {
     int n1 = Integer.parseInt(exp.substring(0, exp.indexOf(op, 1)));
     int n2 = Integer.parseInt(exp.substring(exp.indexOf(op, 1) + 1, exp.indexOf('=')));
     int n3 = Integer.parseInt(exp.substring(exp.indexOf('=') + 1));
-    return switch (op) {
-      case '+' -> n1 + n2 == n3;
-      case '-' -> n1 - n2 == n3;
-      case '*' -> n1 * n2 == n3;
-      default -> false;
-    };
+    return (op == '*' ? n1 * n2 : n1 + (op == '+' ? n2 : -n2)) == n3;
   }
 }
