@@ -27,3 +27,4 @@
 - [Sum Strings as Numbers](sum-strings-as-numbers)
 # T
 - [The observed PIN](the-observed-pin)
+- [Twice linear](twice-linear)
