@@ -31,7 +31,7 @@ Take the characters in that order, and place them back in so that you can read t
 
 The diagonals run from bottom left to top right.
 
-The first diagonal starts at element[0][0].
+The first diagonal starts at `element[0][0]`.
 
 
 ## Note: 
