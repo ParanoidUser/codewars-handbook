@@ -9,7 +9,7 @@ interface Kata {
         low = !low;
       }
       var key = keymap[Character.toUpperCase(c) - ' '];
-      keys.append(keys.length() > 0 && keys.charAt(keys.length() - 1) == key.charAt(0) ? " " : "").append(key);
+      keys.append(!keys.isEmpty() && keys.charAt(keys.length() - 1) == key.charAt(0) ? " " : "").append(key);
     }
     return keys.toString();
   }
