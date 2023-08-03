@@ -4,6 +4,8 @@
 - [Connect Four](connect-four-1)
 # E
 - [Escaping The Matrix](escaping-the-matrix)
+# F
+- [Find the unknown digit](find-the-unknown-digit)
 # H
 - [Human readable duration format](human-readable-duration-format)
 # L
