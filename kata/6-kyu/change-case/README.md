@@ -1,6 +1,6 @@
 # [Change case](https://www.codewars.com/kata/change-case "https://www.codewars.com/kata/591cac98a6007e87d900013a")
 
-In a word document, there is a button called Change case in Home tab where you can change the capitalization or case of selected text in a document.
+In a Word document, there is a button called Change case in Home tab where you can change the capitalization or case of selected text in a document.
 
 ## Task
 

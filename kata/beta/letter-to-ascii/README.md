@@ -2,7 +2,7 @@
 
 This kata is very simple. 
 
-You will be given a character and you will convert it to its corresponding number.
+You will be given a character, and you will convert it to its corresponding number.
 
 Ex. 'a' = 97
 
