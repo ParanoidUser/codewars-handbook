@@ -10,7 +10,7 @@ interface Pyramid {
           .append(" ".repeat(i))
           .append('\n');
     }
-    return side.length() > 0 ? side.deleteCharAt(side.length() - 1).toString() : characters;
+    return !side.isEmpty() ? side.deleteCharAt(side.length() - 1).toString() : characters;
   }
 
   static String watchPyramidFromAbove(String characters) {
@@ -37,7 +37,7 @@ interface Pyramid {
       }
       above.append("\n");
     }
-    return above.length() > 0 ? above.deleteCharAt(above.length() - 1).toString() : characters;
+    return !above.isEmpty() ? above.deleteCharAt(above.length() - 1).toString() : characters;
   }
 
   static int countVisibleCharactersOfThePyramid(String characters) {

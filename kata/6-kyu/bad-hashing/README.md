@@ -10,7 +10,7 @@ The hashing standard works as follows on a string:
 * Convert every character to its ascii code
 * Lexicographically sort the list by its value  descending (don't worry about stability)
 * Add the index of the value to the ascii code.
-  e.g the first value, 0 is added, second value 1, and so on
+  e.g. the first value, 0 is added, second value 1, and so on
 * Take modulo 16 of each value
 * Change each value into a hexadecimal value 0-F
 * Return the string in uppercase

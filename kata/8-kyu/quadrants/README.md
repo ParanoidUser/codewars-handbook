@@ -1,7 +1,7 @@
 # [Quadrants](https://www.codewars.com/kata/quadrants "https://www.codewars.com/kata/643af0fa9fa6c406b47c5399")
 
 # Task
-Given a point in a [Euclidean plane](//en.wikipedia.org/wiki/Euclidean_plane) (`x` and `y`), return the quadrant the point exists in: `1`, `2`, `3` or `4` (integer). `x` and `y` are non-zero integers, therefore the given point never lies on the axes.
+Given a point in a [Euclidean plane](https://en.wikipedia.org/wiki/Euclidean_plane) (`x` and `y`), return the quadrant the point exists in: `1`, `2`, `3` or `4` (integer). `x` and `y` are non-zero integers, therefore the given point never lies on the axes.
 
 # Examples
 ```
@@ -12,10 +12,10 @@ Given a point in a [Euclidean plane](//en.wikipedia.org/wiki/Euclidean_plane) (`
 (19, -56)  => 4
 ```
 # Reference
-<center>
+<div style="text-align: center;">
 <img style="background:white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Cartesian_coordinates_2D.svg/300px-Cartesian_coordinates_2D.svg.png" title="Quadrants">
 <i>Quadrants</i>
-</center>
+</div>
 
 There are four quadrants:
 1. First quadrant, the quadrant in the top-right, contains all points with positive X and Y

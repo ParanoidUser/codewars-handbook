@@ -28,7 +28,7 @@ In this first example, there is only one cat, so your function should return Tru
  "------------",
  "------------"], 10
 ```
-In this second example, Mustache Cat is at the point yard[1][3] and Raoul is at the point yard[4][7] -- a distance of 5, so because the distance between these two points is smaller than the specified minimum distance of 6, there will be trouble, and your function should return False. 
+In this second example, Mustache Cat is at the point `yard[1][3]` and Raoul is at the point `yard[4][7]` -- a distance of 5, so because the distance between these two points is smaller than the specified minimum distance of 6, there will be trouble, and your function should return False. 
 ```
 ["------------",
  "---M--------",
@@ -37,7 +37,7 @@ In this second example, Mustache Cat is at the point yard[1][3] and Raoul is at 
  "-------R----",
  "------------"], 6
 ```
-In this third example, Lou is at yard[0][11], Raoul is at yard[1][2], and Mustache Cat at yard[5][2]. The distance between Lou and Raoul is 9.05538513814, the distance between Raoul and Mustache Cat is 4, and the distance between Mustache Cat and Lou is 10.295630141 -- all greater than or equal to the specified minimum distance of 4, so the three cats will nap peacefully, and your function should return True.
+In this third example, Lou is at `yard[0][11]`, Raoul is at `yard[1][2]`, and Mustache Cat at `yard[5][2]`. The distance between Lou and Raoul is 9.05538513814, the distance between Raoul and Mustache Cat is 4, and the distance between Mustache Cat and Lou is 10.295630141 -- all greater than or equal to the specified minimum distance of 4, so the three cats will nap peacefully, and your function should return True.
 ```
 ["-----------L",
  "--R---------",

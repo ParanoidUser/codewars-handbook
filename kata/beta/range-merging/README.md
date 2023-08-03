@@ -4,7 +4,7 @@
 *range*: an integer range denoted by [a, b], with a and b both included.
   
 **Challenge**  
-Given a **list/array** of even length, whose each pair of number is representing a range, return a sorted list of ranges in the same format, with all overlapping or contiguous ranges **merged**.
+Given a **list/array** of even length, where each pair of number is representing a range, return a sorted list of ranges in the same format, with all overlapping or contiguous ranges **merged**.
 
 **Examples**  
 

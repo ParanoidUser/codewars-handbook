@@ -9,7 +9,7 @@ A grille cipher was a technique for encrypting a plaintext by writing it onto a 
 ## Task
 
 Write a function that accepts two inputs: `message` and `code` and returns hidden message decrypted from `message` using the `code`.   
-The `code` is a nonnegative integer and it decrypts in binary the `message`. 
+The `code` is a nonnegative integer, and it decrypts in binary the `message`. 
 
 ```
 grille("abcdef", 5)  => "df"
