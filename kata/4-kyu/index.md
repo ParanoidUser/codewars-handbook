@@ -11,6 +11,7 @@
 # L
 - [Last digits of N^2 == N](last-digits-of-n-2-equals-equals-n)
 # M
+- [Matrix Determinant](matrix-determinant)
 - [Most frequently used words in a text](most-frequently-used-words-in-a-text)
 # N
 - [Next bigger number with the same digits](next-bigger-number-with-the-same-digits)
