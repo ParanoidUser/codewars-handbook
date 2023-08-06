@@ -53,3 +53,4 @@
 - [Tic-Tac-Toe Checker](tic-tac-toe-checker)
 # W
 - [Weight for weight](weight-for-weight)
+- [What's a Perfect Power anyway?](whats-a-perfect-power-anyway)
