@@ -17,6 +17,7 @@
 - [Next bigger number with the same digits](next-bigger-number-with-the-same-digits)
 # P
 - [ParseInt() reloaded](parseint-reloaded)
+- [Pyramid Slide Down](pyramid-slide-down)
 # R
 - [Range Extraction](range-extraction)
 - [Recover a secret string from random triplets](recover-a-secret-string-from-random-triplets)
