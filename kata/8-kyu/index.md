@@ -70,6 +70,7 @@
 - [Fake Binary](fake-binary)
 - [Filtering even numbers (Bug Fixes)](filtering-even-numbers-bug-fixes)
 - [Find Maximum and Minimum Values of a List](find-maximum-and-minimum-values-of-a-list)
+- [Find Multiples of a Number](find-multiples-of-a-number)
 - [Find Nearest square number](find-nearest-square-number)
 - [Find numbers which are divisible by given number](find-numbers-which-are-divisible-by-given-number)
 - [Find the first non-consecutive number](find-the-first-non-consecutive-number)
