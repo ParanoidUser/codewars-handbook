@@ -27,6 +27,7 @@
 # J
 - [Josephus Permutation](josephus-permutation)
 # L
+- [Land perimeter](land-perimeter)
 - [Last digit of a large number](last-digit-of-a-large-number)
 - [Let's Play Darts!](lets-play-darts)
 # M
