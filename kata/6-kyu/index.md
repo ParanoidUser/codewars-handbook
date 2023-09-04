@@ -153,6 +153,7 @@
 - [FIXME: Hello](fixme-hello)
 - [FLAMES Game version 1](flames-game-version-1)
 - [Floating-point Approximation (I)](floating-point-approximation-i)
+- [Floating-point Approximation (II)](floating-point-approximation-ii)
 - [Fold an array](fold-an-array)
 - [Follow that Spy](follow-that-spy)
 - [Format words into a sentence](format-words-into-a-sentence)
