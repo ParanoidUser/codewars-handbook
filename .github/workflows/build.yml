@@ -52,10 +52,10 @@ jobs:
     steps:
       - name: Checkout repository (default ref)
         if: ${{ github.event.inputs.ref_name == '' }}
-        uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac
+        uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608
 
       - name: Checkout repository (custom ref)
-        uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac
+        uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608
         if: ${{ github.event.inputs.ref_name != '' }}
         with:
           ref: ${{ github.event.inputs.ref_name }}
@@ -64,7 +64,7 @@ jobs:
         run: sed -i 's/-all.zip/-bin.zip/' gradle/wrapper/gradle-wrapper.properties
 
       - name: Setup Java
-        uses: actions/setup-java@cd89f46ac9d01407894225f350157564c9c7cee2
+        uses: actions/setup-java@0ab4596768b603586c0de567f2430c30f5b0d2b0
         with:
           distribution: temurin
           java-version: 17
@@ -107,13 +107,13 @@ jobs:
     steps:
       - name: Checkout repository (default ref)
         if: ${{ github.event.inputs.ref_name == '' }}
-        uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac
+        uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608
         with:
           fetch-depth: 0
 
       - name: Checkout repository (custom ref)
         if: ${{ github.event.inputs.ref_name != '' }}
-        uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac
+        uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608
         with:
           ref: ${{ github.event.inputs.ref_name }}
 
@@ -127,7 +127,7 @@ jobs:
         run: sed -i 's/-all.zip/-bin.zip/' gradle/wrapper/gradle-wrapper.properties
 
       - name: Setup Java
-        uses: actions/setup-java@cd89f46ac9d01407894225f350157564c9c7cee2
+        uses: actions/setup-java@0ab4596768b603586c0de567f2430c30f5b0d2b0
         with:
           distribution: temurin
           java-version: 17
