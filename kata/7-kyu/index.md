@@ -82,6 +82,7 @@
 - [Circle cipher](circle-cipher)
 - [Circular List](circular-list)
 - [Closest to Zero](closest-to-zero)
+- [Closing in Sum](closing-in-sum)
 - [Codewars Leaderboard Climber](codewars-leaderboard-climber)
 - [Cogs](cogs)
 - [Cogs 2](cogs-2)
