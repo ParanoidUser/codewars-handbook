@@ -1,9 +1,19 @@
-import static java.util.stream.IntStream.range;
-
 interface LandPerimiter {
   static String landPerimeter(String[] arr) {
-    return "Total land perimeter: " + range(0, arr.length).flatMap(i -> range(0, arr[i].length()).map(
-      j -> i > 0 && arr[i - 1].charAt(j) == 'X' && j > 0 && arr[i].charAt(j - 1) == 'X' || arr[i].charAt(j) == 'O' ? 0 :
-           i > 0 && arr[i - 1].charAt(j) == 'X' ? 2 : j > 0 && arr[i].charAt(j - 1) == 'X' ? 2 : 4)).sum();
+    int perimeter = 0;
+    for (int i = 0; i < arr.length; i++) {
+      for (int j = 0; j < arr[i].length(); j++) {
+        if (arr[i].charAt(j) == 'X') {
+          perimeter += 4;
+          if (j > 0 && arr[i].charAt(j - 1) == 'X') {
+            perimeter -= 2;
+          }
+          if (i > 0 && arr[i].charAt(j) == arr[i - 1].charAt(j)) {
+            perimeter -= 2;
+          }
+        }
+      }
+    }
+    return "Total land perimeter: " + perimeter;
   }
 }
