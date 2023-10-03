@@ -96,6 +96,7 @@
 - [Complete The Pattern #4](complete-the-pattern-number-4)
 - [Composing squared strings](composing-squared-strings)
 - [CompoundArray](compoundarray)
+- [Computer problem series #1: Fill the Hard Disk Drive](computer-problem-series-number-1-fill-the-hard-disk-drive)
 - [Conference Traveller](conference-traveller)
 - [Consecutive Digits To Form Sum](consecutive-digits-to-form-sum)
 - [Consecutive letters](consecutive-letters)
