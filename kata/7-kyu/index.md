@@ -189,6 +189,7 @@
 - [Formatting decimal places #1](formatting-decimal-places-number-1)
 - [Four/Seven](four-slash-seven)
 - [Friends](friends)
+- [From A to Z](from-a-to-z)
 - [Fun with lists: anyMatch + allMatch](fun-with-lists-anymatch-plus-allmatch)
 - [Fun with lists: indexOf](fun-with-lists-indexof)
 - [Fun with lists: lastIndexOf](fun-with-lists-lastindexof)
