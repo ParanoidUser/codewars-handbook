@@ -25,7 +25,7 @@ kata.subList(from, to).forEach {
 }
 
 plugins {
-    id("com.gradle.enterprise") version "3.15"
+    id("com.gradle.enterprise") version "3.15.1"
 }
 
 gradleEnterprise {
