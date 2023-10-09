@@ -377,6 +377,7 @@
 - [Previous multiple of three](previous-multiple-of-three)
 - [Principal Diagonal VS Secondary Diagonal](principal-diagonal-vs-secondary-diagonal)
 - [Printer Errors](printer-errors)
+- [Prison Break](prison-break-1)
 - [Product Array (Array Series #5)](product-array-array-series-number-5)
 - [Product Of Maximums Of Array (Array Series #2)](product-of-maximums-of-array-array-series-number-2)
 # Q
