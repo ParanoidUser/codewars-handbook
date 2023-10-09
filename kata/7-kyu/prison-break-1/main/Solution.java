@@ -1,11 +1,11 @@
 interface Solution {
   static int freedPrisoners(Boolean[] prison) {
-    if (!prison[0]) {
+    if (Boolean.FALSE.equals(prison[0])) {
       return 0;
     }
     int prisoners = 0;
     for (Boolean cell : prison) {
-      if (cell == prison[0]) {
+      if (cell.equals(prison[0])) {
         prisoners++;
         prison[0] = !prison[0];
       }
