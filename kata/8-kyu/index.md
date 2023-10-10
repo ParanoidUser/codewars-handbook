@@ -211,6 +211,7 @@
 # U
 - [Unexpected parsing](unexpected-parsing)
 - [Unfinished Loop - Bug Fixing #1](unfinished-loop-bug-fixing-number-1)
+- [Up and down, the string grows](up-and-down-the-string-grows)
 # V
 - [Volume of a Cuboid](volume-of-a-cuboid)
 - [Vowel remover](vowel-remover)
