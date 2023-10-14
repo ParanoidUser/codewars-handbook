@@ -34,6 +34,7 @@
 - [Century From Year](century-from-year)
 - [Circles in Polygons](circles-in-polygons)
 - [Classic Hello World](classic-hello-world)
+- [Collatz Conjecture (3n+1)](collatz-conjecture-3n-plus-1)
 - [Color Ghost](color-ghost)
 - [Compare within margin](compare-within-margin)
 - [Convert a Boolean to a String](convert-a-boolean-to-a-string)
