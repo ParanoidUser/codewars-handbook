@@ -88,6 +88,7 @@
 # G
 - [Get character from ASCII value](get-character-from-ascii-value)
 - [Get Nth Even Number](get-nth-even-number)
+- [Get Planet Name By ID](get-planet-name-by-id)
 - [Get the mean of an array](get-the-mean-of-an-array)
 - [Ghost code?!](ghost-code)
 - [Grasshopper - Array Mean](grasshopper-array-mean)
