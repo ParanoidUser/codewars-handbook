@@ -138,6 +138,7 @@
 - [Dot Calculator](dot-calculator)
 - [Double Every Other](double-every-other)
 - [Double Sort](double-sort)
+- [Double Trouble](double-trouble)
 - [Double value every next call](double-value-every-next-call)
 - [Driving Licence](driving-licence)
 - [Driving School Series #2](driving-school-series-number-2)
