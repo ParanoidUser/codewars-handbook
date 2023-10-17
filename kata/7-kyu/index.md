@@ -387,6 +387,7 @@
 - [Recursion 101](recursion-101)
 - [Red Knight](red-knight)
 - [Redacted!](redacted)
+- [Reduce My Fraction](reduce-my-fraction)
 - [Regex validate PIN code](regex-validate-pin-code)
 - [Regex validation of 24 hours time.](regex-validation-of-24-hours-time)
 - [Regexp Basics - is it a eight bit signed number?](regexp-basics-is-it-a-eight-bit-signed-number)
