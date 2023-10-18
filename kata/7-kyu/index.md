@@ -510,6 +510,7 @@
 - [Survive the attack](survive-the-attack)
 - [Suzuki needs help lining up his students!](suzuki-needs-help-lining-up-his-students)
 - [Swap pairs in Array](swap-pairs-in-array)
+- [Swapping Cards](swapping-cards)
 - [Switcheroo](switcheroo)
 # T
 - [Target Date](target-date)
