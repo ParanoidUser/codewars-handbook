@@ -43,6 +43,7 @@
 - [Parenthesis validator](parenthesis-validator)
 - [Perimeter of a Rectangle](perimeter-of-a-rectangle)
 - [Phase Transitions](phase-transitions)
+- [Player's Score Class](players-score-class)
 - [Primary Primes](primary-primes)
 # R
 - [Random Wallpaper](random-wallpaper)
