@@ -58,6 +58,7 @@
 - [Bits Battle](bits-battle)
 - [Breaking chocolate problem](breaking-chocolate-problem)
 - [Broken sequence](broken-sequence)
+- [Bubblesort Once](bubblesort-once)
 - [Build a square](build-a-square)
 - [Building blocks](building-blocks)
 - [Bulls and Cows](bulls-and-cows)
