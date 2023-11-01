@@ -103,7 +103,7 @@ jobs:
     permissions:
       contents: write
     env:
-      VERSION: 1.19.0
+      VERSION: 1.20.0
     steps:
       - name: Checkout repository (default ref)
         if: ${{ github.event.inputs.ref_name == '' }}
