@@ -2,7 +2,6 @@
 - [02. Sum of array's elements](02-sum-of-arrays-elements)
 # B
 - [Bad Collection?](bad-collection)
-- [BAD Hash - String to String](bad-hash-string-to-string)
 - [Basic Arabic-To-Roman Numerals (1 to 999)](basic-arabic-to-roman-numerals-1-to-999)
 - [Beginner friendly: remove the letter o](beginner-friendly-remove-the-letter-o)
 - [Brackets Checker](brackets-checker)
@@ -34,7 +33,6 @@
 # M
 - [Max Consecutive Sum](max-consecutive-sum)
 - [Merging Phone Numbers](merging-phone-numbers)
-- [Mode Count](mode-count)
 # O
 - [Only UNChecked Exceptions](only-unchecked-exceptions)
 # P
@@ -43,7 +41,6 @@
 - [Parenthesis validator](parenthesis-validator)
 - [Perimeter of a Rectangle](perimeter-of-a-rectangle)
 - [Phase Transitions](phase-transitions)
-- [Player's Score Class](players-score-class)
 - [Primary Primes](primary-primes)
 # R
 - [Random Wallpaper](random-wallpaper)
