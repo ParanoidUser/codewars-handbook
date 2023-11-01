@@ -6,6 +6,7 @@
 - [Ancestors Blowfish - play with bits](ancestors-blowfish-play-with-bits)
 - [Array to ArrayList](array-to-arraylist)
 # B
+- [BAD Hash - String to String](bad-hash-string-to-string)
 - [Base Factorial Converter](base-factorial-converter)
 - [Bobby Builds a PC](bobby-builds-a-pc)
 # C
@@ -44,6 +45,7 @@
 - [List:Find Total Numbers](list-find-total-numbers)
 - [Load value from system variable](load-value-from-system-variable)
 # M
+- [Mode Count](mode-count)
 - [Multiline String Maker](multiline-string-maker)
 # N
 - [N-th Power](n-th-power)
@@ -52,6 +54,7 @@
 # O
 - [Open a weak chest.](open-a-weak-chest)
 # P
+- [Player's Score Class](players-score-class)
 - [Playing with Streams: Sum](playing-with-streams-sum)
 - [Points in Segments](points-in-segments)
 - [Positive & Negative Regex](positive-and-negative-regex)
