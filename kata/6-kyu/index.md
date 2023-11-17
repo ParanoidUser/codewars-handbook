@@ -214,6 +214,7 @@
 - [Make A Window](make-a-window)
 - [Make the Deadfish swim](make-the-deadfish-swim)
 - [Matrix Addition](matrix-addition)
+- [Matrix Multiplier](matrix-multiplier)
 - [Maze Runner](maze-runner)
 - [Meeting](meeting)
 - [Merge in 2048](merge-in-2048)
