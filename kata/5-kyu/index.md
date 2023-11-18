@@ -23,6 +23,7 @@
 # I
 - [Int32 to IPv4](int32-to-ipv4)
 - [Integers: Recreation One](integers-recreation-one)
+- [Is my friend cheating?](is-my-friend-cheating)
 - [Is the King in check ?](is-the-king-in-check)
 # J
 - [Josephus Permutation](josephus-permutation)
