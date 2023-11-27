@@ -1,6 +1,7 @@
 # A
 - [Adding Big Numbers](adding-big-numbers)
 # C
+- [Codewars style ranking system](codewars-style-ranking-system)
 - [Connect Four](connect-four-1)
 # E
 - [Escaping The Matrix](escaping-the-matrix)
