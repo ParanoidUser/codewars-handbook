@@ -56,6 +56,6 @@ class UserTest {
   @ParameterizedTest
   @ValueSource(ints = {-9, 0, 9})
   void negative(int activity) {
-    assertThrows(IllegalArgumentException.class, () -> new User().incProgress(activity));
+    assertThrows(IllegalArgumentException.class, () -> local.incProgress(activity));
   }
 }
