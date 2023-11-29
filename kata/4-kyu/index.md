@@ -28,6 +28,7 @@
 - [So Many Permutations!](so-many-permutations)
 - [Strings Mix](strings-mix)
 - [Strip Comments](strip-comments)
+- [Sum by Factors](sum-by-factors)
 - [Sum of Intervals](sum-of-intervals)
 - [Sum Strings as Numbers](sum-strings-as-numbers)
 # T
