@@ -9,8 +9,8 @@ interface MorseCodeDecoder {
   }
 
   static String decodeBits(String bits) {
-    int min = stream((bits = bits.replaceAll("(^0*)|(0+$)", "")).split("(?<=0)(?=1)|(?<=1)(?=0)"))
-        .mapToInt(String::length).min().orElseThrow();
+    bits = bits.replaceAll("(^0+)|(0+$)", "");
+    int min = stream(bits.split("(?<=0)(?=1)|(?<=1)(?=0)")).mapToInt(String::length).min().orElseThrow();
     return bits.replace("00000".repeat(min), "   ")
         .replace("000".repeat(min), " ")
         .replace("111".repeat(min), "-")
