@@ -4,6 +4,8 @@
 - [Catching Car Mileage Numbers](catching-car-mileage-numbers)
 - [Codewars style ranking system](codewars-style-ranking-system)
 - [Connect Four](connect-four-1)
+# D
+- [Decode the Morse code, advanced](decode-the-morse-code-advanced)
 # E
 - [Escaping The Matrix](escaping-the-matrix)
 # F
