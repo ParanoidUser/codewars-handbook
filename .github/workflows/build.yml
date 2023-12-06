@@ -135,11 +135,6 @@ jobs:
           java-version: 17
           cache: gradle
 
-      - name: List envs
-        run: |
-          pwd
-          env
-
       - name: Analyze code quality (main)
         if: startsWith(github.event_name, 'pull_request') == false
         uses: gradle/gradle-build-action@87a9a15658c426a54dd469d4fc7dc1a73ca9d4a6
@@ -149,7 +144,6 @@ jobs:
           arguments: |
             sonar -x compileJava -x compileTestJava
             --no-daemon
-            --warning-mode all
             --scan
             -Pversion=${{ format('{0}+{1}', env.VERSION, github.RUN_NUMBER) }}
             -Dsonar.host.url=https://sonarcloud.io
@@ -158,7 +152,7 @@ jobs:
             -Dsonar.branch.name=${{ github.event.inputs.ref_name || github.REF_NAME}}
             -Dsonar.qualitygate.wait=true
             -Dsonar.gradle.skipCompile=true
-            -Dsonar.gradle.project.root=.
+            -Dsonar.gradle.project.root=${{ github.WORKSPACE }}
 
       - name: Analyze code quality (PR)
         if: startsWith(github.event_name, 'pull_request')
@@ -167,7 +161,6 @@ jobs:
           arguments: |
             sonar -x compileJava -x compileTestJava
             --no-daemon
-            --warning-mode all
             --scan
             -Pversion=${{ format('{0}+{1}', env.VERSION, github.RUN_NUMBER) }}
             -Dsonar.host.url=https://sonarcloud.io
@@ -179,4 +172,4 @@ jobs:
             -Dsonar.pullrequest.key=${{ github.event.number }}
             -Dsonar.qualitygate.wait=true
             -Dsonar.gradle.skipCompile=true
-            -Dsonar.gradle.project.root=.
+            -Dsonar.gradle.project.root=${{ github.WORKSPACE }}
