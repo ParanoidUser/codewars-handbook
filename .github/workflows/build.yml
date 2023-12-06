@@ -79,7 +79,6 @@ jobs:
             --parallel
             --build-cache
             --no-daemon
-            --warning-mode all
             --scan
             -DforkCount=${{ needs.fork.outputs.job_count }}
             -DforkSid=${{ matrix.job_sid }}
@@ -152,7 +151,6 @@ jobs:
             -Dsonar.branch.name=${{ github.event.inputs.ref_name || github.REF_NAME}}
             -Dsonar.qualitygate.wait=true
             -Dsonar.gradle.skipCompile=true
-            -Dsonar.gradle.project.root=${{ github.WORKSPACE }}
 
       - name: Analyze code quality (PR)
         if: startsWith(github.event_name, 'pull_request')
@@ -172,4 +170,3 @@ jobs:
             -Dsonar.pullrequest.key=${{ github.event.number }}
             -Dsonar.qualitygate.wait=true
             -Dsonar.gradle.skipCompile=true
-            -Dsonar.gradle.project.root=${{ github.WORKSPACE }}
