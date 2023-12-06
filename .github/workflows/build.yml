@@ -75,7 +75,7 @@ jobs:
         with:
           gradle-home-cache-cleanup: true
           arguments: |
-            test jacocoTestReport -x processResources -x processTestResources
+            test jacocoTestReport -x processResources -x processTestResources -x sonar
             --parallel
             --build-cache
             --no-daemon
@@ -149,6 +149,7 @@ jobs:
             -Dsonar.organization=${{ secrets.SONAR_KEY }}
             -Dsonar.branch.name=${{ github.event.inputs.ref_name || github.REF_NAME}}
             -Dsonar.qualitygate.wait=true
+            -Dsonar.gradle.skipCompile=true
 
       - name: Analyze code quality (PR)
         if: startsWith(github.event_name, 'pull_request')
@@ -167,3 +168,4 @@ jobs:
             -Dsonar.pullrequest.base=${{ github.BASE_REF }}
             -Dsonar.pullrequest.key=${{ github.event.number }}
             -Dsonar.qualitygate.wait=true
+            -Dsonar.gradle.skipCompile=true
