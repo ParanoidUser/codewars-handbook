@@ -38,6 +38,8 @@
 # N
 - [Not very secure](not-very-secure)
 - [Number of trailing zeros of N!](number-of-trailing-zeros-of-n)
+# O
+- [One-Semicolon Fibonacci Stream](one-semicolon-fibonacci-stream)
 # P
 - [PaginationHelper](paginationhelper)
 - [Perimeter of squares in a rectangle](perimeter-of-squares-in-a-rectangle)
