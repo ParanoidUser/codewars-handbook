@@ -128,7 +128,7 @@
 - [Everybody hates Mondays](everybody-hates-mondays)
 - [Evil Autocorrect Prank](evil-autocorrect-prank)
 - [Experimenting with a sequence of complex numbers](experimenting-with-a-sequence-of-complex-numbers)
-- [Extract file name](extract-file-name)
+- [Extract portion of file name](extract-portion-of-file-name)
 # F
 - [Factors of triangle numbers](factors-of-triangle-numbers)
 - [Fat Fingers](fat-fingers)

@@ -383,7 +383,7 @@
 - [Prison Break](prison-break-1)
 - [Product Array (Array Series #5)](product-array-array-series-number-5)
 - [Product Of Maximums Of Array (Array Series #2)](product-of-maximums-of-array-array-series-number-2)
-- [Product of the main diagonal of a square matrix.](product-of-the-main-diagonal-of-a-square-matrix)
+- [Product of the main diagonal of a square matrix](product-of-the-main-diagonal-of-a-square-matrix)
 # Q
 - [Quicksum](quicksum)
 # R
