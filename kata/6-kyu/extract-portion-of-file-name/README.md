@@ -1,4 +1,4 @@
-# [extract file name](https://www.codewars.com/kata/extract-file-name "https://www.codewars.com/kata/597770e98b4b340e5b000071")
+# [extract portion of file name](https://www.codewars.com/kata/extract-portion-of-file-name "https://www.codewars.com/kata/597770e98b4b340e5b000071")
 
 You have to extract a portion of the file name as follows:
  - Assume it will start with date represented as long number
