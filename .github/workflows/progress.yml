@@ -1,0 +1,50 @@
+name: Update Progress
+
+on:
+  pull_request:
+    branches: [ main ]
+    types: [ opened, synchronize ]
+    paths:
+      - .github/workflows/progress.yml
+      - docs/README.md
+      - kata/**
+
+jobs:
+  update-progress:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 1
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - name: Update README progress
+        run: |
+          TOTAL=$(curl https://www.codewars.com/kata/search/java | grep -Eo ".{5} Kata Found" | sed "s/[Kat Found,]//g")
+          COMPLETED=$(find ./kata -mindepth 2 -maxdepth 2 -not -empty -type d -not -path "./kata/retired/*" | wc -l)
+          PROGRESS=$(bc <<< "scale=1 ; 100 * $COMPLETED / $TOTAL")
+          sed -i -r "s/(completed%20kata-).*(%25-red.svg)/\1$PROGRESS\2/g" ./docs/README.md
+          echo "🎉 Current progress $PROGRESS% ($COMPLETED out of $TOTAL)" >> $GITHUB_STEP_SUMMARY
+
+      - name: Update README statistics
+        run: |
+          STATS="|"
+          for rank in ./kata/*; do
+            STATS+=" $(find $rank -mindepth 1 -maxdepth 1 -not -empty -type d | wc -l) |"
+          done
+          sed -i "28s/.*/$STATS/" ./docs/README.md
+
+      - name: Update Git repository
+        run: |
+          git config user.name "$(git log -n 1 --pretty=format:%an)"
+          git config user.email "$(git log -n 1 --pretty=format:%ae)"
+          git add -A
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "docs: update kata progress"
+            git push
+            echo "☑️ Codewars progress has been updated." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "✅ Codewars progress is up to date." >> $GITHUB_STEP_SUMMARY
+          fi
