@@ -4,7 +4,7 @@ updates:
     directory: /
     schedule:
       interval: daily
-    milestone: 13
+    milestone: 14
     labels:
       - "chore"
     groups:
@@ -16,6 +16,6 @@ updates:
     directory: /
     schedule:
       interval: daily
-    milestone: 13
+    milestone: 14
     labels:
       - "chore"
