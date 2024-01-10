@@ -27,6 +27,7 @@
 - [Is the King in check ?](is-the-king-in-check)
 # J
 - [Josephus Permutation](josephus-permutation)
+- [Josephus Survivor](josephus-survivor)
 # L
 - [Land perimeter](land-perimeter)
 - [Last digit of a large number](last-digit-of-a-large-number)
