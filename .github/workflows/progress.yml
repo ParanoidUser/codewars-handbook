@@ -1,18 +1,16 @@
 name: Update Progress
 
 on:
-  pull_request:
-    branches: [ main ]
-    types: [ opened, synchronize ]
-    paths:
-      - .github/workflows/progress.yml
-      - docs/README.md
-      - kata/**
+  workflow_run:
+    workflows: [ Build CI ]
+    branches-ignore: [ main ]
+    types: [ completed ]
 
 jobs:
   update-progress:
     runs-on: ubuntu-22.04
     timeout-minutes: 1
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
