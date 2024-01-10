@@ -25,7 +25,7 @@ slug.
 
 | [1 kyu](/kata/1-kyu/index.md) | [2 kyu](/kata/2-kyu/index.md) | [3 kyu](/kata/3-kyu/index.md) | [4 kyu](/kata/4-kyu/index.md) | [5 kyu](/kata/5-kyu/index.md) | [6 kyu](/kata/6-kyu/index.md) | [7 kyu](/kata/7-kyu/index.md) | [8 kyu](/kata/8-kyu/index.md) | [beta](/kata/beta/index.md) | [retired](/kata/retired/index.md) |
 |:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:---------------------------:|:---------------------------------:|
-| 0 | 1 | 2 | 26 | 42 | 416 | 559 | 206 | 55 | 79 |
+| 0 | 1 | 2 | 26 | 43 | 416 | 559 | 206 | 55 | 79 |
 
 **Note:** The source code is written in Java 17 and may use language features that are incompatible
 with Java 8, 11.
