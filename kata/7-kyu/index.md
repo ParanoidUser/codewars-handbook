@@ -132,6 +132,7 @@
 - [Difference between two collections](difference-between-two-collections)
 - [Difference between years. (Level 1)](difference-between-years-level-1)
 - [Digital cypher](digital-cypher)
+- [Digitize](digitize)
 - [Digits explosion](digits-explosion)
 - [Disagreeable ascii](disagreeable-ascii)
 - [Disarium Number (Special Numbers Series #3)](disarium-number-special-numbers-series-number-3)
