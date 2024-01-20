@@ -309,6 +309,7 @@
 - [Salesman's Travel](salesmans-travel)
 - [Same matrix (2 * 2)](same-matrix-2-star-2)
 - [Separate The Wheat From The Chaff](separate-the-wheat-from-the-chaff)
+- [Sequence convergence](sequence-convergence)
 - [Sequences and Series](sequences-and-series)
 - [SHA-256](sha-256)
 - [SHA-256 Cracker](sha-256-cracker)
