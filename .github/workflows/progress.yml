@@ -12,6 +12,11 @@ jobs:
     timeout-minutes: 1
     if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.user.login != 'dependabot[bot]' }}
     steps:
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
+
       - name: Checkout repository
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
         with:
