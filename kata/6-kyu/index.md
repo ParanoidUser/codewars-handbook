@@ -333,6 +333,7 @@
 - [Simple nearest prime](simple-nearest-prime)
 - [Simple prime streaming](simple-prime-streaming)
 - [Simple reversed parenthesis](simple-reversed-parenthesis)
+- [Simple ROT13.5 cypher](simple-rot13-dot-5-cypher)
 - [Simple square numbers](simple-square-numbers)
 - [Simple string indices](simple-string-indices)
 - [Simple time difference](simple-time-difference)
