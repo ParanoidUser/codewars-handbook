@@ -94,6 +94,7 @@
 - [Counting Duplicates](counting-duplicates)
 - [Crack the PIN](crack-the-pin)
 - [Create Phone Number](create-phone-number)
+- [Cuckoo Clock](cuckoo-clock)
 # D
 - [Dashatize it](dashatize-it)
 - [Data compression using run-length encoding](data-compression-using-run-length-encoding)
