@@ -1,6 +1,6 @@
 # [Merge in 2048](https://www.codewars.com/kata/merge-in-2048 "https://www.codewars.com/kata/55e1990978c60e5052000011")
 
-Remember the game 2048? http://gabrielecirulli.github.io/2048/
+Remember the game 2048? https://play2048.co
 
 The main part of this game is merging identical tiles in a row. 
 

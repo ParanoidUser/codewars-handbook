@@ -53,4 +53,4 @@ epidemic(tm, n, s0, i0, b, a) --> 483
 
 - Keeping track of the values of susceptible, infected and recovered you can plot the solutions of the 3 differential equations. See an example below on the plot.
 
-![alternative text](http://i.imgur.com/xB6VSqzm.png)
+![alternative text](https://i.imgur.com/xB6VSqzm.png)

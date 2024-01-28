@@ -9,10 +9,10 @@ formula
 
 where `n` denotes a row of the triangle, and `k` is a position of a term in the row.
 
-![Pascal's Triangle](http://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
+![Pascal's Triangle](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
 
 You can
-read [Wikipedia article on Pascal's Triangle](http://en.wikipedia.org/wiki/Pascal's_triangle) for
+read [Wikipedia article on Pascal's Triangle](https://en.wikipedia.org/wiki/Pascal's_triangle) for
 more information.
 
 ### Task

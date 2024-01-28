@@ -24,6 +24,6 @@ or `abs((your_result - test_result) / test_result) <= 1e-6` depending on the lan
 
 - Shell tests only variance
 
-- A ref: <http://www.mathsisfun.com/data/standard-deviation.html>
+- A ref: <https://www.mathsisfun.com/data/standard-deviation.html>
 
 - `data` and `data1` (can be named `d0` and `d1` depending on the language; see "Sample Tests:") are adapted from:  <http://www.worldclimate.com>

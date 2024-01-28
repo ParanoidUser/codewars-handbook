@@ -8,8 +8,6 @@ The grid is 6 row by 7 columns, those being named from A to G.
 
 You will receive a list of strings showing the order of the pieces which dropped in columns:
 
-![alt text](http://crowd-multilogue.com/Images/Codewars/KataConnectFourWinner.jpg)
-
 ```
   piecesPositionList = ["A_Red",
                         "B_Yellow",

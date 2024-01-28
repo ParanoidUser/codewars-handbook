@@ -8,7 +8,7 @@ Finally, today is the time to show what Vasya achieved. He solved the given task
 
 You are given a system of equations:
 
-![](http://i.imgur.com/jMml8Tc.png)
+![](https://i.imgur.com/jMml8Tc.png)
 
 
 In JS, C# and Java the parameters of the system: `1 ≤ n, m ≤ 1000`  

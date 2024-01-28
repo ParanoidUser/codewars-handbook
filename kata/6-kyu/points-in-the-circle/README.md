@@ -8,4 +8,4 @@ Example: for `radius = 2` the result should be `13`.
 
 `0 <= radius <= 1000`
 
-![](http://i.imgur.com/1SMov3s.png)
+![](https://i.imgur.com/1SMov3s.png)

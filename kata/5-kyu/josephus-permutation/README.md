@@ -35,5 +35,5 @@ So our final result is:
 [3,6,2,7,5,1,4]
 ```
 
-For more info, browse the <a href="http://en.wikipedia.org/wiki/Josephus_problem" target="_blank">Josephus
+For more info, browse the <a href="https://en.wikipedia.org/wiki/Josephus_problem" target="_blank">Josephus
 Permutation</a> page on wikipedia; Also, [live game demo](https://iguacel.github.io/josephus/)

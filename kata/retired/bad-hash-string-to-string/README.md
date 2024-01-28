@@ -28,6 +28,6 @@ convertIntHashed(magicNum):
 ```
 
 **Note:**  OR, AND, NOT, XOR are bitwise operations and all bit shift are logical bit shift.
-[Ascii Table](http://www.asciitable.com/index/asciifull.gif) 
+[Ascii Table](https://www.asciitable.com) 
 
 Give an example why this hashing algorithm is bad?

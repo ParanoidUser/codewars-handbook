@@ -1,6 +1,6 @@
 # [Reverse polish notation calculator](https://www.codewars.com/kata/reverse-polish-notation-calculator "https://www.codewars.com/kata/52f78966747862fc9a0009ae")
 
-Your job is to create a calculator which evaluates expressions in [Reverse Polish notation](http://en.wikipedia.org/wiki/Reverse_Polish_notation).
+Your job is to create a calculator which evaluates expressions in [Reverse Polish notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation).
 
 For example expression `5 1 2 + 4 * + 3 -` (which is equivalent to `5 + ((1 + 2) * 4) - 3` in normal notation) should evaluate to `14`.
 

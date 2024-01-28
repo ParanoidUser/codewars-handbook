@@ -9,4 +9,4 @@ rps('scissors','rock') // Player 2 won!
 rps('paper','paper') // Draw!
 ```
 
-![rockpaperscissors](http://i.imgur.com/aimOQVX.png)
+![rockpaperscissors](https://i.imgur.com/aimOQVX.png)

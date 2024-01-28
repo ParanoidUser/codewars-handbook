@@ -1,6 +1,6 @@
 # [Calculate the Harmonic Conjugated Point of a Triplet of Aligned Points](https://www.codewars.com/kata/calculate-the-harmonic-conjugated-point-of-a-triplet-of-aligned-points "https://www.codewars.com/kata/5600e00e42bcb7b9dc00014e")
 
-<a href="http://imgur.com/tfJ9UWc"><img src="http://i.imgur.com/tfJ9UWcm.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/tfJ9UWc"><img src="https://i.imgur.com/tfJ9UWcm.jpg" title="source: imgur.com" /></a>
 
 The image shows how we can obtain the Harmonic Conjugated Point of three aligned points A, B, C.
 
@@ -18,7 +18,7 @@ You can get more knowledge related with this point at: (https://en.wikipedia.org
 If we apply the theorems of Ceva (https://en.wikipedia.org/wiki/Ceva%27s_theorem)
 and Menelaus (https://en.wikipedia.org/wiki/Menelaus%27_theorem) we will have this formula:
 
-<a href="http://imgur.com/PfmzXU4"><img src="http://i.imgur.com/PfmzXU4.jpg?1" title="source: imgur.com" /></a>
+<a href="https://imgur.com/PfmzXU4"><img src="https://i.imgur.com/PfmzXU4.jpg" title="source: imgur.com" /></a>
 
 AC, in the above formula is the length of the segment of points A to C in this direction and its value is:
 

@@ -4,7 +4,7 @@
 
 ## Task:
 
-Your goal is to create a function `dative()` (`Dative()` in C#) which returns the valid form of a valid Hungarian word `w` in [dative case](http://www.hungarianreference.com/Nouns/nak-nek-dative.aspx) i.e. append the correct suffix `nek` or `nak` to the word `w` based on vowel harmony rules.
+Your goal is to create a function `dative()` (`Dative()` in C#) which returns the valid form of a valid Hungarian word `w` in [dative case](https://www.hungarianreference.com/Nouns/nak-nek-dative.aspx) i.e. append the correct suffix `nek` or `nak` to the word `w` based on vowel harmony rules.
 
 ## Vowel Harmony Rules (simplified)
 

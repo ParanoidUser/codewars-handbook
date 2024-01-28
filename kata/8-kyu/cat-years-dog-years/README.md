@@ -28,11 +28,9 @@ NOTES:
 
 **References**
 
-* http://www.catster.com/cats-101/calculate-cat-age-in-cat-years
-* http://www.slate.com/articles/news_and_politics/explainer/2009/05/a_dogs_life.html
+* https://www.catster.com/guides/how-old-is-my-cat
+* https://slate.com/news-and-politics/2009/05/how-do-you-calculate-dog-years.html
 
 <hr>
 
 If you liked this Kata there is another <a href="https://www.codewars.com/kata/cat-years-dog-years-2">related one here</a>
-
-

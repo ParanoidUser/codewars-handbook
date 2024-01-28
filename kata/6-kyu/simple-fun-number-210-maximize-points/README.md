@@ -5,7 +5,7 @@
 Two teams are playing a game of tennis. The team sizes are the same and each player from the first
 team plays against the corresponding player from the second team.
 
-![](http://i.imgur.com/YB1dsAm.jpg)
+![](https://i.imgur.com/YB1dsAm.jpg)
 
 Each player has a certain power level. If a player has a higher power level than her opponent, she
 is guaranteed to win and her team would get 1 point for that win while the opponents get a 0.

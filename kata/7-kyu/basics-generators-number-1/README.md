@@ -9,4 +9,4 @@ You must complete the generator function that must increment a counter by 1 each
 <h2>Important</h2>
 The counter must start at 1 when the generator is initialized
 
-<strong>More Info: </strong><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators">Iterators and Generators (JavaScript)</a>, [Generators Overview (PHP)](http://php.net/manual/en/language.generators.overview.php)
+<strong>More Info: </strong><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators">Iterators and Generators (JavaScript)</a>, [Generators Overview (PHP)](https://www.php.net/manual/en/language.generators.overview.php)

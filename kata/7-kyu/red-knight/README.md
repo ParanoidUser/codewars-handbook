@@ -31,7 +31,7 @@ Input = 0, 4;
 Output = new PawnDistance("White", 8);
 ```
 
-<svg width="450" height="142" xmlns="http://www.w3.org/2000/svg">
+<svg width="450" height="142" xmlns="https://www.w3.org/2000/svg">
  <g>
   <title>background</title>
  </g>

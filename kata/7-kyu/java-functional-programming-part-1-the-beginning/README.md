@@ -11,7 +11,7 @@ String myString = f.apply(myObject); //Stores whatever the toString() of myObjec
 
 The above is a simple mapper function: given an input of type MyObject, return a specific result of type String, in this case the toString of the object. They can, of course, become much more complicated.
 
-A full listing of the default function types can be found at http://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
+A full listing of the default function types can be found at https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
 
 Given this POJO:
 

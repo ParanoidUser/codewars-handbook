@@ -33,9 +33,8 @@ Output: "6"
     private static Optional<Integer> parseIntHelper(String number);
     ```
 2. Convert split string into a stream
-3. Use map-reduce paradigm: 
-    * http://www.techspot.co.in/2011/07/mapreduce-for-dummies.html
+3. Use map-reduce paradigm
 4. APIs for use:
-    * https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html   
+    * https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html
     * https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
     * https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html

@@ -43,7 +43,7 @@ between the limits `m`, `n` if these g-steps prime numbers exist otherwise `nil`
 ## Notes: 
 
 The idea of "step" is close to that of "gap" but it is not exactly the same. For those interested they can have a look
-at <http://mathworld.wolfram.com/PrimeGaps.html>. 
+at <https://mathworld.wolfram.com/PrimeGaps.html>. 
 
 A "gap" is more restrictive: there must be no primes in between 
 (101-107 is a "step" but not a "gap". Next kata will be about "gaps":-).

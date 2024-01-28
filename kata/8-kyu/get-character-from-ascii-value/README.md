@@ -8,4 +8,4 @@ Example:
 Ascii.getChar(65) // => 'A'
 ```
 
-For ASCII table, you can refer to http://www.asciitable.com/
+For ASCII table, you can refer to https://www.asciitable.com

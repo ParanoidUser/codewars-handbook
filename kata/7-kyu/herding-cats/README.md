@@ -23,8 +23,8 @@ By default, this will sort the cats by their names. Your job is to complete the 
 
 You may assume that no two cats have the same name.
 
-For more information about ```Arrays```, take a look at http://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html.
+For more information about ```Arrays```, take a look at https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html.
 
-For more information about ```Comparable<T>```, see http://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html.
+For more information about ```Comparable<T>```, see https://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html.
 
-For more information about ```Comparator<T>```, check out http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html.
+For more information about ```Comparator<T>```, check out https://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html.

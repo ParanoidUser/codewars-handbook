@@ -8,4 +8,4 @@ For example, if n = 20, the resulting sequence will be:
 
 Write a program that will output the length of the Collatz Conjecture for any given n. In the example above, the output would be 8.
 
-For more reading see: http://en.wikipedia.org/wiki/Collatz_conjecture
+For more reading see: https://en.wikipedia.org/wiki/Collatz_conjecture

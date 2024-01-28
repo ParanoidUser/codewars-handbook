@@ -5,7 +5,7 @@ classic ["half your age plus seven"](https://en.wikipedia.org/wiki/Age_disparity
 dating rule that a lot of people follow (including myself). It's the 'recommended' age range in
 which to date someone.
 
-![](https://web.archive.org/web/20190206114947if_/http://weknowmemes.com/wp-content/uploads/2014/08/age-range-compatibility-equation.jpg)
+![](https://web.archive.org/web/20190206114947if_/https://weknowmemes.com/wp-content/uploads/2014/08/age-range-compatibility-equation.jpg)
 
 ```minimum age <= your age <= maximum age```
 

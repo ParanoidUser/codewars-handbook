@@ -6,7 +6,7 @@ Between 2 and 50 we have the following pairs of 2-gaps primes:
 `3-5, 5-7, 11-13, 17-19, 29-31, 41-43`
 
 A prime gap of length n is a run of n-1 consecutive composite numbers between two **successive** primes (
-see: http://mathworld.wolfram.com/PrimeGaps.html).
+see: https://mathworld.wolfram.com/PrimeGaps.html).
 
 We will write a function gap with parameters:
 
