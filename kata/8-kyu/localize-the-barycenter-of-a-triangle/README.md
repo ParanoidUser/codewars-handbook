@@ -1,6 +1,6 @@
 # [Localize The Barycenter of a Triangle](https://www.codewars.com/kata/localize-the-barycenter-of-a-triangle "https://www.codewars.com/kata/5601c5f6ba804403c7000004")
 
-<a href="http://imgur.com/hpDQY8o"><img src="http://i.imgur.com/hpDQY8o.png?1" title="source: imgur.com" /></a>
+<a href="https://imgur.com/hpDQY8o"><img src="https://i.imgur.com/hpDQY8o.png" title="source: imgur.com" /></a>
 
 The medians of a triangle are the segments that unit the vertices with the midpoint of their opposite sides.
 The three medians of a triangle intersect at the same point, called the barycenter or the centroid.
@@ -13,7 +13,7 @@ the result of the coordinates should be expressed up to four decimals, (rounded 
 
 You know that the coordinates of the barycenter are given by the following formulas.
 
-<a href="http://imgur.com/B0tjxUG"><img src="http://i.imgur.com/B0tjxUG.jpg?1" title="source: imgur.com" /></a>
+<a href="https://imgur.com/B0tjxUG"><img src="https://i.imgur.com/B0tjxUG.jpg" title="source: imgur.com" /></a>
 
 For additional information about this important point of a triangle see at: (https://en.wikipedia.org/wiki/Centroid)
 
@@ -25,6 +25,3 @@ barTriang([4, 2], [12, 2], [6, 10] ------> {7.3333, 4.6667}
 ```
 
 The given points form a real or a degenerate triangle but in each case the above formulas can be used.
-
-Enjoy it and happy coding!!
-

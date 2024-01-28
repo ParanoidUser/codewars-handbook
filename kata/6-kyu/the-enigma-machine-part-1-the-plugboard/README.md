@@ -1,14 +1,14 @@
 # [The Enigma Machine - Part 1: The Plugboard](https://www.codewars.com/kata/the-enigma-machine-part-1-the-plugboard "https://www.codewars.com/kata/5523b97ac8f5025c45000900")
 
-In this series of Kata, we will be implementing a software version of the [Enigma Machine](http://en.wikipedia.org/wiki/Enigma_machine).
+In this series of Kata, we will be implementing a software version of the [Enigma Machine](https://en.wikipedia.org/wiki/Enigma_machine).
 
-The Enigma Machine was a message enciphering/deciphering machine used during the Second World War for disguising the content of military communications.  [Alan Turing](http://en.wikipedia.org/wiki/Alan_Turing) - the father of computing - formulated and developed concepts that are the basis of all computers in use today, he did this in response to the vital need to break those military communications.  Turing and his colleagues at [Bletchley Park](http://en.wikipedia.org/wiki/Bletchley_Park) are generally recognised as being responsible for shortening WWII by two years and saving an estimated 22 Million lives.
+The Enigma Machine was a message enciphering/deciphering machine used during the Second World War for disguising the content of military communications.  [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) - the father of computing - formulated and developed concepts that are the basis of all computers in use today, he did this in response to the vital need to break those military communications.  Turing and his colleagues at [Bletchley Park](https://en.wikipedia.org/wiki/Bletchley_Park) are generally recognised as being responsible for shortening WWII by two years and saving an estimated 22 Million lives.
 
 The Enigma Machine consisted of a number of parts: Keyboard for input, rotors and plugboard for enciphering, and lampboard for output.
 
 We will simulate input and output with strings, and build the rotors, plugboard and mechanism that used them in software.  As we progress the code will become more complex, so you are advised to attempt them in order.
 
-Step 1: The [plugboard](http://en.wikipedia.org/wiki/Enigma_machine#Plugboard)
+Step 1: The [plugboard](https://en.wikipedia.org/wiki/Enigma_machine#Plugboard)
 
 In this Kata, you must implement the plugboard.  
 

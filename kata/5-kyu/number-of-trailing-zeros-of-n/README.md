@@ -6,7 +6,7 @@ Write a program that will calculate the number of trailing zeros in a factorial 
 
 Be careful `1000!` has 2568 digits...
 
-For more info, see: http://mathworld.wolfram.com/Factorial.html
+For more info, see: https://mathworld.wolfram.com/Factorial.html
 
 ## Examples
 

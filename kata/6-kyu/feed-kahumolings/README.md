@@ -1,11 +1,5 @@
 # [Feed Kahumolings!](https://www.codewars.com/kata/feed-kahumolings "https://www.codewars.com/kata/557b75579b03996942000061")
 
-<div style='float:right; width: 240px'>
-
-![Alien mouths](http://vignette3.wikia.nocookie.net/ben10/images/e/e4/Ben10mouthoff_lrg.jpg)
-
-</div>
-
 You are a cook in an alien restaurant at a distant planet called Kahumo.
 
 These aliens have some specific physiology features:

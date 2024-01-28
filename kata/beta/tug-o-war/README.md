@@ -21,7 +21,7 @@ If the two teams are of equal strength, the team with the strongest Anchor (the 
 
 The Anchors are members in each end of the rope:
 
-![anchors](http://i.imgur.com/w3MJF2V.jpg?1)
+![anchors](https://i.imgur.com/w3MJF2V.jpg)
 
 more examples:
 

@@ -29,4 +29,4 @@ CW = sin(A) * WS
 HW = cos(A) * WS
 ```
 More information about wind component calculation:
-http://en.wikipedia.org/wiki/Tailwind
+https://en.wikipedia.org/wiki/Tailwind

@@ -1,6 +1,6 @@
 # [Convert a String to a Number!](https://www.codewars.com/kata/convert-a-string-to-a-number "https://www.codewars.com/kata/544675c6f971f7399a000e79")
 
-Note: This kata is inspired by [Convert a Number to a String!](http://www.codewars.com/kata/convert-a-number-to-a-string/). Try that one too.
+Note: This kata is inspired by [Convert a Number to a String!](https://www.codewars.com/kata/convert-a-number-to-a-string). Try that one too.
 
 ## Description
 

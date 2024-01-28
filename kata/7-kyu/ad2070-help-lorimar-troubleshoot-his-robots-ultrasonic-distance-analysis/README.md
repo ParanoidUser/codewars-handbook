@@ -19,4 +19,4 @@ Return a tuple with the mean and standard deviation of the distance variables ro
 (118.6275, 3.5779)
 ```
 
-Hint (http://math.stackexchange.com/questions/15098/sample-standard-deviation-vs-population-standard-deviation)
+Hint (https://math.stackexchange.com/questions/15098/sample-standard-deviation-vs-population-standard-deviation)

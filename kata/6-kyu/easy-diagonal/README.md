@@ -23,6 +23,6 @@ diagonal(20, 4) => 20349
 When following a diagonal from top to bottom have a look at the numbers on the diagonal at its right.
 
 ## Ref:
-http://mathworld.wolfram.com/BinomialCoefficient.html
+https://mathworld.wolfram.com/BinomialCoefficient.html
 
-![alternative text](http://i.imgur.com/eUGaNvIm.jpg)
+![alternative text](https://i.imgur.com/eUGaNvIm.jpg)

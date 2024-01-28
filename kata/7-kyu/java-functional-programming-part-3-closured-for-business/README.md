@@ -45,4 +45,4 @@ f.applyAsInt(10) == 11;
 f.applyAsInt(-5) == -4;
 ```
 
-A full listing of the default function types can be found at http://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
+A full listing of the default function types can be found at https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html

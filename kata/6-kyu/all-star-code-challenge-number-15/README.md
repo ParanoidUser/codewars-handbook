@@ -3,7 +3,7 @@
 **This Kata is intended as a small challenge for my students**
 
 Your family runs a shop and have just brought a Scrolling Text
-Machine (http://3.imimg.com/data3/RP/IP/MY-2369478/l-e-d-multicolour-text-board-250x250.jpg) to help get some more
+Machine (https://3.imimg.com/data3/RP/IP/MY-2369478/l-e-d-multicolour-text-board-250x250.jpg) to help get some more
 business.
 
 The scroller works by replacing the current text string with a similar text string, but with the first letter shifted to

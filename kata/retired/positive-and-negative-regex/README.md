@@ -27,4 +27,4 @@ tap
 
 Of course, you don't want to hard-code the given examples, because such a solution would not pass the final anti-hard-code-random-value test that uses the same regex pattern you have to find.
 
-Hint: http://rubular.com/r/J2mE8vdhjb will be of great assistance in constructing your regular expression. 
+Hint: https://rubular.com/r/J2mE8vdhjb will be of great assistance in constructing your regular expression. 

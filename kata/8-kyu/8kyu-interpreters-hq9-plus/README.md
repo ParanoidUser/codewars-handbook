@@ -4,7 +4,7 @@ You task is to implement an simple interpreter for the notorious esoteric langua
 
 - If the input is `'H'`, return `'Hello World!'`
 - If the input is `'Q'`, return the input
-- If the input is `'9'`, return the full lyrics of [99 Bottles of Beer](http://www.99-bottles-of-beer.net/lyrics.html). It should be formatted like this:
+- If the input is `'9'`, return the full lyrics of [99 Bottles of Beer](https://www.99-bottles-of-beer.net/lyrics.html). It should be formatted like this:
 
 ```if:rust
 __Note__: In Rust, return `Some` containing the appropriate value.

@@ -9,4 +9,4 @@ Examples:
   [[1, 2, 3], [4, 5, 6], [7, 8, 9]] should return 45
 ```
 
-http://en.wikipedia.org/wiki/Main_diagonal
+https://en.wikipedia.org/wiki/Main_diagonal

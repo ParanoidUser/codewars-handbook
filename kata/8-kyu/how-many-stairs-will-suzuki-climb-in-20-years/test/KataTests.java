@@ -1,10 +1,13 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class KataTests {
-  @Test
-  void sample() {
+  private int[][] stairs;
+
+  @BeforeEach
+  void setUp() {
     int[] sunday = {
         6737, 7244, 5776, 9826, 7057, 9247, 5842, 5484, 6543, 5153, 6832, 8274, 7148, 6152, 5940,
         8040, 9174, 7555, 7682, 5252, 8793, 8837, 7320, 8478, 6063, 5751, 9716, 5085, 7315, 7859,
@@ -53,7 +56,11 @@ class KataTests {
         5163, 6656, 8150, 8826, 6875, 5242, 9585, 9649, 9838, 7150, 6567, 8524, 7613, 7809, 5562,
         7799, 7179, 5184, 7960, 9455, 5633, 9085
     };
-    int[][] stairs = {sunday, monday, tuesday, wednesday, thursday, friday, saturday};
+    stairs = new int[][]{sunday, monday, tuesday, wednesday, thursday, friday, saturday};
+  }
+
+  @Test
+  void sample() {
     assertEquals(54636040, Kata.stairsIn20(stairs));
   }
 }

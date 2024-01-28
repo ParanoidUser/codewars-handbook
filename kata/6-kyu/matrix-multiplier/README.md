@@ -2,9 +2,9 @@
 
 In mathematics, a <a href="https://en.wikipedia.org/wiki/Matrix_%28mathematics%29">matrix</a> (
 plural matrices) is a rectangular array of numbers. Matrices have many applications in programming,
-from <a href="http://www.mathplanet.com/education/geometry/transformations/transformation-using-matrices">
+from <a href="https://www.mathplanet.com/education/geometry/transformations/transformation-using-matrices">
 performing transformations in 2D space</a>
-to <a href="http://videolectures.net/icml09_dhillon_itmcml/">machine learning</a>.
+to <a href="https://videolectures.net/icml09_dhillon_itmcml/">machine learning</a>.
 
 One of the most useful operations to perform on matrices
 is <a href="https://en.wikipedia.org/wiki/Matrix_multiplication">matrix multiplication</a>, which

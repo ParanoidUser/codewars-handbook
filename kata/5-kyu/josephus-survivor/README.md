@@ -1,7 +1,7 @@
 # [Josephus Survivor](https://www.codewars.com/kata/josephus-survivor "https://www.codewars.com/kata/555624b601231dc7a400017a")
 
 In this kata you have to correctly return who is the "survivor", ie: the last element of
-a <a href="http://www.codewars.com/kata/josephus-permutation/" target="_blank" title="Josephus sequence">Josephus
+a <a href="https://www.codewars.com/kata/josephus-permutation" target="_blank" title="Josephus sequence">Josephus
 permutation</a>.
 
 Basically you have to assume that n people are put into a circle and that they are eliminated in steps of k elements,

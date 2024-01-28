@@ -5,7 +5,7 @@ introvert at NSA? Va gur ryringbef,
 gur rkgebireg ybbxf ng gur BGURE thl'f fubrf.
 
 I found this joke on USENET, but the punchline is scrambled. Maybe you can decipher it?
-According to Wikipedia, ROT13 (http://en.wikipedia.org/wiki/ROT13) is frequently used to obfuscate
+According to Wikipedia, ROT13 (https://en.wikipedia.org/wiki/ROT13) is frequently used to obfuscate
 jokes on USENET.
 
 Hint: For this task you're only supposed to substitue characters. Not spaces, punctuation, numbers

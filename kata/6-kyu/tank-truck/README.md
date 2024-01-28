@@ -26,4 +26,4 @@ tankvol(80,120,3500) should return 2478 (calculation gives about: 2478.73007973)
 
 Tank vertical section:
 
-![alternative text](http://i.imgur.com/wmt0U43.png)
+![alternative text](https://i.imgur.com/wmt0U43.png)

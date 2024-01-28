@@ -13,8 +13,8 @@ For example, the first column has the title "A", second column - "B", 26th - "Z"
 
 "BA"(53) comes after "AZ"(52), "AAA" comes after "ZZ".
 
-<img src="http://i.imgur.com/mSus9fj.png" align=center></img>
-<img src="http://i.imgur.com/6iDaoef.png" align=center></img>
+<img src="https://i.imgur.com/mSus9fj.png" align="center"></img>
+<img src="https://i.imgur.com/6iDaoef.png" align="center"></img>
 
 Excel? Columns? More details [here](https://en.wikipedia.org/wiki/Microsoft_Excel)
 

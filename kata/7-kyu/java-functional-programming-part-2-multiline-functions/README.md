@@ -44,4 +44,4 @@ The formula for triangle area is: 1/2 \* base \* height
 
 Assume valid input (base and height are both greater than 0).
 
-A full listing of the default function types can be found at http://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
+A full listing of the default function types can be found at https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html

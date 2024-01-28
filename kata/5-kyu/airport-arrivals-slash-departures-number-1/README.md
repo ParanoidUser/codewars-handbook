@@ -2,7 +2,7 @@
 
 You are at the airport staring blankly at the arrivals/departures flap display...
 
-![](http://www.airport-arrivals-departures.com/img/meta/1200_630_arrivals-departures.png)
+![](https://www.airport-arrivals-departures.com/img/meta/1200_630_arrivals-departures.png)
 
 ## How it works
 

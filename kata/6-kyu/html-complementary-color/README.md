@@ -6,11 +6,11 @@ You have to implement the
 
 or `getReversedColor(hexColor)` (JavaScript, Java) 
 
-<img src="http://www.w3schools.com/colors/img_colormap.gif" align=right></img>
+<img src="https://www.w3schools.com/colors/img_colormap.gif" align="right"></img>
 
 function that takes a hex-color string and returns the string represents the complementary color.
 
-What is the hex-color? You can find the answer on [w3schools](http://www.w3schools.com/colors/colors_picker.asp) and [Wikipedia](https://en.wikipedia.org/wiki/Web_colors)
+What is the hex-color? You can find the answer on [w3schools](https://www.w3schools.com/colors/colors_picker.asp) and [Wikipedia](https://en.wikipedia.org/wiki/Web_colors)
 
 ## Input
 It takes only one argument - string with hex value (case-ignored with chars 0..9 or A..F) without hash-char "#".

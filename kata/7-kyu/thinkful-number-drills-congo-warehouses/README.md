@@ -1,6 +1,6 @@
 # [Thinkful - Number Drills: Congo warehouses](https://www.codewars.com/kata/thinkful-number-drills-congo-warehouses "https://www.codewars.com/kata/5862e7c63f8628a126000e18")
 
-Your company, [Congo Pizza](http://interesting-africa-facts.com/Africa-Landforms/Congo-Rainforest-Facts.html),
+Your company, [Congo Pizza](https://interesting-africa-facts.com/Africa-Landforms/Congo-Rainforest-Facts.html),
 is the second-largest online frozen pizza retailer. You own a number of international warehouses
 that you use to store your frozen pizzas, and you need to figure out how many crates of pizzas you
 can store at each location.

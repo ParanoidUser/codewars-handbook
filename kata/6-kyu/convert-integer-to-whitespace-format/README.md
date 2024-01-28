@@ -2,7 +2,7 @@
 
 Hereinafter, `[space]` refers to `" "`, `[tab]` refers to `"\t"`, and `[LF]` refers to `"\n"` for illustrative purposes. This does not mean that you can use these placeholders in your solution.
 
-In esoteric language called [Whitespace](http://compsoc.dur.ac.uk/whitespace/), numbers are represented in the following format:
+In esoteric language called [Whitespace](https://esolangs.org/wiki/whitespace), numbers are represented in the following format:
 
 * first character represents the sign: `[space]` for plus, `[tab]` for minus;
 * characters after that and until `[LF]` are the binary representation of the integer: `[space]` for 0, `[tab]` for 1.

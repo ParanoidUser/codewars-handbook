@@ -7,4 +7,4 @@ The array will always contain at least 2 and at most 100 elements (2 ≤ vector.
 <br>
 An array containing four elements represents a vector in 4D space.
 
-More info on finding the length of a vector: http://farside.ph.utexas.edu/teaching/301/lectures/node28.html
+More info on finding the length of a vector: https://farside.ph.utexas.edu/teaching/301/lectures/node28.html

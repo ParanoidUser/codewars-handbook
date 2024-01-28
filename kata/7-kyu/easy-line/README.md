@@ -18,9 +18,9 @@ easyline(4) => 70
 easyline(50) => 100891344545564193334812497256
 ```
 ## Ref:
-http://mathworld.wolfram.com/BinomialCoefficient.html
+https://mathworld.wolfram.com/BinomialCoefficient.html
 
-![alternative text](http://i.imgur.com/eUGaNvIm.jpg)
+![alternative text](https://i.imgur.com/eUGaNvIm.jpg)
 
 ## Note:
 In Javascript, Coffeescript, Typescript, C++, PHP, C, R, Nim to get around the fact that we have no big integers

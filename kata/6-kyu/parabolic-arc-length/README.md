@@ -20,4 +20,4 @@ The coordinates of each <code>P<sub>i</sub></code> are <code>(x<sub>i</sub>, y<s
 The function `len_curve` (or similar in other languages) takes `n` as parameter (number of sub-intervals) and returns the length of the curve.
 You can truncate it to **9** decimal places.
 
-![alternative text](http://i.imgur.com/kyjJcE4.png)
+![alternative text](https://i.imgur.com/kyjJcE4.png)

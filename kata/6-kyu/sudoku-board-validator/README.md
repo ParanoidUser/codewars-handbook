@@ -5,7 +5,7 @@
 Sudoku is a game played on a 9x9 grid. The goal of the game is to fill all cells of the grid with
 digits from 1 to 9, so that each column, each row, and each of the nine 3x3 sub-grids (also known as
 blocks) contain all the digits from 1 to 9.  
-More info at: http://en.wikipedia.org/wiki/Sudoku
+More info at: https://en.wikipedia.org/wiki/Sudoku
 
 ### Sudoku Solution Validator
 

@@ -1,6 +1,6 @@
 # [Polybius square cipher - encode](https://www.codewars.com/kata/polybius-square-cipher-encode "https://www.codewars.com/kata/542a823c909c97da4500055e")
 
-Implement the [Polybius square cipher](http://en.wikipedia.org/wiki/Polybius_square).
+Implement the [Polybius square cipher](https://en.wikipedia.org/wiki/Polybius_square).
 
 Replace every letter with a two-digit number. The first digit is the row number, and the second
 digit is the column number of following square. Letters `'I'` and `'J'` are both 24 in this cipher:
