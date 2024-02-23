@@ -40,8 +40,8 @@ jobs:
           git config user.email "$(git log -n 1 --pretty=format:%ae)"
           git add -A
           if ! git diff-index --quiet HEAD; then
-            git commit -m "docs: update kata progress"
-            git push
+            git commit --amend --no-edit
+            git push --force
             echo "☑️ Codewars progress has been updated." >> $GITHUB_STEP_SUMMARY
           else
             echo "✅ Codewars progress is up to date." >> $GITHUB_STEP_SUMMARY
