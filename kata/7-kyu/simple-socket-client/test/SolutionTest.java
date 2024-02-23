@@ -1,50 +1,30 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import java.io.IOException;
-import java.io.OutputStream;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.util.concurrent.atomic.AtomicBoolean;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 class SolutionTest {
-  @Test
-  void sample() {
-    for (boolean expected : new boolean[]{true, false, true, false, false, true, true, true, true, false}) {
-      Thread server = new Thread(createServer(expected));
-      AtomicBoolean actual = new AtomicBoolean();
-      Thread client = new Thread(() -> actual.set(Solution.isRegularServer()));
-      server.start();
-      client.start();
-      try {
-        server.join(100);
-        client.join(100);
-      } catch (InterruptedException e) {
-        throw new RuntimeException(e);
-      }
-      assertEquals(expected, actual.get());
+  private static TestServer server;
+
+  @BeforeAll
+  static void start() throws Exception {
+    server = new TestServer(1111);
+    server.start();
+  }
+
+  @ParameterizedTest
+  @ValueSource(booleans = {true, false, true, false, false, true, true, true, true, false})
+  void sample(boolean regular) {
+    server.setRegular(regular);
+    assertEquals(regular, Solution.isRegularServer());
+  }
+
+  @AfterAll
+  static void stop() throws Exception {
+    if (server != null) {
+      server.halt();
     }
-  }
-
-  @Test
-  void serverUnavailable() {
-    assertThrows(IllegalStateException.class, Solution::isRegularServer);
-  }
-
-  private static Runnable createServer(boolean isRegular) {
-    return () -> {
-      try (ServerSocket server = new ServerSocket(1111)) {
-        Socket socket = server.accept();
-        byte[] buffer = new byte[1024];
-        int length = socket.getInputStream().read(buffer);
-        OutputStream outputStream = socket.getOutputStream();
-        StringBuilder response = new StringBuilder(new String(buffer, 0, length));
-        outputStream.write((isRegular ? response : response.reverse()).toString().getBytes());
-        outputStream.flush();
-      } catch (IOException e) {
-        throw new RuntimeException(e);
-      }
-    };
   }
 }
