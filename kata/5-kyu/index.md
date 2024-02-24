@@ -9,12 +9,14 @@
 - [Can you get the loop ?](can-you-get-the-loop)
 - [Common Denominators](common-denominators)
 - [Containers](containers)
+- [Convert A Hex String To RGB](convert-a-hex-string-to-rgb)
 - [Count IP Addresses](count-ip-addresses)
 # D
 - [Digits](digits)
 - [Directions Reduction](directions-reduction)
 # F
 - [Fibonacci Streaming](fibonacci-streaming)
+- [First non-repeating character](first-non-repeating-character)
 - [First Variation on Caesar Cipher](first-variation-on-caesar-cipher)
 # G
 - [Gap in Primes](gap-in-primes)
