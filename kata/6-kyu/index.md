@@ -25,6 +25,7 @@
 - [Array.diff](array-dot-diff)
 - [Arrh, grabscrab!](arrh-grabscrab)
 - [Ascend, Descend, Repeat?](ascend-descend-repeat)
+- [ASCII Fun #3: Puzzle Tiles](ascii-fun-number-3-puzzle-tiles)
 # B
 - [B.A.D. Hashing](bad-hashing)
 - [Baby Magpies](baby-magpies)
@@ -86,6 +87,7 @@
 - [Convert integer to Whitespace format](convert-integer-to-whitespace-format)
 - [Convert ISBN-10 to ISBN-13](convert-isbn-10-to-isbn-13)
 - [Convert string to camel case](convert-string-to-camel-case)
+- [Count a Spiral](count-a-spiral)
 - [Count characters in your string](count-characters-in-your-string)
 - [Count the days!](count-the-days)
 - [Count the divisible numbers](count-the-divisible-numbers)
@@ -347,6 +349,7 @@
 - [Some Fun with Aggregate Operations (Part 3)](some-fun-with-aggregate-operations-part-3)
 - [Some Fun with Aggregate Operations (Part 4)](some-fun-with-aggregate-operations-part-4)
 - [Sort array by sorting its smallest sub-array](sort-array-by-sorting-its-smallest-sub-array)
+- [Sort the columns of a csv-file](sort-the-columns-of-a-csv-file)
 - [Sort the odd](sort-the-odd)
 - [Sort two arrays](sort-two-arrays)
 - [Sortable Shapes](sortable-shapes)

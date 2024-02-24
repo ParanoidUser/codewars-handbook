@@ -35,6 +35,7 @@
 - [Circles in Polygons](circles-in-polygons)
 - [Classic Hello World](classic-hello-world)
 - [Collatz Conjecture (3n+1)](collatz-conjecture-3n-plus-1)
+- [Collinearity](collinearity)
 - [Color Ghost](color-ghost)
 - [Compare within margin](compare-within-margin)
 - [Convert a Boolean to a String](convert-a-boolean-to-a-string)
@@ -96,6 +97,7 @@
 - [Grasshopper - Array Mean](grasshopper-array-mean)
 - [Grasshopper - Basic Function Fixer](grasshopper-basic-function-fixer)
 - [Grasshopper - Check for factor](grasshopper-check-for-factor)
+- [Grasshopper - Combine strings](grasshopper-combine-strings)
 - [Grasshopper - Debug](grasshopper-debug)
 - [Grasshopper - Debug sayHello](grasshopper-debug-sayhello)
 - [Grasshopper - Grade book](grasshopper-grade-book)
@@ -140,6 +142,7 @@
 - [Multiple of index](multiple-of-index)
 - [Multiplication table for number](multiplication-table-for-number)
 - [Multiply](multiply)
+- [Multiply the number](multiply-the-number)
 - [My head is at the wrong end!](my-head-is-at-the-wrong-end)
 # N
 - [Name on billboard](name-on-billboard)
