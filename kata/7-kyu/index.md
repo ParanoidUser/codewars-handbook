@@ -491,6 +491,7 @@
 - [Stanton measure](stanton-measure)
 - [Status Arrays](status-arrays)
 - [Steps](steps-1)
+- [Stone Pickaxe Crafting](stone-pickaxe-crafting)
 - [Strange mathematics](strange-mathematics)
 - [String ends with?](string-ends-with)
 - [String interlacing](string-interlacing)
