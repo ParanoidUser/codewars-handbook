@@ -551,6 +551,7 @@
 - [Triangles from Dots](triangles-from-dots)
 - [Triangular Treasure](triangular-treasure)
 - [Trigrams](trigrams)
+- [Trilingual democracy](trilingual-democracy)
 - [TV Remote](tv-remote)
 - [Two fighters, one winner](two-fighters-one-winner)
 - [Two numbers are positive](two-numbers-are-positive)
