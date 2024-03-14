@@ -319,6 +319,7 @@
 - [Minimize Sum Of Array (Array Series #1)](minimize-sum-of-array-array-series-number-1)
 - [Minimum Steps (Array Series #6)](minimum-steps-array-series-number-6)
 - [Minimum Ticket Cost](minimum-ticket-cost)
+- [Misleading Signs](misleading-signs)
 - [MOD 256 without the MOD operator](mod-256-without-the-mod-operator)
 - [Money, Money, Money](money-money-money)
 - [Monty Hall Problem](monty-hall-problem)
