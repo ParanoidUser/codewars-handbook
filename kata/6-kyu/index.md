@@ -37,6 +37,7 @@
 - [Basic socket server](basic-socket-server)
 - [Basics 08: Find next higher number with same Bits (1's)](basics-08-find-next-higher-number-with-same-bits-1-s)
 - [Becoming a Real spy](becoming-a-real-spy)
+- [Begin your day with a challenge, but an easy one.](begin-your-day-with-a-challenge-but-an-easy-one)
 - [Bifid cipher](bifid-cipher)
 - [Binaries](binaries)
 - [Binary to Text (ASCII) Conversion](binary-to-text-ascii-conversion)
