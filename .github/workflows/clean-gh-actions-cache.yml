@@ -1,21 +1,35 @@
-name: Clean-up cache after PR closed
+name: Clean Cache
 
 on:
   pull_request:
     types: [ closed ]
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: Branch to clean cache for
+        required: true
 
 jobs:
   cleanup:
     runs-on: ubuntu-22.04
     steps:
-      - name: Cache Cleanup
+      - name: Select Branch
+        id: setup
+        run: |
+          if [ -n "${{ github.event.inputs.branch }}" ]; then
+            BRANCH="${{ github.event.inputs.branch }}"
+          else
+            BRANCH="refs/pull/${{ github.event.pull_request.number }}/merge"
+          fi
+          echo "branch=$BRANCH" >> $GITHUB_OUTPUT
+
+      - name: Clean Cache
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
-          BRANCH: "refs/pull/${{ github.event.pull_request.number }}/merge"
+          BRANCH: ${{ steps.setup.outputs.branch }}
         run: |
-          cacheKeysForPR=$(gh cache list --repo $REPO --ref $BRANCH | cut -f 1)
-          for cacheKey in $cacheKeysForPR
-          do
-            gh cache delete $cacheKey --repo $REPO
+          for key in $(gh cache list --repo $REPO --ref $BRANCH | cut -f 1); do
+            gh cache delete $key --repo $REPO
+            echo -e "\033[32;1m✓\033[0m Deleted cache entry with key '$key'"
           done
