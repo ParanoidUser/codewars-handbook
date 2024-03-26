@@ -1,35 +1,36 @@
-name: Clean-up cache after PR merge
+name: Clean Cache
 
 on:
-  pull_request_review:
-    types: [ submitted ]
   pull_request:
     types: [ closed ]
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: Branch to clean cache for
+        required: true
 
 jobs:
   cleanup:
     runs-on: ubuntu-22.04
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # v4.1.2
+      - name: Select Branch
+        id: setup
+        run: |
+          if [ -n "${{ github.event.inputs.branch }}" ]; then
+            BRANCH="refs/heads/${{ github.event.inputs.branch }}"
+          else
+            BRANCH="refs/pull/${{ github.event.pull_request.number }}/merge"
+          fi
+          echo "branch=$BRANCH" >> $GITHUB_OUTPUT
 
-      - name: Cleanup
+      - name: Clean Cache
         env:
           GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          BRANCH: ${{ steps.setup.outputs.branch }}
         run: |
-          gh extension install actions/gh-actions-cache
-          
-          REPO=${{ github.repository }}
-          BRANCH="refs/pull/${{ github.event.pull_request.number }}/merge"
-
-          echo "Fetching list of cache key"
-          cacheKeysForPR=$(gh actions-cache list -R $REPO -B $BRANCH | cut -f 1 )
-
-          ## Setting this to not fail the workflow while deleting cache keys. 
-          set +e
-          echo "Deleting caches..."
-          for cacheKey in $cacheKeysForPR
-          do
-              gh actions-cache delete $cacheKey -R $REPO -B $BRANCH --confirm
+          cache_keys=$(gh cache list --repo $REPO --ref $BRANCH --limit 100 | cut -f 2)
+          for key in $cache_keys; do
+            gh cache delete $key --repo $REPO
+            echo -e "\033[32;1m✓\033[0m Deleted cache entry with key '$key'"
           done
-          echo "Done"
