@@ -31,7 +31,7 @@ plugins {
 develocity {
     buildScan {
         if (!System.getenv("CI").isNullOrEmpty()) {
-            termsOfUseUrl = "https://gradle.com/legal/terms-of-use"
+            termsOfUseUrl = "https://gradle.com/help/legal-terms-of-use"
             termsOfUseAgree = "yes"
         }
 
