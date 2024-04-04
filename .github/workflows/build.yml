@@ -48,7 +48,7 @@ jobs:
     timeout-minutes: 8
     strategy:
       matrix:
-        job_sid: ${{ fromJson(needs.fork.outputs.job_sid) }}
+        job_sid: ${{ fromJSON(needs.fork.outputs.job_sid) }}
     steps:
       - name: Checkout repository (default ref)
         if: ${{ github.event.inputs.ref_name == '' }}
@@ -59,9 +59,6 @@ jobs:
         if: ${{ github.event.inputs.ref_name != '' }}
         with:
           ref: ${{ github.event.inputs.ref_name }}
-
-      - name: Switch to Gradle Binary Distribution
-        run: sed -i 's/-all.zip/-bin.zip/' gradle/wrapper/gradle-wrapper.properties
 
       - name: Setup Java
         uses: actions/setup-java@99b8673ff64fbf99d8d325f52d9a5bdedb8483e9 # v4.2.1
@@ -123,9 +120,6 @@ jobs:
 
       - name: Unpack fork artifacts
         run: for f in fork-*/artifacts.tar.gz; do tar xf $f && rm $f; done
-
-      - name: Switch to Gradle Binary Distribution
-        run: sed -i 's/-all.zip/-bin.zip/' gradle/wrapper/gradle-wrapper.properties
 
       - name: Setup Java
         uses: actions/setup-java@99b8673ff64fbf99d8d325f52d9a5bdedb8483e9 # v4.2.1
