@@ -71,7 +71,7 @@ jobs:
           cache: gradle
 
       - name: Test project
-        uses: gradle/gradle-build-action@29c0906b64b8fc82467890bfb7a0a7ef34bda89e # v3.1.0
+        uses: gradle/actions/setup-gradle@29c0906b64b8fc82467890bfb7a0a7ef34bda89e # v3.1.0
         with:
           gradle-home-cache-cleanup: true
           arguments: |
@@ -136,7 +136,7 @@ jobs:
 
       - name: Analyze code quality (main)
         if: startsWith(github.event_name, 'pull_request') == false
-        uses: gradle/gradle-build-action@29c0906b64b8fc82467890bfb7a0a7ef34bda89e # v3.1.0
+        uses: gradle/actions/setup-gradle@29c0906b64b8fc82467890bfb7a0a7ef34bda89e # v3.1.0
         with:
           gradle-home-cache-cleanup: true
           dependency-graph: generate-and-submit
@@ -148,13 +148,13 @@ jobs:
             -Dsonar.host.url=https://sonarcloud.io
             -Dsonar.token=${{ secrets.SONAR_TOKEN }}
             -Dsonar.organization=${{ secrets.SONAR_KEY }}
-            -Dsonar.branch.name=${{ github.event.inputs.ref_name || github.REF_NAME}}
+            -Dsonar.branch.name=${{ github.event.inputs.ref_name || github.REF_NAME }}
             -Dsonar.qualitygate.wait=true
             -Dsonar.gradle.skipCompile=true
 
       - name: Analyze code quality (PR)
         if: startsWith(github.event_name, 'pull_request')
-        uses: gradle/gradle-build-action@29c0906b64b8fc82467890bfb7a0a7ef34bda89e # v3.1.0
+        uses: gradle/actions/setup-gradle@29c0906b64b8fc82467890bfb7a0a7ef34bda89e # v3.1.0
         with:
           arguments: |
             sonar -x compileJava -x compileTestJava
