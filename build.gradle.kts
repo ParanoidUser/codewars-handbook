@@ -4,6 +4,10 @@ plugins {
     alias(libs.plugins.sonarqube)
 }
 
+repositories {
+    gradlePluginPortal()
+}
+
 subprojects {
     apply(plugin = "java")
     apply(plugin = "jacoco")
