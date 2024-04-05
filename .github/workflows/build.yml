@@ -134,10 +134,11 @@ jobs:
         with:
           gradle-home-cache-cleanup: true
           dependency-graph: generate-and-submit
-          add-job-summary-as-pr-comment: always
           arguments: |
             sonar -x compileJava -x compileTestJava
+            --parallel
             --configuration-cache
+            --build-cache
             --no-daemon
             --scan
             -Pversion=${{ format('{0}+{1}', env.VERSION, github.RUN_NUMBER) }}
@@ -152,8 +153,13 @@ jobs:
         if: startsWith(github.event_name, 'pull_request')
         uses: gradle/actions/setup-gradle@417ae3ccd767c252f5661f1ace9f835f9654f2b5 # v3.1.0
         with:
+          gradle-home-cache-cleanup: true
+          add-job-summary-as-pr-comment: always
           arguments: |
             sonar -x compileJava -x compileTestJava
+            --parallel
+            --configuration-cache
+            --build-cache
             --no-daemon
             --scan
             -Pversion=${{ format('{0}+{1}', env.VERSION, github.RUN_NUMBER) }}
