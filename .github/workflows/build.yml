@@ -67,7 +67,7 @@ jobs:
           java-version: 17
 
       - name: Test project
-        uses: gradle/actions/setup-gradle@417ae3ccd767c252f5661f1ace9f835f9654f2b5 # v3.1.0
+        uses: gradle/actions/setup-gradle@e24011a3b5db78bd5ab798036042d9312002f252 # v3.2.0
         with:
           gradle-home-cache-cleanup: true
           arguments: |
@@ -130,7 +130,7 @@ jobs:
 
       - name: Analyze code quality (main)
         if: startsWith(github.event_name, 'pull_request') == false
-        uses: gradle/actions/setup-gradle@417ae3ccd767c252f5661f1ace9f835f9654f2b5 # v3.1.0
+        uses: gradle/actions/setup-gradle@e24011a3b5db78bd5ab798036042d9312002f252 # v3.2.0
         with:
           gradle-home-cache-cleanup: true
           dependency-graph: generate-and-submit
@@ -151,7 +151,7 @@ jobs:
 
       - name: Analyze code quality (PR)
         if: startsWith(github.event_name, 'pull_request')
-        uses: gradle/actions/setup-gradle@417ae3ccd767c252f5661f1ace9f835f9654f2b5 # v3.1.0
+        uses: gradle/actions/setup-gradle@e24011a3b5db78bd5ab798036042d9312002f252 # v3.2.0
         with:
           gradle-home-cache-cleanup: true
           add-job-summary-as-pr-comment: always
