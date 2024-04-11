@@ -144,7 +144,7 @@ jobs:
             -Pversion=${{ format('{0}+{1}', env.VERSION, github.RUN_NUMBER) }}
             -Dsonar.host.url=https://sonarcloud.io
             -Dsonar.token=${{ secrets.SONAR_TOKEN }}
-            -Dsonar.organization=${{ secrets.SONAR_KEY }}
+            -Dsonar.organization=${{ github.repository_owner }}
             -Dsonar.branch.name=${{ github.event.inputs.ref_name || github.ref_name }}
             -Dsonar.qualitygate.wait=true
             -Dsonar.gradle.skipCompile=true
