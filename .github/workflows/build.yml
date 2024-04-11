@@ -103,6 +103,7 @@ jobs:
       pull-requests: write
     env:
       VERSION: 1.23.0
+      GITHUB_TOKEN: ${{ secrets.PAT }}
     steps:
       - name: Checkout repository (default ref)
         if: ${{ github.event.inputs.ref_name == '' }}
@@ -154,8 +155,6 @@ jobs:
         run: echo "$GITHUB_CONTEXT"
       - name: Analyze code quality (PR)
         if: startsWith(github.event_name, 'pull_request')
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         uses: gradle/actions/setup-gradle@1168cd3d07c1876a65e1724114de42ccbdfa7b78 # v3.2.1
         with:
           gradle-home-cache-cleanup: true
@@ -167,11 +166,14 @@ jobs:
             --build-cache
             --no-daemon
             --scan
-            -Pversion=${{ format('{0}+{1}', env.VERSION, github.RUN_NUMBER) }}
+            -Pversion=${{ format('{0}+{1}', env.VERSION, github.run_number) }}
             -Dsonar.host.url=https://sonarcloud.io
             -Dsonar.token=${{ secrets.SONAR_TOKEN }}
             -Dsonar.organization=${{ github.repository_owner }}
             -Dsonar.projectKey=${{ github.event.repository.name }}
+            -Dsonar.pullrequest.branch=${{ github.head_ref }}
+            -Dsonar.pullrequest.base=${{ github.base_ref }}
+            -Dsonar.pullrequest.key=${{ github.event.number }}
             -Dsonar.qualitygate.wait=true
             -Dsonar.gradle.skipCompile=true
             -Dsonar.verbose=true
