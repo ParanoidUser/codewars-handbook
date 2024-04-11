@@ -145,7 +145,7 @@ jobs:
             -Dsonar.host.url=https://sonarcloud.io
             -Dsonar.token=${{ secrets.SONAR_TOKEN }}
             -Dsonar.organization=${{ secrets.SONAR_KEY }}
-            -Dsonar.branch.name=${{ github.event.inputs.ref_name || github.REF_NAME }}
+            -Dsonar.branch.name=${{ github.event.inputs.ref_name || github.ref_name }}
             -Dsonar.qualitygate.wait=true
             -Dsonar.gradle.skipCompile=true
 
@@ -167,8 +167,9 @@ jobs:
             -Dsonar.token=${{ secrets.SONAR_TOKEN }}
             -Dsonar.organization=${{ secrets.SONAR_KEY }}
             -Dsonar.pullrequest.provider=github
-            -Dsonar.pullrequest.branch=${{ github.HEAD_REF }}
-            -Dsonar.pullrequest.base=${{ github.BASE_REF }}
+            -Dsonar.pullrequest.github.repository=${{ github.repository }}
+            -Dsonar.pullrequest.branch=${{ github.head_ref }}
+            -Dsonar.pullrequest.base=${{ github.base_ref }}
             -Dsonar.pullrequest.key=${{ github.event.number }}
             -Dsonar.qualitygate.wait=true
             -Dsonar.gradle.skipCompile=true
