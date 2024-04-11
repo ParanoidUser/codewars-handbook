@@ -169,7 +169,7 @@ jobs:
             -Pversion=${{ format('{0}+{1}', env.VERSION, github.run_number) }}
             -Dsonar.host.url=https://sonarcloud.io
             -Dsonar.token=${{ secrets.SONAR_TOKEN }}
-            -Dsonar.organization=${{ github.repository_owner }}
+            -Dsonar.organization=${{ secrets.SONAR_KEY }}
             -Dsonar.projectKey=${{ github.event.repository.name }}
             -Dsonar.pullrequest.branch=${{ github.head_ref }}
             -Dsonar.pullrequest.base=${{ github.base_ref }}
