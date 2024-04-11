@@ -171,7 +171,7 @@ jobs:
             -Dsonar.host.url=https://sonarcloud.io
             -Dsonar.token=${{ secrets.SONAR_TOKEN }}
             -Dsonar.organization=${{ github.repository_owner }}
-            -Dsonar.projectKey=${{ github.repository.name }}
+            -Dsonar.projectKey=${{ github.event.repository.name }}
             -Dsonar.qualitygate.wait=true
             -Dsonar.gradle.skipCompile=true
             -Dsonar.verbose=true
