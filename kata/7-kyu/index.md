@@ -88,6 +88,7 @@
 - [Cogs](cogs)
 - [Cogs 2](cogs-2)
 - [Collatz Conjecture Length](collatz-conjecture-length)
+- [Colored Hexes!](colored-hexes)
 - [Coloured Triangles](coloured-triangles)
 - [Common Substrings](common-substrings)
 - [Compare Strings by Sum of Chars](compare-strings-by-sum-of-chars)
