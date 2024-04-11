@@ -75,6 +75,7 @@
 - [Cats and shelves](cats-and-shelves)
 - [Center of the Matrix](center-of-the-matrix)
 - [Ch4113ng3](ch4113ng3)
+- [Change two-dimensional array](change-two-dimensional-array)
 - [Changing letters](changing-letters)
 - [Character Counter](character-counter)
 - [Check contained matrix](check-contained-matrix)
