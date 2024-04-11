@@ -1,5 +1,6 @@
 # \#
 - [02. Sum of array's elements](02-sum-of-arrays-elements)
+- [¡Arrest the cardiac!](arrest-the-cardiac)
 # B
 - [Bad Collection?](bad-collection)
 - [Basic Arabic-To-Roman Numerals (1 to 999)](basic-arabic-to-roman-numerals-1-to-999)
