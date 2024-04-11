@@ -151,13 +151,22 @@ jobs:
 
       - name: Analyze code quality (PR)
         if: startsWith(github.event_name, 'pull_request')
-        uses: sonarsource/sonarcloud-github-action@49e6cd3b187936a73b8280d59ffd9da69df63ec9 # v2.1.1
+        uses: gradle/actions/setup-gradle@1168cd3d07c1876a65e1724114de42ccbdfa7b78 # v3.2.1
         with:
-          args: >
+          gradle-home-cache-cleanup: true
+          add-job-summary-as-pr-comment: always
+          arguments: |
+            sonar -x compileJava -x compileTestJava
+            --parallel
+            --configuration-cache
+            --build-cache
+            --no-daemon
+            --scan
+            -Pversion=${{ format('{0}+{1}', env.VERSION, github.RUN_NUMBER) }}
             -Dsonar.host.url=https://sonarcloud.io
             -Dsonar.token=${{ secrets.SONAR_TOKEN }}
             -Dsonar.organization=${{ secrets.SONAR_KEY }}
-            -Dsonar.projectKey=codewars-handbook
+            -Dsonar.pullrequest.provider=github
             -Dsonar.pullrequest.branch=${{ github.head_ref }}
             -Dsonar.pullrequest.base=${{ github.base_ref }}
             -Dsonar.pullrequest.key=${{ github.event.number }}
