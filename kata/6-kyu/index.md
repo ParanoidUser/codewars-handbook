@@ -281,6 +281,7 @@
 - [Print number with character](print-number-with-character)
 - [Prize Draw](prize-draw)
 - [Pure odd digits primes](pure-odd-digits-primes)
+- [Pyramid Array](pyramid-array)
 # Q
 - [Quick (n choose k) calculator](quick-n-choose-k-calculator)
 # R
