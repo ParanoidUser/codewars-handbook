@@ -47,6 +47,7 @@
 # P
 - [PaginationHelper](paginationhelper)
 - [Perimeter of squares in a rectangle](perimeter-of-squares-in-a-rectangle)
+- [Pete, the baker](pete-the-baker)
 - [Pick peaks](pick-peaks)
 - [Primes in numbers](primes-in-numbers)
 - [Product of consecutive Fib numbers](product-of-consecutive-fib-numbers)
