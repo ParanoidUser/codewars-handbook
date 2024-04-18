@@ -39,6 +39,7 @@
 - [Maximum Contiguous Sum](maximum-contiguous-sum)
 - [Maximum subarray sum](maximum-subarray-sum)
 - [Mean Square Error](mean-square-error)
+- [Merged String Checker](merged-string-checker)
 # N
 - [Not very secure](not-very-secure)
 - [Number of trailing zeros of N!](number-of-trailing-zeros-of-n)
