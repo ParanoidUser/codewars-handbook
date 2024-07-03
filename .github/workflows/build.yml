@@ -66,20 +66,21 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Test project
+      - name: Setup Gradle
         uses: gradle/actions/setup-gradle@dbbdc275be76ac10734476cc723d82dfe7ec6eda # v3.4.2
         with:
           gradle-home-cache-cleanup: true
-          arguments: |
-            test jacocoTestReport -x processResources -x processTestResources
-            --parallel
-            --configuration-cache
-            --build-cache
-            --no-daemon
-            --scan
-            -DforkCount=${{ needs.fork.outputs.job_count }}
+
+      - name: Test project
+        run: |
+          ./gradlew test jacocoTestReport -x processResources -x processTestResources \
+            --parallel \
+            --configuration-cache \
+            --build-cache \
+            --no-daemon \
+            --scan \
+            -DforkCount=${{ needs.fork.outputs.job_count }} \
             -DforkSid=${{ matrix.job_sid }}
-            -Dsonar.gradle.skipCompile=true
 
       - name: Pack fork artifacts
         run: |
@@ -128,21 +129,23 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Analyze code quality
+      - name: Setup Gradle
         uses: gradle/actions/setup-gradle@dbbdc275be76ac10734476cc723d82dfe7ec6eda # v3.4.2
         with:
           gradle-home-cache-cleanup: true
           add-job-summary-as-pr-comment: always
-          arguments: |
-            sonar -x compileJava -x compileTestJava
-            --parallel
-            --configuration-cache
-            --build-cache
-            --no-daemon
-            --scan
-            -Pversion=${{ format('{0}+{1}', env.VERSION, github.RUN_NUMBER) }}
-            -Dsonar.host.url=https://sonarcloud.io
-            -Dsonar.token=${{ secrets.SONAR_TOKEN }}
-            -Dsonar.organization=${{ secrets.SONAR_KEY }}
-            -Dsonar.qualitygate.wait=true
+
+      - name: Analyze code quality
+        run: |
+          ./gradlew sonar -x compileJava -x compileTestJava \
+            --parallel \
+            --configuration-cache \
+            --build-cache \
+            --no-daemon \
+            --scan \
+            -Pversion=${{ format('{0}+{1}', env.VERSION, github.RUN_NUMBER) }} \
+            -Dsonar.host.url=https://sonarcloud.io \
+            -Dsonar.token=${{ secrets.SONAR_TOKEN }} \
+            -Dsonar.organization=${{ secrets.SONAR_KEY }} \
+            -Dsonar.qualitygate.wait=true \
             -Dsonar.gradle.skipCompile=true
