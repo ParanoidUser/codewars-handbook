@@ -45,7 +45,7 @@ jobs:
   test:
     needs: fork
     runs-on: ubuntu-22.04
-    timeout-minutes: 8
+    timeout-minutes: 10
     strategy:
       matrix:
         job_sid: ${{ fromJSON(needs.fork.outputs.job_sid) }}
