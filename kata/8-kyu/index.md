@@ -181,6 +181,7 @@
 - [Rock Paper Scissors!](rock-paper-scissors)
 # S
 - [Sentence Smash](sentence-smash)
+- [Short Long Short](short-long-short)
 - [Simple Fun #1: Seats in Theater](simple-fun-number-1-seats-in-theater)
 - [Simple multiplication](simple-multiplication)
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex)
