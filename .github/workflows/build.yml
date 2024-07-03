@@ -45,7 +45,7 @@ jobs:
   test:
     needs: fork
     runs-on: ubuntu-22.04
-    timeout-minutes: 10
+    timeout-minutes: 8
     strategy:
       matrix:
         job_sid: ${{ fromJSON(needs.fork.outputs.job_sid) }}
@@ -78,10 +78,10 @@ jobs:
           --configuration-cache
           --build-cache
           --no-daemon
+          --info
           --scan
           -DforkCount=${{ needs.fork.outputs.job_count }}
           -DforkSid=${{ matrix.job_sid }}
-          -Dsonar.gradle.skipCompile=true
 
       - name: Pack fork artifacts
         run: |
