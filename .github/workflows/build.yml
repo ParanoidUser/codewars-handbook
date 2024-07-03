@@ -73,15 +73,14 @@ jobs:
 
       - name: Test project
         run: |
-          ./gradlew test jacocoTestReport -x processResources -x processTestResources
-          --parallel
-          --configuration-cache
-          --build-cache
-          --no-daemon
-          --info
-          --scan
-          -DforkCount=${{ needs.fork.outputs.job_count }}
-          -DforkSid=${{ matrix.job_sid }}
+          ./gradlew test jacocoTestReport -x processResources -x processTestResources \
+            --parallel \
+            --configuration-cache \
+            --build-cache \
+            --no-daemon \
+            --scan \
+            -DforkCount=${{ needs.fork.outputs.job_count }} \
+            -DforkSid=${{ matrix.job_sid }}
 
       - name: Pack fork artifacts
         run: |
@@ -138,15 +137,15 @@ jobs:
 
       - name: Analyze code quality
         run: |
-          ./gradlew sonar -x compileJava -x compileTestJava
-          --parallel
-          --configuration-cache
-          --build-cache
-          --no-daemon
-          --scan
-          -Pversion=${{ format('{0}+{1}', env.VERSION, github.RUN_NUMBER) }}
-          -Dsonar.host.url=https://sonarcloud.io
-          -Dsonar.token=${{ secrets.SONAR_TOKEN }}
-          -Dsonar.organization=${{ secrets.SONAR_KEY }}
-          -Dsonar.qualitygate.wait=true
-          -Dsonar.gradle.skipCompile=true
+          ./gradlew sonar -x compileJava -x compileTestJava \
+            --parallel \
+            --configuration-cache \
+            --build-cache \
+            --no-daemon \
+            --scan \
+            -Pversion=${{ format('{0}+{1}', env.VERSION, github.RUN_NUMBER) }} \
+            -Dsonar.host.url=https://sonarcloud.io \
+            -Dsonar.token=${{ secrets.SONAR_TOKEN }} \
+            -Dsonar.organization=${{ secrets.SONAR_KEY }} \
+            -Dsonar.qualitygate.wait=true \
+            -Dsonar.gradle.skipCompile=true
