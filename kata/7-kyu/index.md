@@ -56,6 +56,7 @@
 - [Binary sXORe](binary-sxore)
 - [Bingo (Or Not)](bingo-or-not)
 - [Bits Battle](bits-battle)
+- [Blowing Birthday Candles](blowing-birthday-candles)
 - [Breaking chocolate problem](breaking-chocolate-problem)
 - [Broken sequence](broken-sequence)
 - [Bubblesort Once](bubblesort-once)
