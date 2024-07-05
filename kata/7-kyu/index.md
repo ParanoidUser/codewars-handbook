@@ -8,6 +8,7 @@
 - [80's Kids #3: Punky Brewster's Socks](80-s-kids-number-3-punky-brewsters-socks)
 - [80's Kids #5: You Can't Do That on Television](80-s-kids-number-5-you-cant-do-that-on-television)
 # A
+- [A Letter's Best Friend](a-letters-best-friend)
 - [A Man and his Earthly Measurement](a-man-and-his-earthly-measurement)
 - [A Rule of Divisibility by 7](a-rule-of-divisibility-by-7)
 - [Acronym Generator](acronym-generator)
