@@ -521,6 +521,7 @@
 - [Sum of odd numbers](sum-of-odd-numbers)
 - [Sum of the first nth term of Series](sum-of-the-first-nth-term-of-series)
 - [Sum of Triangular Numbers](sum-of-triangular-numbers)
+- [Sum of two lowest positive integers](sum-of-two-lowest-positive-integers)
 - [Summation Triangle #1](summation-triangle-number-1)
 - [Supernatural](supernatural)
 - [Survive the attack](survive-the-attack)
