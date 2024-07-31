@@ -305,6 +305,7 @@
 - [Lunar Mathematics: Addition](lunar-mathematics-addition)
 # M
 - [Make a function that does arithmetic!](make-a-function-that-does-arithmetic)
+- [Make Me Slow](make-me-slow)
 - [Make Backronym](makebackronym)
 - [Map over a list of lists](map-over-a-list-of-lists)
 - [Match My Husband](match-my-husband)
