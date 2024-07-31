@@ -3,7 +3,7 @@ interface Kata {
     try {
       Thread.sleep(7000);
     } catch (InterruptedException e) {
-      throw new RuntimeException(e);
+      Thread.currentThread().interrupt();
     }
   }
 }
