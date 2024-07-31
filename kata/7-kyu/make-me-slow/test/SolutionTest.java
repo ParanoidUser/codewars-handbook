@@ -7,7 +7,7 @@ class SolutionTest {
   void sample() {
     long elapsed = System.currentTimeMillis() + 7000;
     Kata.makeMeSlow();
-    assertTrue(System.currentTimeMillis() > elapsed);
+    assertTrue(System.currentTimeMillis() >= elapsed);
   }
 
   @Test
