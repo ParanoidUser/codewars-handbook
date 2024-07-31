@@ -215,6 +215,7 @@
 - [Geometry Basics: Triangle Perimeter in 2D](geometry-basics-triangle-perimeter-in-2d)
 - [Get the Middle Character](get-the-middle-character)
 - [Ghostbusters (whitespace removal)](ghostbusters-whitespace-removal)
+- [Go: Stone Scoring](go-stone-scoring)
 - [Going to the cinema](going-to-the-cinema)
 - [Greatest common divisor](greatest-common-divisor)
 - [Greatest Common Divisor Bitcount](greatest-common-divisor-bitcount)
