@@ -36,7 +36,7 @@ Kudos 🙌 to all community members around the world, your support is greatly ap
 will be recognized in
 the [release notes](https://github.com/ParanoidUser/codewars-handbook/releases) and pinned 📌 to
 the star map ⭐🌎.
-[![star map](https://github.com/user-attachments/assets/fd369b6e-9ae7-432e-a473-c90d0c4fb587)](https://www.fla-shop.com/visited-countries/?st=AR%2CBO%2CBR%2CBY%2CCA%2CCN%2CCO%2CEE%2CEG%2CES%2CFR%2CGB%2CGE%2CID%2CIN%2CJP%2CKE%2CLK%2CNG%2CPL%2CPT%2CRU%2CTH%2CTR%2CTW%2CUA%2CUS%2CVN&vc=6699cc&uc=e8e8e8&hc=40bfa6&bc=ffffff&ss=on)
+[![star map](https://github.com/user-attachments/assets/3cc11525-db34-48c2-9fa9-b812e7848ca1)](https://www.fla-shop.com/visited-countries/?st=AR%2CBD%2CBO%2CBR%2CBY%2CCA%2CCN%2CCO%2CEE%2CEG%2CES%2CFR%2CGB%2CGE%2CID%2CIN%2CJP%2CKE%2CLK%2CNG%2CPL%2CPT%2CRU%2CTH%2CTR%2CTW%2CUA%2CUS%2CVN&vc=6699cc&uc=e8e8e8&hc=40bfa6&bc=ffffff&ss=on)
 
 ## ⚠️ Disclaimer
 
