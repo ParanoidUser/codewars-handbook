@@ -1,8 +1,8 @@
 interface Kata {
-  static double maxWeddingCost(int C, double r, int S, double T, double W) {
+  static double maxWeddingCost(int c, double r, int s, double t, double w) {
     return 1 / (r /= 100) * Math.min(
-        C * Math.pow(r + 1, 12 * W) - C,
-       (C * Math.pow(r + 1, 12 * T) - C - S * r) * Math.pow(r + 1, 12 * (W - T))
+        c * Math.pow(r + 1, 12 * w) - c,
+       (c * Math.pow(r + 1, 12 * t) - c - s * r) * Math.pow(r + 1, 12 * (w - t))
     );
   }
 }
