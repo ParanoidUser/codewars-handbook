@@ -10,7 +10,7 @@ jobs:
   update-progress:
     runs-on: ubuntu-22.04
     timeout-minutes: 1
-    if: ${{ github.event.workflow_run.conclusion == 'success' && contains(github.event.workflow_run.head_commit.message, 'kata/') }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' && contains(github.event.workflow_run.head_branch, 'kata/') }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
