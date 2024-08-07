@@ -2,7 +2,7 @@ import static java.util.Map.entry;
 
 import java.util.Map;
 
-interface Helper {
+final class  Helper {
   Map<Character, String> NATO = Map.ofEntries(
     entry('A', "Alfa"),
       entry('B', "Bravo"),
@@ -31,4 +31,6 @@ interface Helper {
       entry('Y', "Yankee"),
       entry('Z', "Zulu")
   );
+
+  private Helper() {}
 }
