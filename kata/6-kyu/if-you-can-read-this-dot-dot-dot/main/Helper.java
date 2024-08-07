@@ -2,9 +2,9 @@ import static java.util.Map.entry;
 
 import java.util.Map;
 
-final class  Helper {
-  Map<Character, String> NATO = Map.ofEntries(
-    entry('A', "Alfa"),
+final class Helper {
+  static final Map<Character, String> NATO = Map.ofEntries(
+      entry('A', "Alfa"),
       entry('B', "Bravo"),
       entry('C', "Charlie"),
       entry('D', "Delta"),
