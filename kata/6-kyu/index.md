@@ -190,6 +190,7 @@
 - [HTML Complementary Color](html-complementary-color)
 - [HTML dynamic color string generation](html-dynamic-color-string-generation)
 # I
+- [If you can read this...](if-you-can-read-this-dot-dot-dot)
 - [Image host filename generator](image-host-filename-generator)
 - [Integer depth](integer-depth)
 - [Integers: Recreation Two](integers-recreation-two)
