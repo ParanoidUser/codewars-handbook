@@ -1,0 +1,44 @@
+name: Next Kata
+
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: Kata slug or ID.
+        required: true
+
+jobs:
+  next-kata:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 1
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+
+      - name: Create new branch
+        run: git checkout -b kata/${{ github.event.inputs.id }}
+
+      - name: Fetch description
+        run: |
+         JSON=$(curl -s "https://www.codewars.com/api/v1/code-challenges/${{ github.event.inputs.id }}")
+         NAME=$(echo "$JSON" | jq -r '.name')
+         SLUG=$(echo "$JSON" | jq -r '.slug')
+         URL=$(echo "$JSON" | jq -r '.url')
+         DESC=$(echo "$JSON" | jq -r '.description' | sed 's/\\n/\n/g')
+         RANK=$(echo "$JSON" | jq -r '.rank.name' | sed 's/ /-/g')
+         mkdir -p "./kata/$RANK/$SLUG"
+         {
+           echo "# [$NAME](https://www.codewars.com/kata/$SLUG \"$URL\")"
+           echo ""
+           echo "$DESC"
+         } > "./kata/$RANK/$SLUG/README.md"
+
+      - name: Commit changes
+        run: |
+          git config user.name "$(git log -n 1 --pretty=format:%an)"
+          git config user.email "$(git log -n 1 --pretty=format:%ae)"
+          git add -A
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "docs: kata description"
+            git push origin kata/${{ github.event.inputs.id }}
+          fi
