@@ -2,7 +2,7 @@
 
 Now you are a doctor.
 
-You are working with a patient's <b> body</b> which has many cells.
+You are working with a patient's **body** which has many cells.
 
 The patient's body is a matrix where every row represents a cell.
 
@@ -10,7 +10,7 @@ Each cell contains just uppercase and lowercase letters,
 
 and every cell in the body should be the same.
 
-Oh no! It seems that one of the cells have mutated!
+Oh, no! It seems that one of the cells have mutated!
 
 It is your job to locate the mutation so that the chemo specialists can fix it!
 
@@ -35,6 +35,6 @@ example:
     cellscellscellscodecodecells
     cellscellscellscodecodecells
     
-<ul>no bodies will have less than 3 cells.</ul>
+no bodies will have less than 3 cells.
 
-<ul>if the diagnose was a false alarm, return an empty array.</ul>
+if the diagnosis was a false alarm, return an empty array.
