@@ -85,6 +85,7 @@
 - [Connect the Dots](connect-the-dots)
 - [Consecutive strings](consecutive-strings)
 - [Consonant value](consonant-value)
+- [Conversion between Kilobyte and KibiByte](conversion-between-kilobyte-and-kibibyte)
 - [Convert integer to Whitespace format](convert-integer-to-whitespace-format)
 - [Convert ISBN-10 to ISBN-13](convert-isbn-10-to-isbn-13)
 - [Convert string to camel case](convert-string-to-camel-case)
@@ -98,6 +99,7 @@
 - [Crack the PIN](crack-the-pin)
 - [Create Phone Number](create-phone-number)
 - [Cuckoo Clock](cuckoo-clock)
+- [Cure Cancer](cure-cancer)
 # D
 - [Dashatize it](dashatize-it)
 - [Data compression using run-length encoding](data-compression-using-run-length-encoding)
