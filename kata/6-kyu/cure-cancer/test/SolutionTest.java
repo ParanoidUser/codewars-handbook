@@ -12,9 +12,9 @@ class SolutionTest {
         "WellAndHealthy".toCharArray()
     }));
 
-    assertArrayEquals(new int[]{0, 4}, JomoPipi.mutationLocation(new char[][]{
-        "thisssAsmallerPerson".toCharArray(),
+    assertArrayEquals(new int[]{1, 4}, JomoPipi.mutationLocation(new char[][]{
         "thisIsAsmallerPerson".toCharArray(),
+        "thisssAsmallerPerson".toCharArray(),
         "thisIsAsmallerPerson".toCharArray(),
         "thisIsAsmallerPerson".toCharArray()
     }));
