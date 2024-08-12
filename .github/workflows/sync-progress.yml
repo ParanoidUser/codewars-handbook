@@ -1,4 +1,4 @@
-name: Update Progress
+name: Sync Progress
 
 on:
   workflow_run:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   update-progress:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     timeout-minutes: 1
     if: ${{ github.event.workflow_run.conclusion == 'success' && contains(github.event.workflow_run.head_branch, 'kata/') }}
     steps:
