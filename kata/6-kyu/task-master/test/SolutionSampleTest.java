@@ -1,5 +1,4 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 import java.util.List;
@@ -29,7 +28,7 @@ class SolutionSampleTest {
   void negative() {
     assertEquals(2, Solution.taskMaster(List.of(
         () -> 2,
-        () -> { throw new Exception(); },
+        () -> { throw new InterruptedException(); },
         () -> 2
     )));
   }
