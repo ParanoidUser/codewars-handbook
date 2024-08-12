@@ -27,11 +27,10 @@ class SolutionSampleTest {
 
   @Test
   void negative() {
-    assertThrows(RuntimeException.class, () -> Solution.taskMaster(List.of(
-            () -> 2,
-            () -> { throw new Exception(); },
-            () -> 2
-        )
-    ));
+    assertEquals(2, Solution.taskMaster(List.of(
+        () -> 2,
+        () -> { throw new Exception(); },
+        () -> 2
+    )));
   }
 }

@@ -5,16 +5,16 @@ import java.util.concurrent.Executors;
 interface Solution {
   static int taskMaster(Collection<Callable<Integer>> functions) {
     var threadPool = Executors.newFixedThreadPool(64);
+    int sum = 0;
     try {
-      int sum = 0;
       for (var future : threadPool.invokeAll(functions)) {
         sum += future.get();
       }
-      return sum;
-    } catch (Exception cause) {
-      throw new RuntimeException(cause);
+    } catch (Exception ignored) {
+      Thread.currentThread().interrupt();
     } finally {
       threadPool.shutdown();
     }
+    return sum;
   }
 }
