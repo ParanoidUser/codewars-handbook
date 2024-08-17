@@ -1,44 +1,77 @@
 name: Train Kata
+run-name: Kata ${{ inputs.kata }}
 
 on:
   workflow_dispatch:
     inputs:
-      id:
-        description: Kata slug or ID.
+      kata:
+        description: Kata ID or slug.
         required: true
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
-  next-kata:
+  train-kata:
     runs-on: ubuntu-24.04
     timeout-minutes: 1
     steps:
+      - name: Fetch metadata
+        env:
+          KATA: ${{ inputs.kata }}
+        id: kata
+        run: |
+          JSON=$(curl -s "https://www.codewars.com/api/v1/code-challenges/$KATA")
+          echo "json=$JSON" >> $GITHUB_OUTPUT
+
       - name: Checkout repository
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
 
-      - name: Create new branch
-        run: git checkout -b kata/${{ github.event.inputs.id }}
-
-      - name: Fetch description
+      - name: Create README
+        env:
+          JSON: ${{ steps.kata.outputs.json }}
         run: |
-         JSON=$(curl -s "https://www.codewars.com/api/v1/code-challenges/${{ github.event.inputs.id }}")
-         NAME=$(echo "$JSON" | jq -r '.name')
-         SLUG=$(echo "$JSON" | jq -r '.slug')
-         URL=$(echo "$JSON" | jq -r '.url')
-         DESC=$(echo "$JSON" | jq -r '.description' | sed 's/\\n/\n/g')
-         RANK=$(echo "$JSON" | jq -r '.rank.name' | sed 's/ /-/g')
-         mkdir -p "./kata/$RANK/$SLUG"
-         {
-           echo "# [$NAME](https://www.codewars.com/kata/$SLUG \"$URL\")"
-           echo ""
-           echo "$DESC"
-         } > "./kata/$RANK/$SLUG/README.md"
+          RANK=$(echo $JSON | jq -r '.rank.name' | sed 's/ /-/g')
+          SLUG=$(echo $JSON | jq -r '.slug')
+          NAME=$(echo $JSON | jq -r '.name')
+          URL=$(echo $JSON | jq -r '.url')
+          DESC=$(echo $JSON | jq -r '.description' | sed 's/\\n/\n/g')
+          BASEDIR="./kata/$RANK/$SLUG"
+          mkdir -p "$BASEDIR"
+          {
+            echo "# [$NAME](https://www.codewars.com/kata/$SLUG \"$URL\")"
+            echo
+            echo "$DESC"
+          } > "$BASEDIR/README.md"
 
       - name: Commit changes
+        id: git
+        env:
+          JSON: ${{ steps.kata.outputs.json }}
         run: |
-          git config user.name "$(git log -n 1 --pretty=format:%an)"
-          git config user.email "$(git log -n 1 --pretty=format:%ae)"
+          ID=$(echo $JSON | jq -r '.id')
+          BRANCH="kata/$ID"
+          echo "branch=${BRANCH}" >> $GITHUB_OUTPUT
+          git checkout -b $BRANCH
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          if ! git diff-index --quiet HEAD; then
-            git commit -m "docs: kata description"
-            git push origin kata/${{ github.event.inputs.id }}
-          fi
+          git commit -m "docs: kata description"
+          git push --force origin $BRANCH
+
+      - name: Create pull request
+        env:
+          JSON: ${{ steps.kata.outputs.json }}
+          BRANCH: ${{ steps.git.outputs.branch }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          LABEL=$(echo $JSON | jq -r '.rank.name')
+          SLUG=$(echo $JSON | jq -r '.slug')
+          gh pr create \
+            --title "feat: kata/$SLUG" \
+            --body "" \
+            --draft \
+            --label "feature" \
+            --label "$LABEL" \
+            --head "$BRANCH"
