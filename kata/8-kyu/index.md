@@ -190,6 +190,7 @@
 - [Sort and Star](sort-and-star)
 - [Sort My Textbooks](sort-my-textbooks)
 - [Square(n) Sum](square-n-sum)
+- [String cleaning](string-cleaning)
 - [String repeat](string-repeat)
 - [String Templates - Bug Fixing #5](string-templates-bug-fixing-number-5)
 - [Stringy Strings](stringy-strings)
