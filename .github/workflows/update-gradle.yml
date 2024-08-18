@@ -1,0 +1,56 @@
+name: Gradle Wrapper Upgrade
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * *' # daily at 12:00
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-gradle-wrapper:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+
+      - name: Fetch wrapper version
+        run: |
+          URL=$(grep 'distributionUrl' "./gradle/wrapper/gradle-wrapper.properties")
+          echo "WRAPPER_VERSION=$(echo $URL | sed -n 's/.*gradle-\([0-9]*\.[0-9]*\)-\(bin\|all\)\.zip.*/\1/p')" >> $GITHUB_ENV
+
+      - name: Fetch latest version
+        run: |
+          JSON=$(curl -s "https://services.gradle.org/versions/current")
+          echo "LATEST_VERSION=$(echo $JSON | jq -r .version)" >> $GITHUB_ENV
+
+      - name: Update Gradle Wrapper
+        run: |
+          if [ ${{ env.WRAPPER_VERSION }} != ${{ env.LATEST_VERSION }} ]; then
+            ./gradlew wrapper --gradle-version=${{ env.LATEST_VERSION }}
+            echo "WRAPPER_UPDATED=true" >> $GITHUB_ENV
+          fi
+
+      - name: Commit changes
+        if: ${{ env.WRAPPER_UPDATED }}
+        run: |
+          BRANCH="gradle-${{ env.LATEST_VERSION }}"
+          echo "BRANCH=$BRANCH" >> $GITHUB_ENV
+          git checkout -b $BRANCH
+          git config user.name "dependabot[bot]"
+          git config user.email "49699333+dependabot[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "build: bump gradle from ${{ env.WRAPPER_VERSION }} to ${{ env.LATEST_VERSION }}"
+          git push --force origin $BRANCH
+
+      - name: Create pull request
+        if: ${{ env.WRAPPER_UPDATED }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if ! (( $(gh pr list --state open --head ${{ env.BRANCH }} --json number --jq length) )); then
+            gh pr create --fill-first --label "chore" --head ${{ env.BRANCH }}
+          fi
