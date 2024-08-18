@@ -1,30 +1,33 @@
 name: Sync Progress
 
-on:
-  workflow_run:
-    workflows: [ Build CI ]
-    branches-ignore: [ main ]
-    types: [ completed ]
+on: [ workflow_dispatch ]
 
 jobs:
-  update-progress:
+  sync-progress:
     runs-on: ubuntu-24.04
     timeout-minutes: 1
-    if: ${{ github.event.workflow_run.conclusion == 'success' && contains(github.event.workflow_run.head_branch, 'kata/') }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
-        with:
-          fetch-depth: 0
-          ref: ${{ github.event.workflow_run.head_branch }}
 
-      - name: Update README progress
+      - name: Sync kata progress
+        id: sync
         run: |
           TOTAL=$(curl https://www.codewars.com/kata/search/java | grep -Eo ".{5} Kata Found" | sed "s/[Kat Found,]//g")
+          echo "total=$TOTAL" >> $GITHUB_OUTPUT
           COMPLETED=$(find ./kata -mindepth 2 -maxdepth 2 -not -empty -type d -not -path "./kata/retired/*" | wc -l)
+          echo "completed=$COMPLETED" >> $GITHUB_OUTPUT
           PROGRESS=$(bc <<< "scale=1 ; 100 * $COMPLETED / $TOTAL")
-          sed -i -r "s/(completed%20kata-).*(%25-red.svg)/\1$PROGRESS\2/g" ./docs/README.md
+          echo "progress=$PROGRESS" >> $GITHUB_OUTPUT
           echo "🎉 Current progress $PROGRESS% ($COMPLETED out of $TOTAL)" >> $GITHUB_STEP_SUMMARY
+
+      - name: Update README progress
+        env:
+          TOTAL: ${{ steps.sync.outputs.total }}
+          COMPLETED: ${{ steps.sync.outputs.completed }}
+          PROGRESS: ${{ steps.sync.outputs.progress }}
+        run: |
+          sed -i -r "s/(completed%20kata-).*(%25-red.svg)/\1$PROGRESS\2/g" ./docs/README.md
 
       - name: Update README statistics
         run: |
