@@ -43,7 +43,9 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
           git add -A
-          git commit -m "build: bump gradle from ${{ env.WRAPPER_VERSION }} to ${{ env.LATEST_VERSION }}"
+          git commit -m "build: bump gradle from ${{ env.WRAPPER_VERSION }} to ${{ env.LATEST_VERSION }}
+          
+          https://docs.gradle.org/${{ env.LATEST_VERSION }}/release-notes.html"
           git push --force origin $BRANCH
 
       - name: Create pull request
