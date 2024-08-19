@@ -106,6 +106,7 @@
 - [Grasshopper - Personalized Message](grasshopper-personalized-message)
 - [Grasshopper - Summation](grasshopper-summation)
 - [Grasshopper - Terminal game move function](grasshopper-terminal-game-move-function)
+- [Grasshopper - Terminal Game #1](grasshopper-terminal-game-number-1)
 - [Gravity Flip](gravity-flip)
 # H
 - [Hex to Decimal](hex-to-decimal)
