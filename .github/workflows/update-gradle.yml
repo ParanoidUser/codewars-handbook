@@ -40,8 +40,8 @@ jobs:
           BRANCH="gradle-${{ env.LATEST_VERSION }}"
           echo "BRANCH=$BRANCH" >> $GITHUB_ENV
           git checkout -b $BRANCH
-          git config user.name "dependabot[bot]"
-          git config user.email "49699333+dependabot[bot]@users.noreply.github.com"
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
           git add -A
           git commit -m "build: bump gradle from ${{ env.WRAPPER_VERSION }} to ${{ env.LATEST_VERSION }}"
           git push --force origin $BRANCH
