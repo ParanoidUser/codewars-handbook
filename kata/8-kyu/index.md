@@ -95,6 +95,7 @@
 - [Get Planet Name By ID](get-planet-name-by-id)
 - [Get the mean of an array](get-the-mean-of-an-array)
 - [Ghost code?!](ghost-code)
+- [Grader](grader)
 - [Grasshopper - Array Mean](grasshopper-array-mean)
 - [Grasshopper - Basic Function Fixer](grasshopper-basic-function-fixer)
 - [Grasshopper - Check for factor](grasshopper-check-for-factor)
