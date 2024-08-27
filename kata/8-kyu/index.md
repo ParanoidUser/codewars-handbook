@@ -171,6 +171,7 @@
 - [Quarter of the year](quarter-of-the-year)
 # R
 - [Regexp Basics - is it a digit?](regexp-basics-is-it-a-digit)
+- [Remove duplicates from list](remove-duplicates-from-list)
 - [Remove exclamation marks](remove-exclamation-marks)
 - [Remove First and Last Character](remove-first-and-last-character)
 - [Remove String Spaces](remove-string-spaces)
