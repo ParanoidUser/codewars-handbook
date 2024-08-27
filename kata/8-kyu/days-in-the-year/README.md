@@ -10,9 +10,9 @@ Input: year = 2000 ==> returns "2000 has 366 days"
 
 There are a few assumptions we will accept the year 0, even though there is no year 0 in the Gregorian Calendar.
 
-Also the basic rule for validating a leap year are as follows
+Also, the basic rule for validating a leap year are as follows
 
-Most years that can be divided evenly by 4 are leap years. 
+Most years that can be divided evenly by 4 are leap years.
 
 Exception: Century years are NOT leap years UNLESS they can be evenly divided by 400.
 
