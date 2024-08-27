@@ -65,6 +65,7 @@
 - [Enumerable Magic #1 - True for All?](enumerable-magic-number-1-true-for-all)
 - [Enumerable Magic #25 - Take the First N Elements](enumerable-magic-number-25-take-the-first-n-elements)
 - [Even or Odd](even-or-odd)
+- [Exclamation marks series #4: Remove all exclamation marks from sentence but ensure an exclamation mark at the end of string](exclamation-marks-series-number-4-remove-all-exclamation-marks-from-sentence-but-ensure-a-exclamation-mark-at-the-end-of-string)
 - [Exclamation marks series #11: Replace all vowel to exclamation mark in the sentence](exclamation-marks-series-number-11-replace-all-vowel-to-exclamation-mark-in-the-sentence)
 - [Exclamation marks series #6: Remove n exclamation marks in the sentence from left to right](exclamation-marks-series-number-6-remove-n-exclamation-marks-in-the-sentence-from-left-to-right)
 - [Exclusive "or" (xor) Logical Operator](exclusive-or-xor-logical-operator)
