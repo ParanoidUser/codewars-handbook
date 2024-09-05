@@ -240,6 +240,7 @@
 - [Heron's formula](herons-formula-1)
 - [Hide password from jdbc url](hide-password-from-jdbc-url)
 - [Highest and Lowest](highest-and-lowest)
+- [Highest Value Pyramid](highest-value-pyramid)
 - [Histogram - H1](histogram-h1)
 - [Histogram - H2](histogram-h2)
 - [Holiday III - Fire on the boat](holiday-iii-fire-on-the-boat)
