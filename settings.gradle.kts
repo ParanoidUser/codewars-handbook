@@ -30,7 +30,9 @@ plugins {
 
 develocity {
     buildScan {
-        if (!System.getenv("CI").isNullOrEmpty()) {
+        if (System.getenv("CI").isNullOrEmpty()) {
+            publishing.onlyIf { false } // Publish only when '--scan' flag is set
+        } else {
             termsOfUseUrl = "https://gradle.com/help/legal-terms-of-use"
             termsOfUseAgree = "yes"
         }
