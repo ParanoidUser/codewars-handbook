@@ -2,7 +2,8 @@
 
 Given an array of integers of any length, return an array that has 1 added to the value represented by the array.
 
-If the array is invalid (empty, or contains negative integers or integers with more than 1 digit), return `nil` (or your language's equivalent).
+If the array is invalid (empty, or contains negative integers or integers with more than 1 digit), return `nil` (or your language's
+equivalent).
 
 ### Examples
 
