@@ -275,6 +275,7 @@
 - [Playing on a chessboard](playing-on-a-chessboard)
 - [Playing with digits](playing-with-digits)
 - [Playing with passphrases](playing-with-passphrases)
+- [+1 Array](plus-1-array)
 - [Points in the circle](points-in-the-circle)
 - [Polybius square cipher - encode](polybius-square-cipher-encode)
 - [Positions Average](positions-average)
