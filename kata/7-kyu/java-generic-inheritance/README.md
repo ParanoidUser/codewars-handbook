@@ -3,7 +3,7 @@
 I am creating a class hierarchy of geometrical `Shape`s. This is my base class:
 ```java
 abstract class Shape {
- public abstract double getArea();
+  public abstract double getArea();
 }
 ```
 
@@ -11,14 +11,15 @@ And this is a circle:
 
 ```java
 class Circle extends Shape {
- public final double radius;
- public Circle(double radius) {
- this.radius = radius;
- }
- @Override
- public double getArea() {
- return Math.PI LICENSE build.gradle.kts docs gradle gradle.properties gradlew gradlew.bat kata settings.gradle.kts radius LICENSE build.gradle.kts docs gradle gradle.properties gradlew gradlew.bat kata settings.gradle.kts radius;
- }
+  public final double radius;
+  public Circle(double radius) {
+    this.radius = radius;
+  }
+
+  @Override
+  public double getArea() {
+    return Math.PI * radius * radius;
+  }
 }
 ```
 
@@ -26,13 +27,13 @@ There are other shapes, like `Rectangle`s, `Square`s, etc.
 
 ___
 
-I also wrote an utility class `ShapeUtilities`. One of those utilities is a function that computes the total area of a list of shapes:
+I also wrote a utility class `ShapeUtilities`. One of those utilities is a function that computes the total area of a list of shapes:
 ```java
 public static double sumAllAreas(List<Shape> shapes) {
- double totalArea = 0.0;
- for (Shape shape : shapes)
- totalArea += shape.getArea();
- return totalArea;
+  double totalArea = 0.0;
+  for (Shape shape : shapes)
+    totalArea += shape.getArea();
+  return totalArea;
 }
 ```
 
@@ -51,4 +52,4 @@ double totalArea = ShapeUtilities.sumAllAreas(circles); // compilation error !
 
 ___
 
-Can you fix the code so that `sumAllAreas()` works with `Shape` and all its subtypes ?
+Can you fix the code so that `sumAllAreas()` works with `Shape` and all its subtypes?

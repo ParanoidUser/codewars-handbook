@@ -279,6 +279,7 @@
 - [Java Functional Programming (Part 1: The Beginning)](java-functional-programming-part-1-the-beginning)
 - [Java Functional Programming (Part 2: Multiline Functions)](java-functional-programming-part-2-multiline-functions)
 - [Java Functional Programming (Part 3: Closured for Business)](java-functional-programming-part-3-closured-for-business)
+- [Java: Generic Inheritance](java-generic-inheritance)
 - [Jumping Number (Special Numbers Series #4)](jumping-number-special-numbers-series-number-4)
 # K
 - [Keypad horror](keypad-horror)
