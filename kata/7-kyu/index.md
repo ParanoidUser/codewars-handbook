@@ -368,6 +368,7 @@
 - [O's and X's adjudicator](os-and-xs-adjudicator)
 - [Odd March Bits 8 bits](odd-march-bits-8-bits-1)
 - [Odd or Even?](odd-or-even)
+- [Odder Than the Rest](odder-than-the-rest)
 - [Odd-Even String Sort](odd-even-string-sort)
 - [Ones and Zeros](ones-and-zeros)
 - [Ordered Count of Characters](ordered-count-of-characters)
