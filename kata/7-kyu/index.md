@@ -63,6 +63,7 @@
 - [Breaking chocolate problem](breaking-chocolate-problem)
 - [Broken sequence](broken-sequence)
 - [Bubblesort Once](bubblesort-once)
+- [[BUG] XCOM-241: Genome mapper freezes](bug-xcom-241-genome-mapper-freezes)
 - [Build a square](build-a-square)
 - [Building blocks](building-blocks)
 - [Bulls and Cows](bulls-and-cows)
