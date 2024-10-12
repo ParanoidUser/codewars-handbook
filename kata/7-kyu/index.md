@@ -256,6 +256,7 @@
 - [How many arguments](how-many-arguments)
 - [How many consecutive numbers are needed?](how-many-consecutive-numbers-are-needed)
 - [How many days are we represented in a foreign country?](how-many-days-are-we-represented-in-a-foreign-country)
+- [How Many Streets?](how-many-streets)
 - [How many urinals are free?](how-many-urinals-are-free)
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy)
 - [Hëävÿ Mëtäl Ümläüts](heavy-metal-umlauts)
