@@ -187,6 +187,7 @@
 - [Find the smallest power higher than a given a value](find-the-smallest-power-higher-than-a-given-a-value)
 - [Find the Squares](find-the-squares)
 - [Find the stray number](find-the-stray-number)
+- [Find the sum of the roots of a quadratic equation](find-the-sum-of-the-roots-of-a-quadratic-equation)
 - [Find your caterer](find-your-caterer)
 - [Finding queens on the board](finding-queens-on-the-board)
 - [Finding Remainder Without Using '%' Operator](finding-remainder-without-using-percent-operator)
