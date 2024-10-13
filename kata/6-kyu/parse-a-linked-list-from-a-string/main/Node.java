@@ -1,20 +1,9 @@
-record Node(int data, Node next) {
-  Node(int data) {
-    this(data, null);
-  }
+import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
-  @Override
-  public boolean equals(Object other) {
-    return other instanceof Node && toString().equals(other.toString());
-  }
-
-  @Override
-  public int hashCode() {
-    return toString().hashCode();
-  }
-
-  @Override
-  public String toString() {
-    return data + " -> " + next;
-  }
+@AllArgsConstructor
+@RequiredArgsConstructor
+class Node {
+  final int data;
+  Node next;
 }
