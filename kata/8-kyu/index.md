@@ -231,6 +231,7 @@
 - [Volume of a Cuboid](volume-of-a-cuboid)
 - [Vowel remover](vowel-remover)
 # W
+- [Weird Java Array](weird-java-array)
 - [Welcome to the City](welcome-to-the-city)
 - [Welcome!](welcome)
 - [Well of Ideas - Easy Version](well-of-ideas-easy-version)
