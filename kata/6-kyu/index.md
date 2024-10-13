@@ -255,6 +255,7 @@
 - [Page replacement algorithms: LRU](page-replacement-algorithms-lru)
 - [Pair of gloves](pair-of-gloves)
 - [Parabolic Arc Length](parabolic-arc-length)
+- [Parse a linked list from a string](parse-a-linked-list-from-a-string)
 - [Parse bank account number](parse-bank-account-number)
 - [Parse HTML/CSS Colors](parse-html-slash-css-colors)
 - [Pascal's Triangle](pascals-triangle)
