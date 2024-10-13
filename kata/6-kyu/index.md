@@ -398,6 +398,7 @@
 - [The Deaf Rats of Hamelin (2D)](the-deaf-rats-of-hamelin-2d)
 - [The difference between 11 and 21 in Ping-Pong](the-difference-between-11-and-21-in-ping-pong)
 - [The Enigma Machine - Part 1: The Plugboard](the-enigma-machine-part-1-the-plugboard)
+- [The latest clock](the-latest-clock)
 - [The lost beginning](the-lost-beginning)
 - [The Modulo-3 Sequence](the-modulo-3-sequence)
 - [The Office V - Find a Chair](the-office-v-find-a-chair)
