@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class PhotoManager {
+class PhotoManager {
   private final Set<String> names = new HashSet<>();
 
   boolean nameExists(String name) {

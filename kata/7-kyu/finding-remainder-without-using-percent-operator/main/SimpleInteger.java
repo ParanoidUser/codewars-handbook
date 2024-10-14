@@ -1,7 +1,7 @@
-public final class SimpleInteger implements Comparable<SimpleInteger> {
+final class SimpleInteger implements Comparable<SimpleInteger> {
   private final int value;
 
-  public SimpleInteger(int val) {
+  SimpleInteger(int val) {
     value = val;
   }
 

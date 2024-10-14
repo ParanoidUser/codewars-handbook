@@ -5,8 +5,7 @@ import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
-public class ScoreBoard {
-
+class ScoreBoard {
   private static final Map<Character, Integer> SCORE = Map.ofEntries(
       entry('E', 1),
       entry('A', 1),
@@ -36,7 +35,7 @@ public class ScoreBoard {
       entry('Z', 10)
   );
 
-  public static int getScore(char c) {
+  static int getScore(char c) {
     return SCORE.get(c);
   }
 }
