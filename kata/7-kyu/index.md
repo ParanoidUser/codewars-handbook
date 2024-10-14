@@ -499,7 +499,6 @@
 - [Sort the Gift Code](sort-the-gift-code)
 - [Sorted? yes? no? how?](sorted-yes-no-how)
 - [Sorting the Odd way!](sorting-the-odd-way)
-- [Spacify](spacify)
 - [Special Number (Special Numbers Series #5)](special-number-special-numbers-series-number-5)
 - [Speed Control](speed-control)
 - [Speed Limit](speed-limit)

@@ -50,10 +50,10 @@
 - [Count Odd Numbers below n](count-odd-numbers-below-n)
 - [Count of positives / sum of negatives](count-of-positives-slash-sum-of-negatives)
 - [Count the Monkeys!](count-the-monkeys)
+- [Counting Characters](counting-characters)
 - [Counting sheep...](counting-sheep-dot-dot-dot)
 - [CSV representation of array](csv-representation-of-array)
 # D
-- [Days in the year](days-in-the-year)
 - [Determine offspring sex based on genes XX and XY chromosomes](determine-offspring-sex-based-on-genes-xx-and-xy-chromosomes)
 - [Did she say hallo?](did-she-say-hallo)
 - [Difference of Volumes of Cuboids](difference-of-volumes-of-cuboids)

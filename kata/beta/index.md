@@ -8,13 +8,11 @@
 - [Brackets Checker](brackets-checker)
 # C
 - [CaMeLcAsInG](camelcasing)
-- [Center of Array](center-of-array)
 - [Change for pizza](change-for-pizza)
 - [Check the tire pressure](check-the-tire-pressure)
 - [Consecutive Sum](consecutive-sum)
 - [Convert natural number to its binary representation](convert-natural-number-to-its-binary-representation)
 - [Count the likes](count-the-likes)
-- [Counting Characters](counting-characters)
 # D
 - [Decoding a logic transmission](decoding-a-logic-transmission)
 - [Divisible by 9?](divisible-by-9)

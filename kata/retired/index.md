@@ -12,6 +12,7 @@
 # C
 - [Calculator](calculator)
 - [Carbon Dating](carbon-dating)
+- [Center of Array](center-of-array)
 - [Checking Groups](checking-groups)
 - [Collatz conjecture counter for big numbers](collatz-conjecture-counter-for-big-numbers)
 - [Convert your name to Japanese! (Game)](convert-your-name-to-japanese-game)
@@ -20,6 +21,7 @@
 - [Counting power sets](counting-power-sets)
 - [CubeSummation](cubesummation)
 # D
+- [Days in the year](days-in-the-year)
 - [Dubstep](dubstep)
 # F
 - [Filter Map Sort Practice](filter-map-sort-practice)
@@ -70,6 +72,7 @@
 - [Signal Generator](signal-generator)
 - [Simple transposition](simple-transposition)
 - [Simplified Nim - AI](simplified-nim-ai)
+- [Spacify](spacify)
 - [Squash the bugs](squash-the-bugs)
 - [Stop Donald Trump (2015)](stop-donald-trump-2015)
 - [String Product](string-product)
