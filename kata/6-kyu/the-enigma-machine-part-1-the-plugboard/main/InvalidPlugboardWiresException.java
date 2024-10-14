@@ -1,3 +1,2 @@
-public class InvalidPlugboardWiresException extends Exception
-{
+class InvalidPlugboardWiresException extends Exception {
 }

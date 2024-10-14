@@ -1,4 +1,4 @@
-public final class ThreadUtil {
+final class ThreadUtil {
 
   private ThreadUtil() {}
 

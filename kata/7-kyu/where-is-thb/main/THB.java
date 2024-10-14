@@ -1,5 +1,5 @@
 class THB {
-  String testing(String initial) {
+  static String testing(String initial) {
     return initial != null ? initial.replaceAll("[^tThHbB]", "") : "";
   }
 }

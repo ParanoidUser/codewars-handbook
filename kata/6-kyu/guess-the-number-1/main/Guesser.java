@@ -1,4 +1,4 @@
-public class Guesser {
+class Guesser {
   private int guesses = 0;
   private Integer num;
 
@@ -33,7 +33,7 @@ public class Guesser {
   }
 
   @SuppressWarnings("serial")
-  public static class GameException extends RuntimeException {
+  static class GameException extends RuntimeException {
     public GameException(String msg) {
       super(msg);
     }

@@ -25,12 +25,12 @@ class SampleTest {
     var cipher = """
         Ndaj xmdjy cse xyrys qycjx cvd daj ncikyjx ljdavki ndjik ds ikpx mdsipsysi, c syo scipds, mdsmyprye
         ps fplyjiq, cse eyepmciye id iky bjdbdxpipds ikci cff hys cjy mjyciye yuacf.
-                
+        
         Sdo oy cjy ysvcvye ps c vjyci mprpf ocj, iyxipsv okyikyj ikci scipds, dj csq scipds xd mdsmyprye cse
         xd eyepmciye, mcs fdsv yseajy. Oy cjy hyi ds c vjyci lciifynpyfe dn ikci ocj. Oy kcry mdhy id
         eyepmciy c bdjipds dn ikci npyfe, cx c npscf jyxipsv bfcmy ndj ikdxy okd kyjy vcry ikypj fpryx ikci
         ikci scipds hpvki fpry. Pi px cfidvyikyj npiipsv cse bjdbyj ikci oy xkdafe ed ikpx.
-                
+        
         Lai ps c fcjvyj xysxy, oy mcssdi eyepmciy – oy mcssdi mdsxymjciy – oy mcssdi kcffdo – ikpx vjdase.
         Iky ljcry hys, fprpsv cse eyce, okd xijavvfye kyjy, kcry mdsxymjciye pi, ncj cldry daj bddj bdoyj id
         cee dj eyijcmi. Iky odjfe opff fpiify sdiy, sdj fdsv jyhyhlyj, okci oy xcq kyjy, lai pi mcs syryj
@@ -52,23 +52,23 @@ class SampleTest {
     var cipher = """
         Sqpvazpkm Samcpq, Oq. Hanp Sqpvazpkm, Gwhpqkwq, Nwkgqpvvojk Muwojv, Vpkjmwq Xafpi, jkz Nwkgqpvvojk
         Oaffpq, Oq. Xpdd, Oq. Dpff, vnapkmavmv, zavmakgyavupz gypvmv, jkz fjzapv jkz gpkmfpopk:
-            
+        
         A jssqpnajmp iwyq sqpvazpkm ujhakg ojzp op jk uwkwqjqi havamakg sqwbpvvwq, jkz A xaff jvvyqp iwy
         mujm oi baqvm fpnmyqp xaff dp hpqi dqapb.
-            
+        
         A jo zpfagumpz mw dp upqp jkz A’o sjqmanyfjqfi zpfagumpz mw dp upqp wk muav wnnjvawk.
-            
+        
         Xp oppm jm j nwffpgp kwmpz bwq ekwxfpzgp, ak j nami kwmpz bwq sqwgqpvv, ak j vmjmp kwmpz bwq
         vmqpkgmu, jkz xp vmjkz ak kppz wb jff muqpp, bwq xp oppm ak jk uwyq wb nujkgp jkz nujffpkgp, ak j
         zpnjzp wb uwsp jkz bpjq, ak jk jgp wb dwmu ekwxfpzgp jkz agkwqjknp. Mup gqpjmpq wyq ekwxfpzgp
         aknqpjvpv, mup gqpjmpq wyq agkwqjknp ykbwfzv.
-            
+        
         Zpvsamp mup vmqaeakg bjnm mujm owvm wb mup vnapkmavmv mujm mup xwqfz ujv phpq ekwxk jqp jfahp jkz
         xwqeakg mwzji, zpvsamp mup bjnm mujm muav Kjmawk’v wxk vnapkmaban ojkswxpq av zwydfakg phpqi 99
         ipjqv ak j qjmp wb gqwxmu owqp mujk muqpp maopv mujm wb wyq swsyfjmawk jv j xuwfp, zpvsamp mujm, mup
         hjvm vmqpmnupv wb mup ykekwxk jkz mup ykjkvxpqpz jkz mup ykbakavupz vmaff bjq wymvmqas wyq
         nwffpnmahp nwosqpupkvawk.
-            
+        
         Kw ojk njk byffi gqjvs uwx bjq jkz uwx bjvm xp ujhp nwop, dym nwkzpkvp, ab iwy xaff, mup 99,999
         ipjqv wb ojk’v qpnwqzpz uavmwqi ak j maop vsjk wb dym j ujfb-npkmyqi. Vmjmpz ak mupvp mpqov, xp ekwx
         hpqi fammfp jdwym mup baqvm 99 ipjqv, ptnpsm jm mup pkz wb mupo jzhjknpz ojk ujz fpjqkpz mw yvp mup
@@ -80,26 +80,26 @@ class SampleTest {
         mpfpsuwkpv jkz jymwowdafpv jkz jaqsfjkpv dpnjop jhjafjdfp. Wkfi fjvm xppe zaz xp zphpfws spkanaffak
         jkz mpfphavawk jkz kynfpjq swxpq, jkz kwx ab Jopqanj’v kpx vsjnpnqjbm vynnppzv ak qpjnuakg Hpkyv, xp
         xaff ujhp fampqjffi qpjnupz mup vmjqv dpbwqp oazkagum mwkagum.
-            
+        
         Muav av j dqpjmumjeakg sjnp, jkz vynu j sjnp njkkwm upfs dym nqpjmp kpx affv jv am zavspfv wfz, kpx
         agkwqjknp, kpx sqwdfpov, kpx zjkgpqv. Vyqpfi mup wspkakg havmjv wb vsjnp sqwoavp uagu nwvmv jkz
         ujqzvuasv, jv xpff jv uagu qpxjqz.
-            
+        
         Vw am av kwm vyqsqavakg mujm vwop xwyfz ujhp yv vmji xupqp xp jqp j fammfp fwkgpq mw qpvm, mw xjam.
         Dym muav nami wb Uwyvmwk, muav vmjmp wb Mptjv, muav nwykmqi wb mup Ykampz Vmjmpv xjv kwm dyafm di
         muwvp xuw xjampz jkz qpvmpz jkz xavupz mw fwwe dpuakz mupo. Muav nwykmqi xjv nwkrypqpz di muwvp xuw
         owhpz bwqxjqz–jkz vw xaff vsjnp.
-            
+        
         Xaffajo Dqjzbwqz, vspjeakg ak 9999 wb mup bwykzakg wb mup Sfiowymu Dji Nwfwki, vjaz mujm jff gqpjm
         jkz uwkwqjdfp jnmawkv jqp jnnwosjkapz xamu gqpjm zabbanyfmapv, jkz dwmu oyvm dp pkmpqsqavpz jkz
         whpqnwop xamu jkvxpqjdfp nwyqjgp.
-            
+        
         Ab muav njsvyfp uavmwqi wb wyq sqwgqpvv mpjnupv yv jkimuakg, am av mujm ojk, ak uav rypvm bwq
         ekwxfpzgp jkz sqwgqpvv, av zpmpqoakpz jkz njkkwm dp zpmpqqpz. Mup ptsfwqjmawk wb vsjnp xaff gw
         jupjz, xupmupq xp lwak ak am wq kwm, jkz am av wkp wb mup gqpjm jzhpkmyqpv wb jff maop, jkz kw
         kjmawk xuanu ptspnmv mw dp mup fpjzpq wb wmupq kjmawkv njk ptspnm mw vmji dpuakz ak muav qjnp bwq
         vsjnp.
-            
+        
         Muwvp xuw njop dpbwqp yv ojzp npqmjak mujm muav nwykmqi qwzp mup baqvm xjhpv wb mup akzyvmqajf
         qphwfymawk, mup baqvm xjhpv wb owzpqk akhpkmawk, jkz mup baqvm xjhp wb kynfpjq swxpq, jkz muav
         gpkpqjmawk zwpv kwm akmpkz mw bwykzpq ak mup djnexjvu wb mup nwoakg jgp wb vsjnp. Xp opjk mw dp j
@@ -107,13 +107,13 @@ class SampleTest {
         sfjkpmv dpiwkz, jkz xp ujhp hwxpz mujm xp vujff kwm vpp am gwhpqkpz di j uwvmafp bfjg wb nwkrypvm,
         dym di j djkkpq wb bqppzwo jkz spjnp. Xp ujhp hwxpz mujm xp vujff kwm vpp vsjnp baffpz xamu xpjswkv
         wb ojvv zpvmqynmawk, dym xamu akvmqyopkmv wb ekwxfpzgp jkz ykzpqvmjkzakg.
-            
+        
         Ipm mup hwxv wb muav Kjmawk njk wkfi dp byfbaffpz ab xp ak muav Kjmawk jqp baqvm, jkz, mupqpbwqp, xp
         akmpkz mw dp baqvm. Ak vuwqm, wyq fpjzpqvuas ak vnapknp jkz akzyvmqi, wyq uwspv bwq spjnp jkz
         vpnyqami, wyq wdfagjmawkv mw wyqvpfhpv jv xpff jv wmupqv, jff qpryaqp yv mw ojep muav pbbwqm, mw
         vwfhp mupvp oivmpqapv, mw vwfhp mupo bwq mup gwwz wb jff opk, jkz mw dpnwop mup xwqfz’v fpjzakg
         vsjnp-bjqakg kjmawk.
-            
+        
         Xp vpm vjaf wk muav kpx vpj dpnjyvp mupqp av kpx ekwxfpzgp mw dp gjakpz, jkz kpx qagumv mw dp xwk,
         jkz mupi oyvm dp xwk jkz yvpz bwq mup sqwgqpvv wb jff spwsfp. Bwq vsjnp vnapknp, faep kynfpjq
         vnapknp jkz jff mpnukwfwgi, ujv kw nwkvnapknp wb amv wxk. Xupmupq am xaff dpnwop j bwqnp bwq gwwz wq
@@ -123,22 +123,22 @@ class SampleTest {
         yksqwmpnmpz jgjakvm mup uwvmafp yvp wb fjkz wq vpj, dym A zw vji mujm vsjnp njk dp ptsfwqpz jkz
         ojvmpqpz xamuwym bppzakg mup baqpv wb xjq, xamuwym qpspjmakg mup oavmjepv mujm ojk ujv ojzp ak
         ptmpkzakg uav xqam jqwykz muav gfwdp wb wyqv.
-            
+        
         Mupqp av kw vmqabp, kw sqplyzanp, kw kjmawkjf nwkbfanm ak wympq vsjnp jv ipm. Amv ujcjqzv jqp
         uwvmafp mw yv jff. Amv nwkrypvm zpvpqhpv mup dpvm wb jff ojkeakz, jkz amv wsswqmykami bwq spjnpbyf
         nwwspqjmawk ojki kphpq nwop jgjak. Dym xui, vwop vji, mup owwk? Xui nuwwvp muav jv wyq gwjf? Jkz
         mupi oji xpff jve xui nfaod mup uagupvm owykmjak? Xui, 99 ipjqv jgw, bfi mup Jmfjkman? Xui zwpv Qanp
         sfji Mptjv?
-            
+        
         Xp nuwwvp mw gw mw mup owwk. Xp nuwwvp mw gw mw mup owwk ak muav zpnjzp jkz zw mup wmupq muakgv, kwm
         dpnjyvp mupi jqp pjvi, dym dpnjyvp mupi jqp ujqz, dpnjyvp mujm gwjf xaff vpqhp mw wqgjkacp jkz
         opjvyqp mup dpvm wb wyq pkpqgapv jkz veaffv, dpnjyvp mujm nujffpkgp av wkp mujm xp jqp xaffakg mw
         jnnpsm, wkp xp jqp ykxaffakg mw swvmswkp, jkz wkp xuanu xp akmpkz mw xak, jkz mup wmupqv, mww.
-            
+        
         Am av bwq mupvp qpjvwkv mujm A qpgjqz mup zpnavawk fjvm ipjq mw vuabm wyq pbbwqmv ak vsjnp bqwo fwx
         mw uagu gpjq jv jowkg mup owvm aoswqmjkm zpnavawkv mujm xaff dp ojzp zyqakg oi aknyodpkni ak mup
         wbbanp wb mup Sqpvazpkni.
-            
+        
         Ak mup fjvm 99 uwyqv xp ujhp vppk bjnafamapv kwx dpakg nqpjmpz bwq mup gqpjmpvm jkz owvm nwosfpt
         ptsfwqjmawk ak ojk’v uavmwqi. Xp ujhp bpfm mup gqwykz vujep jkz mup jaq vujmmpqpz di mup mpvmakg wb
         j Vjmyqk N-9 dwwvmpq qwnepm, ojki maopv jv swxpqbyf jv mup Jmfjv xuanu fjyknupz Lwuk Gfpkk,
@@ -147,30 +147,30 @@ class SampleTest {
         nwodakpz, xaff dp nfyvmpqpz mwgpmupq mw ojep mup jzhjknpz Vjmyqk oavvafp, jvvpodfpz ak j kpx
         dyafzakg mw dp dyafm jm Njsp Njkjhpqjf jv mjff jv j 99 vmwqi vmqynmyqp, jv xazp jv j nami dfwne, jkz
         jv fwkg jv mxw fpkgmuv wb muav bapfz.
-            
+        
         Xamuak mupvp fjvm 99 owkmuv jm fpjvm 99 vjmpffampv ujhp naqnfpz mup pjqmu. Vwop 99 wb mupo xpqp ojzp
         ak mup Ykampz Vmjmpv wb Jopqanj jkz mupi xpqp bjq owqp vwsuavmanjmpz jkz vyssfapz bjq owqp ekwxfpzgp
         mw mup spwsfp wb mup xwqfz mujk muwvp wb mup Vwhapm Ykawk.
-            
+        
         Mup Ojqakpq vsjnpnqjbm kwx wk amv xji mw Hpkyv av mup owvm akmqanjmp akvmqyopkm ak mup uavmwqi wb
         vsjnp vnapknp. Mup jnnyqjni wb mujm vuwm av nwosjqjdfp mw baqakg j oavvafp bqwo Njsp Njkjhpqjf jkz
         zqwssakg am ak muav vmjzayo dpmxppk mup 99-ijqz fakpv.
-            
+        
         Mqjkvam vjmpffampv jqp upfsakg wyq vuasv jm vpj mw vmppq j vjbpq nwyqvp. Maqwv vjmpffampv ujhp gahpk
         yv yksqpnpzpkmpz xjqkakgv wb uyqqanjkpv jkz vmwqov, jkz xaff zw mup vjop bwq bwqpvm baqpv jkz
         anpdpqgv.
-            
+        
         Xp ujhp ujz wyq bjafyqpv, dym vw ujhp wmupqv, phpk ab mupi zw kwm jzoam mupo. Jkz mupi oji dp fpvv
         sydfan.
-            
+        
         Mw dp vyqp, xp jqp dpuakz, jkz xaff dp dpuakz bwq vwop maop ak ojkkpz bfagum. Dym xp zw kwm akmpkz
         mw vmji dpuakz, jkz ak muav zpnjzp, xp vujff ojep ys jkz owhp jupjz.
-            
+        
         Mup gqwxmu wb wyq vnapknp jkz pzynjmawk xaff dp pkqanupz di kpx ekwxfpzgp wb wyq ykahpqvp jkz
         pkhaqwkopkm, di kpx mpnukarypv wb fpjqkakg jkz ojssakg jkz wdvpqhjmawk, di kpx mwwfv jkz nwosympqv
         bwq akzyvmqi, opzanakp, mup uwop jv xpff jv mup vnuwwf. Mpnukanjf akvmamymawkv, vynu jv Qanp, xaff
         qpjs mup ujqhpvm wb mupvp gjakv.
-            
+        
         Jkz bakjffi, mup vsjnp pbbwqm amvpfb, xuafp vmaff ak amv akbjkni, ujv jfqpjzi nqpjmpz j gqpjm kyodpq
         wb kpx nwosjkapv, jkz mpkv wb muwyvjkzv wb kpx lwdv. Vsjnp jkz qpfjmpz akzyvmqapv jqp gpkpqjmakg kpx
         zpojkzv ak akhpvmopkm jkz veaffpz spqvwkkpf, jkz muav nami jkz muav vmjmp, jkz muav qpgawk, xaff
@@ -182,7 +182,7 @@ class SampleTest {
         vjfjqapv jkz ptspkvpv mw $99 oaffawk j ipjq; mw akhpvm vwop $999 oaffawk ak sfjkm jkz fjdwqjmwqi
         bjnafamapv; jkz mw zaqpnm wq nwkmqjnm bwq kpx vsjnp pbbwqmv whpq $9 daffawk bqwo muav npkmpq ak muav
         nami.
-            
+        
         Mw dp vyqp, jff muav nwvmv yv jff j gwwz zpjf wb owkpi. Muav ipjq’v vsjnp dyzgpm av muqpp maopv xujm
         am xjv ak Ljkyjqi 9999, jkz am av gqpjmpq mujk mup vsjnp dyzgpm wb mup sqphawyv pagum ipjqv
         nwodakpz. Mujm dyzgpm kwx vmjkzv jm $9,999 oaffawk j ipjq–j vmjggpqakg vyo, muwygu vwopxujm fpvv
@@ -199,25 +199,25 @@ class SampleTest {
         qpmyqk am vjbpfi mw pjqmu, qp-pkmpqakg mup jmowvsupqp jm vsppzv wb whpq 99,999 oafpv spq uwyq,
         njyvakg upjm jdwym ujfb mujm wb mup mpospqjmyqp wb mup vyk–jfowvm jv uwm jv am av upqp mwzji–jkz zw
         jff muav, jkz zw am qagum, jkz zw am baqvm dpbwqp muav zpnjzp av wym–mupk xp oyvm dp dwfz.
-            
+        
         A’o mup wkp xuw av zwakg jff mup xwqe, vw xp lyvm xjkm iwy mw vmji nwwf bwq j oakymp.
-            
+        
         Uwxphpq, A muake xp’qp gwakg mw zw am, jkz A muake mujm xp oyvm sji xujm kppzv mw dp sjaz. A zwk’m
         muake xp wygum mw xjvmp jki owkpi, dym A muake xp wygum mw zw mup lwd. Jkz muav xaff dp zwkp ak mup
         zpnjzp wb mup Vatmapv. Am oji dp zwkp xuafp vwop wb iwy jqp vmaff upqp jm vnuwwf jm muav nwffpgp jkz
         ykahpqvami. Am xaff dp zwkp zyqakg mup mpqov wb wbbanp wb vwop wb mup spwsfp xuw vam upqp wk muav
         sfjmbwqo. Dym am xaff dp zwkp. Jkz am xaff dp zwkp dpbwqp mup pkz wb muav zpnjzp.
-            
+        
         Jkz A jo zpfagumpz mujm muav ykahpqvami av sfjiakg j sjqm ak symmakg j ojk wk mup owwk jv sjqm wb j
         gqpjm kjmawkjf pbbwqm wb mup Ykampz Vmjmpv wb Jopqanj.
-            
+        
         Ojki ipjqv jgw mup gqpjm Dqamavu ptsfwqpq Gpwqgp Ojffwqi, xuw xjv mw zap wk Owykm Phpqpvm, xjv jvepz
         xui zaz up xjkm mw nfaod am. Up vjaz, “Dpnjyvp am av mupqp.”
-            
+        
         Xpff, vsjnp av mupqp, jkz xp’qp gwakg mw nfaod am, jkz mup owwk jkz mup sfjkpmv jqp mupqp, jkz kpx
         uwspv bwq ekwxfpzgp jkz spjnp jqp mupqp. Jkz, mupqpbwqp, jv xp vpm vjaf xp jve Gwz’v dfpvvakg wk mup
         owvm ujcjqzwyv jkz zjkgpqwyv jkz gqpjmpvm jzhpkmyqp wk xuanu ojk ujv phpq podjqepz.
-            
+        
         Mujke iwy.
         """;
     var plain = decrypt(cipher, 2);
@@ -239,7 +239,7 @@ class SampleTest {
         ei afftqo ced peha kz oma Fqailm eih Kqbobdm Eqpbad bi Kagwbup ot yaan ti mtghbiw oma qbwmo meih tf
         oma Kagwbeid eih ot wbja omabq tci qbwmo meih ot e iacgz lqaeoah Fqailm Eqpz cmblm ced ot meja
         ehjeilah elqtdd oma Dtppa bi wqaeo doqaiwom ot wqedn bo.
-            
+        
         Mtcajaq, oma Waqpei aqunobti dcano gbya e dmeqn dlzoma eqtuih oma qbwmo eih qaeq tf oma Eqpbad tf
         oma itqom. Abwmo tq ibia eqptqah hbjbdbtid, aelm tf ektuo ftuq muihqah eqptqah jamblgad tf hbffaqaio
         ybihd, kuo leqafuggz eddtqoah ot ka ltpngapaioeqz eih hbjbdbkga biot dpegg dagf-ltioebiah uibod, luo
@@ -250,7 +250,7 @@ class SampleTest {
         ltpneqeobjagz dgtcgz oma hugg kquoa pedd tf oma tqhbieqz Waqpei Eqpz eih Waqpei natnga, egcezd dt
         qaehz ot ka gah ot oma oqepngbiw htci bi tomaq geihd tf gbkaqobad eih ltpftqod cmblm omaz meja iajaq
         yitci bi omabq tci.
-            
+        
         B meja debh ombd eqptqah dlzoma-doqtya egptdo qaelmah Huiybqy-egptdo kuo ito suboa. Ktugtwia eih
         Legebd caqa oma dlaiad tf hadnaqeoa fbwmobiw. Oma Wueqhd hafaihah Ktugtwia ftq e cmbga eih caqa omai
         cbomhqeci kz tqhaqd fqtp ombd ltuioqz. Oma Qbfga Kqbweha, oma 99om Qbfgad, eih oma Suaai Jblotqbe’d
@@ -263,13 +263,13 @@ class SampleTest {
         Ftqla, meh ot ka daio ot tjaqltpa omap. Omaz meja ehhah eitomaq newa ot oma wgtqbad tf oma gbwmo
         hbjbdbtid, eih oma obpa webiah aiekgah oma Wqejagbia ceoaq gbiad ot ka fgtthah eih ot ka magh kz oma
         Fqailm oqttnd.
-            
+        
         Omud bo ced omeo oma ntqo tf Huiybqy ced yano tnai. Cmai bo ced ftuih bpntddbkga ftq oma Eqpbad tf
         oma itqom ot qatnai omabq ltppuibleobtid ot Epbaid cbom oma pebi Fqailm Eqpbad, tigz tia lmtbla
         qapebiah. Bo daapah, bihaah, ftqgtqi. Oma Kagwbei, Kqbobdm eih Fqailm Eqpbad caqa egptdo duqqtuihah.
         Omabq dtga gbia tf qaoqaeo ced ot e dbiwga ntqo eih ot bod iabwmktqbiw kaelmad. Omaz caqa nqaddah ti
         ajaqz dbha kz maejz eooelyd eih feq tuoiupkaqah bi oma ebq.
-            
+        
         Cmai, e caay ewt othez, B edyah oma Mtuda ot fbv ombd efoaqitti ed oma tlledbti ftq e doeoapaio, B
         faeqah bo ctugh ka pz meqh gto ot eiituila oma wqaeoado pbgboeqz hbdedoaq bi tuq gtiw mbdotqz. B
         omtuwmo-eih dtpa wtth ruhwad ewqaah cbom pa-omeo naqmend 99,999 tq 99,999 pai pbwmo ka qa-apkeqyah.
@@ -280,7 +280,7 @@ class SampleTest {
         ltqa eih kqebi tf oma Kqbobdm Eqpz, ti cmblm eih eqtuih cmblm ca caqa ot kubgh, eih eqa ot kubgh,
         oma wqaeo Kqbobdm Eqpbad bi oma geoaq zaeqd tf oma ceq, daapah ektuo ot naqbdm unti oma fbagh tq ot
         ka gah biot ei bwitpbibtud eih doeqjbiw lenobjboz.
-            
+        
         Omeo ced oma nqtdnalo e caay ewt. Kuo eitomaq kgtc cmblm pbwmo cagg meja nqtjah fbieg ced zao ot
         fegg unti ud. Oma Ybiw tf oma Kagwbeid meh leggah unti ud ot ltpa ot mbd ebh. Meh ito ombd Qugaq eih
         mbd Wtjaqipaio dajaqah omapdagjad fqtp oma Eggbad, cmt qadluah omabq ltuioqz fqtp avobilobti bi oma
@@ -292,7 +292,7 @@ class SampleTest {
         nqbtq ltidugoeobti, cbom oma gaedo ntddbkga itobla, cbomtuo oma ehjbla tf mbd Pbibdoaqd eih unti mbd
         tci naqdtieg elo, ma daio e ngaibntoaiobeqz ot oma Waqpei Ltppeih, duqqaihaqah mbd Eqpz, eih avntdah
         tuq cmtga fgeiy eih paeid tf qaoqaeo.
-            
+        
         B edyah oma Mtuda e caay ewt ot dudnaih bod ruhwpaio kaleuda oma felod caqa ito lgaeq, kuo B ht ito
         faag omeo eiz qaedti itc avbdod cmz ca dmtugh ito ftqp tuq tci tnbibtid unti ombd nbobfug anbdtha.
         Oma duqqaihaq tf oma Kagwbei Eqpz ltpnaggah oma Kqbobdm eo oma dmtqoado itobla ot ltjaq e fgeiy ot
@@ -302,7 +302,7 @@ class SampleTest {
         ltioelo ced gtdo kaocaai oma Kqbobdm eih oct tuo tf oma omqaa ltqnd ftqpbiw oma Fbqdo Fqailm Eqpz,
         cmt caqa dobgg feqomaq fqtp oma ltedo omei ca caqa, eih bo daapah bpntddbkga omeo eiz geqwa iupkaq
         tf Eggbah oqttnd ltugh qaelm oma ltedo.
-            
+        
         Oma aiapz eooelyah ti egg dbhad cbom wqaeo doqaiwom eih fbaqlaiadd, eih omabq pebi ntcaq, oma ntcaq
         tf omabq feq ptqa iupaqtud Ebq Ftqla, ced omqtci biot oma keooga tq agda ltilaioqeoah unti Huiybqy
         eih oma kaelmad. Nqaddbiw bi unti oma ieqqtc avbo, ktom fqtp oma aedo eih fqtp oma cado, oma aiapz
@@ -314,7 +314,7 @@ class SampleTest {
         Ftq ftuq tq fbja hezd ei bioaida doquwwga qabwiah. Egg omabq eqptqah hbjbdbtid-tq cmeo Ced gafo tf
         omap-otwaomaq cbom wqaeo peddad tf bifeioqz eih eqobggaqz, muqgah omapdagjad bi jebi unti oma
         ajaq-ieqqtcbiw, ajaq-ltioqelobiw ennaihbv cbombi cmblm oma Kqbobdm eih Fqailm Eqpbad ftuwmo.
-            
+        
         Paeicmbga, oma Qtzeg Iejz, cbom oma cbggbiw magn tf ltuiogadd paqlmeio daepai, doqebiah ajaqz iaqja
         ot apkeqy oma Kqbobdm eih Eggbah oqttnd; 999 gbwmo ceqdmbnd eih 999 tomaq jaddagd caqa aiwewah. Omaz
         meh ot tnaqeoa unti oma hbffblugo ltedo, tfoai bi ehjaqda caeomaq, uihaq ei egptdo laedagadd mebg tf
@@ -325,7 +325,7 @@ class SampleTest {
         oma paeduqa tf omabq hajtobti eih omabq ltuqewa. Oma mtdnboeg dmbnd, cmblm kqtuwmo tff peiz
         omtudeihd tf Kqbobdm eih Fqailm ctuihah, kabiw dt ngebigz peqyah caqa e dnalbeg oeqwao ftq Iexb
         ktpkd; kuo oma pai eih ctpai ti kteqh omap iajaq fegoaqah bi omabq huoz.
-            
+        
         Paeicmbga, oma Qtzeg Ebq Ftqla, cmblm meh egqaehz kaai bioaqjaibiw bi oma keooga, dt feq ed bod
         qeiwa ctugh eggtc, fqtp mtpa kedad, itc udah neqo tf bod pebi paoqtntgboei fbwmoaq doqaiwom, eih
         doquly eo oma Waqpei ktpkaqd eih eo oma fbwmoaqd cmblm bi geqwa iupkaqd nqtoaloah omap. Ombd
@@ -343,7 +343,7 @@ class SampleTest {
         Ebq Ftqla eo ctqy; omaz dec tigz oma ktpkaqd cmblm adlenah bod nqtoalobja eooely. Omaz uihaqqeoa bod
         elmbajapaiod. B meja maeqh pulm oegy tf ombd; omeo bd cmz B wt tuo tf pz cez ot dez ombd. B cbgg
         oagg ztu ektuo bo.
-            
+        
         Ombd ced e wqaeo oqbeg tf doqaiwom kaocaai oma Kqbobdm eih Waqpei Ebq Ftqlad. Lei ztu ltilabja e
         wqaeoaq tkralobja ftq oma Waqpeid bi oma ebq omei ot peya ajelueobti fqtp omada kaelmad bpntddbkga,
         eih ot dbiy egg omada dmbnd cmblm caqa hbdngezah, egptdo ot oma avoaio tf omtudeihd? Ltugh omaqa
@@ -356,7 +356,7 @@ class SampleTest {
         oma ceoaq eih ledo ecez kz oma paqa lmeqwa tf e Kqbobdm eaqtngeia, cmblm meh it ptqa eppuibobti. Egg
         tf tuq oznad-oma Muqqbleia, oma Dnbofbqa eih oma iac Hafbeio-eih egg tuq nbgtod meja kaai jbihbleoah
         ed dunaqbtq ot cmeo omaz meja eo nqadaio ot fela.
-            
+        
         Cmai ca ltidbhaq mtc pulm wqaeoaq ctugh ka tuq ehjeioewa bi hafaihbiw oma ebq ektja ombd Bdgeih
         ewebido ei tjaqdaed eooely, B pudo dez omeo B fbih bi omada felod e duqa kedbd unti cmblm nqelobleg
         eih qaedduqbiw omtuwmod pez qado. B cbgg nez pz oqbkuoa ot omada ztuiw ebqpai. Oma wqaeo Fqailm Eqpz
@@ -367,13 +367,13 @@ class SampleTest {
         Lqudehaqd, egg fegg kely biot oma nedo-ito tigz hbdoeio kuo nqtdebl; omada ztuiw pai, wtbiw ftqom
         ajaqz ptqi ot wueqh omabq ieobja geih eih egg omeo ca doeih ftq, mtghbiw bi omabq meihd omada
         bidoqupaiod tf ltgtddeg eih dmeooaqbiw ntcaq, tf cmtp bo pez ka debh omeo
-            
+        
         	Ajaqz ptqi kqtuwmo ftqom e itkga lmeila
         	Eih ajaqz lmeila kqtuwmo ftqom e itkga yibwmo,
-            
+        
         hadaqja tuq wqeobouha, ed ht egg oma kqeja pai cmt, bi dt peiz cezd eih ti dt peiz tlledbtid, eqa
         qaehz, eih ltiobiua qaehz ot wbja gbfa eih egg ftq omabq ieobja geih.
-            
+        
         B qaouqi ot oma Eqpz. Bi oma gtiw daqbad tf jaqz fbaqla keoogad, itc ti ombd fqtio, itc ti omeo,
         fbwmobiw ti omqaa fqtiod eo tila, keoogad ftuwmo kz oct tq omqaa hbjbdbtid ewebido ei asueg tq
         dtpacmeo geqwaq iupkaq tf oma aiapz, eih ftuwmo fbaqlagz ti dtpa tf oma tgh wqtuihd omeo dt peiz tf
@@ -385,7 +385,7 @@ class SampleTest {
         ltuioqz, kuo B ctugh dez ektuo oma pbddbiw omeo omaqa pez ka jaqz peiz qantqoah pbddbiw cmt cbgg
         ltpa kely mtpa, dtpa hez, bi tia cez tq eitomaq. Bi oma ltifudbti tf ombd fbwmo bo bd biajboekga
         omeo peiz meja kaai gafo bi ntdbobtid cmaqa mtitq qasubqah it fuqomaq qadbdoeila fqtp omap.
-            
+        
         Ewebido ombd gtdd tf tjaq 99,999 pai, ca lei dao e feq maejbaq gtdd laqoebigz bifgbloah unti oma
         aiapz. Kuo tuq gtddad bi peoaqbeg eqa aitqptud. Ca meja naqmend gtdo tia-ombqh tf oma pai ca gtdo bi
         oma tnaibiw hezd tf oma keooga tf 99do Peqlm, 9999, kuo ca meja gtdo iaeqgz ed peiz wuid — iaeqgz
@@ -401,7 +401,7 @@ class SampleTest {
         qbwmod, eih ludotpd eih nuo omap biot oma ltppti dotly. Egqaehz oma fgtc tf puibobtid med gaenah
         ftqceqh. Omaqa bd it qaedti cmz ca dmtugh ito bi e fac ptiomd tjaqoeya oma duhhai eih daqbtud gtdd
         omeo med ltpa unti ud, cbomtuo qaoeqhbiw oma hajagtnpaio tf tuq waiaqeg nqtwqep.
-            
+        
         Iajaqomagadd, tuq omeiyfugiadd eo oma adlena tf tuq Eqpz eih dt peiz pai, cmtda gtjah tiad meja
         neddah omqtuwm ei ewtibxbiw caay, pudo ito kgbih ud ot oma felo omeo cmeo med mennaiah bi Fqeila eih
         Kagwbup bd e ltgtddeg pbgboeqz hbdedoaq. Oma Fqailm Eqpz med kaai caeyaiah, oma Kagwbei Eqpz med
@@ -413,7 +413,7 @@ class SampleTest {
         Ientgati gez eo Ktugtwia ftq e zaeq cbom mbd fgeo-ktootpah kteod eih mbd Wqeih Eqpz, ma ced otgh kz
         dtpatia. “Omaqa eqa kbooaq caahd bi Aiwgeih.” Omaqa eqa laqoebigz e wqaeo peiz ptqa tf omap dbila
         oma Kqbobdm Avnahbobtieqz Ftqla qaouqiah.
-            
+        
         Oma cmtga suadobti tf mtpa hafaida ewebido bijedbti bd, tf ltuqda, ntcaqfuggz effaloah kz oma felo
         omeo ca meja ftq oma obpa kabiw bi ombd Bdgeih biltpneqekgz ptqa ntcaqfug pbgboeqz ftqlad omei ca
         meja ajaq meh eo eiz ptpaio bi ombd ceq tq oma gedo. Kuo ombd cbgg ito ltiobiua. Ca dmegg ito ka
@@ -429,7 +429,7 @@ class SampleTest {
         avnqaddah bi egg neqod tf oma Mtuda kz Papkaqd cbom omabq yitcgahwa tf dt peiz hbffaqaio neqod tf
         oma ltuioqz. B uihaqdoeih omeo dtpa qasuado bd ot ka peha unti ombd dukralo, cmblm cbgg ka qaehbgz
         ellahah ot kz Mbd Peradoz’d Wtjaqipaio.
-            
+        
         Ca meja ftuih bo ialaddeqz ot oeya paeduqad tf bilqaedbiw doqbiwailz, ito tigz ewebido aiapz egbaid
         eih dudnblbtud lmeqeloaqd tf tomaq ieobtiegbobad, kuo egdt ewebido Kqbobdm dukralod cmt pez kaltpa e
         heiwaq tq e iubdeila dmtugh oma ceq ka oqeidntqoah ot oma Uiboah Ybiwhtp. B yitc omaqa eqa e wqaeo
@@ -442,7 +442,7 @@ class SampleTest {
         cbom e doqtiw meih, eih ca dmegg uda omtda ntcaqd dukralo ot oma dunaqjbdbti eih ltqqalobti tf oma
         Mtuda, cbomtuo oma dgbwmoado madboeobti uiobg ca eqa deobdfbah, eih ptqa omei deobdfbah, omeo ombd
         pegbwieilz bi tuq pbhdo med kaai affalobjagz doepnah tuo.
-            
+        
         Ouqibiw tila ewebi, eih ombd obpa ptqa waiaqeggz, ot oma suadobti tf bijedbti, B ctugh tkdaqja omeo
         omaqa med iajaq kaai e naqbth bi egg omada gtiw laiouqbad tf cmblm ca ktedo cmai ei ekdtguoa
         wueqeioaa ewebido bijedbti, dobgg gadd ewebido daqbtud qebhd, ltugh meja kaai wbjai ot tuq natnga.
@@ -455,7 +455,7 @@ class SampleTest {
         bhae bd dt tuogeihbdm omeo bo dmtugh ito ka ltidbhaqah eih jbacah cbom e daeqlmbiw, kuo eo oma depa
         obpa, B mtna, cbom e doaehz aza. Ca pudo iajaq ftqwao oma dtgbh edduqeilad tf dae ntcaq eih omtda
         cmblm kagtiw ot ebq ntcaq bf bo lei ka gtleggz avaqlbdah.
-            
+        
         B meja, pzdagf, fugg ltifbhaila omeo bf egg ht omabq huoz, bf itombiw bd iawgaloah, eih bf oma kado
         eqqeiwapaiod eqa peha, ed omaz eqa kabiw peha, ca dmegg nqtja tuqdagjad tila ewebi ekga ot hafaih
         tuq Bdgeih mtpa, ot qbha tuo oma dotqp tf ceq, eih ot tuogbja oma paiela tf ozqeiiz, bf ialaddeqz
@@ -484,19 +484,19 @@ class SampleTest {
     var cipher = """
         F ts jtuui gy vyfl afgj iyo gynti fl ajtg afrr ey nyal fl jfbgyxi tb gjm exmtgmbg nmsylbgxtgfyl wyx
         wxmmnys fl gjm jfbgyxi yw yox ltgfyl.
-            
+        
         Wfzm bcyxm imtxb tey, t exmtg Tsmxfctl, fl ajybm bispyrfc bjtnya am bgtln gynti, bfelmn gjm
         Mstlcfutgfyl Uxycrtstgfyl. Gjfb sysmlgyob nmcxmm ctsm tb t exmtg pmtcyl rfejg yw jyum gy sfrrfylb yw
         Lmexy brtzmb ajy jtn pmml bmtxmn fl gjm wrtsmb yw afgjmxfle flvobgfcm. Fg ctsm tb t vyiyob ntipxmtd
         gy mln gjm ryle lfejg yw gjmfx ctugfzfgi.
-            
+        
         Pog ylm jolnxmn imtxb rtgmx, gjm Lmexy bgfrr fb lyg wxmm. Ylm jolnxmn imtxb rtgmx, gjm rfwm yw gjm
         Lmexy fb bgfrr btnri cxfuurmn pi gjm stltcrmb yw bmexmetgfyl tln gjm cjtflb yw nfbcxfsfltgfyl. Ylm
         jolnxmn imtxb rtgmx, gjm Lmexy rfzmb yl t rylmri fbrtln yw uyzmxgi fl gjm sfnbg yw t ztbg ycmtl yw
         stgmxftr uxybumxfgi. Ylm jolnxmn imtxb rtgmx, gjm Lmexy fb bgfrr rtleofbjmn fl gjm cyxlmxb yw
         Tsmxfctl bycfmgi tln wflnb jfsbmrw tl mkfrm fl jfb yal rtln. Tln by am’zm cysm jmxm gynti gy
         nxtstgfqm t bjtsmwor cylnfgfyl.
-            
+        
         Fl t bmlbm am’zm cysm gy yox ltgfyl’b ctufgtr gy ctbj t cjmcd. Ajml gjm txcjfgmcgb yw yox xmuoprfc
         axygm gjm stelfwfcmlg ayxnb yw gjm Cylbgfgogfyl tln gjm Nmcrtxtgfyl yw Flnmumlnmlcm, gjmi amxm
         bfelfle t uxysfbbyxi lygm gy ajfcj mzmxi Tsmxfctl atb gy wtrr jmfx. Gjfb lygm atb t uxysfbm gjtg trr
@@ -505,18 +505,18 @@ class SampleTest {
         uxysfbbyxi lygm, flbywtx tb jmx cfgfqmlb yw cyryx txm cylcmxlmn. Flbgmtn yw jylyxfle gjfb btcxmn
         yprfetgfyl, Tsmxfct jtb efzml gjm Lmexy umyurm t ptn cjmcd, t cjmcd ajfcj jtb cysm ptcd stxdmn
         “flbowwfcfmlg wolnb.”
-            
+        
         Pog am xmwobm gy pmrfmzm gjtg gjm ptld yw vobgfcm fb ptldxoug. Am xmwobm gy pmrfmzm gjtg gjmxm txm
         flbowwfcfmlg wolnb fl gjm exmtg ztorgb yw yuuyxgolfgi yw gjfb ltgfyl. Tln by, am’zm cysm gy ctbj
         gjfb cjmcd, t cjmcd gjtg afrr efzm ob ouyl nmstln gjm xfcjmb yw wxmmnys tln gjm bmcoxfgi yw vobgfcm.
-            
+        
         Am jtzm trby cysm gy gjfb jtrryamn buyg gy xmsfln Tsmxfct yw gjm wfmxcm oxemlci yw Lya. Gjfb fb ly
         gfsm gy mletem fl gjm rokoxi yw cyyrfle yww yx gy gtdm gjm gxtlhofrfqfle nxoe yw extnotrfbs. Lya fb
         gjm gfsm gy stdm xmtr gjm uxysfbmb yw nmsycxtci. Lya fb gjm gfsm gy xfbm wxys gjm ntxd tln nmbyrtgm
         ztrrmi yw bmexmetgfyl gy gjm bolrfg utgj yw xtcftr vobgfcm. Lya fb gjm gfsm gy rfwg yox ltgfyl wxys
         gjm hofcdbtlnb yw xtcftr flvobgfcm gy gjm byrfn xycd yw pxygjmxjyyn. Lya fb gjm gfsm gy stdm vobgfcm
         t xmtrfgi wyx trr yw Eyn’b cjfrnxml.
-            
+        
         Fg ayorn pm wtgtr wyx gjm ltgfyl gy yzmxryyd gjm oxemlci yw gjm sysmlg. Gjfb bamrgmxfle bossmx yw
         gjm Lmexy’b rmefgfstgm nfbcylgmlg afrr lyg utbb olgfr gjmxm fb tl flzfeyxtgfle togosl yw wxmmnys tln
         mhotrfgi. Lflmgmml bfkgi-gjxmm fb lyg tl mln, pog t pmefllfle. Tln gjybm ajy jyum gjtg gjm Lmexy
@@ -524,25 +524,25 @@ class SampleTest {
         pobflmbb tb obotr. Tln gjmxm afrr pm lmfgjmx xmbg lyx gxtlhofrfgi fl Tsmxfct olgfr gjm Lmexy fb
         extlgmn jfb cfgfqmlbjfu xfejgb. Gjm ajfxraflnb yw xmzyrg afrr cylgflom gy bjtdm gjm wyolntgfylb yw
         yox ltgfyl olgfr gjm pxfejg nti yw vobgfcm msmxemb.
-            
+        
         Pog gjmxm fb bysmgjfle gjtg F sobg bti gy si umyurm, ajy bgtln yl gjm atxs gjxmbjyrn ajfcj rmtnb
         flgy gjm utrtcm yw vobgfcm: Fl gjm uxycmbb yw etflfle yox xfejgwor urtcm, am sobg lyg pm eofrgi yw
         axylewor nmmnb. Rmg ob lyg bmmd gy btgfbwi yox gjfxbg wyx wxmmnys pi nxfldfle wxys gjm cou yw
         pfggmxlmbb tln jtgxmn. Am sobg wyxmzmx cylnocg yox bgxoeerm yl gjm jfej urtlm yw nfelfgi tln
         nfbcfurflm. Am sobg lyg trrya yox cxmtgfzm uxygmbg gy nmemlmxtgm flgy ujibfctr zfyrmlcm. Tetfl tln
         tetfl, am sobg xfbm gy gjm stvmbgfc jmfejgb yw smmgfle ujibfctr wyxcm afgj byor wyxcm.
-            
+        
         Gjm stxzmryob lma sfrfgtlci ajfcj jtb mleorwmn gjm Lmexy cyssolfgi sobg lyg rmtn ob gy t nfbgxobg yw
         trr ajfgm umyurm, wyx stli yw yox ajfgm pxygjmxb, tb mzfnmlcmn pi gjmfx uxmbmlcm jmxm gynti, jtzm
         cysm gy xmtrfqm gjtg gjmfx nmbgfli fb gfmn ou afgj yox nmbgfli. Tln gjmi jtzm cysm gy xmtrfqm gjtg
         gjmfx wxmmnys fb flmkgxfctpri pyoln gy yox wxmmnys.
-            
+        
         Am ctllyg atrd trylm.
-            
+        
         Tln tb am atrd, am sobg stdm gjm urmnem gjtg am bjtrr tratib stxcj tjmtn.
-            
+        
         Am ctllyg goxl ptcd.
-            
+        
         Gjmxm txm gjybm ajy txm tbdfle gjm nmzygmmb yw cfzfr xfejgb, “Ajml afrr iyo pm btgfbwfmn?” Am ctl
         lmzmx pm btgfbwfmn tb ryle tb gjm Lmexy fb gjm zfcgfs yw gjm olbumtdtprm jyxxyxb yw uyrfcm
         pxogtrfgi. Am ctl lmzmx pm btgfbwfmn tb ryle tb yox pynfmb, jmtzi afgj gjm wtgfeom yw gxtzmr, ctllyg
@@ -553,7 +553,7 @@ class SampleTest {
         zygm tln t Lmexy fl Lma Iyxd pmrfmzmb jm jtb lygjfle wyx ajfcj gy zygm. Ly, ly, am txm lyg
         btgfbwfmn, tln am afrr lyg pm btgfbwfmn olgfr “vobgfcm xyrrb nyal rfdm atgmxb, tln xfejgmyoblmbb
         rfdm t sfejgi bgxmts.”
-            
+        
         F ts lyg olsflnwor gjtg bysm yw iyo jtzm cysm jmxm yog yw exmtg gxftrb tln gxfportgfylb. Bysm yw iyo
         jtzm cysm wxmbj wxys ltxxya vtfr cmrrb. Tln bysm yw iyo jtzm cysm wxys txmtb ajmxm iyox hombg —
         hombg wyx wxmmnys rmwg iyo ptggmxmn pi gjm bgyxsb yw umxbmcogfyl tln bgteemxmn pi gjm aflnb yw
@@ -561,76 +561,76 @@ class SampleTest {
         gjtg olmtxlmn bowwmxfle fb xmnmsugfzm. Ey ptcd gy Sfbbfbbfuuf, ey ptcd gy Trtptst, ey ptcd gy Byogj
         Ctxyrflt, ey ptcd gy Emyxeft, ey ptcd gy Ryofbftlt, ey ptcd gy gjm brosb tln ejmggyb yw yox lyxgjmxl
         cfgfmb, dlyafle gjtg bysmjya gjfb bfgotgfyl ctl tln afrr pm cjtlemn.
-            
+        
         Rmg ob lyg atrrya fl gjm ztrrmi yw nmbutfx, F bti gy iyo gynti, si wxfmlnb.
-            
+        
         Tln by mzml gjyoej am wtcm gjm nfwwfcorgfmb yw gynti tln gysyxxya, F bgfrr jtzm t nxmts. Fg fb t
         nxmts nmmuri xyygmn fl gjm Tsmxfctl nxmts.
-            
+        
         F jtzm t nxmts gjtg ylm nti gjfb ltgfyl afrr xfbm ou tln rfzm yog gjm gxom smtlfle yw fgb cxmmn: “Am
         jyrn gjmbm gxogjb gy pm bmrw-mzfnmlg, gjtg trr sml txm cxmtgmn mhotr.”
-            
+        
         F jtzm t nxmts gjtg ylm nti yl gjm xmn jfrrb yw Emyxeft, gjm bylb yw wyxsmx brtzmb tln gjm bylb yw
         wyxsmx brtzm yalmxb afrr pm tprm gy bfg nyal gyemgjmx tg gjm gtprm yw pxygjmxjyyn.
-            
+        
         F jtzm t nxmts gjtg ylm nti mzml gjm bgtgm yw Sfbbfbbfuuf, t bgtgm bamrgmxfle afgj gjm jmtg yw
         flvobgfcm, bamrgmxfle afgj gjm jmtg yw yuuxmbbfyl, afrr pm gxtlbwyxsmn flgy tl ytbfb yw wxmmnys tln
         vobgfcm.
-            
+        
         F jtzm t nxmts gjtg si wyox rfggrm cjfrnxml afrr ylm nti rfzm fl t ltgfyl ajmxm gjmi afrr lyg pm
         vonemn pi gjm cyryx yw gjmfx bdfl pog pi gjm cylgmlg yw gjmfx cjtxtcgmx.
-            
+        
         F jtzm t nxmts gynti!
-            
+        
         F jtzm t nxmts gjtg ylm nti, nyal fl Trtptst, afgj fgb zfcfyob xtcfbgb, afgj fgb eyzmxlyx jtzfle jfb
         rfub nxfuufle afgj gjm ayxnb yw “flgmxuybfgfyl” tln “lorrfwfctgfyl” — ylm nti xfejg gjmxm fl Trtptst
         rfggrm prtcd pyib tln prtcd efxrb afrr pm tprm gy vyfl jtlnb afgj rfggrm ajfgm pyib tln ajfgm efxrb
         tb bfbgmxb tln pxygjmxb.
-            
+        
         F jtzm t nxmts gynti!
-            
+        
         F jtzm t nxmts gjtg ylm nti mzmxi ztrrmi bjtrr pm mktrgmn, tln mzmxi jfrr tln syolgtfl bjtrr pm stnm
         rya, gjm xyoej urtcmb afrr pm stnm urtfl, tln gjm cxyydmn urtcmb afrr pm stnm bgxtfejg; “tln gjm
         eryxi yw gjm Ryxn bjtrr pm xmzmtrmn tln trr wrmbj bjtrr bmm fg gyemgjmx.”
-            
+        
         Gjfb fb yox jyum, tln gjfb fb gjm wtfgj gjtg F ey ptcd gy gjm Byogj afgj.
-            
+        
         Afgj gjfb wtfgj, am afrr pm tprm gy jma yog yw gjm syolgtfl yw nmbutfx t bgylm yw jyum. Afgj gjfb
         wtfgj, am afrr pm tprm gy gxtlbwyxs gjm vtlerfle nfbcyxnb yw yox ltgfyl flgy t pmtogfwor bisujyli yw
         pxygjmxjyyn. Afgj gjfb wtfgj, am afrr pm tprm gy ayxd gyemgjmx, gy uxti gyemgjmx, gy bgxoeerm
         gyemgjmx, gy ey gy vtfr gyemgjmx, gy bgtln ou wyx wxmmnys gyemgjmx, dlyafle gjtg am afrr pm wxmm ylm
         nti.
-            
+        
         Tln gjfb afrr pm gjm nti — gjfb afrr pm gjm nti ajml trr yw Eyn’b cjfrnxml afrr pm tprm gy bfle afgj
         lma smtlfle:
-            
+        
         	Si cyolgxi ’gfb yw gjmm, bammg rtln yw rfpmxgi, yw gjmm F bfle.
         	Rtln ajmxm si wtgjmxb nfmn, rtln yw gjm Ufrexfs’b uxfnm,
         	Wxys mzmxi syolgtflbfnm, rmg wxmmnys xfle!
-            
+        
         Tln fw Tsmxfct fb gy pm t exmtg ltgfyl, gjfb sobg pmcysm gxom.
-            
+        
         Tln by rmg wxmmnys xfle wxys gjm uxynfefyob jfrrgyub yw Lma Jtsubjfxm.
-            
+        
         	Rmg wxmmnys xfle wxys gjm sfejgi syolgtflb yw Lma Iyxd.
         	Rmg wxmmnys xfle wxys gjm jmfejgmlfle Trrmejmlfmb yw Umllbirztlft.
         	Rmg wxmmnys xfle wxys gjm blya-ctuumn Xycdfmb yw Cyryxtny.
         	Rmg wxmmnys xfle wxys gjm coxztcmyob bryumb yw Ctrfwyxlft.
-            
+        
         Pog lyg ylri gjtg:
-            
+        
         	Rmg wxmmnys xfle wxys Bgylm Syolgtfl yw Emyxeft.
         	Rmg wxmmnys xfle wxys Ryydyog Syolgtfl yw Gmllmbbmm.
         	Rmg wxmmnys xfle wxys mzmxi jfrr tln syrmjfrr yw Sfbbfbbfuuf.
         	Wxys mzmxi syolgtflbfnm, rmg wxmmnys xfle.
-            
+        
         Tln ajml gjfb jtuumlb, ajml am trrya wxmmnys xfle, ajml am rmg fg xfle wxys mzmxi zfrrtem tln mzmxi
         jtsrmg, wxys mzmxi bgtgm tln mzmxi cfgi, am afrr pm tprm gy bummn ou gjtg nti ajml trr yw Eyn’b
         cjfrnxml, prtcd sml tln ajfgm sml, Vmab tln Emlgfrmb, Uxygmbgtlgb tln Ctgjyrfcb, afrr pm tprm gy
         vyfl jtlnb tln bfle fl gjm ayxnb yw gjm yrn Lmexy bufxfgotr:
-            
+        
         Wxmm tg rtbg! Wxmm tg rtbg!
-            
+        
         Gjtld Eyn Trsfejgi, am txm wxmm tg rtbg!
         """;
     var plain = decrypt(cipher, 4);
@@ -655,7 +655,7 @@ class SampleTest {
         csthrfdcqb jcyc fmdc bu obfqk hq bwc dhqc jhbw bwchy Pycqew euxyfkco. Bwcv wfrc otppcyck ocrcycdv,
         mtb bwcv wfrc putzwb jcdd. Jc ocqb crcyv xfq jc eutdk bu Pyfqec fo pfob fo jc eutdk yc-csthl fqk
         byfqoluyb bwchy puyxfbhuqo.
-            
+        
         H fx qub ycehbhqz bwcoc pfebo puy bwc ltyluoc up yceyhxhqfbhuq. Bwfb H atkzc bu mc tbbcydv ptbhdc
         fqk crcq wfyxptd. Jc efqqub fppuyk hb. H ycehbc bwcx hq uykcy bu cgldfhq jwv hb jfo jc khk qub wfrc,
         fo jc eutdk wfrc wfk, mcbjccq bjcdrc fqk putybccq Myhbhow khrhohuqo phzwbhqz hq bwc dhqc hq bwho
@@ -667,7 +667,7 @@ class SampleTest {
         efbfobyulwc. Bwcv occi bu hqkheb bwuoc jwu jcyc ycoluqohmdc puy bwc zthkfqec up uty fppfhyo. Bwho
         fdou jutdk mc f puudhow fqk lcyqhehuto lyuecoo. Bwcyc fyc buu xfqv hq hb. Dcb cfew xfq ocfyew who
         euqoehcqec fqk ocfyew who olccewco. H pycstcqbdv ocfyew xhqc.
-            
+        
         Up bwho H fx sthbc otyc, bwfb hp jc ulcq f stfyycd mcbjccq bwc lfob fqk bwc lycocqb, jc owfdd phqk
         bwfb jc wfrc duob bwc ptbtyc. Bwcycpuyc, H efqqub feeclb bwc kyfjhqz up fqv khobhqebhuqo mcbjccq
         Xcxmcyo up bwc lycocqb Zurcyqxcqb. Hb jfo puyxck fb f xuxcqb up eyhoho hq uykcy bu tqhbc fdd bwc
@@ -683,7 +683,7 @@ class SampleTest {
         Bwtyokfv, fqk H owutdk bwhqi bwfb jutdk mc f mcbbcy ulluybtqhbv puy bwc xfqv cfyqcob cglycoohuqo up
         ulhqhuq jwhew Xcxmcyo jhdd kcohyc bu xfic fqk puy bwc Wutoc bu khoetoo rhbfd xfbbcyo jhbwutb wfrhqz
         crcyvbwhqz ycfk bwc qcgb xuyqhqz mv uty kfqzcyuto puco.
-            
+        
         Bwc khofobyuto xhdhbfyv crcqbo jwhew wfrc wfllcqck ktyhqz bwc lfob puybqhzwb wfrc qub euxc bu xc
         jhbw fqv ocqoc up otylyhoc. Hqkcck, H hqkhefbck f puybqhzwb fzu fo edcfydv fo H eutdk bu bwc Wutoc
         bwfb bwc juyob luoohmhdhbhco jcyc ulcq; fqk H xfkc hb lcypcebdv edcfy bwcq bwfb jwfbcrcy wfllcqck hq
@@ -695,7 +695,7 @@ class SampleTest {
         phzwbhqz jhbw euqohkcyfmdc oteecoo hq bwchy duefd cqeutqbcyo fzfhqob bwc cqcxv. Jc wfrc fdou myutzwb
         mfei f zycfb xfoo up obuyco, yhpdco fqk xtqhbhuqo up fdd ihqko jwhew wfk mccq feetxtdfbck hq Pyfqec
         ktyhqz bwc dfob qhqc xuqbwo.
-            
+        
         Jc wfrc, bwcycpuyc, hq bwho Hodfqk bukfv f rcyv dfyzc fqk lujcyptd xhdhbfyv puyec. Bwho puyec
         euxlyhoco fdd uty mcob-byfhqck fqk uty phqcob byuulo, hqedtkhqz oeuyco up bwutofqko up bwuoc jwu
         wfrc fdycfkv xcfotyck bwchy stfdhbv fzfhqob bwc Zcyxfqo fqk putqk bwcxocdrco fb qu khofkrfqbfzc. Jc
@@ -710,7 +710,7 @@ class SampleTest {
         Efqfkhfqo wfk febtfddv dfqkck hq Pyfqec, mtb wfrc quj mccq ofpcdv jhbwkyfjq, xtew khoflluhqbck, mtb
         hq lcypceb uykcy, jhbw fdd bwchy fybhddcyv fqk csthlxcqb. Fqk bwcoc rcyv whzw-edfoo puyeco pyux bwc
         Kuxhqhuqo jhdd quj bfic lfyb hq bwc kcpcqoc up bwc Xubwcy Eutqbyv.
-            
+        
         Dcob bwc feeutqb jwhew H wfrc zhrcq up bwcoc dfyzc puyeco owutdk yfhoc bwc stcobhuq: Jwv khk bwcv
         qub bfic lfyb hq bwc zycfb mfbbdc hq Pyfqec? H xtob xfic hb edcfy bwfb, flfyb pyux bwc khrhohuqo
         byfhqhqz fqk uyzfqhnhqz fb wuxc, uqdv 99 khrhohuqo jcyc csthllck bu phzwb tluq f oefdc jwhew
@@ -721,7 +721,7 @@ class SampleTest {
         ocf up wuobhdc fyxhco uq f rcyv dfyzc oefdc, fqk fpbcy bwcv wfk mccq ou byfqoluybck bwcv jutdk wfrc
         bu mc euqbhqtfddv xfhqbfhqck jhbw fdd bwc xfooco up xtqhbhuqo fqk otlldhco jwhew fyc ycsthyck puy
         euqbhqtuto mfbbdc-fo euqbhqtuto mfbbdc hb jhdd otycdv mc.
-            
+        
         Wcyc ho jwcyc jc euxc bu bwc Qfrv-fqk fpbcy fdd, jc wfrc f Qfrv. Ouxc lculdc occx bu puyzcb bwfb jc
         wfrc f Qfrv. Jc xtob ycxhqk bwcx. Puy bwc dfob bwhybv vcfyo H wfrc mccq euqecyqck hq khoetoohuqo
         fmutb bwc luoohmhdhbhco up urcyocf hqrfohuq, fqk H buui bwc ycoluqohmhdhbv uq mcwfdp up bwc
@@ -737,7 +737,7 @@ class SampleTest {
         fqk ofpcztfykck lfoofzc bwyutzw bwc Obyfhb up Zhmyfdbfy hq uykcy bwfb wc xfv ldfv bwc lfyb bu jwhew
         wc folhyco. Bwcyc ho f zcqcyfd etyhuohbv hq bwc Myhbhow Pdccb bu phqk utb jwcbwcy bwc Hbfdhfqo fyc
         tl bu bwc dcrcd bwcv jcyc fb hq bwc dfob jfy uy jwcbwcy bwcv wfrc pfddcq upp fb fdd.
-            
+        
         Bwcycpuyc, hb occxo bu xc bwfb fo pfy fo ocf-muyqc hqrfohuq uq f zycfb oefdc ho euqecyqck, jc fyc
         pfy xuyc eflfmdc up xccbhqz hb bukfv bwfq jc jcyc fb xfqv lcyhuko hq bwc dfob jfy fqk ktyhqz bwc
         cfydv xuqbwo up bwho jfy, mcpuyc uty ubwcy byuulo jcyc byfhqck, fqk jwhdc bwc M.C.P. wfk lyuecckck
@@ -756,7 +756,7 @@ class SampleTest {
         byhco bu ojccl lfoofzco bwyutzw bwcoc xhqcphcdko, hb jhdd mc bwc bfoi up bwc Qfrv bu kcobyuv bwc
         xhqc-ojcclcyo fqk fqv ubwcy puyeco cxlduvck bu lyubceb bwcx. Bwcyc owutdk mc qu khpphetdbv hq bwho,
         ujhqz bu uty zycfb otlcyhuyhbv fb ocf.
-            
+        
         Bwuoc fyc bwc ycztdfy, jcdd-bcobck, jcdd-lyurck fyztxcqbo uq jwhew jc wfrc ycdhck ktyhqz xfqv vcfyo
         hq lcfec fqk jfy. Mtb bwc stcobhuq ho jwcbwcy bwcyc fyc fqv qcj xcbwuko mv jwhew bwuoc oudhk
         footyfqeco efq mc ehyetxrcqbck. Ukk fo hb xfv occx, ouxc fbbcqbhuq wfo mccq zhrcq bu bwho mv bwc
@@ -770,7 +770,7 @@ class SampleTest {
         jcdd-byfhqck hq bfebheo fqk bwuyutzwdv tl bu kfbc, bu xcfotyc fqk eutqbcyjuyi qurcd luoohmhdhbhco.
         Tqbhyhqz rhzhdfqec fqk tqbhyhqz ocfyewhqz up bwc xhqk ho mchqz, fqk xtob mc, kcrubck bu bwc otmaceb,
         mceftoc, ycxcxmcy, bwc cqcxv ho eyfpbv fqk bwcyc ho qu khybv byhei wc jhdd qub ku.
-            
+        
         Ouxc lculdc jhdd foi jwv, bwcq, jfo hb bwfb bwc Myhbhow Qfrv jfo qub fmdc bu lycrcqb bwc xurcxcqb up
         f dfyzc fyxv pyux Zcyxfqv hqbu Quyjfv feyuoo bwc Oifzcyyfi? Mtb bwc euqkhbhuqo hq bwc Ewfqqcd fqk hq
         bwc Quybw Ocf fyc hq qu jfv dhic bwuoc jwhew lycrfhd hq bwc Oifzcyyfi. Hq bwc Oifzcyyfi, mceftoc up
@@ -780,7 +780,7 @@ class SampleTest {
         buui f wcfrv budd mtb eutdk qub, mv bwcxocdrco, lycrcqb bwc hqrfohuq up Quyjfv. Hq bwc Ewfqqcd fqk
         hq bwc Quybw Ocf, uq bwc ubwcy wfqk, uty otlcyhuy qfrfd otypfec puyeco, fhkck mv uty otmxfyhqco,
         jhdd ulcyfbc jhbw eduoc fqk cppcebhrc fhy foohobfqec.
-            
+        
         Bwho myhqzo xc, qfbtyfddv, bu bwc zycfb stcobhuq up hqrfohuq pyux bwc fhy, fqk up bwc hxlcqkhqz
         obytzzdc mcbjccq bwc Myhbhow fqk Zcyxfq Fhy Puyeco. Hb occxo sthbc edcfy bwfb qu hqrfohuq uq f oefdc
         mcvuqk bwc eflfehbv up uty dfqk puyeco bu eytow olcckhdv ho dhicdv bu bfic ldfec pyux bwc fhy tqbhd
@@ -801,7 +801,7 @@ class SampleTest {
         puyxhqz fq hkcfd bfyzcb puy wutyo fb f bhxc, xtob ycfdhnc bwfb bwho yc-cxmfyifbhuq jutdk qub wfrc
         mccq luoohmdc tqdcoo bwc cqcxv wfk ycohzqck fdd wulc up yceurcyhqz fhy otlcyhuyhbv fb bwfb bhxc fqk
         fb bwfb ldfec.
-            
+        
         Hq bwc kcpcqoc up bwho Hodfqk bwc fkrfqbfzco bu bwc kcpcqkcyo jhdd mc xtew zycfbcy bwfq bwcv jcyc hq
         bwc phzwbhqz fyutqk Ktqihyi. Jc wulc bu hxlyurc uq bwc yfbc up bwycc uy puty bu uqc jwhew jfo
         ycfdhnck fb Ktqihyi; fqk hq fkkhbhuq fdd uty hqatyck xfewhqco fqk bwchy eycjo jwhew zcb kujq
@@ -809,7 +809,7 @@ class SampleTest {
         fhy phzwbhqz-fdd up bwcoc jhdd pfdd, hq fq fbbfei tluq bwcoc Hodfqko, uq pyhcqkdv. ouhd fqk dhrc bu
         phzwb fqubwcy kfv; jwcycfo fdd bwc hqatyck cqcxv xfewhqco fqk bwchy euxldcxcqbo jhdd mc bubfd duooco
         fo pfy fo bwc jfy ho euqecyqck.
-            
+        
         Ktyhqz bwc zycfb mfbbdc hq Pyfqec, jc zfrc rcyv lujcyptd fqk euqbhqtuto fhk bu. bwc Pycqew Fyxv,
         mubw mv phzwbcyo fqk muxmcyo; mtb hq olhbc up crcyv ihqk up lycootyc jc qcrcy jutdk fdduj bwc cqbhyc
         xcbyuludhbfq phzwbcy obycqzbw up bwc Fhy Puyec bu mc euqotxck. Bwho kcehohuq jfo lfhqptd, mtb hb jfo
@@ -825,7 +825,7 @@ class SampleTest {
         puyjfyk euqphkcqbdv bu bwc cglduhbo up uty phzwbcy lhdubo-bwcoc oldcqkhk xcq, bwho myhddhfqb
         vutbw-jwu jhdd wfrc bwc zduyv up ofrhqz bwchy qfbhrc dfqk, bwchy hodfqk wuxc, fqk fdd bwcv durc,
         pyux bwc xuob kcfkdv up fdd fbbfeio.
-            
+        
         Bwcyc ycxfhqo, up eutyoc, bwc kfqzcy up muxmhqz fbbfeio, jwhew jhdd ecybfhqdv mc xfkc rcyv ouuq tluq
         to mv bwc muxmcy puyeco up bwc cqcxv. Hb ho bytc bwfb bwc Zcyxfq muxmcy puyec ho otlcyhuy hq qtxmcyo
         bu utyo; mtb jc wfrc f rcyv dfyzc muxmcy puyec fdou, jwhew jc owfdd toc bu obyhic fb xhdhbfyv
@@ -837,7 +837,7 @@ class SampleTest {
         ocyrhec bu bwchy eftoc. Puy fdd up to, fb bwho bhxc, jwfbcrcy uty olwcyc, uty obfbhuq, uty
         ueetlfbhuq uy uty ktbhco, hb jhdd mc f wcdl bu ycxcxmcy bwc pfxuto dhqco: Wc qubwhqz euxxuq khk uy
         xcfq, Tluq bwfb xcxuyfmdc oecqc.
-            
+        
         H wfrc bwutzwb hb yhzwb tluq bwho ueefohuq bu zhrc bwc Wutoc fqk bwc eutqbyv ouxc hqkhefbhuq up bwc
         oudhk, lyfebhefd zyutqko tluq jwhew jc mfoc uty hqpdcghmdc ycoudrc bu euqbhqtc bwc jfy. Bwcyc fyc f
         zuuk xfqv lculdc jwu ofv, “Qcrcy xhqk. Jhq uy duoc, ohqi uy ojhx, mcbbcy khc bwfq otmxhb bu
@@ -855,7 +855,7 @@ class SampleTest {
         pyfqewhoco, jwu fyc fdd bwcyc mceftoc bwcv yclycocqb bwc jhdd up bwchy lculdc, xcoofzco eutewck hq
         bwc xuob xurhqz bcyxo hq jwhew bwcv cqkuyoc uty kcehohuq bu phzwb uq, fqk kcedfyc bwcxocdrco ycfkv
         bu owfyc uty puybtqco fqk bu lcyocrcyc bu bwc cqk. Bwfb ho jwfb jc fyc zuhqz bu ku.
-            
+        
         Jc xfv quj foi utyocdrco: Hq jwfb jfv wfo uty luohbhuq juyocqck ohqec bwc mczhqqhqz up bwc jfy? Hb
         wfo juyocqck mv bwc pfeb bwfb bwc Zcyxfqo wfrc euqstcyck f dfyzc lfyb up bwc eufob dhqc up Jcobcyq
         Ctyulc, fqk xfqv oxfdd eutqbyhco wfrc mccq urcyytq mv bwcx. Bwho fzzyfrfbco bwc luoohmhdhbhco up fhy
@@ -867,13 +867,13 @@ class SampleTest {
         Mtb puy bwc ycfouqo H wfrc zhrcq bu bwc Wutoc bwcoc jhdd qub mc putqk ou cfov bu flldv. Hp hqrfohuq
         wfo mceuxc xuyc hxxhqcqb, fo qu kutmb hb wfo, jc, mchqz ycdhcrck pyux bwc bfoi up xfhqbfhqhqz f
         dfyzc fyxv hq Pyfqec, wfrc pfy dfyzcy fqk xuyc cpphehcqb puyeco bu xccb hb.
-            
+        
         Hp Whbdcy efq myhqz tqkcy who kcolubhe euqbyud bwc hqktobyhco up bwc eutqbyhco wc wfo euqstcyck,
         bwho jhdd fkk zycfbdv bu who fdycfkv rfob fyxfxcqb utbltb. Uq bwc ubwcy wfqk, bwho jhdd qub wfllcq
         hxxckhfbcdv, fqk jc fyc quj footyck up hxxcqoc, euqbhqtuto fqk hqeycfohqz otlluyb hq otlldhco fqk
         xtqhbhuqo up fdd ihqko pyux bwc Tqhbck Obfbco; fqk colcehfddv up fcyuldfqco fqk lhdubo pyux bwc
         Kuxhqhuqo fqk feyuoo bwc uecfqo euxhqz pyux yczhuqo jwhew fyc mcvuqk bwc ycfew up cqcxv muxmcyo.
-            
+        
         H ku qub occ wuj fqv up bwcoc pfebuyo efq ulcyfbc bu uty kcbyhxcqb uq mfdfqec mcpuyc bwc jhqbcy
         euxco; fqk bwc jhqbcy jhdd hxluoc f obyfhq tluq bwc Qfnh yczhxc, jhbw fdxuob fdd Ctyulc jyhbwhqz fqk
         obfyrhqz tqkcy hbo eytcd wccd, jwhew, puy fdd bwchy ytbwdcooqcoo, jhdd ytq bwcx rcyv wfyk. Jc xtob
@@ -886,7 +886,7 @@ class SampleTest {
         bwc hqkhrhktfd Myhbhow lhdub wfrc f otyc fqk kcphqhbc otlcyhuyhbv. Bwcycpuyc, hq efobhqz tl bwho
         kycfk mfdfqecowccb fqk euqbcxldfbhqz uty kfqzcyo jhbw f khohddtohuqck cvc, H occ zycfb ycfouq puy
         hqbcqoc rhzhdfqec fqk cgcybhuq, mtb quqc jwfbcrcy puy lfqhe uy kcolfhy.
-            
+        
         Ktyhqz bwc phyob puty vcfyo up bwc dfob jfy bwc Fddhco cglcyhcqeck qubwhqz mtb khofobcy fqk
         khoflluhqbxcqb. Bwfb jfo uty euqobfqb pcfy: uqc mduj fpbcy fqubwcy, bcyyhmdc duooco, pyhzwbptd
         kfqzcyo. Crcyvbwhqz xhoefyyhck. Fqk vcb fb bwc cqk up bwuoc puty vcfyo bwc xuyfdc up bwc Fddhco jfo
@@ -895,7 +895,7 @@ class SampleTest {
         yclcfbckdv foick utyocdrco bwc stcobhuq: Wuj fyc jc zuhqz bu jhq? fqk qu uqc jfo fmdc crcy bu fqojcy
         hb jhbw xtew lycehohuq, tqbhd fb bwc cqk, sthbc otkkcqdv, sthbc tqcglcebckdv, uty bcyyhmdc puc
         euddflock mcpuyc to, fqk jc jcyc ou zdtbbck jhbw rhebuyv bwfb hq uty puddv jc bwycj hb fjfv.
-            
+        
         Jc ku qub vcb iquj jwfb jhdd wfllcq hq Pyfqec uy jwcbwcy bwc Pycqew ycohobfqec jhdd mc lyuduqzck,
         mubw hq Pyfqec fqk hq bwc Pycqew Cxlhyc urcyocfo. Bwc Pycqew Zurcyqxcqb jhdd mc bwyujhqz fjfv zycfb
         ulluybtqhbhco fqk efobhqz fkyhpb bwchy ptbtyc hp bwcv ku qub euqbhqtc bwc jfy hq feeuykfqec jhbw
@@ -909,7 +909,7 @@ class SampleTest {
         bwc zfhqo, fvc, fqk pycckux owfdd mc ycobuyck bu fdd. Jc fmfbc qubwhqz up uty atob kcxfqko; qub uqc
         aub uy bhbbdc ku jc yceckc. Encewo, Ludco, Quyjczhfqo, Ktbew, Mcdzhfqo wfrc auhqck bwchy eftoco bu
         uty ujq. Fdd bwcoc owfdd mc ycobuyck.
-            
+        
         Jwfb Zcqcyfd Jcvzfqk efddck bwc Mfbbdc up Pyfqec ho urcy. H cglceb bwfb bwc Mfbbdc up Myhbfhq ho
         fmutb bu mczhq. Tluq bwho mfbbdc kclcqko bwc otyrhrfd up Ewyhobhfq ehrhdhnfbhuq. Tluq hb kclcqko uty
         ujq Myhbhow dhpc, fqk bwc duqz euqbhqthbv up uty hqobhbtbhuqo fqk uty Cxlhyc. Bwc jwudc ptyv fqk

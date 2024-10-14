@@ -1,4 +1,3 @@
-@FunctionalInterface
-public interface Action {
+interface Action {
   void execute();
 }
