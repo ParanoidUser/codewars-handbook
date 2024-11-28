@@ -5,7 +5,7 @@ mockito = "5.2.0"
 junit = "5.11.3"
 junit-launcher = "1.11.3"
 awaitility = "4.2.2"
-sonarqube = "5.1.0.4882"
+sonarqube = "6.0.1.5171"
 
 [libraries]
 commons-lang3 = { group = "org.apache.commons", name = "commons-lang3", version.ref = "commons-lang3" }
