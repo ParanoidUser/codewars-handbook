@@ -34,6 +34,7 @@
 - [Century From Year](century-from-year)
 - [Circles in Polygons](circles-in-polygons)
 - [Classic Hello World](classic-hello-world)
+- [Closest elevator](closest-elevator)
 - [Collatz Conjecture (3n+1)](collatz-conjecture-3n-plus-1)
 - [Collinearity](collinearity)
 - [Color Ghost](color-ghost)
