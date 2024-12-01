@@ -449,6 +449,7 @@
 - [Scoring Tests](scoring-tests)
 - [Scrabble Score](scrabble-score)
 - [Scrolling Text](scrolling-text)
+- [Search for letters](search-for-letters)
 - [Sectional Array Sort](sectional-array-sort)
 - [See You Next Happy Year](see-you-next-happy-year)
 - [Selective fear of numbers](selective-fear-of-numbers)
