@@ -1,6 +1,6 @@
 # [Love vs friendship](https://www.codewars.com/kata/love-vs-friendship "https://www.codewars.com/kata/59706036f6e5d1e22d000016")
 
-If　`a = 1, b = 2, c = 3 ... z = 26`
+If`a = 1, b = 2, c = 3 ... z = 26`
 
 Then `l + o + v + e = 54`
 

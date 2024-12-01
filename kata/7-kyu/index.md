@@ -312,6 +312,7 @@
 - [Longest vowel chain](longest-vowel-chain)
 - [Looking for a benefactor](looking-for-a-benefactor)
 - [Lost number in number sequence](lost-number-in-number-sequence)
+- [Love vs friendship](love-vs-friendship)
 - [Lucky number](lucky-number)
 - [Lunar Mathematics: Addition](lunar-mathematics-addition)
 # M
