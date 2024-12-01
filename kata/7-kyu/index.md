@@ -173,6 +173,7 @@
 # F
 - [Factorial](factorial)
 - [Factorial](factorial-1)
+- [Figurate Numbers #2 - Pronic Number](figurate-numbers-number-2-pronic-number)
 - [Fibonacci](fibonacci)
 - [Filter the number](filter-the-number)
 - [Find Count of Most Frequent Item in an Array](find-count-of-most-frequent-item-in-an-array)
