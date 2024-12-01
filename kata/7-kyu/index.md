@@ -381,6 +381,7 @@
 - [Ordered Count of Characters](ordered-count-of-characters)
 - [Ordering the words!](ordering-the-words)
 - [ORing arrays](oring-arrays)
+- [Orthogonal Vectors](orthogonal-vectors)
 - [Over The Road](over-the-road-1)
 - [Overflowing with joy](overflowing-with-joy)
 # P
