@@ -206,6 +206,7 @@
 - [Form The Minimum](form-the-minimum)
 - [Formatting decimal places #1](formatting-decimal-places-number-1)
 - [Four/Seven](four-slash-seven)
+- [Friend or Foe?](friend-or-foe)
 - [Friends](friends)
 - [From A to Z](from-a-to-z)
 - [Fun with lists: anyMatch + allMatch](fun-with-lists-anymatch-plus-allmatch)

@@ -12,5 +12,5 @@ Input = ["Peter", "Stephen", "Joe"]
 Output = []
 ```
 
-Input strings will only contain letters. 
+Input strings will only contain letters.
 Note: keep the original order of the names in the output.
