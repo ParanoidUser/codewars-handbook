@@ -166,6 +166,7 @@
 - [Plural](plural)
 - [Points of Reflection](points-of-reflection)
 - [Powers of 2](powers-of-2)
+- [Price of Mangoes](price-of-mangoes)
 - [Printing Array elements with Comma delimiters](printing-array-elements-with-comma-delimiters)
 - [Push a hash/an object into array](push-a-hash-slash-an-object-into-array)
 - [Pythagorean Triple](pythagorean-triple)
