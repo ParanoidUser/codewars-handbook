@@ -34,6 +34,7 @@
 - [Century From Year](century-from-year)
 - [Circles in Polygons](circles-in-polygons)
 - [Classic Hello World](classic-hello-world)
+- [Closest elevator](closest-elevator)
 - [Collatz Conjecture (3n+1)](collatz-conjecture-3n-plus-1)
 - [Collinearity](collinearity)
 - [Color Ghost](color-ghost)
@@ -91,6 +92,7 @@
 - [Function 1 - hello world](function-1-hello-world)
 - [Function 2 - squaring an argument](function-2-squaring-an-argument)
 # G
+- [Generate range of integers](generate-range-of-integers)
 - [Get character from ASCII value](get-character-from-ascii-value)
 - [Get Nth Even Number](get-nth-even-number)
 - [Get Planet Name By ID](get-planet-name-by-id)
@@ -128,6 +130,7 @@
 - [Is it a number?](is-it-a-number)
 - [Is it even?](is-it-even)
 - [Is n divisible by x and y?](is-n-divisible-by-x-and-y)
+- [Is the string uppercase?](is-the-string-uppercase)
 - [Is your period late?](is-your-period-late)
 # J
 - [Jenny's secret message](jennys-secret-message)
@@ -164,6 +167,7 @@
 - [Plural](plural)
 - [Points of Reflection](points-of-reflection)
 - [Powers of 2](powers-of-2)
+- [Price of Mangoes](price-of-mangoes)
 - [Printing Array elements with Comma delimiters](printing-array-elements-with-comma-delimiters)
 - [Push a hash/an object into array](push-a-hash-slash-an-object-into-array)
 - [Pythagorean Triple](pythagorean-triple)
