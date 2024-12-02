@@ -7,14 +7,15 @@ believes in Inca myths these days? So, Alan decides to prove to her mom that the
 How? Well, only little Alan knows that. For now, he needs a small help from you. Help him solve the
 following calculations so that he gets enough time to prove it before the eclipse starts.
 
-<img src="https://i.ibb.co/jRd3Z1K/Screenshot-3.png" alt="Screenshot-3" border="0">
+![](https://i.ibb.co/jRd3Z1K/Screenshot-3.png)
 
-Three semicircles are drawn on `$ \overline{AB}$`, `$ \overline{AD}$`, and `$ \overline{AF}$`. 
+Three semicircles are drawn on `$ \overline{AB}$`, `$ \overline{AD}$`, and `$ \overline{AF}$`.
 
 The following are true:
-* `$\ C$` is the midpoint `$\overline{AB}$`
-* `$ \overline{CD} $` is perpendicular to `$\overline{AB}$` 
-* `$ \overline{CF}$` is perpendicular to `$ \overline{AD}$` 
+
+* `C` is the midpoint `AB`
+* `CD` is perpendicular to `AB`
+* `CF` is perpendicular to `AD`
 
 ## Task
 
