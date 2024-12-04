@@ -61,6 +61,7 @@
 - [DNA to RNA Conversion](dna-to-rna-conversion)
 - [Do I get a bonus?](do-i-get-a-bonus)
 - [Double Char](double-char)
+- [Draw stairs](draw-stairs)
 - [Duck Duck Goose](duck-duck-goose)
 # E
 - [Easy logs](easy-logs)
