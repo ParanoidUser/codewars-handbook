@@ -21,6 +21,7 @@
 - [Find Email Domain](find-email-domain)
 - [Find something in an Array](find-something-in-an-array)
 - [Flip it](flip-it)
+- [Find the closest point(s)...](find-the-closest-point-s-dot-dot-dot)
 - [Formatting decimal places #2](formatting-decimal-places-number-2)
 # H
 - [Horse Racing](horse-racing)
