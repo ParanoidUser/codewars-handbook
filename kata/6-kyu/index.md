@@ -246,6 +246,7 @@
 # N
 - [New Cashier Does Not Know About Space or Shift](new-cashier-does-not-know-about-space-or-shift)
 - [No one likes carrying change](no-one-likes-carrying-change)
+- [Node Mania](node-mania)
 - [Not prime numbers](not-prime-numbers)
 - [Number Zoo Patrol](number-zoo-patrol)
 - [Numericals of a String](numericals-of-a-string)
