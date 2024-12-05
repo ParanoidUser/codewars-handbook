@@ -25,28 +25,28 @@ class SolutionTest {
 
   @ParameterizedTest
   @CsvSource(textBlock = """
-      ,
-      bread
+      -100
       -2
       0
       1
       """)
-  void invalidSlices(Object invalid) {
-    assertNull(SandwichUtils.slicesToName(invalid));
+  void invalidSlices(int slices) {
+    assertNull(SandwichUtils.slicesToName(slices));
+    assertNull(SandwichUtils.nameToSlices(slices));
   }
 
   @ParameterizedTest
   @CsvSource(textBlock = """
       ,
       ''
-      12
       bread
       sand wich
       sandwich bread sandwich
       bread sandwich invalid
       bread sandwich bread sandwich
       """)
-  void invalidNames(Object invalid) {
-    assertNull(SandwichUtils.nameToSlices(invalid));
+  void invalidNames(Object name) {
+    assertNull(SandwichUtils.slicesToName(name));
+    assertNull(SandwichUtils.nameToSlices(name));
   }
 }
