@@ -239,6 +239,7 @@
 - [Multi-tap Keypad Text Entry on an Old Mobile Phone](multi-tap-keypad-text-entry-on-an-old-mobile-phone)
 - [Multiples of 3 or 5](multiples-of-3-or-5)
 - [Multiplication table](multiplication-table)
+- [Mutual Recursion](mutual-recursion)
 - [My friend time](my-friend-time)
 # N
 - [New Cashier Does Not Know About Space or Shift](new-cashier-does-not-know-about-space-or-shift)
