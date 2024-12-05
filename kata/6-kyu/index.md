@@ -433,6 +433,7 @@
 - [Valid Braces](valid-braces)
 - [Valid Phone Number](valid-phone-number)
 - [Validate Credit Card Number](validate-credit-card-number)
+- [Vector Affinity](vector-affinity)
 - [Versions manager](versions-manager)
 - [VIN Checker](vin-checker)
 # W
