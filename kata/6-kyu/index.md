@@ -323,6 +323,7 @@
 - [Sequences and Series](sequences-and-series)
 - [SHA-256](sha-256)
 - [SHA-256 Cracker](sha-256-cracker)
+- [Shorter Path](shorter-path)
 - [Sieve of Eratosthenes](sieve-of-eratosthenes)
 - [Simple card game](simple-card-game)
 - [Simple Encryption #1 - Alternating Split](simple-encryption-number-1-alternating-split)
