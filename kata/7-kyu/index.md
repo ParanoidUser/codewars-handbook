@@ -184,6 +184,7 @@
 - [Find Screen Size](find-screen-size)
 - [Find sum of top-left to bottom-right diagonals](find-sum-of-top-left-to-bottom-right-diagonals)
 - [Find the index of the second occurrence of a letter in a string](find-the-index-of-the-second-occurrence-of-a-letter-in-a-string)
+- [Find the Missing Number](find-the-missing-number)
 - [Find the next perfect square!](find-the-next-perfect-square)
 - [Find the nth occurrence of a word in a string!](find-the-nth-occurrence-of-a-word-in-a-string)
 - [Find the smallest power higher than a given a value](find-the-smallest-power-higher-than-a-given-a-value)
