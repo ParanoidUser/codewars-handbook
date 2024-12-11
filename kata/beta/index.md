@@ -6,6 +6,7 @@
 - [Basic Arabic-To-Roman Numerals (1 to 999)](basic-arabic-to-roman-numerals-1-to-999)
 - [Beginner friendly: remove the letter o](beginner-friendly-remove-the-letter-o)
 - [Brackets Checker](brackets-checker)
+- [Build Alien Virus Estimator](build-alien-virus-estimator)
 # C
 - [CaMeLcAsInG](camelcasing)
 - [Change for pizza](change-for-pizza)
