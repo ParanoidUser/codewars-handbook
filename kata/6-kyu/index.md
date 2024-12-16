@@ -106,6 +106,7 @@
 - [Data compression using run-length encoding](data-compression-using-run-length-encoding)
 - [Data Reverse](data-reverse)
 - [Dead Ants](dead-ants)
+- [Death by Coffee](death-by-coffee)
 - [Decode the Morse code](decode-the-morse-code)
 - [Decode the woofs!](decode-the-woofs)
 - [Delete occurrences of an element if it occurs more than n times](delete-occurrences-of-an-element-if-it-occurs-more-than-n-times)
