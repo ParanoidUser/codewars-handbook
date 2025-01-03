@@ -126,6 +126,7 @@
 - [Curing Arachnophobia](curing-arachnophobia)
 - [Currying functions: multiply all elements in an array](currying-functions-multiply-all-elements-in-an-array)
 - [Cyclops numbers](cyclops-numbers)
+- [Cyrillic letters](cyrillic-letters)
 # D
 - [Day of the Year](day-of-the-year)
 - [Debug Sum of Digits of a Number](debug-sum-of-digits-of-a-number)
