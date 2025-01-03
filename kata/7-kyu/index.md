@@ -200,6 +200,7 @@
 - [FIXME: Hours to Seconds](fixme-hours-to-seconds)
 - [FIXME: Let's split this joint](fixme-lets-split-this-joint)
 - [FIXME: Run, Runner!](fixme-run-runner)
+- [Fizz Buzz](fizz-buzz)
 - [Fizz / Buzz](fizz-slash-buzz)
 - [Fizz Buzz Cuckoo Clock](fizz-buzz-cuckoo-clock)
 - [Flatten and sort an array](flatten-and-sort-an-array)
@@ -582,6 +583,7 @@
 - [Thinking & Testing: A and B?](thinking-and-testing-a-and-b)
 - [Tidy Number (Special Numbers Series #9)](tidy-number-special-numbers-series-number-9)
 - [ToLeetSpeak](toleetspeak)
+- [Treasure Hunt with Clues](treasure-hunt-with-clues)
 - [Triangle area](triangle-area)
 - [Triangles from Dots](triangles-from-dots)
 - [Triangular Treasure](triangular-treasure)
@@ -590,6 +592,7 @@
 - [TV Remote](tv-remote)
 - [Two fighters, one winner](two-fighters-one-winner)
 - [Two numbers are positive](two-numbers-are-positive)
+- [Two Oldest Ages](two-oldest-ages-1)
 - [Two to One](two-to-one)
 # U
 - [Uglify Word](uglify-word)
