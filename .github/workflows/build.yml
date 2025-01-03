@@ -68,6 +68,7 @@ jobs:
             --build-cache \
             --no-daemon \
             --scan \
+            --no-problems-report \
             -DforkCount=${{ needs.fork.outputs.job_count }} \
             -DforkSid=${{ matrix.job_sid }}
 
@@ -124,6 +125,7 @@ jobs:
             --build-cache \
             --no-daemon \
             --scan \
+            --no-problems-report \
             -Pversion=${{ format('{0}+{1}', env.VERSION, github.RUN_NUMBER) }} \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.token=${{ secrets.SONAR_TOKEN }} \
