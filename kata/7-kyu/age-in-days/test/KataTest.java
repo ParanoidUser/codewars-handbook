@@ -1,8 +1,6 @@
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.time.LocalDate;
-import java.time.Year;
 import org.junit.jupiter.api.Test;
 
 class KataTest {
@@ -11,7 +9,9 @@ class KataTest {
     var birthday = LocalDate.now();
     assertEquals("You are 2 days old", Kata.ageInDays(birthday.minusDays(2).getYear(), birthday.minusDays(2).getMonthValue(), birthday.minusDays(2).getDayOfMonth()));
 
-    String expected = String.format("You are %d days old", Year.of(birthday.getYear()).length());
-    assertEquals(expected, Kata.ageInDays(birthday.minusYears(1).getYear(), birthday.minusYears(1).getMonthValue(), birthday.minusYears(1).getDayOfMonth()));
+    var pastYear = birthday.minusYears(1);
+    boolean leapDay = birthday.getMonthValue() > 2 && birthday.isLeapYear() || birthday.getMonthValue() < 3 && pastYear.isLeapYear();
+    String expected = String.format("You are %d days old", leapDay ? 366 : 365);
+    assertEquals(expected, Kata.ageInDays(pastYear.getYear(), pastYear.getMonthValue(), pastYear.getDayOfMonth()));
   }
 }

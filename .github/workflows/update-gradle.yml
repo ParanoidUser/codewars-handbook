@@ -20,7 +20,7 @@ jobs:
       - name: Fetch wrapper version
         run: |
           URL=$(grep 'distributionUrl' "./gradle/wrapper/gradle-wrapper.properties")
-          echo "WRAPPER_VERSION=$(echo $URL | sed -n 's/.*gradle-\([0-9]*\.[0-9]*\)-\(bin\|all\)\.zip.*/\1/p')" >> $GITHUB_ENV
+          echo "WRAPPER_VERSION=$(echo $URL | sed -n 's/.*gradle-\([0-9]*\.[0-9]*\(\.[0-9]*\)*\)-\(bin\|all\)\.zip.*/\1/p')" >> $GITHUB_ENV
 
       - name: Fetch latest version
         run: |
