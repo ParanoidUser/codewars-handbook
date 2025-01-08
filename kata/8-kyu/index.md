@@ -167,6 +167,7 @@
 - [Parse nice int from char problem](parse-nice-int-from-char-problem)
 - [Pillars](pillars)
 - [Playing with cubes I](playing-with-cubes-i)
+- [Playing with cubes II](playing-with-cubes-ii)
 - [Plural](plural)
 - [Points of Reflection](points-of-reflection)
 - [Powers of 2](powers-of-2)
