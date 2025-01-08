@@ -89,6 +89,7 @@
 - [Find the smallest integer in the array](find-the-smallest-integer-in-the-array)
 - [FIXME: Replace all dots](fixme-replace-all-dots)
 - [FIXME: Static electrickery](fixme-static-electrickery)
+- [Floating point comparison](floating-point-comparison)
 - [Formatting decimal places #0](formatting-decimal-places-number-0)
 - [Fuel Calculator: Total Cost](fuel-calculator-total-cost)
 - [Function 1 - hello world](function-1-hello-world)
