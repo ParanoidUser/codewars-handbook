@@ -352,6 +352,7 @@
 - [Simple ROT13.5 cypher](simple-rot13-dot-5-cypher)
 - [Simple square numbers](simple-square-numbers)
 - [Simple string indices](simple-string-indices)
+- [Simple sum of pairs](simple-sum-of-pairs)
 - [Simple time difference](simple-time-difference)
 - [Simpson's Rule - Approximate Integration](simpsons-rule-approximate-integration)
 - [Single character palindromes](single-character-palindromes)
