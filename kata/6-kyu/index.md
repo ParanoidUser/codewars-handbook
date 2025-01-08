@@ -415,6 +415,7 @@
 - [The Walker](the-walker)
 - [Throw without throwing](throw-without-throwing)
 - [Tic-Tac-Toe-like table Generator](tic-tac-toe-like-table-generator)
+- [Time Math](time-math)
 - [Tortoise racing](tortoise-racing)
 - [Traffic Lights - one car](traffic-lights-one-car)
 - [Transform To Prime](transform-to-prime)
