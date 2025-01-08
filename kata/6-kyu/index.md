@@ -234,6 +234,7 @@
 - [Minutes to Midnight](minutes-to-midnight)
 - [Missing Alphabet](missing-alphabet)
 - [Moduli number system](moduli-number-system)
+- [Modulus 11 - Check Digit](modulus-11-check-digit)
 - [More Zeros than Ones](more-zeros-than-ones)
 - [Most Frequent Weekdays](most-frequent-weekdays)
 - [Moves in squared strings (II)](moves-in-squared-strings-ii)
