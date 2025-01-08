@@ -4,16 +4,20 @@
 
 Some numbers are more important to get right during data entry than others: a common example is product codes.
 
-To reduce the possibility of mistakes, product codes can be crafted in such a way that simple errors are detected. This is done by calculating a single-digit value based on the product number, and then appending that digit to the product number to arrive at the product code.
+To reduce the possibility of mistakes, product codes can be crafted in such a way that simple errors are detected. This is done by
+calculating a single-digit value based on the product number, and then appending that digit to the product number to arrive at the product
+code.
 
-When the product code is checked, the check digit value is stripped off and recalculated. If the supplied value does not match the recalculated value, the product code is rejected.
+When the product code is checked, the check digit value is stripped off and recalculated. If the supplied value does not match the
+recalculated value, the product code is rejected.
 
 A simple scheme for generating self-check digits, described here, is called Modulus 11 Self-Check.
 
-
 ## Calculation method
 
-Each digit in the product number is assigned a multiplication factor. The factors are assigned ***from right to left***, starting at `2` and counting up. For numbers longer than six digits, the factors restart at `2` after `7` is reached. The product of each digit and its factor is calculated, and the products summed. For example:
+Each digit in the product number is assigned a multiplication factor. The factors are assigned ***from right to left***, starting at `2` and
+counting up. For numbers longer than six digits, the factors restart at `2` after `7` is reached. The product of each digit and its factor
+is calculated, and the products summed. For example:
 
 ```
 digit : 1 6 7 7 0 3 6 2 5
@@ -30,11 +34,9 @@ Then the sum of the products is divided by the prime number `11`. The remainder 
 
 The result is the **check digit**.
 
-
 ## Your task
 
 Your task is to implement this algorithm and return the input number with the correct check digit appended.
-
 
 ## Examples
 
