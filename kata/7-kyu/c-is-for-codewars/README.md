@@ -4,32 +4,34 @@
 
 Build a string representing a capital letter C of a given size out of 'C' characters.
 
-#### Examples: 
+#### Examples:
 
-<code>generate_C(1)</code> should return this string:
+`generate_C(1)` should return this string:
 
-<code>CCCCC<br></code>
-<code>C<br></code>
-<code>C<br></code>
-<code>C<br></code>
-<code>CCCCC<br></code>
+```
+CCCCC
+C
+C
+C
+CCCCC
+```
 
-<code>generate_C(2)</code> should be
+`generate_C(2)` should be
 
-<code>CCCCCCCCCC<br></code>
-<code>CCCCCCCCCC<br></code>
-<code>CC<br></code>
-<code>CC<br></code>
-<code>CC<br></code>
-<code>CC<br></code>
-<code>CC<br></code>
-<code>CC<br></code>
-<code>CCCCCCCCCC<br></code>
-<code>CCCCCCCCCC<br></code>
+```
+CCCCCCCCCC
+CCCCCCCCCC
+CC
+CC
+CC
+CC
+CC
+CC
+CCCCCCCCCC
+CCCCCCCCCC
+```
 
-and so on. The string returned by <code>generate_C(size)</code> should have <code>5*size</code> lines, following the format above. <code>size</code> is a positive integer <code>&le; 2000.</code>
+and so on. The string returned by `generate_C(size)` should have `5*size` lines, following the format above. <code>size</code> is a positive
+integer <code>&le; 2000.</code>
 
-Note that extra spaces after the C's in any line are incorrect. And the last line should not terminate with "
-".
-
-This kata was inspired by [A for Apple](https://www.codewars.com/kata/55de3f83e92c3e521a00002a), but takes a different approach to generating letters.
+Note that extra spaces after the C's in any line are incorrect. And the last line should not terminate with "\n".

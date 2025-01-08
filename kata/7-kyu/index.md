@@ -71,6 +71,7 @@
 - [Bumps in the Road](bumps-in-the-road)
 - [Bus mastering - Who is the most prioritary?](bus-mastering-who-is-the-most-prioritary)
 # C
+- [C is for Codewars](c-is-for-codewars)
 - [C.Wars](cwars)
 - [Caffeine Script](caffeine-script)
 - [Calculate mean and concatenate string](calculate-mean-and-concatenate-string)
