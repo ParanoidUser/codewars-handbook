@@ -282,6 +282,7 @@
 - [Playing on a chessboard](playing-on-a-chessboard)
 - [Playing with digits](playing-with-digits)
 - [Playing with passphrases](playing-with-passphrases)
+- [Playing With Toy Blocks ~ Can you build a 4x4 square?](playing-with-toy-blocks-can-you-build-a-4x4-square)
 - [+1 Array](plus-1-array)
 - [Points in the circle](points-in-the-circle)
 - [Polybius square cipher - encode](polybius-square-cipher-encode)
