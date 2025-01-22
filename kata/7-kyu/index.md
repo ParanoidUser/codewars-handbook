@@ -419,6 +419,7 @@
 - [Product Of Maximums Of Array (Array Series #2)](product-of-maximums-of-array-array-series-number-2)
 - [Product of the main diagonal of a square matrix](product-of-the-main-diagonal-of-a-square-matrix)
 # Q
+- [Queue time counter](queue-time-counter)
 - [Quicksum](quicksum)
 # R
 - [Recursion 101](recursion-101)
