@@ -42,6 +42,7 @@
 - [Parenthesis validator](parenthesis-validator)
 - [Perimeter of a Rectangle](perimeter-of-a-rectangle)
 - [Phase Transitions](phase-transitions)
+- [Pizza Party #1 - How many pizzas do we need](pizza-party-number-1-how-many-pizzas-do-we-need)
 - [Primary Primes](primary-primes)
 # R
 - [Random Wallpaper](random-wallpaper)
