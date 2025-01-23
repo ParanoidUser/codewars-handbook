@@ -57,6 +57,7 @@
 - [Sum of values from 1 to n inclusive { nΣn=1 }](sum-of-values-from-1-to-n-inclusive-{-nsn-equals-1-})
 # T
 - [Tetris - rotate the block](tetris-rotate-the-block)
+- [The Circle Class](the-circle-class)
 - [The Lamp](the-lamp)
 - [The most asked question on CodeWars](the-most-asked-question-on-codewars)
 - [Time Conversion](time-conversion)
