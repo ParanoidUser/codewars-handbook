@@ -73,3 +73,5 @@
 - [Who's Next in Line?](whos-next-in-line)
 # Y
 - [Your Basic FizzBuzz kata](your-basic-fizzbuzz-kata)
+# Z
+- [Zeta Swap](zeta-swap)
