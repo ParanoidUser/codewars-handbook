@@ -4,13 +4,15 @@ on:
   push:
     tags: [ '[0-9]+.[0-9]+.[0-9]+' ]
     branches: [ main ]
+    paths-ignore:
+      - docs/**
+      - '**/*.md'
   pull_request:
     branches: [ main ]
     types: [ opened, reopened, synchronize ]
     paths:
       - .github/workflows/**
       - gradle/**
-      - kata/**
       - build.gradle.kts
       - settings.gradle.kts
       - gradle.properties
