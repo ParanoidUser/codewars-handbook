@@ -3,14 +3,12 @@ name: Build CI
 on:
   push:
     tags: [ '[0-9]+.[0-9]+.[0-9]+' ]
-    branches: [ main ]
   pull_request:
     branches: [ main ]
     types: [ opened, reopened, synchronize ]
     paths:
-      - .github/workflows/**
+      - .github/workflows/build.yml
       - gradle/**
-      - kata/**
       - build.gradle.kts
       - settings.gradle.kts
       - gradle.properties

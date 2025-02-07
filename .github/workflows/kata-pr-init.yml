@@ -1,4 +1,4 @@
-name: Train Kata
+name: Kata PR Initialization
 run-name: Kata ${{ inputs.kata }}
 
 on:
