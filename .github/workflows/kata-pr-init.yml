@@ -15,22 +15,20 @@ permissions:
 jobs:
   train-kata:
     runs-on: ubuntu-24.04
-    timeout-minutes: 1
+    timeout-minutes: 5
     steps:
       - name: Fetch metadata
-        env:
-          KATA: ${{ inputs.kata }}
         id: kata
         run: |
-          JSON=$(curl -s "https://www.codewars.com/api/v1/code-challenges/$KATA")
-          echo "json=$JSON" >> $GITHUB_OUTPUT
+          JSON=$(curl -s "https://www.codewars.com/api/v1/code-challenges/${{ inputs.kata }}")
+          echo "metadata=$JSON" >> $GITHUB_OUTPUT
 
       - name: Checkout repository
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: Create README
         env:
-          JSON: ${{ steps.kata.outputs.json }}
+          JSON: ${{ steps.kata.outputs.metadata }}
         run: |
           RANK=$(echo $JSON | jq -r '.rank.name // "beta"' | sed 's/ /-/g')
           SLUG=$(echo $JSON | jq -r '.slug')
@@ -45,10 +43,38 @@ jobs:
             echo "$DESC"
           } > "$BASEDIR/README.md"
 
+      - name: Update index
+        env:
+          JSON: ${{ steps.kata.outputs.metadata }}
+        run: |
+          rank=$(echo $JSON | jq -r '.rank.name // "beta"' | sed 's/ /-/g')
+          baseDir="./kata/$rank"
+          declare -a map=()
+          for d in "$baseDir"/*/; do
+            [[ ! -f "$d/README.md" ]] && continue
+            dirName=$(basename "$d")
+            key=$(first_char="${dirName:0:1}"; [[ "$first_char" =~ [A-Za-z] ]] && echo "${first_char^}" || echo "#")
+            title=$(sed -n '1s/^# \[\(.\)\(.*\)\](.*$/\u\1\2/p' "$d/README.md")
+            map+=("$key|- [$title]($dirName)")
+          done
+  
+          IFS=$'\n' sorted=($(printf "%s\n" "${map[@]}" | sort -f)); unset IFS
+          currentKey=""
+          {
+            for entry in "${sorted[@]}"; do
+              key="${entry%%|*}"
+              if [ "$key" != "$currentKey" ]; then
+                currentKey="$key"
+                [ "$currentKey" = "#" ] && echo "# \\#" || echo "# $currentKey"
+              fi
+              echo "${entry#*|}"
+            done
+          } > "$baseDir/index.md"
+
       - name: Commit changes
         id: git
         env:
-          JSON: ${{ steps.kata.outputs.json }}
+          JSON: ${{ steps.kata.outputs.metadata }}
         run: |
           ID=$(echo $JSON | jq -r '.id')
           BRANCH="kata/$ID"
@@ -62,7 +88,7 @@ jobs:
 
       - name: Create pull request
         env:
-          JSON: ${{ steps.kata.outputs.json }}
+          JSON: ${{ steps.kata.outputs.metadata }}
           BRANCH: ${{ steps.git.outputs.branch }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
