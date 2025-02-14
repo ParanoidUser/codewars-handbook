@@ -45,6 +45,19 @@ jobs:
             echo "$DESC"
           } > "$BASEDIR/README.md"
 
+      - name: Update index
+        env:
+          JSON: ${{ steps.kata.outputs.json }}
+        run: |
+          RANK=$(echo $JSON | jq -r '.rank.name // "beta"' | sed 's/ /-/g')
+          base_dir="./kata/$RANK"
+          for d in "$base_dir"/*/; do
+            [[ -f "$d/README.md" ]] || { echo "WARN: No README.md in $d" >&2; continue; }
+            title=$(sed -n '1s/^# \[\(.\)\(.*\)\](.*$/\1\2/p' "$d/README.md")
+            id=$(sed -n '1s/.*\/\([^"]*\)".*$/\1/p' "$d/README.md")
+            echo "- [$title]($(basename "$d") \"$id\")"
+          done > "$base_dir/index.md"
+
       - name: Commit changes
         id: git
         env:
