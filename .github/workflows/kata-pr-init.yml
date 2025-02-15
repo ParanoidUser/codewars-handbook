@@ -47,29 +47,19 @@ jobs:
         env:
           JSON: ${{ steps.kata.outputs.metadata }}
         run: |
-          rank=$(echo $JSON | jq -r '.rank.name // "beta"' | sed 's/ /-/g')
-          baseDir="./kata/$rank"
-          declare -a map=()
-          for d in "$baseDir"/*/; do
-            [[ ! -f "$d/README.md" ]] && continue
-            dirName=$(basename "$d")
-            key=$(first_char="${dirName:0:1}"; [[ "$first_char" =~ [A-Za-z] ]] && echo "${first_char^}" || echo "#")
+          base_dir="./kata/$(echo "$JSON" | jq -r '.rank.name // "beta"' | sed 's/ /-/g')"
+          section=""
+          for d in "$base_dir"/*/; do
+            [[ -f "$d/README.md" ]] || continue
+            dir=$(basename "$d")
             title=$(sed -n '1s/^# \[\(.\)\(.*\)\](.*$/\u\1\2/p' "$d/README.md")
-            map+=("$key|- [$title]($dirName)")
-          done
-  
-          IFS=$'\n' sorted=($(printf "%s\n" "${map[@]}" | sort -f)); unset IFS
-          currentKey=""
-          {
-            for entry in "${sorted[@]}"; do
-              key="${entry%%|*}"
-              if [ "$key" != "$currentKey" ]; then
-                currentKey="$key"
-                [ "$currentKey" = "#" ] && echo "# \\#" || echo "# $currentKey"
-              fi
-              echo "${entry#*|}"
-            done
-          } > "$baseDir/index.md"
+            first=$([[ $dir =~ ^[A-Za-z] ]] && echo "${dir:0:1}" | tr '[:lower:]' '[:upper:]' || echo "#")
+            if [[ $section != $first ]]; then
+              section="$first"
+              [[ $section == "#" ]] && echo "# \\#" || echo "# $section"
+            fi
+            echo "- [$title]($dir)"
+            done > "$base_dir/index.md"
 
       - name: Commit changes
         id: git
