@@ -15,7 +15,7 @@ permissions:
 jobs:
   train-kata:
     runs-on: ubuntu-24.04
-    timeout-minutes: 5
+    timeout-minutes: 1
     steps:
       - name: Fetch metadata
         id: kata
