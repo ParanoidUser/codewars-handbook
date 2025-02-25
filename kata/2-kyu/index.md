@@ -1,2 +1,1 @@
-# E
-- [Evaluate mathematical expression](evaluate-mathematical-expression)
+- [Evaluate mathematical expression](evaluate-mathematical-expression "52a78825cdfc2cfc87000005")
