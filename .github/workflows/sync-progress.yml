@@ -27,14 +27,6 @@ jobs:
         run: |
           sed -i -r "s/(completed%20kata-).*(%25-red.svg)/\1$PERCENT\2/g" ./docs/README.md
 
-      - name: Update statistics
-        run: |
-          STATS="|"
-          for rank in ./kata/*; do
-            STATS+=" $(find $rank -mindepth 1 -maxdepth 1 -not -empty -type d | wc -l) |"
-          done
-          sed -i "28s/.*/$STATS/" ./docs/README.md
-
       - name: Commit changes
         run: |
           git add -A
