@@ -346,6 +346,7 @@
 - [Some Fun with Aggregate Operations (Part 3)](some-fun-with-aggregate-operations-part-3 "5960e6cf09868d7f2f0000bc")
 - [Some Fun with Aggregate Operations (Part 4)](some-fun-with-aggregate-operations-part-4 "59623e9450091000150000d2")
 - [Sort array by sorting its smallest sub-array](sort-array-by-sorting-its-smallest-sub-array "59aac10dd0a5ff951100002a")
+- [Sort Arrays (Ignoring Case)](sort-arrays-ignoring-case "51f41fe7e8f176e70d0002b9")
 - [Sort the columns of a csv-file](sort-the-columns-of-a-csv-file "57f7f71a7b992e699400013f")
 - [Sort the odd](sort-the-odd "578aa45ee9fd15ff4600090d")
 - [Sort two arrays](sort-two-arrays "5818c52e21a33314e00000cb")
