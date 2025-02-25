@@ -1,4 +1,2 @@
-# M
-- [Make a spiral](make-a-spiral)
-# P
-- [Path Finder #3: the Alpinist](path-finder-number-3-the-alpinist)
+- [Make a spiral](make-a-spiral "534e01fbbb17187c7e0000c6")
+- [Path Finder #3: the Alpinist](path-finder-number-3-the-alpinist "576986639772456f6f00030c")
