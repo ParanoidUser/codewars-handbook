@@ -1,39 +1,26 @@
-# A
-- [Adding Big Numbers](adding-big-numbers)
-# C
-- [Catching Car Mileage Numbers](catching-car-mileage-numbers)
-- [Codewars style ranking system](codewars-style-ranking-system)
-- [Connect Four](connect-four-1)
-# D
-- [Decode the Morse code, advanced](decode-the-morse-code-advanced)
-# E
-- [Escaping The Matrix](escaping-the-matrix)
-# F
-- [Find the unknown digit](find-the-unknown-digit)
-# H
-- [Human readable duration format](human-readable-duration-format)
-# L
-- [Last digits of N^2 == N](last-digits-of-n-2-equals-equals-n)
-# M
-- [Matrix Determinant](matrix-determinant)
-- [Most frequently used words in a text](most-frequently-used-words-in-a-text)
-# N
-- [Next bigger number with the same digits](next-bigger-number-with-the-same-digits)
-# P
-- [ParseInt() reloaded](parseint-reloaded)
-- [Pyramid Slide Down](pyramid-slide-down)
-# R
-- [Range Extraction](range-extraction)
-- [Recover a secret string from random triplets](recover-a-secret-string-from-random-triplets)
-- [Roman Numerals Helper](roman-numerals-helper)
-# S
-- [Snail](snail)
-- [So Many Permutations!](so-many-permutations)
-- [Strings Mix](strings-mix)
-- [Strip Comments](strip-comments)
-- [Sum by Factors](sum-by-factors)
-- [Sum of Intervals](sum-of-intervals)
-- [Sum Strings as Numbers](sum-strings-as-numbers)
-# T
-- [The observed PIN](the-observed-pin)
-- [Twice linear](twice-linear)
+- [Adding Big Numbers](adding-big-numbers "525f4206b73515bffb000b21")
+- [Catching Car Mileage Numbers](catching-car-mileage-numbers "52c4dd683bfd3b434c000292")
+- [Codewars style ranking system](codewars-style-ranking-system "51fda2d95d6efda45e00004e")
+- [Connect Four](connect-four-1 "56882731514ec3ec3d000009")
+- [Decode the Morse code, advanced](decode-the-morse-code-advanced "54b72c16cd7f5154e9000457")
+- [Escaping The Matrix](escaping-the-matrix "5595c56aa6ca910f27000155")
+- [Find the unknown digit](find-the-unknown-digit "546d15cebed2e10334000ed9")
+- [Human readable duration format](human-readable-duration-format "52742f58faf5485cae000b9a")
+- [Last digits of N^2 == N](last-digits-of-n-2-equals-equals-n "584dee06fe9c9aef810001e8")
+- [Matrix Determinant](matrix-determinant "52a382ee44408cea2500074c")
+- [Most frequently used words in a text](most-frequently-used-words-in-a-text "51e056fe544cf36c410000fb")
+- [Next bigger number with the same digits](next-bigger-number-with-the-same-digits "55983863da40caa2c900004e")
+- [parseInt() reloaded](parseint-reloaded "525c7c5ab6aecef16e0001a5")
+- [Pyramid Slide Down](pyramid-slide-down "551f23362ff852e2ab000037")
+- [Range Extraction](range-extraction "51ba717bb08c1cd60f00002f")
+- [Recover a secret string from random triplets](recover-a-secret-string-from-random-triplets "53f40dff5f9d31b813000774")
+- [Roman Numerals Helper](roman-numerals-helper "51b66044bce5799a7f000003")
+- [Snail](snail "521c2db8ddc89b9b7a0000c1")
+- [So Many Permutations!](so-many-permutations "5254ca2719453dcc0b00027d")
+- [Strings Mix](strings-mix "5629db57620258aa9d000014")
+- [Strip Comments](strip-comments "51c8e37cee245da6b40000bd")
+- [Sum by Factors](sum-by-factors "54d496788776e49e6b00052f")
+- [Sum of Intervals](sum-of-intervals "52b7ed099cdc285c300001cd")
+- [Sum Strings as Numbers](sum-strings-as-numbers "5324945e2ece5e1f32000370")
+- [The observed PIN](the-observed-pin "5263c6999e0f40dee200059d")
+- [Twice linear](twice-linear "5672682212c8ecf83e000050")
