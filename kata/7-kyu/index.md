@@ -530,6 +530,7 @@
 - [Sum of Triangular Numbers](sum-of-triangular-numbers "580878d5d27b84b64c000b51")
 - [Sum of two lowest positive integers](sum-of-two-lowest-positive-integers "558fc85d8fd1938afb000014")
 - [Summation Triangle #1](summation-triangle-number-1 "6357825a00fba284e0189798")
+- [Summing a number's digits](summing-a-numbers-digits "52f3149496de55aded000410")
 - [Supernatural](supernatural "55c9a8cda33889d69e00008b")
 - [Survive the attack](survive-the-attack "634d0f7c562caa0016debac5")
 - [Suzuki needs help lining up his students!](suzuki-needs-help-lining-up-his-students "5701800886306a876a001031")
