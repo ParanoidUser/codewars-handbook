@@ -3,8 +3,8 @@
 [![Build pipeline](https://img.shields.io/github/actions/workflow/status/ParanoidUser/codewars-handbook/build.yml?branch=main)](https://github.com/ParanoidUser/codewars-handbook/actions/workflows/build.yml)
 [![Quality gate](https://img.shields.io/sonar/alert_status/codewars-handbook?server=https%3A%2F%2Fsonarcloud.io)](https://sonarcloud.io/dashboard?id=codewars-handbook)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/paranoiduser/codewars-handbook)
-[![Solved kata](https://img.shields.io/endpoint?url=https%3A%2F%2Fparanoiduser.github.io%2Fcodewars-handbook-badges%2Fprogress.json)](https://www.codewars.com/kata/search/java?xids=completed)
 [![Views statistics](https://img.shields.io/badge/dynamic/xml?color=success&label=views&query=//*[name()=%27text%27][3]&url=https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FParanoidUser%2Fcodewars-handbook)](https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url=https://github.com/ParanoidUser/codewars-handbook)
+[![Solved kata](https://img.shields.io/endpoint?url=https%3A%2F%2Fparanoiduser.github.io%2Fcodewars-handbook-badges%2Fprogress.json)](https://www.codewars.com/kata/search/java?xids=completed)
 
 [Codewars](https://www.codewars.com) is an online educational platform for computer programming.
 On the platform, users known as *code warriors* attempt to solve programming challenges, known as
