@@ -1,0 +1,111 @@
+name: Validate Challenges Rank
+
+on:
+  workflow_dispatch:
+    inputs:
+      index_file:
+        description: 'Relative path to index file (e.g. 8-kyu/index.md)'
+        required: true
+        default: '8-kyu/index.md'
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+      expected_rank: ${{ steps.set-matrix.outputs.expected_rank }}
+      total_lines: ${{ steps.set-matrix.outputs.total_lines }}
+      jobs_count: ${{ steps.set-matrix.outputs.jobs_count }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Compute total lines and prepare matrix
+        id: set-matrix
+        shell: bash
+        run: |
+          index_file="${{ github.event.inputs.index_file }}"
+          # Count total lines in the index file (each line corresponds to a challenge)
+          total_lines=$(wc -l < "$index_file")
+          echo "Total challenges (lines): $total_lines"
+          echo "::set-output name=total_lines::$total_lines"
+          
+          # Derive expected rank from the index file's directory name
+          expected_rank=$(dirname "$index_file" | xargs basename)
+          echo "Expected rank: $expected_rank"
+          echo "::set-output name=expected_rank::$expected_rank"
+          
+          # Determine number of parallel jobs (if fewer than 40 challenges, use total_lines; else 40)
+          max_parallel=40
+          if [ "$total_lines" -lt "$max_parallel" ]; then
+            jobs_count=$total_lines
+          else
+            jobs_count=$max_parallel
+          fi
+          echo "Using $jobs_count parallel jobs"
+          echo "::set-output name=jobs_count::$jobs_count"
+          
+          # Build a matrix as a JSON array of job indices [0, 1, ..., jobs_count-1]
+          indices=()
+          for ((i=0; i<jobs_count; i++)); do
+              indices+=("$i")
+          done
+          matrix=$(printf '%s\n' "${indices[@]}" | jq -R . | jq -s .)
+          echo "Matrix: $matrix"
+          echo "::set-output name=matrix::$matrix"
+
+      - name: Upload index file artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: index-file
+          path: ${{ github.event.inputs.index_file }}
+
+  validate-challenges:
+    needs: prepare
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: ${{ fromJson(needs.prepare.outputs.matrix) }}
+      max-parallel: 40
+    steps:
+      - name: Download index file artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: index-file
+
+      - name: Process assigned lines and validate challenges
+        shell: bash
+        run: |
+          # Retrieve outputs from prepare job
+          total_lines=${{ needs.prepare.outputs.total_lines }}
+          jobs_count=${{ needs.prepare.outputs.jobs_count }}
+          expected_rank="${{ needs.prepare.outputs.expected_rank }}"
+          job_index=${{ matrix }}
+
+          # Calculate chunk size using ceiling division
+          chunk_size=$(( (total_lines + jobs_count - 1) / jobs_count ))
+          start=$(( job_index * chunk_size + 1 ))
+          end=$(( start + chunk_size - 1 ))
+          if [ $end -gt $total_lines ]; then
+            end=$total_lines
+          fi
+          echo "Job index: $job_index processing lines $start to $end of $total_lines"
+
+          # The artifact maintains the file structure so use the same relative path
+          index_file="${{ github.event.inputs.index_file }}"
+          # Extract only the lines relevant to this job
+          lines=$(sed -n "${start},${end}p" "$index_file")
+          
+          # Process each line: extract challenge ID and validate rank
+          while IFS= read -r line; do
+            if [[ "$line" =~ \-\ \[[^]]+\]\([^)]+\ \"([^\"]+)\"\) ]]; then
+              id="${BASH_REMATCH[1]}"
+              response=$(curl -s "https://www.codewars.com/api/v1/code-challenges/${id}")
+              if [ -z "$response" ]; then
+                continue
+              fi
+              actual_rank=$(echo "$response" | jq -r '.rank.name // "beta"' | sed 's/ /-/g')
+              if [ "$actual_rank" != "$expected_rank" ]; then
+                echo "Warning: Challenge with ID ${id} has rank '${actual_rank}' but expected '${expected_rank}'. It should be moved to '${actual_rank}'." >> $GITHUB_STEP_SUMMARY
+              fi
+            fi
+          done <<< "$lines"
