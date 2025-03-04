@@ -1,0 +1,128 @@
+name: Integrity Check
+run-name: Rank '${{ inputs.rank }}' Integrity Check
+
+on:
+  workflow_dispatch:
+    inputs:
+      rank:
+        type: choice
+        description: 'Kata category'
+        default: 'beta'
+        options:
+          - 8-kyu
+          - 7-kyu
+          - 6-kyu
+          - 5-kyu
+          - 4-kyu
+          - 3-kyu
+          - 2-kyu
+          - 1-kyu
+          - beta
+          - retired
+      max_sleep:
+        description: 'Max request interval (sec)'
+        default: '10'
+      verbose:
+        description: 'Verbose mode'
+        type: boolean
+        default: 'false'
+
+jobs:
+  setup:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 1
+    outputs:
+      kata_count: ${{ steps.init.outputs.kata_count }}
+      fork_count: ${{ steps.init.outputs.fork_count }}
+      sid: ${{ steps.init.outputs.sid }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Setup parallel forks
+        id: init
+        run: |
+          kata_count=$(wc -l < "./kata/${{ github.event.inputs.rank }}/index.md")
+          echo "kata_count=$kata_count" >> $GITHUB_OUTPUT
+          fork_count=$((kata_count < 40 ? kata_count : 40))
+          echo "fork_count=$fork_count" >> $GITHUB_OUTPUT
+          echo "sid=[`seq -s , 0 $((fork_count - 1))`]" >> $GITHUB_OUTPUT
+
+      - uses: actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1 # v4.6.1
+        with:
+          name: index-file
+          path: ./kata/${{ github.event.inputs.rank }}/index.md
+          retention-days: 1
+
+  integrity-check:
+    needs: setup
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        fork_sid: ${{ fromJSON(needs.setup.outputs.sid) }}
+    steps:
+      - name: Download index file artifact
+        uses: actions/download-artifact@cc203385981b70ca67e1cc392babf9cc229d5806 # v4.1.9
+        with:
+          name: index-file
+          path: .
+
+      - name: Extract Kata IDs
+        run: |
+          kata_count=${{ needs.setup.outputs.kata_count }}
+          fork_count=${{ needs.setup.outputs.fork_count }}
+          kata_per_fork=$((kata_count / fork_count))
+          remainder=$((kata_count % fork_count))
+
+          fork_id=${{ matrix.fork_sid }}
+          batch_size=$((fork_id < remainder ? kata_per_fork + 1 : kata_per_fork))
+          batch_offset=$((fork_id < remainder ? fork_id : remainder))
+          start=$((fork_id * kata_per_fork + batch_offset + 1))
+          end=$((start + batch_size - 1))
+          sed -n "${start},${end}{=;p}" index.md | paste - - | sed -E 's/^([0-9]+)[ \t]+.* "([^"]+)"\).*/\1 \2/' > ids.txt
+
+      - name: Validate Kata rank
+        run: |
+          touch report_${{ matrix.fork_sid }}.txt
+          while IFS=' ' read -r sid kata_id; do
+            chunk=$(curl -s "https://www.codewars.com/kata/${kata_id}" | awk 'NR > 0 {print tolower(substr($0, 9650, 350))}')
+            actual=$(echo "$chunk" | grep -oP '(?<=<span>).*?(?=</span>)' | sed 's/ /-/g')
+            same=$([[ "${{ github.event.inputs.rank }}" == "$actual" || ("${{ github.event.inputs.rank }}" == "beta" && "$actual" == "draft") ]] && echo true || echo false)
+
+            if [[ "${{ github.event.inputs.verbose }}" == 'true' || "$same" == 'false' ]]; then
+              progress="[$sid / ${{ needs.setup.outputs.kata_count }}]"
+              status=$([[ "$same" == "true" ]] && echo "✅" || echo "⚠️")
+              message="$status https://www.codewars.com/kata/$kata_id ($actual)"
+              echo "$progress $message" | tee -a "report_${{ matrix.fork_sid }}.txt"
+            fi
+            sleep $((RANDOM % ${{ github.event.inputs.max_sleep }} + 1))
+          done < ids.txt
+
+      - name: Upload status report
+        uses: actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1 # v4.6.1
+        with:
+          name: report_${{ matrix.fork_sid }}
+          path: report_${{ matrix.fork_sid }}.txt
+          retention-days: 1
+
+  report:
+    needs: [integrity-check]
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Merge status reports
+        uses: actions/upload-artifact/merge@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1 # v4.6.1
+        with:
+          name: report-group
+          pattern: report_*
+          delete-merged: true
+
+      - name: Download all status reports
+        uses: actions/download-artifact@cc203385981b70ca67e1cc392babf9cc229d5806 # v4.1.9
+        with:
+          name: report-group
+          path: .
+
+      - name: Status report summary
+        run: |
+          find . -type f | xargs cat | sort -t'/' -k1.2n >> $GITHUB_STEP_SUMMARY
