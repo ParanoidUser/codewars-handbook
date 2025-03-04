@@ -1,10 +1,10 @@
 # Codewars Handbook ☕️🚀
 
-[![Views statistics +1 👀](https://img.shields.io/badge/dynamic/xml?color=success&label=views&query=//*[name()=%27text%27][3]&url=https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FParanoidUser%2Fcodewars-handbook)](https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url=https://github.com/ParanoidUser/codewars-handbook)
-[![Completed kata 👌](https://img.shields.io/badge/completed%20kata-69.3%25-red.svg)](https://www.codewars.com/kata/search/java?xids=completed)
-[![CI pipeline 🛠](https://img.shields.io/github/actions/workflow/status/ParanoidUser/codewars-handbook/build.yml?branch=main)](https://github.com/ParanoidUser/codewars-handbook/actions/workflows/build.yml)
-[![Quality gate 🔎](https://img.shields.io/sonar/alert_status/codewars-handbook?server=https%3A%2F%2Fsonarcloud.io)](https://sonarcloud.io/dashboard?id=codewars-handbook)
-[![Let's have a chat! 📞](https://img.shields.io/gitter/room/ParanoidUser/codewars-handbook?color=49c39e)](https://gitter.im/ParanoidUser/codewars-handbook)
+[![Build pipeline](https://img.shields.io/github/actions/workflow/status/ParanoidUser/codewars-handbook/build.yml?branch=main)](https://github.com/ParanoidUser/codewars-handbook/actions/workflows/build.yml)
+[![Quality gate](https://img.shields.io/sonar/alert_status/codewars-handbook?server=https%3A%2F%2Fsonarcloud.io)](https://sonarcloud.io/dashboard?id=codewars-handbook)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/paranoiduser/codewars-handbook)
+[![Solved kata](https://img.shields.io/endpoint?url=https%3A%2F%2Fparanoiduser.github.io%2Fcodewars-handbook-badges%2Fprogress.json)](https://www.codewars.com/kata/search/java?xids=completed)
+[![Views statistics](https://img.shields.io/badge/dynamic/xml?color=success&label=views&query=//*[name()=%27text%27][3]&url=https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FParanoidUser%2Fcodewars-handbook)](https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url=https://github.com/ParanoidUser/codewars-handbook)
 
 [Codewars](https://www.codewars.com) is an online educational platform for computer programming.
 On the platform, users known as *code warriors* attempt to solve programming challenges, known as
@@ -25,7 +25,7 @@ slug.
 
 | [1 kyu](/kata/1-kyu/index.md) | [2 kyu](/kata/2-kyu/index.md) | [3 kyu](/kata/3-kyu/index.md) | [4 kyu](/kata/4-kyu/index.md) | [5 kyu](/kata/5-kyu/index.md) | [6 kyu](/kata/6-kyu/index.md) | [7 kyu](/kata/7-kyu/index.md) | [8 kyu](/kata/8-kyu/index.md) | [beta](/kata/beta/index.md) | [retired](/kata/retired/index.md) |
 |:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:---------------------------:|:---------------------------------:|
-| 0 | 1 | 2 | 26 | 48 | 446 | 608 | 228 | 59 | 82 |
+| ![1 kyu](https://img.shields.io/endpoint?url=https%3A%2F%2Fparanoiduser.github.io%2Fcodewars-handbook-badges%2Fprogress-1kyu.json) | ![2 kyu](https://img.shields.io/endpoint?url=https%3A%2F%2Fparanoiduser.github.io%2Fcodewars-handbook-badges%2Fprogress-2kyu.json) | ![3 kyu](https://img.shields.io/endpoint?url=https%3A%2F%2Fparanoiduser.github.io%2Fcodewars-handbook-badges%2Fprogress-3kyu.json) | ![4 kyu](https://img.shields.io/endpoint?url=https%3A%2F%2Fparanoiduser.github.io%2Fcodewars-handbook-badges%2Fprogress-4kyu.json) | ![5 kyu](https://img.shields.io/endpoint?url=https%3A%2F%2Fparanoiduser.github.io%2Fcodewars-handbook-badges%2Fprogress-5kyu.json) | ![6 kyu](https://img.shields.io/endpoint?url=https%3A%2F%2Fparanoiduser.github.io%2Fcodewars-handbook-badges%2Fprogress-6kyu.json) | ![7 kyu](https://img.shields.io/endpoint?url=https%3A%2F%2Fparanoiduser.github.io%2Fcodewars-handbook-badges%2Fprogress-7kyu.json) | ![8 kyu](https://img.shields.io/endpoint?url=https%3A%2F%2Fparanoiduser.github.io%2Fcodewars-handbook-badges%2Fprogress-8kyu.json) | ![8 kyu](https://img.shields.io/endpoint?url=https%3A%2F%2Fparanoiduser.github.io%2Fcodewars-handbook-badges%2Fprogress-beta.json) | - |
 
 **Note:** The source code is written in Java 17 and may use language features that are incompatible
 with Java 8, 11.
