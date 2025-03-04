@@ -58,14 +58,6 @@ jobs:
             echo "- [$title]($(basename "$d") \"$id\")"
           done > "$base_dir/index.md"
 
-      - name: Update statistics
-        run: |
-          STATS="|"
-          for rank in ./kata/*; do
-            STATS+=" $(find $rank -mindepth 1 -maxdepth 1 -not -empty -type d | wc -l) |"
-          done
-          sed -i "28s/.*/$STATS/" ./docs/README.md
-
       - name: Commit changes
         id: git
         env:
