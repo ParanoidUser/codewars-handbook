@@ -38,7 +38,9 @@ jobs:
           for file in $CHANGED_FILES; do
             if [[ $file == *.java ]]; then
               PROJECT_HOME=$(echo $file | cut -d'/' -f1-3)
-              if [[ ! ",$CHANGED_PROJECTS," =~ ",$PROJECT_HOME," ]]; then
+              RANK=$(basename "$(dirname "$PROJECT_HOME")")
+              echo "$PROJECT_HOME => $RANK"
+              if [[ "$RANK" != "retired" && ! ",$CHANGED_PROJECTS," =~ ",$PROJECT_HOME," ]]; then
                 CHANGED_PROJECTS="$CHANGED_PROJECTS,$PROJECT_HOME"
                 DIRS="$DIRS,$PROJECT_HOME/**"
                 PROJECT_NAME=$(basename "$PROJECT_HOME")
