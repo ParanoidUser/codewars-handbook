@@ -57,6 +57,7 @@
 - [Bits Battle](bits-battle "58856a06760b85c4e6000055")
 - [Blood Moon](blood-moon "5cba04533e6dce000eaf6126")
 - [Blowing Birthday Candles](blowing-birthday-candles "6630da20f925eb3007c5a498")
+- [Boiled Eggs](boiled-eggs "52b5247074ea613a09000164")
 - [Breaking chocolate problem](breaking-chocolate-problem "534ea96ebb17181947000ada")
 - [Broken sequence](broken-sequence "5512e5662b34d88e44000060")
 - [Bubblesort Once](bubblesort-once "56b97b776ffcea598a0006f2")
