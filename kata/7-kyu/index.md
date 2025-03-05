@@ -415,6 +415,7 @@
 - [Regexp Basics - is it a six bit unsigned number?](regexp-basics-is-it-a-six-bit-unsigned-number "567e8dbb9b6f4da558000030")
 - [Regexp Basics - is it a vowel?](regexp-basics-is-it-a-vowel "567bed99ee3451292c000025")
 - [Regexp basics - parsing prices](regexp-basics-parsing-prices "56833b76371e86f8b6000015")
+- [Remove anchor from URL](remove-anchor-from-url "51f2b4448cadf20ed0000386")
 - [Remove consecutive duplicate words](remove-consecutive-duplicate-words "5b39e91ee7a2c103300018b3")
 - [Remove duplicate words](remove-duplicate-words "5b39e3772ae7545f650000fc")
 - [Remove the minimum](remove-the-minimum "563cf89eb4747c5fb100001b")
