@@ -18,7 +18,7 @@ jobs:
       jobs_count: ${{ steps.set-matrix.outputs.jobs_count }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Compute total lines and prepare matrix
         id: set-matrix
