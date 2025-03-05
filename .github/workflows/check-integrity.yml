@@ -55,7 +55,7 @@ jobs:
           echo "::set-output name=matrix::$matrix"
 
       - name: Upload index file artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: index-file
           path: ${{ github.event.inputs.index_file }}
