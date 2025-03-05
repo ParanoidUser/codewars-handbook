@@ -181,6 +181,7 @@
 - [Hex class](hex-class "5483366098aa442def0009af")
 - [Hidden "Cubic" numbers](hidden-cubic-numbers "55031bba8cba40ada90011c4")
 - [Highest Scoring Word](highest-scoring-word "57eb8fcdf670e99d9b000272")
+- [Horse Racing](horse-racing "5d8de9fdeeae51002600dfa4")
 - [How Many Numbers?](how-many-numbers "55d8aa568dec9fb9e200004a")
 - [How many pages in a book?](how-many-pages-in-a-book "622de76d28bf330057cd6af8")
 - [How Much?](how-much "55b4d87a3766d9873a0000d4")
