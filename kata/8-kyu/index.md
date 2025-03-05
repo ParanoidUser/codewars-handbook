@@ -215,7 +215,6 @@
 - [Unfinished Loop - Bug Fixing #1](unfinished-loop-bug-fixing-number-1 "55c28f7304e3eaebef0000da")
 - [Up and down, the string grows](up-and-down-the-string-grows "644b17b56ed5527b09057987")
 - [Volume of a Cuboid](volume-of-a-cuboid "58261acb22be6e2ed800003a")
-- [Vowel remover](vowel-remover "5547929140907378f9000039")
 - [Weird Java Array](weird-java-array "6607fc50c6494c000f1a08fc")
 - [Welcome to the City](welcome-to-the-city "5302d846be2a9189af0001e4")
 - [Welcome!](welcome "577ff15ad648a14b780000e7")
