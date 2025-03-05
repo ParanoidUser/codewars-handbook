@@ -10,7 +10,7 @@ on:
 
 jobs:
   prepare:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
       expected_rank: ${{ steps.set-matrix.outputs.expected_rank }}
@@ -18,7 +18,7 @@ jobs:
       jobs_count: ${{ steps.set-matrix.outputs.jobs_count }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: Compute total lines and prepare matrix
         id: set-matrix
@@ -62,7 +62,7 @@ jobs:
 
   validate-challenges:
     needs: prepare
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       matrix: ${{ fromJson(needs.prepare.outputs.matrix) }}
       max-parallel: 40
