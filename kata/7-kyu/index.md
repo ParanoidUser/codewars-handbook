@@ -558,6 +558,7 @@
 - [The old switcheroo](the-old-switcheroo "55d410c492e6ed767000004f")
 - [The Poet And The Pendulum](the-poet-and-the-pendulum "5bd776533a7e2720c40000e5")
 - [The Pony Express](the-pony-express "5b18e9e06aefb52e1d0001e9")
+- [The Solar System - Jumbled Planets](the-solar-system-jumbled-planets "678e32f27625ec1b6a0e5976")
 - [The Speed of Letters](the-speed-of-letters "5fc7caa854783c002196f2cb")
 - [The 'spiraling' box](the-spiraling-box "63b84f54693cb10065687ae5")
 - [The wheat/rice and chessboard problem](the-wheat-slash-rice-and-chessboard-problem "5b0d67c1cb35dfa10b0022c7")
