@@ -1,16 +1,19 @@
 # [The Solar System - Jumbled Planets](https://www.codewars.com/kata/the-solar-system-jumbled-planets "https://www.codewars.com/kata/678e32f27625ec1b6a0e5976")
 
-Oh no! The celestial bodies orbiting the sun are all jumbled up!
+Oh, no! The celestial bodies orbiting the sun are all jumbled up!
 <h2>TASK</h2>
-Given the entire Solar System in the form of a list. Return a new list which has either <code>'<'</code>, <code>'>'</code> or <code>'='</code> depending on whether the planet is smaller than the planet on its left or not. You have to start compairing from the second item, because the first has nothing on its left.
+Given the entire Solar System in the form of a list. Return a new list which has either <code>'<'</code>, <code>'>'</code>
+or <code>'='</code> depending on whether the planet is smaller than the planet on its left or not. You have to start comparing from the
+second item, because the first has nothing on its left.
 
-However, there are also asteriods in the Solar System. All asteroids are smaller than all the planets. If two asteroids are found beside each other, the leftmost one will depend on the celestial being on the left of it. The one on the right will have `'='`.
+However, there are also asteroids in the Solar System. All asteroids are smaller than all the planets. If two asteroids are found beside
+each other, the leftmost one will depend on the celestial being on the left of it. The one on the right will have `'='`.
 
 The Solar System might be empty.
 
 The celestial bodies stand in the order (size ascending):
 
- ```Asteroid < Pluto < Mercury < Mars < Venus < Earth < Neptune < Uranus < Saturn < Jupiter```
+```Asteroid < Pluto < Mercury < Mars < Venus < Earth < Neptune < Uranus < Saturn < Jupiter```
 
 <b>Important: the dwarf planet Pluto is also included in the Solar System</b>
 
