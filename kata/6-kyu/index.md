@@ -271,6 +271,7 @@
 - [+1 Array](plus-1-array "5514e5b77e6b2f38e0000ca9")
 - [Points in the circle](points-in-the-circle "5b55c49d4a317adff500015f")
 - [Polybius square cipher - encode](polybius-square-cipher-encode "542a823c909c97da4500055e")
+- [Pong! [Basics]](pong-basics "5b432bdf82417e3f39000195")
 - [Positions Average](positions-average "59f4a0acbee84576800000af")
 - [Possibilities of throwing a coin n times](possibilities-of-throwing-a-coin-n-times "5ad6266b673f2f067b000004")
 - [Prime factorization](prime-factorization "534a0c100d03ad9772000539")
