@@ -495,6 +495,7 @@
 - [Sort an array by value and index](sort-an-array-by-value-and-index "58e0cb3634a3027180000040")
 - [Sort arrays - 1](sort-arrays-1 "51f41b98e8f176e70d0002a8")
 - [Sort by binary ones](sort-by-binary-ones "59eb28fb0a2bffafbb0000d6")
+- [Sort by Last Char](sort-by-last-char "57eba158e8ca2c8aba0002a0")
 - [Sort deck of cards](sort-deck-of-cards "56f399b59821793533000683")
 - [Sort Out The Men From Boys](sort-out-the-men-from-boys-1 "5af15a37de4c7f223e00012d")
 - [Sort the Gift Code](sort-the-gift-code "52aeb2f3ad0e952f560005d3")
