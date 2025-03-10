@@ -387,6 +387,7 @@
 - [Password maker](password-maker "5637b03c6be7e01d99000046")
 - [Password System](password-system "57a23e3753ba332b8e0008da")
 - [Paul's Misery](pauls-misery "57ee31c5e77282c24d000024")
+- [Perimeter sequence](perimeter-sequence "589519d1f0902e01af000054")
 - [Perpendicular lines](perpendicular-lines-1 "6391fe3f322221003db3bad6")
 - [Pizza Payments](pizza-payments "5b043e3886d0752685000009")
 - [Plan Your Dream Wedding](plan-your-dream-wedding "66314d6b7cb7030393dddf8a")
