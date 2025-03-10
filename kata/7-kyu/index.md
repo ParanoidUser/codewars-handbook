@@ -529,6 +529,7 @@
 - [Sum of array singles](sum-of-array-singles "59f11118a5e129e591000134")
 - [Sum of Cubes](sum-of-cubes "59a8570b570190d313000037")
 - [Sum of differences between products and LCMs](sum-of-differences-between-products-and-lcms "56e56756404bb1c950000992")
+- [Sum of Minimums!](sum-of-minimums "5d5ee4c35162d9001af7d699")
 - [Sum of numbers from 0 to N](sum-of-numbers-from-0-to-n "56e9e4f516bcaa8d4f001763")
 - [Sum of Odd Cubed Numbers](sum-of-odd-cubed-numbers "580dda86c40fa6c45f00028a")
 - [Sum of odd numbers](sum-of-odd-numbers "55fd2d567d94ac3bc9000064")
