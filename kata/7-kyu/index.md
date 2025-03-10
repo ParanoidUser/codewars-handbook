@@ -163,6 +163,7 @@
 - [E.S.P.  Cards](esp-cards "596ef174e4cab6813600004d")
 - [Even numbers in an array](even-numbers-in-an-array "5a431c0de1ce0ec33a00000c")
 - [Even or Odd - Which is Greater?](even-or-odd-which-is-greater "57f7b8271e3d9283300000b4")
+- [Evens times last](evens-times-last "5a1a9e5032b8b98477000004")
 - [Excel sheet column numbers](excel-sheet-column-numbers "55ee3ebff71e82a30000006a")
 - [Excessively Abundant Numbers](excessively-abundant-numbers "56a75b91688b49ad94000015")
 - [Exclamation marks series #5: Remove all exclamation marks from the end of words](exclamation-marks-series-number-5-remove-all-exclamation-marks-from-the-end-of-words "57faf32df815ebd49e000117")
