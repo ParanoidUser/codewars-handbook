@@ -159,6 +159,7 @@
 - [Eliminate the intruders! Bit manipulation](eliminate-the-intruders-bit-manipulation "5a0d38c9697598b67a000041")
 - [Email Address Obfuscator](email-address-obfuscator "562d8d4c434582007300004e")
 - [E.S.P.  Cards](esp-cards "596ef174e4cab6813600004d")
+- [Even or Odd - Which is Greater?](even-or-odd-which-is-greater "57f7b8271e3d9283300000b4")
 - [Excel sheet column numbers](excel-sheet-column-numbers "55ee3ebff71e82a30000006a")
 - [Excessively Abundant Numbers](excessively-abundant-numbers "56a75b91688b49ad94000015")
 - [Exclamation marks series #5: Remove all exclamation marks from the end of words](exclamation-marks-series-number-5-remove-all-exclamation-marks-from-the-end-of-words "57faf32df815ebd49e000117")
