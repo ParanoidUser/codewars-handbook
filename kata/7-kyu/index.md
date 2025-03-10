@@ -236,6 +236,7 @@
 - [Harvest Festival](harvest-festival "606efc6a9409580033837dfb")
 - [Hëävÿ Mëtäl Ümläüts](heavy-metal-umlauts "57d4e99bec16701a67000033")
 - [Hello World - Without Strings](hello-world-without-strings "584c7b1e2cb5e1a727000047")
+- [Help Bob count letters and digits.](help-bob-count-letters-and-digits "5738f5ea9545204cec000155")
 - [Help Suzuki complete his chores!](help-suzuki-complete-his-chores "584dc1b7766c2bb158000226")
 - [Help Suzuki rake his garden!](help-suzuki-rake-his-garden "571c1e847beb0a8f8900153d")
 - [Help the Fruit Guy](help-the-fruit-guy "557af4c6169ac832300000ba")
