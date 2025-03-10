@@ -137,6 +137,7 @@
 - [Dice Rotation](dice-rotation "5ff2093d375dca00170057bc")
 - [Difference between two collections](difference-between-two-collections "594093784aafb857f0000122")
 - [Difference between years. (Level 1)](difference-between-years-level-1 "588f5a38ec641b411200005b")
+- [Difference Of Squares](difference-of-squares "558f9f51e85b46e9fa000025")
 - [Digital cypher vol 2](digital-cypher-vol-2 "592edfda5be407b9640000b2")
 - [Digital cypher](digital-cypher "592e830e043b99888600002d")
 - [Digitize](digitize "5417423f9e2e6c2f040002ae")
