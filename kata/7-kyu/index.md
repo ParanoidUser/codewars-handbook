@@ -179,6 +179,7 @@
 - [Find min and max](find-min-and-max "57a1ae8c7cb1f31e4e000130")
 - [Find Screen Size](find-screen-size "5bbd279c8f8bbd5ee500000f")
 - [Find sum of top-left to bottom-right diagonals](find-sum-of-top-left-to-bottom-right-diagonals "5497a3c181dd7291ce000700")
+- [Find the capitals](find-the-capitals-1 "539ee3b6757843632d00026b")
 - [Find the index of the second occurrence of a letter in a string](find-the-index-of-the-second-occurrence-of-a-letter-in-a-string "63f96036b15a210058300ca9")
 - [Find the Missing Number](find-the-missing-number "57f5e7bd60d0a0cfd900032d")
 - [Find the next perfect square!](find-the-next-perfect-square "56269eb78ad2e4ced1000013")
