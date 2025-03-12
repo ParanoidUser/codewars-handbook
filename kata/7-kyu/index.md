@@ -79,6 +79,7 @@
 - [Ch4113ng3](ch4113ng3 "59e9f404fc3c49ab24000112")
 - [Change two-dimensional array](change-two-dimensional-array "581214d54624a8232100005f")
 - [Changing letters](changing-letters "5831c204a31721e2ae000294")
+- [Char Code Calculation](char-code-calculation "57f75cc397d62fc93d000059")
 - [Character Counter](character-counter "56786a687e9a88d1cf00005d")
 - [Check contained matrix](check-contained-matrix "5a46179ce626c5ef8d000024")
 - [Check three and two](check-three-and-two "5a9e86705ee396d6be000091")
