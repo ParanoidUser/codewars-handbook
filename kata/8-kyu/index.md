@@ -56,6 +56,7 @@
 - [Do I get a bonus?](do-i-get-a-bonus "56f6ad906b88de513f000d96")
 - [Double Char](double-char "56b1f01c247c01db92000076")
 - [Draw stairs](draw-stairs "5b4e779c578c6a898e0005c5")
+- [Drink about](drink-about "56170e844da7c6f647000063")
 - [Duck Duck Goose](duck-duck-goose "582e0e592029ea10530009ce")
 - [easy logs](easy-logs "5b68c7029756802aa2000176")
 - [Enumerable Magic #1 - True for All?](enumerable-magic-number-1-true-for-all "54598d1fcbae2ae05200112c")
