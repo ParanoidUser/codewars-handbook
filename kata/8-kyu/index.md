@@ -100,6 +100,7 @@
 - [Grasshopper - Debug sayHello](grasshopper-debug-sayhello "5625618b1fe21ab49f00001f")
 - [Grasshopper - Debug](grasshopper-debug "55cb854deb36f11f130000e1")
 - [Grasshopper - Grade book](grasshopper-grade-book "55cbd4ba903825f7970000f5")
+- [Grasshopper - If/else syntax debug](grasshopper-if-slash-else-syntax-debug "57089707fe2d01529f00024a")
 - [Grasshopper - Messi goals function](grasshopper-messi-goals-function "55f73be6e12baaa5900000d4")
 - [Grasshopper - Messi Goals](grasshopper-messi-goals "55ca77fa094a2af31f00002a")
 - [Grasshopper - Personalized Message](grasshopper-personalized-message "5772da22b89313a4d50012f7")
