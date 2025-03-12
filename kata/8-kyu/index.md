@@ -5,6 +5,7 @@
 - [A Strange Trip to the Market](a-strange-trip-to-the-market "55ccdf1512938ce3ac000056")
 - [A wolf in sheep's clothing](a-wolf-in-sheeps-clothing "5c8bfa44b9d1192e1ebd3d15")
 - [Abbreviate a Two Word Name](abbreviate-a-two-word-name "57eadb7ecd143f4c9c0000a3")
+- [Add Length](add-length "559d2284b5bb6799e9000047")
 - [Age Range Compatibility Equation](age-range-compatibility-equation "5803956ddb07c5c74200144e")
 - [All Star Code Challenge #18](all-star-code-challenge-number-18 "5865918c6b569962950002a1")
 - [altERnaTIng cAsE <=> ALTerNAtiNG CaSe](alternating-case-equals-alternating-case "56efc695740d30f963000557")
