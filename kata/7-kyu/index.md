@@ -579,6 +579,7 @@
 - [The 'spiraling' box](the-spiraling-box "63b84f54693cb10065687ae5")
 - [The wheat/rice and chessboard problem](the-wheat-slash-rice-and-chessboard-problem "5b0d67c1cb35dfa10b0022c7")
 - [Thinkful - Number Drills: Congo warehouses](thinkful-number-drills-congo-warehouses "5862e7c63f8628a126000e18")
+- [Thinkful - String Drills: Quotable](thinkful-string-drills-quotable "5859c82bd41fc6207900007a")
 - [Thinking & Testing: A and B?](thinking-and-testing-a-and-b "56d904db9963e9cf5000037d")
 - [Thinking & Testing : Incomplete string](thinking-and-testing-incomplete-string "56d9292cc11bcc3629000533")
 - [Thinking & Testing : Something capitalized](thinking-and-testing-something-capitalized "56d93f249c844788bc000002")
