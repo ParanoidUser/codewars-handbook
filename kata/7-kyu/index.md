@@ -194,6 +194,7 @@
 - [Find the Squares](find-the-squares "60908bc1d5811f0025474291")
 - [Find the stray number](find-the-stray-number "57f609022f4d534f05000024")
 - [Find the sum of the roots of a quadratic equation](find-the-sum-of-the-roots-of-a-quadratic-equation "57d448c6ba30875437000138")
+- [Find the vowels](find-the-vowels "5680781b6b7c2be860000036")
 - [Find  your  caterer](find-your-caterer "6402205dca1e64004b22b8de")
 - [Finding queens on the board](finding-queens-on-the-board "64060d8ab2dd990058b7f8ee")
 - [Finding Remainder Without Using '%' Operator](finding-remainder-without-using-percent-operator "564f458b4d75e24fc9000041")
