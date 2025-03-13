@@ -33,6 +33,7 @@
 - [Approaching enemies](approaching-enemies "56d58a16e8f2d6957100093f")
 - [Are the numbers in order?](are-the-numbers-in-order "56b7f2f3f18876033f000307")
 - [Area of a Circle](area-of-a-circle "537baa6f8f4b300b5900106c")
+- [Area of an arrow](area-of-an-arrow "589478160c0f8a40870000bc")
 - [Arithmetic progression](arithmetic-progression "55caf1fd8063ddfa8e000018")
 - [Arithmetic Sequence!](arithmetic-sequence "540f8a19a7d43d24ac001018")
 - [Array element parity](array-element-parity "5a092d9e46d843b9db000064")
