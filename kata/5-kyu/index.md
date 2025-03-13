@@ -39,6 +39,7 @@
 - [Primes in numbers](primes-in-numbers "54d512e62a5e54c96200019e")
 - [Product of consecutive Fib numbers](product-of-consecutive-fib-numbers "5541f58a944b85ce6d00006a")
 - [RGB To Hex Conversion](rgb-to-hex-conversion "513e08acc600c94f01000001")
+- [Rot13](rot13-1 "530e15517bc88ac656000716")
 - [ROT13](rot13 "52223df9e8f98c7aa7000062")
 - [Scramblies](scramblies "55c04b4cc56a697bb0000048")
 - [Simple Pig Latin](simple-pig-latin "520b9d2ad5c005041100000f")
