@@ -73,6 +73,7 @@
 - [Calculate the Harmonic Conjugated Point of a Triplet of Aligned Points](calculate-the-harmonic-conjugated-point-of-a-triplet-of-aligned-points "5600e00e42bcb7b9dc00014e")
 - [Cartesian coordinates from degree angle](cartesian-coordinates-from-degree-angle "555f43d8140a6df1dd00012b")
 - [Cartesian neighbors](cartesian-neighbors "58989a079c70093f3e00008d")
+- [Cat and Mouse - Easy Version](cat-and-mouse-easy-version "57ee24e17b45eff6d6000164")
 - [Cat Years, Dog Years (2)](cat-years-dog-years-2 "5a6d3bd238f80014a2000187")
 - [Cats and shelves](cats-and-shelves "62c93765cef6f10030dfa92b")
 - [Center of the Matrix](center-of-the-matrix "54c91b5228ec4c3b5900036e")
