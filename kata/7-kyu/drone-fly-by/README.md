@@ -2,7 +2,7 @@
 
 ![](http://www.grindtv.com/wp-content/uploads/2015/08/drone.jpg)
 
-The other day I saw an amazing video where a guy hacked some wifi controlled lightbulbs by flying a drone past them. Brilliant.
+The other day I saw an amazing video where a guy hacked some Wi-Fi controlled lightbulbs by flying a drone past them. Brilliant.
 
 In this kata we will recreate that stunt... sort of.
 
