@@ -196,6 +196,7 @@
 - [Sum of differences in array](sum-of-differences-in-array "5b73fe9fb3d9776fbf00009e")
 - [Sum of Multiples](sum-of-multiples "57241e0f440cd279b5000829")
 - [Sum of positive](sum-of-positive "5715eaedb436cf5606000381")
+- [Sum The Strings](sum-the-strings "5966e33c4e686b508700002d")
 - [Sum without highest and lowest number](sum-without-highest-and-lowest-number "576b93db1129fcf2200001e6")
 - [Surface  Area and Volume of a Box](surface-area-and-volume-of-a-box "565f5825379664a26b00007c")
 - [Swap Values](swap-values "5388f0e00b24c5635e000fc6")
