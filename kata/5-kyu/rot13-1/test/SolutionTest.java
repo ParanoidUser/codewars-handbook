@@ -8,6 +8,7 @@ class SolutionTest {
   @CsvSource(textBlock = """
       test, grfg
       Test, Grfg
+      !@#$, !@#$
       """)
   void sample(String message, String expected) {
     assertEquals(expected, Kata.rot13(message));
