@@ -13,6 +13,7 @@
 - [Area of a Square](area-of-a-square "5748838ce2fab90b86001b1a")
 - [Area or Perimeter](area-or-perimeter "5ab6538b379d20ad880000ab")
 - [Array plus array](array-plus-array "5a2be17aee1aaefe2a000151")
+- [BASIC: Making Six Toast.](basic-making-six-toast "5834fec22fb0ba7d080000e8")
 - [Basic Mathematical Operations](basic-mathematical-operations "57356c55867b9b7a60000bd7")
 - [Basic subclasses - Adam and Eve](basic-subclasses-adam-and-eve "547274e24481cfc469000416")
 - [Basic variable assignment](basic-variable-assignment "50ee6b0bdeab583673000025")
