@@ -156,6 +156,7 @@
 - [Double value every next call](double-value-every-next-call "632408defa1507004aa4f2b5")
 - [Driving Licence](driving-licence "586a1af1c66d18ad81000134")
 - [Driving School Series #2](driving-school-series-number-2 "589b1c15081bcbfe6700017a")
+- [Drone Fly-By](drone-fly-by "58356a94f8358058f30004b5")
 - [Drying Potatoes](drying-potatoes "58ce8725c835848ad6000007")
 - [EAN Validation](ean-validation "55563df50dda59adf900004d")
 - [Easy Line](easy-line "56e7d40129035aed6c000632")
