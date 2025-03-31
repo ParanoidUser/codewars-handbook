@@ -363,6 +363,7 @@
 - [Name That Number!](name-that-number "579ba41ce298a73aaa000255")
 - [Nice Array](nice-array "59b844528bcb7735560000a0")
 - [Nickname Generator](nickname-generator "593b1909e68ff627c9000186")
+- [No ifs no buts](no-ifs-no-buts "592915cc1fad49252f000006")
 - [Nth power rules them all!](nth-power-rules-them-all "58aed2cafab8faca1d000e20")
 - [Nth Smallest Element (Array Series #4)](nth-smallest-element-array-series-number-4 "5a512f6a80eba857280000fc")
 - [Null](null "5dd73cd4cf95d3000194617d")
