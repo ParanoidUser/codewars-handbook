@@ -18,9 +18,9 @@ interface BattleField {
   private static boolean isValid(int[][] field, int row, int col, int axis, int size) {
     for (int r = Math.max(row - 1, 0); r <= Math.min(axis < 0 ? row + size : row + 1, 9); r++) {
       for (int c = Math.max(col - 1, 0); c <= Math.min(axis > 0 ? col + size : col + 1, 9); c++) {
-        if (field[r][c] == 1 && !(axis > 0 && col + size > c && r == row && c >= col ||
-                                  axis < 0 && row + size > r && c == col && r >= row ||
-                                  axis == 0 && r == row && c == col)) {
+        if (field[r][c] == 1 && !(r == row && c == col ||
+            axis > 0 && col + size > c && r == row && c >= col ||
+            axis < 0 && row + size > r && c == col && r >= row)) {
           return false;
         }
       }
