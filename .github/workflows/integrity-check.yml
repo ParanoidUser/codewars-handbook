@@ -48,7 +48,7 @@ jobs:
           echo "fork_count=$fork_count" >> $GITHUB_OUTPUT
           echo "sid=[`seq -s , 0 $((fork_count - 1))`]" >> $GITHUB_OUTPUT
 
-      - uses: actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1 # v4.6.1
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: index-file
           path: ./kata/${{ github.event.inputs.rank }}/index.md
@@ -63,7 +63,7 @@ jobs:
         fork_sid: ${{ fromJSON(needs.setup.outputs.sid) }}
     steps:
       - name: Download index file artifact
-        uses: actions/download-artifact@cc203385981b70ca67e1cc392babf9cc229d5806 # v4.1.9
+        uses: actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e # v4.2.1
         with:
           name: index-file
           path: .
@@ -100,7 +100,7 @@ jobs:
           done < ids.txt
 
       - name: Upload status report
-        uses: actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1 # v4.6.1
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: report_${{ matrix.fork_sid }}
           path: report_${{ matrix.fork_sid }}.txt
@@ -111,14 +111,14 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Merge status reports
-        uses: actions/upload-artifact/merge@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1 # v4.6.1
+        uses: actions/upload-artifact/merge@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: report-group
           pattern: report_*
           delete-merged: true
 
       - name: Download all status reports
-        uses: actions/download-artifact@cc203385981b70ca67e1cc392babf9cc229d5806 # v4.1.9
+        uses: actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e # v4.2.1
         with:
           name: report-group
           path: .
