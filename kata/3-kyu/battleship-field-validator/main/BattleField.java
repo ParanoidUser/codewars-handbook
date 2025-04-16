@@ -7,8 +7,8 @@ interface BattleField {
 
   private static int size(int[][] field, int row, int col) {
     int size = 1;
-    while (col < 9 && field[row][col + 1] == 1 && col + size < 10 && field[row][col + size] == 1 ||
-           row < 9 && field[row + 1][col] == 1 && row + size < 10 && field[row + size][col] == 1) {
+    while (col + size < 10 && field[row][col + 1] == 1 && field[row][col + size] == 1 ||
+           row + size < 10 && field[row + 1][col] == 1 && field[row + size][col] == 1) {
       size++;
     }
     return isValid(field, row, col, row < 9 && field[row + 1][col] == 1, size) ? (int) Math.pow(10, size - 1.) : 0;
