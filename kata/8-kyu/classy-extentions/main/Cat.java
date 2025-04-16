@@ -3,6 +3,7 @@ class Cat extends Animal {
     super(name);
   }
 
+  @Override
   public String speak() {
     return "%s meows.".formatted(this.name);
   }
