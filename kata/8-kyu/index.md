@@ -31,6 +31,7 @@
 - [Century From Year](century-from-year "5a3fe3dde1ce0e8ed6000097")
 - [Circles in Polygons](circles-in-polygons "5a026a9cffe75fbace00007f")
 - [Classic Hello World](classic-hello-world "57036f007fd72e3b77000023")
+- [Classy Extentions](classy-extentions "55a14aa4817efe41c20000bc")
 - [Closest elevator](closest-elevator "5c374b346a5d0f77af500a5a")
 - [Collatz Conjecture (3n+1)](collatz-conjecture-3n-plus-1 "577a6e90d48e51c55e000217")
 - [Collinearity](collinearity "65ba420888906c1f86e1e680")
