@@ -5,6 +5,12 @@ import org.junit.jupiter.api.Test;
 
 class SampleTest {
   @Test
+  void wildBoar() {
+    Animal animal = new Animal("Wild Boar");
+    assertEquals("Wild Boar makes a noise.", animal.speak());
+  }
+
+  @Test
   void mrWhiskers() {
     Cat cat = new Cat("Mr Whiskers");
     assertEquals("Mr Whiskers meows.", cat.speak());
