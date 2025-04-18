@@ -13,6 +13,7 @@ class FibonacciTest {
       3, 2
       4, 3
       5, 5
+      -6, -8
       """)
   void sample(BigInteger input, BigInteger expected) {
     assertEquals(expected, Fibonacci.fib(input));
