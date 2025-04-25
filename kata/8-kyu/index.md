@@ -180,6 +180,7 @@
 - [Rock Paper Scissors!](rock-paper-scissors "5672a98bdbdd995fad00000f")
 - [Sentence Smash](sentence-smash "53dc23c68a0c93699800041d")
 - [Short Long Short](short-long-short "50654ddff44f800200000007")
+- [simple calculator ](simple-calculator "5810085c533d69f4980001cf")
 - [Simple Fun #1: Seats in Theater](simple-fun-number-1-seats-in-theater "588417e576933b0ec9000045")
 - [Simple multiplication](simple-multiplication "583710ccaa6717322c000105")
 - [Simple validation of a username with regex](simple-validation-of-a-username-with-regex "56a3f08aa9a6cc9b75000023")
