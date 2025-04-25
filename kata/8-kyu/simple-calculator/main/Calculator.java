@@ -4,7 +4,7 @@ interface Calculator {
       case "+" -> a + b;
       case "-" -> a - b;
       case "*" -> a * b;
-      case "/" -> b != 0 ? a / b : 0;
+      case "/" -> a / b;
       default -> throw new IllegalArgumentException();
     };
   }
