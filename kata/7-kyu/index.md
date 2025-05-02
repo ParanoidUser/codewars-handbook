@@ -85,6 +85,7 @@
 - [Character Counter](character-counter "56786a687e9a88d1cf00005d")
 - [Check contained matrix](check-contained-matrix "5a46179ce626c5ef8d000024")
 - [Check three and two](check-three-and-two "5a9e86705ee396d6be000091")
+- [Check whether a number is valid in a given numeral system](check-whether-a-number-is-valid-in-a-given-numeral-system "67757660c552a3a7ef9aaceb")
 - [Chinese Zodiac](chinese-zodiac "57a73e697cb1f31dd70000d2")
 - [Circle cipher](circle-cipher "634d0723075de3f97a9eb604")
 - [Circular List](circular-list "5b2e60742ae7543f9d00005d")
