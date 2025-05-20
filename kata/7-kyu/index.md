@@ -440,6 +440,7 @@
 - [Replace every nth](replace-every-nth "57fcaed83206fb15fd00027a")
 - [Resistor Color Codes](resistor-color-codes "57cf3dad05c186ba22000348")
 - [Responsible Drinking](responsible-drinking "5aee86c5783bb432cd000018")
+- [Return substring instance count](return-substring-instance-count "5168b125faced29f66000005")
 - [Return the first M multiples of N](return-the-first-m-multiples-of-n "593c9175933500f33400003e")
 - [Reverse a Number](reverse-a-number "555bfd6f9f9f52680f0000c5")
 - [Reverse the bits in an integer](reverse-the-bits-in-an-integer "5959ec605595565f5c00002b")
