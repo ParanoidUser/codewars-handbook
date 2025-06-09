@@ -44,6 +44,7 @@
 - [Averages of numbers](averages-of-numbers "57d2807295497e652b000139")
 - [Balanced Number (Special Numbers Series #1) ](balanced-number-special-numbers-series-number-1 "5a4e3782880385ba68000018")
 - [Basic Calculator](basic-calculator "5296455e4fe0cdf2e000059f")
+- [Basic Math (Add or Subtract)](basic-math-add-or-subtract "5809b62808ad92e31b000031")
 - [Basic Sequence Practice](basic-sequence-practice "5436f26c4e3d6c40e5000282")
 - [Basics - Generators #1](basics-generators-number-1 "5636840bd87777688b00006c")
 - [Batman Quotes](batman-quotes "551614eb77dd9ee37100003e")
