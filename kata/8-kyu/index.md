@@ -128,6 +128,7 @@
 - [Is it even?](is-it-even "555a67db74814aa4ee0001b5")
 - [Is n divisible by x and y?](is-n-divisible-by-x-and-y "5545f109004975ea66000086")
 - [Is the string uppercase?](is-the-string-uppercase "56cd44e1aa4ac7879200010b")
+- [Is there a vowel in there?](is-there-a-vowel-in-there "57cff961eca260b71900008f")
 - [Is your period late?](is-your-period-late "578a8a01e9fd1549e50001f1")
 - [Jenny's secret message](jennys-secret-message "55225023e1be1ec8bc000390")
 - [Kata Example Twist](kata-example-twist "525c1a07bb6dda6944000031")
