@@ -308,6 +308,7 @@
 - [Row of the odd triangle](row-of-the-odd-triangle "5d5a7525207a674b71aa25b5")
 - [Salesman's Travel](salesmans-travel "56af1a20509ce5b9b000001e")
 - [Same matrix (2 * 2)](same-matrix-2-star-2 "635fc0497dadea0030cb7936")
+- [Sentence Calculator](sentence-calculator "5970fce80ed776b94000008b")
 - [Separate The Wheat From The Chaff](separate-the-wheat-from-the-chaff "5bdcd20478d24e664d00002c")
 - [Sequence convergence](sequence-convergence "59971e64bfccc70748000068")
 - [Sequences and Series](sequences-and-series "5254bd1357d59fbbe90001ec")
