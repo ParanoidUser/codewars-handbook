@@ -139,6 +139,7 @@
 - [Fibonacci Rabbits](fibonacci-rabbits "5559e4e4bbb3925164000125")
 - [Fibonacci, Tribonacci and friends](fibonacci-tribonacci-and-friends "556e0fccc392c527f20000c5")
 - [Figurate Numbers #1 - Pentagonal Number](figurate-numbers-number-1-pentagonal-number "55ab9eee6badbdaf72000075")
+- [Financing a purchase](financing-a-purchase "59c68ea2aeb2843e18000109")
 - [Financing Plan on Planet XY140Z-n](financing-plan-on-planet-xy140z-n "559ce00b70041bc7b600013d")
 - [Find last Fibonacci digit [hardcore version]](find-last-fibonacci-digit-hardcore-version "56b7771481290cc283000f28")
 - [Find Numbers with Same Amount of Divisors](find-numbers-with-same-amount-of-divisors "55f1614853ddee8bd4000014")
