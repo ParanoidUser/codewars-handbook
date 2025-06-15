@@ -4,18 +4,18 @@ updates:
     directory: /
     schedule:
       interval: daily
-    milestone: 18
+    milestone: 19
     labels:
       - "chore"
     groups:
-      spring:
+      junit:
         patterns:
-          - "org.springframework.boot:spring-boot-starter-web"
-          - "org.springframework.boot:spring-boot-starter-test"
+          - "org.junit.jupiter:junit-jupiter"
+          - "org.junit.platform:junit-platform-launcher"
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: daily
-    milestone: 18
+    milestone: 19
     labels:
       - "chore"
