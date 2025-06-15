@@ -119,6 +119,7 @@
 - [Count consonants](count-consonants "564e7fc20f0b53eb02000106")
 - [Count the Digit](count-the-digit "566fc12495810954b1000030")
 - [Count the divisors of a number](count-the-divisors-of-a-number "542c0f198e077084c0000c2e")
+- [Count the Ones](count-the-ones "5519e930cd82ff8a9a000216")
 - [Covfefe](covfefe "592fd8f752ee71ac7e00008a")
 - [Create palindrome](create-palindrome "5b7bd90ef643c4df7400015d")
 - [Credit card issuer checking](credit-card-issuer-checking "5701e43f86306a615c001868")
