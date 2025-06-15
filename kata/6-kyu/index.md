@@ -404,6 +404,7 @@
 - [The Walker](the-walker "5b40b666dfb4291ad9000049")
 - [Throw without throwing](throw-without-throwing "5943db60800cebe12000003d")
 - [Tic-Tac-Toe-like table Generator](tic-tac-toe-like-table-generator "5b817c2a0ce070ace8002be0")
+- [Ticker](ticker "5a959662373c2e761d000183")
 - [Time Math](time-math "5aceae374d9fd1266f0000f0")
 - [Tortoise racing](tortoise-racing "55e2adece53b4cdcb900006c")
 - [Traffic Lights - one car](traffic-lights-one-car "5d0ae91acac0a50232e8a547")
