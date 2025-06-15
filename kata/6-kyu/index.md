@@ -431,6 +431,7 @@
 - [VIN Checker](vin-checker "60a54750138eac0031eb98e1")
 - [Wave Sorting](wave-sorting "596f28fd9be8ebe6ec0000c1")
 - [We are the Robots d[(0)(0)]b](we-are-the-robots-d-0-0-b "587ae98e2ab0ef32ef00004c")
+- [Weird IPv6 hex string parsing](weird-ipv6-hex-string-parsing "5f5bc8a04e485f002d85b303")
 - [What century is it?](what-century-is-it "52fb87703c1351ebd200081f")
 - [What's A Name In?](whats-a-name-in "59daf400beec9780a9000045")
 - [What's Your Poison?](whats-your-poison "58c47a95e4eb57a5b9000094")
