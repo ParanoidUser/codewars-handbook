@@ -1,5 +1,3 @@
-class StrangeString {
-  static final String STRANGE_STRING = "ß";
-
-  private StrangeString() {}
+interface StrangeString {
+  String STRANGE_STRING = "ß";
 }
