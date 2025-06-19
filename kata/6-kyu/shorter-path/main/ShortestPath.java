@@ -8,9 +8,9 @@ interface ShortestPath {
     var stats = of(goal).collect(groupingBy(identity(), counting()));
     int y = (int) (stats.getOrDefault("N", 0L) - stats.getOrDefault("S", 0L));
     int x = (int) (stats.getOrDefault("E", 0L) - stats.getOrDefault("W", 0L));
-    return (
+    return x != 0 || y != 0  ? (
         "N".repeat(Math.max(0, y)) + "S".repeat(Math.max(0, -y)) +
         "E".repeat(Math.max(0, x)) + "W".repeat(Math.max(0, -x))
-    ).split("");
+    ).split("") : new String[0];
   }
 }
