@@ -1,24 +1,17 @@
 # [Adapter to java.util.List.of](https://www.codewars.com/kata/adapter-to-java-dot-util-dot-list-dot-of "https://www.codewars.com/kata/65e5ef770a978e003e36f16a")
 
-If you are a experimented java programer you should has use intensive the List.of functionality. It provides an array and use it like a List one.
+If you're an experienced Java programmer, you've likely come across `List.of`, but it often frustrates newcomers since the returned list is
+immutable and doesn’t allow adding, removing, or modifying elements. This happens because the object implements the `java.util.List`
+interface but delegates its method calls to another implementation behind the scenes, demonstrating the Adapter pattern that allows
+different interfaces
+to work together by translating method calls.
 
-Newbies get frustration because the returned List cannot be usead as usual.
+Your task is to create a method that takes an array (or varargs) and returns a `List` structure that keeps the data immutable, similar to
+how `List.of` works.
 
-In particular, the returned List has some limitation, like be a inmutable List.
+You cannot use:
+ - List.of
+ - any method named .of
+ - the new operator, except when creating Exceptions
 
-The fact that a structure is an inmutable one is that you cannot alter it adding, removing o change the elements in.
-
-The key of this anomalous behavior is that the structure actualy is an array, only the perspective of the new object is a List, but all methods barely translates into array operations.
-
-This dessign pattern is ussualy named Adapter.
-
-Your task is make a method than receives an array (or a varargs) and return a structure that asumes the List interface but internaly remains keeping an array. Like the method List.of works.
-
-Obviusly, you cannot use the next triks in your code:
-* List.of
-* .of
-* the operator new other than Exceptions
-
-Your structure must implements al methods from the List interface.
-
-You can learn more of the List.of method [here](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html#of())
+You can find more info on [List.of()](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html#of()) in the Java docs.
