@@ -1,4 +1,5 @@
 - [02. Sum of array's elements](02-sum-of-arrays-elements "58f475735e78fde4a2000011")
+- [Adapter to java.util.List.of](adapter-to-java-dot-util-dot-list-dot-of "65e5ef770a978e003e36f16a")
 - [¡Arrest the cardiac!](arrest-the-cardiac "660af4c7fe0da42cceb4af56")
 - [Average of Even Numbers in a List](average-of-even-numbers-in-a-list "685a10c62388b0a0220ac88d")
 - [Bad Collection?](bad-collection "5e36fb0ffc5a260001e65a5b")
