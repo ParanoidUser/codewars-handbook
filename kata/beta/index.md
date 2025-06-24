@@ -1,5 +1,6 @@
 - [02. Sum of array's elements](02-sum-of-arrays-elements "58f475735e78fde4a2000011")
 - [¡Arrest the cardiac!](arrest-the-cardiac "660af4c7fe0da42cceb4af56")
+- [Average of Even Numbers in a List](average-of-even-numbers-in-a-list "685a10c62388b0a0220ac88d")
 - [Bad Collection?](bad-collection "5e36fb0ffc5a260001e65a5b")
 - [Basic Arabic-To-Roman Numerals (1 to 999)](basic-arabic-to-roman-numerals-1-to-999 "5580d8dc8e4ee9ffcb000050")
 - [Beginner friendly: remove the letter o](beginner-friendly-remove-the-letter-o "58d3dd53b0fe8c9ac10000b3")
