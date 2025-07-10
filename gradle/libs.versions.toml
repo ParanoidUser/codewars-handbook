@@ -1,5 +1,5 @@
 [versions]
-commons-lang3 = "3.17.0"
+commons-lang3 = "3.18.0"
 lombok = "1.18.38"
 mockito = "5.2.0"
 junit = "5.13.3"
