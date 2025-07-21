@@ -2,8 +2,8 @@
 commons-lang3 = "3.18.0"
 lombok = "1.18.38"
 mockito = "5.2.0"
-junit = "5.13.3"
-junit-launcher = "1.13.3"
+junit = "5.13.4"
+junit-launcher = "1.13.4"
 awaitility = "4.3.0"
 sonarqube = "6.2.0.5505"
 
