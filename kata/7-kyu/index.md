@@ -320,6 +320,7 @@
 - [London CityHacker](london-cityhacker "5bce125d3bb2adff0d000245")
 - [Longest vowel chain](longest-vowel-chain "59c5f4e9d751df43cf000035")
 - [Looking for a benefactor](looking-for-a-benefactor "569b5cec755dd3534d00000f")
+- [Loop Detector](loop-detector "68851563123e161332d2a84b")
 - [Lost number in number sequence](lost-number-in-number-sequence "595aa94353e43a8746000120")
 - [Love vs friendship](love-vs-friendship "59706036f6e5d1e22d000016")
 - [lucky number](lucky-number "55afed09237df73343000042")
