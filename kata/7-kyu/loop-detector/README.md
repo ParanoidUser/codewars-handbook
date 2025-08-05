@@ -1,8 +1,7 @@
 # [Loop Detector](https://www.codewars.com/kata/loop-detector "https://www.codewars.com/kata/68851563123e161332d2a84b")
 
-# Loop Detector
-
-In this kata, you'll simulate traversing a one-way pointer chain, similar to a singly linked list. Each element in the input list represents the index of the next element to move to.
+In this kata, you'll simulate traversing a one-way pointer chain, similar to a singly linked list. Each element in the input list represents
+the index of the next element to move to.
 
 Your task is to determine whether this chain eventually enters a loop, or whether it terminates by stepping out of bounds.
 
@@ -53,10 +52,10 @@ Path: 0 -> 1 -> 0 -> 1 -> ... (cycle of two)
 
 * You must detect any kind of loop, whether it be a:
 
- LICENSE build.gradle.kts docs gradle gradle.properties gradlew gradlew.bat kata settings.gradle.kts Self-loop (e.g., ```[0]```)
+LICENSE build.gradle.kts docs gradle gradle.properties gradlew gradlew.bat kata settings.gradle.kts Self-loop (e.g., ```[0]```)
 
- LICENSE build.gradle.kts docs gradle gradle.properties gradlew gradlew.bat kata settings.gradle.kts Two-node loop (e.g., ```[1, 0]```)
+LICENSE build.gradle.kts docs gradle gradle.properties gradlew gradlew.bat kata settings.gradle.kts Two-node loop (e.g., ```[1, 0]```)
 
- LICENSE build.gradle.kts docs gradle gradle.properties gradlew gradlew.bat kata settings.gradle.kts Larger cycle (e.g., ```[1, 2, 0]```)
+LICENSE build.gradle.kts docs gradle gradle.properties gradlew gradlew.bat kata settings.gradle.kts Larger cycle (e.g., ```[1, 2, 0]```)
 
 * An index is considered out of bounds if it is greater than or equal to ```len(arr)```.
