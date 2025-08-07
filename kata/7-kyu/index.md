@@ -273,6 +273,7 @@
 - [How Many Streets?](how-many-streets "66fc9ca2e6d1d0e9cc2e4a4c")
 - [How many urinals are free?](how-many-urinals-are-free "5e2733f0e7432a000fb5ecc4")
 - [Hungarian Vowel Harmony (easy)](hungarian-vowel-harmony-easy "57fd696e26b06857eb0011e7")
+- [I before E except after C](i-before-e-except-after-c "6834f1a80e0a48c2ea3feeb0")
 - [I Will Take the Biggest One and Nothing Else](i-will-take-the-biggest-one-and-nothing-else "631082840289bf000e95a334")
 - [Incrementer](incrementer "590e03aef55cab099a0002e8")
 - [Indexed capitalization](indexed-capitalization "59cfc09a86a6fdf6df0000f1")
