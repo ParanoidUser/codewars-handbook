@@ -231,6 +231,7 @@
 - [GCD sum](gcd-sum "5dd259444228280032b1ed2a")
 - [Geometry Basics: Dot Product in 3D](geometry-basics-dot-product-in-3d "58e3ea29a33b52c1dc0000c0")
 - [Geometry Basics: Triangle Perimeter in 2D](geometry-basics-triangle-perimeter-in-2d "58e3e62f20617b6d7700120a")
+- [Get the 𝑟𝑒𝑎𝑙 length of a string](get-the-length-of-a-string "599c4b69eb8e49effa000079")
 - [Get the Middle Character](get-the-middle-character "56747fd5cb988479af000028")
 - [Ghostbusters (whitespace removal)](ghostbusters-whitespace-removal "5668e3800636a6cd6a000018")
 - [Go: Stone Scoring](go-stone-scoring "5fdb2ef8656423001c00e648")
