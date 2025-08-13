@@ -531,6 +531,7 @@
 - [Status Arrays](status-arrays "601c18c1d92283000ec86f2b")
 - [Steps](steps-1 "6473603854720900496e1c82")
 - [Stone Pickaxe Crafting](stone-pickaxe-crafting "65c0161a2380ae78052e5731")
+- [Stones on the Table](stones-on-the-table "5f70e4cce10f9e0001c8995a")
 - [Strange mathematics](strange-mathematics "604517d65b464d000d51381f")
 - [String ends with?](string-ends-with "51f2d1cafc9c0f745c00037d")
 - [String interlacing](string-interlacing "56e120ee2bb224eaa3000ba2")
