@@ -1,6 +1,6 @@
 [versions]
 commons-lang3 = "3.18.0"
-lombok = "1.18.40"
+lombok = "1.18.42"
 mockito = "5.2.0"
 junit = "5.13.4"
 junit-launcher = "1.13.4"
