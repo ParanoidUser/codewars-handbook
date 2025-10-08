@@ -116,6 +116,9 @@ jobs:
           add-job-summary-as-pr-comment: always
 
       - name: Analyze code quality
+        env:
+          SONAR_KEY: ${{ secrets.SONAR_KEY }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           ./gradlew sonar -x compileJava -x compileTestJava \
             --parallel \
@@ -126,7 +129,7 @@ jobs:
             --no-problems-report \
             -Pversion=${{ format('{0}+{1}', env.VERSION, github.RUN_NUMBER) }} \
             -Dsonar.host.url=https://sonarcloud.io \
-            -Dsonar.token=${{ secrets.SONAR_TOKEN }} \
-            -Dsonar.organization=${{ secrets.SONAR_KEY }} \
+            -Dsonar.token=$SONAR_TOKEN \
+            -Dsonar.organization=$SONAR_KEY \
             -Dsonar.qualitygate.wait=true \
             -Dsonar.gradle.skipCompile=true

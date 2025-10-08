@@ -62,6 +62,9 @@ jobs:
           add-job-summary-as-pr-comment: always
 
       - name: Analyze code quality
+        env:
+          SONAR_KEY: ${{ secrets.SONAR_KEY }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           ./gradlew ${{ steps.projects.outputs.tasks }} sonar -x processResources -x processTestResources\
             --parallel \
@@ -71,8 +74,8 @@ jobs:
             --scan \
             --no-problems-report \
             -Pversion=${{ format('{0}+{1}', env.VERSION, github.RUN_NUMBER) }} \
-            -Dsonar.token=${{ secrets.SONAR_TOKEN }} \
-            -Dsonar.organization=${{ secrets.SONAR_KEY }} \
+            -Dsonar.token=$SONAR_TOKEN \
+            -Dsonar.organization=$SONAR_KEY \
             -Dsonar.inclusions=${{ steps.projects.outputs.dirs }} \
             -Dsonar.qualitygate.wait=true \
             -Dsonar.gradle.skipCompile=true
