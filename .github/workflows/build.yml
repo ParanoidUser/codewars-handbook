@@ -56,7 +56,7 @@ jobs:
           java-version: 17
 
       - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@ed408507eac070d1f99cc633dbcf757c94c7933a # v4
+        uses: gradle/actions/setup-gradle@4d9f0ba0025fe599b4ebab900eb7f3a1d93ef4c2 # v4
 
       - name: Test project
         run: |
@@ -111,11 +111,14 @@ jobs:
           java-version: 17
 
       - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@ed408507eac070d1f99cc633dbcf757c94c7933a # v4
+        uses: gradle/actions/setup-gradle@4d9f0ba0025fe599b4ebab900eb7f3a1d93ef4c2 # v4
         with:
           add-job-summary-as-pr-comment: always
 
       - name: Analyze code quality
+        env:
+          SONAR_KEY: ${{ secrets.SONAR_KEY }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           ./gradlew sonar -x compileJava -x compileTestJava \
             --parallel \
@@ -126,7 +129,7 @@ jobs:
             --no-problems-report \
             -Pversion=${{ format('{0}+{1}', env.VERSION, github.RUN_NUMBER) }} \
             -Dsonar.host.url=https://sonarcloud.io \
-            -Dsonar.token=${{ secrets.SONAR_TOKEN }} \
-            -Dsonar.organization=${{ secrets.SONAR_KEY }} \
+            -Dsonar.token=$SONAR_TOKEN \
+            -Dsonar.organization=$SONAR_KEY \
             -Dsonar.qualitygate.wait=true \
             -Dsonar.gradle.skipCompile=true
