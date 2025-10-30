@@ -51,7 +51,7 @@ jobs:
       - name: Create pull request
         if: ${{ env.WRAPPER_UPDATED }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           if ! (( $(gh pr list --state open --head ${{ env.BRANCH }} --json number --jq length) )); then
             gh pr create --fill-first --label "chore" --head ${{ env.BRANCH }}
