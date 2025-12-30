@@ -48,7 +48,7 @@ jobs:
           echo "fork_count=$fork_count" >> $GITHUB_OUTPUT
           echo "sid=[`seq -s , 0 $((fork_count - 1))`]" >> $GITHUB_OUTPUT
 
-      - uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
         env:
           KATA_RANK: ${{ github.event.inputs.rank }}
         with:
@@ -102,7 +102,7 @@ jobs:
           done < ids.txt
 
       - name: Upload status report
-        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
         with:
           name: report_${{ matrix.fork_sid }}
           path: report_${{ matrix.fork_sid }}.txt
@@ -113,7 +113,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Merge status reports
-        uses: actions/upload-artifact/merge@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+        uses: actions/upload-artifact/merge@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
         with:
           name: report-group
           pattern: report_*
