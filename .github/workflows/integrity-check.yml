@@ -49,9 +49,11 @@ jobs:
           echo "sid=[`seq -s , 0 $((fork_count - 1))`]" >> $GITHUB_OUTPUT
 
       - uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+        env:
+          KATA_RANK: ${{ github.event.inputs.rank }}
         with:
           name: index-file
-          path: ./kata/${{ github.event.inputs.rank }}/index.md
+          path: "./kata/$KATA_RANK/index.md"
           retention-days: 1
 
   integrity-check:
