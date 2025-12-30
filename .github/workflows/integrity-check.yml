@@ -49,9 +49,11 @@ jobs:
           echo "sid=[`seq -s , 0 $((fork_count - 1))`]" >> $GITHUB_OUTPUT
 
       - uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+        env:
+          KATA_RANK: ${{ github.event.inputs.rank }}
         with:
           name: index-file
-          path: ./kata/${{ github.event.inputs.rank }}/index.md
+          path: "./kata/$KATA_RANK/index.md"
           retention-days: 1
 
   integrity-check:
@@ -63,7 +65,7 @@ jobs:
         fork_sid: ${{ fromJSON(needs.setup.outputs.sid) }}
     steps:
       - name: Download index file artifact
-        uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6.0.0
+        uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7.0.0
         with:
           name: index-file
           path: .
@@ -118,7 +120,7 @@ jobs:
           delete-merged: true
 
       - name: Download all status reports
-        uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6.0.0
+        uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7.0.0
         with:
           name: report-group
           path: .
