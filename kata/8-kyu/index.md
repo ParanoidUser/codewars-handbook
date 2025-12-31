@@ -125,6 +125,7 @@
 - [Invert values](invert-values "5899dc03bc95b1bf1b0000ad")
 - [Is he gonna survive?](is-he-gonna-survive "59ca8246d751df55cc00014c")
 - [Is it a number?](is-it-a-number "57126304cdbf63c6770012bd")
+- [Is it a palindrome?](is-it-a-palindrome "57a1fd2ce298a731b20006a4")
 - [Is it even?](is-it-even "555a67db74814aa4ee0001b5")
 - [Is n divisible by x and y?](is-n-divisible-by-x-and-y "5545f109004975ea66000086")
 - [Is the string uppercase?](is-the-string-uppercase "56cd44e1aa4ac7879200010b")
