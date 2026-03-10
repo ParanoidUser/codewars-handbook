@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   fork:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-24.04-arm
     timeout-minutes: 1
     outputs:
       job_count: ${{ steps.job.outputs.count }}
@@ -40,7 +40,7 @@ jobs:
   # ------------------------
   test:
     needs: fork
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-24.04-arm
     timeout-minutes: 8
     strategy:
       matrix:
@@ -85,7 +85,7 @@ jobs:
   # ------------------------
   scan:
     needs: test
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-24.04-arm
     timeout-minutes: 10
     permissions:
       contents: write
