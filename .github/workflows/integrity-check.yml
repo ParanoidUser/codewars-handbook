@@ -29,7 +29,7 @@ on:
 
 jobs:
   setup:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-24.04-arm
     timeout-minutes: 1
     outputs:
       kata_count: ${{ steps.init.outputs.kata_count }}
@@ -58,7 +58,7 @@ jobs:
 
   integrity-check:
     needs: setup
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-24.04-arm
     timeout-minutes: 10
     strategy:
       matrix:
@@ -109,8 +109,8 @@ jobs:
           retention-days: 1
 
   report:
-    needs: [integrity-check]
-    runs-on: ubuntu-24.04
+    needs: integrity-check
+    runs-on: ubuntu-24.04-arm
     steps:
       - name: Merge status reports
         uses: actions/upload-artifact/merge@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
