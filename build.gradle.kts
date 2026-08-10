@@ -35,7 +35,7 @@ subprojects {
         implementation(rootProject.libs.commons.lang3)
         compileOnly(rootProject.libs.lombok)
         annotationProcessor(rootProject.libs.lombok)
-        testImplementation(rootProject.libs.mockito.inline)
+        testImplementation(rootProject.libs.mockito)
         testImplementation(rootProject.libs.junit.jupiter)
         testImplementation(rootProject.libs.awaitility)
         testRuntimeOnly(rootProject.libs.junit.platform.launcher)
