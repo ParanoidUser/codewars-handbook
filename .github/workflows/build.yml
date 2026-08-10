@@ -57,6 +57,8 @@ jobs:
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@3f131e8634966bd73d06cc69884922b02e6faf92 # v4
+        with:
+          cache-provider: basic
 
       - name: Test project
         run: |
@@ -114,6 +116,7 @@ jobs:
         uses: gradle/actions/setup-gradle@3f131e8634966bd73d06cc69884922b02e6faf92 # v4
         with:
           add-job-summary-as-pr-comment: always
+          cache-provider: basic
 
       - name: Analyze code quality
         env:
