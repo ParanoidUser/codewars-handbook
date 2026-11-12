@@ -48,7 +48,7 @@ jobs:
           echo "fork_count=$fork_count" >> $GITHUB_OUTPUT
           echo "sid=[`seq -s , 0 $((fork_count - 1))`]" >> $GITHUB_OUTPUT
 
-      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         env:
           KATA_RANK: ${{ github.event.inputs.rank }}
         with:
@@ -102,7 +102,7 @@ jobs:
           done < ids.txt
 
       - name: Upload status report
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: report_${{ matrix.fork_sid }}
           path: report_${{ matrix.fork_sid }}.txt
